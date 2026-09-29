@@ -56,8 +56,9 @@ def main() -> None:
         locators.extend(f"[external source]({url})" for url in entry.get("public_urls", []))
         ceiling = entry["claim_ceiling"].replace("|", "\\|")
         title = record["title"].replace("|", "\\|")
+        anchored_id = f'<a id="{record["id"]}"></a>`{record["id"]}`'
         lines.append(
-            f"| `{record['id']}` | {locator['paper_number']}, PDF p. {locator['pdf_page']} | "
+            f"| {anchored_id} | {locator['paper_number']}, PDF p. {locator['pdf_page']} | "
             f"{title} | `{entry['status']}` | "
             f"{'<br>'.join(locators)} | {ceiling} |"
         )

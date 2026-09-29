@@ -46,8 +46,8 @@
     },
     {
       "path": "THEOREM_EVIDENCE_INDEX_v1.0.md",
-      "sha256": "7c0e2b4ba8927ba9b9baccf561a5ad27bf5a578861d4e7bdf2ff2863114779d6",
-      "size_bytes": 28128
+      "sha256": "bcf0cf1a30726fe13914203297d7c6b26ec1d87b81bcdb0371e3efece40e4e63",
+      "size_bytes": 29401
     },
     {
       "path": "VERIFICATION_SCOPE.md",
@@ -101,8 +101,8 @@
     },
     {
       "path": "scripts/render_theorem_evidence_index.py",
-      "sha256": "5bcee0da00bd0c946239e2ae515eab7ecf68bd0a9111b0114accd79a99065d83",
-      "size_bytes": 3618
+      "sha256": "bf71e3f7547252d5cb5aa9d22a8d11a9a8e7453aaa0d74f955cbf3036daa5bc5",
+      "size_bytes": 3684
     },
     {
       "path": "scripts/verify_evidence_integrity.py",
@@ -156,8 +156,8 @@
     },
     {
       "path": "theorems/paper_locator_v1.json",
-      "sha256": "9e8297eb7ba1fb5b7b3fe0d1c855ee56ee8a3bf0549ef8a243235271d3d1b899",
-      "size_bytes": 4137
+      "sha256": "75447f22c58a8902b9e46ed4e3f07b2fe4f8251148c0f647455b3165d64afce2",
+      "size_bytes": 4138
     },
     {
       "path": "theorems/theorem_evidence_v1.json",
