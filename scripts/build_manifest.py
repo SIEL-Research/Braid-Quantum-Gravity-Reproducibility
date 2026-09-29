@@ -37,6 +37,7 @@ FILES = [
     "src/bqg_v1/source.py",
     "tests/test_source.py",
     "theorems/analytic_proofs_v1.md",
+    "theorems/paper_locator_v1.json",
     "theorems/theorem_evidence_v1.json",
     "theorems/theorem_inventory_v1.json"
 ]

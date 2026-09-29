@@ -21,7 +21,11 @@ def main() -> None:
     ledger = json.loads(
         (ROOT / "theorems/theorem_evidence_v1.json").read_text(encoding="utf-8")
     )
+    locators = json.loads(
+        (ROOT / "theorems/paper_locator_v1.json").read_text(encoding="utf-8")
+    )
     evidence = {entry["id"]: entry for entry in ledger["entries"]}
+    paper_locator = {entry["id"]: entry for entry in locators["entries"]}
 
     lines = [
         "# v1.0 Theorem Evidence Index",
@@ -38,18 +42,23 @@ def main() -> None:
         "`python3 scripts/verify_vendored_packages.py` for the canonical vendored",
         "verifiers and public adapters; supporting inputs are hash-bound separately.",
         "",
-        "| ID | Statement | Evidence class | Evidence | Claim ceiling |",
-        "|---|---|---|---|---|",
+        "The paper locator gives the printed theorem, proposition or corollary",
+        "number and the physical PDF page in the fixed v1 manuscript.",
+        "",
+        "| ID | Paper locator | Statement | Evidence class | Evidence | Claim ceiling |",
+        "|---|---|---|---|---|---|",
     ]
 
     for record in inventory["records"]:
         entry = evidence[record["id"]]
+        locator = paper_locator[record["id"]]
         locators = [link(path) for path in entry.get("evidence_paths", [])]
         locators.extend(f"[external source]({url})" for url in entry.get("public_urls", []))
         ceiling = entry["claim_ceiling"].replace("|", "\\|")
         title = record["title"].replace("|", "\\|")
         lines.append(
-            f"| `{record['id']}` | {title} | `{entry['status']}` | "
+            f"| `{record['id']}` | {locator['paper_number']}, PDF p. {locator['pdf_page']} | "
+            f"{title} | `{entry['status']}` | "
             f"{'<br>'.join(locators)} | {ceiling} |"
         )
 

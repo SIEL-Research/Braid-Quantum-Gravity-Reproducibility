@@ -41,13 +41,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "1710d4d5d4de8cf28c1093a9e1df779f096a77336d5422ebf7b792b7b3e8915b",
-      "size_bytes": 4443
+      "sha256": "dc84b0082f8d46d67661dc0ffc396d3bfa025d2461690d2f046221228dc24bc6",
+      "size_bytes": 5186
     },
     {
       "path": "THEOREM_EVIDENCE_INDEX_v1.0.md",
-      "sha256": "818f1bee0c9683e5d5b8f230dda35c3166263ffae37deac58bf68d426cbccc76",
-      "size_bytes": 26624
+      "sha256": "7c0e2b4ba8927ba9b9baccf561a5ad27bf5a578861d4e7bdf2ff2863114779d6",
+      "size_bytes": 28128
     },
     {
       "path": "VERIFICATION_SCOPE.md",
@@ -91,8 +91,8 @@
     },
     {
       "path": "scripts/build_manifest.py",
-      "sha256": "b2a33e71323640c1723fbe1db4a322d6f089cb77bea518c7bbb9048f9fd928c1",
-      "size_bytes": 2753
+      "sha256": "24201450233d9f297be86041a3c50acc1d5e86e5be682a94a219d2f7f01028d5",
+      "size_bytes": 2791
     },
     {
       "path": "scripts/extract_theorem_inventory.py",
@@ -101,8 +101,8 @@
     },
     {
       "path": "scripts/render_theorem_evidence_index.py",
-      "sha256": "ff8d2aeeee44bc78b9ea0344dda64c198f2c8aaa912d0b7eb096e4abb99bf9c9",
-      "size_bytes": 3128
+      "sha256": "5bcee0da00bd0c946239e2ae515eab7ecf68bd0a9111b0114accd79a99065d83",
+      "size_bytes": 3618
     },
     {
       "path": "scripts/verify_evidence_integrity.py",
@@ -121,8 +121,8 @@
     },
     {
       "path": "scripts/verify_theorem_coverage_v1.py",
-      "sha256": "79f60eb396b3d2cc5077ffa75d943fb0a65ec9e6ad571d2a5a2523ab139023f6",
-      "size_bytes": 4968
+      "sha256": "c90a33dc98e5e36123030dffbc50b2193853db39a5c499566de25b44ceaea3e2",
+      "size_bytes": 6021
     },
     {
       "path": "scripts/verify_version_cleanliness.py",
@@ -153,6 +153,11 @@
       "path": "theorems/analytic_proofs_v1.md",
       "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397",
       "size_bytes": 11477
+    },
+    {
+      "path": "theorems/paper_locator_v1.json",
+      "sha256": "9e8297eb7ba1fb5b7b3fe0d1c855ee56ee8a3bf0549ef8a243235271d3d1b899",
+      "size_bytes": 4137
     },
     {
       "path": "theorems/theorem_evidence_v1.json",

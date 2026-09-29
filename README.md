@@ -36,6 +36,20 @@ have received independent third-party replication.
 The gate definition, counts and reproduction boundary are recorded in
 [`EVIDENCE_REACHABILITY_AUDIT_v1.0.md`](EVIDENCE_REACHABILITY_AUDIT_v1.0.md).
 
+## Finding a statement in the paper
+
+The `V100-*` identifiers are stable evidence-ledger identifiers, not the
+printed numbering in the manuscript. Use the **Paper locator** column in
+[`THEOREM_EVIDENCE_INDEX_v1.0.md`](THEOREM_EVIDENCE_INDEX_v1.0.md) to move in
+either direction between an evidence ID and the printed theorem, proposition
+or corollary number. The same mapping, including the physical PDF page, is
+available as [`theorems/paper_locator_v1.json`](theorems/paper_locator_v1.json).
+
+For example, `V100-THE-07` is `Theorem 6.2` on PDF page 6. The numbers differ
+because definitions, source laws and scope conditions share the manuscript's
+section-level theorem counter, while the evidence IDs count each statement
+kind separately.
+
 ## Canonical-source executable scope
 
 The package reconstructs all eight signed `25 x 25` Braid representatives from

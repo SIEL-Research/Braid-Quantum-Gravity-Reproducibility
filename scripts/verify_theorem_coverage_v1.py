@@ -32,9 +32,14 @@ def main() -> None:
     ledger = json.loads(
         (ROOT / "theorems/theorem_evidence_v1.json").read_text(encoding="utf-8")
     )
+    locators = json.loads(
+        (ROOT / "theorems/paper_locator_v1.json").read_text(encoding="utf-8")
+    )
     expected = {record["id"] for record in inventory["records"]}
     entries = ledger["entries"]
     actual = {entry["id"] for entry in entries}
+    locator_entries = locators["entries"]
+    locator_ids = {entry["id"] for entry in locator_entries}
     failures: list[dict] = []
 
     if inventory["counts"]["total"] != 53:
@@ -55,6 +60,22 @@ def main() -> None:
                 "extra": sorted(actual - expected),
             }
         )
+    if len(locator_ids) != len(locator_entries):
+        failures.append({"error": "duplicate_paper_locator_id"})
+    if expected != locator_ids:
+        failures.append(
+            {
+                "error": "paper_locator_inventory_mismatch",
+                "missing": sorted(expected - locator_ids),
+                "extra": sorted(locator_ids - expected),
+            }
+        )
+    paper_numbers = [entry.get("paper_number") for entry in locator_entries]
+    if len(set(paper_numbers)) != len(paper_numbers):
+        failures.append({"error": "duplicate_paper_number"})
+    for locator in locator_entries:
+        if not locator.get("paper_number") or not isinstance(locator.get("pdf_page"), int):
+            failures.append({"id": locator.get("id"), "error": "invalid_paper_locator"})
 
     proof_text = (ROOT / "theorems/analytic_proofs_v1.md").read_text(encoding="utf-8")
 
@@ -109,6 +130,7 @@ def main() -> None:
     result = {
         "status": "PASS" if not failures else "FAIL",
         "inventory_total": len(expected),
+        "paper_locators": len(locator_ids),
         "closed_entries": sum(entry.get("status") in ALLOWED for entry in entries),
         "public_code": sum(entry.get("status") == "PUBLIC_CODE" for entry in entries),
         "public_proof": sum(entry.get("status") == "PUBLIC_PROOF" for entry in entries),
