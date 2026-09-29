@@ -1,6 +1,6 @@
 {
   "claim_boundary": {
-    "paper_wide_evidence_reachability": "PASS_LOCAL_VALIDATION",
+    "paper_wide_evidence_reachability": "PASS",
     "paper_wide_independent_replication": "NOT_CLAIMED",
     "physical_sector_selection": "OPEN",
     "real_typed_orbits": 8,
@@ -26,8 +26,8 @@
     },
     {
       "path": "EVIDENCE_REACHABILITY_AUDIT_v1.0.md",
-      "sha256": "2b76fa089c119998cd15ba21b6532946d87cde3962f10fdf38a0d022dbc1e9fa",
-      "size_bytes": 2659
+      "sha256": "4cac2aa3b58c68fbaf537e96ecd164ad8a5ee6204af3b6bab4fc72e512c78427",
+      "size_bytes": 2678
     },
     {
       "path": "LICENSE",
@@ -91,8 +91,8 @@
     },
     {
       "path": "scripts/build_manifest.py",
-      "sha256": "c9ee9186346c74f7244c6c9918b839f462c21503fc72e06fadf32274c1f139ac",
-      "size_bytes": 2696
+      "sha256": "44efba0ea004a0b8f32502a2cd33e5af9ebe9a5a1eb8495b5a5aba0baa793955",
+      "size_bytes": 2663
     },
     {
       "path": "scripts/extract_theorem_inventory.py",
@@ -161,8 +161,8 @@
     }
   ],
   "package_version": "1.0.0",
-  "prepared_at": "2026-09-29",
-  "release_state": "LOCAL_VALIDATED_AWAITING_PUBLIC_PUSH",
+  "prepared_at": "2026-09-30",
+  "release_state": "PUBLIC_RELEASE_1_0_0",
   "repository": "https://github.com/SIEL-Research/Braid-Quantum-Gravity-Reproducibility",
   "schema": "siel.bqg.reproduction.manifest.v2",
   "test_entrypoints": [

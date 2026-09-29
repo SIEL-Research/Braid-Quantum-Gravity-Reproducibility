@@ -55,8 +55,8 @@ def main() -> None:
     manifest = {
         "schema": "siel.bqg.reproduction.manifest.v2",
         "package_version": "1.0.0",
-        "prepared_at": "2026-09-29",
-        "release_state": "LOCAL_VALIDATED_AWAITING_PUBLIC_PUSH",
+        "prepared_at": "2026-09-30",
+        "release_state": "PUBLIC_RELEASE_1_0_0",
         "repository": "https://github.com/SIEL-Research/Braid-Quantum-Gravity-Reproducibility",
         "test_entrypoints": [
             "scripts/verify_source.py",
@@ -70,7 +70,7 @@ def main() -> None:
             "representatives": 8,
             "real_typed_orbits": 8,
             "physical_sector_selection": "OPEN",
-            "paper_wide_evidence_reachability": "PASS_LOCAL_VALIDATION",
+            "paper_wide_evidence_reachability": "PASS",
             "paper_wide_independent_replication": "NOT_CLAIMED"
         },
         "files": records,

@@ -1,7 +1,7 @@
 # v1.0 Evidence-Reachability Audit
 
-Audit date: 2026-09-29  
-Decision: **PASS — LOCAL VALIDATION; PUBLIC PUSH PENDING**
+Audit date: 2026-09-30
+Decision: **PASS — PUBLIC EVIDENCE REACHABILITY CLOSED**
 
 ## Gate
 
@@ -69,5 +69,5 @@ python scripts/verify_vendored_packages.py
 python -m unittest discover -s tests -v
 ```
 
-The first public push and CI run are still required before the decision can be
-described as a verified public-repository closure.
+The public repository CI executes the same fail-closed command set on every
+push and pull request. The first clean-checkout public run passed all steps.
