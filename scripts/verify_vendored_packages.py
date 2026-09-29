@@ -8,9 +8,14 @@ from fractions import Fraction
 import hashlib
 import importlib.util
 import json
+import os
 from pathlib import Path
+import shutil
 import subprocess
 import sys
+import tempfile
+
+sys.dont_write_bytecode = True
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -229,21 +234,30 @@ def run_standard_verifiers() -> int:
         }
     )
     failures = []
-    for script in scripts:
-        completed = subprocess.run(
-            [sys.executable, str(script)],
-            cwd=ROOT,
-            text=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
+    with tempfile.TemporaryDirectory(prefix="bqg-public-verifiers-") as temporary:
+        sandbox = Path(temporary) / "repository"
+        shutil.copytree(
+            ROOT,
+            sandbox,
+            ignore=shutil.ignore_patterns(".git", "__pycache__", "*.pyc", ".DS_Store"),
         )
-        if completed.returncode:
-            failures.append(
-                {
-                    "path": script.relative_to(ROOT).as_posix(),
-                    "stderr": completed.stderr[-1000:],
-                }
+        for script in scripts:
+            relative = script.relative_to(ROOT)
+            completed = subprocess.run(
+                [sys.executable, str(sandbox / relative)],
+                cwd=sandbox,
+                text=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                env={**os.environ, "PYTHONDONTWRITEBYTECODE": "1"},
             )
+            if completed.returncode:
+                failures.append(
+                    {
+                        "path": relative.as_posix(),
+                        "stderr": completed.stderr[-1000:],
+                    }
+                )
     assert not failures, json.dumps(failures, indent=2)
     return len(scripts)
 

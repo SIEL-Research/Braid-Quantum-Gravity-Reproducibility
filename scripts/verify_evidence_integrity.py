@@ -27,7 +27,14 @@ def evidence_record(relative: str) -> dict:
             "sha256": file_digest(path),
         }
 
-    files = sorted(item for item in path.rglob("*") if item.is_file())
+    files = sorted(
+        item
+        for item in path.rglob("*")
+        if item.is_file()
+        and "__pycache__" not in item.parts
+        and item.suffix != ".pyc"
+        and item.name != ".DS_Store"
+    )
     tree = hashlib.sha256()
     total = 0
     for item in files:

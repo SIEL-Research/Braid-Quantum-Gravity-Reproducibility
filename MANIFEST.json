@@ -66,7 +66,7 @@
     },
     {
       "path": "evidence/evidence_integrity_v1.json",
-      "sha256": "6a818892b0f9828ad933796d983b52de4278a909d36e92c9ddaa89788f452ee6",
+      "sha256": "d43781a672ef69d418cda932acdcede60122ec9a8f530c78778f01293e28bfb6",
       "size_bytes": 25489
     },
     {
@@ -106,8 +106,8 @@
     },
     {
       "path": "scripts/verify_evidence_integrity.py",
-      "sha256": "64a079c00aca5b0f8f4fb2f6850b53b6646b6e2368214ff05f6b4820b948eabc",
-      "size_bytes": 3002
+      "sha256": "bb60704ecd450d5ed13bfe8b760f366d41a16727e6976012b80d9fd1b6c6cfac",
+      "size_bytes": 3147
     },
     {
       "path": "scripts/verify_manifest.py",
@@ -126,8 +126,8 @@
     },
     {
       "path": "scripts/verify_vendored_packages.py",
-      "sha256": "e373b1aa04998eff7334ba0cf912dc06467d86d4dffd368f330fdb385f8454c1",
-      "size_bytes": 14684
+      "sha256": "3d86392b0a9935406fb5ec3cf69fcb9ff89adeeb6c319b5587619bdd67c8d562",
+      "size_bytes": 15225
     },
     {
       "path": "src/bqg_v099/__init__.py",

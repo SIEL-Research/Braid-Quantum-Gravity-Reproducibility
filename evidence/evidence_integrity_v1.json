@@ -17,11 +17,11 @@
       "size_bytes": 45054
     },
     {
-      "file_count": 11,
+      "file_count": 10,
       "kind": "directory",
       "path": "evidence/packages/sra/SRA_DPA_BGCE138_SOURCE_CYLINDER_DIAGONAL_LOCALIZATION_AND_MINIMAL_SMOOTH_CARTAN_COMPLETION_GATE_20260919",
-      "sha256_tree": "861c831656751b52120cdc03ed0bbf6158b2bfcc8b6aa75ad4f59df2828e9dc4",
-      "size_bytes": 74656
+      "sha256_tree": "a1cacdb7c9057ec823d034e5fe4f92968fa75a5a8b18ead244f21ae4a8804dd1",
+      "size_bytes": 49819
     },
     {
       "file_count": 9,
@@ -185,18 +185,18 @@
       "size_bytes": 1515881
     },
     {
-      "file_count": 6,
+      "file_count": 5,
       "kind": "directory",
       "path": "evidence/packages/sra/SRA_DPA_BGCE444_TEN_METRIC_SOURCE_TO_THIRTY_FIVE_QUARTIC_SECOND_RESPONSE_GATE_20260925",
-      "sha256_tree": "8fecfcb729f7a9e64e194b6ae52625c3fa3d72b2d00f1d82d28a31f4a63fb886",
-      "size_bytes": 31389
+      "sha256_tree": "28813aacab300900ab38834fa5c1337ec03f510d580082e625ba9f6b5e414a51",
+      "size_bytes": 17529
     },
     {
-      "file_count": 6,
+      "file_count": 5,
       "kind": "directory",
       "path": "evidence/packages/sra/SRA_DPA_BGCE445_AF_QUASILOCAL_CPTP_ALL_SCALE_COMPLETION_GATE_20260925",
-      "sha256_tree": "690011a2fcc76eac77d7a085e828fddf001a0fb30c6e3f7d0ba4d79ad3ba96eb",
-      "size_bytes": 20085
+      "sha256_tree": "a117a86ece61aef6136637207b9e19cdbfafa6d40a850e08b696c494abd8097f",
+      "size_bytes": 13391
     },
     {
       "file_count": 5,
@@ -206,11 +206,11 @@
       "size_bytes": 17982
     },
     {
-      "file_count": 6,
+      "file_count": 5,
       "kind": "directory",
       "path": "evidence/packages/sra/SRA_DPA_BGCE448_ACTUAL_UB612_U4_JETS_TO_SOURCE_CYLINDER_FIFTY_FIVE_COLUMN_HESSIAN_GATE_20260925",
-      "sha256_tree": "f63d13e431b32a28ad2bba1837f34d8ad3aa2b004220cbfce934a9416d9f2442",
-      "size_bytes": 31776
+      "sha256_tree": "d619650f660a1fe45a3acc599d582669d4c2f244ca3ecc2cf40e7a7d6dc78f37",
+      "size_bytes": 16509
     },
     {
       "file_count": 5,
@@ -496,7 +496,7 @@
       "file_count": 14,
       "kind": "directory",
       "path": "evidence/packages/sra/SRA_DPA_BQGSTRAT009_RAW_COVARIANT_TEMPORAL_AUXILIARY_EQUIVALENCE_20260929",
-      "sha256_tree": "ca19644b0fc3388ec3c5bd85d44628bc8801b80bcf87258448405d41bb7346e3",
+      "sha256_tree": "55bf4c9008bcf1f74d281b5ea49c386005c68d224c1a911a09dfe6f37feb4029",
       "size_bytes": 23757
     },
     {
@@ -514,25 +514,25 @@
       "size_bytes": 34666
     },
     {
-      "file_count": 9,
+      "file_count": 8,
       "kind": "directory",
       "path": "evidence/packages/sra/SRA_DPA_BQGSTRAT011_SOURCE_REVERSE_SHEET_PALATINI_COMPLETION_GATE_20260929",
-      "sha256_tree": "31ea687761091118d7a01d9d829d155a3cc8378932c301f7411d348dedeb09c9",
-      "size_bytes": 32444
+      "sha256_tree": "b17aae4742a33ab84a2054ed39a08eb628f884e1827c2be1d4fe435093a4c2a8",
+      "size_bytes": 23395
     },
     {
-      "file_count": 12,
+      "file_count": 10,
       "kind": "directory",
       "path": "evidence/packages/sra/SRA_DPA_BQGSTRAT012_SOURCE_DAGGER_CHIRAL_DOUBLE_COVER_GATE_20260929",
-      "sha256_tree": "ac65858cc0adf503aa9ee50f4fc12c2b872072ef9fbd4bc7d2f5ac31889ae0cb",
-      "size_bytes": 35862
+      "sha256_tree": "3f3ce87fa907956b60aee62cbc43680d2ce77d1b4400e397cf085f347c5f96c1",
+      "size_bytes": 23097
     },
     {
-      "file_count": 12,
+      "file_count": 10,
       "kind": "directory",
       "path": "evidence/packages/sra/SRA_DPA_BQGSTRAT013_SOURCE_PERFECT_BFV_SCHUR_COMPLEMENT_GATE_20260929",
-      "sha256_tree": "14862d7181a8043ed60432a08b7b9183efcf75fab9337f49925cae9fd5d7ed99",
-      "size_bytes": 45377
+      "sha256_tree": "af640d5a031be3582577c91c647c5237d385b68873b964a964ff89cf62439115",
+      "size_bytes": 27786
     },
     {
       "file_count": 5,
