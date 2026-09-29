@@ -41,8 +41,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "a9b53a3787f70b62e4ba3e22af2602f1625fee00e00feff1789b76d65ab17191",
-      "size_bytes": 4398
+      "sha256": "1710d4d5d4de8cf28c1093a9e1df779f096a77336d5422ebf7b792b7b3e8915b",
+      "size_bytes": 4443
     },
     {
       "path": "THEOREM_EVIDENCE_INDEX_v1.0.md",
@@ -81,8 +81,8 @@
     },
     {
       "path": "pyproject.toml",
-      "sha256": "caec078d64242f03670a0e6ab4e024019861c18745da828146d9d3e184094b8d",
-      "size_bytes": 598
+      "sha256": "e67fda281ca979e335dc45aca16e6b62d26f6f6773313dd1b42389df7494aa4a",
+      "size_bytes": 488
     },
     {
       "path": "requirements.txt",

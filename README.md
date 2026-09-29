@@ -11,8 +11,9 @@ The paper and the reproduction package have different roles:
 - this repository stores machine-readable inputs, executable checks, expected
   outputs and tests.
 
-The manuscript series is maintained in the separate
-[Subjectivity-Intersection Mathematics preprint directory](https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/docs/preprint).
+The archival manuscript of record will be linked here by its Zenodo DOI when
+the v1 deposit is published. The development repository is not the citation
+target for the paper.
 
 ## Evidence reachability
 
@@ -104,8 +105,9 @@ premise of the mathematics.
 
 ## Citation
 
-Cite the v1.0 preprint and this repository. A versioned archival DOI should be
-added when the first public release is archived.
+Cite the v1.0 preprint through its Zenodo DOI of record and cite this repository
+for the executable evidence package. The manuscript DOI will be inserted here
+as soon as the v1 Zenodo deposit is published.
 
 ## Scientific status
 
