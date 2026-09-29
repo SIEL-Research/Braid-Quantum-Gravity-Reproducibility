@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the v0.99 preprint and this reproduction package."
+title: "Subjectivity-Intersection Braid Quantum Gravity v0.99: Reproduction Package"
+type: software
+authors:
+  - family-names: Watanabe
+    given-names: Satoru
+version: 0.99
+date-released: 2026-09-29
+repository-code: "https://github.com/SIEL-Research/Braid-Quantum-Gravity-Reproducibility"
+license: Apache-2.0
