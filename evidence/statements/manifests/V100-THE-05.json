@@ -1,0 +1,26 @@
+{
+  "claim_ceiling": "Positive horizontal lift and flatness on the declared ten-dimensional metric-response family.",
+  "dependencies": [],
+  "id": "V100-THE-05",
+  "paper_number": "Theorem 5.2",
+  "pdf_page": 5,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE287_SOURCE_EVENT_PATH_BKM_HORIZONTAL_CONDUCTANCE_LIFT_GATE_20260923",
+      "sha256_tree": "3e5b70532cb2957439b3b43323bb2f7eede139cf7c0d0deae8ffdd8ed9d9d5ae"
+    },
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE292_BKM_HORIZONTAL_CONNECTION_CURVATURE_AND_LOCAL_PATH_INDEPENDENCE_GATE_20260923",
+      "sha256_tree": "2c5fa6f6a58369e6598da6b1572bcc33b1d934e7852bac1739a8b473fbd8e7af"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

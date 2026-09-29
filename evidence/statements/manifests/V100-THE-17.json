@@ -1,0 +1,26 @@
+{
+  "claim_ceiling": "All 124 nonzero C5^3 momenta and local constant-rank curved branch; zero mode and rank loss excluded.",
+  "dependencies": [],
+  "id": "V100-THE-17",
+  "paper_number": "Theorem 9.4",
+  "pdf_page": 8,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 9,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGADM014_SOURCE_TT_PHYSICAL_PROJECTOR_20260929",
+      "sha256_tree": "2a76dc268fc37d22cacfdf5485b8740b18ff936fb7237856b32fdd310879cf34"
+    },
+    {
+      "file_count": 9,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGADM015_MOVING_PROJECTOR_ALL_SOURCE_MOMENTA_20260929",
+      "sha256_tree": "e9da3ffe0fe6c252f9304194c5e73fd1c83fb081183373a77fbbaef70f4ac32c"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

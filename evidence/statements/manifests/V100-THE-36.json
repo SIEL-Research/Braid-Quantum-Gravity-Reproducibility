@@ -1,0 +1,16 @@
+{
+  "claim_ceiling": "Registered retrospective reproduction under the frozen 5-sigma rule; not a prospective prediction or quantum-gravity validation.",
+  "dependencies": [],
+  "id": "V100-THE-36",
+  "paper_number": "Theorem 15.2",
+  "pdf_page": 13,
+  "public_files": [],
+  "public_urls": [
+    "https://doi.org/10.5281/zenodo.23006547",
+    "https://doi.org/10.5281/zenodo.23006637"
+  ],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [],
+  "verification_command": "Follow the frozen runner and checksum instructions in DOI-2 against the DOI-1 preregistration."
+}

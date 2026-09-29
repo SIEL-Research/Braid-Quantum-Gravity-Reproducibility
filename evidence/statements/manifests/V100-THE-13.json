@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Every finite adaptive depth only; no infinite-time assertion.",
+  "dependencies": [],
+  "id": "V100-THE-13",
+  "paper_number": "Theorem 8.2",
+  "pdf_page": 7,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE457_ITERATED_STRONG_CURVATURE_BACKREACTION_GATE_20260925",
+      "sha256_tree": "3d925a793bb0efd1aa07ed9e301aeac1148698e5968a9f12d18c93a57a1eeda7"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

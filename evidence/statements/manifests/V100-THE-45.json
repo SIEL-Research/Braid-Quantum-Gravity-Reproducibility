@@ -1,0 +1,26 @@
+{
+  "claim_ceiling": "Dimensional identifiability only; the numerical universal anchor and physical G remain external.",
+  "dependencies": [],
+  "id": "V100-THE-45",
+  "paper_number": "Theorem 19.1",
+  "pdf_page": 17,
+  "public_files": [
+    {
+      "kind": "public_file",
+      "repository_path": "theorems/analytic_proofs_v1.md",
+      "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397"
+    }
+  ],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_PROOF",
+  "vendored_bundles": [
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGCAL042_GLOBAL_DIMENSIONAL_RESCALING_ORBIT_TO_MINIMAL_ONE_EXTERNAL_ANCHOR_NECESSITY_AND_SUFFICIENCY_GATE_20260929",
+      "sha256_tree": "11513dc18c1427c5298364b92d314488547cc8da7281417774a539746e41883c"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

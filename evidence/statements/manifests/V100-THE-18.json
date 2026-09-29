@@ -1,0 +1,26 @@
+{
+  "claim_ceiling": "Physical principal symbol on the source-perfect quotient; no literal equality of complete finite maps.",
+  "dependencies": [],
+  "id": "V100-THE-18",
+  "paper_number": "Theorem 9.5",
+  "pdf_page": 9,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 9,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGADM015_MOVING_PROJECTOR_ALL_SOURCE_MOMENTA_20260929",
+      "sha256_tree": "e9da3ffe0fe6c252f9304194c5e73fd1c83fb081183373a77fbbaef70f4ac32c"
+    },
+    {
+      "file_count": 12,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGSTRAT013_SOURCE_PERFECT_BFV_SCHUR_COMPLEMENT_GATE_20260929",
+      "sha256_tree": "a19840c8721ff6c4f1acf746517a82832d95acd2767de970f7ab2a8e002ff63d"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

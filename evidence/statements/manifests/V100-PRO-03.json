@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "On-shell asymptotic commuting bridge; not equality of the two finite maps.",
+  "dependencies": [],
+  "id": "V100-PRO-03",
+  "paper_number": "Proposition 10.6",
+  "pdf_page": 10,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGADM013_PARENT_TO_TRAJECTORY_ASYMPTOTIC_BRIDGE_20260929",
+      "sha256_tree": "b816c87c678cf93a80aea6e992170a7796cf78b9778fc40f33b2e9a7379865f5"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

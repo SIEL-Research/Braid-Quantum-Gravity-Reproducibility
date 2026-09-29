@@ -1,0 +1,30 @@
+{
+  "claim_ceiling": "Local regular long-wavelength ten-component branch with tau=O(h).",
+  "dependencies": [
+    "V100-THE-07",
+    "V100-THE-11",
+    "V100-THE-21"
+  ],
+  "id": "V100-THE-23",
+  "paper_number": "Theorem 10.5",
+  "pdf_page": 10,
+  "public_files": [
+    {
+      "kind": "public_file",
+      "repository_path": "theorems/analytic_proofs_v1.md",
+      "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397"
+    }
+  ],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_PROOF",
+  "vendored_bundles": [
+    {
+      "file_count": 5,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQG_G3_R02_5_NORMALIZED_SYM2_TEN_COMPONENT_STRONG_CONVERGENCE_CLOSURE_20260926",
+      "sha256_tree": "3dd6f69dceca4e0c63e2f75645d6b8891919557e7f470ffb14d4bcfdafd1b061"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

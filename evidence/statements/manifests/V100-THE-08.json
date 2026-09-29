@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Einstein equation only in normalized source variables and the declared infrared variational class.",
+  "dependencies": [],
+  "id": "V100-THE-08",
+  "paper_number": "Theorem 6.3",
+  "pdf_page": 6,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE300R1_A49_NONCIRCULAR_BACKREACTION_TO_LOW_ENERGY_SPIN2_EINSTEIN_GATE_20260923",
+      "sha256_tree": "d03fa2efdfb15a650689afcbeaf71b672e9ebea49ac9ee31e790779d572c29d5"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

@@ -1,0 +1,32 @@
+{
+  "claim_ceiling": "Interaction transfer selected by the declared raw/Petz record contrast.",
+  "dependencies": [],
+  "id": "V100-THE-10",
+  "paper_number": "Theorem 7.2",
+  "pdf_page": 7,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 4,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE322_COLLISION_SUPPORT_INTERACTION_STRESS_AND_FOUR_COMPONENT_BALANCE_GATE_20260923",
+      "sha256_tree": "0fa817adb0090a2ec05933e4b01fdc10ebb577e2af6df243175e67bd4e2a56b4"
+    },
+    {
+      "file_count": 4,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE323_SOURCE_SELECTED_COLLISION_METRIC_DEFORMATION_TO_DYNAMICAL_INFLUENCE_AND_REPEATED_TOTAL_WARD_GATE_20260923",
+      "sha256_tree": "05c0471a372f9877b51b7c207aabe02c5933b26ec2302fd09d05ef8efc7a8f1b"
+    },
+    {
+      "file_count": 4,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE324_CENTERED_CHARGE_SCORE_TO_COLLISION_NOETHER_TIME_OR_MODULAR_ENERGY_GATE_20260923",
+      "sha256_tree": "6f41a005b29ed19110f31fd8fcf7a724646969f4e5a18d9184971634b2741bdb"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

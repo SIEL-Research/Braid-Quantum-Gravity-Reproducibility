@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Unique partial isometry inside the derived matter class only.",
+  "dependencies": [],
+  "id": "V100-THE-40",
+  "paper_number": "Theorem 16.3",
+  "pdf_page": 14,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 12,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGNEUT025_SOURCE_NATIVE_WEAK_CURRENT_INTERTWINER_TO_PHYSICAL_THREE_NEUTRINO_TYPING_GATE_20260928",
+      "sha256_tree": "10a737a44560750dbcdfea4820de3fa2e3fef61e72c1c4144632555577202ba8"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

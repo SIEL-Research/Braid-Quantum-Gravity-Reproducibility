@@ -26,9 +26,12 @@ FILES = [
     "requirements.txt",
     "scripts/build_manifest.py",
     "scripts/extract_theorem_inventory.py",
+    "scripts/generate_public_statement_pages.py",
     "scripts/render_theorem_evidence_index.py",
+    "scripts/verify_all.py",
     "scripts/verify_evidence_integrity.py",
     "scripts/verify_manifest.py",
+    "scripts/verify_public_navigation.py",
     "scripts/verify_source.py",
     "scripts/verify_theorem_coverage_v1.py",
     "scripts/verify_version_cleanliness.py",
@@ -41,6 +44,11 @@ FILES = [
     "theorems/theorem_evidence_v1.json",
     "theorems/theorem_inventory_v1.json"
 ]
+FILES += sorted(
+    path.relative_to(ROOT).as_posix()
+    for path in (ROOT / "evidence/statements").rglob("*")
+    if path.is_file()
+)
 
 
 def main() -> None:
@@ -61,8 +69,10 @@ def main() -> None:
         "release_state": "PUBLIC_RELEASE_1_0_0",
         "repository": "https://github.com/SIEL-Research/Braid-Quantum-Gravity-Reproducibility",
         "test_entrypoints": [
+            "scripts/verify_all.py",
             "scripts/verify_source.py",
             "scripts/verify_theorem_coverage_v1.py",
+            "scripts/verify_public_navigation.py",
             "scripts/verify_version_cleanliness.py",
             "scripts/verify_evidence_integrity.py",
             "scripts/verify_vendored_packages.py"

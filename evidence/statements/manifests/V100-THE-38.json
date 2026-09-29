@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Internal M3(C) carrier in the declared neutral operational sector; no empirical neutrino identification by itself.",
+  "dependencies": [],
+  "id": "V100-THE-38",
+  "paper_number": "Theorem 16.1",
+  "pdf_page": 14,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 12,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGNEUT023_INTERNAL_M3_NEUTRAL_CARRIER_AND_SOURCE_WEIGHTED_GAP_LAPLACIAN_GATE_20260928",
+      "sha256_tree": "a1d61d9f2cc0bc6206691aab0243a0d329bf4bdbd7440692c45bd25791065741"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

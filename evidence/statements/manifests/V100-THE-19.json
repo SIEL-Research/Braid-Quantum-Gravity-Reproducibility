@@ -1,0 +1,26 @@
+{
+  "claim_ceiling": "Representation decomposition and row rank in the saved independent coefficient box.",
+  "dependencies": [],
+  "id": "V100-THE-19",
+  "paper_number": "Theorem 10.1",
+  "pdf_page": 9,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 6,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE444_TEN_METRIC_SOURCE_TO_THIRTY_FIVE_QUARTIC_SECOND_RESPONSE_GATE_20260925",
+      "sha256_tree": "21402de48703d8d0b619c8846e44b49148ab7337ac1d684854245b426e734870"
+    },
+    {
+      "file_count": 5,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE449_PRECONDITIONED_UB612_INTERVAL_RANK35_CERTIFICATE_GATE_20260925",
+      "sha256_tree": "6055f9c135f66747444106831f0fdd9ae82de2d2d22c7b29051701af1b85ef54"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

@@ -1,0 +1,50 @@
+{
+  "claim_ceiling": "Static spherical six-face Palatini class and source-selected centering term only.",
+  "dependencies": [],
+  "id": "V100-THE-43",
+  "paper_number": "Theorem 18.1",
+  "pdf_page": 16,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 13,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGBH031_COMPLETE_STATIC_SPHERICAL_SIX_FACE_EULER_TO_SCHWARZSCHILD_AND_BOUNCE_GATE_20260929",
+      "sha256_tree": "4d0cf61a8d4297b50e5eb8f68ea891af40c633399a234557699bee6e69380ae8"
+    },
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGBH032_SOURCE_SCREEN_RELATIVE_PALATINI_INTERACTION_TO_REGULAR_BOUNCE_STATIONARITY_GATE_20260929",
+      "sha256_tree": "3c5531ec25ebc86bd38a7e3c7c7482824fb6d71e5f2de6ff6d61fe1c5cf8798a"
+    },
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGBH033_SOURCE_SCREEN_WALK_CURRENT_TO_RELATIVE_PALATINI_EULER_COVECTOR_GATE_20260929",
+      "sha256_tree": "a55cc032d70ef193d22f5df38a8aa4b3e7e37716794d7f871b34a72d824b10f1"
+    },
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGBH034_PETZ_RECOVERY_ORIENTATION_TO_NEGATIVE_SCREEN_CURRENT_COUPLING_GATE_20260929",
+      "sha256_tree": "95c2933f35292be3a98384ac9f1118cc3f2607e663d6380cc8d79d51a3e1efd6"
+    },
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGBH035_SOURCE_RELATIVE_ENTROPY_PRODUCTION_TO_NEGATIVE_PALATINI_GRADIENT_GATE_20260929",
+      "sha256_tree": "178a7a0af9810d23984658ca00e9cf6b01215bc5058184a42171e4d01dadc7d6"
+    },
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGBH036_GLOBAL_LOG_BRANCH_AND_MAXIMAL_EXTENSION_FROM_SELECTED_STATIC_SPHERICAL_FINITE_ACTION_GATE_20260929",
+      "sha256_tree": "759bc2050ede4084f0784899c33256362f381dbd6174fab6596e7cfe682bbe59"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

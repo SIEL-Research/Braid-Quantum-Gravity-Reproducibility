@@ -1,0 +1,30 @@
+{
+  "claim_ceiling": "Source-perfect local regular noncaustic history branch; not a raw ultralocal fixed-grid HDA theorem.",
+  "dependencies": [
+    "V100-THE-07",
+    "V100-THE-11",
+    "V100-THE-23"
+  ],
+  "id": "V100-THE-16",
+  "paper_number": "Theorem 9.3",
+  "pdf_page": 8,
+  "public_files": [
+    {
+      "kind": "public_file",
+      "repository_path": "theorems/analytic_proofs_v1.md",
+      "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397"
+    }
+  ],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_PROOF",
+  "vendored_bundles": [
+    {
+      "file_count": 5,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQG_G3_R01_5_SOURCE_PERFECT_HISTORY_GROUPOID_ADM_HDA_CLOSURE_20260926",
+      "sha256_tree": "cf745434f16130e9db0ce2da0a168d80e8c53cafa7501396b2707f1743df9e5a"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

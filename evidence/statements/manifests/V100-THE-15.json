@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Local contractible regular branch; global holonomy and caustic crossing excluded.",
+  "dependencies": [],
+  "id": "V100-THE-15",
+  "paper_number": "Theorem 9.2",
+  "pdf_page": 8,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 14,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGSTRAT009_RAW_COVARIANT_TEMPORAL_AUXILIARY_EQUIVALENCE_20260929",
+      "sha256_tree": "6b7565b02d6f9c60118ca8b75585b804a8a64434f2023ae9b2c33d1cb5ef6326"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

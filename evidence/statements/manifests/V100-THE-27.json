@@ -1,0 +1,26 @@
+{
+  "claim_ceiling": "Finite-depth QME and BV pushforward on simply connected gap-admissible regular branches; no continuum measure.",
+  "dependencies": [],
+  "id": "V100-THE-27",
+  "paper_number": "Theorem 11.4",
+  "pdf_page": 11,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGQBV002_POINTED_HODGE_POLAR_GINSPARG_WILSON_REGULATOR_GATE_20260929",
+      "sha256_tree": "56f38ec8dcb2510aa15bce3767a13853b8ab76b9d49ab579b23147d6afa5eb98"
+    },
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGQBV003_POINTED_BV_HALFDENSITY_QME_REFINEMENT_RENORMALIZATION_GATE_20260929",
+      "sha256_tree": "c200bb9dd63c870a59671c3d57fb3d1b699d9ae33f7964d54acafb0d5d5460a1"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Generated finite dagger algebra for the retained crossing/cap family.",
+  "dependencies": [],
+  "id": "V100-THE-26",
+  "paper_number": "Theorem 11.3",
+  "pdf_page": 11,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE464_WITHIN_SUPERSELECTION_SECTOR_ALGEBRA_IRREDUCIBILITY_GATE_20260925",
+      "sha256_tree": "f12aef476088d021e92fed7396b0df4bf390724b803251568d78680bb63d1738"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

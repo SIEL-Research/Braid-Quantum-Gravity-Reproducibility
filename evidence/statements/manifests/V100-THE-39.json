@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Finite unitary and CP-odd invariant in the fixed convention; no PMNS agreement claim.",
+  "dependencies": [],
+  "id": "V100-THE-39",
+  "paper_number": "Theorem 16.2",
+  "pdf_page": 14,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 12,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGNEUT024_SOURCE_ORDERED_C3_WEIGHTED_FLOQUET_SIMULTANEOUS_CP_GAP_GATE_20260928",
+      "sha256_tree": "b0ff69e32e7cc7c89f02de19ef3cfb8962d23b51ffc45b500e232189b82f0be5"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

@@ -1,0 +1,35 @@
+{
+  "claim_ceiling": "Two helicities only after the stated flat-background quadratic reduction and gauge quotient.",
+  "dependencies": [],
+  "id": "V100-COR-01",
+  "paper_number": "Corollary 6.4",
+  "pdf_page": 6,
+  "public_files": [
+    {
+      "kind": "public_file",
+      "repository_path": "theorems/analytic_proofs_v1.md",
+      "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397"
+    }
+  ],
+  "public_urls": [
+    "https://arxiv.org/abs/1812.10886",
+    "https://doi.org/10.1098/rspa.1939.0140"
+  ],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "EXTERNAL_THEOREM_REDUCTION",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE300R1_A49_NONCIRCULAR_BACKREACTION_TO_LOW_ENERGY_SPIN2_EINSTEIN_GATE_20260923",
+      "sha256_tree": "d03fa2efdfb15a650689afcbeaf71b672e9ebea49ac9ee31e790779d572c29d5"
+    },
+    {
+      "file_count": 9,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGADM014_SOURCE_TT_PHYSICAL_PROJECTOR_20260929",
+      "sha256_tree": "2a76dc268fc37d22cacfdf5485b8740b18ff936fb7237856b32fdd310879cf34"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

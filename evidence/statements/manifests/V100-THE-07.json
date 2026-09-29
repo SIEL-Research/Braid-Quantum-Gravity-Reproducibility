@@ -1,0 +1,32 @@
+{
+  "claim_ceiling": "Hilbert stress and on-shell Ward identity only in the declared local conservative low-curvature class.",
+  "dependencies": [],
+  "id": "V100-THE-07",
+  "paper_number": "Theorem 6.2",
+  "pdf_page": 6,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE295_FINITE_BRAID_ACTION_TO_CONTINUUM_HILBERT_VARIATION_IDENTITY_GATE_20260923",
+      "sha256_tree": "8e404ef4ac8c00a2d8b7f7592e98b4404f66d943016e79083216a7a6bf69c2a7"
+    },
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE298_CLOCK_REDUNDANCY_CHAIN_RULE_TO_STRESS_WARD_COMPLETION_GATE_20260923",
+      "sha256_tree": "ca4a489bd46305577b5c115a563dc5ed0231f9c0f80a51c779aba040cf0a7d4d"
+    },
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE299_INDEPENDENT_STRESS_WARD_COMPLETION_RED_TEAM_AND_CLAIM_CEILING_AUDIT_20260923",
+      "sha256_tree": "f1386ffb0b282481e014495d9c062326c58e4c87305f76086e78dfec0676b0d3"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

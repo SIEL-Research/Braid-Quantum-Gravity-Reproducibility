@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Uniqueness only inside the declared source-product typing class.",
+  "dependencies": [],
+  "id": "V100-THE-06",
+  "paper_number": "Theorem 5.3",
+  "pdf_page": 5,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE294_SOURCE_SYMMETRIC_PRODUCT_FUNCTOR_TO_UNIQUE_PHYSICAL_SOLDER_GATE_20260923",
+      "sha256_tree": "dacf269aa06da54b56dad45474efb7b0416e72082e782db7852a2ec8d6077772"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

@@ -1,0 +1,26 @@
+{
+  "claim_ceiling": "Exact finite compilation count on the retained gate vocabulary; no quantum advantage claim.",
+  "dependencies": [],
+  "id": "V100-COR-02",
+  "paper_number": "Corollary 12.3",
+  "pdf_page": 12,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 9,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE491_TYPED_HALMOS_CHEBYSHEV_WALK_TO_SOURCE_WORD_LOCAL_COMPILATION_GATE_20260925",
+      "sha256_tree": "bb22439fe78723507c402cb941a31eddfd2a19c1d54fd0af24a840ef89d5e5f7"
+    },
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE495_MINIMAL_G1_CHEBYSHEV_POWER_SELECTOR_AND_FULL_ACTUATOR_NATIVE_RESOURCE_GATE_20260925",
+      "sha256_tree": "672fabef6d2506db06c2cd98010e77b302337f859de4bc12566ebebe7ba79aae"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

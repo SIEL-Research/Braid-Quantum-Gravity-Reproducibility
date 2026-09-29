@@ -1,0 +1,26 @@
+{
+  "claim_ceiling": "Nonzero stationary point of the declared finite Higgs action; no measured mass agreement claim.",
+  "dependencies": [],
+  "id": "V100-THE-35",
+  "paper_number": "Theorem 14.3",
+  "pdf_page": 13,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE530_SOURCE_STATE_WEIGHTED_KINETIC_METRIC_AND_FINITE_FERMION_DETERMINANT_HIGGS_GATE_20260926",
+      "sha256_tree": "8c5381d7292ef549f88b49b20d8feaf71116aba81d8f3ea6b9a493f64db38339"
+    },
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE532_SOURCE_SIGN_LINE_EXTERIOR_TRACE_TO_FINITE_FERMION_DETERMINANT_GATE_20260926",
+      "sha256_tree": "c7ece072355fdd4cf9ec418dbc1a798306228c4b2e51a8747a954515e18e389b"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

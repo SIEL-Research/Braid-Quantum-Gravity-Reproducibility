@@ -1,0 +1,19 @@
+{
+  "claim_ceiling": "Counterexample to the explicitly defined universal objectivist-primacy thesis, not a refutation of realism or empirical objectivity.",
+  "dependencies": [],
+  "id": "V100-THE-47",
+  "paper_number": "Theorem 21.1",
+  "pdf_page": 19,
+  "public_files": [
+    {
+      "kind": "public_file",
+      "repository_path": "theorems/analytic_proofs_v1.md",
+      "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397"
+    }
+  ],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_PROOF",
+  "vendored_bundles": [],
+  "verification_command": "python3 scripts/verify_all.py"
+}

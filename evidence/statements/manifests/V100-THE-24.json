@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Finite rank-72 real projector and 36-dimensional complex image in the declared source carrier.",
+  "dependencies": [],
+  "id": "V100-THE-24",
+  "paper_number": "Theorem 11.1",
+  "pdf_page": 10,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 16,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925",
+      "sha256_tree": "3fb72dd19db580cd88e5ce31a562637bf7bb8e35cef7ef8663022a722dd0e153"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

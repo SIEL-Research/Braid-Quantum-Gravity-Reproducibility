@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Generation operator selected inside the declared finite matter class.",
+  "dependencies": [],
+  "id": "V100-THE-33",
+  "paper_number": "Theorem 14.1",
+  "pdf_page": 12,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE546_SOURCE_INTRINSIC_PREDICATE_MODULAR_WEIGHT_TO_UNIQUE_NONNORMAL_FLAVOUR_OPERATOR_GATE_20260926",
+      "sha256_tree": "65bac394925d37c29dfeb368b09c787aeaf41d3cb6294a09f4f06083e8061bdc"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

@@ -18,17 +18,21 @@ target for the paper.
 ## Evidence reachability
 
 All 53 theorem-like statements in v1.0 are indexed in
-[`THEOREM_EVIDENCE_INDEX_v1.0.md`](THEOREM_EVIDENCE_INDEX_v1.0.md). Each entry
-terminates in one of three public evidence classes:
+[`THEOREM_EVIDENCE_INDEX_v1.0.md`](THEOREM_EVIDENCE_INDEX_v1.0.md). Every row
+opens a dedicated, self-contained English evidence page under
+[`evidence/statements/`](evidence/statements/README.md). The reader-facing
+route does not terminate in a private research repository, an internal task
+page, or a Japanese-only audit. Each entry terminates in one of three public
+evidence classes:
 
 - repository-local executable code and frozen result artifacts;
 - a repository-local analytic proof;
 - a checked reduction to a named external theorem, with the model hypotheses
   stated explicitly.
 
-The former private-path dependency has been removed. Relevant calculation
-packages are vendored under `evidence/packages/sra/`; the public index, rather
-than an internal work-package number, is the navigation layer.
+The former private-path dependency has been removed. Historical package names
+are retained only inside hash-bound machine manifests for provenance. They are
+not the reader-facing evidence endpoints.
 
 This is an evidence-reachability closure. It is not a claim that all 53 results
 have received independent third-party replication.
@@ -75,10 +79,17 @@ python3 -m venv .venv
 .venv/bin/python scripts/verify_manifest.py
 .venv/bin/python scripts/verify_source.py
 .venv/bin/python scripts/verify_theorem_coverage_v1.py
+.venv/bin/python scripts/verify_public_navigation.py
 .venv/bin/python scripts/verify_version_cleanliness.py
 .venv/bin/python scripts/verify_evidence_integrity.py
 .venv/bin/python scripts/verify_vendored_packages.py
 .venv/bin/python -m unittest discover -s tests -v
+```
+
+Or run the same sequence with one command:
+
+```bash
+.venv/bin/python scripts/verify_all.py
 ```
 
 Expected top-level result:

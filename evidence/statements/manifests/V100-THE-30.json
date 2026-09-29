@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Exact finite-spectrum interpolation for the declared 32 cases and reported query bounds.",
+  "dependencies": [],
+  "id": "V100-THE-30",
+  "paper_number": "Theorem 12.2",
+  "pdf_page": 12,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE490_SOURCE_STRUCTURED_LOW_NORMALIZATION_SPECTRAL_FACTOR_OR_DIRECT_QUOTIENT_QSP_GATE_20260925",
+      "sha256_tree": "b2a05631f5c8652bc7db8c99468f55018074d935adf6a2cc1baebe50f427938a"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

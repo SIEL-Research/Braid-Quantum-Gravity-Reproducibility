@@ -1,0 +1,32 @@
+{
+  "claim_ceiling": "Complete 25-adic descendant refinement and the declared screen count.",
+  "dependencies": [],
+  "id": "V100-THE-41",
+  "paper_number": "Theorem 17.1",
+  "pdf_page": 15,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGCAL007_SOURCE_TOTAL_CHARGE_TO_FINITE_SCREEN_RADIUS_AND_REFINEMENT_LEVEL_QUANTIZATION_GATE_20260928",
+      "sha256_tree": "81ded79bee2fc0cb58fe2012c7c6704ad2190dcea76358ee84a3c9562dccaa8e"
+    },
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGCAL008_SOURCE_POSITIVE_SCREEN_NUMBER_AND_QUASILOCAL_ENERGY_TO_REFINEMENT_INVARIANT_HORIZON_AREA_GATE_20260928",
+      "sha256_tree": "382c911834f03a2a0246a887d91d4410bd0333a4856a7c54a8c8aa1dcdde3b2f"
+    },
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGCAL009_SOURCE_QUADRATIC_CHARGE_CASIMIR_AND_DIRICHLET_ENERGY_TO_SCREEN_NUMBER_AREA_LAW_GATE_20260928",
+      "sha256_tree": "d45f73e7fb88f38e43e05e556d5de322fb54b2afee18d462814c1e0f1fca8e41"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

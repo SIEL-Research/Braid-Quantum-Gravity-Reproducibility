@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Finite anomaly-solution groupoid for the declared source action.",
+  "dependencies": [],
+  "id": "V100-THE-31",
+  "paper_number": "Theorem 13.2",
+  "pdf_page": 12,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 6,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE439_SOURCE_DERIVED_ANOMALY_SOLUTION_GROUPOID_CROSSED_PRODUCT_TO_PHYSICAL_WEIGHT_ONE_GENERATIONS_AND_INVARIANT_HIGGS_GATE_20260924",
+      "sha256_tree": "1dc63792ec59bc721620db0ae03e2041bd820da4919f2b4b6b2e3ac42001da95"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

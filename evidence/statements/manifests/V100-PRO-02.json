@@ -1,0 +1,32 @@
+{
+  "claim_ceiling": "No-go only for the tested raw-block scalar, dagger-chiral and unsourced-Holst routes.",
+  "dependencies": [],
+  "id": "V100-PRO-02",
+  "paper_number": "Proposition 9.6",
+  "pdf_page": 9,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 12,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGSTRAT010_EXACT_CYCLOTOMIC_HESSIAN_RANK_AND_ORIENTATION_SHEET_GATE_20260929",
+      "sha256_tree": "6a0d2262ee12f80181c2600fbbee625864c32212aea716b516bb26ffd3cce4ac"
+    },
+    {
+      "file_count": 9,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGSTRAT011_SOURCE_REVERSE_SHEET_PALATINI_COMPLETION_GATE_20260929",
+      "sha256_tree": "40efa5b266fc0f0021e3d263d5fe4b3ce039be49817b4ffe85ba215b993f79c4"
+    },
+    {
+      "file_count": 12,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGSTRAT012_SOURCE_DAGGER_CHIRAL_DOUBLE_COVER_GATE_20260929",
+      "sha256_tree": "ac1c65e2cc6e7eb056717de3f354212d2fc0b2eddf8eb7a06acc1a7f73bbf92b"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

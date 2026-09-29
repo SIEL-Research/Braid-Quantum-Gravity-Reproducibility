@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Smooth tensor gluing for the declared 24-chart cocycle only.",
+  "dependencies": [],
+  "id": "V100-THE-04",
+  "paper_number": "Theorem 5.1",
+  "pdf_page": 5,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE283_S4_CHART_EQUIVARIANT_METRIC_TENSOR_GLUE_GATE_20260923",
+      "sha256_tree": "5a9d1b0df76c7b046565f559753d130ce4337a37f575969ed3768e9da12be76e"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

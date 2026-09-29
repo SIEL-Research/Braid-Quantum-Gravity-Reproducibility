@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Braid specificity up to observational equivalence in the relation-minimal faithful crossing-source class.",
+  "dependencies": [],
+  "id": "V100-THE-28",
+  "paper_number": "Theorem 11.5",
+  "pdf_page": 11,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 12,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGCTRL013_FREE_TYPED_LIFT_AND_MINIMAL_FAITHFUL_BRAID_QUOTIENT_GATE_20260929",
+      "sha256_tree": "e078bc2b892d660ca795e00b3f4b886abf6fc162429db123ad39aafdbef79707"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Compatible declared finite channels and their quasi-local inductive limit only.",
+  "dependencies": [],
+  "id": "V100-THE-20",
+  "paper_number": "Theorem 10.2",
+  "pdf_page": 9,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 6,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE445_AF_QUASILOCAL_CPTP_ALL_SCALE_COMPLETION_GATE_20260925",
+      "sha256_tree": "4fcaf05668b8c61756c3fd1fef7585b92d14ef3c5a7b34b0c32bf368237a0afb"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

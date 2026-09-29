@@ -17,6 +17,7 @@ jobs:
       - run: python scripts/verify_manifest.py
       - run: python scripts/verify_source.py
       - run: python scripts/verify_theorem_coverage_v1.py
+      - run: python scripts/verify_public_navigation.py
       - run: python scripts/verify_version_cleanliness.py
       - run: python scripts/verify_evidence_integrity.py
       - run: python scripts/verify_vendored_packages.py

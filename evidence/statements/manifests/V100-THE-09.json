@@ -1,0 +1,32 @@
+{
+  "claim_ceiling": "Finite collision, Stinespring and recorded CTP family in the declared source model; not unrestricted quantum dynamics.",
+  "dependencies": [],
+  "id": "V100-THE-09",
+  "paper_number": "Theorem 7.1",
+  "pdf_page": 6,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 9,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE307_SOURCE_GKSL_STINESPRING_DILATION_TO_TOTAL_STRESS_WARD_GATE_20260923",
+      "sha256_tree": "12b3e581b2f62c32723fa1acbf33a6d57972e63d9ac1a51063d409a6bff6e2aa"
+    },
+    {
+      "file_count": 9,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE308_SOURCE_RIGHT_TAIL_REPEATED_INTERACTION_DILATION_AND_TOTAL_BALANCE_GATE_20260923",
+      "sha256_tree": "0c00bb71728dee5ef91b518aacf09a72201e4f1452a83f572cad836d1bfc5f61"
+    },
+    {
+      "file_count": 4,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE349_BRANCH_RESOLVED_CHOI_TRANSFER_TO_LOCAL_3PLUS1_DOUBLED_METRIC_LORENTZIAN_PARENT_GATE_20260924",
+      "sha256_tree": "01c7840c89cc54d73f8b3c7c432cae490c04486559ba7cf17fa064b3c3d0bf90"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

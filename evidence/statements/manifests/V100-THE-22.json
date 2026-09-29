@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Uniform-all-real-time energy-norm convergence for the two-copy mean-zero hierarchical carrier; physical identification uses the later projector results.",
+  "dependencies": [],
+  "id": "V100-THE-22",
+  "paper_number": "Theorem 10.4",
+  "pdf_page": 10,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQG_G3_R02_5_LINEAR_TWO_MODE_FINITE_TIME_STRONG_CONVERGENCE_GATE_20260926",
+      "sha256_tree": "a7fb95654d8996fd5832e57f6a0796ceb7d99f4386702ad251f639bb9e801b3d"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

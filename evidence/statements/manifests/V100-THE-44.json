@@ -1,0 +1,28 @@
+{
+  "claim_ceiling": "Selected non-quotient maximal cover of the static black-bounce branch.",
+  "dependencies": [],
+  "id": "V100-THE-44",
+  "paper_number": "Theorem 18.2",
+  "pdf_page": 16,
+  "public_files": [
+    {
+      "kind": "public_file",
+      "repository_path": "theorems/analytic_proofs_v1.md",
+      "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397"
+    }
+  ],
+  "public_urls": [
+    "https://doi.org/10.1007/s00220-017-3019-2"
+  ],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "EXTERNAL_THEOREM_REDUCTION",
+  "vendored_bundles": [
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGBH037_SOURCE_MAXIMAL_ATLAS_INEXTENDIBILITY_AND_GLOBAL_CAUSAL_STRUCTURE_GATE_20260929",
+      "sha256_tree": "8e4c6291b3f315299fe70c87b0079b8df24a4cd11869d0669f30f84d2f65b4da"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

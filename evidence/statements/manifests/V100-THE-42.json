@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Source-normalized static Schwarzschild branch; not an SI mass prediction.",
+  "dependencies": [],
+  "id": "V100-THE-42",
+  "paper_number": "Theorem 17.2",
+  "pdf_page": 15,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGCAL010_SOURCE_EXCITATION_AREA_NUMBER_TO_CONSERVED_MISNER_SHARP_MASS_AND_SCHWARZSCHILD_SPECTRUM_GATE_20260928",
+      "sha256_tree": "a223f04232148db3eee67eb7bf9652088eceb6663c759e57b6f290f83d0ed0f3"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

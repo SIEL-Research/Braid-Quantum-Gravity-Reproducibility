@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Projective probability inside the declared finite linear source-dagger class.",
+  "dependencies": [],
+  "id": "V100-THE-25",
+  "paper_number": "Theorem 11.2",
+  "pdf_page": 10,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 10,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE459_SOURCE_COUNTING_GLUE_TO_BORN_PROBABILITY_UNIQUENESS_GATE_20260925",
+      "sha256_tree": "2b56822fcb2eda9b03eec884e31b9ffbf1c4a57ff106216b6676b0e1c2e260c3"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

@@ -1,0 +1,31 @@
+{
+  "claim_ceiling": "Full-corner uniqueness in the complete declared five-partition class and exact 3/5 routing count only; not a measured gravitational constant.",
+  "dependencies": [],
+  "id": "V100-THE-03",
+  "paper_number": "Theorem 4.3",
+  "pdf_page": 5,
+  "public_files": [
+    {
+      "kind": "public_file",
+      "repository_path": "src/bqg_v1/source.py",
+      "sha256": "96f48f781e0f1f3cb496025aeaa3b05a70d62534c7280c3fe4f3848a3c82ac90"
+    },
+    {
+      "kind": "public_file",
+      "repository_path": "expected/source_verification_v1.json",
+      "sha256": "fc6eef24e85f7d52320f47e452f00af667bf300aedc81657b5fca50217cdead5"
+    }
+  ],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 9,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE238_FIXED_SOURCE_PACKET_COHERENCE_SELECTION_GATE_20260921",
+      "sha256_tree": "5bb24a2f92dbee3fda7c21e029c31114024e88fd2a589fe8e343ee52d47e8c49"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_source.py"
+}

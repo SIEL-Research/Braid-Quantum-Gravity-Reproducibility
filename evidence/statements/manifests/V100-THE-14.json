@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "Three-generator refinement representation in the declared signed-sector model.",
+  "dependencies": [],
+  "id": "V100-THE-14",
+  "paper_number": "Theorem 9.1",
+  "pdf_page": 8,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 104,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925",
+      "sha256_tree": "926dbc01b09a6e2803c798bed6e07536ed30d4bd5068ebb150920154253ff1fa"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

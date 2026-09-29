@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "No-go for identifying the presently fixed metric-independent phase with the displayed variational matter action.",
+  "dependencies": [],
+  "id": "V100-THE-46",
+  "paper_number": "Theorem 19.2",
+  "pdf_page": 17,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BQGCAL043_SOURCE_QUANTUM_PHASE_ACTION_AND_EVENT_CELL_TYPE_COMPOSITION_TO_UNCONDITIONAL_ONE_ANCHOR_GATE_20260929",
+      "sha256_tree": "57c2e9aaee27b8e3c96a698b487ebb2a9cde3e1617544f1104eb8cb74bd716a3"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

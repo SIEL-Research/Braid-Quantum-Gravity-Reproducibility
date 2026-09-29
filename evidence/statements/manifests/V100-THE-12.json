@@ -1,0 +1,20 @@
+{
+  "claim_ceiling": "One-cycle full-rank Fisher response and source feedback in the fixed recorded family.",
+  "dependencies": [],
+  "id": "V100-THE-12",
+  "paper_number": "Theorem 8.1",
+  "pdf_page": 7,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 4,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE336R2_REFINED_COLLISION_CTP_TO_CONTINUUM_LORENTZIAN_INFLUENCE_AND_NONCIRCULAR_FINITE_BACKREACTION_GATE_20260923",
+      "sha256_tree": "4e68a3740a1be3cc1ad21788595fba32513816e88b5d605613fb1ff526a7c03c"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}

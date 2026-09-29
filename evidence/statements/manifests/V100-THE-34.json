@@ -1,0 +1,26 @@
+{
+  "claim_ceiling": "Variational Yukawa operator in the declared finite matter action.",
+  "dependencies": [],
+  "id": "V100-THE-34",
+  "paper_number": "Theorem 14.2",
+  "pdf_page": 13,
+  "public_files": [],
+  "public_urls": [],
+  "schema": "siel.bqg.public-statement-evidence.v1",
+  "status": "PUBLIC_CODE",
+  "vendored_bundles": [
+    {
+      "file_count": 11,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE552_SOURCE_SELECTED_SELECTOR_TO_VARIATIONAL_YUKAWA_COUPLING_GATE_20260926",
+      "sha256_tree": "3706a898c19fb6e24a8d082cbce1cc8a00562e5fe1cbae83400c225b66432114"
+    },
+    {
+      "file_count": 15,
+      "kind": "vendored_calculation_package",
+      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE570_SOURCE_MAJORANA_ACTION_CROSS_VARIATION_GATE_20260926",
+      "sha256_tree": "8e8b6d4c25b610c24236d4014e3ff7df9c8f92b7b28df5b914a4f11c4c46041a"
+    }
+  ],
+  "verification_command": "python3 scripts/verify_all.py"
+}
