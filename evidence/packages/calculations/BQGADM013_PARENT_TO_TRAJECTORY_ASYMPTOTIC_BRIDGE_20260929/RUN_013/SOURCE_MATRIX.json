@@ -1,0 +1,79 @@
+{
+  "date": "2026-09-29",
+  "reservoir_sha256": "60be60a27e0c868d6357f7d2371411f99b359a5aafc02b9f42bb77d96973cff0",
+  "schema": "siel.public-calculation.bqgadm013.source_matrix.v1",
+  "source_commit": "b93a2a5dad11476be7e7b0203a8c8c30e0f851db",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-b93a2a5dad11",
+  "sources": [
+    {
+      "path": "records/BGCE097_FULL_SIX_FACE_ACTION_FIVE_ADIC_ADDITIVITY_GATE_20260919/RESULT.json",
+      "sha256": "5745541e2bb5b5d551c21cad16ad00ee8585b3910b1eb86ee0537ebb223dcc72",
+      "use": "five-adic Palatini action convergence and exact-additivity boundary"
+    },
+    {
+      "path": "records/BGCE099_CONDITIONAL_CONTINUUM_PALATINI_ACTION_AND_VARIATION_THEOREM_20260919/RESULT.json",
+      "sha256": "5cc58c5a70ce59328171a6a04d611540fc13201dbb41f283358c62291e9df7c9",
+      "use": "continuum Palatini first variation and Einstein-class metric Euler equation"
+    },
+    {
+      "path": "records/BGCE294_SOURCE_SYMMETRIC_PRODUCT_FUNCTOR_TO_UNIQUE_PHYSICAL_SOLDER_GATE_20260923/RESULT.json",
+      "sha256": "b52803ec6aafd86c4a31166836eb90dcf85a0016ddd342d6b9e5b3e380c0f186",
+      "use": "unique rank-ten source-typed Sym2 solder"
+    },
+    {
+      "path": "records/BGCE295_FINITE_BRAID_ACTION_TO_CONTINUUM_HILBERT_VARIATION_IDENTITY_GATE_20260923/RESULT.json",
+      "sha256": "e75696c4d319cd973acc1e3e6c03504fccc6ec32a8ef697bb742ddb56be4344e",
+      "use": "same-source long-wavelength Hilbert variation and Ward class"
+    },
+    {
+      "path": "records/BGCE300R1_A49_NONCIRCULAR_BACKREACTION_TO_LOW_ENERGY_SPIN2_EINSTEIN_GATE_20260923/RESULT.json",
+      "sha256": "aad820e6326f9d74a8bffc180d84a724f99f03b9e74ba8a77d2297a5815b9927",
+      "use": "revision-matched continuum metric Euler target and flat two-helicity boundary"
+    },
+    {
+      "path": "records/BGCE446_SOURCE_625_CHILD_FOURTH_JET_TO_PBM_U4_GATE_20260925/RESULT.json",
+      "sha256": "07a5df44372723258a2b3ffc8731151aa7830110e6b1ff79f70f049c32f14f8e",
+      "use": "source-native fourth-jet prolongation on all ten metric fields"
+    },
+    {
+      "path": "records/BGCE447_SOURCE_CYLINDER_TO_UB612_PBM_METRIC_SAME_CARRIER_INTERTWINER_GATE_20260925/RESULT.json",
+      "sha256": "de00c00be600b24c28c890a34e61df90d6c9da30eb98e71c5aa6f2ada164aedf",
+      "use": "exact same-carrier metric intertwiner"
+    },
+    {
+      "path": "records/BQG_G3_R01_5_SOURCE_INCIDENCE_TORSION_ADM_CONSTRAINT_SYMBOL_GATE_20260926/RUN_006/RESULT.json",
+      "sha256": "19d9c44f756488d6372b31c748c5fe30b2a7613c07726d72e8cd932ecbbf4044",
+      "use": "rank-four constraint symbol and twelve-dimensional reduced phase"
+    },
+    {
+      "path": "records/BQG_G3_R01_5_PAIR_GROUPOID_PALATINI_REDUCED_SECTOR_INVARIANCE_CLOCK_CLOSURE_GATE_20260926/RUN_008/RESULT.json",
+      "sha256": "f18560995cbb086d28ac2f6494335b3c2cd03074ad8ba01d299db8ac691543ea",
+      "use": "fixed-grid exact-Lie overgauge NO-GO retained as counter-evidence"
+    },
+    {
+      "path": "records/BQG_G3_R01_5_SOURCE_PERFECT_HISTORY_GROUPOID_ADM_HDA_CLOSURE_20260926/RUN_012/RESULT.json",
+      "sha256": "bdebc93bdf7b6ee7b479be0c248660b1181170989b6d6109f00e48a9ee0fc152",
+      "use": "perfect action, exact Noether/HDA/BFV/refinement and physical quotient"
+    },
+    {
+      "path": "records/BQG_G3_R02_5_LINEAR_TWO_MODE_FINITE_TIME_STRONG_CONVERGENCE_GATE_20260926/RUN_004/RESULT.json",
+      "sha256": "f8e49ad2add8bf86084ce56f21da7c943243e88cec58c504968a7fd6be8d2ae7",
+      "use": "two-copy carrier convergence and explicit physical-projector boundary"
+    },
+    {
+      "path": "records/BQG_G3_R02_5_ENTROPIC_POSITIVE_MOMENT_CLOSURE_GATE_20260926/RUN_006/RESULT_ATTEMPT_006.json",
+      "sha256": "12c3f51266054aff092ef7f2070b3205f224e4a8e9eedeba2b8d0f6161b26c85",
+      "use": "strict-positive exact-moment BKM carrier and uniqueness data"
+    },
+    {
+      "path": "records/BQG_G3_R02_5_BKM_HORIZONTAL_SELECTION_AND_LOCAL_NONLINEAR_CONVERGENCE_CLOSURE_20260926/RUN_007/RESULT.json",
+      "sha256": "5dc99c84bc0cfd02a2a960b814a1831c569932f2c1d0bb02aef9d56496ebfa00",
+      "use": "source typing of the BKM/Bregman selector and finite exactness boundary"
+    },
+    {
+      "path": "records/BQG_G3_R02_5_NORMALIZED_SYM2_TEN_COMPONENT_STRONG_CONVERGENCE_CLOSURE_20260926/RUN_010/RESULT.json",
+      "sha256": "175d04f3e1b76ac49a6ba829ea27312e576ec957baf6055ed35b74d2162f3350",
+      "use": "normalized ten-component update, strong residuals and trajectory convergence"
+    }
+  ]
+}

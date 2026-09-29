@@ -1,0 +1,48 @@
+{
+  "forbidden_inputs": [
+    "arbitrary non-source projector",
+    "selected favorable signed sector",
+    "searched product word",
+    "external link",
+    "fitted morphism",
+    "target Hamiltonian",
+    "numeric zero threshold"
+  ],
+  "inputs": [
+    {
+      "path": "records/BGCE459_SOURCE_COUNTING_GLUE_TO_BORN_PROBABILITY_UNIQUENESS_GATE_20260925/RUN_001/RESULT.json",
+      "role": "source-typed C-invariant cylinder dagger projectors",
+      "sha256": "4c0e39b0a2807c472a2288bfab32f4182e44a02eb22b2f64041018d7b771177b"
+    },
+    {
+      "path": "records/BGCE459_SOURCE_COUNTING_GLUE_TO_BORN_PROBABILITY_UNIQUENESS_GATE_20260925/RUN_001/RAW_OUTPUT.json",
+      "role": "36-line complex carrier baseline",
+      "sha256": "5058cd758c4fef169fdfba61c46798523e83473ccbfe7818a5870f0cfbd04642"
+    },
+    {
+      "path": "records/BGCE463_RESIDUAL_TWO_COMPONENT_INVARIANT_IDENTIFICATION_GATE_20260925/RUN_001/RESULT.json",
+      "role": "adjudicated Z2 grading",
+      "sha256": "77c7b3fed88a0f1748fc590d4ddef83e39524d5ba6c1e9c59e5dade49bad2bf2"
+    },
+    {
+      "path": "records/BGCE463_RESIDUAL_TWO_COMPONENT_INVARIANT_IDENTIFICATION_GATE_20260925/RUN_001/RAW_OUTPUT.json",
+      "role": "universal two-component exact evidence",
+      "sha256": "0072421a66c0ca0d64d8c26b0c939865c81c8561685d58008145988a36bf891e"
+    },
+    {
+      "path": "records/BGCE463_RESIDUAL_TWO_COMPONENT_INVARIANT_IDENTIFICATION_GATE_20260925/RUN_001/evaluate_scout.py",
+      "role": "exact carrier and generator reconstruction",
+      "sha256": "3701a07f08c29ce4b7d22d28c642230b763ffe2ee5677382508c018a2d95b2b0"
+    },
+    {
+      "path": "records/UB443_TYPED_SIGNED_SURVIVOR_GAUGE_OR_OBSERVABLE_GATE/evaluate.py",
+      "role": "all eight source endpoint/Brauer sectors",
+      "sha256": "ad53908146ba65d9de71994c0b297fac759a05c4938378f6cc962bbf9eae8c9e"
+    }
+  ],
+  "path_semantics": "All 36 source C-cycle lines, all seven fixed endpoint/Brauer placements, all eight signed sectors; no searched word or fitted link.",
+  "schema": "siel.public-calculation.scout.input-manifest.v1",
+  "scout_id": "PUBLIC-RUN-BGCE464-001",
+  "source_commit": "f0f5a77425897b4e74719598967b635abc457101",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-f0f5a7742589"
+}

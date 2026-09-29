@@ -1,0 +1,11 @@
+{
+  "candidate_id": "BGCE291",
+  "formal_endpoint_gate": "NOT_APPLICABLE_PUBLIC_CALCULATION",
+  "raw_output_sha256": "ab5172c25c5cb7d90ab29158478aa7b9a7974b1d0f0e9cd2da0b89ea5413df8e",
+  "result_sha256": "a931435e39aefcd1e77c2aa2f61868a590a2d1d0c1c984799aad9d2f00e9dc99",
+  "schema": "siel.public-calculation.bgce291.postrun.v1",
+  "scientific_decision": "RED_TEAM_PARTIAL_REVERSAL_BGCE290_FULL_PASS_NOT_SUSTAINED",
+  "status": "PASS",
+  "verification_command": "python3 -B records/BGCE291_STRESS_WARD_INDEPENDENT_REDERIVATION_AND_SCOPE_RED_TEAM_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE291_VERIFICATION"
+}

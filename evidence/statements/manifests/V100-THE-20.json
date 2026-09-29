@@ -9,7 +9,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "PROOF_CERTIFICATE.json",
       "path": "evidence/statements/artifacts/V100-THE-20/bundle-01/PROOF_CERTIFICATE.json",
-      "sha256": "924190169a27d4073874d7e7893f6c50078d0d3c20196a18fb8a4519ffd2fd6d"
+      "sha256": "6cd7e750216417e2472ec5e04f5cd8c88370ad261217c958998d7ba90a48b7ab"
     },
     {
       "bundle_label": "BGCE445 AF QUASILOCAL CPTP ALL SCALE COMPLETION",
@@ -18,7 +18,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-20/bundle-01/RESULT.json",
-      "sha256": "b86fc3edb6da2c72f18ccfa6a71f15d88eef33150ba53d03402b0793b7b77b52"
+      "sha256": "3dbd02854ceafeab2e3a2c956322e0321171fc7bf911bb4e905742b893d46635"
     },
     {
       "bundle_label": "BGCE445 AF QUASILOCAL CPTP ALL SCALE COMPLETION",
@@ -27,7 +27,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "proof_check.py",
       "path": "evidence/statements/artifacts/V100-THE-20/bundle-01/proof_check.py",
-      "sha256": "0ea00d55ce12d65f59ed185fc640080fe73dd1b86dc1fe518c36f7852154d28d"
+      "sha256": "696d6b467daa5c1447b000f123fb6e0a28381de9d1e8aef4e3a34741f808630a"
     }
   ],
   "id": "V100-THE-20",
@@ -37,10 +37,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 6,
+      "file_count": 5,
       "kind": "vendored_calculation_package",
       "label": "BGCE445 AF QUASILOCAL CPTP ALL SCALE COMPLETION",
-      "sha256_tree": "4fcaf05668b8c61756c3fd1fef7585b92d14ef3c5a7b34b0c32bf368237a0afb"
+      "sha256_tree": "64ab5909954d64174460c27b6d822c4206d3145d98d5ea06f7d498ccc0d4cad9"
     }
   ],
   "status": "PUBLIC_CODE",

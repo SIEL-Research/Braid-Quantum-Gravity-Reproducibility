@@ -1,0 +1,13 @@
+{
+  "candidate_id": "BGCE309R1",
+  "checks": {
+    "all_32_marked_sign_gauges": "PASS",
+    "claim_ceiling_fail_closed": "PASS",
+    "environment_unitary_reduced_channel_invariance": "PASS",
+    "regular_basis_nonidentification": "PASS",
+    "six_compressed_clock_Fourier_rays": "PASS"
+  },
+  "result_sha256": "de7f582ac572391cb075ff9fa91f14a7220f068324c8c761ef9b0eddb0e97e6a",
+  "schema": "siel.public-calculation.bgce309r1.postrun-verification.v1",
+  "status": "PASS"
+}

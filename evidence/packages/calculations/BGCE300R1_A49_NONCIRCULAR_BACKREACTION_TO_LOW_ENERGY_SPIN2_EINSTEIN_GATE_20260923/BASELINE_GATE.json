@@ -1,0 +1,10 @@
+{
+  "schema": "siel.public-calculation.bgce300r1.baseline-gate.v1",
+  "candidate_id": "BGCE300R1",
+  "status": "PASS_REVISION_MATCHED_13_SOURCE_DEPENDENCIES",
+  "source_revision": "777c293ff3425a0778511edf421d7a155be0a993",
+  "preregistered_commit": "9d027545d9892d5665f16ded77b9cf18801fd539",
+  "BGCE300_preserved_as_pre_result_failure": true,
+  "scientific_question_changed": false,
+  "outcome_access_before_revision_fix": false
+}

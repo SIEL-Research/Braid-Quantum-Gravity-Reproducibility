@@ -1,0 +1,1178 @@
+{
+  "PUBLIC_reporting": {
+    "Alternative_Explanations": "It is the standard telescoping identity of a Markov channel, instantiated by the Braid source but not yet empirically distinguished.",
+    "Confidence_in_Interpretation": "MEDIUM_LOW",
+    "Confidence_in_Pattern": "VERY_HIGH_IN_THE_DECLARED_FINITE_REYNOLDS_AND_REFINEMENT_CLASS",
+    "Falsifier": "The geometry variation remains kinematically independent of the collision state/current or requires inserting a target Einstein tensor or free coupling.",
+    "Interpretive_Leap": "This finite aligned-class Ward identity is the microscopic conservation law of physical gravity.",
+    "Novel_Hypothesis": "Varying the same finite parent jointly in its source Lorentz geometry and recorded collision instrument yields a noncircular finite geometry-matter backreaction equation.",
+    "Observed_Evidence": "BGCE323 supplies exact strong vertex covariance and composed support covariance; BGCE325 proves strict emitted-block spatial additivity impossible; BGCE348/349 identify D_alpha as the local metric variation inside a local causal parent.",
+    "Pattern": "The conserved local object is a causal coboundary with history-dressed interaction current, not a sum of autonomous emitted-block charges.",
+    "Required_Prospective_Test": "BGCE351 direct finite noncircular backreaction from the completed aligned source-cylinder parent.",
+    "SIEL_generation_classification": "SIEL_GUIDED_STANDARD_COMPATIBLE",
+    "SIEL_specific_interpretation": "The source-derived operational geometry and collision transfer share one exact local conservation complex.",
+    "distinguishing_prediction": "A valid next equation must follow from the finite parent variation with no MMR/CGR, Einstein target, EH/FP action, manual 3/5 or fitted coefficient.",
+    "nearest_claim_ceiling": "Local history-dressed total Ward identity in the aligned block-local source-cylinder parent class.",
+    "novelty_question": "Whether the combined source geometry/instrument variation forces a coupled equation not equivalent to a generic controlled Markov process.",
+    "standard_explanation": "Markov coboundary telescoping and strong Stinespring covariance."
+  },
+  "candidate_id": "BGCE350",
+  "claim_ceiling": "BGCE350 derives an exact local strong-vertex and history-dressed reduced total Ward identity only in the BGCE349 aligned four-score, block-local source-cylinder parent class. It retains the NO-GO for strict emitted-block-only spatial additivity and yields only a refinement-compatible weak continuum Ward statement. It does not derive arbitrary smooth diffeomorphism Ward, full ten-component nonlinear metric dynamics, direct finite backreaction, an unconditional Einstein equation, empirical gravity or completed quantum gravity.",
+  "continuum_boundary": {
+    "arbitrary_smooth_diffeomorphism_Ward_derived": false,
+    "effective_on_shell_Ward_consistent_with_BGCE325": true,
+    "full_ten_component_Ward_derived": false,
+    "local_transfer_density": "D_alpha(h)/h -> gamma Q S_alpha",
+    "mesh": "h_m=5^(-m)",
+    "q_h": "exp(-gamma h)",
+    "weak_refinement_compatible_Ward": "the exact finite-stage telescoping identity descends against child-constant compactly supported cylinder test fields; interior terms cancel and only causal-boundary flux remains"
+  },
+  "counter_intuition_scan": {
+    "SIEL_specific_part": "The four scores, their interaction defects, raw/Petz metric variation, source causal routing, exp(-pi) Reynolds channel and refinement system are fixed by the pointed-Braid lineage.",
+    "falsifier": "Any sector/component failing the coboundary telescope, a refinement stage with unequal parent and five-child transfer, failure of the strong vertex identity, or a metric derivative different from D_alpha.",
+    "ordinary_explanation": "For any Markov channel, D=(I-Phi)S is a coboundary and its propagated sum telescopes. Strong Stinespring intertwining is a standard dilation form of the same conservation identity.",
+    "strongest_counterpattern": "The Ward identity is history-dressed and aligned-class scoped. It is not an emitted-bath additive current and does not by itself yield a metric equation of motion or prove general spacetime diffeomorphism invariance."
+  },
+  "date": "2026-09-24",
+  "decision": "The BGCE349 parent has an exact local total Ward identity when the interaction current is typed correctly. At each source vertex the BGCE323 strong intertwiner equates the incoming generator with the bare outgoing plus interaction generator, and BGCE349 identifies the same support compression D_alpha as the local metric derivative. Later collisions dress the interaction insertion. On the reduced algebra this gives the exact causal telescoping identity sum Phi^k(D_alpha)=S_alpha-Phi^n(S_alpha), with Phi^k(D_alpha)=q^kD_alpha for the source Reynolds channel. The identity is local along causal descendants, holds for all four components and all eight sectors, and is natural under five-way event-time and 625-child address refinement. The strict emitted-block-only spatial current remains excluded, so no prior NO-GO is reversed. The exact finite-stage identity yields a weak continuum Ward law only for refinement-compatible aligned cylinder test fields. It does not establish arbitrary smooth diffeomorphism Ward, full ten-component metric response, or direct backreaction.",
+  "fixed_source_revision": "dfdb0494b841e4c85f0caff145a9e5acb4ec27ed",
+  "formal_E0_E1_E2": "NOT_CLAIMED__PUBLIC_THEORETICAL_GATE_ONLY",
+  "gate_decision": {
+    "BQG_G1": "CLOSED_SCOPED_IN_ALIGNED_BLOCK_LOCAL_PARENT_AND_WARD_CLASS",
+    "BQG_G1_R01_5": "CLOSED_SCOPED",
+    "BQG_G2_R01_1": "ACTIVE",
+    "Einstein_Hilbert_or_Fierz_Pauli_used": false,
+    "Einstein_target_used": false,
+    "MMR_CGR_used": false,
+    "direct_finite_backreaction": false,
+    "fitted_coefficient_used": false,
+    "history_dressed_local_total_Ward": true,
+    "manual_three_fifths_used": false,
+    "strict_environment_only_spatial_Ward": false
+  },
+  "history_dressed_total_Ward": {
+    "Reynolds_closed_form": "Phi^k(D_alpha)=q^k D_alpha and sum=[(1-q^n)/(1-q)]D_alpha",
+    "all_eight_actual_sectors": true,
+    "all_four_components": true,
+    "history_current": "I_alpha^(k)=Phi^k(D_alpha)",
+    "n_step_identity": "sum_(k=0)^(n-1) Phi^k(D_alpha)=S_alpha-Phi^n(S_alpha)",
+    "operator_level_origin": "future collisions dress each local J_alpha insertion; strong isometry composition gives the same endpoint identity on the reachable support",
+    "records": [
+      {
+        "components": [
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 6.294661281986632e-31,
+            "component": 0,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 7.395570986446986e-31,
+                "history_dressed_telescoping_residual_HS_squared": 4.8810768510550105e-30,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 3.0013692253330684e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.3305864799782535e-29,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 5.429581699216495e-30,
+                "history_dressed_telescoping_residual_HS_squared": 9.515634669228455e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.0113443323966253e-29,
+                "history_dressed_telescoping_residual_HS_squared": 1.0606481389729385e-29,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 4.622231866529366e-33,
+            "component": 1,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 2,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 3,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          }
+        ],
+        "mask": 0
+      },
+      {
+        "components": [
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 6.294661281986632e-31,
+            "component": 0,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 7.395570986446986e-31,
+                "history_dressed_telescoping_residual_HS_squared": 4.8810768510550105e-30,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 3.0013692253330684e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.3305864799782535e-29,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 5.429581699216495e-30,
+                "history_dressed_telescoping_residual_HS_squared": 9.515634669228455e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.0113443323966253e-29,
+                "history_dressed_telescoping_residual_HS_squared": 1.0606481389729385e-29,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 4.622231866529366e-33,
+            "component": 1,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 2,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 3,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          }
+        ],
+        "mask": 5
+      },
+      {
+        "components": [
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 6.294661281986632e-31,
+            "component": 0,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 7.395570986446986e-31,
+                "history_dressed_telescoping_residual_HS_squared": 4.8810768510550105e-30,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 3.0013692253330684e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.3305864799782535e-29,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 5.429581699216495e-30,
+                "history_dressed_telescoping_residual_HS_squared": 9.515634669228455e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.0113443323966253e-29,
+                "history_dressed_telescoping_residual_HS_squared": 1.0606481389729385e-29,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 4.622231866529366e-33,
+            "component": 1,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 2,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 3,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          }
+        ],
+        "mask": 8
+      },
+      {
+        "components": [
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 6.294661281986632e-31,
+            "component": 0,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 7.395570986446986e-31,
+                "history_dressed_telescoping_residual_HS_squared": 4.8810768510550105e-30,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 3.0013692253330684e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.3305864799782535e-29,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 5.429581699216495e-30,
+                "history_dressed_telescoping_residual_HS_squared": 9.515634669228455e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.0113443323966253e-29,
+                "history_dressed_telescoping_residual_HS_squared": 1.0606481389729385e-29,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 4.622231866529366e-33,
+            "component": 1,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 2,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 3,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          }
+        ],
+        "mask": 13
+      },
+      {
+        "components": [
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 6.294661281986632e-31,
+            "component": 0,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 7.395570986446986e-31,
+                "history_dressed_telescoping_residual_HS_squared": 4.8810768510550105e-30,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 3.0013692253330684e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.3305864799782535e-29,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 5.429581699216495e-30,
+                "history_dressed_telescoping_residual_HS_squared": 9.515634669228455e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.0113443323966253e-29,
+                "history_dressed_telescoping_residual_HS_squared": 1.0606481389729385e-29,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 4.622231866529366e-33,
+            "component": 1,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 2,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 3,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          }
+        ],
+        "mask": 16
+      },
+      {
+        "components": [
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 6.294661281986632e-31,
+            "component": 0,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 7.395570986446986e-31,
+                "history_dressed_telescoping_residual_HS_squared": 4.8810768510550105e-30,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 3.0013692253330684e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.3305864799782535e-29,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 5.429581699216495e-30,
+                "history_dressed_telescoping_residual_HS_squared": 9.515634669228455e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.0113443323966253e-29,
+                "history_dressed_telescoping_residual_HS_squared": 1.0606481389729385e-29,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 4.622231866529366e-33,
+            "component": 1,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 2,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 3,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          }
+        ],
+        "mask": 21
+      },
+      {
+        "components": [
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 6.294661281986632e-31,
+            "component": 0,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 7.395570986446986e-31,
+                "history_dressed_telescoping_residual_HS_squared": 4.8810768510550105e-30,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 3.0013692253330684e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.3305864799782535e-29,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 5.429581699216495e-30,
+                "history_dressed_telescoping_residual_HS_squared": 9.515634669228455e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.0113443323966253e-29,
+                "history_dressed_telescoping_residual_HS_squared": 1.0606481389729385e-29,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 4.622231866529366e-33,
+            "component": 1,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 2,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 3,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          }
+        ],
+        "mask": 24
+      },
+      {
+        "components": [
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 6.294661281986632e-31,
+            "component": 0,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 7.395570986446986e-31,
+                "history_dressed_telescoping_residual_HS_squared": 4.8810768510550105e-30,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 3.0013692253330684e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.3305864799782535e-29,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 5.429581699216495e-30,
+                "history_dressed_telescoping_residual_HS_squared": 9.515634669228455e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.0113443323966253e-29,
+                "history_dressed_telescoping_residual_HS_squared": 1.0606481389729385e-29,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 4.622231866529366e-33,
+            "component": 1,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 1.1832913578315177e-30,
+                "history_dressed_telescoping_residual_HS_squared": 1.1832913578315177e-30,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 2,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          },
+          {
+            "Phi_D_equals_q_D_residual_HS_squared": 2.6963019221421302e-33,
+            "component": 3,
+            "histories": [
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 1
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 2
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 0.0,
+                "history_dressed_telescoping_residual_HS_squared": 0.0,
+                "steps": 3
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 4
+              },
+              {
+                "closed_geometric_formula_residual_HS_squared": 6.902532920683853e-31,
+                "history_dressed_telescoping_residual_HS_squared": 6.902532920683853e-31,
+                "steps": 5
+              }
+            ]
+          }
+        ],
+        "mask": 29
+      }
+    ],
+    "reduced_one_step": "D_alpha=(I-Phi)S_alpha",
+    "strict_fresh_block_additive_current": false,
+    "why_history_dressing_is_required": "spatial J_i acts on the continuing system and emitted block and is transformed by later collisions"
+  },
+  "input_hashes": {
+    "public-inputs/formal_checks/ocbfh014_source_native_refinement_naturality_check.py": "176c75ac349f0f3f142d9c850ca0682436b7ad00cd179f6806de253d0a7acabb",
+    "records/BGCE310_TORSOR_GAUGE_COVARIANT_ENVIRONMENT_CHARGE_AND_TOTAL_G1_BALANCE_GATE_20260923/RESULT.json": "cf2c04a8f32f8f5a2ffb2d2ff0c95600de10e2d467e830a0d5da65452a2988f0",
+    "records/BGCE311_FOUR_SOURCE_CHARGE_ENVIRONMENT_BALANCES_TO_DISCRETE_TOTAL_WARD_GATE_20260923/RESULT.json": "fb4a435034c5dfaa79864fd7c3dee0b3bc4c1d744e8763e6bb23b20b76c8d41d",
+    "records/BGCE322_COLLISION_SUPPORT_INTERACTION_STRESS_AND_FOUR_COMPONENT_BALANCE_GATE_20260923/RESULT.json": "d0206476f8e76b26a5ceebe641e25936c8f36ddfe7d30e616a7a773a8d700618",
+    "records/BGCE323_SOURCE_SELECTED_COLLISION_METRIC_DEFORMATION_TO_DYNAMICAL_INFLUENCE_AND_REPEATED_TOTAL_WARD_GATE_20260923/RESULT.json": "53fdaaa07353cf229151122c3510e699e656a4848fd8c350883f5f6c17af5229",
+    "records/BGCE325_G1_ALIGNED_STRONG_CTP_GENERATOR_TO_REPEATED_LOCAL_WARD_AND_CONTINUUM_STRESS_IDENTIFICATION_GATE_20260923/RESULT.json": "cec850cff6f08ec3bc980f87d89e3c4dfcf5ed6730ed56eb48895d8a8479cbd2",
+    "records/BGCE333_EXP_MINUS_PI_COLLISION_CTP_WARD_REINSTANTIATION_AND_REFINEMENT_NATURALITY_GATE_20260923/RESULT.json": "dcaee5d9226ad5d8bde278641cc1232f2a74a54652d6ae730a89b7c57a1968e9",
+    "records/BGCE336R2_REFINED_COLLISION_CTP_TO_CONTINUUM_LORENTZIAN_INFLUENCE_AND_NONCIRCULAR_FINITE_BACKREACTION_GATE_20260923/RESULT.json": "9147e820e85e8f5810a5134846718f017ead658b5e2cd22e9f529fb0903d750d",
+    "records/BGCE348_GAUGE_INVARIANT_CHOI_TANGENT_SUPPORT_AND_TRAJECTORY_SCORE_TO_FOUR_BALANCE_GATE_20260924/RESULT.json": "66068fafb8c3956945dfbf7a36ae407517b74be85bec4bbfcc4734ed5644c478",
+    "records/BGCE349_BRANCH_RESOLVED_CHOI_TRANSFER_TO_LOCAL_3PLUS1_DOUBLED_METRIC_LORENTZIAN_PARENT_GATE_20260924/RESULT.json": "ba240e4700abde0ce229d09fcc6094b98feec773414987aa5e53a86ce6c0d226"
+  },
+  "local_strong_vertex_Ward": {
+    "bare_output": "Y0_alpha=X_alpha tensor I+I tensor E_alpha",
+    "identity": "(Y0_alpha+J_alpha)V=V X_alpha",
+    "input_generator": "X_alpha in {G1,H1,H2,H3}",
+    "interaction": "J_alpha=R_alpha V*+V R_alpha*-V D_alpha V*",
+    "metric_variation_identity": "BGCE349 conditional log-score derivative=D_alpha",
+    "new_conservation_term_added": false,
+    "physical_support_compression": "V*J_alpha V=D_alpha",
+    "same_interaction_stress": true
+  },
+  "locality_and_refinement": {
+    "625_child_address_refinement": "625 child volumes sum exactly to one parent volume",
+    "address_and_time_refinement_commute": true,
+    "five_way_time_refinement": "sum_(r=0)^4 q_child^r(1-q_child)=1-q_parent",
+    "future_dependence": "only descendants in the source causal order, not spacelike unrelated cells",
+    "records": [
+      {
+        "625_child_address_measure_exact": true,
+        "five_child_history_dressed_transfer_residual": 1.1102230246251565e-16,
+        "level": 0,
+        "local_vertex_Ward_refinement_natural": true
+      },
+      {
+        "625_child_address_measure_exact": true,
+        "five_child_history_dressed_transfer_residual": 1.1102230246251565e-16,
+        "level": 1,
+        "local_vertex_Ward_refinement_natural": true
+      },
+      {
+        "625_child_address_measure_exact": true,
+        "five_child_history_dressed_transfer_residual": 1.1102230246251565e-16,
+        "level": 2,
+        "local_vertex_Ward_refinement_natural": true
+      },
+      {
+        "625_child_address_measure_exact": true,
+        "five_child_history_dressed_transfer_residual": 2.42861286636753e-17,
+        "level": 3,
+        "local_vertex_Ward_refinement_natural": true
+      },
+      {
+        "625_child_address_measure_exact": true,
+        "five_child_history_dressed_transfer_residual": 1.960237527853792e-16,
+        "level": 4,
+        "local_vertex_Ward_refinement_natural": true
+      },
+      {
+        "625_child_address_measure_exact": true,
+        "five_child_history_dressed_transfer_residual": 9.540979117872439e-18,
+        "level": 5,
+        "local_vertex_Ward_refinement_natural": true
+      }
+    ],
+    "source_causal_path_local": true
+  },
+  "next_gate": "BGCE351_COMPLETED_FINITE_SOURCE_CYLINDER_PARENT_TO_DIRECT_NONCIRCULAR_BACKREACTION_GATE",
+  "primary_evidence_status": "Theoretical derivation",
+  "public_snapshot": {
+    "id": "PUBLIC-SNAPSHOT-dfdb0494b841",
+    "last_event_id": "RPD-EVENT-0451",
+    "record_count": 105,
+    "reservoir_sha256": "7adc9570fdf2e0ee9020045c475350882d5d61b0d5ae8b879d90dcd4f807eaac",
+    "source_inventory_sha256": "d7313547ad937300f375bc5ced5070be83deb43aaf98046c5d87f887795c9352"
+  },
+  "qualifier": "exact strong-vertex and reduced telescoping Ward identity with all-eight-sector and refinement witnesses",
+  "runtime_class": "SUBSECOND_EXACT_COBBOUNDARY_IDENTITIES_PLUS_FIVE_STEP_HISTORY_AND_SIX_REFINEMENT_LEVELS_ALL_EIGHT_SECTORS_NO_SCAN",
+  "schema": "siel.public-calculation.bgce350.result.v1",
+  "status": "SCOPED_PASS_BGCE349_FINITE_PARENT_HAS_AN_EXACT_LOCAL_STRONG_VERTEX_WARD_AND_CAUSAL_HISTORY_DRESSED_REDUCED_TOTAL_WARD__STRICT_EMITTED_BLOCK_ADDITIVE_SPATIAL_CURRENT_NO_GO_RETAINED__FIVE_WAY_TIME_AND_625_CHILD_ADDRESS_REFINEMENT_NATURAL__WEAK_CONTINUUM_WARD_IN_REFINEMENT_COMPATIBLE_ALIGNED_CLASS__BQG_G1_R01_5_CLOSED_SCOPED"
+}

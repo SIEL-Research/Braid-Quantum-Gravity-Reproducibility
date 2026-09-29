@@ -9,7 +9,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-21/bundle-01/RESULT.json",
-      "sha256": "1f964c5659d3fae29caa1b399f78cadcf14a671d7a72ea94f381cc5e90db981d"
+      "sha256": "218b1ed646cb05562b3d358804b8537ffd7da81b2d961692692a88939da688d7"
     },
     {
       "bundle_label": "BGCE452 SOURCE HIERARCHICAL SPATIAL LAPLACIAN UCP HEAT AND WARD",
@@ -18,7 +18,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-21/bundle-01/evaluate.py",
-      "sha256": "9bd97387a71be9618af50c10ca7d0d9edf3856b466fbdfb6cfecd44e173116f4"
+      "sha256": "ffbc6a9a2378d4157dd86114226ff53700e3388ae59d4ef5d8dc588e62c61685"
     },
     {
       "bundle_label": "BGCE452 SOURCE HIERARCHICAL SPATIAL LAPLACIAN UCP HEAT AND WARD",
@@ -36,7 +36,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-21/bundle-02/RESULT.json",
-      "sha256": "4fed9753cb972805589fe3ca4277c5c766b40b007db02df609b3f89f9a465690"
+      "sha256": "b3dcf336cf36921c8b4239a3595195a005aa4372e318a1ac081ef83d8eed22e5"
     },
     {
       "bundle_label": "BGCE456 ACTUAL METRIC CONDUCTANCE HIERARCHICAL MARKOV AND WAVE COMPATIBILITY",
@@ -45,7 +45,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-21/bundle-02/evaluate.py",
-      "sha256": "9ce04b576c903c5e114bdbe3a378dc51d15a0d458b120392b1457b5517cb1354"
+      "sha256": "5934ad6569b85f642b4de7aaa4fb6d576ebd27662291a16d13f4f5505d454193"
     },
     {
       "bundle_label": "BGCE456 ACTUAL METRIC CONDUCTANCE HIERARCHICAL MARKOV AND WAVE COMPATIBILITY",
@@ -64,16 +64,16 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 5,
+      "file_count": 4,
       "kind": "vendored_calculation_package",
       "label": "BGCE452 SOURCE HIERARCHICAL SPATIAL LAPLACIAN UCP HEAT AND WARD",
-      "sha256_tree": "169d73a0e0402815f8ba5ea63c3ce2ddb3fa4a8b6e8ceb4a387a73feb963e586"
+      "sha256_tree": "814fa0b15cb8b7c7d8579074b166a0caacf5cd2e0da248ef7af88880e03b784c"
     },
     {
-      "file_count": 5,
+      "file_count": 3,
       "kind": "vendored_calculation_package",
       "label": "BGCE456 ACTUAL METRIC CONDUCTANCE HIERARCHICAL MARKOV AND WAVE COMPATIBILITY",
-      "sha256_tree": "cda166dce67a57ca10960d4e8ca229bfd9abfa1a104a10229b5551c518d05822"
+      "sha256_tree": "b822eb1845dfecb3b55819ab1236d32bd31b0a5739943a83765b1dc23c5686e2"
     }
   ],
   "status": "PUBLIC_CODE",

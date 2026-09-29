@@ -1,10 +1,10 @@
 {
-  "schema": "siel.dpa.bgce300r1.certificate.v1",
   "candidate_id": "BGCE300R1",
-  "verification": "python3 -B audits/SRA_DPA_BGCE300R1_A49_NONCIRCULAR_BACKREACTION_TO_LOW_ENERGY_SPIN2_EINSTEIN_GATE_20260923/verify.py",
-  "expected_stdout": "PASS_BGCE300R1_A49_NONCIRCULAR_BACKREACTION_AND_LOW_ENERGY_SPIN2",
-  "raw_output_sha256": "5d9003a6e5f86de1050e3310e72ac90c626babb4a210452b0ef0b80b161a445c",
-  "result_sha256": "3ea43d21415ffc1a33b4d4446e6db053772a886c604147b50d614b2c9931835a",
   "evaluate_sha256": "862f8175011ec69885260101530d7fbe6c2c882806c6134407794ba61c8a49df",
+  "expected_stdout": "PASS_BGCE300R1_A49_NONCIRCULAR_BACKREACTION_AND_LOW_ENERGY_SPIN2",
+  "raw_output_sha256": "9209881750cd7b5c205d0162b9dd8dfd4f10748c06d89eb02e1655f9b123c2a3",
+  "result_sha256": "aad820e6326f9d74a8bffc180d84a724f99f03b9e74ba8a77d2297a5815b9927",
+  "schema": "siel.public-calculation.bgce300r1.certificate.v1",
+  "verification": "python3 -B records/BGCE300R1_A49_NONCIRCULAR_BACKREACTION_TO_LOW_ENERGY_SPIN2_EINSTEIN_GATE_20260923/verify.py",
   "verify_sha256": "53e9e7c910a1e393a59d5154bd0ad59f41efea746edffa2f43d988f11ed082b6"
 }

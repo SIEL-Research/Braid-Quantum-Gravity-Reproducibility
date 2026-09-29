@@ -1,0 +1,123 @@
+{
+  "schema": "siel.public-calculation.bqgcal010.raw.v1",
+  "scout_id": "PUBLIC-RUN-BQGCAL-010-X1",
+  "gate_id": "BQGCAL-010_SOURCE_EXCITATION_AREA_NUMBER_TO_CONSERVED_MISNER_SHARP_MASS_AND_SCHWARZSCHILD_SPECTRUM_GATE",
+  "source_commit": "fdb714bece98c1dbc9a51d27a384d4315f16d22a",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-fdb714bece98",
+  "evidence_status": "Theoretical derivation",
+  "evidence_qualifiers": "Exact symbolic composition in the pinned source-normalized infrared Schwarzschild sector; finite-to-continuum physical screen typing and SI calibration remain open",
+  "scientific_layer": "source-normalized quasi-local boundary mass spectrum and vacuum conservation",
+  "governance_class": "PUBLIC_SCOPED_SCIENTIFIC_DECISION",
+  "decision": "SPLIT_SCOPED_PASS__IN_THE_PINNED_INFRARED_SCHWARZSCHILD_SECTOR_THE_GENERALIZED_MISNER_SHARP_CHARGE_IS_RADIAL_CONSTANT_AND_THE_SOURCE_SCREEN_PULLBACK_GIVES_M_K_EQUALS_TWENTY_PI_OVER_THREE_ELL_STAR_SQRT_K_EQUIVALENTLY_M_EQUALS_TEN_PI_SQRT_FIVE_ELL_STAR_SQRT_C_EXC__ITS_SQUARE_IS_EQUALLY_SPACED_IN_INTEGER_K_AND_A_FIXED_EMITTED_TAIL_BOUNDARY_IS_PRESERVED_BY_LATER_FRESH_COLLISIONS__SCOPED_NO_GO_FOR_IDENTIFYING_THIS_NONADDITIVE_BOUNDARY_MASS_WITH_THE_ADDITIVE_TOTAL_WARD_CHARGE__PHYSICAL_SCREEN_TYPING_AND_ABSOLUTE_SI_CALIBRATION_REMAIN_OPEN",
+  "bold_hypothesis": {
+    "interpretive_leap": "Treat sqrt(K), not K, as a nonlinear quasi-local boundary charge. Pull it into the already derived infrared Schwarzschild sector through the source screen radius and test it as the generalized Misner--Sharp mass.",
+    "new_structure": "M_boundary=(4*pi/kappa_B) r_h with r_h=ell_star sqrt(K) and K=(45/4) C_exc; the square root is defined by positive spectral functional calculus.",
+    "source_status": "DERIVED_INPUTS_PLUS_CONDITIONAL_FINITE_TO_CONTINUUM_SCREEN_TYPING",
+    "strongest_ordinary_alternative": "This is standard Schwarzschild area--mass scaling composed with an internal integer and is not a Braid-only physical mass until the count is independently typed as the physical screen number."
+  },
+  "misner_sharp_derivation": {
+    "coupling": "kappa_B=3/5",
+    "definition": "M_MS(r)=(4*pi/kappa_B)*r*(1-g^{ab}partial_a r partial_b r)",
+    "schwarzschild_radial_factor": "r*(1-(1-r_h/r))=r_h",
+    "vacuum_charge": "M_MS=(20*pi/3)*r_h",
+    "radially_constant": true,
+    "scope": "source-normalized continuum charge, not SI kilograms"
+  },
+  "source_mass_spectrum": {
+    "screen_radius": "r_h=r_K=ell_star*sqrt(K)",
+    "area_number": "K=(45/4)C_exc,n",
+    "mass_from_integer": "M_K=(20*pi/3)*ell_star*sqrt(K)",
+    "mass_from_casimir": "M_C=10*pi*sqrt(5)*ell_star*sqrt(C_exc,n)",
+    "mass_squared_law": "M_K^2=(400*pi^2/9)*ell_star^2*K=500*pi^2*ell_star^2*C_exc,n",
+    "equally_spaced_quantity": "M_K^2",
+    "mass_itself_equally_spaced": false,
+    "perfect_square_witnesses": [
+      {
+        "K": 0,
+        "sqrt_K": 0,
+        "M_over_pi_ell_star": "0",
+        "M_squared_over_pi_squared_ell_star_squared": "0"
+      },
+      {
+        "K": 1,
+        "sqrt_K": 1,
+        "M_over_pi_ell_star": "20/3",
+        "M_squared_over_pi_squared_ell_star_squared": "400/9"
+      },
+      {
+        "K": 4,
+        "sqrt_K": 2,
+        "M_over_pi_ell_star": "40/3",
+        "M_squared_over_pi_squared_ell_star_squared": "1600/9"
+      },
+      {
+        "K": 9,
+        "sqrt_K": 3,
+        "M_over_pi_ell_star": "20",
+        "M_squared_over_pi_squared_ell_star_squared": "400"
+      },
+      {
+        "K": 16,
+        "sqrt_K": 4,
+        "M_over_pi_ell_star": "80/3",
+        "M_squared_over_pi_squared_ell_star_squared": "6400/9"
+      }
+    ]
+  },
+  "finite_boundary_conservation": {
+    "fixed_emitted_tail_boundary": true,
+    "reason": "Later collisions act on the continuing system and a fresh tail block; the pinned BGCE310 induction states that prior emitted block charges commute. Positive spectral functional calculus therefore preserves sqrt(C_exc,n) on a fixed emitted-tail algebra.",
+    "growing_boundary_flux": "Delta M_K=(20*pi/3)*ell_star/(sqrt(K+1)+sqrt(K))",
+    "additive_total_Ward_charge": false,
+    "full_collision_total_mass_conservation": false
+  },
+  "noncompensating_gates": {
+    "G1_PINNED_SCREEN_CASIMIR_EINSTEIN_BLACK_HOLE_AND_WARD_INPUTS_VALID": true,
+    "G2_GENERALIZED_MISNER_SHARP_CHARGE_IS_RADIAL_CONSTANT_IN_PINNED_VACUUM_METRIC": true,
+    "G3_SOURCE_HORIZON_PULLBACK_GIVES_M_K_EQUALS_TWENTY_PI_OVER_THREE_ELL_STAR_SQRT_K": true,
+    "G4_CASIMIR_PULLBACK_GIVES_M_EQUALS_TEN_PI_SQRT_FIVE_ELL_STAR_SQRT_C_EXC": true,
+    "G5_MASS_SQUARED_SPECTRUM_IS_EXACTLY_LINEAR_IN_INTEGER_K": true,
+    "G6_FIXED_EMITTED_TAIL_BOUNDARY_MASS_IS_PRESERVED_BY_LATER_FRESH_COLLISIONS": true,
+    "G7_NONLINEAR_BOUNDARY_MASS_EQUALS_ADDITIVE_TOTAL_WARD_CHARGE": false,
+    "G8_FINITE_COUNT_IS_UNCONDITIONALLY_TYPED_AS_THE_PHYSICAL_GEOMETRIC_SCREEN_NUMBER": false,
+    "G9_ABSOLUTE_SI_LENGTH_MASS_AND_NEWTON_SCALE_DERIVED": false,
+    "G10_NO_TARGET_ACCESS_FIT_SCAN_OR_LONG_COMPUTATION": true
+  },
+  "scoped_misner_sharp_spectrum_pass": true,
+  "fixed_boundary_vacuum_conservation_pass": true,
+  "additive_total_ward_mass_pass": false,
+  "unconditional_physical_screen_typing_pass": false,
+  "absolute_si_calibration_pass": false,
+  "pattern": "The source additive integer is naturally an area number. Its positive square root, not the integer itself, has the Schwarzschild/Misner--Sharp mass homogeneity, and its square is exactly equally spaced.",
+  "interpretive_leap": "The mass is a nonlinear boundary charge obtained by spectral functional calculus, not a sum of local collision energies.",
+  "alternative_explanations": [
+    "The square-root spectrum is the standard Schwarzschild area--mass law composed with an internally derived integer.",
+    "Fixed-tail conservation follows from causal support separation and does not prove a new total Ward energy.",
+    "Without an independent physical screen typing, K may remain an internal excitation count."
+  ],
+  "novel_hypothesis": "The pointed excitation Casimir is the finite area-number preimage of the vacuum Misner--Sharp boundary charge; physical mass is its positive square root after the source screen solder.",
+  "falsifier": "Reject if the generalized Misner--Sharp charge is not radially constant for f=1-r_h/r, if the K and C_exc pullbacks disagree, if later fresh-tail collisions act on the fixed emitted-tail boundary algebra, or if any fitted coefficient is required.",
+  "required_prospective_test": "Derive the identification between the pointed excitation count and the geometric boundary index from the finite source itself, then determine whether the remaining source unit can be tied to one independently measured SI anchor without using black-hole target data.",
+  "strongest_ordinary_alternative": "This is standard Schwarzschild area--mass scaling composed with an internal integer and is not a Braid-only physical mass until the count is independently typed as the physical screen number.",
+  "counter_intuition_scan": "The coefficient and square-root law are exact and unfitted, but the Misner--Sharp definition is standard continuum geometry and the finite tetrahedral screen-to-spherical-boundary typing is still conditional. This closes the source-normalized vacuum spectrum, not absolute mass or a finite quantum black hole.",
+  "confidence_in_exact_composition": "VERY_HIGH_EXACT",
+  "confidence_in_unconditional_physical_mass_interpretation": "LOW_OPEN",
+  "standard_explanation": "In four-dimensional Schwarzschild geometry, horizon area is quadratic in mass and the Misner--Sharp charge is constant in vacuum.",
+  "SIEL_specific_interpretation": "The actual pointed-Braid source supplies the integer area number, the 4/45 Casimir coefficient, the screen radius law, and the relative 3/5 coupling without fitting.",
+  "novelty_question": "No external novelty claim is made until physical screen typing and SI traceability are independently closed.",
+  "distinguishing_prediction": "If the physical screen typing survives, the source predicts exact equal spacing in M^2, with M_K proportional to sqrt(K), rather than equal mass spacing.",
+  "SIEL_generation_classification": "SIEL_GUIDED_STANDARD_COMPATIBLE",
+  "claim_ceiling": "This scout may derive a source-normalized fixed-boundary vacuum-conserved Misner--Sharp/Schwarzschild mass spectrum by composing pinned source results. It may not prove unique physical screen typing, equality with the additive total Ward energy, SI mass or Newton's constant, entropy, Hawking physics, empirical gravity, or completed quantum gravity.",
+  "next_gate": "BQGCAL-011_SOURCE_EXCITATION_COUNT_TO_GEOMETRIC_BOUNDARY_INDEX_AND_SINGLE_SI_ANCHOR_GATE",
+  "work_packages": [
+    "BQG-G3-R03.2",
+    "BQG-G3-R03.5"
+  ],
+  "work_package_status": "R03.2_EXTERNAL_PENDING_WITH_SOURCE_NORMALIZED_MASS_SPECTRUM_PASS__R03.5_PARTIAL_STRENGTHENED",
+  "runtime": {
+    "python": "3.14.6",
+    "target_data_accessed": false,
+    "parameter_scan_used": false,
+    "long_computation_used": false
+  }
+}

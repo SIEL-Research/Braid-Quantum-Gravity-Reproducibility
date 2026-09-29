@@ -8,8 +8,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-18/bundle-01/DPA_SCOUT_015/RAW_OUTPUT.json",
-      "sha256": "760dc37b191c0199d01be8fbcdb2a1dc16b34f9d6748c5fce361ab5d5964fded"
+      "path": "evidence/statements/artifacts/V100-THE-18/bundle-01/RUN_015/RAW_OUTPUT.json",
+      "sha256": "55769dab5785bdcace34c4cbf948393d7623020c871fccf3a8557a9cf5852f23"
     },
     {
       "bundle_label": "BQGADM015 MOVING PROJECTOR ALL SOURCE MOMENTA 20260929",
@@ -17,8 +17,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-18/bundle-01/DPA_SCOUT_015/RESULT.json",
-      "sha256": "045bef41d3731ee7fa79d3f9d1eda3eb03e4f18fb7c95f4cb0a37d3b2f2f612e"
+      "path": "evidence/statements/artifacts/V100-THE-18/bundle-01/RUN_015/RESULT.json",
+      "sha256": "d3e37cb2779a0c44dfa00b23da55cab1630065df6c4cf992b96d43a55a4f7cdb"
     },
     {
       "bundle_label": "BQGADM015 MOVING PROJECTOR ALL SOURCE MOMENTA 20260929",
@@ -26,8 +26,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "SOURCE_MATRIX.json",
-      "path": "evidence/statements/artifacts/V100-THE-18/bundle-01/DPA_SCOUT_015/SOURCE_MATRIX.json",
-      "sha256": "86a01a6211f5ed1b35b8f4a7ad13928061c7f222e8b5bebad1289c629192e6c8"
+      "path": "evidence/statements/artifacts/V100-THE-18/bundle-01/RUN_015/SOURCE_MATRIX.json",
+      "sha256": "7bcf6b40dbdad839e1a4f183c826794aecbea3fe15d1c848b1548764a435d979"
     },
     {
       "bundle_label": "BQGSTRAT013 SOURCE PERFECT BFV SCHUR COMPLEMENT",
@@ -35,8 +35,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-18/bundle-02/DPA_SCOUT_013/RAW_OUTPUT.json",
-      "sha256": "c6f9a146de1cf0b96bc24c911b50b251b2c10014fa7bae2d3717dca0a02ac781"
+      "path": "evidence/statements/artifacts/V100-THE-18/bundle-02/RUN_013/RAW_OUTPUT.json",
+      "sha256": "292354341f14a1dc0a64f44e806061b1a6008a5d946a420a0c544f3b946a06c2"
     },
     {
       "bundle_label": "BQGSTRAT013 SOURCE PERFECT BFV SCHUR COMPLEMENT",
@@ -44,8 +44,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-18/bundle-02/DPA_SCOUT_013/RESULT.json",
-      "sha256": "7d996098439bbe0f1eec5c062b8d48b35ae6fb4f9310192992c03e85e4f4d409"
+      "path": "evidence/statements/artifacts/V100-THE-18/bundle-02/RUN_013/RESULT.json",
+      "sha256": "e9d99fe1b251e9696d64542176537d6525b431360789a14a98a8f39995af40ed"
     },
     {
       "bundle_label": "BQGSTRAT013 SOURCE PERFECT BFV SCHUR COMPLEMENT",
@@ -53,8 +53,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "SOURCE_MATRIX.json",
-      "path": "evidence/statements/artifacts/V100-THE-18/bundle-02/DPA_SCOUT_013/SOURCE_MATRIX.json",
-      "sha256": "1f15f9e4c314197fe191e9fd9e0472dd2986e033660e5f3f2802dfe9374fa19d"
+      "path": "evidence/statements/artifacts/V100-THE-18/bundle-02/RUN_013/SOURCE_MATRIX.json",
+      "sha256": "dad953f507c1c20621ce1eaa28953f41977b145913b1112c3b71237bf0608726"
     },
     {
       "bundle_label": "BQGSTRAT013 SOURCE PERFECT BFV SCHUR COMPLEMENT",
@@ -62,8 +62,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
-      "path": "evidence/statements/artifacts/V100-THE-18/bundle-02/DPA_SCOUT_013/evaluate.py",
-      "sha256": "d13950040ffd29692b7be3f69c10f5f39f5ad6c51c53577855b98c7443dcbe95"
+      "path": "evidence/statements/artifacts/V100-THE-18/bundle-02/RUN_013/evaluate.py",
+      "sha256": "6c4b30c49657f857dfcae8ad23f18701e73bcfc98bef8c77c9f234b161cfae0d"
     },
     {
       "bundle_label": "BQGSTRAT013 SOURCE PERFECT BFV SCHUR COMPLEMENT",
@@ -71,7 +71,7 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-THE-18/bundle-02/DPA_SCOUT_013/verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-18/bundle-02/RUN_013/verify.py",
       "sha256": "5451ea286ede04288a0df1ad41a5152bb4797004a190a963bdbb9270acb1ee07"
     }
   ],
@@ -82,16 +82,16 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 9,
+      "file_count": 8,
       "kind": "vendored_calculation_package",
       "label": "BQGADM015 MOVING PROJECTOR ALL SOURCE MOMENTA 20260929",
-      "sha256_tree": "e9da3ffe0fe6c252f9304194c5e73fd1c83fb081183373a77fbbaef70f4ac32c"
+      "sha256_tree": "f0b34837afd5a89be3e91078d0b0927ccb98613db46a0d4baf1777ca0fa9e1c6"
     },
     {
-      "file_count": 12,
+      "file_count": 11,
       "kind": "vendored_calculation_package",
       "label": "BQGSTRAT013 SOURCE PERFECT BFV SCHUR COMPLEMENT",
-      "sha256_tree": "a19840c8721ff6c4f1acf746517a82832d95acd2767de970f7ab2a8e002ff63d"
+      "sha256_tree": "567a7eb2e36a22c9159d06f90d97abf339f09c895247c78efeb230d2ba9438d2"
     }
   ],
   "status": "PUBLIC_CODE",

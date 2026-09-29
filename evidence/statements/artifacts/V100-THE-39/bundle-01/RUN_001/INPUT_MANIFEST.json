@@ -1,0 +1,21 @@
+{
+  "fixed_operator": "U_F=C_g exp[-i(2*pi/3)L_w]",
+  "gate_id": "BQGNEUT-024_SOURCE_ORDERED_C3_WEIGHTED_FLOQUET_SIMULTANEOUS_CP_GAP_GATE",
+  "inputs": [
+    {
+      "path": "records/BQGNEUT022_SOURCE_CONJUGATION_EQUIVARIANT_HISTORY_PROCESS_AND_PHASE_FRAME_GATE_20260928/RUN_001/RESULT.json",
+      "sha256": "4314839758fba41bf130db4b6878ce54c7559f3519ae6a12833ad1ac4acb8282"
+    },
+    {
+      "path": "records/BQGNEUT023_INTERNAL_M3_NEUTRAL_CARRIER_AND_SOURCE_WEIGHTED_GAP_LAPLACIAN_GATE_20260928/RUN_001/RESULT.json",
+      "sha256": "d1b446b278d4255d47065cfb36c173ca01e011582bc773efe2f4feba29f688fc"
+    }
+  ],
+  "long_computation_used": false,
+  "parameter_scan_used": false,
+  "schema": "siel.public-calculation.bqgneut024.input.v1",
+  "scout_id": "BQGNEUT-024-X1",
+  "source_commit": "7fc09683a6f47ddb11e64f5d41c81b6f0bda26b3",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-7fc09683a6f4",
+  "target_data_accessed": false
+}

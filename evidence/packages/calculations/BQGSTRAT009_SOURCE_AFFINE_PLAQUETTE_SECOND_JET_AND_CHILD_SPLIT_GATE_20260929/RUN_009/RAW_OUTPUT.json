@@ -1,0 +1,88 @@
+{
+  "K_blocks": {
+    "K_ib": "H restricted to interior x boundary",
+    "K_ii": "H restricted to interior x interior"
+  },
+  "actual_caustic_closed": false,
+  "constant_connection_log": {
+    "A*B": "1",
+    "B*A": "-1"
+  },
+  "construction_passed": true,
+  "incidence_checks": {
+    "all_counts_exact": true,
+    "all_interior_edge_linear_incidence_zero": true,
+    "flat_face_log_zero": true,
+    "source_children_625": true
+  },
+  "incidence_counts": {
+    "cells": 625,
+    "edges_boundary": 3040,
+    "edges_interior": 1280,
+    "edges_total": 4320,
+    "faces_boundary": 3000,
+    "faces_interior": 2400,
+    "faces_total": 5400,
+    "vertices_boundary": 1040,
+    "vertices_interior": 256,
+    "vertices_total": 1296
+  },
+  "interior_incidence_residuals": {},
+  "plaquette_checks": {
+    "constant_connection_linear_term_zero": true,
+    "constant_connection_quadratic_is_commutator": true,
+    "general_BCH_second_jet_exact": true,
+    "orientation_reversal_negates_log": true
+  },
+  "plaquette_log_degree_two": {
+    "A": "1",
+    "A*B": "1/2",
+    "A*C": "-1/2",
+    "A*D": "-1/2",
+    "B": "1",
+    "B*A": "-1/2",
+    "B*C": "-1/2",
+    "B*D": "-1/2",
+    "C": "-1",
+    "C*A": "1/2",
+    "C*B": "1/2",
+    "C*D": "1/2",
+    "D": "-1",
+    "D*A": "1/2",
+    "D*B": "1/2",
+    "D*C": "-1/2"
+  },
+  "raw_field_dimensions": {
+    "K_ib_shape": [
+      24576,
+      65280
+    ],
+    "K_ii_shape": [
+      24576,
+      24576
+    ],
+    "boundary_coordinates": 65280,
+    "coframe_components_per_vertex": 16,
+    "connection_components_per_edge": 16,
+    "interior_coordinates": 24576
+  },
+  "schema": "siel.public-calculation.bqgstrat009.raw.v1",
+  "second_variation": "C sum epsilon epsilon [2 ebar f (D a) + ebar ebar Q(a,a)]",
+  "source_checks": {
+    "Palatini_temporal_condition_preserved": true,
+    "Pexp_link_discretization_present": true,
+    "face_log_scaling_present": true,
+    "flat_anchor_present": true,
+    "identity_component_present": true,
+    "ordered_history_required": true,
+    "prior_nonidentifiability_preserved": true
+  },
+  "stationarity_checks": {
+    "coframe_gradient_zero_at_flat_anchor": true,
+    "component_selection_proved": false,
+    "interior_connection_gradient_zero_by_incidence": true,
+    "rank_or_crossing_evaluated": false,
+    "raw_K_blocks_well_defined": true
+  },
+  "theorem_sha256": "09ad5a43e0c2aa3ec5201d5aabef393f99b8d37b88a6db00bdd3ca908c07d7a0"
+}

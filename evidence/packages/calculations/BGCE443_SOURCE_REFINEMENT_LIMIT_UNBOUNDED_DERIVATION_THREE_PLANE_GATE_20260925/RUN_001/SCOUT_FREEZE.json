@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-25",
+  "e0_required": false,
+  "evaluate_scout_sha256": "0f079f84587616a0a03d8d3947d506a340748f9ac65b17185b9c692bfcaa3cdc",
+  "execution_count": 0,
+  "input_manifest_sha256": "9d5c2a8ee379707e73a032b36f6964db5e368502fcf7d330e1294269646dde58",
+  "next_permitted_action": "EXECUTE_FROZEN_RUN_ONCE",
+  "output_overwrite_allowed": false,
+  "protocol": "protocols/public_calculation-exploratory-scouting.md",
+  "raw_output_exists": false,
+  "result_exists": false,
+  "schema": "siel.public-calculation.scout.bgce443.freeze.v1",
+  "scout_id": "PUBLIC-RUN-BGCE443-001",
+  "scout_plan_sha256": "d4d72512d5ef93de99dd7edfa03ec11f0cbafa911372007e7a4ee8d35789e35d",
+  "source_snapshot_sha256": "3a49ca52d0ea86879e94384cbb030d8d8231296044d3397d5ab022f13f412bc0"
+}

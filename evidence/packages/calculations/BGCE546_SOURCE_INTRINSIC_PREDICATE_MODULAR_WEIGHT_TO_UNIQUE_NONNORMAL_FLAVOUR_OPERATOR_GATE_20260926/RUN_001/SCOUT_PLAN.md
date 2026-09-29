@@ -1,0 +1,25 @@
+# BGCE546 frozen scout plan
+
+- Scout ID: `PUBLIC-RUN-BGCE546-001`
+- Parent question: can the three intrinsic generation predicates and the existing source-central KMS metric select one full-rank nonnormal flavour operator from the BGCE544 `M3` algebra without observed-mass input?
+- Work package: `BQG-G3-R03.7`
+- Pinned source commit: `9232d7284896cfc0e7116e3872aaef32cf110fe7`
+- North-star claim: the pointed source supplies not only the full generation algebra but a coefficient-free ordered response kernel selecting one forward flavour map and its forced star reverse.
+- Closest prior result: `PUBLIC-RUN-BGCE544-001` derives the full noncommutative `M3(R)` action algebra, while its equal-weight star-even aggregate remains rank-one and degenerate.
+- Current missing link: select one full-rank nonnormal operator from `M3` using only already derived source structure.
+- Directness: `direct`.
+- Interpretive leap: generation flavour is the right discrete derivative, at the intrinsic all-false pointed vertex, of the KMS correlation kernel between role-labelled anomaly-solution orientations.
+- New structure: encode each orientation by its five role-labelled directed Morita edges; use the BGCE530 half-density node weights and the derived representation multiplicities to define the exact kernel `C(x,y)`; define `K_ij=C(e_i,e_j)-C(e_i,0)` and map it through the prospectively fixed BGCE544 basis `L_i^*L_j`.
+- Source status: `DERIVED_KERNEL_AND_ORDERED_CTP_BRANCH_PAIR_WITH_SPECULATIVE_PHYSICAL_FLAVOUR_IDENTIFICATION`; no new numerical coefficient or target matrix is inserted.
+- Bold hypothesis: the pointed right-response operator is full rank, nonnormal and has three distinct positive singular values; its reverse branch is uniquely its transpose under BGCE532 CTP star pairing.
+- Strongest ordinary alternative: the only genuinely canonical KMS object is the symmetric Gram/Hessian; the pointed one-sided derivative may be a formal basepoint-dependent matrix whose physical flavour interpretation is not forced.
+- Counter-intuition scan: exact nonnormality and a nondegenerate singular spectrum would prove a source-typed selector inside this declared class, but would not prove that nature uses this kernel, actual-Braid specificity, CKM/PMNS or observed masses.
+- Exact endpoint: compute the rational `3x3` pointed response kernel, its BGCE544 multiplicity operator, rank, normality commutator, positive mass operator `Y^T Y`, characteristic coefficients and discriminant; compare the symmetric Gram control.
+- Exact PASS rule: rank `3`, nonzero normality commutator, positive determinant of `Y^T Y`, and strictly positive cubic discriminant for three distinct singular-value squares.
+- Exact falsifier: any PASS-rule failure, or failure of the forward/reverse transpose relation, rejects this selector in the declared class.
+- Minimum decisive test: exact rational arithmetic on the four fixed vertices `0,e0,e1,e2` and the nine BGCE544 star-paired basis products.
+- Stopping condition: stop after the PASS rule and symmetric-control comparison; do not inspect observed fermion masses or tune the kernel.
+- Conditions: `A1` full-rank nonnormal selector and `A2` distinct singular values are core discriminators; `B1` pinned role-edge reconstruction, `B2` exact source-weight provenance and `B3` forward/reverse transpose pairing are validity-critical; the symmetric Gram is the minimum adversarial control.
+- Evaluator command: `python3 records/BGCE546_SOURCE_INTRINSIC_PREDICATE_MODULAR_WEIGHT_TO_UNIQUE_NONNORMAL_FLAVOUR_OPERATOR_GATE_20260926/RUN_001/evaluate_scout.py`
+- Raw artifacts retained: `RAW_OUTPUT.json`, `RESULT.json`, `CERTIFICATE.json`, `STATUS.json`, `INPUT_MANIFEST.json`, evaluator, verifier and iteration ledger.
+- Claim ceiling: a PASS establishes only a unique selector inside the declared pointed-right-difference KMS response class of the BGCE439 derived groupoid. It does not establish uniqueness among all source functionals, observed masses, absolute scale, CKM/PMNS, CP violation, neutrino closure, empirical Standard-Model confirmation, actual-crossing specificity or completed quantum gravity.

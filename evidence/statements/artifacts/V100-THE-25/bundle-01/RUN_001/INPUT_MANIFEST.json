@@ -1,0 +1,48 @@
+{
+  "forbidden_inputs": [
+    "complex source matrices",
+    "input Hilbert or trace state",
+    "density matrix",
+    "Gleason noncontextuality",
+    "q phase",
+    "Born probability",
+    "frequency or coefficient fitting"
+  ],
+  "inputs": [
+    {
+      "path": "records/BGCE139_SOURCE_SPECTRAL_CYLINDER_OPERATIONAL_EVENT_IDENTIFICATION_GATE_20260919/RAW_OUTPUT.json",
+      "role": "exact 25-row source event permutation",
+      "sha256": "ddf630fbaff1ae4e72c778f47dc2bed6906da0a8aa17d4e6a98d2c96791955e9"
+    },
+    {
+      "path": "records/BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925/RUN_001/RAW_OUTPUT.json",
+      "role": "reconstructed complex-sector baseline",
+      "sha256": "5eaed6dbd653657f2febef4b16da68e0fb092d766817ad8e4810eadbce31bb4e"
+    },
+    {
+      "path": "records/BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925/RUN_001/RESULT.json",
+      "role": "BGCE458 decision and open Born boundary",
+      "sha256": "1ecdd67e1faf9b3a271fe140444ba422e482483570e6e4b0473881c10717a789"
+    },
+    {
+      "path": "public-inputs/formal_checks/ocbfh017_source_cup_trace_necessity_certificate_v1.json",
+      "role": "source-cup normalized trace and uniqueness boundary",
+      "sha256": "54c20f4c0df9d757746fdafff522e84a63225b68224c4a35ad0939732de2e517"
+    },
+    {
+      "path": "public-inputs/formal_checks/disc008_captower194r_coherent_brauer_cap_tower_v1.json",
+      "role": "all-stage dagger cap/evaluation closure theorem",
+      "sha256": "98011b7f02fbbc99a8cf34f7a8eb837135c784baf5a3b498c6dacc8d29bafe14"
+    },
+    {
+      "path": "public-inputs/formal_checks/ocbfh007_reciprocal_crossing_parallelogram_quadratic_origin_certificate_v1.json",
+      "role": "existing exact norm-blind nonquadratic controls",
+      "sha256": "a891e2db7642ba5870a774ffc89c9991f40bc4a740b8309d2a6ae1b40fd7aa41"
+    }
+  ],
+  "path_semantics": "No glob, search-selected partition, external data, or excluded row. The evaluator reads only the exact paths listed above and selects the first two actual C three-cycles in canonical history-index order.",
+  "schema": "siel.public-calculation.scout.input-manifest.v1",
+  "scout_id": "PUBLIC-RUN-BGCE459-001",
+  "source_commit": "0de3fde9ca4d2f896eac3c63f948641da104843b",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-0de3fde9ca4d"
+}

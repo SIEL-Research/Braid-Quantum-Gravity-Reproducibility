@@ -1,0 +1,70 @@
+{
+  "schema": "siel.public-calculation.bqgcal043.raw.v1",
+  "scout_id": "PUBLIC-RUN-BQGCAL-043-X1",
+  "gate_id": "BQGCAL-043_SOURCE_QUANTUM_PHASE_ACTION_AND_EVENT_CELL_TYPE_COMPOSITION_TO_UNCONDITIONAL_ONE_ANCHOR_GATE",
+  "source_commit": "8bc2d35db108ad12fd365407444e3a2c6e078f3c",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-8bc2d35db108",
+  "bold_hypothesis": {
+    "interpretive_leap": "the current finite collision phase and source four-cell are two typed faces of one physical action",
+    "new_assumption": "the phase operator and BGCE325 scalar action share one source-native variational parent",
+    "assumption_status_before_test": "NOT_DERIVED",
+    "mechanism_class_change": "DETERMINANT_OR_FOCK_NORMALIZATION_TO_DIRECT_QUANTUM_PHASE_DENSITY_COMPOSITION"
+  },
+  "type_inventory": {
+    "collision_phase_generator": "self_adjoint_operator_on_finite_dilation_Hilbert_space",
+    "event_cell_measure": "scalar_four_density_on_source_derived_base",
+    "continuum_action": "real_scalar_functional_of_fields_and_metric",
+    "Hilbert_stress": "metric_variation_of_scalar_action_functional"
+  },
+  "exact_first_variation_witness": {
+    "metric": "diag(-1,1,1,1)",
+    "field": "lambda=t with unit target Fisher metric",
+    "BGCE325_T00": "1/2",
+    "fixed_collision_phase_metric_derivative": "0",
+    "match": false
+  },
+  "required_maps": {
+    "phase_operator_to_continuum_scalar_action_functional": false,
+    "metric_dependent_source_unitary_family": false,
+    "equality_of_phase_and_Hilbert_metric_variations": false
+  },
+  "gates": {
+    "G1_HASHES": true,
+    "G2_SOURCE_FOUR_CELL_DENSITY": true,
+    "G3_CONDITIONAL_QUANTUM_ACTION_UNIT": true,
+    "G4_SOURCE_NATIVE_NOETHER_GENERATOR": false,
+    "G5_METRIC_DEPENDENT_SOURCE_UNITARY": false,
+    "G6_PHASE_TO_SCALAR_ACTION_MORPHISM": false,
+    "G7_METRIC_VARIATIONS_MATCH": false,
+    "G8_BQGCAL042_ONE_ANCHOR_THEOREM_RETAINED": true,
+    "G9_NO_FIT_NO_SCAN": true
+  },
+  "decision": "SCOPED_NO_GO_DIRECT_COMPOSITION_OF_THE_CURRENT_FIXED_COLLISION_QUANTUM_PHASE_WITH_THE_SOURCE_EVENT_CELL_AS_AN_UNCONDITIONAL_COMMON_PHYSICAL_ACTION__THE_PHASE_GENERATOR_IS_AN_OPERATOR_WHILE_BGCE325_IS_A_SCALAR_FIELD_FUNCTIONAL__THE_REQUIRED_SOURCE_MORPHISM_IS_ABSENT__FIXED_COLLISION_METRIC_VARIATION_IS_ZERO_BUT_THE_EXACT_BGCE325_WITNESS_HAS_T00_ONE_HALF__BQGCAL042_MINIMAL_ONE_EXTERNAL_ANCHOR_THEOREM_REMAINS_CLOSED_SCOPED_EXACT",
+  "assessment": {
+    "direct_phase_event_cell_physical_action": "SCOPED_NO_GO_CURRENT_FIXED_SOURCE",
+    "conditional_action_unit": "RETAINED_SCOPED_PASS",
+    "minimal_external_anchor_count_in_declared_typed_class": 1,
+    "source_only_zero_anchor_absolute_scale": "NO_GO_RETAINED",
+    "scale_rank_after_typed_composition": 1,
+    "universal_anchor_value_and_traceability": "EXTERNAL_PENDING",
+    "BQG_G3_R03_2_status": "EXTERNAL_PENDING_ONE_ANCHOR_VALUE_AND_TRACEABILITY"
+  },
+  "strongest_ordinary_alternative": "A four-density fixes integration type and units but does not turn an operator phase into a scalar variational action. The exact zero-versus-one-half witness realizes that type distinction.",
+  "counter_intuition_scan": "The failure does not introduce a second scale and does not refute the quantum phase, event-cell measure, effective Hilbert stress or one-anchor theorem separately. It excludes only their direct identification without a common metric-dependent generating functional.",
+  "falsifier": "A source-derived metric-dependent collision family U[g] and scalar CTP logarithmic functional whose time variation yields the collision phase and whose metric variation per source event cell equals the BGCE325 Hilbert stress would falsify this route exclusion.",
+  "minimum_decisive_next_test": "Construct the source-native CTP logarithmic characteristic functional from the actual forward/backward collision pair, differentiate it with respect to metric and clock, and require one common nonzero generator and Hilbert-stress variation without fitted coefficients.",
+  "evidence_status": "Theoretical derivation",
+  "scientific_layer": "finite quantum phase to continuum variational action typing",
+  "governance_class": "PUBLIC_SCOPED_SCIENTIFIC_DECISION",
+  "claim_ceiling": "BQGCAL-043 excludes direct physical-action identification by composing the current fixed collision phase with the source event-cell density. It does not exclude a genuinely metric-dependent CTP characteristic functional, alter the scoped one-anchor rank theorem, determine the universal anchor value, predict Newton's constant or complete quantum gravity.",
+  "next_gate": "BQGCAL-044_SOURCE_METRIC_DEPENDENT_CTP_LOG_CHARACTERISTIC_FUNCTIONAL_TO_COMMON_PHASE_AND_HILBERT_STRESS_GATE",
+  "work_packages": [
+    "BQG-G3-R03.2",
+    "BQG-G3-R03.5"
+  ],
+  "runtime": {
+    "python": "3.14.6",
+    "long_computation_used": false,
+    "target_data_accessed": false
+  }
+}

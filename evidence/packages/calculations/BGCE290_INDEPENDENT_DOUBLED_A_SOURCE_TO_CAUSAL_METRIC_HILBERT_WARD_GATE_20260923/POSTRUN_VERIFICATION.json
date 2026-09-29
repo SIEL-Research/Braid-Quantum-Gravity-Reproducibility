@@ -1,0 +1,11 @@
+{
+  "candidate_id": "BGCE290",
+  "formal_endpoint_gate": "NOT_APPLICABLE_PUBLIC_CALCULATION",
+  "raw_output_sha256": "f4661c8007524532a5da1ceb8a97a29e98bd2fa9af968ef8730453868e8aa724",
+  "result_sha256": "fe7000b5c16f8b3225ca18799170b25d98307208cada544b605675f483e0be8b",
+  "schema": "siel.public-calculation.bgce290.postrun.v1",
+  "scientific_decision": "FULL_PASS_IN_DECLARED_LOCAL_SECOND_ORDER_CONSERVATIVE_CLASS_PENDING_BGCE291_INDEPENDENT_SCOPE_RED_TEAM",
+  "status": "PASS",
+  "verification_command": "python3 records/BGCE290_INDEPENDENT_DOUBLED_A_SOURCE_TO_CAUSAL_METRIC_HILBERT_WARD_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE290_VERIFICATION"
+}

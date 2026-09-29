@@ -1,0 +1,47 @@
+{
+  "schema": "siel.public-calculation.bqgstrat009.sources.v1",
+  "snapshot_commit": "162680b8b2c0b45d2ceaa6baef6a1f00d9af7cc5",
+  "sources": [
+    {
+      "path": "records/BGCE094_TEMPORAL_CARTAN_PAIR_CONDITIONAL_FINITE_ACTION_PACKET_20260919/RESULT.json",
+      "role": "conditional six-face Palatini action",
+      "sha256": "71f855f2ef7df8e58f9d8f6939ec30f943b6cb010e05d8601288b44f1f54e712"
+    },
+    {
+      "path": "records/BGCE096_TEMPORAL_CARTAN_PARENT_CHILD_MAP_GATE_20260919/RESULT.json",
+      "role": "oriented plaquette word and exact coarsening",
+      "sha256": "5df0202fdc4990e63887af65e1b33dd26fa61687fefd11aafc9199c38f5fa0b5"
+    },
+    {
+      "path": "records/BGCE097_FULL_SIX_FACE_ACTION_FIVE_ADIC_ADDITIVITY_GATE_20260919/RESULT.json",
+      "role": "principal face-log scaling",
+      "sha256": "5745541e2bb5b5d551c21cad16ad00ee8585b3910b1eb86ee0537ebb223dcc72"
+    },
+    {
+      "path": "records/BGCE137_DISCRETE_S4_CHART_TRANSITION_VERSUS_NEAR_IDENTITY_CARTAN_CONNECTION_FACTORING_GATE_20260919/RESULT.json",
+      "role": "source five-adic four-cube and orientation grade",
+      "sha256": "29975a607b599982fca4a52ec7f128bc7314586ed01ea43a4fe2f3bf27adc440"
+    },
+    {
+      "path": "records/BGCE138_SOURCE_CYLINDER_DIAGONAL_LOCALIZATION_AND_MINIMAL_SMOOTH_CARTAN_COMPLETION_GATE_20260919/RESULT.json",
+      "role": "Pexp link discretization, principal branch domain and flat anchor",
+      "sha256": "3d33466db2a8cbf79fa92bcb113bfab5c0f66a334809e4dfcd9d8e2c99828c12"
+    },
+    {
+      "path": "records/BQGCHILD001_SOURCE_FREE_VARIATIONAL_PALATINI_MATTER_CHILD_GATE_20260929/RUN_001/RESULT.json",
+      "role": "formal finite-depth child construction",
+      "sha256": "8ce5f0e0436ba7e5a62e107e4a51874f9df22e2bc7470a3e918a8599cff91052"
+    },
+    {
+      "path": "records/BQGSTRAT008_ACTUAL_PALATINI_SECOND_JET_IDENTIFIABILITY_GATE_20260929/RUN_008/RESULT.json",
+      "role": "current-packet second-jet non-identifiability boundary",
+      "sha256": "2967022604a9199f4d7ab907364e9a25ce17833b8b6ebafcb6cf0081942c07ae"
+    },
+    {
+      "path": "records/BQGSTRAT005_SPECTRAL_TRANSPORT_REFINEMENT_COCYCLE_GATE_20260929/BQGSTRAT_005/RESULT.json",
+      "revision": "a8a912cb8d17c312fd171ecefa8c2cbdd17af3fc",
+      "role": "ordered-history relation and endpoint-only branch-selection no-go",
+      "sha256": "1aa8f9eb53f0d27b84e441ab70d5abdc71aba5b63ef0f2fce355fc1af8eda2a3"
+    }
+  ]
+}

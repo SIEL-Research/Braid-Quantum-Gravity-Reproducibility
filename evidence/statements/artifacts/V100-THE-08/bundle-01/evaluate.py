@@ -8,7 +8,7 @@ import subprocess
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 REV = "777c293ff3425a0778511edf421d7a155be0a993"
-P = "audits/"
+P = "records/"
 
 
 def frozen(path):
@@ -27,19 +27,19 @@ def main():
         assert actual == expected, (path, actual, expected)
         checked[f"{REV}:{path}"] = actual
 
-    b89 = load(P + "SRA_DPA_BGCE089_CUMULANT_METRIC_X78_AFFINE_CURVATURE_PALATINI_CELL_ACTION_GATE_20260919/RESULT.json")
-    b99 = load(P + "SRA_DPA_BGCE099_CONDITIONAL_CONTINUUM_PALATINI_ACTION_AND_VARIATION_THEOREM_20260919/RESULT.json")
-    b138 = load(P + "SRA_DPA_BGCE138_SOURCE_CYLINDER_DIAGONAL_LOCALIZATION_AND_MINIMAL_SMOOTH_CARTAN_COMPLETION_GATE_20260919/RESULT.json")
-    b139 = load(P + "SRA_DPA_BGCE139_SOURCE_SPECTRAL_CYLINDER_OPERATIONAL_EVENT_IDENTIFICATION_GATE_20260919/RESULT.json")
-    b235 = load(P + "SRA_DPA_BGCE235_FULL_CORNER_MATTER_ACTION_AND_OUTER_UNIT_COMPOSITION_GATE_20260921/RESULT.json")
-    b238 = load(P + "SRA_DPA_BGCE238_FIXED_SOURCE_PACKET_COHERENCE_SELECTION_GATE_20260921/RESULT.json")
-    b239 = load(P + "SRA_DPA_BGCE239_MMR2_CLOSURE_DEPENDENCY_PROPAGATION_TO_SOURCED_EINSTEIN_GATE_20260921/RESULT.json")
-    b256 = load(P + "SRA_DPA_BGCE256_BRAID_INDUCED_EVENT_TRANSITION_COBORDER_TO_NEIGHBOR_COUPLING_LAW_GATE_20260921/RESULT.json")
-    b283 = load(P + "SRA_DPA_BGCE283_S4_CHART_EQUIVARIANT_METRIC_TENSOR_GLUE_GATE_20260923/RESULT.json")
-    b284 = load(P + "SRA_DPA_BGCE284_LOCAL_GL4_NATURALITY_AND_VARIATIONAL_STRESS_WARD_GATE_20260923/RESULT.json")
-    b294 = load(P + "SRA_DPA_BGCE294_SOURCE_SYMMETRIC_PRODUCT_FUNCTOR_TO_UNIQUE_PHYSICAL_SOLDER_GATE_20260923/RESULT.json")
-    b295 = load(P + "SRA_DPA_BGCE295_FINITE_BRAID_ACTION_TO_CONTINUUM_HILBERT_VARIATION_IDENTITY_GATE_20260923/RAW_OUTPUT.json")
-    b299 = load(P + "SRA_DPA_BGCE299_INDEPENDENT_STRESS_WARD_COMPLETION_RED_TEAM_AND_CLAIM_CEILING_AUDIT_20260923/RESULT.json")
+    b89 = load(P + "BGCE089_CUMULANT_METRIC_X78_AFFINE_CURVATURE_PALATINI_CELL_ACTION_GATE_20260919/RESULT.json")
+    b99 = load(P + "BGCE099_CONDITIONAL_CONTINUUM_PALATINI_ACTION_AND_VARIATION_THEOREM_20260919/RESULT.json")
+    b138 = load(P + "BGCE138_SOURCE_CYLINDER_DIAGONAL_LOCALIZATION_AND_MINIMAL_SMOOTH_CARTAN_COMPLETION_GATE_20260919/RESULT.json")
+    b139 = load(P + "BGCE139_SOURCE_SPECTRAL_CYLINDER_OPERATIONAL_EVENT_IDENTIFICATION_GATE_20260919/RESULT.json")
+    b235 = load(P + "BGCE235_FULL_CORNER_MATTER_ACTION_AND_OUTER_UNIT_COMPOSITION_GATE_20260921/RESULT.json")
+    b238 = load(P + "BGCE238_FIXED_SOURCE_PACKET_COHERENCE_SELECTION_GATE_20260921/RESULT.json")
+    b239 = load(P + "BGCE239_MMR2_CLOSURE_DEPENDENCY_PROPAGATION_TO_SOURCED_EINSTEIN_GATE_20260921/RESULT.json")
+    b256 = load(P + "BGCE256_BRAID_INDUCED_EVENT_TRANSITION_COBORDER_TO_NEIGHBOR_COUPLING_LAW_GATE_20260921/RESULT.json")
+    b283 = load(P + "BGCE283_S4_CHART_EQUIVARIANT_METRIC_TENSOR_GLUE_GATE_20260923/RESULT.json")
+    b284 = load(P + "BGCE284_LOCAL_GL4_NATURALITY_AND_VARIATIONAL_STRESS_WARD_GATE_20260923/RESULT.json")
+    b294 = load(P + "BGCE294_SOURCE_SYMMETRIC_PRODUCT_FUNCTOR_TO_UNIQUE_PHYSICAL_SOLDER_GATE_20260923/RESULT.json")
+    b295 = load(P + "BGCE295_FINITE_BRAID_ACTION_TO_CONTINUUM_HILBERT_VARIATION_IDENTITY_GATE_20260923/RAW_OUTPUT.json")
+    b299 = load(P + "BGCE299_INDEPENDENT_STRESS_WARD_COMPLETION_RED_TEAM_AND_CLAIM_CEILING_AUDIT_20260923/RESULT.json")
 
     gravity = {
         "source_native_finite_first_order_action_preexists": "coefficient-free finite first-order action" in b89["positive_result"],
@@ -129,7 +129,7 @@ def main():
     assert "e=3 I_4" in spin2["anchor"] and "Gamma=0" in spin2["anchor"]
 
     out = {
-        "schema": "siel.dpa.bgce300r1.raw.v1",
+        "schema": "siel.public-calculation.bgce300r1.raw.v1",
         "candidate_id": "BGCE300R1",
         "source_revision": REV,
         "preregistered_question": "BGCE300 inherited unchanged; implementation revision only",
@@ -164,7 +164,7 @@ def main():
             "falsifier": "A source-identity proof that the two g variables or matter lineages differ, or an independent surviving relative action rescaling."
         },
         "runtime_class": "SUBSECOND_REVISION_MATCHED_DEPENDENCY_AND_SYMBOLIC_VARIATION_AUDIT_NO_SCAN",
-        "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+        "formal_E0_E1_E2": "NOT_CLAIMED__PUBLIC_THEORETICAL_GATE_ONLY",
         "next_gate": "BGCE301_A50_FINITE_QUANTUM_BACKREACTION_AND_HIGHER_DERIVATIVE_RESIDUAL_BOUNDARY_GATE",
         "claim_ceiling": "BGCE300R1 closes noncircular sourced Einstein backreaction and the low-energy massless spin-2 output only inside the fixed source model and the declared long-wavelength local second-order formally self-adjoint conservative continuum class. It does not derive full finite Lorentzian quantum backreaction, exclude higher-curvature or nonlocal corrections, calibrate the dimensionful Newton constant, validate natural spacetime empirically, or complete quantum gravity."
     }

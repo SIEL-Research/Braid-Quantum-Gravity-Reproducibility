@@ -1,0 +1,45 @@
+{
+  "CTP_and_raw_Petz_are_distinct_Z2_gradings": true,
+  "Petz_is_already_normalized_physical_Markov_family": false,
+  "Petz_is_source_fixed_KMS_adjoint": true,
+  "Theta_preserves_source_channel": true,
+  "Theta_supplies_typed_physical_difference_metric_map": false,
+  "all_input_hashes_match": true,
+  "base_record_is_fair_and_conditional_maps_equal": true,
+  "claim_ceiling": "Route exclusion for sign selection by the existing Petz/KMS, Theta and in/out structures only.  The exact source current and conditional relative Palatini stationary solution remain valid; irreversible source descent is open.",
+  "coefficient_fit": false,
+  "decision": "SCOPED_NO_GO_EXISTING_PETZ_KMS_ADJOINT_SOURCE_TIME_REVERSAL_AND_REFLECTED_IN_OUT_Z2_DO_NOT_UNIQUELY_SELECT_PETZ_MINUS_RAW_AS_THE_PHYSICAL_NEGATIVE_RADIAL_REACTION__THE_PRIOR_SUMMED_INSTRUMENT_REMAINS_ZERO__IRREVERSIBLE_SOURCE_DESCENT_LAW_REQUIRED",
+  "exact_branch_table": {
+    "Petz": "-D/2",
+    "Petz_minus_raw": "-D",
+    "prior_average": "0",
+    "raw": "+D/2",
+    "raw_minus_Petz": "+D"
+  },
+  "input_hash_checks": {
+    "records/BGCE319_CANONICAL_MODULAR_TIME_REVERSAL_AND_CTP_METRIC_GATE_20260923/RESULT.json": true,
+    "records/BGCE341_SOURCE_NONSECULAR_PETZ_KMS_ADJOINT_METRIC_DEFORMATION_GATE_20260924/RESULT.json": true,
+    "records/BGCE348_GAUGE_INVARIANT_CHOI_TANGENT_SUPPORT_AND_TRAJECTORY_SCORE_TO_FOUR_BALANCE_GATE_20260924/RESULT.json": true,
+    "records/BGCE349_BRANCH_RESOLVED_CHOI_TRANSFER_TO_LOCAL_3PLUS1_DOUBLED_METRIC_LORENTZIAN_PARENT_GATE_20260924/RESULT.json": true,
+    "records/BGCE357_SOURCE_SELECTED_SPANNING_PROBE_HISTORY_TO_ENDOGENOUS_GEOMETRY_UPDATE_GATE_20260924/RESULT.json": true,
+    "records/BGCE361_SOURCE_RAW_PETZ_RECORD_FEEDBACK_CONTROLLER_TO_G1_HI_PROBE_SCHEDULE_GATE_20260924/RESULT.json": true,
+    "records/BQGBH033_SOURCE_SCREEN_WALK_CURRENT_TO_RELATIVE_PALATINI_EULER_COVECTOR_GATE_20260929/RUN_001/RESULT.json": true
+  },
+  "negative_radial_coupling_uniquely_selected": false,
+  "next_gate": "BQGBH-035_SOURCE_RELATIVE_ENTROPY_PRODUCTION_TO_NEGATIVE_PALATINI_GRADIENT_GATE",
+  "ordinary_explanation": "A reversible adjoint pair contains both signs.  A cancelling reaction needs a source-derived arrow such as entropy descent, not a relabeling of which member is subtracted first.",
+  "parameter_scan": false,
+  "schema": "siel.public-calculation.bqgbh034.raw_output.v1",
+  "scout_id": "PUBLIC-RUN-BQGBH-034-X1",
+  "selector_results": {
+    "Petz_KMS_adjoint_selects_Petz_minus_raw_as_physical_radial_reaction": false,
+    "Theta_selects_Petz_minus_raw_as_physical_radial_reaction": false,
+    "base_raw_Petz_record_selects_unique_feedback": false,
+    "prior_summed_instrument_retains_negative_first_variation": false,
+    "reflected_in_out_Z2_can_be_identified_with_raw_Petz_Z2": false
+  },
+  "source_revision": "4c9a965917b4e2118712c9df0fb90490c9db8938",
+  "strongest_counterpattern": "The Petz branch has the required minus one-half tangent, but using the branch alone changes the physical prior and Petz-minus-raw reverses the already frozen BGCE348 contrast convention.",
+  "target_Einstein_tensor_accessed": false,
+  "target_stress_accessed": false
+}

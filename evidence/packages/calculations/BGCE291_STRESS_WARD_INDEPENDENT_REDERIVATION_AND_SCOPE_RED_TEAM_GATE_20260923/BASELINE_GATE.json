@@ -1,0 +1,14 @@
+{
+  "schema": "siel.public-calculation.bgce291.baseline-gate.v1",
+  "candidate_id": "BGCE291",
+  "source_identity": "PASS",
+  "source_revision": "f91912dad311897cd4d658f7aa8718c5dccf6b53",
+  "preregistered_commit": "c1a3a9f87d8c80cb685a3a5ed90c5f9023d5fc36",
+  "path_manifest": "PASS_EXACT_COMMITTED_PATHS_AND_HASHES",
+  "split_manifest_status": "NOT_APPLICABLE_THEORETICAL_EXACT_GATE",
+  "baseline_intermediate": "PASS_PRIMARY_CODE_AND_BGCE148_150_256_267_268_284_285_286_287_289_290_REVISION_MATCHED",
+  "baseline_primary": "PASS_EXACT_RANK10_AND_S4_COMMUTANT_DIMENSION9_REPRODUCED",
+  "intervention_invariants": "PASS_NO_NEW_ACTION_NO_COEFFICIENT_FIT_NO_NUMERICAL_SCAN",
+  "science_outcome_authorized": true,
+  "endpoint_provenance": "NOT_ISSUED_BY_PUBLIC__INDEPENDENT_REPRESENTATION_AND_SCOPE_AUDIT_ONLY"
+}

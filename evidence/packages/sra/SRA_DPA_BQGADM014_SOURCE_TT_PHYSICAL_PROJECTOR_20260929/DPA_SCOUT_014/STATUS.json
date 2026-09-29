@@ -1,9 +1,0 @@
-{
-  "schema": "siel.dpa.bqgadm014.status.v1",
-  "scout_id": "DPA-SCOUT-BQGADM-014",
-  "status": "COMPLETE",
-  "decision": "CLOSED_SCOPED_EXACT_FLAT_SOURCE_AXIS_PHYSICAL_PROJECTOR_AND_REFINEMENT_INTERTWINER__OPEN_NONLINEAR_MOVING_AND_ARBITRARY_MOMENTUM_PROJECTOR",
-  "primary_evidence_status": "Theoretical derivation",
-  "attempts": 1,
-  "work_packages": ["BQG-G3-R01.5", "BQG-G3-R02.5"]
-}

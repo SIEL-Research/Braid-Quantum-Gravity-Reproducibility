@@ -11,6 +11,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CJK = re.compile(r"[\u3040-\u30ff\u3400-\u9fff]")
 LOCAL_LINK = re.compile(r"\[[^\]]+\]\((?!https?://)([^)#]+)(?:#[^)]+)?\)")
+FORBIDDEN = (
+    "S" + "RA",
+    "D" + "PA",
+    "D" + "PA_SCOUT",
+    "SIEL-" + "Research-Agent",
+    "REPORT_" + "JA",
+    "AUDIT_" + "JA",
+)
 
 
 def main() -> None:
@@ -19,7 +27,7 @@ def main() -> None:
     failures = []
     index = (ROOT / "THEOREM_EVIDENCE_INDEX_v1.0.md").read_text(encoding="utf-8")
 
-    if "SRA_DPA_" in index or "REPORT_JA" in index or "SIEL-Research-Agent" in index:
+    if any(token in index for token in FORBIDDEN):
         failures.append("master index exposes an internal or Japanese-only endpoint")
 
     for identifier in expected:
@@ -44,7 +52,7 @@ def main() -> None:
         ):
             if required not in text:
                 failures.append(f"{identifier}: missing {required!r}")
-        if "SIEL-Research-Agent" in text or "REPORT_JA" in text or "SRA_DPA_" in text:
+        if any(token in text for token in FORBIDDEN):
             failures.append(f"{identifier}: points to private/Japanese-only evidence")
         if "## Navigation" in text or "THEOREM_EVIDENCE_INDEX" in text:
             failures.append(f"{identifier}: bounces back to an index instead of direct evidence")

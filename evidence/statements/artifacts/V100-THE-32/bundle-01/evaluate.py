@@ -13,11 +13,11 @@ ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 REV = "08251de82bef1bfe26c55840d36689a675c7ef96"
 INPUTS = {
-    "audits/SRA_DPA_BGCE406_SOURCE_BRAID_PARITY_TO_COMPACT_EQUIVARIANT_FERMIONIC_EXTERIOR_FUNCTOR_AND_PRIMITIVE_SUPERCHARACTER_GATE_20260924/CERTIFICATE.json": "7a95e6068f7063c330ffe91b8c2d3e328888497328322546410497acb50bf217",
-    "audits/SRA_DPA_BGCE416_SOURCE_KRAUS_SPECTRAL_MODULAR_BLOCK_COMPOSITION_TO_ASYMMETRIC_INDEX_AND_YUKAWA_TRILINEAR_GATE_20260924/CERTIFICATE.json": "31380cc60e803214f5c5ca27e400396433577705dbc74729a8c1edd612d3771d",
-    "audits/SRA_DPA_BGCE433_SOURCE_FIVE_NODE_MORITA_PATH_ALGEBRA_PRIMITIVE_ANOMALY_REALITY_ORIENTABILITY_AND_ONE_HIGGS_GATE_20260924/CERTIFICATE.json": "25d08166d7119d6e6ee519cd7f80767eeb662f8931352e4850b7efb9036e3284",
-    "audits/SRA_DPA_BGCE437_EIGHT_LIFT_ORIENTATION_CUBE_FOURIER_WEIGHT_ONE_TO_THREE_GENERATIONS_AND_TRIVIAL_SCALAR_GATE_20260924/CERTIFICATE.json": "ae61d7c95a1c6ab1d956e201c2fb2a12a9c616b30aa333b5385429cd02a5c709",
-    "audits/SRA_DPA_BGCE438_SOURCE_STAR_TIME_RAW_PETZ_CTP_ACTION_ON_UD_ORIENTATION_CUBE_TO_PHYSICAL_GENERATIONS_AND_EVEN_ONE_HIGGS_GATE_20260924/CERTIFICATE.json": "070aebc7b8785f6d0df536b33844f8f90645fb5944291813dc1d7213084729ff",
+    "records/BGCE406_SOURCE_BRAID_PARITY_TO_COMPACT_EQUIVARIANT_FERMIONIC_EXTERIOR_FUNCTOR_AND_PRIMITIVE_SUPERCHARACTER_GATE_20260924/CERTIFICATE.json": "7a95e6068f7063c330ffe91b8c2d3e328888497328322546410497acb50bf217",
+    "records/BGCE416_SOURCE_KRAUS_SPECTRAL_MODULAR_BLOCK_COMPOSITION_TO_ASYMMETRIC_INDEX_AND_YUKAWA_TRILINEAR_GATE_20260924/CERTIFICATE.json": "31380cc60e803214f5c5ca27e400396433577705dbc74729a8c1edd612d3771d",
+    "records/BGCE433_SOURCE_FIVE_NODE_MORITA_PATH_ALGEBRA_PRIMITIVE_ANOMALY_REALITY_ORIENTABILITY_AND_ONE_HIGGS_GATE_20260924/CERTIFICATE.json": "25d08166d7119d6e6ee519cd7f80767eeb662f8931352e4850b7efb9036e3284",
+    "records/BGCE437_EIGHT_LIFT_ORIENTATION_CUBE_FOURIER_WEIGHT_ONE_TO_THREE_GENERATIONS_AND_TRIVIAL_SCALAR_GATE_20260924/CERTIFICATE.json": "ae61d7c95a1c6ab1d956e201c2fb2a12a9c616b30aa333b5385429cd02a5c709",
+    "records/BGCE438_SOURCE_STAR_TIME_RAW_PETZ_CTP_ACTION_ON_UD_ORIENTATION_CUBE_TO_PHYSICAL_GENERATIONS_AND_EVEN_ONE_HIGGS_GATE_20260924/CERTIFICATE.json": "070aebc7b8785f6d0df536b33844f8f90645fb5944291813dc1d7213084729ff",
 }
 
 
@@ -237,7 +237,7 @@ def main() -> None:
     assert len(sector_checks) == 8 and all(item["pass"] for item in sector_checks)
 
     certificate = {
-        "schema": "siel.dpa.bgce439.derived-anomaly-solution-groupoid-sm-completion.certificate.v1",
+        "schema": "siel.public-calculation.bgce439.derived-anomaly-solution-groupoid-sm-completion.certificate.v1",
         "candidate_id": "BGCE439",
         "fixed_source_revision": REV,
         "input_hashes": INPUTS,
@@ -247,7 +247,7 @@ def main() -> None:
             "split_manifest_status": "NOT_APPLICABLE_COMPLETE_FINITE_EXACT_GROUPOID_ALGEBRA",
             "baseline_primary": "PASS_BGCE406_BGCE416_BGCE433_BGCE437_BGCE438_HASHED_RESULTS",
             "intervention": "EXPLICIT_DERIVED_EXTENSION_FROM_SOURCE_SELECTED_ANOMALY_SOLUTION_CUBE__NOT_AN_EXISTING_SOURCE_OPERATION",
-            "endpoint_semantic_gates": "NOT_CLAIMED_BY_DPA__THEORETICAL_GATE_ONLY",
+            "endpoint_semantic_gates": "NOT_CLAIMED_BY_PUBLIC__THEORETICAL_GATE_ONLY",
             "science_outcome_authorized": True,
         },
         "derived_extension": {
@@ -325,7 +325,7 @@ def main() -> None:
     }
 
     result = {
-        "schema": "siel.dpa.bgce439.derived-anomaly-solution-groupoid-sm-completion.result.v1",
+        "schema": "siel.public-calculation.bgce439.derived-anomaly-solution-groupoid-sm-completion.result.v1",
         "candidate_id": "BGCE439",
         "date": "2026-09-24",
         "fixed_source_revision": REV,
@@ -369,7 +369,7 @@ def main() -> None:
         },
         "next_gate": None,
         "runtime_class": "SECONDS_EXACT_64_MATRIX_UNIT_AND_EIGHT_SECTOR_CHECK",
-        "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+        "formal_E0_E1_E2": "NOT_CLAIMED__PUBLIC_THEORETICAL_GATE_ONLY",
         "claim_ceiling": "BGCE439 closes BQG-G3-R03.4 only in the explicit derived anomaly-solution-groupoid and Boolean-linear-response class. It does not retract BGCE438's NO-GO for existing source operations, derive observed Yukawa values, masses, CKM or PMNS mixing, electroweak vacuum dynamics, empirical Standard Model confirmation, or completed quantum gravity.",
     }
 

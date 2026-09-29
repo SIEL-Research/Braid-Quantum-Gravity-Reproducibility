@@ -1,0 +1,38 @@
+{
+  "blocking_findings": [
+    "witness inputs directly encode endpoint residuals, growth, action-growth and closability values",
+    "unsigned tensor-swap comparator is not constructed and the harness does not emit the mandatory two-layer specificity decision",
+    "bounded-inner exclusion lacks an exact bridge from implementer variance growth to the limit derivation",
+    "closability theorem hypotheses, automorphism group or graph certificate are not executable witnesses",
+    "retention schema omits replay-critical outer, closability and specificity fields",
+    "allowlist and denylist have no non-focal enforcement or escape-test artifact"
+  ],
+  "candidate_id": "BGCE443-R3",
+  "date": "2026-09-25",
+  "execution_authorized": false,
+  "focal_evaluator_created": false,
+  "focal_outcome_accessed": false,
+  "freeze_revision": "4d8688d82b80e75771c52e3d235ac2c5cc493951",
+  "independent_E0": "FAIL",
+  "independent_E0_audit": {
+    "sha256": "8f5d50eb34b860900183e385a9311f2cdfa96cd64946945cbf358fd096d7ce0c"
+  },
+  "independent_E0_record": {
+    "path": "records/BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/E0_RESULT.json",
+    "sha256": "ecb00455e9a51545d9200cdc6406869efb21438f57069dda34da5c6db3563e27"
+  },
+  "next_permitted_action": "CREATE_APPEND_ONLY_REVISION_4_PACKET_CLOSING_E0_FINDINGS_WITHOUT_FOCAL_OUTCOME_ACCESS",
+  "passed_subgates": [
+    "revision binding and six allowlisted source hashes",
+    "BGCE075 and BGCE117 ordered seed typing",
+    "BGCE386 excluded from refinement-window coefficients",
+    "unit-counting all-window law",
+    "eventual stabilization threshold n>=m+2",
+    "variance growth identity as a prospective algebraic endpoint",
+    "two-layer generic-carrier versus Braid-specificity rule in protocol prose"
+  ],
+  "r1_or_r2_scientific_decision_reused": false,
+  "schema": "siel.public-calculation.bgce443.r3.status.v1",
+  "source_typing_audit": "NO_GO_R2_WINDOW_SIGN_TYPING_AND_ADJACENT_ORDER_INTERTWINING__OPEN_R3_UNIT_COUNTING_LIMIT_DERIVATION",
+  "state": "E0_FAIL_EXECUTION_BLOCKED"
+}

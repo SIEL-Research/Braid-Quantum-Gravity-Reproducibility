@@ -1,0 +1,10 @@
+{
+  "schema": "siel.public-calculation.scout.status.v1",
+  "scout_id": "PUBLIC-RUN-BQGEULER-004",
+  "status": "COMPLETE",
+  "work_package": "BQG-G3-R02.5",
+  "scoped_result": "CLOSED_SCOPED_HIERARCHICAL_TWO_MODE_STRONG_CONVERGENCE",
+  "physical_result": "OPEN_SOURCE_IDENTIFICATION_REQUIRED",
+  "work_package_status_after_gate": "OPEN_SOURCE_CONSTRUCTION_REQUIRED",
+  "completed_at": "2026-09-26"
+}

@@ -9,7 +9,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
       "path": "evidence/statements/artifacts/V100-THE-05/bundle-01/CERTIFICATE.json",
-      "sha256": "c3d77c197d1d211672bb1140c02cccc690396a75ec308f1eba7bd42dbd9e020a"
+      "sha256": "8d4d6cf64b3876ad2fef0e763b3b321d7117feffd7b8e23faa711803cb06ef7b"
     },
     {
       "bundle_label": "BGCE287 SOURCE EVENT PATH BKM HORIZONTAL CONDUCTANCE LIFT",
@@ -18,7 +18,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
       "path": "evidence/statements/artifacts/V100-THE-05/bundle-01/RAW_OUTPUT.json",
-      "sha256": "8a7ee9c6e4d50a3b97b0df7101868a25961f5ba562f6d884884748eed90583c0"
+      "sha256": "1756f23eecc32cd0871608b3a0a48f72df0d38dedd31dc2e2d0a755b1e7c2a57"
     },
     {
       "bundle_label": "BGCE287 SOURCE EVENT PATH BKM HORIZONTAL CONDUCTANCE LIFT",
@@ -27,7 +27,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-05/bundle-01/RESULT.json",
-      "sha256": "4181bc2f55d161b7a3b1cd64679ddb7f83df2b705d3b218a24521db17b289516"
+      "sha256": "1ac69599f858da8970891978da66d6ba441b2b324d6749fc8d58e3a8d66e3d6a"
     },
     {
       "bundle_label": "BGCE287 SOURCE EVENT PATH BKM HORIZONTAL CONDUCTANCE LIFT",
@@ -36,7 +36,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "SOURCE_MATRIX.json",
       "path": "evidence/statements/artifacts/V100-THE-05/bundle-01/SOURCE_MATRIX.json",
-      "sha256": "24213667b9abd707e33b5d424e78ef2fe752e9717ce267601399d1af8f050bad"
+      "sha256": "7385a4a9d86c13c9b78768762f63a25f96f4962257148e2412bd2ee7d4def571"
     },
     {
       "bundle_label": "BGCE287 SOURCE EVENT PATH BKM HORIZONTAL CONDUCTANCE LIFT",
@@ -45,7 +45,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-05/bundle-01/evaluate.py",
-      "sha256": "73cfc76da6ffe8181d046fb03e92f63672425ad3c2bce2f98e62e3b84d95d8cb"
+      "sha256": "9695c1172903f9719ac96744c79ae7eacd98fe5426d3d00c694b0200eb86c061"
     },
     {
       "bundle_label": "BGCE287 SOURCE EVENT PATH BKM HORIZONTAL CONDUCTANCE LIFT",
@@ -63,7 +63,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
       "path": "evidence/statements/artifacts/V100-THE-05/bundle-02/CERTIFICATE.json",
-      "sha256": "75855df5914aab0a34d09ace190b031d80db593569a7fc40d64770f1401aaaf2"
+      "sha256": "d4c1901911423a0c35cecf63c1c017afa9e1c16bd31feea8dafb851d3f1e0537"
     },
     {
       "bundle_label": "BGCE292 BKM HORIZONTAL CONNECTION CURVATURE AND LOCAL PATH INDEPENDENCE",
@@ -72,7 +72,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
       "path": "evidence/statements/artifacts/V100-THE-05/bundle-02/RAW_OUTPUT.json",
-      "sha256": "6ea5f0349701af98f42751f21c4e9b6508009ff586d4475201cf9339eebb4526"
+      "sha256": "cb7cd67a78cd944795861b83ab27c611ca8b94253d550b99efbf18963d6bfa78"
     },
     {
       "bundle_label": "BGCE292 BKM HORIZONTAL CONNECTION CURVATURE AND LOCAL PATH INDEPENDENCE",
@@ -81,7 +81,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-05/bundle-02/RESULT.json",
-      "sha256": "900ab8aefa4bff904554bb2c2ccf2b4b54db6c9d3081353556fc99fbc642ba56"
+      "sha256": "2ddb3b1e6682912db71aadf37f6cf9c1b16f14295350828e6aa6b11f08404a00"
     },
     {
       "bundle_label": "BGCE292 BKM HORIZONTAL CONNECTION CURVATURE AND LOCAL PATH INDEPENDENCE",
@@ -90,7 +90,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "SOURCE_MATRIX.json",
       "path": "evidence/statements/artifacts/V100-THE-05/bundle-02/SOURCE_MATRIX.json",
-      "sha256": "abdf4c09c7913568513f79562495f2b916675604292fbd74c985511af0ca0f33"
+      "sha256": "4be03fc6c1b6dd8308dc6df26c92187b95135814c7b6270d09cd22535ec3c890"
     },
     {
       "bundle_label": "BGCE292 BKM HORIZONTAL CONNECTION CURVATURE AND LOCAL PATH INDEPENDENCE",
@@ -99,7 +99,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-05/bundle-02/evaluate.py",
-      "sha256": "d00f4bbfd15326b9a65a055b28239cc314f85cae7e585f209a1aef6b14f54262"
+      "sha256": "16efb7be038921f261c8a6081d5d57127678fa1b418fb7dba09661e73e8d984f"
     },
     {
       "bundle_label": "BGCE292 BKM HORIZONTAL CONNECTION CURVATURE AND LOCAL PATH INDEPENDENCE",
@@ -118,16 +118,16 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 11,
+      "file_count": 8,
       "kind": "vendored_calculation_package",
       "label": "BGCE287 SOURCE EVENT PATH BKM HORIZONTAL CONDUCTANCE LIFT",
-      "sha256_tree": "3e5b70532cb2957439b3b43323bb2f7eede139cf7c0d0deae8ffdd8ed9d9d5ae"
+      "sha256_tree": "f294d8a2a18c5d278dfecc3683bb06bca0c9283cfbea503136e658732e9127d8"
     },
     {
-      "file_count": 10,
+      "file_count": 9,
       "kind": "vendored_calculation_package",
       "label": "BGCE292 BKM HORIZONTAL CONNECTION CURVATURE AND LOCAL PATH INDEPENDENCE",
-      "sha256_tree": "2c5fa6f6a58369e6598da6b1572bcc33b1d934e7852bac1739a8b473fbd8e7af"
+      "sha256_tree": "388d94ccbaa5f2c8c0b4256acab11c56a56222bf7a2d1342a6a34a68ca4eac68"
     }
   ],
   "status": "PUBLIC_CODE",

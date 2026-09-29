@@ -5,56 +5,11 @@
     {
       "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
       "bundle_number": 1,
-      "kind": "Input provenance",
-      "origin": "evidence_bundle_entrypoint",
-      "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "339263070f2391a586e6866c3135fc1e3988784d884a7e819dcb1e623707cfac"
-    },
-    {
-      "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
-      "bundle_number": 1,
-      "kind": "Machine result",
-      "origin": "evidence_bundle_entrypoint",
-      "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "eded02d256a2566e129479b7a7f428cb1f744211cfc4439f8e8d2799bc2e2809"
-    },
-    {
-      "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
-      "bundle_number": 1,
-      "kind": "Machine result",
-      "origin": "evidence_bundle_entrypoint",
-      "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/DPA_SCOUT_001/RESULT.json",
-      "sha256": "b5c326d21b6e3066a2d4ad2572a81bf2a27af8eae6a09478a1379469f1530804"
-    },
-    {
-      "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
-      "bundle_number": 1,
-      "kind": "Verification code",
-      "origin": "evidence_bundle_entrypoint",
-      "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "0f079f84587616a0a03d8d3947d506a340748f9ac65b17185b9c692bfcaa3cdc"
-    },
-    {
-      "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
-      "bundle_number": 1,
-      "kind": "Verification code",
-      "origin": "evidence_bundle_entrypoint",
-      "original_filename": "validate_result.py",
-      "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/DPA_SCOUT_001/validate_result.py",
-      "sha256": "76050963ca972f38c2cbe120ccf1ba7824d331e071fa06a5081e49121f99bb1b"
-    },
-    {
-      "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
-      "bundle_number": 1,
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/RESULT.json",
-      "sha256": "40378f06beabfd31ce1c984abc71e7c94baea9e70613008346ed2c7c6e499e7a"
+      "sha256": "3c3cb7923cf9aa5e98b1e53b34228fc5b3b7a37a0bad60bf75f1bd4f5f774fd9"
     },
     {
       "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
@@ -63,7 +18,52 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/REVISION_7/evaluate.py",
-      "sha256": "a1b061f4ec0744463f3082694cb4bb16bb69ee66b53392594359755249be5775"
+      "sha256": "05d287fba9be1226a701a94ca2a80d616c79e09e9b2ac3e7765b3d422b33dffa"
+    },
+    {
+      "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
+      "bundle_number": 1,
+      "kind": "Input provenance",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "9d5c2a8ee379707e73a032b36f6964db5e368502fcf7d330e1294269646dde58"
+    },
+    {
+      "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
+      "bundle_number": 1,
+      "kind": "Machine result",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/RUN_001/RAW_OUTPUT.json",
+      "sha256": "8df205070b514c7584ba05da8af1327efdc9eb6fc0a450980c57278d57d30f87"
+    },
+    {
+      "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
+      "bundle_number": 1,
+      "kind": "Machine result",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/RUN_001/RESULT.json",
+      "sha256": "04fc274ba0f5d21e4e5e92cc87ac4f149009e6bf55f7852ae2b4849033eec019"
+    },
+    {
+      "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/RUN_001/evaluate_scout.py",
+      "sha256": "d5d9ccd2f56bf9443d2bd4a4bed33083c1ccff5a49291eafdecb8942f7944cc7"
+    },
+    {
+      "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "validate_result.py",
+      "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/RUN_001/validate_result.py",
+      "sha256": "76050963ca972f38c2cbe120ccf1ba7824d331e071fa06a5081e49121f99bb1b"
     },
     {
       "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
@@ -72,7 +72,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-14/bundle-01/evaluate.py",
-      "sha256": "108558d1dcd599d0abe02d152774875c52cafdb4f78e3235002be1ef70ac6d78"
+      "sha256": "09688fdf8a384d016f4ac73473fdb42febde0e99ae429ef33b7bc90d14126ab8"
     },
     {
       "bundle_label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
@@ -91,10 +91,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 104,
+      "file_count": 94,
       "kind": "vendored_calculation_package",
       "label": "BGCE443 SOURCE REFINEMENT LIMIT UNBOUNDED DERIVATION THREE PLANE",
-      "sha256_tree": "926dbc01b09a6e2803c798bed6e07536ed30d4bd5068ebb150920154253ff1fa"
+      "sha256_tree": "b9abaf09aa1fba45551a16d3c8115747218df27c26f5fca0fec966f18d34ee29"
     }
   ],
   "status": "PUBLIC_CODE",

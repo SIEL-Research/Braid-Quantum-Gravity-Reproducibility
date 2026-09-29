@@ -1,0 +1,20 @@
+{
+  "schema": "siel.public-calculation.bgce137.sources.v1",
+  "candidate_id": "BGCE137",
+  "sources": [
+    {"source": "BIGT/OCBFH014", "role": "all-order M5 tail growth, C5 source strands, tensor-identity refinement and no marked-factor cloning boundary"},
+    {"source": "CE1D", "role": "older conditional four-factor D5 address construction and explicit fixed 1+3 ordering/localization assumptions"},
+    {"source": "BGCE096/BGCE097/BGCE098", "role": "projective Cartan coarsening, five-adic action scaling and UTC requirements"},
+    {"source": "BGCE099/BGCE100", "role": "conditional continuum first variation and native metric-affine GL4 branch"},
+    {"source": "BGCE128", "role": "target-free four-dimensional affine carrier and full S4 observer-frame action"},
+    {"source": "BGCE131", "role": "transported local V4 torsor without marked-factor cloning"},
+    {"source": "BGCE136", "role": "four null affine links, S4-uniform timelike anchor and direct unscaled-refinement obstruction"}
+  ],
+  "prohibited_promotions": [
+    "treat the source-labelled diagonal MASA as a physical position algebra without disclosing that interpretation",
+    "treat an ordering of the four C5 factors as a physical time-plus-space ordering when all 24 assignments are S4 gauge-related",
+    "take an orientation-reversing chart transition as a near-identity connection holonomy",
+    "claim that one constant flat anchor supplies arbitrary compactly supported off-shell variations",
+    "claim empirical spacetime or gravity from a mathematical cylinder completion"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "command": "python3 evaluate_minimal_source.py",
+  "date": "2026-09-29",
+  "evaluator": {
+    "path": "records/BQGCTRL013_FREE_TYPED_LIFT_AND_MINIMAL_FAITHFUL_BRAID_QUOTIENT_GATE_20260929/RUN_001/evaluate_minimal_source.py",
+    "sha256": "02db8d2e8690963c2bb57a5f15dad49949b86c711edab4ca70781973b682cbfb"
+  },
+  "schema": "siel.public-calculation.bqgctrl013.evaluator-freeze.v1",
+  "status": "FROZEN_BEFORE_FIRST_RUN",
+  "validator": {
+    "path": "records/BQGCTRL013_FREE_TYPED_LIFT_AND_MINIMAL_FAITHFUL_BRAID_QUOTIENT_GATE_20260929/RUN_001/validate_result.py",
+    "sha256": "eaae63d8a8cfd042c0d5a6b5e334e394c8236ddf2a0df7b131b7b6a81b598033"
+  }
+}

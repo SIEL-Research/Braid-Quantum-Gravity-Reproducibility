@@ -1,0 +1,36 @@
+{
+  "gate_id": "BQGNEUT-025_SOURCE_NATIVE_WEAK_CURRENT_INTERTWINER_TO_PHYSICAL_THREE_NEUTRINO_TYPING_GATE",
+  "inputs": [
+    {
+      "path": "records/BQGNEUT024_SOURCE_ORDERED_C3_WEIGHTED_FLOQUET_SIMULTANEOUS_CP_GAP_GATE_20260928/RUN_001/RESULT.json",
+      "sha256": "c5327afaffb3c4c129532d2055166efa5dcd068dcf5751f3947bea5a73a2c3e8"
+    },
+    {
+      "path": "records/BQGFM011_G1_THREE_BRANCH_ENCODED_CLOCK_FRAME_AND_COMMON_LABEL_GATE_20260926/RUN_001/RESULT.json",
+      "sha256": "75ebf805b3bd5073d3d7e53ac1d29d280f92bd3eeef6a49f4110fc50fe45d75a"
+    },
+    {
+      "path": "records/BQGFM011_G1_THREE_BRANCH_ENCODED_CLOCK_FRAME_AND_COMMON_LABEL_GATE_20260926/RUN_001/RAW_OUTPUT.json",
+      "sha256": "12065527574a4e522adc4aa0eaccb69453359fc284ac5adb2f58f65802e1b19f"
+    },
+    {
+      "path": "records/BQGFLAV036_BRANCH_REGISTER_CENTRAL_OBSERVABLE_ALGEBRA_TO_CANONICAL_FROBENIUS_MULTIPLICATION_GATE_20260927/RUN_001/RESULT.json",
+      "sha256": "3c4cd857b82ff08ad9d7d895715f64271b839b146a4dfd44d4db7f4fec8cb178"
+    },
+    {
+      "path": "records/BGCE439_SOURCE_DERIVED_ANOMALY_SOLUTION_GROUPOID_CROSSED_PRODUCT_TO_PHYSICAL_WEIGHT_ONE_GENERATIONS_AND_INVARIANT_HIGGS_GATE_20260924/RESULT.json",
+      "sha256": "b860405686a06ee599e1400f62c22cbe1f2b1bc93feeff1bfcec1361fb3007a1"
+    },
+    {
+      "path": "records/BGCE544_SOURCE_ORDERED_PATH_CONVOLUTION_TO_NONCOMMUTATIVE_GENERATION_ACTION_GATE_20260926/RUN_001/RESULT.json",
+      "sha256": "99c4e8787b5685ea7c5b88a0f3da4777e9b84fc6ebbf9a8b10a665b734411650"
+    }
+  ],
+  "long_computation_used": false,
+  "parameter_scan_used": false,
+  "schema": "siel.public-calculation.bqgneut025.input.v1",
+  "scout_id": "BQGNEUT-025-X1",
+  "source_commit": "dc26af7d378897962c72b28283eaa2b16a2eb1a1",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-dc26af7d3788",
+  "target_data_accessed": false
+}

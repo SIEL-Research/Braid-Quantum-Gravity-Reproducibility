@@ -1,0 +1,64 @@
+{
+  "BGCE371_unit_scale_support_only_in_aligned_four_score_scope": true,
+  "all_input_hashes_match": true,
+  "bregman_coefficients_ab_ap_bp_p2": [
+    "1",
+    "-1",
+    "-1",
+    "1"
+  ],
+  "bregman_identity_exact_by_coefficients": true,
+  "bregman_identity_witness": true,
+  "claim_ceiling": "Coefficient-free exact regular-black-bounce stationarity only in the declared source-relative Palatini Bregman class, plus a direct-route typing no-go. No unconditional Braid-only interaction law, collapse, evaporation, thermodynamics, astrophysical identification or empirical confirmation.",
+  "coefficient_fit": false,
+  "decision": "SPLIT_CONDITIONAL_SCOPED_PASS_SOURCE_RELATIVE_PALATINI_BREGMAN_ACTION_MAKES_THE_REGULAR_BLACK_BOUNCE_EXACTLY_STATIONARY_ON_ANY_NONUNIFORM_CHAIN_WITH_UNIT_COEFFICIENT__SCOPED_NO_GO_DIRECT_BGCE348_BGCE349_REUSE_AS_A_FULL_NONLINEAR_RADIAL_ACTION__UNCONDITIONAL_SOURCE_SELECTION_OF_RELATIVE_ACTION_REMAINS_OPEN",
+  "direct_BGCE348_BGCE349_radial_strong_curvature_action_typed": false,
+  "direct_route_reason": "BGCE349 explicitly excludes full ten-component nonlinear metric dependence and nontrivial spatial-gradient dynamics from its scoped closure.",
+  "expanded_interaction_edge_kernel": "2*C*(-Delta(rho)*DeltaR-Delta(rho)*DeltaY+Delta(rho)^2)/h",
+  "finite_Euler_R": "Delta(Y-rho+r_h)_left/h_left-Delta(Y-rho+r_h)_right/h_right=0",
+  "finite_Euler_Y": "Delta(R-rho)_left/h_left-Delta(R-rho)_right/h_right=0",
+  "fixed_tail_mass_edge_difference_zero": true,
+  "frozen_source_reference_pair": [
+    "rho=sqrt(X^2+ell_star^2)",
+    "rho-r_h"
+  ],
+  "input_hash_checks": {
+    "records/BGCE348_GAUGE_INVARIANT_CHOI_TANGENT_SUPPORT_AND_TRAJECTORY_SCORE_TO_FOUR_BALANCE_GATE_20260924/RESULT.json": true,
+    "records/BGCE349_BRANCH_RESOLVED_CHOI_TRANSFER_TO_LOCAL_3PLUS1_DOUBLED_METRIC_LORENTZIAN_PARENT_GATE_20260924/RESULT.json": true,
+    "records/BGCE371_SOURCE_CLOCK_RECORD_TO_ENDOGENOUS_METRIC_REGISTER_TRANSLATION_AND_ACTUATION_SCALE_GATE_20260924/RESULT.json": true,
+    "records/BQGBH004_FIXED_TAIL_MASS_ACTIVE_RELATIONAL_RADIUS_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH005_SIGNED_SCREEN_COORDINATE_REGULAR_BLACK_BOUNCE_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH015_SOURCE_SIGNED_SCREEN_RADIAL_COMPLEX_TO_SIX_FACE_COFRAME_HOLONOMY_EMBEDDING_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH031_COMPLETE_STATIC_SPHERICAL_SIX_FACE_EULER_TO_SCHWARZSCHILD_AND_BOUNCE_GATE_20260929/RUN_001/RESULT.json": true
+  },
+  "next_gate": "BQGBH-033_BRANCH_ODD_COLLISION_TO_RELATIVE_PALATINI_SELECTION_GATE",
+  "ordinary_explanation": "A relative quadratic action is stationary at its chosen reference by construction; exact stationarity therefore does not itself prove that the source selected the relative prescription.",
+  "parameter_scan": false,
+  "pure_edge_kernel": "2*C*DeltaR*DeltaY/h",
+  "regular_black_bounce_stationary_in_relative_Palatini_class": true,
+  "relative_action_definition": "S_g[z]-S_g[z_star]-dS_g[z_star](z-z_star)",
+  "relative_edge_kernel": "2*C*Delta(R-rho)*Delta(Y-rho+r_h)/h",
+  "schema": "siel.public-calculation.bqgbh032.raw_output.v1",
+  "scout_id": "PUBLIC-RUN-BQGBH-032-X1",
+  "source_pair_stationary_at_every_internal_node": true,
+  "source_revision": "b201bd79ff2d0c9a230651bdc54ad37bdddea277",
+  "source_solution": "R=rho; Y=rho-r_h; F=1-r_h/rho",
+  "strongest_counterpattern": "The signed screen and fixed mass supply the reference pair and the six-face Palatini action supplies the Hessian, but no frozen theorem yet maps the branch-odd collision functional to the nonlinear radial Bregman subtraction.",
+  "target_Einstein_tensor_accessed": false,
+  "target_stress_accessed": false,
+  "throat_cancellation_exact": true,
+  "throat_interaction_residual_Qsqrt2": [
+    "-2",
+    "2"
+  ],
+  "throat_pure_residual_Qsqrt2": [
+    "2",
+    "-2"
+  ],
+  "throat_total_residual_Qsqrt2": [
+    "0",
+    "0"
+  ],
+  "unconditional_source_selection_of_relative_Palatini_prescription": false,
+  "unit_interaction_coefficient_forced_in_declared_bregman_class": true
+}

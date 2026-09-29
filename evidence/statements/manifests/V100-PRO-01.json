@@ -8,8 +8,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "3820068675b9b68d34494e7db69af9db944c1b1c57a3d91796d1a6fbcfd4974e"
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/RUN_001/evaluate_scout.py",
+      "sha256": "31107448202d366973a1189e022748a3343cc1ee69226fed6cac73eb541571d7"
     },
     {
       "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
@@ -17,8 +17,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_001/verify.py",
-      "sha256": "0598c22dd53b6c9d2de0950421269d6fd6373cbeaf07ccd8a6093e9345fb1290"
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/RUN_001/verify.py",
+      "sha256": "0817bb7e60202398355adc718d40de80b6fcd9ff8750882dea97e151475855e8"
     },
     {
       "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
@@ -26,8 +26,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_002/CERTIFICATE.json",
-      "sha256": "b42116060d78d77d1414de8e9561db3447859b7ec38dafc86d619b37607a1bd0"
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/RUN_002/CERTIFICATE.json",
+      "sha256": "0a1eb60e5970c47a092a86c508a44effe68fb9fd73565996517463afd7dc222d"
     },
     {
       "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
@@ -35,8 +35,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_002/RAW_OUTPUT.json",
-      "sha256": "c5ba14b503f645bff65d8f378fec038f46b4e17530aaef49b55282036aebe634"
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/RUN_002/RAW_OUTPUT.json",
+      "sha256": "8b859a651b76c7ad15790cc72dcc6400cfbb138450e94ae432e1b8f557b7188b"
     },
     {
       "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
@@ -44,8 +44,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_002/RESULT.json",
-      "sha256": "974d638fcd065aa26415f55b5f761689bd233e48bf03ee54f2ae281c1c308e16"
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/RUN_002/RESULT.json",
+      "sha256": "1e40d791cee655d38ff60c6d7d6d4b51ada70e3ec1df836c4cc1d26903343856"
     },
     {
       "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
@@ -53,8 +53,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_002/evaluate_scout.py",
-      "sha256": "588b8d5ac9453f756a283e20bee1e846ceb9f5edc43a2801f1bc3f72b572ca41"
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/RUN_002/evaluate_scout.py",
+      "sha256": "503ee82af13f358eb752a6fc55c3f07465c404dd228d3de34a098e4b93117e76"
     },
     {
       "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
@@ -62,8 +62,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_002/verify.py",
-      "sha256": "3b99d5b75a42404e102d91d5ca37d4a38504a6122029e3e9d6ad5b3ccfcb74dd"
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/RUN_002/verify.py",
+      "sha256": "62e55d119f809af7bb9d7d47f1df47d9d65e635b3f2883d73923662a1f49ce70"
     }
   ],
   "id": "V100-PRO-01",
@@ -73,10 +73,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 14,
+      "file_count": 12,
       "kind": "vendored_calculation_package",
       "label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
-      "sha256_tree": "8739cb1406217900b6790c1cca455ac8f3b506828f4a239fb1751919de197896"
+      "sha256_tree": "1707bbd7d7f506589826d10001788e48f73af6e1adf3d66310fd039440891b96"
     }
   ],
   "status": "PUBLIC_CODE",

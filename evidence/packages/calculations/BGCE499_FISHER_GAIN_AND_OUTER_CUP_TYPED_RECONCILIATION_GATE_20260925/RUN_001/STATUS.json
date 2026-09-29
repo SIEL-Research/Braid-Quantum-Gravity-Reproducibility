@@ -1,0 +1,9 @@
+{
+  "scout_id": "PUBLIC-RUN-BGCE499-001",
+  "status": "FAILED_IMPLEMENTATION",
+  "scientific_decision": null,
+  "failure": "Repository root resolved one parent too high; the BGCE371 result key was also incorrect.",
+  "raw_output_created": false,
+  "result_created": false,
+  "superseded_by": "PUBLIC-RUN-BGCE499-002"
+}

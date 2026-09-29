@@ -1,0 +1,118 @@
+{
+  "schema": "siel.public-calculation.bqgcal008.raw.v1",
+  "scout_id": "PUBLIC-RUN-BQGCAL-008-X1",
+  "gate_id": "BQGCAL-008_SOURCE_POSITIVE_SCREEN_NUMBER_AND_QUASILOCAL_ENERGY_TO_REFINEMENT_INVARIANT_HORIZON_AREA_GATE",
+  "source_commit": "8dd3bc9a5ce11a2ecc43d471e0f8a501139ac792",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-8dd3bc9a5ce1",
+  "evidence_status": "Theoretical derivation",
+  "evidence_qualifiers": "Exact pointed-label projection and exact linear-energy obstruction; geometric screen typing remains speculative",
+  "scientific_layer": "positive finite source count and quasi-local energy compatibility",
+  "governance_class": "PUBLIC_SCOPED_SCIENTIFIC_DECISION",
+  "decision": "SPLIT_RESULT__SCOPED_PASS_FOR_THE_SOURCE_POINTED_POSITIVE_ADDITIVE_INTEGER_NONIDENTITY_EVENT_NUMBER_N_N__SCOPED_NO_GO_FOR_DIRECTLY_IDENTIFYING_IT_WITH_THE_EXISTING_LINEAR_TOTAL_WARD_ENERGY_OR_HORIZON_SCREEN_COUNT_BECAUSE_THE_COMMUTATOR_NORM_SQUARED_IS_ONE_NINTH_AND_UNCONDITIONAL_AND_CONDITIONAL_LINEAR_ENERGY_MEANS_ARE_ZERO__A_QUADRATIC_CASIMIR_OR_DIRICHLET_ENERGY_MECHANISM_REMAINS_OPEN",
+  "bold_hypothesis": {
+    "interpretive_leap": "The pointed identity label supplies a canonical positive event-count projection: one screen quantum is associated with a nonidentity source event, and the additive tail number may realize the K required by BQGCAL-007.",
+    "new_structure": "N_1=I-|e><e| on the six-label pointed environment and N_n=sum_k N_1^(k), with integer spectrum 0 through n.",
+    "source_status": "The pointed identity/nonidentity split and six-label probabilities are source supplied. The identification of one nonidentity event with one geometric screen quantum is a new speculative typing and must pass the energy compatibility test.",
+    "strongest_ordinary_alternative": "The nonidentity count is only a record statistic. It is stochastic, does not commute with the conserved environment charge, and has no derived relation to horizon area."
+  },
+  "positive_source_count": {
+    "one_block_operator": "N_1=I-|e><e|=diag(0,1,1,1,1,1)",
+    "projection": true,
+    "positive": true,
+    "spectrum": [
+      0,
+      1
+    ],
+    "tail_operator": "N_n=sum_{k=1}^n N_1^(k)",
+    "tail_spectrum": "{0,1,...,n}",
+    "additive": true,
+    "torsor_gauge_covariance": "N'_1=Q N_1 Q* with transported pointing",
+    "mean_per_block": "5/8",
+    "variance_per_block": "15/64"
+  },
+  "linear_energy_compatibility": {
+    "commutator_HS_squared": "1/9",
+    "commutes": false,
+    "prepared_state_mean_H_E": "0",
+    "identity_conditional_mean_H_E": "0",
+    "nonidentity_conditional_mean_H_E": "0",
+    "nonzero_energy_per_count": false,
+    "direct_identification_pass": false
+  },
+  "screen_typing": {
+    "one_nonidentity_event_equals_one_screen_quantum_derived": false,
+    "K_equals_N_n_derived": false,
+    "quasilocal_energy_area_law_derived": false
+  },
+  "sample_integer_spectra": {
+    "1": [
+      0,
+      1
+    ],
+    "2": [
+      0,
+      1,
+      2
+    ],
+    "3": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "4": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "noncompensating_gates": {
+    "G1_PINNED_POINTED_ENVIRONMENT_CHARGE_AND_COMPOSITE_SCREEN_INPUTS_VALID": true,
+    "G2_POINTED_NONIDENTITY_OPERATOR_IS_POSITIVE_PROJECTION": true,
+    "G3_TAIL_NUMBER_IS_ADDITIVE_WITH_INTEGER_SPECTRUM": true,
+    "G4_NUMBER_OPERATOR_IS_TORSOR_GAUGE_COVARIANT_WITH_POINTING": true,
+    "G5_NUMBER_COMMUTES_WITH_EXISTING_LINEAR_ENVIRONMENT_ENERGY": false,
+    "G6_NONZERO_COEFFICIENT_FREE_LINEAR_ENERGY_PER_COUNT": false,
+    "G7_ONE_NONIDENTITY_EVENT_IS_DERIVED_AS_ONE_GEOMETRIC_SCREEN_QUANTUM": false,
+    "G8_QUASILOCAL_ENERGY_TO_REFINEMENT_INVARIANT_AREA_LAW_DERIVED": false,
+    "G9_NO_TARGET_ACCESS_PARAMETER_SCAN_OR_LONG_COMPUTATION": true
+  },
+  "positive_pointed_event_number_pass": true,
+  "direct_linear_energy_to_screen_number_pass": false,
+  "physical_source_screen_number_pass": false,
+  "quasilocal_energy_area_law_pass": false,
+  "pattern": "Pointing gives a canonical positive count, but the same source symmetry makes the linear emitted energy mean vanish and mixes count sectors through H_E.",
+  "interpretive_leap": "Nonidentity source events were tested as elementary screen quanta.",
+  "alternative_explanations": [
+    "N_n is an ordinary Bernoulli event counter rather than a geometric observable.",
+    "Signed linear Ward charge can conserve energy transfer while having zero mean in each identity/nonidentity sector.",
+    "A positive physical energy may live in a quadratic Casimir or Dirichlet form, not in the linear charge mean."
+  ],
+  "novel_hypothesis": "The source-selected positive energy for screen quantization is the quadratic charge Casimir or collision Dirichlet energy, whose additive density may be proportional to N_n even though the linear charge mean is zero.",
+  "falsifier": "Reject direct K=N_n if N_n is not positive integer additive, if it fails source covariance, or if it fails to commute or have a nonzero coefficient-free first-moment relation with the conserved environment energy charge.",
+  "required_prospective_test": "Compute H_E^2 and the source Dirichlet form on identity/nonidentity sectors, test positivity and additivity, then require a coefficient-free refinement-compatible relation to K before any horizon-area interpretation.",
+  "strongest_ordinary_alternative": "The nonidentity count is only a record statistic. It is stochastic, does not commute with the conserved environment charge, and has no derived relation to horizon area.",
+  "counter_intuition_scan": "The positive integer count is exact and source-pointed, but this alone is generic for any pointed finite alphabet. Its direct energy typing fails sharply: [N_1,H_E] is nonzero with squared norm 1/9 and every relevant linear first moment is zero. Calling it a horizon quantum now would be relabelling, not derivation.",
+  "confidence_in_positive_count": "VERY_HIGH_EXACT",
+  "confidence_in_physical_screen_number": "LOW_OPEN",
+  "standard_explanation": "A pointed categorical alphabet supplies a nonidentity event count, while a coherent off-diagonal Hamiltonian need not conserve that count.",
+  "SIEL_specific_interpretation": "The actual six Braid labels and pointed identity fix the count without a fitted partition, but geometric and energetic identification is still absent.",
+  "novelty_question": "No external novelty claim is made; the next discriminator is whether the source quadratic energy uniquely closes the area law.",
+  "distinguishing_prediction": "A coefficient-free quadratic-energy/count ratio stable under refinement would be required; the linear route predicts none.",
+  "SIEL_generation_classification": "SIEL_GUIDED_STANDARD_COMPATIBLE",
+  "claim_ceiling": "This scout may construct a positive additive pointed-label count and decide its direct compatibility with the existing linear total Ward energy. It may not identify the count as a physical horizon observable, derive a quasi-local energy-area law, absolute mass or radius, entropy, Hawking physics, or a finite quantum black hole.",
+  "next_gate": "BQGCAL-009_SOURCE_QUADRATIC_CHARGE_CASIMIR_AND_DIRICHLET_ENERGY_TO_SCREEN_NUMBER_AREA_LAW_GATE",
+  "work_packages": [
+    "BQG-G3-R03.2",
+    "BQG-G3-R03.5"
+  ],
+  "work_package_status": "R03.2_EXTERNAL_PENDING_POSITIVE_COUNT_ONLY__R03.5_PARTIAL_LINEAR_ENERGY_ROUTE_EXCLUDED",
+  "runtime": {
+    "python": "3.14.6",
+    "target_data_accessed": false,
+    "parameter_scan_used": false,
+    "long_computation_used": false
+  }
+}

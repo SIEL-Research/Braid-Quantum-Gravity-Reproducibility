@@ -8,8 +8,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "ea82df35f30aafc477cd6cc5a376e44bcdc63783dbb5fa521d63ec8156d34541"
+      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/RUN_001/CERTIFICATE.json",
+      "sha256": "047c901c645b83a870076fb8036ee5924675d2c5c9b974444da937a2bd4783b3"
     },
     {
       "bundle_label": "BQGCAL010 SOURCE EXCITATION AREA NUMBER TO CONSERVED MISNER SHARP MASS AND SCHWARZSCHILD SPECTRUM",
@@ -17,8 +17,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "0c8849ab15f8d3b9ba78b9690f83612d5b1da3804b9b31bed8ad41ade732a1b4"
+      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "170b94be5c819e60d0464ca558bddfba90ecc3b31c4ad39d2620210ef9f664a6"
     },
     {
       "bundle_label": "BQGCAL010 SOURCE EXCITATION AREA NUMBER TO CONSERVED MISNER SHARP MASS AND SCHWARZSCHILD SPECTRUM",
@@ -26,8 +26,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "52338142f06fe10a69fe857f85f76be3039cd5b868548c095777438a0bbcc34e"
+      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/RUN_001/RAW_OUTPUT.json",
+      "sha256": "7d8b518617f5ddd8f5951953f9cce2bde6878e7a3019d1821a9013307bac661d"
     },
     {
       "bundle_label": "BQGCAL010 SOURCE EXCITATION AREA NUMBER TO CONSERVED MISNER SHARP MASS AND SCHWARZSCHILD SPECTRUM",
@@ -35,8 +35,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/DPA_SCOUT_001/RESULT.json",
-      "sha256": "ae57319eed4e3002f7dba2510c4ee737d69546140343fd5aff17a8b07a4128ad"
+      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/RUN_001/RESULT.json",
+      "sha256": "d1a2b212430b9e158140e98766aea580ebafd85523d4fc8b43bdaa5d478da1bd"
     },
     {
       "bundle_label": "BQGCAL010 SOURCE EXCITATION AREA NUMBER TO CONSERVED MISNER SHARP MASS AND SCHWARZSCHILD SPECTRUM",
@@ -44,8 +44,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "a98c1d9a2da346d39680c9b46995fc6f6dcb55d1c61b61fa446aa7f1180c1b25"
+      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/RUN_001/evaluate_scout.py",
+      "sha256": "ca720cd23e10c00940b3a9fa2ae974a02a8133e871a5bbab0b0d370a335ff290"
     },
     {
       "bundle_label": "BQGCAL010 SOURCE EXCITATION AREA NUMBER TO CONSERVED MISNER SHARP MASS AND SCHWARZSCHILD SPECTRUM",
@@ -53,7 +53,7 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/DPA_SCOUT_001/verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-42/bundle-01/RUN_001/verify.py",
       "sha256": "84135e8ffaeeada8d0be9008c3605c4d90d0e5778250e16f382249b2dad26b7f"
     }
   ],
@@ -64,10 +64,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 11,
+      "file_count": 10,
       "kind": "vendored_calculation_package",
       "label": "BQGCAL010 SOURCE EXCITATION AREA NUMBER TO CONSERVED MISNER SHARP MASS AND SCHWARZSCHILD SPECTRUM",
-      "sha256_tree": "a223f04232148db3eee67eb7bf9652088eceb6663c759e57b6f290f83d0ed0f3"
+      "sha256_tree": "88e1ccfed0b19dab3a16b5fb319bb95e039f4a381812bb5d65bf6d4a7a77f8ac"
     }
   ],
   "status": "PUBLIC_CODE",

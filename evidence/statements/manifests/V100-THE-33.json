@@ -8,8 +8,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "e6cc890da9997ae8563534c607174bb85f1cda95c5a53b96d096b3a49c2e72da"
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/RUN_001/CERTIFICATE.json",
+      "sha256": "d61d7d00635658e87c969851bffca66bfa7e7bcd68e41e38c9f1684d6cc2ec59"
     },
     {
       "bundle_label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
@@ -17,8 +17,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "9e51bbd7e901a922793b77cb5890f55158cdb1545b32d151a5d590dcb77c2491"
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "aafdde8550b85d88f5fa000fb81ca5b80fafd81c641e357ec3f46668fe3f3865"
     },
     {
       "bundle_label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
@@ -26,8 +26,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "43ec1630573b5781ba817c97e92b24dfe8d842702af9635bc92bdff4fb1ba241"
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/RUN_001/RAW_OUTPUT.json",
+      "sha256": "8f6ad9a0d0c17ee9415f94b16ec4300ae36d7631c729c54c577509ee0e2818ee"
     },
     {
       "bundle_label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
@@ -35,8 +35,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/RESULT.json",
-      "sha256": "91850114230e8ac75e452ee260c6fc1b65977b33ffda3a24458242a2ea106fa9"
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/RUN_001/RESULT.json",
+      "sha256": "6156e60220b19472831982a91a8ac609c515970f6ba1114a8ef9a92568d4b2af"
     },
     {
       "bundle_label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
@@ -44,8 +44,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "abae2408dd9ec7bccbd17b91f4f3a7f19797a90d1b936c5557514924c355d91c"
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/RUN_001/evaluate_scout.py",
+      "sha256": "15139eb25a77c15692aba1b8e54b2feaae5d26e30b4af74cd2407915d5613042"
     },
     {
       "bundle_label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
@@ -53,7 +53,7 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/RUN_001/verify.py",
       "sha256": "634dea144c48a4c7e35b4bff528a93c1ba3a3c3aaa38a06485b23ade4076cac3"
     }
   ],
@@ -64,10 +64,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 10,
+      "file_count": 9,
       "kind": "vendored_calculation_package",
       "label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
-      "sha256_tree": "65bac394925d37c29dfeb368b09c787aeaf41d3cb6294a09f4f06083e8061bdc"
+      "sha256_tree": "f9f28d5fa4790778d6a3d98b3da51a35ab19bd1f971d5b3b6dd7fa04a3f47f8f"
     }
   ],
   "status": "PUBLIC_CODE",

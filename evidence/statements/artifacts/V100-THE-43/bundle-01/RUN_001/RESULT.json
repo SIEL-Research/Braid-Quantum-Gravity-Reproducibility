@@ -1,0 +1,139 @@
+{
+  "affine_solution_exact_on_arbitrary_nonuniform_mesh": true,
+  "all_input_hashes_match": true,
+  "asymptotically_flat_black_hole_family": "R=A*X+B; RF=A*X+B-r_h; F=1-r_h/R",
+  "claim_ceiling": "Exact static spherical gauge reduction and finite Schwarzschild family for the declared six-face Palatini sector, plus a pure-action no-go for the positive-throat bounce. No source interaction stress, regular dynamical black hole, collapse, evaporation, thermodynamics or empirical gravity claim.",
+  "coefficient_fit": false,
+  "complete_connection_eliminated_edge_action": "2*C*(DeltaR*Delta(RF)/h+kappa_Omega*h)",
+  "complete_gauge_reduced_first_order_edge_action": "2*C*(h*U*v-U*DeltaR+v*Delta(RF)+kappa_Omega*h)",
+  "decision": "SPLIT_SCOPED_PASS_COMPLETE_STATIC_SPHERICAL_GAUGE_REDUCED_SIX_FACE_ACTION_AND_EXACT_FINITE_SCHWARZSCHILD_FAMILY__SCOPED_NO_GO_PURE_PALATINI_REGULAR_BOUNCE_FOR_POSITIVE_ELL_STAR__SOURCE_INTERACTION_REQUIRED",
+  "exact_pattern": {
+    "01_01": "-2*R^2",
+    "23_23": "+2*h",
+    "time_tangent_boost_each": "+2*h*R",
+    "time_tangent_rotation_each": "-2*h*R"
+  },
+  "finite_Euler_R": "DeltaY_left/h_left-DeltaY_right/h_right=0",
+  "finite_Euler_Y": "DeltaR_left/h_left-DeltaR_right/h_right=0",
+  "finite_Schwarzschild_family_stationary": true,
+  "gauge_invariant_connection_combination": "U=u+2*Rbar*w",
+  "gauge_zero_mode_decouples_exactly": true,
+  "general_connected_chain_solution": "R and Y are affine functions of X",
+  "horizon_F_zero_regular": true,
+  "input_hash_checks": {
+    "records/BGCE094_TEMPORAL_CARTAN_PAIR_CONDITIONAL_FINITE_ACTION_PACKET_20260919/RESULT.json": true,
+    "records/BQGBH003_SOURCE_RADIAL_REFLECTION_AND_EVENT_AFFINE_COMPLETENESS_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH005_SIGNED_SCREEN_COORDINATE_REGULAR_BLACK_BOUNCE_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH017_SOURCE_WARPED_RADIAL_SHELL_CARTAN_TRANSPORT_TO_FULL_SIX_FACE_HOLONOMY_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH027_SOURCE_OFFSHELL_RADIAL_PALATINI_PARENT_WITH_INDEPENDENT_F_J_U_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH030_ACTUAL_SIX_FACE_CONNECTION_HESSIAN_TO_NULL_PAIR_SCHUR_BLOCK_GATE_20260929/RUN_001/RESULT.json": true
+  },
+  "intrinsic_screen_term_independent_of_R_and_RF": true,
+  "midpoint_identity": "DeltaJ=2*Rbar*DeltaR",
+  "midpoint_identity_verified": true,
+  "natural_variables": [
+    "R",
+    "Y=R*F"
+  ],
+  "next_gate": "BQGBH-032_SOURCE_SCREEN_INTERACTION_STRESS_TO_REGULAR_BOUNCE_STATIONARITY_GATE",
+  "ordinary_explanation": "Vacuum spherical Palatini gravity selects the Schwarzschild family; a smooth positive-radius bounce requires nonzero matter or interaction stress.",
+  "parameter_scan": false,
+  "prequotient_connection_action": "2*C*(h*u*v+2*h*Rbar*w*v-u*DeltaR+v*Delta(RF)-w*DeltaJ+kappa_Omega*h)",
+  "pure_Palatini_regular_bounce_stationary": false,
+  "remaining_contractions_match_exact_pattern": true,
+  "remaining_six_face_contractions": {
+    "01_01": [
+      [
+        [
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        "-2"
+      ]
+    ],
+    "02_[01,02]": [
+      [
+        [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "2"
+      ]
+    ],
+    "02_[01,12]": [
+      [
+        [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "-2"
+      ]
+    ],
+    "03_[01,03]": [
+      [
+        [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "2"
+      ]
+    ],
+    "03_[01,13]": [
+      [
+        [
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "-2"
+      ]
+    ],
+    "23_23": [
+      [
+        [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "2"
+      ]
+    ]
+  },
+  "schema": "siel.public-calculation.bqgbh031.raw_output.v1",
+  "scout_id": "PUBLIC-RUN-BQGBH-031-X1",
+  "source_interaction_stress_required_for_positive_throat": true,
+  "source_regular_bounce_throat_Euler_residual_Qsqrt2": [
+    "2",
+    "-2"
+  ],
+  "source_regular_bounce_throat_slopes_Qsqrt2": {
+    "left": [
+      "1",
+      "-1"
+    ],
+    "right": [
+      "-1",
+      "1"
+    ]
+  },
+  "source_revision": "09ceb3afb714f2b17f8ef0e4506216f1a4fe7eda",
+  "strongest_counterpattern": "The finite black-hole exterior and horizon are action-derived, but the source screen identity R^2=X^2+ell_star^2 is not stationary under the pure gravity action. Regularity cannot be promoted to dynamics without deriving its source stress.",
+  "target_Einstein_tensor_accessed": false,
+  "target_stress_accessed": false
+}

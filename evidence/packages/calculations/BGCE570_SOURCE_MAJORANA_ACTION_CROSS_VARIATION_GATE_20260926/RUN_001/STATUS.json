@@ -1,0 +1,8 @@
+{
+  "schema": "siel.public-calculation.bgce570.status.v1",
+  "scout_id": "PUBLIC-RUN-BGCE570-001",
+  "status": "COMPLETE",
+  "decision": "CLOSED_SCOPED",
+  "work_package": "BQG-G3-R03.7",
+  "formal_E0_E1_E2": "NOT_CLAIMED__PUBLIC_THEORETICAL_GATE_ONLY"
+}

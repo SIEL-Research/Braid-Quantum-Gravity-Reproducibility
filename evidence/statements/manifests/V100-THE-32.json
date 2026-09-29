@@ -9,7 +9,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
       "path": "evidence/statements/artifacts/V100-THE-32/bundle-01/CERTIFICATE.json",
-      "sha256": "bf4c07c9e0fc52f66529aa758b35462e18d97f41c0663e6177d6708d3c2f35da"
+      "sha256": "b580aa4e9550de5c6b4cd1cef2ce607ea94abaed811b0cdcd2866a347d7ace67"
     },
     {
       "bundle_label": "BGCE439 SOURCE DERIVED ANOMALY SOLUTION GROUPOID CROSSED PRODUCT TO PHYSICAL WEIGHT ONE GENERATIONS AND INVARIANT HIGGS",
@@ -18,7 +18,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-32/bundle-01/RESULT.json",
-      "sha256": "ee18b1d4f8a28b29bf6432200e666371c7471f0ab9da869179271dff323c47ff"
+      "sha256": "b860405686a06ee599e1400f62c22cbe1f2b1bc93feeff1bfcec1361fb3007a1"
     },
     {
       "bundle_label": "BGCE439 SOURCE DERIVED ANOMALY SOLUTION GROUPOID CROSSED PRODUCT TO PHYSICAL WEIGHT ONE GENERATIONS AND INVARIANT HIGGS",
@@ -27,7 +27,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-32/bundle-01/evaluate.py",
-      "sha256": "eaf14e0c2ca43bdf0a6a703f1d591588a70061d1a90b4140ed13b6eb89aaf07b"
+      "sha256": "f92ea69e005c76cc044746d6ab72ef3a155b9815447aa4ec93e30be3a2cb8440"
     },
     {
       "bundle_label": "BGCE439 SOURCE DERIVED ANOMALY SOLUTION GROUPOID CROSSED PRODUCT TO PHYSICAL WEIGHT ONE GENERATIONS AND INVARIANT HIGGS",
@@ -46,10 +46,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 6,
+      "file_count": 5,
       "kind": "vendored_calculation_package",
       "label": "BGCE439 SOURCE DERIVED ANOMALY SOLUTION GROUPOID CROSSED PRODUCT TO PHYSICAL WEIGHT ONE GENERATIONS AND INVARIANT HIGGS",
-      "sha256_tree": "1dc63792ec59bc721620db0ae03e2041bd820da4919f2b4b6b2e3ac42001da95"
+      "sha256_tree": "fffc307105d804dd463deea34a2ab1dcf78f6871c55dc19b793c2d516ec8bc10"
     }
   ],
   "status": "PUBLIC_CODE",

@@ -1,0 +1,10 @@
+{
+  "candidate_id": "BGCE292",
+  "raw_output_sha256": "cb7cd67a78cd944795861b83ab27c611ca8b94253d550b99efbf18963d6bfa78",
+  "result_sha256": "2ddb3b1e6682912db71aadf37f6cf9c1b16f14295350828e6aa6b11f08404a00",
+  "schema": "siel.public-calculation.bgce292.postrun.v1",
+  "scientific_decision": "PASS_FLAT_AT_SOURCE_ANCHOR_ALL_45_BASE_TWO_PLANES",
+  "status": "PASS",
+  "verification_command": "python3 -B records/BGCE292_BKM_HORIZONTAL_CONNECTION_CURVATURE_AND_LOCAL_PATH_INDEPENDENCE_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE292_VERIFICATION"
+}

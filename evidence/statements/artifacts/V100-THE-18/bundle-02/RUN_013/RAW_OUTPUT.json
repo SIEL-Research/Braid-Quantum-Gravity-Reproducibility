@@ -1,0 +1,216 @@
+{
+  "claim_ceiling": "Closes the two-polarization parity-balanced physical principal symbol on the flat source-axis sheets and its all-nonzero-momentum TT rank theorem, with local regular source-perfect/trajectory identification. It does not evaluate the full finite perfect Hessian, close lower-order crossing or global singular continuation, construct an infinite-depth quantum measure, or establish empirical gravity.",
+  "decision": "SCOPED_PASS_SOURCE_PERFECT_PHYSICAL_PRINCIPAL_SYMBOL_IS_EXACTLY_TWO_POLARIZATION_AND_PARITY_BALANCED__RAW_80_COMPONENT_TWO_VERSUS_ONE_IMBALANCE_IS_NOT_INHERITED__OPEN_EVALUATED_FULL_PERFECT_HESSIAN_AND_LOWER_ORDER_CROSSING",
+  "incident_class": "SCIENTIFIC_OUTCOME",
+  "input_hashes_verified": {
+    "2dc35a96766911d6e150e6922d6843d657d059fc:records/BQG_G3_R02_5_NORMALIZED_SYM2_TEN_COMPONENT_STRONG_CONVERGENCE_CLOSURE_20260926/RUN_010/RESULT.json": "175d04f3e1b76ac49a6ba829ea27312e576ec957baf6055ed35b74d2162f3350",
+    "8eec931d4e3e5af02068c99436d7e25aa112d86c:records/BQGADM013_PARENT_TO_TRAJECTORY_ASYMPTOTIC_BRIDGE_20260929/RUN_013/RESULT.json": "916cd89e38f756d18f6e45a64fc41f69555cada33ba18d0743f29ab084cfd140",
+    "8eec931d4e3e5af02068c99436d7e25aa112d86c:records/BQGADM014_SOURCE_TT_PHYSICAL_PROJECTOR_20260929/RUN_014/RESULT.json": "5d1cdd9c97e003785a23b0471aa429c8c87cabd3865b55e7b184c583a4f353c9",
+    "8eec931d4e3e5af02068c99436d7e25aa112d86c:records/BQGADM015_MOVING_PROJECTOR_ALL_SOURCE_MOMENTA_20260929/RUN_015/RESULT.json": "d3e37cb2779a0c44dfa00b23da55cab1630065df6c4cf992b96d43a55a4f7cdb",
+    "8eec931d4e3e5af02068c99436d7e25aa112d86c:records/BQGSTRAT010_EXACT_CYCLOTOMIC_HESSIAN_RANK_AND_ORIENTATION_SHEET_GATE_20260929/RUN_010/RESULT.json": "90daa963994c400403e335bdaaba221358ef58b3c74a7ff649de0c7879352c14",
+    "8eec931d4e3e5af02068c99436d7e25aa112d86c:records/BQGULTRA002_FINITE_DEPTH_PERFECT_ACTION_RECURSION_GATE_20260929/RUN_002/RESULT.json": "8823324a41ba00c78a055d0500ce6e9f0b397ec9a741a3a86743c3d28bf7cc50"
+  },
+  "next_gate": "BQGSTRAT-014_EVALUATED_PERFECT_HESSIAN_LOWER_ORDER_CROSSING_GATE",
+  "null_sheet_records": [
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 0,
+      "spatial_digit": 1,
+      "temporal_digit": 1
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 0,
+      "spatial_digit": 4,
+      "temporal_digit": 1
+    },
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 1,
+      "spatial_digit": 1,
+      "temporal_digit": 1
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 1,
+      "spatial_digit": 4,
+      "temporal_digit": 1
+    },
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 2,
+      "spatial_digit": 1,
+      "temporal_digit": 1
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 2,
+      "spatial_digit": 4,
+      "temporal_digit": 1
+    },
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 0,
+      "spatial_digit": 2,
+      "temporal_digit": 2
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 0,
+      "spatial_digit": 3,
+      "temporal_digit": 2
+    },
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 1,
+      "spatial_digit": 2,
+      "temporal_digit": 2
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 1,
+      "spatial_digit": 3,
+      "temporal_digit": 2
+    },
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 2,
+      "spatial_digit": 2,
+      "temporal_digit": 2
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 2,
+      "spatial_digit": 3,
+      "temporal_digit": 2
+    },
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 0,
+      "spatial_digit": 3,
+      "temporal_digit": 3
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 0,
+      "spatial_digit": 2,
+      "temporal_digit": 3
+    },
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 1,
+      "spatial_digit": 3,
+      "temporal_digit": 3
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 1,
+      "spatial_digit": 2,
+      "temporal_digit": 3
+    },
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 2,
+      "spatial_digit": 3,
+      "temporal_digit": 3
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 2,
+      "spatial_digit": 2,
+      "temporal_digit": 3
+    },
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 0,
+      "spatial_digit": 4,
+      "temporal_digit": 4
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 0,
+      "spatial_digit": 1,
+      "temporal_digit": 4
+    },
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 1,
+      "spatial_digit": 4,
+      "temporal_digit": 4
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 1,
+      "spatial_digit": 1,
+      "temporal_digit": 4
+    },
+    {
+      "orientation": "+",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 2,
+      "spatial_digit": 4,
+      "temporal_digit": 4
+    },
+    {
+      "orientation": "-",
+      "physical_kernel_dimension": 2,
+      "spatial_axis": 2,
+      "spatial_digit": 1,
+      "temporal_digit": 4
+    }
+  ],
+  "physical_projector": {
+    "configuration_rank": 2,
+    "nonzero_momenta_checked": 124,
+    "phase_rank_inherited": 4,
+    "scalar_principal_symbol_commutes_exactly": true
+  },
+  "physical_symbol_theorem": {
+    "TT_restriction": "q_h(omega,k) I_2",
+    "kernel_dimension_on_every_declared_null_sheet": 2,
+    "new_coefficient": false,
+    "noncharacteristic_control_rank": 2,
+    "positive_negative_orientation_sheets": 24,
+    "ten_component_principal_symbol": "q_h(omega,k) I_10"
+  },
+  "primary_evidence_status": "Theoretical derivation / exact scoped physical-principal theorem",
+  "raw_block_relation": {
+    "raw_80_component_profile_retained_as_negative_route_evidence": {
+      "60": 1,
+      "64": 12,
+      "65": 12,
+      "66": 600
+    },
+    "raw_block_repaired": false,
+    "raw_imbalance_inherited_by_physical_principal_system": false
+  },
+  "schema": "siel.public-calculation.bqgstrat013.raw.v1",
+  "source_perfect_schur_scope": {
+    "evaluated_closed_form_full_perfect_Hessian": false,
+    "finite_parent_to_Euler_relation": "on-shell asymptotic, not literal exact finite-map identity",
+    "lower_order_crossing_form": "OPEN",
+    "regular_transverse_Schur_theorem": true
+  }
+}

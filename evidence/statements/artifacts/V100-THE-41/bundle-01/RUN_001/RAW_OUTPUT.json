@@ -1,0 +1,212 @@
+{
+  "schema": "siel.public-calculation.bqgcal007.raw.v1",
+  "scout_id": "PUBLIC-RUN-BQGCAL-007-X1",
+  "gate_id": "BQGCAL-007_SOURCE_TOTAL_CHARGE_TO_FINITE_SCREEN_RADIUS_AND_REFINEMENT_LEVEL_QUANTIZATION_GATE",
+  "source_commit": "21f08ae4fdcc8ee92794ad2ce00b9f34a28e5e3d",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-21f08ae4fdcc",
+  "evidence_status": "Theoretical derivation",
+  "evidence_qualifiers": "Exact refinement covariance and rational area-count algebra; physical count and energy-area identification remain absent",
+  "scientific_layer": "finite refinement semantics and source-screen area quantization candidate",
+  "governance_class": "PUBLIC_SCOPED_SCIENTIFIC_DECISION",
+  "decision": "SPLIT_RESULT__SCOPED_NO_GO_FOR_SELECTING_A_UNIQUE_REFINEMENT_LEVEL_FROM_THE_EXISTING_TOTAL_G1_CHARGE_BECAUSE_THE_CHARGE_IS_REFINEMENT_BLIND__SCOPED_PASS_FOR_THE_REFINEMENT_INVARIANT_COMPOSITE_SCREEN_LAW_WITH_N_M_EQUALS_K_TIMES_25_TO_M__A_TOTAL_EQUALS_K_A0__AND_R_K_EQUALS_SQRT_K_TIMES_ELL_STAR__A_SOURCE_POSITIVE_COUNT_K_AND_ITS_QUASILOCAL_ENERGY_AREA_IDENTIFICATION_REMAIN_OPEN",
+  "bold_hypothesis": {
+    "interpretive_leap": "The refinement label m is a resolution coordinate, not a black-hole state quantum number. A physical screen is the complete 25-adic descendant family, while a separate positive additive source count K labels its physical area.",
+    "new_structure": "Replace single-cell radius selection r proportional to 5^(-m) by refinement-invariant composite screens with N_m=K*25^m elementary faces, A_total=K*A_0 and r_K=sqrt(K)*ell_star.",
+    "source_status": "The 25-child area conservation and total-charge refinement transport are derived. The positive additive count K and its relation to total Ward energy are not yet derived.",
+    "strongest_ordinary_alternative": "Refinement is ordinary discretization gauge: neither m nor a new count K is a physical black-hole quantum number without an independently derived number operator and energy-area law."
+  },
+  "existing_total_charge": {
+    "refinement_transport": "Q_m=Q_source tensor I_tail",
+    "refinement_blind": true,
+    "can_select_unique_m_by_charge_only_predicate": false,
+    "environment_component_nonzero": true,
+    "environment_component_trace_zero": true,
+    "environment_component_indefinite": true,
+    "positive_integer_screen_count": false
+  },
+  "single_cell_refinement": {
+    "area": "A_m=A_0*25^(-m)",
+    "radius": "r_m=ell_star*5^(-m)",
+    "children_per_parent_screen": 25,
+    "total_descendant_area_over_parent": "1"
+  },
+  "composite_screen": {
+    "cell_count": "N_m=K*25^m",
+    "total_area": "A_total(K,m)=N_m*A_m=K*A_0",
+    "radius_from_A_B_equals_shape_times_r_squared": "r_K=sqrt(K)*ell_star",
+    "refinement_invariant": true,
+    "m_interpretation": "resolution coordinate, not physical black-hole state label",
+    "K_interpretation": "candidate positive additive screen-number label; not yet source-derived"
+  },
+  "exact_rows": [
+    {
+      "K": 1,
+      "m": 0,
+      "N_m": 1,
+      "elementary_area_over_A0": "1",
+      "total_area_over_A0": "1"
+    },
+    {
+      "K": 1,
+      "m": 1,
+      "N_m": 25,
+      "elementary_area_over_A0": "1/25",
+      "total_area_over_A0": "1"
+    },
+    {
+      "K": 1,
+      "m": 2,
+      "N_m": 625,
+      "elementary_area_over_A0": "1/625",
+      "total_area_over_A0": "1"
+    },
+    {
+      "K": 1,
+      "m": 3,
+      "N_m": 15625,
+      "elementary_area_over_A0": "1/15625",
+      "total_area_over_A0": "1"
+    },
+    {
+      "K": 2,
+      "m": 0,
+      "N_m": 2,
+      "elementary_area_over_A0": "1",
+      "total_area_over_A0": "2"
+    },
+    {
+      "K": 2,
+      "m": 1,
+      "N_m": 50,
+      "elementary_area_over_A0": "1/25",
+      "total_area_over_A0": "2"
+    },
+    {
+      "K": 2,
+      "m": 2,
+      "N_m": 1250,
+      "elementary_area_over_A0": "1/625",
+      "total_area_over_A0": "2"
+    },
+    {
+      "K": 2,
+      "m": 3,
+      "N_m": 31250,
+      "elementary_area_over_A0": "1/15625",
+      "total_area_over_A0": "2"
+    },
+    {
+      "K": 4,
+      "m": 0,
+      "N_m": 4,
+      "elementary_area_over_A0": "1",
+      "total_area_over_A0": "4"
+    },
+    {
+      "K": 4,
+      "m": 1,
+      "N_m": 100,
+      "elementary_area_over_A0": "1/25",
+      "total_area_over_A0": "4"
+    },
+    {
+      "K": 4,
+      "m": 2,
+      "N_m": 2500,
+      "elementary_area_over_A0": "1/625",
+      "total_area_over_A0": "4"
+    },
+    {
+      "K": 4,
+      "m": 3,
+      "N_m": 62500,
+      "elementary_area_over_A0": "1/15625",
+      "total_area_over_A0": "4"
+    },
+    {
+      "K": 9,
+      "m": 0,
+      "N_m": 9,
+      "elementary_area_over_A0": "1",
+      "total_area_over_A0": "9"
+    },
+    {
+      "K": 9,
+      "m": 1,
+      "N_m": 225,
+      "elementary_area_over_A0": "1/25",
+      "total_area_over_A0": "9"
+    },
+    {
+      "K": 9,
+      "m": 2,
+      "N_m": 5625,
+      "elementary_area_over_A0": "1/625",
+      "total_area_over_A0": "9"
+    },
+    {
+      "K": 9,
+      "m": 3,
+      "N_m": 140625,
+      "elementary_area_over_A0": "1/15625",
+      "total_area_over_A0": "9"
+    }
+  ],
+  "noncompensating_gates": {
+    "G1_PINNED_TOTAL_CHARGE_SCREEN_AREA_TRANSPORT_AND_HORIZON_INPUTS_VALID": true,
+    "G2_TOTAL_G1_CHARGE_IS_REFINEMENT_BLIND": true,
+    "G3_EXISTING_TOTAL_CHARGE_SELECTS_EXACTLY_ONE_REFINEMENT_LEVEL": false,
+    "G4_COMPLETE_25_ADIC_DESCENDANT_SCREEN_AREA_IS_REFINEMENT_INVARIANT": true,
+    "G5_COMPOSITE_RADIUS_LAW_R_K_EQUALS_SQRT_K_ELL_STAR_DERIVED": true,
+    "G6_EXISTING_TOTAL_CHARGE_IS_A_POSITIVE_INTEGER_SCREEN_COUNT": false,
+    "G7_CHARGE_TO_COUNT_AND_QUASILOCAL_ENERGY_AREA_LAW_DERIVED": false,
+    "G8_ABSOLUTE_SI_RADIUS_MASS_AND_GRAVITY_SCALE_DERIVED": false,
+    "G9_NO_TARGET_ACCESS_PARAMETER_SCAN_OR_LONG_COMPUTATION": true
+  },
+  "unique_refinement_level_from_existing_total_charge_pass": false,
+  "refinement_invariant_composite_screen_pass": true,
+  "positive_source_screen_number_operator_pass": false,
+  "absolute_gravity_calibration_pass": false,
+  "pattern": "The same 25-adic law that shrinks one elementary face makes the complete descendant screen area exactly invariant; the conserved total charge is likewise refinement blind.",
+  "interpretive_leap": "The finite level m labels resolution. Physical horizon size should be carried by a refinement-invariant additive sector K rather than by choosing one m.",
+  "alternative_explanations": [
+    "This is standard regulator/refinement invariance and does not by itself imply quantum black-hole area levels.",
+    "K is currently a bookkeeping integer, not a derived observable.",
+    "The existing environment charge is indefinite and cannot be silently renamed as a positive cell count."
+  ],
+  "novel_hypothesis": "A source-central positive number operator N_screen and the finite total Ward energy jointly select K, giving a refinement-independent quasi-local horizon area without choosing m.",
+  "falsifier": "The theorem fails if the total charge changes under source refinement, if 25 child faces do not conserve parent area, or if a source-derived positive integer screen-count operator already identifies one unique m.",
+  "required_prospective_test": "Construct a positive integer source-screen number operator commuting with refinement and derive its coefficient-free relation to the conserved total Ward energy and the marginal-screen area.",
+  "strongest_ordinary_alternative": "Refinement is ordinary discretization gauge: neither m nor a new count K is a physical black-hole quantum number without an independently derived number operator and energy-area law.",
+  "counter_intuition_scan": "The result corrects a category error: m cannot be both a pure refinement coordinate and a physical radius label for the complete screen. The new K law is exact geometry, but until K is a source observable and is tied to quasi-local energy, it is not a black-hole spectrum.",
+  "confidence_in_pattern": "VERY_HIGH_EXACT",
+  "confidence_in_physical_area_quantization": "LOW_OPEN",
+  "standard_explanation": "A mesh refinement subdivides a fixed surface without changing its total area, while conserved total energy is regulator independent.",
+  "SIEL_specific_interpretation": "The source fixes the 25-adic descendant law and tetrahedral area coefficient, making the refinement-invariant composite relation exact inside this finite Braid construction.",
+  "novelty_question": "No external novelty claim is made; the exact source-specific screen-count realization remains to be constructed.",
+  "distinguishing_prediction": "A derived discrete K spectrum and energy-area relation would distinguish the finite Braid screen from a generic mesh; neither is yet established.",
+  "SIEL_generation_classification": "SIEL_GUIDED_STANDARD_COMPATIBLE",
+  "claim_ceiling": "This scout may exclude selection of a unique refinement level by the existing total G1 charge and may derive the exact refinement-invariant composite-screen area/radius law. It may not identify K with a physical source observable, derive absolute SI radius or mass, predict Newton's constant, entropy or Hawking physics, or establish a finite quantum black hole.",
+  "next_gate": "BQGCAL-008_SOURCE_POSITIVE_SCREEN_NUMBER_AND_QUASILOCAL_ENERGY_TO_REFINEMENT_INVARIANT_HORIZON_AREA_GATE",
+  "work_packages": [
+    "BQG-G3-R03.2",
+    "BQG-G3-R03.5"
+  ],
+  "work_package_status": "R03.2_EXTERNAL_PENDING_ROUTE_CORRECTED__R03.5_PARTIAL_STRENGTHENED",
+  "runtime": {
+    "python": "3.14.6",
+    "target_data_accessed": false,
+    "parameter_scan_used": false,
+    "long_computation_used": false
+  },
+  "tests": {
+    "T1_INPUT_HASHES_MATCH": true,
+    "T2_TOTAL_CHARGE_TRANSPORTS_WITH_IDENTITY_TAIL_AT_ALL_LEVELS": true,
+    "T3_CHARGE_ONLY_PREDICATE_CANNOT_DISTINGUISH_M": true,
+    "T4_25_CHILDREN_TIMES_ONE_OVER_25_AREA_EQUALS_ONE": true,
+    "T5_ALL_EXACT_COMPOSITE_ROWS_HAVE_AREA_RATIO_K": true,
+    "T6_ENVIRONMENT_CHARGE_IS_NONZERO_TRACE_ZERO_HERMITIAN_AND_THEREFORE_INDEFINITE": true,
+    "T7_NO_POSITIVE_INTEGER_COUNT_OR_CHARGE_TO_COUNT_MAP_IS_DERIVED": true,
+    "T8_NO_TARGET_ACCESS_SCAN_OR_LONG_COMPUTATION": true
+  }
+}

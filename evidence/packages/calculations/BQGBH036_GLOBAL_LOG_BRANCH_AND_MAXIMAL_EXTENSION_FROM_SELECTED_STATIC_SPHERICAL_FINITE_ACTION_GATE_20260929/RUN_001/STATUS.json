@@ -1,0 +1,7 @@
+{
+  "schema": "siel.public-calculation.bqgbh036.status.v1",
+  "scout_id": "PUBLIC-RUN-BQGBH-036-X1",
+  "status": "COMPLETE_SPLIT_CLOSED_SCOPED_AND_CORRECTION",
+  "result_accessed": true,
+  "next_gate_if_split_pass": "BQGBH-037_SOURCE_MAXIMAL_ATLAS_INEXTENDIBILITY_AND_GLOBAL_CAUSAL_STRUCTURE_GATE"
+}

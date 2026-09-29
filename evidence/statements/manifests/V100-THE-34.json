@@ -8,8 +8,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "20edbec96b3a8c8db417e0b470824b64ec3831f0f6423971b6ab7424c975db56"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/RUN_001/CERTIFICATE.json",
+      "sha256": "dd12a2f171832741272da0caeadfc8812fba082d5707b53cdc33b92ea8d2693c"
     },
     {
       "bundle_label": "BGCE552 SOURCE SELECTED SELECTOR TO VARIATIONAL YUKAWA COUPLING",
@@ -17,8 +17,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "66c379d59fe08ce14b006dfa40dbdeed6828cc6c4236e463c8fd19ff6d85d019"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "4743475952b8006232a2614cbd5997da5ae80ebbe12edf0ba143e64b38c02019"
     },
     {
       "bundle_label": "BGCE552 SOURCE SELECTED SELECTOR TO VARIATIONAL YUKAWA COUPLING",
@@ -26,8 +26,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "d82b2e9327ed1315cb131d61e8c638047b29d462010fb78abc36426c78d7efd3"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/RUN_001/RAW_OUTPUT.json",
+      "sha256": "ab4c1ce57f08dd37cd0ac5175b544611151ba2cd383664ec34f275516a75752f"
     },
     {
       "bundle_label": "BGCE552 SOURCE SELECTED SELECTOR TO VARIATIONAL YUKAWA COUPLING",
@@ -35,8 +35,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/DPA_SCOUT_001/RESULT.json",
-      "sha256": "d629210551db4759e88a5b04e02e0c38420762c5ab87426a845507bc8b46f285"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/RUN_001/RESULT.json",
+      "sha256": "85026695b95daf8199e399dd0bbb4937f20f293dfe3ef956f0526611e705d63d"
     },
     {
       "bundle_label": "BGCE552 SOURCE SELECTED SELECTOR TO VARIATIONAL YUKAWA COUPLING",
@@ -44,8 +44,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "b2483749f147018a0bf7ad3ae412d459a7ea0e218bae15781287eb436ecca7ea"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/RUN_001/evaluate_scout.py",
+      "sha256": "a9fa4dfc902ec4d9b75552b02c2b269218786e6247b33de7349aefb34b6bf821"
     },
     {
       "bundle_label": "BGCE552 SOURCE SELECTED SELECTOR TO VARIATIONAL YUKAWA COUPLING",
@@ -53,7 +53,7 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/DPA_SCOUT_001/verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-01/RUN_001/verify.py",
       "sha256": "8ad2be241bbaaf6d251e4b576b221194e0f0d7a70efb300e23df4ab8835dfe38"
     },
     {
@@ -62,8 +62,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "ba85ba92253f9a5ea125966d612a91bbc7bde18c14344adc14be845293d466ef"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/RUN_001/CERTIFICATE.json",
+      "sha256": "6c61ba75a5ec0f4aca7ff4642eda86410b63f61a2a00e9a63690e29d614364fc"
     },
     {
       "bundle_label": "BGCE570 SOURCE MAJORANA ACTION CROSS VARIATION",
@@ -71,8 +71,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "528bea661665225d305a23fa26ec9849b7069459b2bb6ce13debf83e20af92dd"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "2f36e03c691b12396ae41d62ff967fd75380a6c4a4cd8e557c2801fc446422a6"
     },
     {
       "bundle_label": "BGCE570 SOURCE MAJORANA ACTION CROSS VARIATION",
@@ -80,8 +80,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "e8dd325c423c955b9fb77455a2a5f23ebe0a109ab1fe9b9728c2cc0fd4335e78"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/RUN_001/RAW_OUTPUT.json",
+      "sha256": "bcf274d9d7797997e8f88528ad4967261ac7129b8701f4ab07a012cf31ee2c2b"
     },
     {
       "bundle_label": "BGCE570 SOURCE MAJORANA ACTION CROSS VARIATION",
@@ -89,8 +89,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/DPA_SCOUT_001/RESULT.json",
-      "sha256": "5e5f78c3ccf74f4e33c71851f219fc69b5cd6361f49374b250c337485d2e8002"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/RUN_001/RESULT.json",
+      "sha256": "fcf54610ad771e56e8b83d9ab77ab538677dbd0687c2925a8f19900bfeea7a37"
     },
     {
       "bundle_label": "BGCE570 SOURCE MAJORANA ACTION CROSS VARIATION",
@@ -98,8 +98,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "a4e3b0edb8b05fecdfa24c2d17896262bcbc706505860954b8c3a0509b7037a4"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/RUN_001/evaluate_scout.py",
+      "sha256": "633ad6fc008389a6f010260c1afe525d2353453712e0595ef47136a4c8703b72"
     },
     {
       "bundle_label": "BGCE570 SOURCE MAJORANA ACTION CROSS VARIATION",
@@ -107,8 +107,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/DPA_SCOUT_001/iterations/001/CERTIFICATE.json",
-      "sha256": "ba85ba92253f9a5ea125966d612a91bbc7bde18c14344adc14be845293d466ef"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/RUN_001/iterations/001/CERTIFICATE.json",
+      "sha256": "6c61ba75a5ec0f4aca7ff4642eda86410b63f61a2a00e9a63690e29d614364fc"
     },
     {
       "bundle_label": "BGCE570 SOURCE MAJORANA ACTION CROSS VARIATION",
@@ -116,8 +116,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/DPA_SCOUT_001/iterations/001/RAW_OUTPUT.json",
-      "sha256": "e8dd325c423c955b9fb77455a2a5f23ebe0a109ab1fe9b9728c2cc0fd4335e78"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/RUN_001/iterations/001/RAW_OUTPUT.json",
+      "sha256": "bcf274d9d7797997e8f88528ad4967261ac7129b8701f4ab07a012cf31ee2c2b"
     },
     {
       "bundle_label": "BGCE570 SOURCE MAJORANA ACTION CROSS VARIATION",
@@ -125,8 +125,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/DPA_SCOUT_001/iterations/001/RESULT.json",
-      "sha256": "5e5f78c3ccf74f4e33c71851f219fc69b5cd6361f49374b250c337485d2e8002"
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/RUN_001/iterations/001/RESULT.json",
+      "sha256": "fcf54610ad771e56e8b83d9ab77ab538677dbd0687c2925a8f19900bfeea7a37"
     },
     {
       "bundle_label": "BGCE570 SOURCE MAJORANA ACTION CROSS VARIATION",
@@ -134,7 +134,7 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/DPA_SCOUT_001/verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-34/bundle-02/RUN_001/verify.py",
       "sha256": "d65c5439d043965d86cb5ffc7c55b0df5d438c01da4d6d2c2df7b6b5c4922b23"
     }
   ],
@@ -145,16 +145,16 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 11,
+      "file_count": 10,
       "kind": "vendored_calculation_package",
       "label": "BGCE552 SOURCE SELECTED SELECTOR TO VARIATIONAL YUKAWA COUPLING",
-      "sha256_tree": "3706a898c19fb6e24a8d082cbce1cc8a00562e5fe1cbae83400c225b66432114"
+      "sha256_tree": "85a1bdbab301d68bc4799ec836bec4a45de20f63ec7dbff608faf492a3339180"
     },
     {
-      "file_count": 15,
+      "file_count": 14,
       "kind": "vendored_calculation_package",
       "label": "BGCE570 SOURCE MAJORANA ACTION CROSS VARIATION",
-      "sha256_tree": "8e8b6d4c25b610c24236d4014e3ff7df9c8f92b7b28df5b914a4f11c4c46041a"
+      "sha256_tree": "44e45016fed7553f729d49126cf0fad2007ce106b613348b774d3df5fdab4544"
     }
   ],
   "status": "PUBLIC_CODE",

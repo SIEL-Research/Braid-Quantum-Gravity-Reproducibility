@@ -1,0 +1,16 @@
+{
+  "attempts_retained": 1,
+  "completed_at": "2026-09-25T15:52:30+09:00",
+  "decision": "CLOSED_SCOPED",
+  "evidence_status": "Theoretical derivation",
+  "gate_id": "BGCE464",
+  "next_gate": "BGCE465_SOURCE_GENERATORS_TO_PHYSICAL_CONTINUOUS_UNITARY_CONTROL_GATE",
+  "raw_output_sha256": "02a710ad06df7058a0f0203c1aa4aabe70c5b1df02959a855244399bf18c704d",
+  "report_sha256": "0228bd6b146dce6cf6b0318dfb4b9ea4f7d455f3030061aa9e9ebe12bae95a90",
+  "result_sha256": "71e1bf19ae596cdf4f6318d3b136db631a5a5f63f8e7bb14d7c762339bd99e05",
+  "schema": "siel.public-calculation.scout.status.v1",
+  "scout_id": "PUBLIC-RUN-BGCE464-001",
+  "status": "COMPLETE",
+  "successful_attempt": "0001",
+  "work_package": "BQG-G0-R01.2"
+}

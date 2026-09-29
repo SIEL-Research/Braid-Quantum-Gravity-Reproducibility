@@ -9,7 +9,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-10/bundle-01/RESULT.json",
-      "sha256": "8ae1776515657371834bd52f0f7e35d9cdd723e36ebf5931d0b3705f8ca61754"
+      "sha256": "d0206476f8e76b26a5ceebe641e25936c8f36ddfe7d30e616a7a773a8d700618"
     },
     {
       "bundle_label": "BGCE322 COLLISION SUPPORT INTERACTION STRESS AND FOUR COMPONENT BALANCE",
@@ -18,7 +18,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-10/bundle-01/evaluate.py",
-      "sha256": "df820c86d48baac989293660870cbe8cce4343516f1fe3dfc1c20e59b3fb8c78"
+      "sha256": "73634b2d33b7fa998efb71ea93a2071cd8c4da2afb10496f65116c9bd6675d3c"
     },
     {
       "bundle_label": "BGCE323 SOURCE SELECTED COLLISION METRIC DEFORMATION TO DYNAMICAL INFLUENCE AND REPEATED TOTAL WARD",
@@ -27,7 +27,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-10/bundle-02/RESULT.json",
-      "sha256": "7b7585a2fdddf35046a8098d137ecba54996a9258e7b4f67d848c22bc7925aaf"
+      "sha256": "53fdaaa07353cf229151122c3510e699e656a4848fd8c350883f5f6c17af5229"
     },
     {
       "bundle_label": "BGCE323 SOURCE SELECTED COLLISION METRIC DEFORMATION TO DYNAMICAL INFLUENCE AND REPEATED TOTAL WARD",
@@ -36,7 +36,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-10/bundle-02/evaluate.py",
-      "sha256": "9fac1bd650fe4a0bf691c2a643065d6ee791557521b070b2599097954ed86eae"
+      "sha256": "a63110da390f7de52d598007b19e0da3d4381b289cbc09145a341b649c3d03fe"
     },
     {
       "bundle_label": "BGCE324 CENTERED CHARGE SCORE TO COLLISION NOETHER TIME OR MODULAR ENERGY",
@@ -45,7 +45,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-10/bundle-03/RESULT.json",
-      "sha256": "ed7f418a9a54d22081c72f2ff373eed35a2ffde72d848d5f14a8c9904afab4b1"
+      "sha256": "201b68ca22371465e77351c6dc8723e43988702573575a80dc22d815e1936358"
     },
     {
       "bundle_label": "BGCE324 CENTERED CHARGE SCORE TO COLLISION NOETHER TIME OR MODULAR ENERGY",
@@ -54,7 +54,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-10/bundle-03/evaluate.py",
-      "sha256": "4009ec5aabd03a390bf350d4b7da16269e8e2a2d5ca1cb0c3f37fd11f19b4431"
+      "sha256": "21826d41fb18e224f12fb2efb544743fc2fdfce1d54f9c199cae724069bb587c"
     }
   ],
   "id": "V100-THE-10",
@@ -64,22 +64,22 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 4,
+      "file_count": 3,
       "kind": "vendored_calculation_package",
       "label": "BGCE322 COLLISION SUPPORT INTERACTION STRESS AND FOUR COMPONENT BALANCE",
-      "sha256_tree": "0fa817adb0090a2ec05933e4b01fdc10ebb577e2af6df243175e67bd4e2a56b4"
+      "sha256_tree": "dbf390731117874abafc35348e649b2829194b83a4dab553d19be830a46684a3"
     },
     {
-      "file_count": 4,
+      "file_count": 3,
       "kind": "vendored_calculation_package",
       "label": "BGCE323 SOURCE SELECTED COLLISION METRIC DEFORMATION TO DYNAMICAL INFLUENCE AND REPEATED TOTAL WARD",
-      "sha256_tree": "05c0471a372f9877b51b7c207aabe02c5933b26ec2302fd09d05ef8efc7a8f1b"
+      "sha256_tree": "bb0ca0ceee4f02c3184c7d367d3bafe4c1c0384d99fd96a851d2af1451578a0a"
     },
     {
-      "file_count": 4,
+      "file_count": 3,
       "kind": "vendored_calculation_package",
       "label": "BGCE324 CENTERED CHARGE SCORE TO COLLISION NOETHER TIME OR MODULAR ENERGY",
-      "sha256_tree": "6f41a005b29ed19110f31fd8fcf7a724646969f4e5a18d9184971634b2741bdb"
+      "sha256_tree": "7994904f5744d872d3c8c241ad5e6766aee0293489a9c8ad3ff63366af58835e"
     }
   ],
   "status": "PUBLIC_CODE",

@@ -1,0 +1,52 @@
+{
+  "schema": "siel.public-calculation.scout.bqgqbv003.raw.v1",
+  "BV_halfdensity": {
+    "even": "source counting/BKM density",
+    "odd": "BGCE532 source-sign Berezin density",
+    "antifields": "dual density induced by the finite odd symplectic pairing",
+    "fermion_phase": "BQGQBV-002 pointed GW determinant-line phase",
+    "remaining_ambiguity": "one nonzero overall constant, irrelevant to Delta_mu and normalized observables"
+  },
+  "modular_anomaly": {
+    "compact_gauge": "su(3)+su(2)+u(1) is unimodular",
+    "Lorentz": "so(1,3) is semisimple and unimodular",
+    "HDA": "declared finite source-perfect action is a canonical cotangent/groupoid action and preserves the induced Liouville/Berezin density",
+    "matter_anomalies": {
+      "SU3_cubic": 0,
+      "SU3_squared_U1": 0,
+      "SU2_squared_U1": 0,
+      "gravitational_U1": 0,
+      "U1_cubic": 0,
+      "weak_Witten_doublet_parity": 0
+    },
+    "conclusion": "Delta_mu S_BV=0 on each simply connected gap-admissible local regular chart"
+  },
+  "QME": "(1/2)(S_BV,S_BV)-i*hbar*Delta_mu S_BV=0",
+  "renormalization": {
+    "map": "rho_n=(pi_n)_* rho_(n+1) over a fine-fiber BV Lagrangian",
+    "QME_preservation": "Delta_n rho_n=(pi_n)_*(Delta_(n+1) rho_(n+1))=0 by finite BV Stokes",
+    "composition": "(pi_n)_*(pi_(n+1))_*=(pi_n o pi_(n+1))_* by finite Fubini",
+    "exact_5x5_witness": {
+      "direct": "225",
+      "nested": "225"
+    }
+  },
+  "berezinian_witnesses": [
+    "1",
+    "1"
+  ],
+  "checks": {
+    "classical_BV_master_present": true,
+    "boundary_BFV_nilpotent_present": true,
+    "source_GW_regulator_present": true,
+    "all_local_and_mixed_anomalies_zero": true,
+    "weak_global_obstruction_even": true,
+    "all_eight_sectors_anomaly_clean": true,
+    "finite_canonical_Berezinian_unity": true,
+    "finite_refinement_Fubini_exact": true,
+    "prior_Schur_determinant_composition": true,
+    "compact_and_Lorentz_unimodular": true,
+    "canonical_HDA_cotangent_measure_preserving": true,
+    "pointed_local_determinant_line_trivialization": true
+  }
+}

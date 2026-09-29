@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run vendored verifiers and public adapters without the private SRA Git graph."""
+"""Run vendored verifiers and public adapters without the private research Git graph."""
 
 from __future__ import annotations
 
@@ -19,14 +19,14 @@ sys.dont_write_bytecode = True
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PACKAGES = ROOT / "evidence/packages/sra"
+PACKAGES = ROOT / "evidence/packages/calculations"
 
 REPLACED_OR_NONCANONICAL = {
-    "SRA_DPA_BGCE444_TEN_METRIC_SOURCE_TO_THIRTY_FIVE_QUARTIC_SECOND_RESPONSE_GATE_20260925/proof_check.py",
-    "SRA_DPA_BGCE445_AF_QUASILOCAL_CPTP_ALL_SCALE_COMPLETION_GATE_20260925/proof_check.py",
-    "SRA_DPA_BGCE449_PRECONDITIONED_UB612_INTERVAL_RANK35_CERTIFICATE_GATE_20260925/proof_check.py",
-    "SRA_DPA_BGCE499_FISHER_GAIN_AND_OUTER_CUP_TYPED_RECONCILIATION_GATE_20260925/DPA_SCOUT_001/verify.py",
-    "SRA_DPA_BQGSTRAT011_SOURCE_REVERSE_SHEET_PALATINI_COMPLETION_GATE_20260929/DPA_SCOUT_011/verify.py",
+    "BGCE444_TEN_METRIC_SOURCE_TO_THIRTY_FIVE_QUARTIC_SECOND_RESPONSE_GATE_20260925/proof_check.py",
+    "BGCE445_AF_QUASILOCAL_CPTP_ALL_SCALE_COMPLETION_GATE_20260925/proof_check.py",
+    "BGCE449_PRECONDITIONED_UB612_INTERVAL_RANK35_CERTIFICATE_GATE_20260925/proof_check.py",
+    "BGCE499_FISHER_GAIN_AND_OUTER_CUP_TYPED_RECONCILIATION_GATE_20260925/RUN_001/verify.py",
+    "BQGSTRAT011_SOURCE_REVERSE_SHEET_PALATINI_COMPLETION_GATE_20260929/RUN_011/verify.py",
 }
 
 
@@ -38,23 +38,23 @@ def load_module(path: Path, name: str):
     return module
 
 
-def resolve_sra(relative: str) -> Path:
+def resolve_record(relative: str) -> Path:
     parts = Path(relative).parts
-    assert parts and parts[0] == "audits", relative
+    assert parts and parts[0] == "records", relative
     path = PACKAGES.joinpath(*parts[1:])
     assert path.is_file(), relative
     return path
 
 
 def checked_json(relative: str, expected_hash: str) -> dict:
-    path = resolve_sra(relative)
+    path = resolve_record(relative)
     data = path.read_bytes()
     assert hashlib.sha256(data).hexdigest() == expected_hash, relative
     return json.loads(data)
 
 
 def adapter_bgce444() -> None:
-    path = PACKAGES / "SRA_DPA_BGCE444_TEN_METRIC_SOURCE_TO_THIRTY_FIVE_QUARTIC_SECOND_RESPONSE_GATE_20260925/proof_check.py"
+    path = PACKAGES / "BGCE444_TEN_METRIC_SOURCE_TO_THIRTY_FIVE_QUARTIC_SECOND_RESPONSE_GATE_20260925/proof_check.py"
     module = load_module(path, "public_bgce444")
     docs = {relative: checked_json(relative, digest) for relative, digest in module.INPUTS.items()}
     bgce290 = next(value for key, value in docs.items() if "BGCE290_" in key and key.endswith("RESULT.json"))
@@ -79,7 +79,7 @@ def adapter_bgce444() -> None:
 
 
 def adapter_bgce445() -> None:
-    path = PACKAGES / "SRA_DPA_BGCE445_AF_QUASILOCAL_CPTP_ALL_SCALE_COMPLETION_GATE_20260925/proof_check.py"
+    path = PACKAGES / "BGCE445_AF_QUASILOCAL_CPTP_ALL_SCALE_COMPLETION_GATE_20260925/proof_check.py"
     module = load_module(path, "public_bgce445")
     docs = {relative: checked_json(relative, digest) for relative, digest in module.INPUTS.items()}
     r336 = next(value for key, value in docs.items() if "BGCE336R2" in key)
@@ -118,19 +118,19 @@ def decimal_inverse(matrix):
 
 
 def adapter_bgce449() -> None:
-    bg448_path = PACKAGES / "SRA_DPA_BGCE448_ACTUAL_UB612_U4_JETS_TO_SOURCE_CYLINDER_FIFTY_FIVE_COLUMN_HESSIAN_GATE_20260925/proof_check.py"
+    bg448_path = PACKAGES / "BGCE448_ACTUAL_UB612_U4_JETS_TO_SOURCE_CYLINDER_FIFTY_FIVE_COLUMN_HESSIAN_GATE_20260925/proof_check.py"
     bg448 = load_module(bg448_path, "public_bgce448")
     bg448.UB612 = PACKAGES / "UB612_PBM_COVARIANT_SIGMA6_U4_V0_2_PARALLEL4_FOUR_ROOT_GENERATOR_GATE/PBM_COVARIANT_TRANSPORT_JETS_PARTIAL_v1.json"
-    bg448.BGCE447 = PACKAGES / "SRA_DPA_BGCE447_SOURCE_CYLINDER_TO_UB612_PBM_METRIC_SAME_CARRIER_INTERTWINER_GATE_20260925/RESULT.json"
+    bg448.BGCE447 = PACKAGES / "BGCE447_SOURCE_CYLINDER_TO_UB612_PBM_METRIC_SAME_CARRIER_INTERTWINER_GATE_20260925/RESULT.json"
 
-    package = PACKAGES / "SRA_DPA_BGCE449_PRECONDITIONED_UB612_INTERVAL_RANK35_CERTIFICATE_GATE_20260925"
+    package = PACKAGES / "BGCE449_PRECONDITIONED_UB612_INTERVAL_RANK35_CERTIFICATE_GATE_20260925"
     certificate = json.loads((package / "PROOF_CERTIFICATE.json").read_text())
     for relative, digest in certificate["source_hashes"].items():
-        data = resolve_sra(relative).read_bytes()
+        data = resolve_record(relative).read_bytes()
         assert hashlib.sha256(data).hexdigest() == digest
     carrier = json.loads(bg448.BGCE447.read_text())
     bg448_result = json.loads(
-        (PACKAGES / "SRA_DPA_BGCE448_ACTUAL_UB612_U4_JETS_TO_SOURCE_CYLINDER_FIFTY_FIVE_COLUMN_HESSIAN_GATE_20260925/RESULT.json").read_text()
+        (PACKAGES / "BGCE448_ACTUAL_UB612_U4_JETS_TO_SOURCE_CYLINDER_FIFTY_FIVE_COLUMN_HESSIAN_GATE_20260925/RESULT.json").read_text()
     )
     assert carrier["gate_decision"]["source_to_actual_UB612_metric_intertwiner"] == "PASS_EXACT_INVERTIBLE"
     assert bg448_result["gate_decision"]["actual_U4_fifty_five_columns"] == "PASS_CONSTRUCTED"
@@ -198,11 +198,11 @@ def adapter_bgce449() -> None:
 
 
 def adapter_bqgstrat011() -> None:
-    package = PACKAGES / "SRA_DPA_BQGSTRAT011_SOURCE_REVERSE_SHEET_PALATINI_COMPLETION_GATE_20260929/DPA_SCOUT_011"
+    package = PACKAGES / "BQGSTRAT011_SOURCE_REVERSE_SHEET_PALATINI_COMPLETION_GATE_20260929/RUN_011"
     module = load_module(package / "evaluate.py", "public_bqgstrat011")
     matrix = json.loads((package / "SOURCE_MATRIX.json").read_text())
     for source in matrix["sources"]:
-        data = resolve_sra(source["path"]).read_bytes()
+        data = resolve_record(source["path"]).read_bytes()
         assert hashlib.sha256(data).hexdigest() == source["sha256"]
     forward = module.word_log((("A", 1), ("B", 1), ("C", -1), ("D", -1)))
     reverse = module.word_log((("D", 1), ("C", 1), ("B", -1), ("A", -1)))
@@ -220,7 +220,7 @@ def run_standard_verifiers() -> int:
         ROOT / relative
         for entry in ledger["entries"]
         for relative in entry.get("evidence_paths", [])
-        if relative.startswith("evidence/packages/sra/")
+        if relative.startswith("evidence/packages/calculations/")
     }
     scripts = sorted(
         {
@@ -266,16 +266,16 @@ def verify_supporting_dependency_inventory() -> int:
     ledger = json.loads((ROOT / "theorems/theorem_evidence_v1.json").read_text())
     supporting = ledger.get("supporting_evidence_paths", [])
     expected_names = {
-        "SRA_DPA_BGCE137_DISCRETE_S4_CHART_TRANSITION_VERSUS_NEAR_IDENTITY_CARTAN_CONNECTION_FACTORING_GATE_20260919",
-        "SRA_DPA_BGCE138_SOURCE_CYLINDER_DIAGONAL_LOCALIZATION_AND_MINIMAL_SMOOTH_CARTAN_COMPLETION_GATE_20260919",
-        "SRA_DPA_BGCE259_ORIENTED_BRAID_COBORDER_TO_CAUSAL_GRADING_INSERTION_IN_ACTUAL_EDGE_ACTION_GATE_20260921",
-        "SRA_DPA_BGCE288_CAUSAL_EVEN_EVENT_PLUS_X21R1_ODD_THETA_FULL_LORENTZ_TANGENT_GATE_20260923",
-        "SRA_DPA_BGCE290_INDEPENDENT_DOUBLED_A_SOURCE_TO_CAUSAL_METRIC_HILBERT_WARD_GATE_20260923",
-        "SRA_DPA_BGCE291_STRESS_WARD_INDEPENDENT_REDERIVATION_AND_SCOPE_RED_TEAM_GATE_20260923",
-        "SRA_DPA_BGCE350_FINITE_SOURCE_CYLINDER_PARENT_TO_LOCAL_HISTORY_DRESSED_TOTAL_WARD_IDENTITY_GATE_20260924",
-        "SRA_DPA_BGCE447_SOURCE_CYLINDER_TO_UB612_PBM_METRIC_SAME_CARRIER_INTERTWINER_GATE_20260925",
-        "SRA_DPA_BGCE448_ACTUAL_UB612_U4_JETS_TO_SOURCE_CYLINDER_FIFTY_FIVE_COLUMN_HESSIAN_GATE_20260925",
-        "SRA_DPA_BQGSTRAT009_SOURCE_AFFINE_PLAQUETTE_SECOND_JET_AND_CHILD_SPLIT_GATE_20260929",
+        "BGCE137_DISCRETE_S4_CHART_TRANSITION_VERSUS_NEAR_IDENTITY_CARTAN_CONNECTION_FACTORING_GATE_20260919",
+        "BGCE138_SOURCE_CYLINDER_DIAGONAL_LOCALIZATION_AND_MINIMAL_SMOOTH_CARTAN_COMPLETION_GATE_20260919",
+        "BGCE259_ORIENTED_BRAID_COBORDER_TO_CAUSAL_GRADING_INSERTION_IN_ACTUAL_EDGE_ACTION_GATE_20260921",
+        "BGCE288_CAUSAL_EVEN_EVENT_PLUS_X21R1_ODD_THETA_FULL_LORENTZ_TANGENT_GATE_20260923",
+        "BGCE290_INDEPENDENT_DOUBLED_A_SOURCE_TO_CAUSAL_METRIC_HILBERT_WARD_GATE_20260923",
+        "BGCE291_STRESS_WARD_INDEPENDENT_REDERIVATION_AND_SCOPE_RED_TEAM_GATE_20260923",
+        "BGCE350_FINITE_SOURCE_CYLINDER_PARENT_TO_LOCAL_HISTORY_DRESSED_TOTAL_WARD_IDENTITY_GATE_20260924",
+        "BGCE447_SOURCE_CYLINDER_TO_UB612_PBM_METRIC_SAME_CARRIER_INTERTWINER_GATE_20260925",
+        "BGCE448_ACTUAL_UB612_U4_JETS_TO_SOURCE_CYLINDER_FIFTY_FIVE_COLUMN_HESSIAN_GATE_20260925",
+        "BQGSTRAT009_SOURCE_AFFINE_PLAQUETTE_SECOND_JET_AND_CHILD_SPLIT_GATE_20260929",
         "UB612_PBM_COVARIANT_SIGMA6_U4_V0_2_PARALLEL4_FOUR_ROOT_GENERATOR_GATE",
     }
     actual_names = {Path(relative).name for relative in supporting}
@@ -289,12 +289,12 @@ def verify_supporting_dependency_inventory() -> int:
 
 
 def verify_failed_attempt_is_not_endpoint() -> None:
-    package = PACKAGES / "SRA_DPA_BGCE499_FISHER_GAIN_AND_OUTER_CUP_TYPED_RECONCILIATION_GATE_20260925"
-    attempt = package / "DPA_SCOUT_001"
+    package = PACKAGES / "BGCE499_FISHER_GAIN_AND_OUTER_CUP_TYPED_RECONCILIATION_GATE_20260925"
+    attempt = package / "RUN_001"
     assert not (attempt / "RAW_OUTPUT.json").exists()
     ledger_text = (package / "ATTEMPT_LEDGER.md").read_text()
     assert "FAILED_IMPLEMENTATION" in ledger_text
-    canonical = package / "DPA_SCOUT_002"
+    canonical = package / "RUN_002"
     assert (canonical / "RAW_OUTPUT.json").is_file()
     assert (canonical / "RESULT.json").is_file()
 

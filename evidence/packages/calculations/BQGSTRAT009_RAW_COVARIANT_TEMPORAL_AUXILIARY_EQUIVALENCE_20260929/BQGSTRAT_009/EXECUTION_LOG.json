@@ -1,0 +1,8 @@
+{
+  "schema": "siel.public-calculation.bqgstrat009bare.execution_log.v1",
+  "date": "2026-09-29",
+  "attempts": [
+    {"attempt": 1, "status": "FAILED_IMPLEMENTATION_NO_SCIENTIFIC_DECISION", "reason": "rank-deficient coframe witness"},
+    {"attempt": 2, "command": "python3 records/BQGSTRAT009_RAW_COVARIANT_TEMPORAL_AUXILIARY_EQUIVALENCE_20260929/BQGSTRAT_009/verify.py", "exit_code": 0, "stdout": ["BQGSTRAT-009 EVALUATE PASS", "BQGSTRAT-009 VERIFY PASS"]}
+  ]
+}

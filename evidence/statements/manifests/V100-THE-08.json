@@ -9,7 +9,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
       "path": "evidence/statements/artifacts/V100-THE-08/bundle-01/CERTIFICATE.json",
-      "sha256": "41a3ee80e9eee79692752c55c15f7f6cb3f9db16827290467b8d129c7a79eadb"
+      "sha256": "fb90e6fc97d7bbd94576565819eef9a8f4a74a1e3a856ebf3f49eceadb588d00"
     },
     {
       "bundle_label": "BGCE300R1 A49 NONCIRCULAR BACKREACTION TO LOW ENERGY SPIN2 EINSTEIN",
@@ -18,7 +18,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
       "path": "evidence/statements/artifacts/V100-THE-08/bundle-01/RAW_OUTPUT.json",
-      "sha256": "5d9003a6e5f86de1050e3310e72ac90c626babb4a210452b0ef0b80b161a445c"
+      "sha256": "9209881750cd7b5c205d0162b9dd8dfd4f10748c06d89eb02e1655f9b123c2a3"
     },
     {
       "bundle_label": "BGCE300R1 A49 NONCIRCULAR BACKREACTION TO LOW ENERGY SPIN2 EINSTEIN",
@@ -27,7 +27,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-08/bundle-01/RESULT.json",
-      "sha256": "3ea43d21415ffc1a33b4d4446e6db053772a886c604147b50d614b2c9931835a"
+      "sha256": "aad820e6326f9d74a8bffc180d84a724f99f03b9e74ba8a77d2297a5815b9927"
     },
     {
       "bundle_label": "BGCE300R1 A49 NONCIRCULAR BACKREACTION TO LOW ENERGY SPIN2 EINSTEIN",
@@ -36,7 +36,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "SOURCE_MATRIX.json",
       "path": "evidence/statements/artifacts/V100-THE-08/bundle-01/SOURCE_MATRIX.json",
-      "sha256": "375b840d8509b729c85297e54df75f6bb62c3405efd5c5f41ad782cfa1210902"
+      "sha256": "46ac70fe0ab434156a2a1d05905b7b697fea2d1197d9608b15f74ebb850de1c2"
     },
     {
       "bundle_label": "BGCE300R1 A49 NONCIRCULAR BACKREACTION TO LOW ENERGY SPIN2 EINSTEIN",
@@ -45,7 +45,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-08/bundle-01/evaluate.py",
-      "sha256": "862f8175011ec69885260101530d7fbe6c2c882806c6134407794ba61c8a49df"
+      "sha256": "eab6adea748542157ea2b64bdcb88996812f2c51a18f7bf701f6c42758e97e3e"
     },
     {
       "bundle_label": "BGCE300R1 A49 NONCIRCULAR BACKREACTION TO LOW ENERGY SPIN2 EINSTEIN",
@@ -64,10 +64,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 10,
+      "file_count": 8,
       "kind": "vendored_calculation_package",
       "label": "BGCE300R1 A49 NONCIRCULAR BACKREACTION TO LOW ENERGY SPIN2 EINSTEIN",
-      "sha256_tree": "d03fa2efdfb15a650689afcbeaf71b672e9ebea49ac9ee31e790779d572c29d5"
+      "sha256_tree": "67d63cc16131a507b8573dcc4e714ffb2d2f57817695dd06c0f4a27bc92161ce"
     }
   ],
   "status": "PUBLIC_CODE",

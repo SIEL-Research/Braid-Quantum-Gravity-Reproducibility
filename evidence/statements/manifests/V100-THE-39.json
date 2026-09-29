@@ -8,8 +8,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "7c8036b032016982081d1a79ce1fa05689029d8031afe079e9da2428bede7a3b"
+      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/RUN_001/CERTIFICATE.json",
+      "sha256": "ead5e0425b6b5c7647d0c7bf17bf27da8d9bca50971fd67cdc6e0d6b0db85166"
     },
     {
       "bundle_label": "BQGNEUT024 SOURCE ORDERED C3 WEIGHTED FLOQUET SIMULTANEOUS CP GAP",
@@ -17,8 +17,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "17e396fda1ba19bb738714dffa2a5be1e0ee3175a3ffe67ee0706b691513167d"
+      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "ad8bdd5e9aa8efa6bce753fc622550dbfe1e2bd41fc598a08de16c4151a22908"
     },
     {
       "bundle_label": "BQGNEUT024 SOURCE ORDERED C3 WEIGHTED FLOQUET SIMULTANEOUS CP GAP",
@@ -26,8 +26,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "2d09c42c549652ab0c8a7966ac209cbf9bed976c07a467c5fd0bb9f281f7e21d"
+      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/RUN_001/RAW_OUTPUT.json",
+      "sha256": "a3d71b9337f148a316018e5ebbe62bdda900c4d5034440f22cf15d93734ef5f7"
     },
     {
       "bundle_label": "BQGNEUT024 SOURCE ORDERED C3 WEIGHTED FLOQUET SIMULTANEOUS CP GAP",
@@ -35,8 +35,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/DPA_SCOUT_001/RESULT.json",
-      "sha256": "41c92e440b85581389ebef666dad8fe8629044e327eef19dd0b8261ef196cccf"
+      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/RUN_001/RESULT.json",
+      "sha256": "c5327afaffb3c4c129532d2055166efa5dcd068dcf5751f3947bea5a73a2c3e8"
     },
     {
       "bundle_label": "BQGNEUT024 SOURCE ORDERED C3 WEIGHTED FLOQUET SIMULTANEOUS CP GAP",
@@ -44,8 +44,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "fccbb4bbffe2df330dbc269b3f8df2233d6a2f1708d7a46c52d460aa25958dde"
+      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/RUN_001/evaluate_scout.py",
+      "sha256": "5bf282f44a4201f55e6cc63450ec7cee8196c7b8e65c74c6acd877c442052041"
     },
     {
       "bundle_label": "BQGNEUT024 SOURCE ORDERED C3 WEIGHTED FLOQUET SIMULTANEOUS CP GAP",
@@ -53,7 +53,7 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/DPA_SCOUT_001/verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-39/bundle-01/RUN_001/verify.py",
       "sha256": "90847c813a602d8fa77f342f20fdea444741392a3b9b5dbcca1705ca6587f44b"
     }
   ],
@@ -64,10 +64,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 12,
+      "file_count": 10,
       "kind": "vendored_calculation_package",
       "label": "BQGNEUT024 SOURCE ORDERED C3 WEIGHTED FLOQUET SIMULTANEOUS CP GAP",
-      "sha256_tree": "b0ff69e32e7cc7c89f02de19ef3cfb8962d23b51ffc45b500e232189b82f0be5"
+      "sha256_tree": "3112e864d22a07696024c39a665959cebd546b5530e4f2e800fab3c40927f0ab"
     }
   ],
   "status": "PUBLIC_CODE",

@@ -1,0 +1,18 @@
+{
+  "audit_sha256": "51b670c1991414bfb87066de18fe4b6b4c704eaa67aeb53202bf4f3763b7fc94",
+  "baseline_gate_sha256": "0e586aa0709634af61a2f28e56788fd212d85777ccb9be07fec97d3ea78aa55e",
+  "candidate_id": "BGCE290",
+  "evaluate_py_sha256": "6c316f4c1c52eba4ee58205c87fd1eb71c159cfb3ab0a5e9da13711c3d873ca8",
+  "preendpoint_amendment_commit": "5039a70cb95e7979d0b435e6624c895ed17662b1",
+  "preendpoint_amendment_sha256": "2285642c40321605caedd79e113db970845f4ec6a4db46b732a504b55fa00584",
+  "preregistered_commit": "7a84fe2a1013b45f62b1ff35fd856ed07bcb0373",
+  "question_sha256": "70e469cbc77650da721421fecbc783f008343e1d1dbe0ae70db2b6555da6927e",
+  "raw_output_sha256": "f4661c8007524532a5da1ceb8a97a29e98bd2fa9af968ef8730453868e8aa724",
+  "result_sha256": "fe7000b5c16f8b3225ca18799170b25d98307208cada544b605675f483e0be8b",
+  "schema": "siel.public-calculation.bgce290.certificate.v1",
+  "source_matrix_sha256": "836bd61ce2c38a0dc7979cd45496468756b42be38bc4db20b511f45154fc2ac2",
+  "source_revision": "b7499ca5327e1622bf53e77d46d5d06810fa9d64",
+  "summary_ja_sha256": "fc3d1b80ebbca86360c4455bcce1d63e9827c1d8d7030781d8e9823e1d20edff",
+  "verification": "PASS_BGCE290_VERIFICATION",
+  "verify_py_sha256": "8a0b254e6d60f07babfd5614c53c5ef2b308dc79b0eb9be285203841dea4ddc9"
+}

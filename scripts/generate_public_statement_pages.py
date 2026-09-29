@@ -92,13 +92,12 @@ def artifact_kind(path: Path) -> str:
 
 
 def evidence_bundle_label(path: Path) -> str:
-    """Create a readable label while omitting the private-repository prefix."""
+    """Create a readable label from the public calculation identifier."""
     candidate = path.name
     for part in reversed(path.relative_to(ROOT).parts):
-        if part.startswith("SRA_DPA_") or re.match(r"^(?:BGCE|BQG|UB)\w*\d", part):
+        if re.match(r"^(?:BGCE|BQG|UB)\w*\d", part):
             candidate = part
             break
-    candidate = re.sub(r"^SRA_DPA_", "", candidate)
     candidate = re.sub(r"_GATE_\d{8}.*$", "", candidate)
     return candidate.replace("_", " ")
 
@@ -135,7 +134,7 @@ def main() -> None:
         "in the v1.0 manuscript. Each link opens a self-contained English evidence page",
         "inside this public reproducibility repository. The reader-facing links do not",
         "terminate in the private research repository or in Japanese-only audit reports.",
-        "Legacy package names are retained only in machine manifests to preserve provenance.",
+        "All public endpoints use publication-neutral identifiers and repository-relative paths.",
         "",
         "Run `python3 scripts/verify_public_navigation.py` to verify all 53 English pages",
         "and `python3 scripts/verify_all.py` to execute the complete public verification suite.",

@@ -1,0 +1,8 @@
+{
+  "schema": "siel.public-calculation.bqgstrat009bare.baseline_gate.v1",
+  "status": "PASS",
+  "frozen_action": "S_cell=C epsilon^(mu nu rho sigma) epsilon_(abcd) e_mu^a e_nu^b F_(rho sigma)^(cd)[U]",
+  "fit_parameters": 0,
+  "external_target_equation": false,
+  "decision_rule": "Close only the local contractible raw-covariant auxiliary classification. Gauge fixing before variation, global temporal holonomy and caustic continuation are excluded."
+}

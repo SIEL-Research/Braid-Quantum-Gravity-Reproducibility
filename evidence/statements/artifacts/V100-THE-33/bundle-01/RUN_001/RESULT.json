@@ -1,0 +1,29 @@
+{
+  "schema": "siel.public-calculation.bgce546.result.v1",
+  "scout_id": "PUBLIC-RUN-BGCE546-001",
+  "source_commit": "9232d7284896cfc0e7116e3872aaef32cf110fe7",
+  "evidence_status": "Theoretical derivation",
+  "scientific_layer": "finite source-derived flavour-selector construction",
+  "decision": "SCOPED_PASS_POINTED_RIGHT_KMS_RESPONSE_SELECTS_FULL_RANK_NONNORMAL_FLAVOUR_OPERATOR_WITH_THREE_DISTINCT_POSITIVE_SINGULAR_VALUES_IN_DECLARED_CLASS__PHYSICAL_IDENTIFICATION_REMAINS_INTERPRETIVE",
+  "exact_results": {
+    "selector_rank": 3,
+    "normality_commutator_rank": 3,
+    "mass_operator_rank": 3,
+    "mass_operator_determinant": "6594028382154653653444/139786522180772499181330204010009765625",
+    "mass_cubic_discriminant": "13281050605467142104674757949851896961706988026606749689/20489460025545826658199210100767814765276852995157241821289062500000000000000000000",
+    "three_distinct_positive_singular_value_squares": true,
+    "forward_reverse_transpose_exact": true,
+    "symmetric_control_normality_commutator_rank": 0,
+    "pass_rule": true
+  },
+  "construction": "K_ij=C(e_i,e_j)-C(e_i,0) from the source-central half-density KMS correlation of role-labelled directed orientation edges; Y=sum K_ij L_i^*L_j in the BGCE544 basis",
+  "source_status": "DERIVED_KERNEL_AND_ORDERED_CTP_BRANCH_PAIR_WITH_SPECULATIVE_PHYSICAL_FLAVOUR_IDENTIFICATION",
+  "bold_hypothesis_status": "SUPPORTED_IN_DECLARED_CLASS",
+  "ordinary_explanation": "The one-sided pointed derivative of a symmetric KMS kernel can be nonnormal because it keeps source/target order; the symmetric second-difference Gram is the ordinary Hessian control and cannot by itself justify a physical flavour interpretation.",
+  "counter_intuition": "Even an exact PASS proves only that the already pointed and CTP-oriented source data select this operator inside the declared response-kernel class. It does not prove uniqueness among all possible source functionals or agreement with observed flavour physics.",
+  "work_package": "BQG-G3-R03.7",
+  "work_package_status": "ACTIVE",
+  "next_gate": "BGCE548_SOURCE_SELECTED_FLAVOUR_SINGULAR_VALUES_TO_RELATIVE_FERMION_MASS_AND_HIERARCHY_GATE",
+  "formal_E0_E1_E2": "NOT_CLAIMED__PUBLIC_THEORETICAL_DERIVATION_ONLY",
+  "claim_ceiling": "This result concerns the BGCE439 derived groupoid, BGCE530 KMS metric, BGCE532 forward/reverse CTP pairing and BGCE544 M3 basis. It does not establish uniqueness among all source functionals, observed or absolute masses, CKM/PMNS, CP violation, neutrino closure, actual-crossing specificity, empirical Standard-Model confirmation or completed quantum gravity."
+}

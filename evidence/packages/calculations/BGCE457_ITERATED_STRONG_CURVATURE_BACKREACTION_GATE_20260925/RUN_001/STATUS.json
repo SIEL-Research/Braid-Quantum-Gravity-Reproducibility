@@ -1,0 +1,14 @@
+{
+  "attempts_retained": 1,
+  "date": "2026-09-25",
+  "decision": "CLOSED_SCOPED",
+  "gate_id": "BGCE457",
+  "invalid_predecessor_retained": "PUBLIC-RUN-BGCE444-001",
+  "primary_evidence_status": "Theoretical derivation",
+  "raw_output_sha256": "0e81b89aeab134f18a255b3af46463650910e0cca64e8e48d5209bf999a93d0b",
+  "result_sha256": "4d2d3a7b3502031f67a93f779299296cf33c2444be47223eb57d4d785dbc1701",
+  "schema": "siel.public-calculation.scout.bgce457.status.v1",
+  "scout_id": "PUBLIC-RUN-BGCE457-001",
+  "state": "COMPLETE_CLOSED_SCOPED",
+  "work_package": "BQG-G3-R01.4"
+}

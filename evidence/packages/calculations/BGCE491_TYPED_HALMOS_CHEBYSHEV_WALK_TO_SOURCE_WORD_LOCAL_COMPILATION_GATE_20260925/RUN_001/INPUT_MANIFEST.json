@@ -1,0 +1,43 @@
+{
+  "inputs": [
+    {
+      "path": "records/BGCE483_RAW_CONTINUOUS_FLOW_TO_FINITE_EXACT_CARRIER_INVARIANT_COMPOSITE_GATE_20260925/RUN_001/RESULT.json",
+      "sha256": "7ba36aabf19bbc2f7b908f1216947566859dd96008b3c8ba68006bfb50774d87"
+    },
+    {
+      "path": "records/BGCE484_MINIMAL_MARKED_SOURCE_WORD_SELECT_AND_LCU_REALIZATION_GATE_20260925/RUN_001/RESULT.json",
+      "sha256": "914898496153ae9574046b91a2cba2c792a056571754ef63fdf30b93e1bb7813"
+    },
+    {
+      "path": "records/BGCE487_SOURCE_RAW_G1_ENCODED_SIGNAL_QUBIT_AND_SU2_CLOCK_GATE_20260925/RUN_001/RESULT.json",
+      "sha256": "0d0e2feb34fded05b3bfef6620efcf6ee7abf80ab4a83db33b580ab5c484b975"
+    },
+    {
+      "path": "records/BGCE490_SOURCE_STRUCTURED_LOW_NORMALIZATION_SPECTRAL_FACTOR_OR_DIRECT_QUOTIENT_QSP_GATE_20260925/RUN_001/RESULT.json",
+      "sha256": "ee7487b98ee8b0b1a91fe027975cb34e69f0bcc983daaef521fff3ba3576a3f0"
+    },
+    {
+      "path": "records/BGCE490_SOURCE_STRUCTURED_LOW_NORMALIZATION_SPECTRAL_FACTOR_OR_DIRECT_QUOTIENT_QSP_GATE_20260925/RUN_001/RAW_OUTPUT.json",
+      "sha256": "486fe57b62c7c14b4b4960c7ee55ad4ac6e030bbb7b36fe8bd0d513ce9f3d41d"
+    },
+    {
+      "path": "records/BGCE476_SOURCE_SELECTED_QSP_OR_FINITE_SPECTRAL_POLYNOMIAL_GATE_20260925/RUN_001/evaluate_scout.py",
+      "sha256": "1e9a06627a8667467403aff59f6caa606bbd4f0d8b3c93eacbb3ed5f6d4f6554"
+    },
+    {
+      "path": "records/BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925/RUN_001/evaluate_scout.py",
+      "sha256": "db77424bd81f98dd47774294f231e1b76f1b84a3f87b8f1f5e2f448f51b99645"
+    },
+    {
+      "path": "public-inputs/formal_checks/ocbfh014_source_native_refinement_naturality_check.py",
+      "sha256": "176c75ac349f0f3f142d9c850ca0682436b7ad00cd179f6806de253d0a7acabb"
+    },
+    {
+      "path": "records/BGCE139_SOURCE_SPECTRAL_CYLINDER_OPERATIONAL_EVENT_IDENTIFICATION_GATE_20260919/RAW_OUTPUT.json",
+      "sha256": "ddf630fbaff1ae4e72c778f47dc2bed6906da0a8aa17d4e6a98d2c96791955e9"
+    }
+  ],
+  "schema": "siel.public-calculation.input_manifest.v1",
+  "scout_id": "PUBLIC-RUN-BGCE491-001",
+  "source_commit": "2c0d7d75cea3a714a4edc8d428e8fad5230faa81"
+}

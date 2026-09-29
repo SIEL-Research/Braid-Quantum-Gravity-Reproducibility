@@ -1,0 +1,132 @@
+{
+  "schema": "siel.public-calculation.bqgneut025.raw.v1",
+  "scout_id": "BQGNEUT-025-X1",
+  "gate_id": "BQGNEUT-025_SOURCE_NATIVE_WEAK_CURRENT_INTERTWINER_TO_PHYSICAL_THREE_NEUTRINO_TYPING_GATE",
+  "source_commit": "dc26af7d378897962c72b28283eaa2b16a2eb1a1",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-dc26af7d3788",
+  "evidence_status": "Theoretical derivation",
+  "scientific_layer": "source-typed weak-current identification of the finite neutral generation factor",
+  "decision": "CLOSED_SCOPED_UNIQUE_SOURCE_POINTED_ORIENTED_DAGGER_FROBENIUS_FUNCTOR_COMPOSED_WITH_THE_DERIVED_LEPTON_SU2_LADDER_GIVES_A_RANK_THREE_WEAK_CURRENT_PARTIAL_ISOMETRY_INTERTWINING_FULL_M3_AND_TYPES_THE_INTERNAL_NEUTRAL_QUTRIT_AS_THE_PHYSICAL_THREE_GENERATION_NEUTRINO_FACTOR_WITHOUT_AN_EXTERNAL_GENERATION_CARRIER_IN_THE_BGCE439_DERIVED_MATTER_CLASS__UNCHANGED_RAW_SOURCE_ABSOLUTE_MASS_SCALE_AND_EMPIRICAL_PMNS_REMAIN_OPEN",
+  "bold_hypothesis": {
+    "interpretive_leap": "Define physical identity by source-selected interaction intertwinement rather than abstract dimension matching.",
+    "typed_object": "J_weak=T_branch_to_generation tensor |e_L><nu_L|",
+    "source_status": "DERIVED_IN_BGCE439_EXPLICIT_MATTER_EXTENSION__NOT_AN_UNCHANGED_RAW_SOURCE_PHYSICALITY_THEOREM"
+  },
+  "branch_to_generation_functor": {
+    "branch_order": [
+      "r1",
+      "r2",
+      "r121"
+    ],
+    "generation_axis_order": [
+      "e3",
+      "e2",
+      "e1"
+    ],
+    "selected_map": {
+      "r1": "e2",
+      "r2": "e1",
+      "r121": "e3"
+    },
+    "permutation": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "candidate_count": 6,
+    "pointed_candidate_count": 2,
+    "pointed_oriented_candidate_count": 1,
+    "dagger_Frobenius_intertwiner": true,
+    "residual_continuous_phase_dimension": 0
+  },
+  "weak_current_intertwiner": {
+    "definition": "J_weak=T tensor |e_L><nu_L|",
+    "rank": 3,
+    "initial_projector": "I3 tensor |nu_L><nu_L|",
+    "final_projector": "I3 tensor |e_L><e_L|",
+    "partial_isometry_exact": true,
+    "all_nine_generation_matrix_units_intertwined": true,
+    "lepton_doublet_hypercharge": -3,
+    "electric_charges": {
+      "nu_L": 0.0,
+      "e_L": -1.0
+    },
+    "uniqueness": "unique in the pointed-oriented dagger-Frobenius class up to inner weak gauge convention"
+  },
+  "transported_neutral_mixing": {
+    "overlap_modulus_squared_in_generation_order": [
+      [
+        0.33333333333333637,
+        0.40953691180492013,
+        0.2571297548617475
+      ],
+      [
+        0.33333333333332793,
+        0.4095369118049197,
+        0.25712975486174255
+      ],
+      [
+        0.33333333333333587,
+        0.18092617639016015,
+        0.48574049027651006
+      ]
+    ],
+    "Jarlskog_absolute": 0.08557801977513962,
+    "simultaneous_dimensionless_CP_gap_retained": true
+  },
+  "noncompensating_gates": {
+    "G1_POINTED_ORIENTED_BRANCH_TO_GENERATION_MAP_UNIQUE": true,
+    "G2_DAGGER_FROBENIUS_PROJECTORS_MULTIPLICATION_AND_COPYING_INTERTWINED": true,
+    "G3_DERIVED_MATTER_CLASS_CONTAINS_THREE_GENERATIONS_AND_LEPTON_DOUBLET": true,
+    "G4_WEAK_CURRENT_MAP_IS_RANK_THREE_PARTIAL_ISOMETRY": true,
+    "G5_ALL_NINE_GENERATION_MATRIX_UNITS_INTERTWINED": true,
+    "G6_INTERNAL_NEUTRAL_QUTRIT_PHYSICALLY_TYPED_WITHOUT_EXTERNAL_GENERATION_CARRIER_IN_DECLARED_CLASS": true,
+    "G7_SAME_TYPED_SECTOR_RETAINS_BQGNEUT024_CP_AND_GAP_STRUCTURE": true,
+    "G8_UNCHANGED_RAW_SOURCE_AND_EMPIRICAL_PMNS_CLOSED": false,
+    "G9_NO_TARGET_DATA_PARAMETER_SCAN_OR_LONG_COMPUTATION": true
+  },
+  "physical_three_neutrino_typing_scoped_pass": true,
+  "source_derived_weak_current_mixing_structure_scoped_pass": true,
+  "external_three_generation_carrier_required": false,
+  "unchanged_raw_source_physical_identity_pass": false,
+  "absolute_neutrino_mass_scale_derived": false,
+  "empirical_PMNS_match": false,
+  "strongest_ordinary_alternative": "A generation factor tensored with a weak doublet always permits a weak ladder. The nontrivial result is that the actual source marks and orientation select one phase-free Frobenius generation map and that this map intertwines the entire M3 action, not only a chosen basis.",
+  "counter_intuition_scan": "The physical typing is scoped to BGCE439's explicit derived anomaly-solution-groupoid matter class, whose identification of the degree-one shell as physical generations remains its declared bold hypothesis. This result must not be restated as an unchanged-raw-source or empirical neutrino theorem.",
+  "claim_ceiling": "Within the declared BGCE439 derived Standard-Model matter class, the internal neutral qutrit is uniquely typed as the three-generation neutrino factor by a source-selected rank-three weak-current partial isometry that intertwines the full generation algebra, so no external generation carrier is needed. Unchanged-raw-source physicality, dimensionful masses, observed PMNS agreement, empirical neutrino physics and completed quantum gravity are not derived.",
+  "next_gate": "BQGNEUT-026_DIMENSIONLESS_FLOQUET_PHASE_TO_PHYSICAL_MASS_SQUARED_SCALE_GATE",
+  "work_package": "BQG-G3-R03.8",
+  "work_package_status": "ACTIVE",
+  "tests": {
+    "T1_PINNED_INPUT_HASHES_MATCH": true,
+    "T2_SIX_PERMUTATIONS_TWO_POINTED_ONE_POINTED_ORIENTED": true,
+    "T3_RECONSTRUCTED_MAP_EQUALS_PRIOR_SOURCE_MAP": true,
+    "T4_ALL_FROBENIUS_CHECKS_PASS": true,
+    "T5_NO_UNITARY_DIAGONAL_PHASE_FREEDOM": true,
+    "T6_WEAK_PARTIAL_ISOMETRY_IDENTITIES_EXACT": true,
+    "T7_WEAK_MAP_RANK_THREE": true,
+    "T8_ALL_NINE_M3_MATRIX_UNITS_INTERTWINED": true,
+    "T9_LEPTON_DOUBLET_CHARGES_ARE_ZERO_AND_MINUS_ONE": true,
+    "T10_TRANSPORT_PRESERVES_JARLSKOG_ABSOLUTE": true,
+    "T11_NO_TARGET_SCAN_OR_LONG_COMPUTATION": true
+  },
+  "runtime": {
+    "python": "3.14.6",
+    "numpy": "2.4.4",
+    "target_data_accessed": false,
+    "parameter_scan_used": false,
+    "long_computation_used": false
+  }
+}

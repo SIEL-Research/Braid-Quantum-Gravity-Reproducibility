@@ -9,7 +9,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "PROOF_CERTIFICATE.json",
       "path": "evidence/statements/artifacts/V100-THE-19/bundle-01/PROOF_CERTIFICATE.json",
-      "sha256": "b774dee79432e805a3b2bb5f22ca23dbb8e7c5ec7e4c80295aedfb20f66c870a"
+      "sha256": "36c8e98bc34f75a95d3bfa7d1cb2ba9b8a2483a30ca53d2d7ffa57687589a241"
     },
     {
       "bundle_label": "BGCE444 TEN METRIC SOURCE TO THIRTY FIVE QUARTIC SECOND RESPONSE",
@@ -18,7 +18,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-19/bundle-01/RESULT.json",
-      "sha256": "6bf2b8b0053b142983a7719a6258eb2ee52b84d02d2513d47bef03fe9ed9cdb3"
+      "sha256": "360c43a8a722e7d1ce5f9a9c7e46b5d974003ec07b7eeacd015ec1dfb6a82b20"
     },
     {
       "bundle_label": "BGCE444 TEN METRIC SOURCE TO THIRTY FIVE QUARTIC SECOND RESPONSE",
@@ -27,7 +27,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "proof_check.py",
       "path": "evidence/statements/artifacts/V100-THE-19/bundle-01/proof_check.py",
-      "sha256": "963ee9505ea62deb480e311718fb65a5f8af108329800f51c7c3d8e4b441a01f"
+      "sha256": "76b344be64151d210af4f99023cf4263fe179ff24559a2a0b2aeb05403f949d4"
     },
     {
       "bundle_label": "BGCE449 PRECONDITIONED UB612 INTERVAL RANK35 CERTIFICATE",
@@ -36,7 +36,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "PROOF_CERTIFICATE.json",
       "path": "evidence/statements/artifacts/V100-THE-19/bundle-02/PROOF_CERTIFICATE.json",
-      "sha256": "b3d0ecb38721a6448942f4d127af611e154fadd9131258cf31c6132aaba9433c"
+      "sha256": "b273bf636a7c90b9f7eb0b85bb213c9543234ed95832a4f7fe3463a6a417ee53"
     },
     {
       "bundle_label": "BGCE449 PRECONDITIONED UB612 INTERVAL RANK35 CERTIFICATE",
@@ -45,7 +45,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-19/bundle-02/RESULT.json",
-      "sha256": "254cd8ac13460d84a41593a063c766a549e6ca6e2ad0b8f4b66bc5eab15d6f6d"
+      "sha256": "19be04fa339aba8e3b85750e75a337a9e9dae475499cba62abb1c37317389adf"
     },
     {
       "bundle_label": "BGCE449 PRECONDITIONED UB612 INTERVAL RANK35 CERTIFICATE",
@@ -54,7 +54,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "proof_check.py",
       "path": "evidence/statements/artifacts/V100-THE-19/bundle-02/proof_check.py",
-      "sha256": "72d142fab8c4f71ac6567f9c85e483138493563474fe6ab318f0384f40e33065"
+      "sha256": "973d01a911bff058f81e60c73440035f152a8adca1cef8bc369d45774d203acf"
     }
   ],
   "id": "V100-THE-19",
@@ -64,16 +64,16 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 6,
-      "kind": "vendored_calculation_package",
-      "label": "BGCE444 TEN METRIC SOURCE TO THIRTY FIVE QUARTIC SECOND RESPONSE",
-      "sha256_tree": "21402de48703d8d0b619c8846e44b49148ab7337ac1d684854245b426e734870"
-    },
-    {
       "file_count": 5,
       "kind": "vendored_calculation_package",
+      "label": "BGCE444 TEN METRIC SOURCE TO THIRTY FIVE QUARTIC SECOND RESPONSE",
+      "sha256_tree": "7e066b45de809d286990873323f48c867a04ff245954e323fb5719616a9ad492"
+    },
+    {
+      "file_count": 3,
+      "kind": "vendored_calculation_package",
       "label": "BGCE449 PRECONDITIONED UB612 INTERVAL RANK35 CERTIFICATE",
-      "sha256_tree": "6055f9c135f66747444106831f0fdd9ae82de2d2d22c7b29051701af1b85ef54"
+      "sha256_tree": "65c2d2b10163bffd42727c18f9dbf55aaf6f13fbbba0c7605b5edab84b6379c4"
     }
   ],
   "status": "PUBLIC_CODE",

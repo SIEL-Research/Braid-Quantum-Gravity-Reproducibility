@@ -1,0 +1,16 @@
+{
+  "artifacts": {
+    "INPUT_MANIFEST.json": "23378bb5cb1ec5fe3c83e3f877100038e4c0c1eb516127d8ab00b9c5fbddbe3a",
+    "ITERATION_LEDGER.md": "38f96a1426457c020c9514372354feb8c1f21fc79721db20c17eaf7dcc1c215b",
+    "SCOUT_PLAN.md": "fc08c7fc4c6c17f0aaade767810bf60f2892989d8165c1d528d19d7d6920c79b",
+    "evaluate_scout.py": "0cde80bfa7b49706bf4724c7ac8c6fa3b25e490dcf00ebdbaa96cbacc6906bf2"
+  },
+  "attempt": "0001",
+  "gate_id": "BGCE464",
+  "outcome_accessed": false,
+  "schema": "siel.public-calculation.scout.freeze.v1",
+  "scout_id": "PUBLIC-RUN-BGCE464-001",
+  "source_commit": "f0f5a77425897b4e74719598967b635abc457101",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-f0f5a7742589",
+  "status": "FROZEN_BEFORE_OUTCOME_ACCESS"
+}

@@ -1,0 +1,16 @@
+{
+  "certificate_sha256": "ba85ba92253f9a5ea125966d612a91bbc7bde18c14344adc14be845293d466ef",
+  "command": "python3 records/BGCE570_SOURCE_MAJORANA_ACTION_CROSS_VARIATION_GATE_20260926/RUN_001/evaluate_scout.py",
+  "evaluator_sha256": "633ad6fc008389a6f010260c1afe525d2353453712e0595ef47136a4c8703b72",
+  "iteration": 2,
+  "numpy_version": "2.4.4",
+  "python_version": "3.14.6",
+  "raw_sha256": "bcf274d9d7797997e8f88528ad4967261ac7129b8701f4ab07a012cf31ee2c2b",
+  "result_sha256": "fcf54610ad771e56e8b83d9ab77ab538677dbd0687c2925a8f19900bfeea7a37",
+  "schema": "siel.public-calculation.bgce570.execution-log.v1",
+  "scout_id": "PUBLIC-RUN-BGCE570-001",
+  "source_commit": "5b87ed40858eb567c2e0911ef7e226ff9104814b",
+  "status": "PASS",
+  "verification_command": "python3 records/BGCE570_SOURCE_MAJORANA_ACTION_CROSS_VARIATION_GATE_20260926/RUN_001/verify.py",
+  "verifier_sha256": "d65c5439d043965d86cb5ffc7c55b0df5d438c01da4d6d2c2df7b6b5c4922b23"
+}

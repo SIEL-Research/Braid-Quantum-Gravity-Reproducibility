@@ -1,0 +1,125 @@
+{
+  "schema": "siel.public-calculation.bqgctrl013.raw.v1",
+  "id": "BQGCTRL-013",
+  "scout_id": "PUBLIC-RUN-BQGCTRL013-001",
+  "primary_evidence_status": "Theoretical derivation",
+  "verified_inputs": [
+    {
+      "role": "full-chain common-source product functor",
+      "path": "records/BQGCTRL012_COMMON_SOURCE_PRODUCT_FUNCTOR_AND_IDENTITY_FEEDBACK_NATURALITY_20260929/RUN_001/RESULT.json",
+      "sha256": "f0f509126c7aa4c790bcabe223f627fdaa129ee7d174124c6befc2362bab2065",
+      "verified": true
+    },
+    {
+      "role": "full-chain raw branch and control record",
+      "path": "records/BQGCTRL012_COMMON_SOURCE_PRODUCT_FUNCTOR_AND_IDENTITY_FEEDBACK_NATURALITY_20260929/RUN_001/RAW_OUTPUT.json",
+      "sha256": "9fd6afd82a9e8e532e20d152593e26b31446df2c936a2719aba5910107e470d0",
+      "verified": true
+    },
+    {
+      "role": "quantum-stage mechanism and discriminator boundary",
+      "path": "records/BQGCTRL008_QUANTUM_STRUCTURE_CONTROL_ENGINE_CONTROLS_20260929/RUN_001/RESULT.json",
+      "sha256": "c00b07dcf1cd17682890d17c76935e7d231c3275437d08b8b75e8a7713120c88",
+      "verified": true
+    },
+    {
+      "role": "exact actual-source Yang-Baxter path result",
+      "path": "records/UB473_GLOBAL_BRAID_PATH_SUSPENSION_AND_YANG_BAXTER_COHERENCE_GATE/RESULT.json",
+      "sha256": "fb29148fe4c5bd0e88bdbc9ee024e9d40fdd75c11ff24a37317cdb9d23d43d4c",
+      "verified": true
+    },
+    {
+      "role": "exact actual-source Yang-Baxter certificate",
+      "path": "records/UB473_GLOBAL_BRAID_PATH_SUSPENSION_AND_YANG_BAXTER_COHERENCE_GATE/GLOBAL_BRAID_PATH_CERTIFICATE.json",
+      "sha256": "34a32242db320f0903f19d4015960a55dca536455d7e99ca20301b37ba909467",
+      "verified": true
+    }
+  ],
+  "source_presentations": {
+    "P_free": {
+      "kind": "free strict typed monoidal presentation",
+      "braid_relation_imposed": false,
+      "left_word": [
+        "r1",
+        "r2",
+        "r1"
+      ],
+      "right_word": [
+        "r2",
+        "r1",
+        "r2"
+      ],
+      "words_equal": false
+    },
+    "B_min": {
+      "kind": "coequalizer quotient",
+      "relation": "r1 r2 r1 = r2 r1 r2",
+      "left_class": "YBE_CLASS",
+      "right_class": "YBE_CLASS",
+      "words_equal": true
+    }
+  },
+  "full_chain": {
+    "branch_ids": [
+      "F_carrier",
+      "F_response",
+      "F_feedback",
+      "F_gravity",
+      "F_quantum",
+      "F_strong"
+    ],
+    "same_generator_assignment": true,
+    "same_branch_interfaces": true,
+    "complete_product_cone_match": true,
+    "actual_BQGCTRL012_decision_retained": "BRAID_SPECIFIC_PASS_IN_FROZEN_CONTROL_FAMILY_AND_DECLARED_FEEDBACK_CLASS"
+  },
+  "countermodels": [
+    {
+      "id": "CTRL-FREE-TYPED-NONBRAID-LIFT",
+      "coherent": true,
+      "source_level_YBE_imposed": false,
+      "complete_product_cone_match": true,
+      "faithful_on_crossing_subcategory": false,
+      "decision": "MATCHES_FULL_CHAIN_ONLY_AS_NONFAITHFUL_PRESENTATION_LIFT"
+    },
+    {
+      "id": "CTRL-FAITHFUL-YBE-BROKEN",
+      "coherent": true,
+      "source_words_required_distinct": true,
+      "complete_product_cone_match": true,
+      "faithful_on_crossing_subcategory": true,
+      "decision": "NO_GO_BY_HOM_SET_INJECTIVITY"
+    },
+    {
+      "id": "CTRL-MANUAL-MODULE-STACK",
+      "coherent": "modulewise only",
+      "complete_product_cone_match": false,
+      "decision": "NOT_A_SINGLE_SOURCE_FUNCTOR"
+    }
+  ],
+  "proofs": {
+    "nonfaithfulness": "In P_free, wL!=wR. UB473 gives H_free(wL)=H_free(wR). Therefore H_free is not faithful.",
+    "faithful_boundary": "If G is faithful on the crossing hom-set and G(wL)=G(wR), injectivity implies wL=wR. Thus no faithful YBE-broken source can realize the same crossing image.",
+    "coequalizer": "H_free equalizes wL,wR, hence factors uniquely through q:P_free->P_free/(wL=wR). This quotient is the relation-minimal crossing presentation.",
+    "full_chain": "The six BQGCTRL-012 branch functors use the same frozen typed generator images and interfaces. Equality on generators extends to every composite by structural induction."
+  },
+  "gates": {
+    "INPUT_INTEGRITY": true,
+    "FREE_NONBRAID": true,
+    "TARGET_YBE": true,
+    "FULL_CHAIN_MATCH": true,
+    "NONFAITHFUL_WITNESS": true,
+    "FAITHFUL_BOUNDARY": true,
+    "COEQUALIZER_MINIMALITY": true
+  },
+  "decisions": {
+    "unrestricted_source_ontology_identifiability": "NO_GO_NONFAITHFUL_FREE_LIFT_EXISTS",
+    "faithful_YBE_broken_same_image": "NO_GO_EXACT",
+    "minimal_faithful_crossing_presentation": "PASS_YANG_BAXTER_QUOTIENT_FORCED",
+    "BQGCTRL012_frozen_control_family_pass": "RETAINED",
+    "programme_statement": "BRAID_SPECIFIC_PASS_UP_TO_OBSERVATIONAL_EQUIVALENCE_IN_THE_MINIMAL_FAITHFUL_CROSSING_SOURCE_CLASS"
+  },
+  "strongest_ordinary_explanation": "A generic free typed monoidal source can carry the same assigned operators and fields. The full endpoint chain therefore identifies only the represented quotient, not an upstream source ontology.",
+  "minimum_braid_specific_structure": "The relation-minimal faithful crossing quotient, together with the already scoped point, cap/cup, right-tail and five-adic refinement package that supplies all six branch inputs.",
+  "claim_ceiling": "The actual pointed-Braid source simultaneously supplies the scoped full chain and its Yang-Baxter quotient is forced among faithful relation-minimal crossing presentations. Unrestricted source ontology remains non-identifiable because a coherent nonfaithful free lift reproduces the same complete image. No empirical or universal physical necessity claim follows."
+}

@@ -1,0 +1,136 @@
+{
+  "schema": "siel.public-calculation.scout.bqgqbv002.raw.v1",
+  "one_cube": {
+    "cell_counts": [
+      16,
+      32,
+      24,
+      8,
+      1
+    ],
+    "even_dimension": 41,
+    "odd_dimension": 40,
+    "rank_Dplus": 40,
+    "rank_B": 80,
+    "kernel_dimension": 1,
+    "harmonic_unit_Dplus_image": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "trace_Gamma": 1,
+    "trace_pointed_polar_sign": 1,
+    "GW_index": "1"
+  },
+  "five_adic_gap": {
+    "formula": "delta_n=2*n*sin(pi/(2*(n+1))) for the h^-1=n rescaled cubical Hodge-Dirac",
+    "rigorous_bound": "delta_n >= 2n/(n+1) >= 1 by sin(x)>=2x/pi",
+    "stages": [
+      {
+        "m": 0,
+        "n": 1,
+        "rescaled_gap_numeric": 1.414213562373095,
+        "rigorous_lower_bound": "1"
+      },
+      {
+        "m": 1,
+        "n": 5,
+        "rescaled_gap_numeric": 2.5881904510252074,
+        "rigorous_lower_bound": "5/3"
+      },
+      {
+        "m": 2,
+        "n": 25,
+        "rescaled_gap_numeric": 3.0189248711143026,
+        "rigorous_lower_bound": "25/13"
+      },
+      {
+        "m": 3,
+        "n": 125,
+        "rescaled_gap_numeric": 3.116578648853759,
+        "rigorous_lower_bound": "125/63"
+      },
+      {
+        "m": 4,
+        "n": 625,
+        "rescaled_gap_numeric": 3.13657084346324,
+        "rigorous_lower_bound": "625/313"
+      },
+      {
+        "m": 5,
+        "n": 3125,
+        "rescaled_gap_numeric": 3.1405875333702964,
+        "rigorous_lower_bound": "3125/1563"
+      },
+      {
+        "m": 6,
+        "n": 15625,
+        "rescaled_gap_numeric": 3.1413915992363814,
+        "rigorous_lower_bound": "15625/7813"
+      }
+    ]
+  },
+  "functional_calculus": {
+    "S": "sign(B) on ker(B)^perp and +1 on the source-pointed harmonic algebra unit",
+    "V": "Gamma*S",
+    "D_GW": "I-V",
+    "identities": [
+      "S*=S",
+      "S^2=I",
+      "V*V=I",
+      "Gamma V Gamma=V*",
+      "Gamma D+D Gamma=D Gamma D"
+    ]
+  },
+  "checks": {
+    "one_cube_dimensions_41_40": true,
+    "Dplus_rank_40": true,
+    "full_Hodge_Dirac_rank_80": true,
+    "unique_harmonic_line": true,
+    "harmonic_line_is_even": true,
+    "degree_parity_anticommutation": true,
+    "pointed_polar_phase_unitary": true,
+    "gamma5_hermiticity": true,
+    "exact_GW_relation": true,
+    "GW_index_one": true,
+    "all_stage_uniform_gap_bound": true,
+    "compact_coefficient_tensor_equivariant": true
+  }
+}

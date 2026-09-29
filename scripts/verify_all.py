@@ -14,6 +14,7 @@ COMMANDS = [
     [sys.executable, "scripts/verify_source.py"],
     [sys.executable, "scripts/verify_theorem_coverage_v1.py"],
     [sys.executable, "scripts/verify_public_navigation.py"],
+    [sys.executable, "scripts/verify_public_cleanliness.py"],
     [sys.executable, "scripts/verify_version_cleanliness.py"],
     [sys.executable, "scripts/verify_evidence_integrity.py"],
     [sys.executable, "scripts/verify_vendored_packages.py"],

@@ -1,7 +1,0 @@
-{
-  "iteration": 1,
-  "command": "python3 -B audits/SRA_DPA_BQGCAL010_SOURCE_EXCITATION_AREA_NUMBER_TO_CONSERVED_MISNER_SHARP_MASS_AND_SCHWARZSCHILD_SPECTRUM_GATE_20260928/DPA_SCOUT_001/evaluate_scout.py",
-  "status": "PASS",
-  "runtime_class": "SUBSECOND_EXACT_SYMBOLIC_NO_SCAN",
-  "result_informed_repair": false
-}

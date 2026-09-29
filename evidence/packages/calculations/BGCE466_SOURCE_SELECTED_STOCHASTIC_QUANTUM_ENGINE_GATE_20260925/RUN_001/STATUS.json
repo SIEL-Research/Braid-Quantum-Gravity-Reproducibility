@@ -1,0 +1,16 @@
+{
+  "attempts_retained": 1,
+  "completed_at": "2026-09-25T16:40:41+09:00",
+  "decision": "CLOSED_SCOPED",
+  "evidence_status": "Exploratory theoretical derivation",
+  "gate_id": "BGCE466",
+  "next_gate": "BGCE467_SOURCE_NATIVE_CARRIER_PRESERVING_DILATION_OR_ZENO_IMPLEMENTATION_GATE",
+  "raw_output_sha256": "b9e197abae97607cbc5e221183247c82b0b78effcda107f46222efc217a5ad7f",
+  "report_sha256": "8a3f2443e209ea48ac8785bba7d177379ebbc6b2a5f71912a94759f5a8f1e2e2",
+  "result_sha256": "6360e0ba616e8c1e2a6bd50961b4782b87579e49bb9028861c96236520dade99",
+  "schema": "siel.public-calculation.scout.status.v1",
+  "scout_id": "PUBLIC-RUN-BGCE466-001",
+  "status": "COMPLETE",
+  "successful_attempt": "0001",
+  "work_package": "BQG-G0-R01.2"
+}

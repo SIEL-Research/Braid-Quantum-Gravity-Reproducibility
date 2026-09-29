@@ -1,0 +1,25 @@
+{
+  "claim_ceiling": "Inside the declared derived unital dagger-compact pointed-oriented Nambu-Lie completion, the fixed clock Cartan rate c=1 and bracket preservation force the positive pair rate s=1; s=2 from the separated BGCE569 counterfamily fails the joint Cartan bracket. The same unital action fixes y_nu=1, and canonical normalization of the already selected K=Y Y^T pair gives one device-relative Majorana coefficient and a six-mode neutral spectrum without observed-data fitting. This closes BQG-G3-R03.7 only in that declared class; unchanged-raw-source, universal SI, observed-label, numerical PMNS, RG/total-uncertainty and empirical claims remain open elsewhere.",
+  "coefficient_on_unnormalized_K_device_eV": "0.06912678091589853745677313447172424023871172179060729900674282679960528",
+  "decision": "CLOSED_SCOPED_DERIVED_UNITAL_DAGGER_COMPACT_POINTED_ORIENTED_NAMBU_LIE_COMPLETION_JOINT_BRACKET_FORCES_POSITIVE_MAJORANA_RATE_ONE_AND_UNITALITY_FORCES_Y_NU_ONE__DEVICE_RELATIVE_NEUTRAL_SPECTRUM_DERIVED_WITHOUT_TARGET_FIT",
+  "dimensionless_y_nu": "+1",
+  "evidence_status": "Theoretical derivation",
+  "joint_action_typing": "DERIVED_DECLARED_CLASS__NOT_UNCHANGED_RAW_SOURCE",
+  "neutral_mass_mode_count": 6,
+  "next_gate": "BQG-G3-R03.8_IMPORT_BGCE570_INTRINSIC_NEUTRAL_ORDERING",
+  "pass_rule": true,
+  "positive_Majorana_rate_scalar": "s=1",
+  "remaining_routed_boundaries": [
+    "BQG-G3-R03.2",
+    "BQG-G3-R03.8",
+    "BQG-G4-R01"
+  ],
+  "schema": "siel.public-calculation.bgce570.result.v1",
+  "scientific_layer": "declared derived joint clock--Nambu matter action and device-relative neutral spectrum",
+  "scout_id": "PUBLIC-RUN-BGCE570-001",
+  "source_commit": "5b87ed40858eb567c2e0911ef7e226ff9104814b",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-5b87ed40858e",
+  "target_data_fit_used": false,
+  "work_package": "BQG-G3-R03.7",
+  "work_package_status": "CLOSED_SCOPED"
+}

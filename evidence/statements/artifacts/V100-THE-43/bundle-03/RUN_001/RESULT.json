@@ -1,0 +1,63 @@
+{
+  "all_input_hashes_match": true,
+  "claim_ceiling": "Exact derivation of the required radial current shape and magnitude from the reflected source screen walk. No unique physical sign or unconditional interaction action, and no collapse, evaporation, thermodynamics, astrophysical or empirical claim.",
+  "coefficient_fit": false,
+  "current_shape_matches_pure_Palatini_Euler_on_every_nonuniform_internal_node": true,
+  "decision": "SPLIT_SCOPED_PASS_ACTUAL_REFLECTED_SOURCE_SCREEN_WALK_GENERATES_THE_EXACT_NONUNIFORM_PALATINI_EULER_CURRENT_SHAPE_AND_THROAT_MAGNITUDE__SCOPED_NO_GO_UNCONDITIONED_RAW_PETZ_AVERAGE_IS_ZERO_AND_EXISTING_RECORDS_DO_NOT_SELECT_PETZ_MINUS_RAW_AS_THE_PHYSICAL_NEGATIVE_RADIAL_COUPLING__SIGN_SELECTION_REMAINS_OPEN",
+  "input_hash_checks": {
+    "records/BGCE348_GAUGE_INVARIANT_CHOI_TANGENT_SUPPORT_AND_TRAJECTORY_SCORE_TO_FOUR_BALANCE_GATE_20260924/RESULT.json": true,
+    "records/BQGBH003_SOURCE_RADIAL_REFLECTION_AND_EVENT_AFFINE_COMPLETENESS_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH004_FIXED_TAIL_MASS_ACTIVE_RELATIONAL_RADIUS_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH005_SIGNED_SCREEN_COORDINATE_REGULAR_BLACK_BOUNCE_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH015_SOURCE_SIGNED_SCREEN_RADIAL_COMPLEX_TO_SIX_FACE_COFRAME_HOLONOMY_EMBEDDING_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH031_COMPLETE_STATIC_SPHERICAL_SIX_FACE_EULER_TO_SCHWARZSCHILD_AND_BOUNCE_GATE_20260929/RUN_001/RESULT.json": true,
+    "records/BQGBH032_SOURCE_SCREEN_RELATIVE_PALATINI_INTERACTION_TO_REGULAR_BOUNCE_STATIONARITY_GATE_20260929/RUN_001/RESULT.json": true
+  },
+  "negative_radial_backreaction_coupling_uniquely_selected_by_existing_source_record": false,
+  "negative_unit_Petz_minus_raw_contrast_available": true,
+  "next_gate": "BQGBH-034_PETZ_RECOVERY_ORIENTATION_TO_NEGATIVE_SCREEN_CURRENT_COUPLING_GATE",
+  "node_current_divergence": "Q_k=j_left-j_right",
+  "ordinary_explanation": "A scalar field on a chain always has a gradient and divergence; the remaining physical question is why the source current enters the Palatini equation with the cancelling sign.",
+  "parameter_scan": false,
+  "pure_Palatini_Euler_coefficients_left_right": [
+    "1",
+    "-1"
+  ],
+  "raw_Petz_available_branch_coefficients": {
+    "Petz": "minus one-half",
+    "Petz_minus_raw": "minus one",
+    "raw": "plus one-half",
+    "raw_minus_Petz": "plus one",
+    "unconditioned_average": "zero"
+  },
+  "required_interaction_coefficients_left_right": [
+    "-1",
+    "1"
+  ],
+  "schema": "siel.public-calculation.bqgbh033.raw_output.v1",
+  "scout_id": "PUBLIC-RUN-BQGBH-033-X1",
+  "source_divergence_coefficients_left_right": [
+    "1",
+    "-1"
+  ],
+  "source_revision": "bb525cfef0cb5521f9d0b05f00b6d4420b94ec42",
+  "source_screen_current": "j_e=Delta rho_e/Delta X_e",
+  "source_screen_current_as_walk_coboundary": "rho-rho_after_step, normalized by the signed source edge length",
+  "strongest_counterpattern": "Both plus-one and minus-one branch contrasts are algebraically available by reversing the contrast order, while the prior-summed instrument has zero first variation. Availability does not select the physical sign.",
+  "target_Einstein_tensor_accessed": false,
+  "target_stress_accessed": false,
+  "throat_exact_cancellation": true,
+  "throat_required_interaction_Qsqrt2": [
+    "-2",
+    "2"
+  ],
+  "throat_source_divergence_Qsqrt2": [
+    "2",
+    "-2"
+  ],
+  "throat_total_Qsqrt2": [
+    "0",
+    "0"
+  ],
+  "unconditioned_branch_average_supplies_nonzero_interaction": false
+}

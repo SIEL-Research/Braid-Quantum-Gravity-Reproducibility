@@ -1,8 +1,0 @@
-{
-  "scout_id": "DPA-SCOUT-BQGCAL-042-X1",
-  "zero_anchor_injective": false,
-  "one_anchor_injective": true,
-  "minimal_anchor_count_exact": 1,
-  "scale_rank_after_typed_composition": 1,
-  "verification_command": "python3 verify.py"
-}

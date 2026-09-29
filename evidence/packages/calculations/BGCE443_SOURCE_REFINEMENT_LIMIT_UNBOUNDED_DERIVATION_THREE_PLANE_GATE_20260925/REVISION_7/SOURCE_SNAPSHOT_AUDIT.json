@@ -1,0 +1,11 @@
+{
+  "schema": "siel.public-calculation.bgce443.r7.source-snapshot-audit.v1",
+  "status": "PASS_BYTE_EXACT_REPLAY",
+  "actual_source_snapshot_sha256": "3a49ca52d0ea86879e94384cbb030d8d8231296044d3397d5ab022f13f412bc0",
+  "snapshot_producer_sha256": "cc892c77e1aaea6f5d710a1af425ab1801d231390f4bb5cff5898e30f1473ffa",
+  "canonical_source_check_sha256": "176c75ac349f0f3f142d9c850ca0682436b7ad00cd179f6806de253d0a7acabb",
+  "canonical_source_certificate_sha256": "717c79fddcf2c94ed89a1c7bef19965627cad9b56e9ccd7bb3fbfa86b45f35f9",
+  "sector_count": 8,
+  "direction_count": 24,
+  "scientific_outcome_computed": false
+}

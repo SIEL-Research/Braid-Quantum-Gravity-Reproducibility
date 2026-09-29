@@ -1,0 +1,24 @@
+{
+  "artifacts": {
+    "INPUT_MANIFEST.json": "df796a924256f5423f78ec471d7719d79c88e4daabebceec6afdfb1ae62f360b",
+    "ITERATION_LEDGER.md": "d1ee4b0de317f0d9385ae9d334d887766ee747722f06d9debff7bf81ac4f58b2",
+    "RAW_OUTPUT.json": "3e0f90a17a3ca196c315a23af12446794abc0d99a29aed5ce381bffcd389a3b0",
+    "RESULT.json": "f8e49ad2add8bf86084ce56f21da7c943243e88cec58c504968a7fd6be8d2ae7",
+    "SCOUT_PLAN.md": "6523acc9b6c9a057671f57a023f2c8bf7881930080843f673c5c48c210d7ad85",
+    "STATUS.json": "8de5ba9e4c997bb996eeda546801f6826ec39bdd435eb178096b4631139d9508",
+    "evaluate_scout.py": "21ba7eb76c68ef5a8e715f2bfcdbbb1333095b63d3970d4d0eb2bb88058f32f6",
+    "validate_result.py": "ab0f1c1e0517dfec9ee1157da21f8296a5fade6b5a4b2824157b1759e6c9ff97"
+  },
+  "attempts": {
+    "1": "COMPLETE_THEORETICAL_DERIVATION"
+  },
+  "claim_ceiling": "Exact strong wave-trajectory convergence for two passive polarization copies of the mean-zero BGCE452/BGCE456 hierarchical source-cylinder carrier only; physical ADM projection, smooth Fierz-Pauli identification and nonlinear Euler convergence remain open.",
+  "date": "2026-09-26",
+  "decision": "CLOSED_SCOPED_HIERARCHICAL_TWO_MODE_ALL_TIME_STRONG_ENERGY_CONVERGENCE__OPEN_PHYSICAL_ADM_AND_SMOOTH_FIERZ_PAULI_IDENTIFICATION",
+  "schema": "siel.public-calculation.bqg_euler_004.certificate.v1",
+  "scout_id": "PUBLIC-RUN-BQGEULER-004",
+  "source_commit": "ffbcedd69722e3cc3f46b982652dba500ee01554",
+  "validation": "PASS",
+  "work_package_closed": false,
+  "work_package_status_after_gate": "OPEN_SOURCE_CONSTRUCTION_REQUIRED"
+}

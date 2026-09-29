@@ -1,0 +1,10 @@
+{
+  "candidate_id": "BGCE295",
+  "raw_output_sha256": "7dea1f0b4c8e3a55696704e0259f73cd41b4af090b093004e2d0d1b7d4df2adb",
+  "result_sha256": "e75696c4d319cd973acc1e3e6c03504fccc6ec32a8ef697bb742ddb56be4344e",
+  "schema": "siel.public-calculation.bgce295.postrun.v1",
+  "scientific_decision": "FULL_PASS_IN_DECLARED_LONG_WAVELENGTH_LOCAL_SECOND_ORDER_SELF_ADJOINT_CONSERVATIVE_CLASS",
+  "status": "PASS",
+  "verification_command": "python3 -B records/BGCE295_FINITE_BRAID_ACTION_TO_CONTINUUM_HILBERT_VARIATION_IDENTITY_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE295_VERIFICATION"
+}

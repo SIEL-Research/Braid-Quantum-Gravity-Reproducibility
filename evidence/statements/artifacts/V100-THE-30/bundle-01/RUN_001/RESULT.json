@@ -1,0 +1,35 @@
+{
+  "schema": "siel.public-calculation.bgce490.result.v1",
+  "scout_id": "PUBLIC-RUN-BGCE490-001",
+  "gate_id": "BGCE490",
+  "work_package": "BQG-G0-R01.2",
+  "status": "CLOSED_SCOPED",
+  "primary_evidence_status": "Theoretical derivation",
+  "source_commit": "90a18fccd770d241e2887df89a95005f93779899",
+  "decision": "The canonical Halmos walk converts Chebyshev powers T_k(H/alpha) into exact finite block-encoding queries. Re-expressing the source-spectrum target in this basis reduces the LCU normalization by enough to improve heralding probability by 39.40 to 87.10 decimal orders across all 32 cases. BGCE489 phase matching then gives exact deterministic circuits using 7 to 2,793 base calls and 203 to 39,102 H-block-encoding queries.",
+  "exact_identity": "For A=H/alpha, D=sqrt(I-A^2), BE(H)=[[A,D],[D,-A]], Z=diag(I,-I), and R=Z BE(H), the commuting functional calculus gives <0|R^k|0>=T_k(A).",
+  "exact_results": {
+    "signed_sectors_checked": 8,
+    "control_families_checked": ["G1", "H1", "H2", "H3"],
+    "cases_checked": 32,
+    "distinct_spectral_node_range": [15, 32],
+    "coefficient_l1_log10_range": [0.5304295833679866, 3.249704324412116],
+    "unamplified_success_log10_range": [-6.499408648824232, -1.0608591667359732],
+    "success_improvement_orders_range": [39.40051519258342, 87.10444259104926],
+    "exact_phase_matched_base_call_range": [7, 2793],
+    "total_H_block_encoding_query_range": [203, 39102],
+    "maximum_interpolation_residual_70_digit": "3.1251574e-69",
+    "maximum_walk_identity_residual_70_digit": "1.8111358e-70",
+    "coefficient_fit": false,
+    "manual_phase_tuning": false
+  },
+  "four_probability_role": "The source-V4 four-probability 1+3 carrier remains the exact outer selector of G1,H1,H2,H3. Chebyshev compilation acts inside the selected branch and does not require raw V4 reflection compression.",
+  "programme_effect": {
+    "BQG-G0-R01.2": "UNCHANGED_CLOSED_SCOPED_LOW_NORMALIZATION_DETERMINISTIC_ACTUATOR_STRENGTHENED",
+    "source_structured_Chebyshev_LCU": "CLOSED_SCOPED",
+    "BGCE489_old_black_box_efficiency_no_go": "RETAINED_FOR_LAGRANGE_ACTUATOR_ONLY",
+    "typed_Halmos_walk_local_source_word_compilation": "OPEN"
+  },
+  "next_gate": "BGCE491_TYPED_HALMOS_CHEBYSHEV_WALK_TO_SOURCE_WORD_LOCAL_COMPILATION_GATE",
+  "claim_ceiling": "This closes a low-normalization exact deterministic finite actuator under the BGCE478 typed canonical Halmos block encoding, BGCE484 typed coherent routing, BGCE487 continuous source clock and finite composition. The square-root defect and controlled walk powers are not derived from bare adjacent-Braid words; hardware errors, seconds calibration, continuum/QFT completion and empirical confirmation remain open."
+}

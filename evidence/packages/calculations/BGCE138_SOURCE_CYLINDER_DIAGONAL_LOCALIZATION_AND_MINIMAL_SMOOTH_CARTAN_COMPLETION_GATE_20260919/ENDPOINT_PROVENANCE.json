@@ -1,0 +1,9 @@
+{
+  "schema": "siel.public-calculation.bgce138.endpoint-provenance.v1",
+  "candidate_id": "BGCE138",
+  "status": "NOT_ISSUED_BY_PUBLIC__THEORETICAL_SOURCE_AND_COMPLETION_AUDIT_ONLY",
+  "positive_witness": "A simple self-adjoint five-level source marker must generate a five-dimensional MASA, four copies must give 625 minimal cylinders, and an explicit compactly supported C2 bump must generate independent coframe and connection variations around the BGCE137 anchor.",
+  "negative_witness": "The full matrix factor M5 alone has no preferred MASA, and a canonical mathematical cylinder spectrum does not by itself identify its points with natural spacetime events.",
+  "permitted_interpretation": "Exact mathematical source localization and existence of a minimal smooth off-shell completion under the audited hypotheses.",
+  "prohibited_interpretation": "Empirical spacetime, physical event identity, unconditional Braid-only gravity, endpoint-semantic certification, or Official SIEL adoption."
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "siel.public-calculation.bgce299.baseline-gate.v1",
+  "candidate_id": "BGCE299",
+  "source_identity": "PASS",
+  "source_revision": "e0ac54d6ddbcaa78d7354c037063746e3339c1c2",
+  "preregistered_commit": "3990656c2",
+  "path_manifest": "PASS_EXACT_FROZEN_PATHS_AND_SHA256",
+  "baseline_intermediate": "PASS_BGCE285_293_295_297_298",
+  "baseline_primary": "PASS_INDEPENDENT_INVERSE_DOMAIN_AND_ACTION_SCOPE_AUDIT",
+  "intervention_invariants": "PASS_NO_NEW_ACTION_NO_FIT_NO_NUMERICAL_SCAN",
+  "science_outcome_authorized": true,
+  "formal_E0_E1_E2": "NOT_APPLICABLE_TO_THIS_THEORETICAL_DERIVATION_AUDIT"
+}

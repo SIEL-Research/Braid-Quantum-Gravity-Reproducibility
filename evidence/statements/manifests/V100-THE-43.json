@@ -8,8 +8,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "eb2ed08a40214bcb674daeb8e8d3c43e8b8e72fb52382e806ad3d510d6ada94f"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/RUN_001/CERTIFICATE.json",
+      "sha256": "c4d5c9bd10b517eac549d704490482c328402ecd2d2464ad21a6ceb0f63954dc"
     },
     {
       "bundle_label": "BQGBH031 COMPLETE STATIC SPHERICAL SIX FACE EULER TO SCHWARZSCHILD AND BOUNCE",
@@ -17,8 +17,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "3c60d291bd70f9fb613cfee1ea7900b0ed1fd48053d170c350bf9d773841f1c7"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "5e6f4bca591f24ad3589361602f03a86294fcd65a66d0bc00f4ee50d2c11827f"
     },
     {
       "bundle_label": "BQGBH031 COMPLETE STATIC SPHERICAL SIX FACE EULER TO SCHWARZSCHILD AND BOUNCE",
@@ -26,8 +26,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "98651c47f852ce2830f32cb5bf70f93eef8f5ad3f0dcd8ddb4b16215f460db3a"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/RUN_001/RAW_OUTPUT.json",
+      "sha256": "49b1f8092ef2b2d461458c4d8ab896218b8c2bdd9616061c93dc77f652f5bbf7"
     },
     {
       "bundle_label": "BQGBH031 COMPLETE STATIC SPHERICAL SIX FACE EULER TO SCHWARZSCHILD AND BOUNCE",
@@ -35,8 +35,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/DPA_SCOUT_001/RESULT.json",
-      "sha256": "98651c47f852ce2830f32cb5bf70f93eef8f5ad3f0dcd8ddb4b16215f460db3a"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/RUN_001/RESULT.json",
+      "sha256": "49b1f8092ef2b2d461458c4d8ab896218b8c2bdd9616061c93dc77f652f5bbf7"
     },
     {
       "bundle_label": "BQGBH031 COMPLETE STATIC SPHERICAL SIX FACE EULER TO SCHWARZSCHILD AND BOUNCE",
@@ -44,8 +44,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "21f05618f15f3187a8bc278ab1bfb63f7016ace3c18dbd4a097774279c4c8347"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/RUN_001/evaluate_scout.py",
+      "sha256": "c09ae33c86ed211a9bce4309d90f3b3e4b1fc24e2c7d00edb168585b957ff5bb"
     },
     {
       "bundle_label": "BQGBH031 COMPLETE STATIC SPHERICAL SIX FACE EULER TO SCHWARZSCHILD AND BOUNCE",
@@ -53,7 +53,7 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/DPA_SCOUT_001/verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-01/RUN_001/verify.py",
       "sha256": "0c1894c0e93abc276b0b77c825eed1278d3bb7f5eadc8843c4bb46253f09b18f"
     },
     {
@@ -62,8 +62,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "36bf96a8e9f8c1fa4c934aa9d315070df61163827103f30008db2b916ccd480f"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/RUN_001/CERTIFICATE.json",
+      "sha256": "6a9fb1a9adc1475936163ee56981954c62bfd2d7052a02e18f19ea7a85218fc8"
     },
     {
       "bundle_label": "BQGBH032 SOURCE SCREEN RELATIVE PALATINI INTERACTION TO REGULAR BOUNCE STATIONARITY",
@@ -71,8 +71,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "8516fa7952864baa02947943240cdd47e0d37e6e1aed21df744b906292d9cb31"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "ce6a80547db55e107598564f9061944031ba05e451385086b031b30591295726"
     },
     {
       "bundle_label": "BQGBH032 SOURCE SCREEN RELATIVE PALATINI INTERACTION TO REGULAR BOUNCE STATIONARITY",
@@ -80,8 +80,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "22a6b6a9318565477a0fe79d086514353fd5635754c8bccba51919f8f4edd745"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/RUN_001/RAW_OUTPUT.json",
+      "sha256": "60786172e428173cb02fa0764c6cf41075d73c4115d0e965106cd296f9492430"
     },
     {
       "bundle_label": "BQGBH032 SOURCE SCREEN RELATIVE PALATINI INTERACTION TO REGULAR BOUNCE STATIONARITY",
@@ -89,8 +89,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/DPA_SCOUT_001/RESULT.json",
-      "sha256": "22a6b6a9318565477a0fe79d086514353fd5635754c8bccba51919f8f4edd745"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/RUN_001/RESULT.json",
+      "sha256": "60786172e428173cb02fa0764c6cf41075d73c4115d0e965106cd296f9492430"
     },
     {
       "bundle_label": "BQGBH032 SOURCE SCREEN RELATIVE PALATINI INTERACTION TO REGULAR BOUNCE STATIONARITY",
@@ -98,8 +98,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "19c216c7bc4b205e554d52b49471dac930e1f9b3ca65aeaeb9fa6076730ee1eb"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/RUN_001/evaluate_scout.py",
+      "sha256": "59ba412cbc623639c774a7636076a69b2b34e3ee3828db0cf48b8b828c5f3b0e"
     },
     {
       "bundle_label": "BQGBH032 SOURCE SCREEN RELATIVE PALATINI INTERACTION TO REGULAR BOUNCE STATIONARITY",
@@ -107,8 +107,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/DPA_SCOUT_001/verify.py",
-      "sha256": "e1a4a421703e1e88069e532ee8b012a940913735c5261cb05e820faefdc3bff2"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-02/RUN_001/verify.py",
+      "sha256": "6cd9b92113d225f742a841c1bb43ef7f0a45f1f94c1721380aa77b50b2696416"
     },
     {
       "bundle_label": "BQGBH033 SOURCE SCREEN WALK CURRENT TO RELATIVE PALATINI EULER COVECTOR",
@@ -116,8 +116,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "de73db308240eb30d178304820de130b282b79bc9469c250ff5950d5b4f2c097"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/RUN_001/CERTIFICATE.json",
+      "sha256": "bd974e2af191d3514d667cc3448afb16b22b0dc2bd5d3bdc9dfcdc83d7c78a1b"
     },
     {
       "bundle_label": "BQGBH033 SOURCE SCREEN WALK CURRENT TO RELATIVE PALATINI EULER COVECTOR",
@@ -125,8 +125,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "97d54f1e6efdaa2cd93df7f16a4aa2b260ec2f154868588aa58ae6cb544c48ee"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "9a5727e30ccedea8fbdecf2df9c2a5397e273d5173f87706f4d5f4f12a0ec4c0"
     },
     {
       "bundle_label": "BQGBH033 SOURCE SCREEN WALK CURRENT TO RELATIVE PALATINI EULER COVECTOR",
@@ -134,8 +134,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "00056ad192c688927667377c85876302146a9377d8ffd7e3d88cddbe78ab8e1d"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/RUN_001/RAW_OUTPUT.json",
+      "sha256": "a299a8226f573e1a1308408c3c3fea3e88d446d486e6b739fd453c8a659f7f40"
     },
     {
       "bundle_label": "BQGBH033 SOURCE SCREEN WALK CURRENT TO RELATIVE PALATINI EULER COVECTOR",
@@ -143,8 +143,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/DPA_SCOUT_001/RESULT.json",
-      "sha256": "00056ad192c688927667377c85876302146a9377d8ffd7e3d88cddbe78ab8e1d"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/RUN_001/RESULT.json",
+      "sha256": "a299a8226f573e1a1308408c3c3fea3e88d446d486e6b739fd453c8a659f7f40"
     },
     {
       "bundle_label": "BQGBH033 SOURCE SCREEN WALK CURRENT TO RELATIVE PALATINI EULER COVECTOR",
@@ -152,8 +152,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "a3673cd648f59801acdbb1dc2433a2e1c76234cc6951f3f75aa837f3c9ccec10"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/RUN_001/evaluate_scout.py",
+      "sha256": "fd4c9b6df77cccb11ea94d5c3a65563ae745cd55c635b572c87e0e9bc9fc2533"
     },
     {
       "bundle_label": "BQGBH033 SOURCE SCREEN WALK CURRENT TO RELATIVE PALATINI EULER COVECTOR",
@@ -161,8 +161,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/DPA_SCOUT_001/verify.py",
-      "sha256": "c15ba81e4446a4225cacd7090865dd04dfbb48c36f3860c3c15a7a40972dace4"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-03/RUN_001/verify.py",
+      "sha256": "8197c2b10d35cacc11724d84b3d519d1b99f592d43d53953fe7cb01b1c08b91f"
     },
     {
       "bundle_label": "BQGBH034 PETZ RECOVERY ORIENTATION TO NEGATIVE SCREEN CURRENT COUPLING",
@@ -170,8 +170,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-04/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "9185af97387a8d4be251abc7c969e4701959985d6cae4f6109b76a6b8573c99f"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-04/RUN_001/CERTIFICATE.json",
+      "sha256": "6344fe979b4b212026b955221b85a640b7fc8faf6f6383024089d056c72c7bd0"
     },
     {
       "bundle_label": "BQGBH034 PETZ RECOVERY ORIENTATION TO NEGATIVE SCREEN CURRENT COUPLING",
@@ -179,8 +179,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-04/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "956f81f180e896c3f4ecd8c40ded4864408cbf7629625f08b6998628a27179cf"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-04/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "e506ac1dd608855efd72b8b509f4133cb25392e7b969d9d5f374edfc76267ed7"
     },
     {
       "bundle_label": "BQGBH034 PETZ RECOVERY ORIENTATION TO NEGATIVE SCREEN CURRENT COUPLING",
@@ -188,8 +188,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-04/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "796c16d24246fca079479cc63d806c546162dbba418cb8dc61dfded897ea6a10"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-04/RUN_001/RAW_OUTPUT.json",
+      "sha256": "a8b1ffdc477295c24e219cd219ad5d0b0ba26a5cda793b1b3a0f491829e77ae0"
     },
     {
       "bundle_label": "BQGBH034 PETZ RECOVERY ORIENTATION TO NEGATIVE SCREEN CURRENT COUPLING",
@@ -197,8 +197,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-04/DPA_SCOUT_001/RESULT.json",
-      "sha256": "796c16d24246fca079479cc63d806c546162dbba418cb8dc61dfded897ea6a10"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-04/RUN_001/RESULT.json",
+      "sha256": "a8b1ffdc477295c24e219cd219ad5d0b0ba26a5cda793b1b3a0f491829e77ae0"
     },
     {
       "bundle_label": "BQGBH034 PETZ RECOVERY ORIENTATION TO NEGATIVE SCREEN CURRENT COUPLING",
@@ -206,8 +206,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-04/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "b0cbd6aac38a79a665fa94549c766bf06815dc6c4e36a7a7320cddbb9e9b4094"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-04/RUN_001/evaluate_scout.py",
+      "sha256": "9f1f9777c30ca22cbdf46ebe5d7135a691d5784e486f3620f86fa9353f7c31f3"
     },
     {
       "bundle_label": "BQGBH035 SOURCE RELATIVE ENTROPY PRODUCTION TO NEGATIVE PALATINI GRADIENT",
@@ -215,8 +215,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-05/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "925849075a0af1b9c432044c899449efa12773ac72ac8b662cb405ffeb62d5aa"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-05/RUN_001/CERTIFICATE.json",
+      "sha256": "43a35b602182810a9e58e34488318f3189dd927f44344c0d324a03a906b7cddb"
     },
     {
       "bundle_label": "BQGBH035 SOURCE RELATIVE ENTROPY PRODUCTION TO NEGATIVE PALATINI GRADIENT",
@@ -224,8 +224,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-05/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "4264f6587e7db6483d1acb0d2612fe80fef1237d9b82fb0d3a0a29560c8279c6"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-05/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "8c15fedfacb061b169a4caede35a893f8a4798fc528c52a694e9d580ae19e8cf"
     },
     {
       "bundle_label": "BQGBH035 SOURCE RELATIVE ENTROPY PRODUCTION TO NEGATIVE PALATINI GRADIENT",
@@ -233,8 +233,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-05/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "c3dfb1bad2fc5f4915d19ef3df9f0e26c00614b215a10d6604abcb1b4b0426e9"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-05/RUN_001/RAW_OUTPUT.json",
+      "sha256": "acd126d10632e0784c61ce81706faecab921fbd35b37836786ddb49d38acf5fb"
     },
     {
       "bundle_label": "BQGBH035 SOURCE RELATIVE ENTROPY PRODUCTION TO NEGATIVE PALATINI GRADIENT",
@@ -242,8 +242,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-05/DPA_SCOUT_001/RESULT.json",
-      "sha256": "c3dfb1bad2fc5f4915d19ef3df9f0e26c00614b215a10d6604abcb1b4b0426e9"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-05/RUN_001/RESULT.json",
+      "sha256": "acd126d10632e0784c61ce81706faecab921fbd35b37836786ddb49d38acf5fb"
     },
     {
       "bundle_label": "BQGBH035 SOURCE RELATIVE ENTROPY PRODUCTION TO NEGATIVE PALATINI GRADIENT",
@@ -251,8 +251,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-05/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "e6d6ab828b68beff731f102ce7d3507d6e0abcbde5a6d06cad254a277b8c667d"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-05/RUN_001/evaluate_scout.py",
+      "sha256": "e355b14fd4cdc5caab4c6ece3089b9fd9587791814ff2f5ce70ba456bb5736e3"
     },
     {
       "bundle_label": "BQGBH036 GLOBAL LOG BRANCH AND MAXIMAL EXTENSION FROM SELECTED STATIC SPHERICAL FINITE ACTION",
@@ -260,8 +260,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-06/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "03941fb763e9e5000c70afac1db3d25959bfe39c73cd17d7719ec4c59392d4d2"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-06/RUN_001/CERTIFICATE.json",
+      "sha256": "264292a559beefe3628b2e6d857749152d355c2c01a82680d07b74faf718e3fb"
     },
     {
       "bundle_label": "BQGBH036 GLOBAL LOG BRANCH AND MAXIMAL EXTENSION FROM SELECTED STATIC SPHERICAL FINITE ACTION",
@@ -269,8 +269,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-06/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "da97d8cade4fd275d42e98421081994c0ffef1722ec03f8a658650f738ca1d9e"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-06/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "df02282acb101aff384c43ed4df396c9b8e235f65019e48e49719e4f4a8370c2"
     },
     {
       "bundle_label": "BQGBH036 GLOBAL LOG BRANCH AND MAXIMAL EXTENSION FROM SELECTED STATIC SPHERICAL FINITE ACTION",
@@ -278,8 +278,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-06/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "cf69fc55855527635566472365332056b425650f07a55b8eb630b48c6e0d8d7b"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-06/RUN_001/RAW_OUTPUT.json",
+      "sha256": "a5bbb19668296d5a96c089e40ad2d2df0a82a24b8f04527c83e3e707d501a286"
     },
     {
       "bundle_label": "BQGBH036 GLOBAL LOG BRANCH AND MAXIMAL EXTENSION FROM SELECTED STATIC SPHERICAL FINITE ACTION",
@@ -287,8 +287,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-06/DPA_SCOUT_001/RESULT.json",
-      "sha256": "cf69fc55855527635566472365332056b425650f07a55b8eb630b48c6e0d8d7b"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-06/RUN_001/RESULT.json",
+      "sha256": "a5bbb19668296d5a96c089e40ad2d2df0a82a24b8f04527c83e3e707d501a286"
     },
     {
       "bundle_label": "BQGBH036 GLOBAL LOG BRANCH AND MAXIMAL EXTENSION FROM SELECTED STATIC SPHERICAL FINITE ACTION",
@@ -296,8 +296,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-43/bundle-06/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "00292c4a57c32c5977fe584e26f3910063fa9ed9bb44445e0c6cac45458b4558"
+      "path": "evidence/statements/artifacts/V100-THE-43/bundle-06/RUN_001/evaluate_scout.py",
+      "sha256": "92397d17d43c68e4c3133f2932890dde16cf4fff50aa4b0f9dbf81aea8084fe4"
     }
   ],
   "id": "V100-THE-43",
@@ -307,40 +307,40 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 13,
+      "file_count": 12,
       "kind": "vendored_calculation_package",
       "label": "BQGBH031 COMPLETE STATIC SPHERICAL SIX FACE EULER TO SCHWARZSCHILD AND BOUNCE",
-      "sha256_tree": "4d0cf61a8d4297b50e5eb8f68ea891af40c633399a234557699bee6e69380ae8"
+      "sha256_tree": "e24e9d5f18b1d894d9d83462750f9f02fe72383829d772d061ac2d9db0488aa6"
     },
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
       "label": "BQGBH032 SOURCE SCREEN RELATIVE PALATINI INTERACTION TO REGULAR BOUNCE STATIONARITY",
-      "sha256_tree": "3c5531ec25ebc86bd38a7e3c7c7482824fb6d71e5f2de6ff6d61fe1c5cf8798a"
+      "sha256_tree": "f2557a528d7f13139f632e5cb43023c35beb9f6788af8dbf4aeadb6143cce9b0"
     },
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
       "label": "BQGBH033 SOURCE SCREEN WALK CURRENT TO RELATIVE PALATINI EULER COVECTOR",
-      "sha256_tree": "a55cc032d70ef193d22f5df38a8aa4b3e7e37716794d7f871b34a72d824b10f1"
+      "sha256_tree": "d12bc4831d7bf91d55e822e764f211c43078e3bd8890ac99cfa6c278d4cc315f"
     },
     {
-      "file_count": 10,
+      "file_count": 9,
       "kind": "vendored_calculation_package",
       "label": "BQGBH034 PETZ RECOVERY ORIENTATION TO NEGATIVE SCREEN CURRENT COUPLING",
-      "sha256_tree": "95c2933f35292be3a98384ac9f1118cc3f2607e663d6380cc8d79d51a3e1efd6"
+      "sha256_tree": "db2c504d9249d33d4ed575682d0efa98f6d973f2a86b3d62b4eacb59e7dc8e99"
     },
     {
-      "file_count": 10,
+      "file_count": 9,
       "kind": "vendored_calculation_package",
       "label": "BQGBH035 SOURCE RELATIVE ENTROPY PRODUCTION TO NEGATIVE PALATINI GRADIENT",
-      "sha256_tree": "178a7a0af9810d23984658ca00e9cf6b01215bc5058184a42171e4d01dadc7d6"
+      "sha256_tree": "3cd2435211004edc389a19c018124a7775ca4af84cfb361116ba6685495266d4"
     },
     {
-      "file_count": 10,
+      "file_count": 9,
       "kind": "vendored_calculation_package",
       "label": "BQGBH036 GLOBAL LOG BRANCH AND MAXIMAL EXTENSION FROM SELECTED STATIC SPHERICAL FINITE ACTION",
-      "sha256_tree": "759bc2050ede4084f0784899c33256362f381dbd6174fab6596e7cfe682bbe59"
+      "sha256_tree": "d527ede5176e46263f26186b2eb997255d1e9364d293dfd989cc37d885db9919"
     }
   ],
   "status": "PUBLIC_CODE",

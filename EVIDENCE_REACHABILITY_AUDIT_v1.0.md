@@ -34,7 +34,7 @@ The package validation additionally reports:
 
 - 47 canonical vendored verifiers passed;
 - 4 public adapters passed for packages whose historical verifier depended on
-  the private SRA checkout or Git graph;
+  the private research checkout or Git graph;
 - 11 supporting dependency packages were present and hash-checked;
 - 1 historical failed implementation was retained and explicitly excluded from
   the canonical endpoint;
@@ -64,6 +64,9 @@ The release gate is implemented by:
 python scripts/verify_manifest.py
 python scripts/verify_source.py
 python scripts/verify_theorem_coverage_v1.py
+python scripts/verify_public_navigation.py
+python scripts/verify_public_cleanliness.py
+python scripts/verify_version_cleanliness.py
 python scripts/verify_evidence_integrity.py
 python scripts/verify_vendored_packages.py
 python -m unittest discover -s tests -v

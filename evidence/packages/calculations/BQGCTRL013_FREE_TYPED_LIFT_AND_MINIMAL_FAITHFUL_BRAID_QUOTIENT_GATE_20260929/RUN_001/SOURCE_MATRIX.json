@@ -1,0 +1,17 @@
+{
+  "evaluator_sha256": "fdd57d651e516c662369cfb93e4c45e24e24fa45759e77cc99275039b964c4bf",
+  "inputs": {
+    "BQGCTRL008_RESULT": "c00b07dcf1cd17682890d17c76935e7d231c3275437d08b8b75e8a7713120c88",
+    "BQGCTRL012_RAW": "9fd6afd82a9e8e532e20d152593e26b31446df2c936a2719aba5910107e470d0",
+    "BQGCTRL012_RESULT": "f0f509126c7aa4c790bcabe223f627fdaa129ee7d174124c6befc2362bab2065",
+    "UB473_CERTIFICATE": "34a32242db320f0903f19d4015960a55dca536455d7e99ca20301b37ba909467",
+    "UB473_RESULT": "fb29148fe4c5bd0e88bdbc9ee024e9d40fdd75c11ff24a37317cdb9d23d43d4c"
+  },
+  "outputs": {
+    "RAW_OUTPUT.json": "f78cdb4ff5a7e385d1041ccf26090f693003d88c7ed36bb7984ac72d5b7590d8",
+    "RESULT.json": "d9733835020502ed34aec88a0758723510ed3147d2ac90a627ac5a9166d4ac16"
+  },
+  "pinned_pre_run_commit": "5dceab5c5",
+  "schema": "siel.public-calculation.bqgctrl013.source-matrix.v1",
+  "validator_sha256": "eaae63d8a8cfd042c0d5a6b5e334e394c8236ddf2a0df7b131b7b6a81b598033"
+}

@@ -30,9 +30,8 @@ evidence classes:
 - a checked reduction to a named external theorem, with the model hypotheses
   stated explicitly.
 
-The former private-path dependency has been removed. Historical package names
-are retained only inside hash-bound machine manifests for provenance. They are
-not the reader-facing evidence endpoints.
+All reader-facing and machine-readable endpoints use publication-neutral
+identifiers and repository-relative paths.
 
 This is an evidence-reachability closure. It is not a claim that all 53 results
 have received independent third-party replication.
@@ -123,10 +122,10 @@ each group of claims.
 ## Provenance policy
 
 This package is self-contained for evidence navigation and canonical-source
-reconstruction. The vendored packages preserve their historical identifiers as
-provenance labels, but no reader must access a private path or mutable internal
-ledger to reach the evidence. File history documents development; it is not a
-premise of the mathematics.
+reconstruction. The vendored packages use publication-neutral identifiers. No
+reader must access a separate research checkout or mutable project ledger to
+reach the evidence. File history documents development; it is not a premise of
+the mathematics.
 
 ## Citation
 

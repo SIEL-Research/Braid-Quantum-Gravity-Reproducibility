@@ -1,0 +1,34 @@
+{
+  "inputs": [
+    {
+      "name": "bgce490_result",
+      "path": "records/BGCE490_SOURCE_STRUCTURED_LOW_NORMALIZATION_SPECTRAL_FACTOR_OR_DIRECT_QUOTIENT_QSP_GATE_20260925/RUN_001/RESULT.json",
+      "sha256": "ee7487b98ee8b0b1a91fe027975cb34e69f0bcc983daaef521fff3ba3576a3f0"
+    },
+    {
+      "name": "bgce491_result",
+      "path": "records/BGCE491_TYPED_HALMOS_CHEBYSHEV_WALK_TO_SOURCE_WORD_LOCAL_COMPILATION_GATE_20260925/RUN_001/RESULT.json",
+      "sha256": "7c193d1fad8215afccde051319c93ad6ff3d26384e3d47ff412741f2e53c05aa"
+    },
+    {
+      "name": "bgce493_raw",
+      "path": "records/BGCE493_END_TO_END_FINITE_ACTUATOR_RESOURCE_AND_ERROR_BUDGET_GATE_20260925/RUN_001/RAW_OUTPUT.json",
+      "sha256": "073345f3b1669704af85d428d6d05e4a0ebcc841f5e8411805d4dd244fe0a7fe"
+    },
+    {
+      "name": "bgce494_result",
+      "path": "records/BGCE494_MINIMAL_G1_SOURCE_WORD_LCU_NATIVE_COMPILER_GATE_20260925/RUN_001/RESULT.json",
+      "sha256": "301a35c9046eae29ba696ec2753b365145eeb23a5bab26704b4bce9ab7615f5b"
+    },
+    {
+      "name": "bgce494_raw",
+      "path": "records/BGCE494_MINIMAL_G1_SOURCE_WORD_LCU_NATIVE_COMPILER_GATE_20260925/RUN_001/RAW_OUTPUT.json",
+      "sha256": "7ad8fa523a0f124b03623f8e28061d9b81c6783cd4d1dde4f428f089b2055346"
+    }
+  ],
+  "no_coefficient_fit": true,
+  "no_manual_phase_tuning": true,
+  "no_randomness": true,
+  "schema": "siel.public-calculation.bgce495.input-manifest.v1",
+  "source_commit": "b1b3c7fc77082394c09bdd2546c52f8a963f14f9"
+}

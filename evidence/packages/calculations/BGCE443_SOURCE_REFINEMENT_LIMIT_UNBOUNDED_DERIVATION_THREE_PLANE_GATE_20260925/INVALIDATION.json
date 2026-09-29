@@ -1,0 +1,21 @@
+{
+  "schema": "siel.public-calculation.bgce443.r1.invalidation.v1",
+  "candidate_id": "BGCE443-R1",
+  "date": "2026-09-25",
+  "primary_incident_class": "IMPLEMENTATION_PROVENANCE_FAILURE",
+  "invalidated_commit": "dd3ac837c",
+  "stable_ledger_commit_containing_invalid_claim": "5ffe8d140",
+  "invalidated_result_path": "records/BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/RESULT.json",
+  "invalidated_result_sha256": "40378f06beabfd31ce1c984abc71e7c94baea9e70613008346ed2c7c6e499e7a",
+  "first_divergent_artifact_path": "records/BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/QUESTION.md",
+  "first_divergent_artifact_sha256": "cd0f939242902312b8c245e46e2153602496c0b087f9ab4ee65bd540211e1af3",
+  "missed_primary_specification_path": "public-records/PUBLIC_BGCE443_REFINEMENT_OUTER_SPACETIME_HYPOTHESIS_20260925_JA.md",
+  "missed_primary_specification_sha256": "ab81d9ab78eb49b1a78c0344787c014473844b7575c67905da2bce9cc0e5f3e0",
+  "cause": "The run did not retrieve the existing BGCE443 prospective specification before defining its endpoint. It substituted P_chi tail-pair implementers for the specified local seeds i[G1,P_chi_a], omitted BGCE386 null-tetrad sign transport, did not enumerate all marked positions, and omitted the identity-tail, shuffled-sign, matched non-Braid and single-direction controls.",
+  "scientific_validity_impact": "The stored R1 SCOPED PASS is invalid and non-scientific. It cannot update BQG-G3-R01.3, cannot support a spatial derivation three-plane, and cannot be cited as a Braid constraint result.",
+  "preservation": "The invalid run remains byte-preserved. This invalidation is append-only and does not rewrite RESULT.json.",
+  "containment": "Reset the completion ledger to BGCE442 as the latest valid constraint result and require a new BGCE443 Revision 2 packet using the pre-existing specification before any execution.",
+  "process_improvement_required": false,
+  "process_reason": "The existing public calculation source-order and provenance rules were sufficient; the failure was noncompliance in source retrieval, not a missing or ambiguous Research OS rule.",
+  "scientific_decision": "NONE"
+}

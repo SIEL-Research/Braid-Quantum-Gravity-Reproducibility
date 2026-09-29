@@ -4,7 +4,7 @@ This is the public English navigation layer for all 53 theorem-like statements
 in the v1.0 manuscript. Each link opens a self-contained English evidence page
 inside this public reproducibility repository. The reader-facing links do not
 terminate in the private research repository or in Japanese-only audit reports.
-Legacy package names are retained only in machine manifests to preserve provenance.
+All public endpoints use publication-neutral identifiers and repository-relative paths.
 
 Run `python3 scripts/verify_public_navigation.py` to verify all 53 English pages
 and `python3 scripts/verify_all.py` to execute the complete public verification suite.

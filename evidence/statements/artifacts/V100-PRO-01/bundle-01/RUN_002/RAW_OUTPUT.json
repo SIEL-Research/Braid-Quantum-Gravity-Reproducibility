@@ -1,0 +1,45 @@
+{
+  "schema": "siel.public-calculation.bgce499.scout.raw.v1",
+  "scout_id": "PUBLIC-RUN-BGCE499-002",
+  "parent_work_item": "BQG-G3-R03.6",
+  "source_commit": "ecfa6c97111d1cdf73626296452c82d853f69804",
+  "input_hash_checks": {
+    "records/BGCE235_FULL_CORNER_MATTER_ACTION_AND_OUTER_UNIT_COMPOSITION_GATE_20260921/RESULT.json": true,
+    "records/BGCE235_FULL_CORNER_MATTER_ACTION_AND_OUTER_UNIT_COMPOSITION_GATE_20260921/CERTIFICATE.json": true,
+    "records/BGCE371_SOURCE_CLOCK_RECORD_TO_ENDOGENOUS_METRIC_REGISTER_TRANSLATION_AND_ACTUATION_SCALE_GATE_20260924/RESULT.json": true,
+    "records/BGCE371_SOURCE_CLOCK_RECORD_TO_ENDOGENOUS_METRIC_REGISTER_TRANSLATION_AND_ACTUATION_SCALE_GATE_20260924/CERTIFICATE.json": true,
+    "records/BGCE372_DIRECT_FINITE_PARENT_RELATIVE_COUPLING_AND_THREE_FIFTHS_COMPATIBILITY_GATE_20260924/RESULT.json": true,
+    "records/BGCE372_DIRECT_FINITE_PARENT_RELATIVE_COUPLING_AND_THREE_FIFTHS_COMPATIBILITY_GATE_20260924/CERTIFICATE.json": true,
+    "records/BGCE373_FINITE_FISHER_PARENT_TO_CONTINUUM_FULL_CORNER_ACTION_NORMALIZATION_MAP_GATE_20260924/RESULT.json": true,
+    "records/BGCE373_FINITE_FISHER_PARENT_TO_CONTINUUM_FULL_CORNER_ACTION_NORMALIZATION_MAP_GATE_20260924/CERTIFICATE.json": true,
+    "records/BGCE300R1_A49_NONCIRCULAR_BACKREACTION_TO_LOW_ENERGY_SPIN2_EINSTEIN_GATE_20260923/RESULT.json": true,
+    "records/BGCE300R1_A49_NONCIRCULAR_BACKREACTION_TO_LOW_ENERGY_SPIN2_EINSTEIN_GATE_20260923/CERTIFICATE.json": true
+  },
+  "exact_rational_result": {
+    "outer_cup_weight": "3/5",
+    "conditional_matter_hessian_scale": "3/5",
+    "conditional_matter_score_scale": "3/5",
+    "internal_fisher_gain": "1",
+    "external_gravity_action_scale": "1",
+    "external_matter_action_scale": "3/5",
+    "external_relative_weight": "3/5"
+  },
+  "typed_matching_rule": {
+    "inner": "Gamma_m -> p Gamma_m implies (F,S)->(pF,pS) and delta_h=(pF)^-1(pS)=F^-1S",
+    "outer": "S_total=S_g+p S_m implies delta S_total=0 gives G=pT in the BGCE300R1 normalization",
+    "forbidden_misidentification": "p is not inserted only between the same-parent matter score and Fisher Hessian"
+  },
+  "noncompensating_gates": {
+    "G1_outer_cup_is_source_derived_three_fifths": true,
+    "G2_same_record_fisher_gain_is_one": true,
+    "G3_referents_are_distinct": true,
+    "G4_common_matter_scaling_cancels_inside_fisher_update": true,
+    "G5_outer_matter_weight_survives_relative_to_gravity": true,
+    "G6_no_asymmetric_score_hessian_map_used": true,
+    "G7_continuum_equation_uses_same_full_corner_lineage": true
+  },
+  "strongest_counter_reading": "This proves typed compatibility and the exact matching rule, not that BGCE371 is a discretization or integrator of BGCE300R1.",
+  "primary_evidence_status": "Theoretical derivation",
+  "decision": "CLOSED_SCOPED_TYPED_DISTINCT_REFERENTS_AND_EXACT_COMPOSITION_RULE",
+  "claim_ceiling": "The apparent coefficient discontinuity is removed only as a typed compatibility theorem in the pinned finite source and BGCE300R1 declared continuum class. No finite-to-continuum dynamical convergence, SI Newton constant, empirical gravity or completed quantum gravity is proved."
+}

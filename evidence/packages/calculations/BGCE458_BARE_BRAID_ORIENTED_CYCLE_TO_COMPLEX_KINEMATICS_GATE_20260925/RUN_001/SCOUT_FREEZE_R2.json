@@ -1,0 +1,18 @@
+{
+  "attempt": "0002",
+  "attempt_0001_failure_sha256": "95877b5f3b3dd15bacf3aa528176d8843e0f0a807e396efb866f4846de65b2f9",
+  "claim_ceiling": "Unchanged from SCOUT_FREEZE.json. A pass is limited to the finite source-oriented complex kinematic sector and cannot establish the Born rule or pointed-Braid specificity.",
+  "e0_status": "NOT_REQUIRED_FOR_BOUNDED_RUN_UNDER_SIEL_DEC_2026_067",
+  "execution_command": "python3 records/BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925/RUN_001/evaluate_scout_r2.py",
+  "frozen_at": "2026-09-25T14:53:14+09:00",
+  "frozen_scientific_evaluator_sha256": "db77424bd81f98dd47774294f231e1b76f1b84a3f87b8f1f5e2f448f51b99645",
+  "gate_id": "BGCE458",
+  "outcome_accessed_before_freeze": false,
+  "parent_freeze": "SCOUT_FREEZE.json",
+  "path_only_wrapper_sha256": "f0fd8c1ab8c3b91e327c28b9dfed2264e67c40657eeb280dadb723581707f73c",
+  "permitted_change": "Correct HERE.parents[3] to the worktree root HERE.parents[2] through a wrapper; no scientific code, source row, endpoint, comparator, threshold, or claim change.",
+  "schema": "siel.public-calculation.scout.freeze.v1",
+  "scout_id": "PUBLIC-RUN-BGCE458-001",
+  "source_commit": "abd5261df92d1639c4a16d6e2309b542d176fe14",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-abd5261df92d"
+}

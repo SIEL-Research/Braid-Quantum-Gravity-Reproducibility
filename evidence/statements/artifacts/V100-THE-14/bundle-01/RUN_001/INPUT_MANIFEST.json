@@ -1,0 +1,20 @@
+{
+  "expected_direction_count": 24,
+  "expected_sector_masks": [
+    0,
+    5,
+    8,
+    13,
+    16,
+    21,
+    24,
+    29
+  ],
+  "input": {
+    "path": "records/BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_7/ACTUAL_SOURCE_SNAPSHOT.json",
+    "sha256": "b031dc443b828a1e3a17fef7f46f3a2b7614a59ca56b323a5bf3d51ebbc6253f"
+  },
+  "output_overwrite_allowed": false,
+  "schema": "siel.public-calculation.scout.bgce443.input-manifest.v1",
+  "scout_id": "PUBLIC-RUN-BGCE443-001"
+}

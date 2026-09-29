@@ -1,0 +1,8 @@
+{
+  "scout_id": "PUBLIC-RUN-BQGCAL-043-X1",
+  "fixed_collision_metric_derivative": "0",
+  "continuum_T00_witness": "1/2",
+  "variations_match": false,
+  "one_anchor_theorem_retained": true,
+  "verification_command": "python3 verify.py"
+}

@@ -9,7 +9,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-12/bundle-01/RESULT.json",
-      "sha256": "c1ddd9d8451cfe68dae8a134706fbf589375fe3e35da665a8e4cbb70f3519875"
+      "sha256": "9147e820e85e8f5810a5134846718f017ead658b5e2cd22e9f529fb0903d750d"
     },
     {
       "bundle_label": "BGCE336R2 REFINED COLLISION CTP TO CONTINUUM LORENTZIAN INFLUENCE AND NONCIRCULAR FINITE BACKREACTION",
@@ -18,7 +18,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-12/bundle-01/evaluate.py",
-      "sha256": "f2dc55705916700fe515f12b4fd34679e27ea8c58403c3c3d1a941f36bd59a7b"
+      "sha256": "96512f31e35550d6e9ed2fb60ed10aa7f3de6af9ab80d3cf029bc2c7c22b995d"
     }
   ],
   "id": "V100-THE-12",
@@ -28,10 +28,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 4,
+      "file_count": 3,
       "kind": "vendored_calculation_package",
       "label": "BGCE336R2 REFINED COLLISION CTP TO CONTINUUM LORENTZIAN INFLUENCE AND NONCIRCULAR FINITE BACKREACTION",
-      "sha256_tree": "4e68a3740a1be3cc1ad21788595fba32513816e88b5d605613fb1ff526a7c03c"
+      "sha256_tree": "42ba2ce274f5635eeec4c3d0b58ece4e2125b424f09ffdddd7b6eaa47aa621c9"
     }
   ],
   "status": "PUBLIC_CODE",

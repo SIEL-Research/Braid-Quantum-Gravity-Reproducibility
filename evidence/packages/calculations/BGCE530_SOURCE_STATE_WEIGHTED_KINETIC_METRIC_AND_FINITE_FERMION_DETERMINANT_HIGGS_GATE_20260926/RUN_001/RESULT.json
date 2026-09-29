@@ -1,0 +1,140 @@
+{
+  "BGCE528_boundary_correction": {
+    "corrected": "the actual BGCE430/BGCE439 Morita typing does select the physical up/down/lepton three-block cycles; it was too strong to say no source-selected 3-of-4 map exists",
+    "retained": "canonical Hilbert--Schmidt normalization equalizes all closed rectangular block cycles"
+  },
+  "KMS_normalized_strength_squared": {
+    "down": "2050312500/979",
+    "lepton": "12301875000/6853",
+    "up": "182250000/77"
+  },
+  "claim_ceiling": [
+    "no observed Yukawa values or absolute fermion masses",
+    "no CKM or PMNS mixing",
+    "no unconditional Braid-only Higgs vacuum until the odd Gaussian action is derived",
+    "no empirical Standard Model or completed quantum-gravity claim"
+  ],
+  "claim_scope": "finite source-central KMS metric; finite Gaussian odd-action derived extension",
+  "cycle_weight_products": {
+    "down": "979/2050312500",
+    "lepton": "6853/12301875000",
+    "up": "77/182250000"
+  },
+  "decision": "SCOPED_PASS_SOURCE_CENTRAL_KMS_METRIC_GIVES_THREE_TYPED_YUKAWA_STRENGTHS__CONDITIONAL_PASS_FINITE_ODD_GAUSSIAN_DETERMINANT_GIVES_UNIQUE_NONZERO_HIGGS_RADIUS__UNCONDITIONAL_SOURCE_SELECTION_OF_THE_ODD_GAUSSIAN_ACTION_REMAINS_OPEN",
+  "evidence_status": "Theoretical derivation",
+  "finite_odd_determinant": {
+    "Vprime_at_zero_strictly_negative": true,
+    "Vprime_tends_to_positive_infinity": true,
+    "Vsecond_strictly_positive_for_x_nonnegative": true,
+    "assumption_status": "EXPLICIT_BOLD_DERIVED_EXTENSION_NOT_YET_SOURCE_SELECTED",
+    "mode_count_with_color_multiplicity": 21,
+    "modes": [
+      {
+        "a_exact": "72900000000/77",
+        "generation_eigenvalue": 20,
+        "multiplicity": 3,
+        "species": "up"
+      },
+      {
+        "a_exact": "46656000000/77",
+        "generation_eigenvalue": 16,
+        "multiplicity": 3,
+        "species": "up"
+      },
+      {
+        "a_exact": "11664000000/77",
+        "generation_eigenvalue": 8,
+        "multiplicity": 3,
+        "species": "up"
+      },
+      {
+        "a_exact": "820125000000/979",
+        "generation_eigenvalue": 20,
+        "multiplicity": 3,
+        "species": "down"
+      },
+      {
+        "a_exact": "524880000000/979",
+        "generation_eigenvalue": 16,
+        "multiplicity": 3,
+        "species": "down"
+      },
+      {
+        "a_exact": "131220000000/979",
+        "generation_eigenvalue": 8,
+        "multiplicity": 3,
+        "species": "down"
+      },
+      {
+        "a_exact": "4920750000000/6853",
+        "generation_eigenvalue": 20,
+        "multiplicity": 1,
+        "species": "lepton"
+      },
+      {
+        "a_exact": "3149280000000/6853",
+        "generation_eigenvalue": 16,
+        "multiplicity": 1,
+        "species": "lepton"
+      },
+      {
+        "a_exact": "787320000000/6853",
+        "generation_eigenvalue": 8,
+        "multiplicity": 1,
+        "species": "lepton"
+      }
+    ],
+    "potential": "V_eff(x)=24*x^2-sum_j d_j*log(1+a_j*x)",
+    "potential_bounded_below": true,
+    "radial_variable": "x=|H|^2",
+    "unique_global_minimum_at_x_strictly_positive": true
+  },
+  "metric_real_structure": {
+    "Higgs_route_rescaling_alpha_fourth": "356/315",
+    "fixed_real_dimension_retained": 4,
+    "half_density_KMS_star_compatible": true,
+    "independent_complex_weak_doublets_retained": 1,
+    "rescaling_convention": "H_u=alpha*J(H_d)"
+  },
+  "next_gate": "BGCE532_SOURCE_FINITE_ODD_GAUSSIAN_ACTION_FROM_CTP_COLLISION_PARENT_GATE",
+  "relative_strength_squared_to_up": {
+    "down": "315/356",
+    "lepton": "135/178",
+    "up": "1"
+  },
+  "schema": "siel.public-calculation.bgce530.result.v1",
+  "scout_id": "PUBLIC-RUN-BGCE530-001",
+  "source_central_weights": {
+    "C": "1/150",
+    "D": "89/10125",
+    "N": "11/1350",
+    "U": "7/900",
+    "W": "11/1350"
+  },
+  "source_checks": {
+    "BGCE528_HS_equalization_retained": true,
+    "eight_sector_block_data_equal": true,
+    "faithful_positive_omega": true,
+    "matter_odd_scalar_even": true,
+    "pinned_inputs_verified": true,
+    "typed_cycles_present": true
+  },
+  "source_commit": "b4aa9f5fa215a0d2c8b048471e53bdec05e240bf",
+  "typed_cycles": {
+    "down": [
+      "C",
+      "W",
+      "D"
+    ],
+    "lepton": [
+      "W",
+      "U",
+      "D"
+    ],
+    "up": [
+      "C",
+      "W",
+      "U"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema": "siel.public-calculation.bgce491.result.v1",
+  "scout_id": "PUBLIC-RUN-BGCE491-001",
+  "gate_id": "BGCE491",
+  "work_package": "BQG-G0-R01.2",
+  "status": "CLOSED_SCOPED",
+  "primary_evidence_status": "Theoretical derivation",
+  "source_commit": "2c0d7d75cea3a714a4edc8d428e8fad5230faa81",
+  "decision": "Hermitianizing each existing BGCE483-484 source-word LCU unitary with one BGCE487 encoded signal qubit, then multiplying by the reflection about its success subspace, generates the exact Chebyshev walk required by BGCE490. No square-root-defect or spectral-READ_H primitive is needed.",
+  "construction": "For success block A=A^dagger of U_A, define U_tilde=[[0,U_A],[U_A^dagger,0]], E=|+> tensor |PREP-success>, S=2EE^dagger-I and W=S U_tilde. Then E^dagger W^k E=T_k(A).",
+  "exact_results": {
+    "signed_sectors_checked": 8,
+    "control_families_checked": ["G1", "H1", "H2", "H3"],
+    "cases_checked": 32,
+    "maximum_degree_checked": 31,
+    "source_dilation_phases_checked": ["0", "+2pi/3", "-2pi/3"],
+    "maximum_unitary_residual": 3.1559974192548023e-16,
+    "maximum_hermitian_residual": 0.0,
+    "maximum_involution_residual": 4.463254353124628e-16,
+    "maximum_signal_block_residual": 1.1102230246251565e-16,
+    "maximum_chebyshev_residual": 1.1324410907102486e-14,
+    "BGCE490_total_H_query_range_preserved": [203, 39102],
+    "square_root_defect_required": false,
+    "spectral_READ_H_required": false,
+    "coefficient_fit": false,
+    "manual_phase_tuning": false
+  },
+  "source_local_operations": "BGCE484 source-counted PREP and typed source-word SELECT, source dagger/reversal, BGCE487 signal-qubit X/phase control, and a typed success-address reflection.",
+  "programme_effect": {
+    "BQG-G0-R01.2": "UNCHANGED_CLOSED_SCOPED_SOURCE_WORD_LOCAL_WALK_STRENGTHENED",
+    "typed_Halmos_square_root_defect": "ELIMINATED",
+    "source_word_LCU_Chebyshev_walk": "CLOSED_SCOPED",
+    "typed_success_address_mark": "OPEN_MINIMALITY_AUDIT"
+  },
+  "next_gate": "BGCE492_TYPED_SUCCESS_ADDRESS_MARK_MINIMALITY_AND_BARE_BRAID_OBSTRUCTION_GATE",
+  "claim_ceiling": "The exact low-normalization walk is compiled from the existing typed finite-list source-word controller, dagger and one typed success-address mark. The enlarged coherent controller and address mark are not derived from bare adjacent-Braid relations alone. Hardware errors, seconds calibration, continuum/QFT completion and empirical confirmation remain open."
+}

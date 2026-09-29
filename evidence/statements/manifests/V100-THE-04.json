@@ -9,7 +9,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
       "path": "evidence/statements/artifacts/V100-THE-04/bundle-01/CERTIFICATE.json",
-      "sha256": "653ba70772b36bdf254dc4d9e0a7700e23b06a50b974687acd38a4c8f6069c85"
+      "sha256": "18649868d97450da6fe1c5be26b6edf972b8536913c131cbe31f408f70c69f39"
     },
     {
       "bundle_label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
@@ -18,7 +18,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
       "path": "evidence/statements/artifacts/V100-THE-04/bundle-01/RAW_OUTPUT.json",
-      "sha256": "83472823219c56909fcd0ae68f7a5fd9b07f4c1ee66928838bd3696e29dbe0d3"
+      "sha256": "692a1fc2edee9e64d9e977b99675be79e7fe5f4c64555ea95b4c21eecf23d87c"
     },
     {
       "bundle_label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
@@ -27,7 +27,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
       "path": "evidence/statements/artifacts/V100-THE-04/bundle-01/RESULT.json",
-      "sha256": "522fd5a22470cb741fbf2911b52140028178f8686a16a371921fee00ce5f11a2"
+      "sha256": "6419a4fc0d8f43f8942abd6328eb2852fe3765cb1797b4d313cc936fdedc2395"
     },
     {
       "bundle_label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
@@ -36,7 +36,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "SOURCE_MATRIX.json",
       "path": "evidence/statements/artifacts/V100-THE-04/bundle-01/SOURCE_MATRIX.json",
-      "sha256": "4d483d356e1b8f5c9261e2db05977c2b0fb8fb0f98419167997b98a206c0fe5f"
+      "sha256": "bd7f844ba1fe13879c045bc8b8c1476fe9e06f63a7e3632a75d92f40de5ecf85"
     },
     {
       "bundle_label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
@@ -45,7 +45,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-04/bundle-01/evaluate.py",
-      "sha256": "6f6885b688689732aece9c9cb92bca7743a6200dd8fa4927a9ad9697d99ccb53"
+      "sha256": "0e8a607b415d2029634440e6dbc456b8b035d0116bb54165915ca40f3827fbde"
     },
     {
       "bundle_label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
@@ -64,10 +64,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 10,
+      "file_count": 8,
       "kind": "vendored_calculation_package",
       "label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
-      "sha256_tree": "5a9d1b0df76c7b046565f559753d130ce4337a37f575969ed3768e9da12be76e"
+      "sha256_tree": "5ffe35449a7b03a3855ec36f93811cd26ff94d9807f337488e8e929bac9ef1be"
     }
   ],
   "status": "PUBLIC_CODE",

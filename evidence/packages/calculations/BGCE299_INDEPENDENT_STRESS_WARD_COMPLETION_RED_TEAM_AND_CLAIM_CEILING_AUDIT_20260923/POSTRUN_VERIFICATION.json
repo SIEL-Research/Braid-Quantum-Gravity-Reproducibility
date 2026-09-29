@@ -1,0 +1,10 @@
+{
+  "candidate_id": "BGCE299",
+  "raw_output_sha256": "91088a585d877c85d1cff6036c5fa8bbb811245bdaab0e570eb0d041baa1988a",
+  "result_sha256": "4ebdb7312c2feaa677681552d33aca9401e5459e8c3fa153bf0b755c0c5106e7",
+  "schema": "siel.public-calculation.bgce299.postrun.v1",
+  "scientific_decision": "FINAL_SCOPED_PASS",
+  "status": "PASS",
+  "verification_command": "python3 -B records/BGCE299_INDEPENDENT_STRESS_WARD_COMPLETION_RED_TEAM_AND_CLAIM_CEILING_AUDIT_20260923/verify.py",
+  "verification_output": "PASS_BGCE299_FINAL_SCOPED_STRESS_WARD_VERIFICATION"
+}

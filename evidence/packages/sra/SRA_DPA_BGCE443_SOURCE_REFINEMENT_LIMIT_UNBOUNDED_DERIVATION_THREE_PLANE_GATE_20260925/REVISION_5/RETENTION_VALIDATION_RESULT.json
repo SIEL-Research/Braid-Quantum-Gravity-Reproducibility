@@ -1,9 +1,0 @@
-{
-  "decision_reconstructed": true,
-  "differing_raw_action_rows": 16,
-  "schema": "siel.dpa.bgce443.r5.retention-validation-result.v1",
-  "signed_raw_action_sha256": "ba2dde808c51b5332b1eceb573cb6d6459ff53c8bc4409f71dc209a02d22a181",
-  "status": "PASS",
-  "typed_row_count": 70,
-  "unsigned_raw_action_sha256": "eac5ef64a0ace26f218a38e29d32ff28241ac7060090da2734acb679c8bdee90"
-}

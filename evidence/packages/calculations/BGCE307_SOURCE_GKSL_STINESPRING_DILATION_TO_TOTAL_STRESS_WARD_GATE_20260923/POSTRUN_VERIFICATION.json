@@ -1,0 +1,13 @@
+{
+  "candidate_id": "BGCE307",
+  "checks": {
+    "G1_defect_all_eight_exact": "PASS",
+    "Stinespring_normalization_all_eight": "PASS",
+    "claim_ceiling_fail_closed": "PASS",
+    "finite_autonomous_no_go_separated": "PASS",
+    "six_group_weights_exact": "PASS"
+  },
+  "result_sha256": "60d7ac57a288bcfaf19e43eace08e36e6a4a2aa81e7c2a71bc2660f4c1f245c5",
+  "schema": "siel.public-calculation.bgce307.postrun-verification.v1",
+  "status": "PASS"
+}

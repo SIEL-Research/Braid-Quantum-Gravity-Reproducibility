@@ -1,0 +1,10 @@
+{
+  "audit_sha256": "2b3162feb9a6e86aa9be6f44e69f3c0334d80751fc508106118a7d14a960636b",
+  "candidate_id": "BGCE309R1",
+  "formal_E0_E1_E2": "NOT_CLAIMED__PUBLIC_THEORETICAL_GATE_ONLY",
+  "postrun_verification_sha256": "f6b450034ddccaf57a79d02736a226d310efe3f873f6185bc30c97c8aaae5332",
+  "result_sha256": "de7f582ac572391cb075ff9fa91f14a7220f068324c8c761ef9b0eddb0e97e6a",
+  "runtime_class": "SUBSECOND_EXACT_MARKED_BLOCK_AND_GAUGE_EQUIVALENCE_AUDIT_NO_SCAN",
+  "schema": "siel.public-calculation.bgce309r1.certificate.v1",
+  "verification": "PASS"
+}

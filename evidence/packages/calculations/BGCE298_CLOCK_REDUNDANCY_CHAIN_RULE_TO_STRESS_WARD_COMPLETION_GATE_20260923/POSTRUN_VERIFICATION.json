@@ -1,0 +1,10 @@
+{
+  "candidate_id": "BGCE298",
+  "raw_output_sha256": "a8fd1fa958df70b09a5075715a366a89e03f39a88dc7d62351d47e0fb050e098",
+  "result_sha256": "e546429a987040bf5d8e6e142d580ca82dc14316267fc285806bf125ae9d6f29",
+  "schema": "siel.public-calculation.bgce298.postrun.v1",
+  "scientific_decision": "FULL_PASS_IN_DECLARED_CLASS_AWAITING_BGCE299_INDEPENDENT_RED_TEAM",
+  "status": "PASS",
+  "verification_command": "python3 -B records/BGCE298_CLOCK_REDUNDANCY_CHAIN_RULE_TO_STRESS_WARD_COMPLETION_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE298_STRESS_WARD_SCOPED_COMPLETION_VERIFICATION"
+}

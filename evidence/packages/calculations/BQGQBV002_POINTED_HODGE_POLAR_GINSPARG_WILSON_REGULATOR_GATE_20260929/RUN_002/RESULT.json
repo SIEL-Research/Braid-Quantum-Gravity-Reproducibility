@@ -1,0 +1,27 @@
+{
+  "schema": "siel.public-calculation.scout.bqgqbv002.result.v1",
+  "scout_id": "PUBLIC-RUN-BQGQBV-002",
+  "date": "2026-09-29",
+  "primary_evidence_status": "Theoretical derivation",
+  "decision": "CLOSED_SCOPED_POINTED_HODGE_POLAR_GINSPARG_WILSON_REGULATOR_ON_FLAT_AND_GAP_ADMISSIBLE_LOCAL_REGULAR_SOURCE_BRANCHES__FULL_QME_OPEN",
+  "construction": "The actual four-dimensional source-cylinder Hodge-Dirac B_n=d_n+d_n^dagger has one positive-chiral harmonic algebra-unit line. Unital pointing fixes the polar sign to +1 on that line. With S_n the completed polar sign, V_n=Gamma_n S_n and D_GW,n=I-V_n, the regulator is unitary/gamma5-Hermitian, satisfies the exact Ginsparg-Wilson relation and has index one.",
+  "uniform_gap": "At n=5^m subdivisions, h^-1-rescaling gives nonzero gap 2n sin(pi/(2(n+1))) >= 2n/(n+1) >= 1. The construction therefore extends to every gauge/metric-twisted local regular branch whose covariant Hodge-Dirac perturbation stays below the gap; the index is stable until gap closure.",
+  "gauge_typing": "The Hodge factor tensors with the independently derived BGCE439 chiral coefficient module. Because address incidence and internal action commute, the flat regulator is compact-equivariant. For local gauge fields, covariant edge holonomies conjugate B_n and hence its polar functional calculus; full arbitrary-field admissibility and locality are not proved.",
+  "next_gate": "BQGQBV-003 must construct the source-induced BV half-density, calculate the regulated BV divergence/modular anomaly, and prove the finite QME plus associative refinement pushforward. The anomaly-zero certificate is necessary but not itself a measure construction.",
+  "claim_ceiling": "Exact source-derived finite Ginsparg-Wilson regulator on the flat and gap-admissible local regular source-cylinder branches, with index one and an all-five-adic uniform free gap. No arbitrary strong gauge/metric background, full locality theorem, quantum master equation, renormalized continuum measure, empirical validation or completed quantum gravity.",
+  "checks": {
+    "one_cube_dimensions_41_40": true,
+    "Dplus_rank_40": true,
+    "full_Hodge_Dirac_rank_80": true,
+    "unique_harmonic_line": true,
+    "harmonic_line_is_even": true,
+    "degree_parity_anticommutation": true,
+    "pointed_polar_phase_unitary": true,
+    "gamma5_hermiticity": true,
+    "exact_GW_relation": true,
+    "GW_index_one": true,
+    "all_stage_uniform_gap_bound": true,
+    "compact_coefficient_tensor_equivariant": true
+  },
+  "formal_E0_E1_E2": "NOT_CLAIMED__PUBLIC_THEORETICAL_DERIVATION_ONLY"
+}

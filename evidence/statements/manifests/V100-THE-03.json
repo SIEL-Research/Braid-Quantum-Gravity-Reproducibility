@@ -23,7 +23,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
       "path": "evidence/statements/artifacts/V100-THE-03/bundle-03/CERTIFICATE.json",
-      "sha256": "654c8f7cdea1f260753f1679107a2e5bdb0e170ccb7f9251f7367a93d91c88f8"
+      "sha256": "3a7e0fddc964979587ef968ace55570656f9c61b04744d2e0fc667e1a9ef9f43"
     },
     {
       "bundle_label": "BGCE238 FIXED SOURCE PACKET COHERENCE SELECTION",
@@ -32,7 +32,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
       "path": "evidence/statements/artifacts/V100-THE-03/bundle-03/RAW_OUTPUT.json",
-      "sha256": "38788d36920fe03af6ab66507aba366ffbbbadba590f9f5b1910b29afb46fdbf"
+      "sha256": "581c7dc893e007747835b4efabb2197444b7cc33c84f4a62fd259e72f914ae8b"
     },
     {
       "bundle_label": "BGCE238 FIXED SOURCE PACKET COHERENCE SELECTION",
@@ -50,7 +50,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "SOURCE_MATRIX.json",
       "path": "evidence/statements/artifacts/V100-THE-03/bundle-03/SOURCE_MATRIX.json",
-      "sha256": "1e2ae0f2144ceb98b4baf1c7eff6cd255e7fb9c940b3fadbad7dd95f5decb21e"
+      "sha256": "b56931544b1f00e7bf7f179d6fdb07a4597d79321a9a55263f92f5e9ebd5e4d3"
     },
     {
       "bundle_label": "BGCE238 FIXED SOURCE PACKET COHERENCE SELECTION",
@@ -59,7 +59,7 @@
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate.py",
       "path": "evidence/statements/artifacts/V100-THE-03/bundle-03/evaluate.py",
-      "sha256": "8cb452254bd4a724a57603fe053597ec1e6a3eeaddb8d45339bafb7989bbc576"
+      "sha256": "321598fb0750907488a8a72bf959ce3161c457bbae5584392aae8f0f19f9d70e"
     },
     {
       "bundle_label": "BGCE238 FIXED SOURCE PACKET COHERENCE SELECTION",
@@ -78,10 +78,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 9,
+      "file_count": 7,
       "kind": "vendored_calculation_package",
       "label": "BGCE238 FIXED SOURCE PACKET COHERENCE SELECTION",
-      "sha256_tree": "5bb24a2f92dbee3fda7c21e029c31114024e88fd2a589fe8e343ee52d47e8c49"
+      "sha256_tree": "c2dc6b5f2b057c5daa9cfbbae0d001be39fa3b91a7f7a9d16b11eec96997ce73"
     }
   ],
   "status": "PUBLIC_CODE",

@@ -1,0 +1,9 @@
+{
+  "schema": "siel.public-calculation.scout.status.v1",
+  "scout_id": "PUBLIC-RUN-BQGEULER-010",
+  "status": "COMPLETE",
+  "scientific_decision": "CLOSED_SCOPED_LOCAL_REGULAR_LONG_WAVELENGTH_NORMALIZED_TEN_COMPONENT_METRIC_EULER_STRONG_CONVERGENCE",
+  "primary_evidence_status": "Theoretical derivation",
+  "experiment_executed": false,
+  "confirmatory_status": "NOT_CLAIMED"
+}

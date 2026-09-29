@@ -1,0 +1,9 @@
+{
+  "schema": "siel.public-calculation.execution_log.v1",
+  "scout_id": "PUBLIC-RUN-BGCE490-001",
+  "command": "PYTHONPATH=<temporary-directory>/bgce490-python python3 records/BGCE490_SOURCE_STRUCTURED_LOW_NORMALIZATION_SPECTRAL_FACTOR_OR_DIRECT_QUOTIENT_QSP_GATE_20260925/RUN_001/evaluate_scout.py",
+  "dependency_install": "python3 -m pip install --target <temporary-directory>/bgce490-python mpmath==1.3.0",
+  "exit_code": 0,
+  "cases_checked": 32,
+  "decision": "CLOSED_SCOPED_SOURCE_STRUCTURED_CHEBYSHEV_LCU_RENORMALIZATION_AND_EXACT_PHASE_MATCHED_ACTUATOR"
+}

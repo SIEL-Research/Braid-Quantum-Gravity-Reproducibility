@@ -1,9 +1,0 @@
-{
-  "schema": "siel.dpa.bqgadm015.status.v1",
-  "scout_id": "DPA-SCOUT-BQGADM-015",
-  "status": "COMPLETE",
-  "decision": "CLOSED_SCOPED_ALL_124_NONZERO_SOURCE_MOMENTA_AND_LOCAL_REGULAR_NONLINEAR_MOVING_PROJECTOR__OPEN_ZERO_MODE_RANK_LOSS_GLOBAL_STRONG_CURVATURE",
-  "primary_evidence_status": "Theoretical derivation",
-  "attempts": 1,
-  "work_packages": ["BQG-G3-R01.5", "BQG-G3-R02.5"]
-}

@@ -1,9 +1,0 @@
-{
-  "schema": "siel.dpa.bqgstrat009bare.failed_implementation.v1",
-  "attempt": 1,
-  "status": "FAILED_IMPLEMENTATION_NO_SCIENTIFIC_DECISION",
-  "defect": "The deterministic coframe rows differed only by an affine row offset and were rank deficient. This made the mixed-curvature intercept accidentally zero, so the witness did not exercise both exact temporal classes.",
-  "observed_scaled_action_values": ["0", "-1824/175", "-3648/175", "-5472/175"],
-  "preserved_decision_rule": true,
-  "repair_scope": "Replace only the fixed witness coframe by a full-rank integer matrix."
-}

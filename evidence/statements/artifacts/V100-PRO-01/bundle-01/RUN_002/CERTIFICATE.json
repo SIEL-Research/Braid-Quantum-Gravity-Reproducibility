@@ -1,0 +1,16 @@
+{
+  "files_sha256": {
+    "RAW_OUTPUT.json": "8b859a651b76c7ad15790cc72dcc6400cfbb138450e94ae432e1b8f557b7188b",
+    "RESULT.json": "1e40d791cee655d38ff60c6d7d6d4b51ada70e3ec1df836c4cc1d26903343856",
+    "SCOUT_PLAN.md": "af573890bf8e4b8323284c67cb162280ab1c35bb5e6fc85f32baa1d4392140b8",
+    "evaluate_scout.py": "503ee82af13f358eb752a6fc55c3f07465c404dd228d3de34a098e4b93117e76",
+    "verify.py": "62e55d119f809af7bb9d7d47f1df47d9d65e635b3f2883d73923662a1f49ce70"
+  },
+  "formal_E0_E1_E2": "NOT_CLAIMED__PUBLIC_EXACT_THEORETICAL_DERIVATION",
+  "primary_evidence_status": "Theoretical derivation",
+  "schema": "siel.public-calculation.bgce499.scout.certificate.v1",
+  "scout_id": "PUBLIC-RUN-BGCE499-002",
+  "source_commit": "ecfa6c97111d1cdf73626296452c82d853f69804",
+  "verification_command": "python3 -B records/BGCE499_FISHER_GAIN_AND_OUTER_CUP_TYPED_RECONCILIATION_GATE_20260925/RUN_002/verify.py",
+  "verification_stdout": "PASS_VERIFY_RUN_BGCE499_002"
+}

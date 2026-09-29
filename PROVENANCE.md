@@ -24,11 +24,16 @@ separate file and compared only after reconstruction.
 
 ## Vendored theorem evidence
 
-The directories under `evidence/packages/sra/` are immutable exports of the
-calculation and audit packets from which the v1.0 theorem statements were
-drawn. Their original identifiers are retained solely to make provenance
-traceable. The v1.0 evidence ledger points to the exported content directly,
-so access to the source research repository is not required.
+The directories under `evidence/packages/calculations/` are publication-normalized
+exports of the calculation packets from which the v1.0 theorem statements were
+drawn. Scientific inputs, executable checks, raw outputs, results and claim
+ceilings are retained. Repository-local paths, workflow labels and schemas are
+normalized to public identifiers; English public verification notes accompany
+the machine artifacts where a narrative endpoint is required. Regenerated
+certificates and the integrity manifest bind the resulting public files.
+
+The v1.0 evidence ledger points to this exported content, so no separate
+research checkout or mutable project ledger is required.
 
 For each referenced local evidence path, `evidence/evidence_integrity_v1.json`
 records either a file SHA-256 or a deterministic directory-tree SHA-256.

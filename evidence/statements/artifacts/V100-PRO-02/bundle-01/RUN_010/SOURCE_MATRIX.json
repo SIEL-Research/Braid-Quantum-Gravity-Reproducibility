@@ -1,0 +1,30 @@
+{
+  "schema": "siel.public-calculation.bqgstrat010.source-matrix.v1",
+  "source_revision": "77d919f8f1148161eae9abcda782bc3ae7ef79f8",
+  "sources": [
+    {
+      "path": "records/BQGSTRAT009_SOURCE_AFFINE_PLAQUETTE_SECOND_JET_AND_CHILD_SPLIT_GATE_20260929/RUN_009/RESULT.json",
+      "sha256": "0806c82a52a34c7b24e849ba7a63fd9bab58a60603d75e5edc9f85a19f476dac"
+    },
+    {
+      "path": "records/BQGSTRAT009_SOURCE_AFFINE_PLAQUETTE_SECOND_JET_AND_CHILD_SPLIT_GATE_20260929/RUN_009/THEOREM.md",
+      "sha256": "09ad5a43e0c2aa3ec5201d5aabef393f99b8d37b88a6db00bdd3ca908c07d7a0"
+    },
+    {
+      "path": "records/BGCE094_TEMPORAL_CARTAN_PAIR_CONDITIONAL_FINITE_ACTION_PACKET_20260919/RESULT.json",
+      "sha256": "71f855f2ef7df8e58f9d8f6939ec30f943b6cb010e05d8601288b44f1f54e712"
+    },
+    {
+      "path": "records/BGCE137_DISCRETE_S4_CHART_TRANSITION_VERSUS_NEAR_IDENTITY_CARTAN_CONNECTION_FACTORING_GATE_20260919/RESULT.json",
+      "sha256": "29975a607b599982fca4a52ec7f128bc7314586ed01ea43a4fe2f3bf27adc440"
+    },
+    {
+      "path": "records/BGCE138_SOURCE_CYLINDER_DIAGONAL_LOCALIZATION_AND_MINIMAL_SMOOTH_CARTAN_COMPLETION_GATE_20260919/RESULT.json",
+      "sha256": "3d33466db2a8cbf79fa92bcb113bfab5c0f66a334809e4dfcd9d8e2c99828c12"
+    },
+    {
+      "path": "records/BQGADM015_MOVING_PROJECTOR_ALL_SOURCE_MOMENTA_20260929/RUN_015/RESULT.json",
+      "sha256": "d3e37cb2779a0c44dfa00b23da55cab1630065df6c4cf992b96d43a55a4f7cdb"
+    }
+  ]
+}

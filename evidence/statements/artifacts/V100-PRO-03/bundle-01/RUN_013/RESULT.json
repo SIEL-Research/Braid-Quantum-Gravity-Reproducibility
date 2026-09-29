@@ -1,0 +1,54 @@
+{
+  "bridge_relations": {
+    "constraint_commutator": "||B_h E_h I_h U|| <= C(h+tau_h^2/h)",
+    "local_shadow": "||E_h I_h U-I_h E(U)|| <= C(h^2+tau_h^2)",
+    "perfect_branch": "E(S_h^perf)=0 with R_h^dagger E(S_h^perf)=0 exactly",
+    "trajectory": "sup_[0,T] ||J_h U_h-U|| <= C_T(eta_h+h+tau_h^2/h) -> 0 for tau_h=O(h)",
+    "uniqueness_scope": "source C5^3 directions plus positive BKM exponential leaf plus exact six metric moments plus source-forced 1/25 normalization"
+  },
+  "claim_ceiling": "Local regular on-shell asymptotic commuting bridge and unique local shadow only within the source-typed positive-BKM exact-moment class. No literal exact finite-flow identity, explicit physical projector, off-shell variational equivalence, universal discretization theorem, global/strong-curvature result, empirical gravity, confirmation, RPD adoption, Level 3 or Official SIEL status.",
+  "counter_intuition": {
+    "braid_specific_input": "The Braid source fixes the common ten-metric carrier, one-plus-three chart, five-adic refinement, positive BKM leaf, exact metric moments, source clock and normalization.",
+    "falsifier": "Carrier mismatch, different continuum Euler targets, loss of BKM uniqueness, nonvanishing residual under tau=O(h), failure of strong trajectory convergence, or an explicit finite physical projector contradicting the recorded OPEN boundary.",
+    "ordinary_explanation": "A standard consistent stable discretization and an exact discrete Lagrangian can converge to the same continuum PDE without being variationally identical at finite resolution.",
+    "strongest_counter_pattern": "Exact perfect-action constraint preservation and only asymptotic stencil preservation are incompatible with literal equality of the finite maps."
+  },
+  "date": "2026-09-29",
+  "decision": "SCOPED_PASS_ASYMPTOTIC_ON_SHELL_PARENT_TO_TRAJECTORY_BRIDGE__NO_GO_LITERAL_EXACT_FINITE_FLOW_IDENTITY__OPEN_EXPLICIT_PHYSICAL_PROJECTOR",
+  "decisive_result": "The perfect history-groupoid flow and the normalized local metric-Euler update are not the same finite map: the former has exact Noether and refinement constraint closure, whereas the latter has only a vanishing finite-mesh subsidiary defect. They nevertheless form an on-shell asymptotic commuting bridge on the common local regular branch. The same source metric carrier and continuum Euler equation are used, the positive exact-moment BKM member is unique inside the declared source leaf, the Euler defect is O(h^2+tau^2), the subsidiary defect is O(h+tau^2/h), and trajectories converge strongly for tau=O(h).",
+  "formal_E0_E1_E2": "NOT_CLAIMED__BOUNDED_PUBLIC_EXACT_THEORETICAL_SCOUT",
+  "gate_results": {
+    "explicit_source_physical_projector_present": false,
+    "finite_local_update_exact_constraint_preservation": false,
+    "no_new_coefficient_action_or_target_fit": true,
+    "perfect_parent_exact_noether_and_refinement": true,
+    "physical_dimension_and_flat_helicity_compatible": true,
+    "pinned_source_hashes": true,
+    "same_continuum_metric_euler_target": true,
+    "same_rank_ten_metric_carrier": true,
+    "strong_common_interval_trajectory_convergence": true,
+    "strong_on_shell_euler_defect_vanishes": true,
+    "subsidiary_defect_vanishes_for_tau_order_h": true,
+    "unique_positive_bkm_exact_moment_member": true
+  },
+  "literal_bold_hypothesis": "NO_GO",
+  "physical_sector": {
+    "dimension_and_flat_helicity_match": "PASS",
+    "exact_finite_projector_intertwiner": "OPEN",
+    "reason": "BQGEULER-004 explicitly retains OPEN_SOURCE_IDENTIFICATION_REQUIRED; dimension two plus a matching principal class does not construct a canonical projector."
+  },
+  "primary_evidence_status": "Theoretical derivation",
+  "remaining_open": [
+    "an off-shell operator equality or an explicit variational derivation of the BQGEULER-010 stencil from S_h^perf",
+    "a source-derived finite physical projector intertwining the four-dimensional quotient with the two-polarization carrier",
+    "exact finite-mesh constraint preservation by the local update",
+    "global or strong-curvature continuation, fully coupled matter and empirical gravity"
+  ],
+  "revised_bold_hypothesis": "SCOPED_PASS",
+  "schema": "siel.public-calculation.bqgadm013.result.v1",
+  "scout_id": "PUBLIC-RUN-BQGADM-013",
+  "work_packages": [
+    "BQG-G3-R01.5",
+    "BQG-G3-R02.5"
+  ]
+}

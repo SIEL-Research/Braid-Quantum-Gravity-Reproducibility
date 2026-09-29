@@ -1,0 +1,18 @@
+{
+  "schema": "siel.public-calculation.scout.implementation-failure.v1",
+  "scout_id": "PUBLIC-RUN-BGCE458-001",
+  "attempt": "0001",
+  "incident_class": "IMPLEMENTATION_PROVENANCE_FAILURE",
+  "source_commit": "abd5261df92d1639c4a16d6e2309b542d176fe14",
+  "freeze_commit": "030340a34",
+  "command": "python3 records/BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925/RUN_001/evaluate_scout.py",
+  "expected": "Read the pinned BGCE139 RAW_OUTPUT.json from the repository root and execute the frozen exact audit.",
+  "actual": "The evaluator resolved REPO to the temporary-directory root rather than the repository root and raised FileNotFoundError before reading source data.",
+  "first_divergent_artifact": "evaluate_scout.py REPO = HERE.parents[3]",
+  "error_type": "FileNotFoundError",
+  "outcome_accessed": false,
+  "scientific_validity_impact": "No scientific result exists for attempt 0001. It is invalid as an implementation run and cannot support PASS, NO-GO, or OPEN.",
+  "process_causation_evidence": "No governing-rule defect identified; the frozen plan and append-only iteration rule correctly contained the path error.",
+  "process_improvement_required": false,
+  "containment": "Preserve the failed evaluator and traceback summary; create a separately hashed attempt-0002 wrapper that changes only the repo-root resolution before any outcome access."
+}

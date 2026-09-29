@@ -1,0 +1,16 @@
+{
+  "attempts_retained": 3,
+  "completed_at": "2026-09-25T14:55:30+09:00",
+  "decision": "CLOSED_SCOPED",
+  "evidence_status": "Theoretical derivation",
+  "gate_id": "BGCE458",
+  "next_gate": "BGCE459_SOURCE_COUNTING_GLUE_TO_BORN_PROBABILITY_UNIQUENESS_GATE",
+  "raw_output_sha256": "5eaed6dbd653657f2febef4b16da68e0fb092d766817ad8e4810eadbce31bb4e",
+  "report_sha256": "a954deff4fadddce88dc977d1c1afbbd5f8fa3005379dbb0fc729c39ef37e8dd",
+  "result_sha256": "1ecdd67e1faf9b3a271fe140444ba422e482483570e6e4b0473881c10717a789",
+  "schema": "siel.public-calculation.scout.status.v1",
+  "scout_id": "PUBLIC-RUN-BGCE458-001",
+  "status": "COMPLETE",
+  "successful_attempt": "0003",
+  "work_package": "BQG-G0-R01.1"
+}

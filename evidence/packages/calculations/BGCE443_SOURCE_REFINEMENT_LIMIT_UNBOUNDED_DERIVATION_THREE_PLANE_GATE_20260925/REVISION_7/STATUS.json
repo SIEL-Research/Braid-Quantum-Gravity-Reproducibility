@@ -1,0 +1,13 @@
+{
+  "schema": "siel.public-calculation.bgce443.r7.status.v1",
+  "candidate_id": "BGCE443-R7",
+  "date": "2026-09-25",
+  "state": "INDEPENDENT_E0_FAIL_EXECUTION_BLOCKED",
+  "actual_source_snapshot_created": true,
+  "scientific_outcome_computed": false,
+  "focal_evaluator_created": true,
+  "focal_outcome_accessed": false,
+  "independent_E0": "FAIL_BGCE443_REVISION_7_INDEPENDENT_E0_001",
+  "execution_authorized": false,
+  "next_permitted_action": "APPEND_ONLY_REVISION_8_REPAIR_AND_NEW_INDEPENDENT_E0"
+}

@@ -8,8 +8,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-28/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "254d4a3e9f77002721392b51798f5f88148f0295087e087ce67a836670d0dedd"
+      "path": "evidence/statements/artifacts/V100-THE-28/bundle-01/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "1fde436d27c797909be868604b5faa8a21770c32cc2308cda9ed0ef6f64c7af0"
     },
     {
       "bundle_label": "BQGCTRL013 FREE TYPED LIFT AND MINIMAL FAITHFUL BRAID QUOTIENT",
@@ -17,8 +17,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-28/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "7dafe36ebfa6b2f676afbb5e9107f262ffc73ea87f9d2796523ae2015c642ca4"
+      "path": "evidence/statements/artifacts/V100-THE-28/bundle-01/RUN_001/RAW_OUTPUT.json",
+      "sha256": "f78cdb4ff5a7e385d1041ccf26090f693003d88c7ed36bb7984ac72d5b7590d8"
     },
     {
       "bundle_label": "BQGCTRL013 FREE TYPED LIFT AND MINIMAL FAITHFUL BRAID QUOTIENT",
@@ -26,8 +26,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-28/bundle-01/DPA_SCOUT_001/RESULT.json",
-      "sha256": "2a51454e6817a36ffe2f43498bfba7f3fd9340a0742ebb5865a8bee55f5fa5e3"
+      "path": "evidence/statements/artifacts/V100-THE-28/bundle-01/RUN_001/RESULT.json",
+      "sha256": "d9733835020502ed34aec88a0758723510ed3147d2ac90a627ac5a9166d4ac16"
     },
     {
       "bundle_label": "BQGCTRL013 FREE TYPED LIFT AND MINIMAL FAITHFUL BRAID QUOTIENT",
@@ -35,8 +35,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "SOURCE_MATRIX.json",
-      "path": "evidence/statements/artifacts/V100-THE-28/bundle-01/DPA_SCOUT_001/SOURCE_MATRIX.json",
-      "sha256": "231b23f5ebc3389fd2688d5fe16846bc5d4f0cd5a8c9ff922a6ff272c94c860a"
+      "path": "evidence/statements/artifacts/V100-THE-28/bundle-01/RUN_001/SOURCE_MATRIX.json",
+      "sha256": "d1a5526f081f85d91009e746392ef82552aa361e2c3f5c835f711739ad7852bb"
     },
     {
       "bundle_label": "BQGCTRL013 FREE TYPED LIFT AND MINIMAL FAITHFUL BRAID QUOTIENT",
@@ -44,7 +44,7 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "validate_result.py",
-      "path": "evidence/statements/artifacts/V100-THE-28/bundle-01/DPA_SCOUT_001/validate_result.py",
+      "path": "evidence/statements/artifacts/V100-THE-28/bundle-01/RUN_001/validate_result.py",
       "sha256": "eaae63d8a8cfd042c0d5a6b5e334e394c8236ddf2a0df7b131b7b6a81b598033"
     }
   ],
@@ -55,10 +55,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 12,
+      "file_count": 11,
       "kind": "vendored_calculation_package",
       "label": "BQGCTRL013 FREE TYPED LIFT AND MINIMAL FAITHFUL BRAID QUOTIENT",
-      "sha256_tree": "e078bc2b892d660ca795e00b3f4b886abf6fc162429db123ad39aafdbef79707"
+      "sha256_tree": "4228061d0b85bffb7d307f9e8e2261ad469805fb628166a47f642eddc9dcdb81"
     }
   ],
   "status": "PUBLIC_CODE",

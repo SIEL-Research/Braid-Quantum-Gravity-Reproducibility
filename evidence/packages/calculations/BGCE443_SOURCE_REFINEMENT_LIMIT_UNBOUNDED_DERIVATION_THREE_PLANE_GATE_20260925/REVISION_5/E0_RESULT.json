@@ -1,0 +1,29 @@
+{
+  "schema": "siel.public-calculation.bgce443.r5.independent-e0-result.v1",
+  "candidate_id": "BGCE443-R5",
+  "audited_commit": "9827761faa2911b923892b149ad9c15b1629c299",
+  "date": "2026-09-25",
+  "decision": "FAIL",
+  "execution_authorized": false,
+  "focal_evaluator_created": false,
+  "focal_outcome_accessed": false,
+  "passing_obligations": [
+    "COMMON_EXACT_RANK_ZERO_ONE_TWO_THREE",
+    "EXPLICIT_TOY_SIGNED_UNSIGNED_SWAPS_AND_16_ACTION_HASH_COMPARISONS",
+    "COMMON_FINITE_ACTION_CLASSIFIER",
+    "TOY_COMMUTING_GROUP_AND_STAR_DEFECT_BRIDGE",
+    "ACCESS_GUARD_SEVEN_TESTS_AND_SIX_SOURCE_HASHES",
+    "NO_FOCAL_ARTIFACT"
+  ],
+  "decisive_failures": [
+    "FOUR_FINITE_ACTION_BOUNDS_DO_NOT_PROVE_ALL_N_UNBOUNDEDNESS",
+    "RETENTION_VALIDATOR_ACCEPTS_MUTATED_DECISIONS_RELATIONS_RANK_DETERMINANT_AND_FABRICATED_ACTION_HASHES",
+    "RAW_ACTION_MATRICES_NOT_RETAINED_SO_COMMUTATORS_CANNOT_BE_INDEPENDENTLY_RECONSTRUCTED"
+  ],
+  "witness_result_sha256": "63c24f84abcce07d0c972c3b4b5f90c18c64832225b081e24b8af8d378d260ff",
+  "retention_validation_result_sha256": "9ad07a1afc42b587424aa3de30f370ac663ebbe7089536cdecea1378b25c6ac0",
+  "exact_constructor_sha256": "caa75eced4bb530fc8030b60ff0fc3190cf3927096c621b1e282e17bc3e084b3",
+  "retention_validator_sha256": "1474fd226851dfa3c76b40687671b0a2c78a2cfb7d3b39db58109a443a001ee7",
+  "stable_pass_id": null,
+  "next_permitted_action": "APPEND_ONLY_REVISION_6_ALL_N_AND_RAW_RETENTION_REPAIR"
+}

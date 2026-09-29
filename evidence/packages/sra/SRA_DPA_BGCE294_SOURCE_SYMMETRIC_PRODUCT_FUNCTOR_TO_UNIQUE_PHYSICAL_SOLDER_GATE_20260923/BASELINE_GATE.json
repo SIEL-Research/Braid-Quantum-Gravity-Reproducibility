@@ -1,8 +1,0 @@
-{
-  "schema":"siel.dpa.bgce294.baseline-gate.v1","candidate_id":"BGCE294","source_identity":"PASS",
-  "source_revision":"ccf1e28a3424deb42b452720fe02eda3c0dcdcc2","preregistered_commit":"c86f88ff6ce417828c4b0dbf669e66efd6b8335d",
-  "path_manifest":"PASS_EXACT_COMMITTED_PATHS_AND_HASHES","split_manifest_status":"NOT_APPLICABLE_THEORETICAL_EXACT_GATE",
-  "baseline_intermediate":"PASS_BGCE141_258_268_291_293_REVISION_MATCHED",
-  "baseline_primary":"PASS_DIM9_TO_DIM5_TO_DIM0_EXACT_TYPE_AUDIT",
-  "intervention_invariants":"PASS_NO_FIT_NO_SCAN_NO_NEW_ACTION","science_outcome_authorized":true
-}

@@ -1,0 +1,13 @@
+{
+  "candidate_id": "BGCE308",
+  "checks": {
+    "capacity_vs_selection_separated": "PASS",
+    "claim_ceiling_fail_closed": "PASS",
+    "four_regular_registers_all_eight": "PASS",
+    "orbit_decomposition_all_eight": "PASS",
+    "pointed_neutral_uniform_restriction": "PASS"
+  },
+  "result_sha256": "5b682e715830a53ec6eef4cfe8c5d19c9a9219357f4025c4922c1932c7649ce6",
+  "schema": "siel.public-calculation.bgce308.postrun-verification.v1",
+  "status": "PASS"
+}

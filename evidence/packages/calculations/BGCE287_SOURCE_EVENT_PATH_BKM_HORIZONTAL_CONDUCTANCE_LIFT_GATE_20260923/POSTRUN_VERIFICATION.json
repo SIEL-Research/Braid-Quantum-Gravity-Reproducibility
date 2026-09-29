@@ -1,0 +1,11 @@
+{
+  "candidate_id": "BGCE287",
+  "formal_endpoint_gate": "NOT_APPLICABLE_PUBLIC_CALCULATION",
+  "raw_output_sha256": "1756f23eecc32cd0871608b3a0a48f72df0d38dedd31dc2e2d0a755b1e7c2a57",
+  "result_sha256": "1ac69599f858da8970891978da66d6ba441b2b324d6749fc8d58e3a8d66e3d6a",
+  "schema": "siel.public-calculation.bgce287.postrun.v1",
+  "scientific_decision": "FULL_PASS_SOURCE_EVENT_PATH_BKM_SELECTS_UNIQUE_EXACT_S4_EQUIVARIANT_FIRST_ORDER_CONDUCTANCE_LIFT",
+  "status": "PASS",
+  "verification_command": "python3 records/BGCE287_SOURCE_EVENT_PATH_BKM_HORIZONTAL_CONDUCTANCE_LIFT_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE287_VERIFICATION"
+}

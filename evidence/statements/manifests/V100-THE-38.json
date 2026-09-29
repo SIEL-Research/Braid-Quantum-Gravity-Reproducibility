@@ -8,8 +8,8 @@
       "kind": "Certificate",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "CERTIFICATE.json",
-      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/DPA_SCOUT_001/CERTIFICATE.json",
-      "sha256": "84c30a406f49ee1f1e147c1fc0609d97dea725cbcc19680229c927a1a2623cd1"
+      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/RUN_001/CERTIFICATE.json",
+      "sha256": "917ba113464f937e34787cca228b8c5b1b0355162642d70bf04138b1ebf94d76"
     },
     {
       "bundle_label": "BQGNEUT023 INTERNAL M3 NEUTRAL CARRIER AND SOURCE WEIGHTED GAP LAPLACIAN",
@@ -17,8 +17,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "INPUT_MANIFEST.json",
-      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
-      "sha256": "ee9b4afda80817cf9e5966917287b7259743e0a2dd6cd86e628b63fe00fe6b9c"
+      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/RUN_001/INPUT_MANIFEST.json",
+      "sha256": "7405adf3608555aada1ecc2189441b883f1bd2b76334ae8d3ef62f322a8bde96"
     },
     {
       "bundle_label": "BQGNEUT023 INTERNAL M3 NEUTRAL CARRIER AND SOURCE WEIGHTED GAP LAPLACIAN",
@@ -26,8 +26,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RAW_OUTPUT.json",
-      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
-      "sha256": "f6d47a27e9559b1fe633e04ded9dd69a3cbe93dd3f1f6884fdaaf986effb1dbf"
+      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/RUN_001/RAW_OUTPUT.json",
+      "sha256": "fe828544db78965e6b15483dcc26eb11c168cc7ad4b36cba42db92de5140842a"
     },
     {
       "bundle_label": "BQGNEUT023 INTERNAL M3 NEUTRAL CARRIER AND SOURCE WEIGHTED GAP LAPLACIAN",
@@ -35,8 +35,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/DPA_SCOUT_001/RESULT.json",
-      "sha256": "ce3e18f6fdb0fc877f5f59c6c3bc8e2e3633426e4096e24983c92d8abfbbd91a"
+      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/RUN_001/RESULT.json",
+      "sha256": "d1b446b278d4255d47065cfb36c173ca01e011582bc773efe2f4feba29f688fc"
     },
     {
       "bundle_label": "BQGNEUT023 INTERNAL M3 NEUTRAL CARRIER AND SOURCE WEIGHTED GAP LAPLACIAN",
@@ -44,8 +44,8 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "evaluate_scout.py",
-      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
-      "sha256": "9897d807b61f692fb54cf93ffa95987680b1e5b80d93af6477ed015f7abed478"
+      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/RUN_001/evaluate_scout.py",
+      "sha256": "46cf19bcd64d7e1332cb5fd657cb8c8299515172dd9a0b302bb42c335e675b6c"
     },
     {
       "bundle_label": "BQGNEUT023 INTERNAL M3 NEUTRAL CARRIER AND SOURCE WEIGHTED GAP LAPLACIAN",
@@ -53,7 +53,7 @@
       "kind": "Verification code",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "verify.py",
-      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/DPA_SCOUT_001/verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-38/bundle-01/RUN_001/verify.py",
       "sha256": "d22f59b9741c30cb28c9505055b985d24a53ad056e4a718dc3bb0c530157b0be"
     }
   ],
@@ -64,10 +64,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 12,
+      "file_count": 10,
       "kind": "vendored_calculation_package",
       "label": "BQGNEUT023 INTERNAL M3 NEUTRAL CARRIER AND SOURCE WEIGHTED GAP LAPLACIAN",
-      "sha256_tree": "a1d61d9f2cc0bc6206691aab0243a0d329bf4bdbd7440692c45bd25791065741"
+      "sha256_tree": "b52debd780f7caba39c412e0024a77aa5bb4d227147bfa632e75c484ed1aba7d"
     }
   ],
   "status": "PUBLIC_CODE",

@@ -1,0 +1,11 @@
+{
+  "candidate_id": "BGCE288",
+  "formal_endpoint_gate": "NOT_APPLICABLE_PUBLIC_CALCULATION",
+  "raw_output_sha256": "dbe19c46ca6a2e4225b16d84c03946e584a7cb03b2d42b4035ea58426d509e93",
+  "result_sha256": "50a01e19d2ffc245c942a46beb1c1dc94a7e45ce45a6aed62e1bee5ba35f629d",
+  "schema": "siel.public-calculation.bgce288.postrun.v1",
+  "scientific_decision": "PARTIAL_PASS_PHYSICAL_Q4_TO_K_EVT_BASE_PLUS_CAUSAL_7_EVEN_AND_3_ODD_RESPONSES_GIVE_FULL_RANK10_FIRST_ORDER_LORENTZ_METRIC_VARIATION",
+  "status": "PASS",
+  "verification_command": "python3 records/BGCE288_CAUSAL_EVEN_EVENT_PLUS_X21R1_ODD_THETA_FULL_LORENTZ_TANGENT_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE288_VERIFICATION"
+}

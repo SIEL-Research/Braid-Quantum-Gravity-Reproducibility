@@ -1,5 +1,5 @@
 {
-  "schema": "siel.dpa.bgce439.derived-anomaly-solution-groupoid-sm-completion.result.v1",
+  "schema": "siel.public-calculation.bgce439.derived-anomaly-solution-groupoid-sm-completion.result.v1",
   "candidate_id": "BGCE439",
   "date": "2026-09-24",
   "fixed_source_revision": "08251de82bef1bfe26c55840d36689a675c7ef96",
@@ -43,6 +43,6 @@
   },
   "next_gate": null,
   "runtime_class": "SECONDS_EXACT_64_MATRIX_UNIT_AND_EIGHT_SECTOR_CHECK",
-  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+  "formal_E0_E1_E2": "NOT_CLAIMED__PUBLIC_THEORETICAL_GATE_ONLY",
   "claim_ceiling": "BGCE439 closes BQG-G3-R03.4 only in the explicit derived anomaly-solution-groupoid and Boolean-linear-response class. It does not retract BGCE438's NO-GO for existing source operations, derive observed Yukawa values, masses, CKM or PMNS mixing, electroweak vacuum dynamics, empirical Standard Model confirmation, or completed quantum gravity."
 }

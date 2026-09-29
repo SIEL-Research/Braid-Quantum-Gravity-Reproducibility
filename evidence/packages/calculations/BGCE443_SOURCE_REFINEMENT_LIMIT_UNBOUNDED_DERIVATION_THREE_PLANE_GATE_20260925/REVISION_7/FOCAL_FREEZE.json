@@ -1,0 +1,16 @@
+{
+  "schema": "siel.public-calculation.bgce443.r7.focal-freeze.v1",
+  "candidate_id": "BGCE443-R7",
+  "date": "2026-09-25",
+  "evaluate_sha256": "a1b061f4ec0744463f3082694cb4bb16bb69ee66b53392594359755249be5775",
+  "access_guard_sha256": "eda790ad8a8a8321557ccc161456ae02fd0c2be4ab0e6171c08cd433f8c30b64",
+  "input_allowlist_sha256": "8b1f80503bb44b6ec50b5c4e89cdae6fab4e9c28ca66418ade47920e19135210",
+  "actual_source_snapshot_sha256": "3a49ca52d0ea86879e94384cbb030d8d8231296044d3397d5ab022f13f412bc0",
+  "r6_e0_result_sha256": "c1a246f16aa05ae29c0bd87d5849ebd1325a2e96d3ca1b074b1d7e726cd95f24",
+  "focal_evaluator_created": true,
+  "focal_result_exists": false,
+  "focal_raw_output_exists": false,
+  "execution_count": 0,
+  "execution_authorized": false,
+  "next_permitted_action": "REVISION_MATCHED_INDEPENDENT_E0_ONLY"
+}

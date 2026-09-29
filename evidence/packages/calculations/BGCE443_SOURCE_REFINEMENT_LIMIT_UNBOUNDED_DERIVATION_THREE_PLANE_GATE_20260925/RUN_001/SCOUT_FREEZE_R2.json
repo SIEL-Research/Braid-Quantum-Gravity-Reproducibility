@@ -1,0 +1,17 @@
+{
+  "attempt": 3,
+  "date": "2026-09-25",
+  "e0_required": false,
+  "evaluate_scout_r2_sha256": "78b40e648c31719a58b1017f31acd091b2f5a946366c47eedaedeb5fc03f0d48",
+  "next_permitted_action": "EXECUTE_FROZEN_ATTEMPT_0003_ONCE",
+  "output_overwrite_allowed": false,
+  "protocol": "protocols/public_calculation-exploratory-scouting.md",
+  "raw_output_r2_exists": false,
+  "result_r2_exists": false,
+  "retained_attempt_2_raw_sha256": "8df205070b514c7584ba05da8af1327efdc9eb6fc0a450980c57278d57d30f87",
+  "retained_attempt_2_result_sha256": "04fc274ba0f5d21e4e5e92cc87ac4f149009e6bf55f7852ae2b4849033eec019",
+  "schema": "siel.public-calculation.scout.bgce443.freeze-r2.v1",
+  "scout_id": "PUBLIC-RUN-BGCE443-001",
+  "scout_plan_r2_sha256": "8730a5d6ac0a7fbebdc9011018ad53a3166aef8434bc1a7e6adae16ba5869eaf",
+  "source_snapshot_sha256": "3a49ca52d0ea86879e94384cbb030d8d8231296044d3397d5ab022f13f412bc0"
+}

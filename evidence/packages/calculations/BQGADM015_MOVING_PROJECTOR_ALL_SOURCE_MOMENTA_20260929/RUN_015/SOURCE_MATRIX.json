@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-29",
+  "reservoir_sha256": "41b861de1475fa977265079e10bccbae3069815a21281a8ca16967f784adaf91",
+  "schema": "siel.public-calculation.bqgadm015.source_matrix.v1",
+  "source_commit": "4d7b0c1a0cb40200c5fe3a64abadc45063ecb9ef",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-4d7b0c1a0cb4",
+  "sources": [
+    {
+      "path": "records/BQGADM014_SOURCE_TT_PHYSICAL_PROJECTOR_20260929/RUN_014/RESULT.json",
+      "sha256": "5d1cdd9c97e003785a23b0471aa429c8c87cabd3865b55e7b184c583a4f353c9",
+      "use": "three-axis physical-projector theorem and claim boundary"
+    },
+    {
+      "path": "records/BQGADM014_SOURCE_TT_PHYSICAL_PROJECTOR_20260929/RUN_014/RAW_OUTPUT.json",
+      "sha256": "9d5f9497a40047effd93494b279d1b308611e6866c9ac5072ad47ee494e5102b",
+      "use": "exact axis projectors and Hamiltonian gauge witnesses"
+    },
+    {
+      "path": "records/BQG_G3_R01_5_SOURCE_INCIDENCE_TORSION_ADM_CONSTRAINT_SYMBOL_GATE_20260926/RUN_006/RAW_OUTPUT.json",
+      "sha256": "4d2ac343c4fb32969e0c794fbafcbf034ff352c399d8093a543bebd0db7c1032",
+      "use": "actual Palatini symplectic form and three exact source-axis symbols"
+    },
+    {
+      "path": "records/BQG_G3_R01_5_SOURCE_PERFECT_HISTORY_GROUPOID_ADM_HDA_CLOSURE_20260926/RUN_012/RESULT.json",
+      "sha256": "bdebc93bdf7b6ee7b479be0c248660b1181170989b6d6109f00e48a9ee0fc152",
+      "use": "regular rank-four first-class perfect-history branch and exact refinement"
+    },
+    {
+      "path": "records/BQG_G3_R02_5_LINEAR_TWO_MODE_FINITE_TIME_STRONG_CONVERGENCE_GATE_20260926/RUN_004/RESULT.json",
+      "sha256": "f8e49ad2add8bf86084ce56f21da7c943243e88cec58c504968a7fd6be8d2ae7",
+      "use": "two-copy hierarchical target carrier"
+    },
+    {
+      "path": "records/BQG_G3_R02_5_NORMALIZED_SYM2_TEN_COMPONENT_STRONG_CONVERGENCE_CLOSURE_20260926/RUN_010/RESULT.json",
+      "sha256": "175d04f3e1b76ac49a6ba829ea27312e576ec957baf6055ed35b74d2162f3350",
+      "use": "curved local regular metric trajectory and nonlinear boundary"
+    },
+    {
+      "path": "records/BGCE456_ACTUAL_METRIC_CONDUCTANCE_HIERARCHICAL_MARKOV_AND_WAVE_COMPATIBILITY_GATE_20260925/RESULT.json",
+      "sha256": "b3dcf336cf36921c8b4239a3595195a005aa4372e318a1ac081ef83d8eed22e5",
+      "use": "actual-metric positive form and exact hierarchical refinement"
+    },
+    {
+      "path": "records/BGCE447_SOURCE_CYLINDER_TO_UB612_PBM_METRIC_SAME_CARRIER_INTERTWINER_GATE_20260925/RESULT.json",
+      "sha256": "de00c00be600b24c28c890a34e61df90d6c9da30eb98e71c5aa6f2ada164aedf",
+      "use": "same-carrier source-cylinder metric intertwiner"
+    },
+    {
+      "path": "records/BQGADM013_PARENT_TO_TRAJECTORY_ASYMPTOTIC_BRIDGE_20260929/RUN_013/RESULT.json",
+      "sha256": "916cd89e38f756d18f6e45a64fc41f69555cada33ba18d0743f29ab084cfd140",
+      "use": "parent/trajectory bridge and exact-finite-identity NO-GO boundary"
+    }
+  ]
+}

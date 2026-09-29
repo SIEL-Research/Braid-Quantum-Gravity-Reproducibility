@@ -1,0 +1,61 @@
+{
+  "schema": "ub612.pbm-covariant-sigma6-u4-v0-2-parallel4-four-root-generator-gate.v1",
+  "date": "2026-09-13",
+  "status": "PARTIAL_PASS_ACTUAL_U4_V0_2_CENTER_AND_FOUR_ROOTS__SPACETIME_TO_FROZEN_SPATIAL_MIDPOINT_ADAPTER_FIRST_FAIL",
+  "primary_evidence_status": "Actual interval transport-jet computation; partial pass with an exact regression first-fail",
+  "scientific_layer": "mathematical formulation and computational QFT certification",
+  "executed": {
+    "actual_sigma_through_degree_6_in_frozen_gamma0_spatial_frame": false,
+    "actual_U_through_degree_4_center_and_four_roots": true,
+    "actual_v0_through_degree_2_center_and_four_roots": true,
+    "parallel_horizontal_operator_through_degree_4": false,
+    "complete_UB611_callback": false,
+    "stress_or_face_target_read": false
+  },
+  "actual_output": {
+    "packet": "PBM_COVARIANT_TRANSPORT_JETS_PARTIAL_v1.json",
+    "sha256": "d69eeb240dd4704814925e751d64bae7c0b1f642118a9302af9c7bf082561cbc",
+    "coefficient_counts": {
+      "U2": 10,
+      "U3": 20,
+      "U4": 35,
+      "v01": 4,
+      "v02": 10
+    },
+    "v0_recurrence_interval_residual_contains_zero": true,
+    "root_direction_order": [
+      "p1",
+      "p2",
+      "p3",
+      "H"
+    ]
+  },
+  "route_reduction": {
+    "spacetime_midpoint_identity": "For endpoints Exp_m^g(+-y/2), sigma=g_m(y,y)/2 exactly.",
+    "why_it_does_not_close_actual_sigma6": "The frozen state frame uses the gamma0 spatial exponential midpoint at equal Cauchy time. With nonzero extrinsic curvature this is not generally the four-dimensional spacetime exponential midpoint.",
+    "U4_and_v0_2": "closed from the saved actual Riemann, Ricci, nabla Ricci and nabla2 Ricci interval tensors, including p1,p2,p3,H derivatives"
+  },
+  "first_fail": {
+    "id": "PBM_SPACETIME_TO_FROZEN_SPATIAL_MIDPOINT_ADAPTER_v1",
+    "missing": "the finite four-dimensional-spacetime to frozen gamma0-spatial midpoint adapter for sigma through degree six and the full covariant bidifferential stress operator through degree four",
+    "why_not_zero": "parallel transport can be made componentwise identity along each radial split, but transverse/base differentiation of that moving frame contributes curvature terms",
+    "exact_regression": {
+      "U_transport_residual": "0",
+      "v0_transport_residual": "0",
+      "raw_U_D00_coefficient_per_traceS": "1/192",
+      "required_parallel_contraction_per_traceS": "-1/192",
+      "exact_sum": "0",
+      "raw_without_parallel_is_nonzero": true
+    },
+    "consequence": "Setting the connection/parallel term to zero would fail the saved UB516 quartic regression by trace(S)/192."
+  },
+  "next_gate": "UB613_PBM_SPACETIME_TO_FROZEN_SPATIAL_MIDPOINT_ADAPTER_GATE_v1",
+  "claim_ceiling": "Actual interval U4 and v0 degree-two PBM coefficients, including four frozen root derivatives, are generated. The four-dimensional Hps midpoint is not the frozen gamma0 spatial Weyl midpoint, so actual sigma6 and the parallel/horizontal point-split operator remain ungenerated. The complete UB611 callback, twenty stress values, eight faces and an unconditional root remain open.",
+  "input_hashes": {
+    "records/UB598J_ACTUAL_SCHEME_V2_HPS_INSERTION_C1_COEFFICIENT_GATE/ACTUAL_UB597A_PROPER_FRAME_NABLA2_RICCI_C1.json": "b82a5ff80bf562bd916d19447428c124ca5e4915d7b7d6f712c20dfce88c8298",
+    "records/UB598O_ACTUAL_UB597A_RIEMANN_C1_GATE/ACTUAL_UB597A_PROPER_FRAME_RIEMANN_C1_PACKET_v1.json": "74b42f4dcd80909258d28f3e8a8822be9738bbdac478c98df05d3196cd36d1e7",
+    "records/UB516A_HOMOGENEOUS_HADAMARD_TRANSPORT_GATE/RESULT.json": "a6068c5b600af35e0551a755fccd160d8374287bf3d107a7e31905d5ea29b587",
+    "records/UB530A_HADAMARD_OFFDIAGONAL_TRANSPORT_GATE/RESULT.json": "72ece0f87b41dab684636abfbfd641d947bb387e5fcf3539bfbaab367856c691",
+    "records/UB594F_ACTUAL_HADAMARD_SELECTOR_FREEZE_GATE/SELECTOR_FREEZE_v2.json": "551bfc1abfc851e801fba161889f5da11fc4c958d7ca646212922986fc5c8545"
+  }
+}

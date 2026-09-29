@@ -1,0 +1,10 @@
+{
+  "candidate_id": "BGCE294",
+  "raw_output_sha256": "b476b5f5a104b7e7009216b999a6d72d5f489796fccdacc44579204dd6bba484",
+  "result_sha256": "b52803ec6aafd86c4a31166836eb90dcf85a0016ddd342d6b9e5b3e380c0f186",
+  "schema": "siel.public-calculation.bgce294.postrun.v1",
+  "scientific_decision": "FULL_PASS_UNIQUE_SOLDER_IN_EXISTING_SOURCE_SYMMETRIC_PRODUCT_FUNCTORIAL_CLASS",
+  "status": "PASS",
+  "verification_command": "python3 -B records/BGCE294_SOURCE_SYMMETRIC_PRODUCT_FUNCTOR_TO_UNIQUE_PHYSICAL_SOLDER_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE294_VERIFICATION"
+}

@@ -1,0 +1,58 @@
+{
+  "forbidden_inputs": [
+    "MMR/CGR",
+    "target Einstein equation",
+    "Einstein-Hilbert/Fierz-Pauli action",
+    "manual 3/5",
+    "coefficient fit",
+    "free pulse search",
+    "external actuator",
+    "physical seconds calibration"
+  ],
+  "inputs": [
+    {
+      "path": "public-inputs/formal_checks/ocbfh014_source_native_refinement_naturality_check.py",
+      "role": "actual eight-sector G1 and three source Fourier controls",
+      "sha256": "176c75ac349f0f3f142d9c850ca0682436b7ad00cd179f6806de253d0a7acabb"
+    },
+    {
+      "path": "records/BGCE139_SOURCE_SPECTRAL_CYLINDER_OPERATIONAL_EVENT_IDENTIFICATION_GATE_20260919/RAW_OUTPUT.json",
+      "role": "actual pointed-Braid event table",
+      "sha256": "ddf630fbaff1ae4e72c778f47dc2bed6906da0a8aa17d4e6a98d2c96791955e9"
+    },
+    {
+      "path": "records/BGCE362_SOURCE_BRAID_LABELLED_INSTRUMENT_RECORD_TO_CANONICAL_THREE_CONTROL_CYCLE_GATE_20260924/RESULT.json",
+      "role": "uniform six-order law and source duration pi/3",
+      "sha256": "487596c999eea55626332382b1b8afb6415de16e7656bbfb2a2c42136abe81d9"
+    },
+    {
+      "path": "records/BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925/RUN_001/evaluate_scout.py",
+      "role": "carrier reconstruction code",
+      "sha256": "db77424bd81f98dd47774294f231e1b76f1b84a3f87b8f1f5e2f448f51b99645"
+    },
+    {
+      "path": "records/BGCE459_SOURCE_COUNTING_GLUE_TO_BORN_PROBABILITY_UNIQUENESS_GATE_20260925/RUN_001/RESULT.json",
+      "role": "fixed counting/cup Born inner product",
+      "sha256": "4c0e39b0a2807c472a2288bfab32f4182e44a02eb22b2f64041018d7b771177b"
+    },
+    {
+      "path": "records/BGCE463_RESIDUAL_TWO_COMPONENT_INVARIANT_IDENTIFICATION_GATE_20260925/RUN_001/RESULT.json",
+      "role": "source Z2 grading",
+      "sha256": "77c7b3fed88a0f1748fc590d4ddef83e39524d5ba6c1e9c59e5dade49bad2bf2"
+    },
+    {
+      "path": "records/BGCE464_WITHIN_SUPERSELECTION_SECTOR_ALGEBRA_IRREDUCIBILITY_GATE_20260925/RUN_001/RESULT.json",
+      "role": "finite M18 direct-sum M18 quantum algebra",
+      "sha256": "71e1bf19ae596cdf4f6318d3b136db631a5a5f63f8e7bb14d7c762339bd99e05"
+    },
+    {
+      "path": "records/BGCE465_SOURCE_GENERATORS_TO_PHYSICAL_CONTINUOUS_UNITARY_CONTROL_GATE_20260925/RUN_001/RESULT.json",
+      "role": "prior physical-control NO-GO boundary",
+      "sha256": "6729bd4c969bd1177b5caa7eae43b495d38025306ba2cb6322b02bcd2525cbcf"
+    }
+  ],
+  "schema": "siel.public-calculation.scout.input-manifest.v1",
+  "scout_id": "PUBLIC-RUN-BGCE466-001",
+  "source_commit": "74ba3b72a45706ed2efa4652568f7753fc5c6868",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-74ba3b72a457"
+}

@@ -1,9 +1,0 @@
-{
-  "schema":"siel.dpa.bgce295.result.v1","candidate_id":"BGCE295","source_revision":"54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14","preregistered_commit":"ce5c5c186",
-  "verification":"FULL_PASS_IN_DECLARED_LONG_WAVELENGTH_LOCAL_SECOND_ORDER_SELF_ADJOINT_CONSERVATIVE_CLASS",
-  "finite_Braid_edge_to_continuum_variation_identity":"PASS","active_Markov_transport":"PASS_LOCAL_FINITE","unique_physical_solder":"PASS_IN_SOURCE_TYPED_CLASS",
-  "Hilbert_stress_source_derived_in_declared_class":true,"Ward_source_derived_in_declared_class":true,
-  "new_action":false,"fitted_coefficient":false,"full_finite_Lorentzian_Umegaki_action":false,
-  "Einstein_dynamics":false,"next_gate":"BGCE296_STRESS_WARD_FINAL_INDEPENDENT_COMPLETION_AUDIT",
-  "claim_ceiling":"BGCE295 derives source-native Hilbert stress and on-shell Ward conservation only in the declared long-wavelength local second-order formally self-adjoint conservative class. It does not derive a full finite Lorentzian Umegaki action, exclude higher derivatives or other principal symbols, rederive MMR2 or three-fifths, derive Einstein dynamics, empirical gravity or completed quantum gravity."
-}

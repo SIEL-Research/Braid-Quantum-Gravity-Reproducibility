@@ -1,0 +1,97 @@
+{
+  "branch_pairing": {
+    "forward": "M_H",
+    "gauge_neutral_from_typed_cycles": true,
+    "neutral_positive_operator": "A(H)=M_H* M_H=|H|^2 M* M",
+    "opposite_order_same_determinant": "det(I+M_H*M_H)=det(I+M_H M_H*) by Sylvester identity",
+    "positive_from_exact_mode_spectrum": true,
+    "reverse": "M_H*"
+  },
+  "claim_ceiling": [
+    "no same-163R local field equivalence",
+    "no observed Yukawa values or absolute fermion masses",
+    "no CKM or PMNS mixing, neutrino closure, running or empirical Standard Model confirmation",
+    "no completed quantum-gravity claim"
+  ],
+  "decision": "SCOPED_PASS_SOURCE_SIGN_LINE_PLUS_ORDINARY_CTP_EXTERIOR_TRACE_FORCES_FINITE_FERMION_DETERMINANT_AND_EFFECTIVE_ACTION_SIGN__BGCE530_ODD_GAUSSIAN_ACTION_ASSUMPTION_REMOVED_IN_DECLARED_DERIVED_CLASS__UNCHANGED_SOURCE_AND_SAME_163R_FIELD_EQUIVALENCE_NOT_CLAIMED",
+  "declared_class": "source sign-line + BGCE439 anomaly-solution groupoid matter + ordinary finite CTP trace",
+  "effective_action": {
+    "BGCE530_unique_nonzero_Higgs_radius_now_unconditional_within_declared_class": true,
+    "coherent_state_Gaussian_representation_available_but_not_used_as_axiom": true,
+    "determinant_plus_sign_forced": true,
+    "effective_minus_log_sign_forced": true,
+    "finite_odd_Gaussian_action_assumed": false,
+    "identity": "S_eff(H)=S_H(H)-log Tr_(Lambda E) Lambda(A(H))=S_H(H)-log det(I+A(H))"
+  },
+  "evidence_status": "Theoretical derivation",
+  "exterior_trace": {
+    "CTP_trace_selected": "ordinary trace with no (-1)^F insertion",
+    "exact_elementary_coefficient_count": 22,
+    "identity": "Tr_(Lambda E) Lambda(A)=sum_k Tr(Lambda^k A)=det(I+A)",
+    "one_particle_dimension_with_multiplicity": 21,
+    "ordinary_and_supertrace_distinct": true,
+    "ordinary_trace_equals_det_plus": true,
+    "ordinary_trace_positive": true,
+    "supertrace_equals_det_minus": true
+  },
+  "next_gate": "BGCE534_SOURCE_NORMALIZED_HIGGS_RADIUS_AND_RELATIVE_FERMION_MASS_OUTPUT_GATE",
+  "parity_pullback": {
+    "candidate_symmetric_bicharacters": [
+      {
+        "epsilon": 0,
+        "matches_source_sign": false,
+        "odd_odd_exchange": 1,
+        "table": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "epsilon": 1,
+        "matches_source_sign": true,
+        "odd_odd_exchange": -1,
+        "table": [
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            -1
+          ]
+        ]
+      }
+    ],
+    "degree_one_matter_odd": true,
+    "degree_zero_Higgs_even": true,
+    "selected_Koszul_table": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        -1
+      ]
+    ],
+    "source_character": "sgn of particle permutations",
+    "source_parity_map": "BGCE439 total Boolean degree mod 2",
+    "unique_after_source_sign_fixed": true
+  },
+  "preserved_boundaries": {
+    "BGCE406_same_163R_creation_compatible_transfer_not_claimed": true,
+    "BGCE406_sign_line_does_not_select_internal_chirality": true,
+    "BGCE518_local_star_two_cocycle_no_go_retained": true,
+    "derived_groupoid_physicality_remains_scoped": true,
+    "unchanged_raw_source_alone_not_claimed": true
+  },
+  "schema": "siel.public-calculation.bgce532.result.v1",
+  "scout_id": "PUBLIC-RUN-BGCE532-001",
+  "source_commit": "cf07f1d993a8c12e3b50afeac2e5cc8eb4205f92"
+}

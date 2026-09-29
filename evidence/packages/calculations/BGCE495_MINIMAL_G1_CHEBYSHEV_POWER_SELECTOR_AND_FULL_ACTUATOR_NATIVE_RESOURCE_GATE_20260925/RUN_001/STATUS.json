@@ -1,0 +1,7 @@
+{
+  "decision": "SPLIT_SCOPED_PASS_AND_DIRECT_UNCORRECTED_NISQ_ROUTE_NO_GO",
+  "schema": "siel.public-calculation.bgce495.status.v1",
+  "scout_id": "PUBLIC-RUN-BGCE495-001",
+  "status": "COMPLETE",
+  "timestamp": "2026-09-25T22:27:21+09:00"
+}

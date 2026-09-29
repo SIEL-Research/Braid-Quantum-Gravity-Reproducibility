@@ -1,0 +1,18 @@
+{
+  "attempt": 1,
+  "date": "2026-09-25",
+  "e0_required": false,
+  "evaluator_sha256": "a339b8088ab7b7a1f7976cfa6ed622274b8f5d384a93d5e37e339fde7dd17846",
+  "execution_command": "python3 evaluate_scout.py --output RAW_OUTPUT.json",
+  "governance": "SIEL-DEC-2026-067",
+  "input_manifest_sha256": "b38e3aca9725744b59d6c349e0c76be3c2c07b533403b47f97de325d63e4daf1",
+  "iteration_ledger_sha256": "1b1b4bcff25cc52980ab9161aa69e7fb6dd53f3dd1dba083a568285737b02a0f",
+  "output_must_not_exist_before_run": true,
+  "predecessor_collision_record": "PUBLIC-RUN-BGCE444-001__INVALID_FOR_SCIENTIFIC_DECISION",
+  "schema": "siel.public-calculation.scout.bgce457.freeze.v1",
+  "scout_id": "PUBLIC-RUN-BGCE457-001",
+  "scout_plan_sha256": "3fa1a69b1ac65e074c937fdcaca9aa235fc7bc4b54da7c0127aac246b7399a39",
+  "source_commit": "e18c567fb519f3c6726d68610ab9a04cac96f410",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-e18c567fb519",
+  "status": "FROZEN_NOT_EXECUTED"
+}

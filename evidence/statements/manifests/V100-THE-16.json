@@ -19,8 +19,8 @@
       "kind": "Machine result",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "RESULT.json",
-      "path": "evidence/statements/artifacts/V100-THE-16/bundle-02/DPA_SCOUT_012/RESULT.json",
-      "sha256": "c0a4bcbab124950f921c11430d3f4590199793981be68eba46a1e8d366539815"
+      "path": "evidence/statements/artifacts/V100-THE-16/bundle-02/RUN_012/RESULT.json",
+      "sha256": "bdebc93bdf7b6ee7b479be0c248660b1181170989b6d6109f00e48a9ee0fc152"
     },
     {
       "bundle_label": "BQG G3 R01 5 SOURCE PERFECT HISTORY GROUPOID ADM HDA CLOSURE 20260926",
@@ -28,8 +28,8 @@
       "kind": "Input provenance",
       "origin": "evidence_bundle_entrypoint",
       "original_filename": "SOURCE_MATRIX.json",
-      "path": "evidence/statements/artifacts/V100-THE-16/bundle-02/DPA_SCOUT_012/SOURCE_MATRIX.json",
-      "sha256": "59c8f1c36e4cb9169830f5cae35dccba0dba5706a4742ca0c7ce23ae7966096d"
+      "path": "evidence/statements/artifacts/V100-THE-16/bundle-02/RUN_012/SOURCE_MATRIX.json",
+      "sha256": "58f19b1163c22d3ee57944ca4db03e7863d74ac9eb028c0c0e58593c17a30b16"
     }
   ],
   "id": "V100-THE-16",
@@ -39,10 +39,10 @@
   "schema": "siel.bqg.public-statement-evidence.v1",
   "source_bundle_digests": [
     {
-      "file_count": 5,
+      "file_count": 4,
       "kind": "vendored_calculation_package",
       "label": "BQG G3 R01 5 SOURCE PERFECT HISTORY GROUPOID ADM HDA CLOSURE 20260926",
-      "sha256_tree": "cf745434f16130e9db0ce2da0a168d80e8c53cafa7501396b2707f1743df9e5a"
+      "sha256_tree": "9160b82c13dc939faf98d0213ae6c46b89d5975df756f95396a78e11433b5ef6"
     }
   ],
   "status": "PUBLIC_PROOF",

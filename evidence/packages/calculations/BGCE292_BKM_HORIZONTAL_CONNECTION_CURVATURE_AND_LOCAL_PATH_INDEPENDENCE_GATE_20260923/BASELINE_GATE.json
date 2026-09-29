@@ -1,0 +1,11 @@
+{
+  "schema": "siel.public-calculation.bgce292.baseline-gate.v1",
+  "candidate_id": "BGCE292",
+  "source_identity": "PASS",
+  "source_revision": "9f140067043ef0588121e66b8809cbcc914e33c9",
+  "preregistered_commit": "160146c59bf546560c176727cf0f0bededd772e7",
+  "path_manifest": "PASS_EXACT_COMMITTED_PATHS_AND_HASHES",
+  "baseline_primary": "PASS_BGCE287_ANCHOR_RIGHT_INVERSE_REPRODUCED",
+  "intervention_invariants": "PASS_NO_FIT_NO_SCAN_NO_NEW_ACTION",
+  "science_outcome_authorized": true
+}

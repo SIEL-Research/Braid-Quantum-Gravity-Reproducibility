@@ -1,0 +1,17 @@
+{
+  "artifacts": {
+    "INPUT_MANIFEST.json": "285ae9b1ec739f988e89ed0c482e9e1a42ec21a76ce24a71fee06aa0cc9de5b6",
+    "ITERATION_LEDGER.md": "9c3a8cb4805e1374d62523595645c4b23d59dbdec5cee31368ea85ac88c8dc64",
+    "SCOUT_PLAN.md": "14e896bdac6c69cd2462b14ae9af8aa2f0a19cebc087ba6c2479c72dfd2d430e",
+    "evaluate_scout.py": "956dc46128c1a1166e5a4d10f285212a88fdbd4abaa75402be1c20257f19780b"
+  },
+  "attempt": "0001",
+  "gate_id": "BGCE466",
+  "outcome_accessed": true,
+  "prefreeze_disclosure": "A minimal algebraic preflight found that the direct controls leak the carrier while their canonical source-counting compression is Hermitian, grading-preserving, noncommuting, and order-sensitive. The formal frozen run independently checks all eight sectors and both grading blocks. This is exploratory evidence only.",
+  "schema": "siel.public-calculation.scout.freeze.v1",
+  "scout_id": "PUBLIC-RUN-BGCE466-001",
+  "source_commit": "74ba3b72a45706ed2efa4652568f7753fc5c6868",
+  "source_snapshot_id": "PUBLIC-SNAPSHOT-74ba3b72a457",
+  "status": "FROZEN_AFTER_EXPLORATORY_PREFLIGHT_BEFORE_FORMAL_RUN"
+}
