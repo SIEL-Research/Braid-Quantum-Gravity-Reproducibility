@@ -1,0 +1,10 @@
+{
+  "schema": "siel.dpa.bgce292.postrun.v1",
+  "candidate_id": "BGCE292",
+  "status": "PASS",
+  "verification_command": "python3 -B audits/SRA_DPA_BGCE292_BKM_HORIZONTAL_CONNECTION_CURVATURE_AND_LOCAL_PATH_INDEPENDENCE_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE292_VERIFICATION",
+  "raw_output_sha256": "6ea5f0349701af98f42751f21c4e9b6508009ff586d4475201cf9339eebb4526",
+  "result_sha256": "900ab8aefa4bff904554bb2c2ccf2b4b54db6c9d3081353556fc99fbc642ba56",
+  "scientific_decision": "PASS_FLAT_AT_SOURCE_ANCHOR_ALL_45_BASE_TWO_PLANES"
+}

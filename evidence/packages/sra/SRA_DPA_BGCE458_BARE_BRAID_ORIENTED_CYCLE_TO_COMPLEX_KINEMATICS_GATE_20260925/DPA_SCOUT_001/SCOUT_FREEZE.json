@@ -1,0 +1,23 @@
+{
+  "schema": "siel.dpa.scout.freeze.v1",
+  "scout_id": "DPA-SCOUT-BGCE458-001",
+  "gate_id": "BGCE458",
+  "frozen_at": "2026-09-25T14:52:10+09:00",
+  "source_commit": "abd5261df92d1639c4a16d6e2309b542d176fe14",
+  "source_snapshot_id": "DPA-SNAPSHOT-abd5261df92d",
+  "scout_plan_sha256": "5ab563fade31abb117f4ec6bc6ea02513be3429777f02d31ca190379a3dfe6de",
+  "input_manifest_sha256": "e7d580d4a155cd11ca76bc882e7edc199ffa47bac28c2e2da2009beb99b4c458",
+  "evaluator_sha256": "f7fc8db4ab821c223e466e335b5c18a4c2dc824e6f0060471fcf9d53271d02a8",
+  "execution_command": "python3 audits/SRA_DPA_BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925/DPA_SCOUT_001/evaluate_scout.py",
+  "attempt": "0001",
+  "e0_status": "NOT_REQUIRED_FOR_BOUNDED_DPA_SCOUT_UNDER_SIEL_DEC_2026_067",
+  "outcome_accessed": false,
+  "noncompensating_gates": [
+    "exact source replay",
+    "positive invariant equality-counting kernel",
+    "nonzero exact oriented complex structure",
+    "unitary/antiunitary symmetry typing",
+    "identity flip and Yang-Baxter-broken controls retained"
+  ],
+  "claim_ceiling": "A pass proves only that the actual finite three-history pointed-Braid event action contains a source-oriented nonzero real sector with an exact complex structure and positive counting norm. It does not derive the full current M_(5^n)(C) tower, a unique complex structure on every history sector, a source-selected quantum state, arbitrary observables, tensor-product composition, interference frequencies, the Born rule, dynamics, quantum field theory, empirical quantum mechanics, confirmation, Level 3, or Official SIEL adoption. If the ordinary flip also passes, pointed-Braid specificity remains open."
+}

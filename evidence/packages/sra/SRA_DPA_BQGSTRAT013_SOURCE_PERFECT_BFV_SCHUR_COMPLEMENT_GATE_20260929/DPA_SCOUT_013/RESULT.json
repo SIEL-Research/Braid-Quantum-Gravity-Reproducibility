@@ -1,0 +1,36 @@
+{
+  "schema": "siel.dpa.bqgstrat013.result.v1",
+  "scout_id": "DPA-SCOUT-BQGSTRAT-013",
+  "date": "2026-09-29",
+  "work_packages": [
+    "BQG-G3-R01.5",
+    "BQG-G3-R02.5"
+  ],
+  "primary_evidence_status": "Theoretical derivation",
+  "secondary_qualifier": "Exact scoped physical-principal theorem",
+  "status": "SCOPED_PASS_SOURCE_PERFECT_PHYSICAL_PRINCIPAL_SYMBOL_IS_EXACTLY_TWO_POLARIZATION_AND_PARITY_BALANCED__RAW_80_COMPONENT_TWO_VERSUS_ONE_IMBALANCE_IS_NOT_INHERITED__OPEN_EVALUATED_FULL_PERFECT_HESSIAN_AND_LOWER_ORDER_CROSSING",
+  "exact_theorem": "The normalized source metric-Euler principal operator acts as q_h(omega,k) times the identity on the symmetric-tensor factor. The source TT projector acts only on that factor, has configuration rank two for every one of the 124 nonzero C5^3 momenta, and commutes with every scalar principal symbol. Therefore its physical restriction is q_h(omega,k) I_2. On each of the 24 nonzero flat source-axis sheets with spatial digit equal to plus or minus the temporal digit, the exact Q(zeta_5) symbol vanishes and the physical kernel has dimension two.",
+  "gate_results": {
+    "source_hashes": "PASS",
+    "all_124_nonzero_momenta_TT_rank_two": "PASS_EXACT",
+    "scalar_principal_symbol_projector_commutation": "PASS_EXACT",
+    "positive_orientation_null_sheets_two_polarizations": "PASS_EXACT_12_OF_12",
+    "negative_orientation_null_sheets_two_polarizations": "PASS_EXACT_12_OF_12",
+    "noncharacteristic_control_physical_rank_two": "PASS_EXACT",
+    "new_coefficient_or_target_fit": "NONE",
+    "evaluated_closed_form_full_perfect_Hessian": "OPEN",
+    "lower_order_crossing_form": "OPEN"
+  },
+  "raw_block_adjudication": "The BQGSTRAT-010 80-component single-orientation raw block is not repaired or reclassified. Its exact 60x1, 64x12, 65x12, 66x600 rank profile remains valid negative route evidence. The present theorem proves that its two-versus-one exceptional-sheet imbalance is not inherited by the source-perfect physical principal system.",
+  "source_perfect_relation": "BQGULTRA-002 supplies exact regular-branch stationary composition and Schur complementation. BQGADM-013 supplies only an on-shell asymptotic parent-to-Euler bridge, not literal finite-map identity. The scoped pass therefore covers the physical principal symbol and regular transverse Schur theorem; it does not claim an evaluated full perfect Hessian at the characteristic point.",
+  "counter_intuition": {
+    "tempting_reading": "The raw 80-component corank imbalance proves that the finite parent has unequal helicities.",
+    "ordinary_explanation": "The raw connection/coframe discretization contains auxiliary, constraint and gauge directions. The physical TT quotient is a different typed object, and its tensor-scalar principal operator is exactly degenerate across the two polarizations.",
+    "braid_specific_input": "The source supplies the five-adic momentum set, normalized stencil, reverse-edge symmetry, rank-two TT projector, rank-four phase quotient, refinement intertwining and source-perfect stationary recursion.",
+    "falsifier": "Any nonzero source momentum at which the TT projector fails rank two, failure of commutation with the normalized principal operator, or any declared plus/minus source-axis null sheet with physical kernel dimension other than two."
+  },
+  "next_gate": "BQGSTRAT-014_EVALUATED_PERFECT_HESSIAN_LOWER_ORDER_CROSSING_GATE",
+  "incident_class": "SCIENTIFIC_OUTCOME",
+  "claim_ceiling": "Closes the parity-balanced two-polarization physical principal symbol on all declared flat source-axis null sheets and the rank-two TT theorem for all nonzero source momenta, with a local regular source-perfect/trajectory bridge. No evaluated closed-form full perfect Hessian, lower-order crossing certificate, global singular continuation, infinite-depth quantum measure, empirical gravity, confirmation, RPD adoption, Level 3 or Official SIEL claim."
+}
+

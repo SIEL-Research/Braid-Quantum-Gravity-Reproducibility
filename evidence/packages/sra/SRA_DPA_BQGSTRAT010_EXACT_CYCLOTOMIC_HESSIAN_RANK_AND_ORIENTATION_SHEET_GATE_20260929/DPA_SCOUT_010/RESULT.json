@@ -1,0 +1,41 @@
+{
+  "schema": "siel.dpa.bqgstrat010.result.v1",
+  "scout_id": "DPA-SCOUT-BQGSTRAT-010",
+  "date": "2026-09-29",
+  "work_packages": [
+    "BQG-G3-R01.5",
+    "BQG-G3-R02.5"
+  ],
+  "primary_evidence_status": "Theoretical exact cyclotomic rank classification with numerical crossing support",
+  "status": "SCOPED_SPLIT_PASS_EXACT_RANK_LOSS_AND_KERNEL_PROFILE__NO_GO_UNCONDITIONAL_TWO_HELICITY_COMPONENT_SELECTION_FOR_THE_CURRENT_SINGLE_ORIENTATION_RAW_BLOCK__OPEN_SOURCE_REVERSE_SHEET_COMPLETION",
+  "exact_result": {
+    "field": "Q(zeta_5)",
+    "sector_count": 625,
+    "symbol_dimension": 80,
+    "rank_profile": {
+      "60": 1,
+      "64": 12,
+      "65": 12,
+      "66": 600
+    },
+    "zero_mode": "one sector, rank 60, nullity 20",
+    "generic": "600 sectors, rank 66, nullity 14",
+    "same_orientation_null_sheet": "12 sectors with exactly one nonzero spatial digit equal to the temporal digit; rank 64, nullity 16",
+    "opposite_orientation_null_sheet": "12 sectors with exactly one nonzero spatial digit equal to minus the temporal digit modulo five; rank 65, nullity 15"
+  },
+  "crossing_probe": {
+    "status": "NUMERICAL_SUPPORT_ONLY",
+    "same_orientation_crossing_rank": 2,
+    "opposite_orientation_crossing_rank": 1,
+    "interpretation": "Both exceptional sheets are transverse in the tested theta_0 direction, but their extra coranks differ by one."
+  },
+  "decision": "Actual rank loss exists in the declared conditional affine-plaquette Hessian and is confined to two explicit cyclotomic orientation sheets. The ordered digit history distinguishes all exceptional sectors, but it cannot by itself promote the current raw block to a parity-balanced two-helicity physical parent because the opposite sheet carries only one additional kernel direction while the same-orientation sheet carries two.",
+  "next_gate": "BQGSTRAT-011_SOURCE_REVERSE_SHEET_PALATINI_COMPLETION_GATE: derive the reverse-sheet or adjoint face contribution from already-declared source orientation/reverse-edge data before inspecting the rank profile; require rank-64 two-mode loss on both null sheets or prove the corresponding route NO-GO.",
+  "counter_intuition": {
+    "ordinary_explanation": "This is the characteristic rank profile of one explicit oriented lattice Palatini discretization over a five-point Fourier torus.",
+    "braid_specific_input": "The source fixes the five-adic four-carrier complex, orientation sheet, ordered digit history and the affine transport/log branch used to build the symbol.",
+    "strongest_boundary": "The exact profile does not show that the single-orientation raw assembly is the unique source action. The 2-versus-1 sheet imbalance blocks an unconditional physical two-helicity interpretation.",
+    "falsifier": "An exact Q(zeta_5) recomputation with the same declared symbol yielding a different rank profile, or a source-derived reverse-sheet completion that fails the predeclared parity-balanced two-mode gate."
+  },
+  "claim_ceiling": "Exact rank and nullity classification for the conditional BQGSTRAT-009 vacuum symbol. No exact crossing-form certificate, unique component selection, matter-coupled caustic, global continuation, Braid necessity, empirical gravity, confirmation, RPD adoption, Level 3 or Official SIEL claim."
+}

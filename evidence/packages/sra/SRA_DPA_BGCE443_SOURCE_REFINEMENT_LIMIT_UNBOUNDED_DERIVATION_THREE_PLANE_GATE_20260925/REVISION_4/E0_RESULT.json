@@ -1,0 +1,227 @@
+{
+  "schema": "siel-endpoint-provenance-record-v1",
+  "record_id": "BGCE443-REVISION-4-INDEPENDENT-E0-001",
+  "experiment_id": "BGCE443-REVISION-4",
+  "claim_id": "BGCE443-R4-EXACT-CONSTRUCTOR-REFINEMENT-LIMIT-DERIVATION-THREE-PLANE",
+  "lifecycle_level": "E0",
+  "governing_subsystem": "SRA-INDEPENDENT-RESEARCH-AUDIT",
+  "source_revision": "daa6ea468d1f2c3ae6e95af4a20a1a0b1ac488f8",
+  "preregistration_revision": null,
+  "result_revision": null,
+  "producer_artifact": {
+    "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/PROTOCOL.md",
+    "sha256": "5fe4388d27f480c915fc9dec69820be6baed0a6eede74bff40770b7bdbe2443e",
+    "context_id": "dpa-bgce443-revision4-producer",
+    "reviewer_id": "SRA-DPA"
+  },
+  "semantic_audit_artifact": {
+    "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/E0_AUDIT_JA.md",
+    "sha256": "4041bf5c7cf0f731c55aff2b3088461ec5ca5037b03594e19f4603eac5401d19",
+    "context_id": "bgce443-revision4-independent-e0-audit",
+    "reviewer_id": "SRA-INDEPENDENT-RESEARCH-AUDITOR"
+  },
+  "independence": {
+    "different_context": true,
+    "different_reviewer": true,
+    "statement": "Independent non-DPA pre-outcome audit of exact freeze commit daa6ea468d1f2c3ae6e95af4a20a1a0b1ac488f8. The reviewer rehashed the packet and allowlisted sources, replayed only the non-focal exact constructor, exercised additional rank, action-difference, symlink and hash-mismatch probes, and did not create, execute or inspect a focal evaluator or focal/source outcome. Revision and source binding pass, but common-endpoint controls, raw-action comparator semantics, bounded-inner certification and closability remain failed or unresolved."
+  },
+  "gates": [
+    {
+      "gate_id": "BGCE443-R4-E0-G1-REVISION-SOURCE-ACCESS-AND-REPLAY",
+      "scientific_alternative": "The packet is either exactly bound to its freeze revision and hash-contained source set with a byte-reproducible non-focal witness, or stale and capable of reading forbidden outcomes.",
+      "code_locator": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/access_guard.py:guarded_read; verify_packet.py",
+      "source_variables": [
+        "exact freeze commit",
+        "six allowlisted paths and SHA-256 values",
+        "R1/R2/R3-E0 deny patterns",
+        "non-focal constructor and frozen witness bytes"
+      ],
+      "intervention_constructor": "Freshly replay the exact constructor, compare bytes and hashes, rehash every allowed source, and test path and hash rejection without reading any focal outcome.",
+      "comparator_constructor": "Attempt R1, R2, absolute, traversal, unlisted, symlink and hash-mismatched paths through the same guarded_read function.",
+      "expression": "PASS requires exact revision identity, byte-equal witness replay, all allowlisted hashes equal and every forbidden access rejected before payload return.",
+      "reused_intermediates": [
+        "freeze revision daa6ea468d1f2c3ae6e95af4a20a1a0b1ac488f8",
+        "constructor SHA-256 bfcaf6258256f116055f7edd225eb794cd3f821288996042587911c71bc8da31",
+        "witness SHA-256 9407efb68a068ee591319b153f5dbbe498491bb7d83e329d075c880030597cec",
+        "access guard SHA-256 eda790ad8a8a8321557ccc161456ae02fd0c2be4ab0e6171c08cd433f8c30b64",
+        "all six allowlisted source hashes independently matched",
+        "independent symlink and hash-mismatch probes rejected"
+      ],
+      "symbolic_relation": "This gate establishes packet identity and access isolation only; it does not validate endpoint discrimination.",
+      "degeneracy_class": "NONE_DETECTED",
+      "witnesses": {
+        "positive": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/WITNESS_RESULT.json",
+          "sha256": "9407efb68a068ee591319b153f5dbbe498491bb7d83e329d075c880030597cec",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/WITNESS_RESULT.json"
+        },
+        "negative": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/ACCESS_GUARD_RESULT.json",
+          "sha256": "e712a96508454b21e448d9e4dfc0fdfec543a938a587306b4641ae2804c19b2f",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/ACCESS_GUARD_RESULT.json"
+        },
+        "comparator": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/INPUT_ALLOWLIST.json",
+          "sha256": "5444e8670c226960ca284c56463ddd76a868165687bd4c200489a5b31dfb6c05",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/ACCESS_GUARD_RESULT.json"
+        }
+      },
+      "evidence_paths": [
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/INPUT_ALLOWLIST.json",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/access_guard.py",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/WITNESS_RESULT.json",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/E0_AUDIT_JA.md"
+      ],
+      "permitted_interpretation": "The frozen R4 packet and its non-focal toy replay are revision-identical and the guarded source reader rejects independently tested forbidden paths.",
+      "prohibited_interpretations": [
+        "Packet identity proves the focal endpoint.",
+        "A byte-reproducible witness is necessarily semantically discriminating.",
+        "This E0 gate authorizes focal execution by itself."
+      ],
+      "status": "PASS"
+    },
+    {
+      "gate_id": "BGCE443-R4-E0-G2-COMMON-ENDPOINT-AND-SIGNED-UNSIGNED-COMPARATOR",
+      "scientific_alternative": "Explicit interventions either traverse common rank and action endpoint functions and distinguish matched signed versus unsigned transport, or controls bypass those functions and the comparator measures a different object.",
+      "code_locator": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/exact_witness_constructor.py:three_row_rank_certificate,signed_unsigned_comparator,run",
+      "source_variables": [
+        "positive, zero, rank-two and single-direction derivation rows",
+        "signed Z-conjugated toy transport",
+        "unsigned identity-embedding toy transport",
+        "implementer and commutator-action differences",
+        "generic carrier and transport-specificity decisions"
+      ],
+      "intervention_constructor": "Pass rank-three, rank-two, rank-one and rank-zero rows through one exact rank routine and compare signed and unsigned commutator actions on a fixed raw observable basis.",
+      "comparator_constructor": "Construct the canonical unsigned tensor-factor swap using the same adjacent word and matched seed, dimension, window and spectrum/norm invariants, allowing both carriers to pass.",
+      "expression": "PASS requires correct rank 0/1/2/3 separation through one function and a two-layer decision based on retained raw action differences, not implementer differences.",
+      "reused_intermediates": [
+        "fresh witness replay equals frozen SHA-256 9407efb68a068ee591319b153f5dbbe498491bb7d83e329d075c880030597cec",
+        "independent rank-one probe returned rank 2",
+        "single-direction result is separately hard-coded from any nonzero derivation row",
+        "comparator key is raw_implementer_difference_frobenius_square",
+        "transport specificity label claims raw action difference without calculating it",
+        "toy unsigned constructor is identity embedding rather than tensor-factor swap"
+      ],
+      "symbolic_relation": "The stored rank-one PASS bypasses the defective common rank function. Nonzero P-signed minus P-unsigned does not imply nonzero ad(P-signed)-ad(P-unsigned), so the frozen specificity decision is not entailed by its endpoint.",
+      "degeneracy_class": "GATE_COLLAPSE_OR_DUPLICATION",
+      "witnesses": {
+        "positive": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/WITNESS_RESULT.json",
+          "sha256": "9407efb68a068ee591319b153f5dbbe498491bb7d83e329d075c880030597cec",
+          "status": "FAIL",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/WITNESS_RESULT.json"
+        },
+        "negative": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/exact_witness_constructor.py",
+          "sha256": "bfcaf6258256f116055f7edd225eb794cd3f821288996042587911c71bc8da31",
+          "status": "FAIL",
+          "target_changed": true,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/E0_AUDIT_JA.md"
+        },
+        "comparator": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/WITNESS_RESULT.json",
+          "sha256": "9407efb68a068ee591319b153f5dbbe498491bb7d83e329d075c880030597cec",
+          "status": "FAIL",
+          "target_changed": true,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/WITNESS_RESULT.json"
+        }
+      },
+      "evidence_paths": [
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/exact_witness_constructor.py",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/WITNESS_RESULT.json",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/PROTOCOL.md",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/E0_AUDIT_JA.md"
+      ],
+      "permitted_interpretation": "The explicit toy operators demonstrate several exact algebraic responses, but the frozen common-control and specificity decisions are invalid as E0 evidence.",
+      "prohibited_interpretations": [
+        "The rank endpoint distinguishes rank one.",
+        "An implementer difference is a raw derivation-action difference.",
+        "Identity embedding implements the registered unsigned tensor-factor swap.",
+        "The stored two-layer labels establish Braid transport specificity."
+      ],
+      "status": "FAIL"
+    },
+    {
+      "gate_id": "BGCE443-R4-E0-G3-ACTION-GROWTH-CLOSABILITY-AND-RETENTION",
+      "scientific_alternative": "The witness either derives unbounded action and closability from executable certificates with replayable raw retention, or assigns bounds and pass flags without proving the bridge.",
+      "code_locator": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/exact_witness_constructor.py:action_growth_certificate,bounded_telescoping_certificate,closability_certificate,closability_hypothesis_negative",
+      "source_variables": [
+        "norm-one local observables and commutator actions",
+        "action-norm lower bounds and bounded-inner inequality",
+        "self-adjoint finite-range interaction hypotheses",
+        "finite-volume automorphism group or graph closure",
+        "typed raw retention rows"
+      ],
+      "intervention_constructor": "Compute operator norms or exact spectral bounds, apply the bounded-inner norm inequality, and instantiate every closability theorem hypothesis and group or graph certificate.",
+      "comparator_constructor": "Run bounded telescoping and non-star derivation controls through the same action-growth and closability decision functions rather than returning fixed false flags.",
+      "expression": "PASS requires calculated action lower bounds, an explicit contradiction with every bounded inner implementer, a valid closability bridge, and a typed retention validator sufficient for independent E2 replay.",
+      "reused_intermediates": [
+        "commutator identity residuals are calculated exactly",
+        "action_norm and observable_norm are inserted as strings",
+        "bounded_inner_excluded depends only on zero identity residual",
+        "bounded telescoping pass_as_outer_unbounded is fixed false",
+        "closability endpoint pass depends only on Hermitian involution flags",
+        "stated analytic bound does not imply the claimed nonzero convergence radius",
+        "retention artifact is an untyped key checklist without row validator"
+      ],
+      "symbolic_relation": "For a bounded inner derivation ad(B), its action norm is at most twice the norm of B. The packet intends to contradict this with an unbounded norm-one observable sequence, but the endpoint does not compute the required norm lower bound. Standard finite-range closability may be true, yet the recorded PASS is not derived from the theorem hypotheses or explicit group construction.",
+      "degeneracy_class": "UNRESOLVED_SEMANTIC_CAPACITY",
+      "witnesses": {
+        "positive": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/WITNESS_RESULT.json",
+          "sha256": "9407efb68a068ee591319b153f5dbbe498491bb7d83e329d075c880030597cec",
+          "status": "UNRESOLVED",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/WITNESS_RESULT.json"
+        },
+        "negative": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/exact_witness_constructor.py",
+          "sha256": "bfcaf6258256f116055f7edd225eb794cd3f821288996042587911c71bc8da31",
+          "status": "FAIL",
+          "target_changed": true,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/WITNESS_RESULT.json"
+        },
+        "comparator": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/CLOSABILITY_THEOREM.md",
+          "sha256": "4a5a3cf96e0630d914ff84e2e7c174814b9dc0bffead905563a8d2b8dda0e50a",
+          "status": "UNRESOLVED",
+          "target_changed": true,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/CLOSABILITY_THEOREM.md"
+        }
+      },
+      "evidence_paths": [
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/exact_witness_constructor.py",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/CLOSABILITY_THEOREM.md",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/RETENTION_SCHEMA.json",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_4/E0_AUDIT_JA.md"
+      ],
+      "permitted_interpretation": "R4 identifies a plausible exact action-growth and finite-range closability route, but its executable certificates and E2 retention remain incomplete.",
+      "prohibited_interpretations": [
+        "A commutator identity alone computes the operator action norm.",
+        "A fixed false flag is a negative endpoint witness.",
+        "Self-adjoint involutions alone execute the infinite-volume closability theorem.",
+        "A list of field names guarantees E2-replayable raw output."
+      ],
+      "status": "FAIL"
+    }
+  ],
+  "overall_status": "FAIL",
+  "created_at": "2026-09-25",
+  "historical": false
+}

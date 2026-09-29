@@ -1,0 +1,794 @@
+{
+  "all_expected_separations": true,
+  "decision": {
+    "bounded_inner_rejected": true,
+    "bounded_negative_still_closable": true,
+    "closability_hypothesis_failure_rejected": true,
+    "matched_comparator_non_structural": true,
+    "positive_all_endpoints": true,
+    "rank_two_rejected": true,
+    "single_direction_reports_rank_one": true,
+    "zero_rejected": true
+  },
+  "focal_source_used": false,
+  "matched_comparator": {
+    "constructor_signed": "same adjacent word built from (Z tensor Z) SWAP",
+    "constructor_unsigned": "same adjacent word built from canonical tensor SWAP",
+    "differing_raw_action_rows": 16,
+    "generic_carrier_decision": "PASS",
+    "matching_invariants": {
+      "local_seed_identical": true,
+      "local_seed_involution": true,
+      "matrix_dimension_equal": true,
+      "same_adjacent_words": true,
+      "signed_relations_pass": true,
+      "unsigned_relations_pass": true,
+      "window_count_equal": 4
+    },
+    "non_structural": true,
+    "raw_action_rows_retained": {
+      "signed": [
+        {
+          "action_sha256": "794aed8644b6401b4ed953eb4025230eb1c6ad06b68a3625ba0915ae04fc1f95",
+          "basis_column": 0,
+          "basis_row": 0
+        },
+        {
+          "action_sha256": "b3dcebcf7aff93692ca5b3bae655bf5278066180ba2b328ed1d524eff6c900e6",
+          "basis_column": 1,
+          "basis_row": 0
+        },
+        {
+          "action_sha256": "9b4a6e9b3787cd28a86540857c488b7592078f3cef989925bec98211efc908d1",
+          "basis_column": 2,
+          "basis_row": 0
+        },
+        {
+          "action_sha256": "e3ecf2af77ac0ad5096c03d60187f3ddbb9e3f0c00804942aed0e583b180f81c",
+          "basis_column": 3,
+          "basis_row": 0
+        },
+        {
+          "action_sha256": "f70099324b3c177922000061df39491bfe5eff624b0349290032e0311af5f5e1",
+          "basis_column": 0,
+          "basis_row": 1
+        },
+        {
+          "action_sha256": "84f9c713f8b7b0a99f101ae72c17c97fc53ae2acb5d053e40fd42320b5c6980f",
+          "basis_column": 1,
+          "basis_row": 1
+        },
+        {
+          "action_sha256": "7428727db1dde1a18b23c2655522766d12d1982e905bfe70922672ea2c522d1f",
+          "basis_column": 2,
+          "basis_row": 1
+        },
+        {
+          "action_sha256": "d39158c7aadb39438ca8af7899e7534a241db4aee0d0e8e0abe99a16fd533fe2",
+          "basis_column": 3,
+          "basis_row": 1
+        },
+        {
+          "action_sha256": "44d9807c42044463afbca7ca6dc67e420fe9bc72eb68bbb8c291052262739e22",
+          "basis_column": 0,
+          "basis_row": 2
+        },
+        {
+          "action_sha256": "a0fe9b4c3aa7820c49a2f658cfed5622275fde30f16fa37853a39aca9d013d5a",
+          "basis_column": 1,
+          "basis_row": 2
+        },
+        {
+          "action_sha256": "504f1e82b36bb4ef718728c0c2cf4a42bf1d32192ad1e380b84c2ae7f8f5d6c3",
+          "basis_column": 2,
+          "basis_row": 2
+        },
+        {
+          "action_sha256": "53b5697f15d2ae4380c52aa92fc3263f9f408058d92196f15f7666fb119bd07c",
+          "basis_column": 3,
+          "basis_row": 2
+        },
+        {
+          "action_sha256": "8381d6ca4ad5d56247b06af53e0bc494e8b92e267c2a67523883289893343b81",
+          "basis_column": 0,
+          "basis_row": 3
+        },
+        {
+          "action_sha256": "64f2df46e628518c13c95e81038e63e553e9e12d9a48cb0f9a58ad8e546b2cbb",
+          "basis_column": 1,
+          "basis_row": 3
+        },
+        {
+          "action_sha256": "3901ddd21b7c87b005f2eab5bef91055a09402132fd57765be0ab0d612a48fb9",
+          "basis_column": 2,
+          "basis_row": 3
+        },
+        {
+          "action_sha256": "1cee47b03779049b8dccdb0e3d20f22721752846d02833379073bcf6bbfd3dd9",
+          "basis_column": 3,
+          "basis_row": 3
+        }
+      ],
+      "unsigned": [
+        {
+          "action_sha256": "fdc3d85010273bdd395bacef3d8fc16afa5a445016fb179e19d3495fe12f455e",
+          "basis_column": 0,
+          "basis_row": 0
+        },
+        {
+          "action_sha256": "284d622c593d312d414baa8b6329d6e9d79ab9ba145342ead1abc98d1af631a0",
+          "basis_column": 1,
+          "basis_row": 0
+        },
+        {
+          "action_sha256": "293e0f033a33a96bc11aefa5b1cc495361c7e2ba4f313902779ea67ba6370078",
+          "basis_column": 2,
+          "basis_row": 0
+        },
+        {
+          "action_sha256": "1c2ba7490c79de21ef3624f1951478b12627da016f72541f5c3d3fc4d815cfc5",
+          "basis_column": 3,
+          "basis_row": 0
+        },
+        {
+          "action_sha256": "1275ca9afb320f3a4a73feb979f01482cedb37b701f740acb04369d1840a99f0",
+          "basis_column": 0,
+          "basis_row": 1
+        },
+        {
+          "action_sha256": "4f717faf787ce8e922be74a6a986d7bb8fea5c2ca449d7236840fa9009fcd46f",
+          "basis_column": 1,
+          "basis_row": 1
+        },
+        {
+          "action_sha256": "96268ed65765fbcd1f9a1fba1c9f9284270866d607f467cb5e484a3ea17b9b7b",
+          "basis_column": 2,
+          "basis_row": 1
+        },
+        {
+          "action_sha256": "58a9306c51aff40ca9d5d14c4f0181b84fef955bf386522af2fa6954a39fc246",
+          "basis_column": 3,
+          "basis_row": 1
+        },
+        {
+          "action_sha256": "9d24823a6085a4fa347d69449a6ecb12bdc5b169eccf5fdf9fc6358700f3d4f6",
+          "basis_column": 0,
+          "basis_row": 2
+        },
+        {
+          "action_sha256": "a0c77fad1c1491e9c7784d40be60af326fffe41bfe32309b2856353b6710038a",
+          "basis_column": 1,
+          "basis_row": 2
+        },
+        {
+          "action_sha256": "4c09f131544d2b85ef8bbcc3fa7414f007f5348a953996d627035841f3e69f21",
+          "basis_column": 2,
+          "basis_row": 2
+        },
+        {
+          "action_sha256": "b1ddc2ae90f5bcdf1d94207ef3e9077741e5a5ed8d3e7dccedca720c944b52ed",
+          "basis_column": 3,
+          "basis_row": 2
+        },
+        {
+          "action_sha256": "28b57e3300b83ce236369995078a6a6ddd9c4dcf40f81a0b2dd250a9392b74e5",
+          "basis_column": 0,
+          "basis_row": 3
+        },
+        {
+          "action_sha256": "d6030c4ce60852ae33c5557339e4362697e2c08f814737d2e6c20edbe31adefe",
+          "basis_column": 1,
+          "basis_row": 3
+        },
+        {
+          "action_sha256": "0edaa8e56301ded4347f52097d1b0e4e399f58a47aee486c3a54c59d10f82ae8",
+          "basis_column": 2,
+          "basis_row": 3
+        },
+        {
+          "action_sha256": "89e4cbb2de6258c03d22cddcb6065851c452de9f8cb075f39e21e8baaeba9d3c",
+          "basis_column": 3,
+          "basis_row": 3
+        }
+      ]
+    },
+    "signed_carrier_pass": true,
+    "signed_raw_action_sha256": "ba2dde808c51b5332b1eceb573cb6d6459ff53c8bc4409f71dc209a02d22a181",
+    "signed_relation_certificate": {
+      "braid_relation": true,
+      "distant_commutation": true,
+      "involution": true
+    },
+    "signed_variance": {
+      "pass": true,
+      "records": [
+        {
+          "expected": "1",
+          "order": 3,
+          "residual": "0",
+          "variance": "1"
+        },
+        {
+          "expected": "2",
+          "order": 4,
+          "residual": "0",
+          "variance": "2"
+        },
+        {
+          "expected": "3",
+          "order": 5,
+          "residual": "0",
+          "variance": "3"
+        },
+        {
+          "expected": "4",
+          "order": 6,
+          "residual": "0",
+          "variance": "4"
+        }
+      ]
+    },
+    "transport_specificity_decision": "PASS_TOY_RAW_ACTION_DIFFERENCE",
+    "unsigned_carrier_pass": true,
+    "unsigned_raw_action_sha256": "eac5ef64a0ace26f218a38e29d32ff28241ac7060090da2734acb679c8bdee90",
+    "unsigned_relation_certificate": {
+      "braid_relation": true,
+      "distant_commutation": true,
+      "involution": true
+    },
+    "unsigned_variance": {
+      "pass": true,
+      "records": [
+        {
+          "expected": "1",
+          "order": 3,
+          "residual": "0",
+          "variance": "1"
+        },
+        {
+          "expected": "2",
+          "order": 4,
+          "residual": "0",
+          "variance": "2"
+        },
+        {
+          "expected": "3",
+          "order": 5,
+          "residual": "0",
+          "variance": "3"
+        },
+        {
+          "expected": "4",
+          "order": 6,
+          "residual": "0",
+          "variance": "4"
+        }
+      ]
+    }
+  },
+  "negative_controls": {
+    "bounded_telescoping": {
+      "classification": {
+        "linear_slope": 0,
+        "lower_bounds": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "outer_unbounded_pass": false,
+        "unbounded_linear": false,
+        "uniformly_bounded": true,
+        "upper_bounds": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      },
+      "decision_derived_from_common_action_endpoint": true,
+      "outer_unbounded_pass": false,
+      "records": [
+        {
+          "action_norm_lower_bound": "2",
+          "action_norm_upper_bound": "4",
+          "action_ratio_square": "4",
+          "order": 2,
+          "telescoping_residual_frobenius_square": 0
+        },
+        {
+          "action_norm_lower_bound": "2",
+          "action_norm_upper_bound": "4",
+          "action_ratio_square": "4",
+          "order": 3,
+          "telescoping_residual_frobenius_square": 0
+        },
+        {
+          "action_norm_lower_bound": "2",
+          "action_norm_upper_bound": "4",
+          "action_ratio_square": "4",
+          "order": 4,
+          "telescoping_residual_frobenius_square": 0
+        },
+        {
+          "action_norm_lower_bound": "2",
+          "action_norm_upper_bound": "4",
+          "action_ratio_square": "4",
+          "order": 5,
+          "telescoping_residual_frobenius_square": 0
+        },
+        {
+          "action_norm_lower_bound": "2",
+          "action_norm_upper_bound": "4",
+          "action_ratio_square": "4",
+          "order": 6,
+          "telescoping_residual_frobenius_square": 0
+        }
+      ]
+    },
+    "bounded_telescoping_closability": {
+      "dense_domain": "algebraic local core union_n M_2^(tensor n)",
+      "explicit_group_constructed": true,
+      "explicit_group_formula": "exp(i t h)=cos(t) I+i sin(t) h; alpha_t is the tensor product of local Ad(exp(i t h)) factors on the finite support neighborhood",
+      "group_law_reason": "h^2=I and translated terms commute, so exponentials multiply exactly and local action is eventually independent of volume",
+      "local_involutions": [
+        true
+      ],
+      "pass": true,
+      "range": 3,
+      "self_adjoint_local_terms": [
+        true
+      ],
+      "translated_terms_pairwise_commute": [
+        true
+      ],
+      "translation_covariance_checked": true,
+      "uniform_local_norm_exact": 1
+    },
+    "closability_hypothesis_failure": {
+      "dense_domain": "algebraic local core union_n M_2^(tensor n)",
+      "explicit_group_constructed": false,
+      "explicit_group_formula": "exp(i t h)=cos(t) I+i sin(t) h; alpha_t is the tensor product of local Ad(exp(i t h)) factors on the finite support neighborhood",
+      "group_law_reason": "h^2=I and translated terms commute, so exponentials multiply exactly and local action is eventually independent of volume",
+      "local_involutions": [
+        false
+      ],
+      "pass": false,
+      "range": 3,
+      "self_adjoint_local_terms": [
+        false
+      ],
+      "star_derivation_defect": {
+        "basis_index": 0,
+        "residual_frobenius_square": 2
+      },
+      "translated_terms_pairwise_commute": [
+        true
+      ],
+      "translation_covariance_checked": true,
+      "uniform_local_norm_exact": null
+    },
+    "rank_two": {
+      "nonzero_minor": {
+        "columns": [
+          1,
+          2
+        ],
+        "determinant": "0+2i",
+        "rows": [
+          0,
+          1
+        ]
+      },
+      "rank": 2
+    },
+    "single_direction_rank": {
+      "nonzero_minor": {
+        "columns": [
+          1
+        ],
+        "determinant": "0-1i",
+        "rows": [
+          0
+        ]
+      },
+      "rank": 1
+    },
+    "zero_seed_rank": {
+      "nonzero_minor": null,
+      "rank": 0
+    }
+  },
+  "positive": {
+    "action_growth": [
+      {
+        "bounded_inner_excluded": true,
+        "bounded_inner_inequality": "||ad_B|| <= 2||B||, contradicted by unbounded norm-one action sequence",
+        "classification": {
+          "linear_slope": 2,
+          "lower_bounds": [
+            2,
+            4,
+            6,
+            8
+          ],
+          "outer_unbounded_pass": true,
+          "unbounded_linear": true,
+          "uniformly_bounded": false,
+          "upper_bounds": [
+            2,
+            4,
+            6,
+            8
+          ]
+        },
+        "exact_norm_certificate": true,
+        "records": [
+          {
+            "action_norm_lower_bound": "2",
+            "action_norm_upper_bound": "2",
+            "action_ratio_square": "4",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 3
+          },
+          {
+            "action_norm_lower_bound": "4",
+            "action_norm_upper_bound": "4",
+            "action_ratio_square": "16",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 4
+          },
+          {
+            "action_norm_lower_bound": "6",
+            "action_norm_upper_bound": "6",
+            "action_ratio_square": "36",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 5
+          },
+          {
+            "action_norm_lower_bound": "8",
+            "action_norm_upper_bound": "8",
+            "action_ratio_square": "64",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 6
+          }
+        ]
+      },
+      {
+        "bounded_inner_excluded": true,
+        "bounded_inner_inequality": "||ad_B|| <= 2||B||, contradicted by unbounded norm-one action sequence",
+        "classification": {
+          "linear_slope": 2,
+          "lower_bounds": [
+            2,
+            4,
+            6,
+            8
+          ],
+          "outer_unbounded_pass": true,
+          "unbounded_linear": true,
+          "uniformly_bounded": false,
+          "upper_bounds": [
+            2,
+            4,
+            6,
+            8
+          ]
+        },
+        "exact_norm_certificate": true,
+        "records": [
+          {
+            "action_norm_lower_bound": "2",
+            "action_norm_upper_bound": "2",
+            "action_ratio_square": "4",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 3
+          },
+          {
+            "action_norm_lower_bound": "4",
+            "action_norm_upper_bound": "4",
+            "action_ratio_square": "16",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 4
+          },
+          {
+            "action_norm_lower_bound": "6",
+            "action_norm_upper_bound": "6",
+            "action_ratio_square": "36",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 5
+          },
+          {
+            "action_norm_lower_bound": "8",
+            "action_norm_upper_bound": "8",
+            "action_ratio_square": "64",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 6
+          }
+        ]
+      },
+      {
+        "bounded_inner_excluded": true,
+        "bounded_inner_inequality": "||ad_B|| <= 2||B||, contradicted by unbounded norm-one action sequence",
+        "classification": {
+          "linear_slope": 2,
+          "lower_bounds": [
+            2,
+            4,
+            6,
+            8
+          ],
+          "outer_unbounded_pass": true,
+          "unbounded_linear": true,
+          "uniformly_bounded": false,
+          "upper_bounds": [
+            2,
+            4,
+            6,
+            8
+          ]
+        },
+        "exact_norm_certificate": true,
+        "records": [
+          {
+            "action_norm_lower_bound": "2",
+            "action_norm_upper_bound": "2",
+            "action_ratio_square": "4",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 3
+          },
+          {
+            "action_norm_lower_bound": "4",
+            "action_norm_upper_bound": "4",
+            "action_ratio_square": "16",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 4
+          },
+          {
+            "action_norm_lower_bound": "6",
+            "action_norm_upper_bound": "6",
+            "action_ratio_square": "36",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 5
+          },
+          {
+            "action_norm_lower_bound": "8",
+            "action_norm_upper_bound": "8",
+            "action_ratio_square": "64",
+            "action_vector_residual_square": 0,
+            "implementer_eigenvector_residual_square": 0,
+            "observable_unitarity_residual_frobenius_square": 0,
+            "order": 6
+          }
+        ]
+      }
+    ],
+    "closability": {
+      "dense_domain": "algebraic local core union_n M_2^(tensor n)",
+      "explicit_group_constructed": true,
+      "explicit_group_formula": "exp(i t h)=cos(t) I+i sin(t) h; alpha_t is the tensor product of local Ad(exp(i t h)) factors on the finite support neighborhood",
+      "group_law_reason": "h^2=I and translated terms commute, so exponentials multiply exactly and local action is eventually independent of volume",
+      "local_involutions": [
+        true,
+        true,
+        true
+      ],
+      "pass": true,
+      "range": 3,
+      "self_adjoint_local_terms": [
+        true,
+        true,
+        true
+      ],
+      "translated_terms_pairwise_commute": [
+        true,
+        true,
+        true
+      ],
+      "translation_covariance_checked": true,
+      "uniform_local_norm_exact": 1
+    },
+    "rank": {
+      "nonzero_minor": {
+        "columns": [
+          1,
+          2,
+          5
+        ],
+        "determinant": "-4",
+        "rows": [
+          0,
+          1,
+          2
+        ]
+      },
+      "rank": 3
+    },
+    "stabilization": [
+      {
+        "pass": true,
+        "records": [
+          {
+            "order": 4,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 5,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 6,
+            "residual_frobenius_square": 0
+          }
+        ],
+        "support_order": 2,
+        "threshold": 4
+      },
+      {
+        "pass": true,
+        "records": [
+          {
+            "order": 4,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 5,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 6,
+            "residual_frobenius_square": 0
+          }
+        ],
+        "support_order": 2,
+        "threshold": 4
+      },
+      {
+        "pass": true,
+        "records": [
+          {
+            "order": 4,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 5,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 6,
+            "residual_frobenius_square": 0
+          }
+        ],
+        "support_order": 2,
+        "threshold": 4
+      }
+    ],
+    "variance_growth": [
+      {
+        "pass": true,
+        "records": [
+          {
+            "expected": "1",
+            "order": 3,
+            "residual": "0",
+            "variance": "1"
+          },
+          {
+            "expected": "2",
+            "order": 4,
+            "residual": "0",
+            "variance": "2"
+          },
+          {
+            "expected": "3",
+            "order": 5,
+            "residual": "0",
+            "variance": "3"
+          },
+          {
+            "expected": "4",
+            "order": 6,
+            "residual": "0",
+            "variance": "4"
+          }
+        ],
+        "slope": "1"
+      },
+      {
+        "pass": true,
+        "records": [
+          {
+            "expected": "1",
+            "order": 3,
+            "residual": "0",
+            "variance": "1"
+          },
+          {
+            "expected": "2",
+            "order": 4,
+            "residual": "0",
+            "variance": "2"
+          },
+          {
+            "expected": "3",
+            "order": 5,
+            "residual": "0",
+            "variance": "3"
+          },
+          {
+            "expected": "4",
+            "order": 6,
+            "residual": "0",
+            "variance": "4"
+          }
+        ],
+        "slope": "1"
+      },
+      {
+        "pass": true,
+        "records": [
+          {
+            "expected": "1",
+            "order": 3,
+            "residual": "0",
+            "variance": "1"
+          },
+          {
+            "expected": "2",
+            "order": 4,
+            "residual": "0",
+            "variance": "2"
+          },
+          {
+            "expected": "3",
+            "order": 5,
+            "residual": "0",
+            "variance": "3"
+          },
+          {
+            "expected": "4",
+            "order": 6,
+            "residual": "0",
+            "variance": "4"
+          }
+        ],
+        "slope": "1"
+      }
+    ]
+  },
+  "schema": "siel.dpa.bgce443.r5.exact-nonfocal-witness.v1",
+  "toy_source": {
+    "all_seed_entries": "Gaussian integers",
+    "local_dimension": 2,
+    "seeds": [
+      "Pauli-X",
+      "Pauli-Y",
+      "Pauli-Z"
+    ],
+    "window_range": 3
+  }
+}

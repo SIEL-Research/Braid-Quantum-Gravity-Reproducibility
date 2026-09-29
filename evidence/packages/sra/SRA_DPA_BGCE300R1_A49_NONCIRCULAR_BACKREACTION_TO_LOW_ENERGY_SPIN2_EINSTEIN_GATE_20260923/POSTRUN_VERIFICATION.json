@@ -1,0 +1,9 @@
+{
+  "schema": "siel.dpa.bgce300r1.postrun-verification.v1",
+  "candidate_id": "BGCE300R1",
+  "status": "PASS",
+  "json_parse": "PASS",
+  "retained_artifact_verify": "PASS_BGCE300R1_A49_NONCIRCULAR_BACKREACTION_AND_LOW_ENERGY_SPIN2",
+  "git_diff_check": "PASS",
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY"
+}

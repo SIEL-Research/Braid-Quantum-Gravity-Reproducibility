@@ -1,0 +1,588 @@
+{
+  "algorithm": "sha256; directory digest over sorted path\\0size\\0file_sha256\\n records",
+  "manuscript_version": "v1.0",
+  "records": [
+    {
+      "file_count": 1,
+      "kind": "file",
+      "path": "data/canonical_source_class_v099.json",
+      "sha256": "801894ab3667c0f1f394263eb224172a972d33894e73fe7380227d414f1a64d9",
+      "size_bytes": 1183
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE137_DISCRETE_S4_CHART_TRANSITION_VERSUS_NEAR_IDENTITY_CARTAN_CONNECTION_FACTORING_GATE_20260919",
+      "sha256_tree": "58873962c81f5adbc4643c019ede8cfdf00dac1f1b10996ac053dcfa0aa8fcd9",
+      "size_bytes": 45054
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE138_SOURCE_CYLINDER_DIAGONAL_LOCALIZATION_AND_MINIMAL_SMOOTH_CARTAN_COMPLETION_GATE_20260919",
+      "sha256_tree": "861c831656751b52120cdc03ed0bbf6158b2bfcc8b6aa75ad4f59df2828e9dc4",
+      "size_bytes": 74656
+    },
+    {
+      "file_count": 9,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE238_FIXED_SOURCE_PACKET_COHERENCE_SELECTION_GATE_20260921",
+      "sha256_tree": "817dc05ee3d210504518f1ade2bb695af9ca11b153ee8bc4f9e9f1a15aea07a5",
+      "size_bytes": 48481
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE259_ORIENTED_BRAID_COBORDER_TO_CAUSAL_GRADING_INSERTION_IN_ACTUAL_EDGE_ACTION_GATE_20260921",
+      "sha256_tree": "8f7e190875b3d89ebb0ad27bb2dae2b56c020d66e6095c76daf7adbf10a13363",
+      "size_bytes": 31848
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE283_S4_CHART_EQUIVARIANT_METRIC_TENSOR_GLUE_GATE_20260923",
+      "sha256_tree": "83aae660eacb4308f033ca2dcd2704aea34b760edec9bd6a679859b0d162b5b4",
+      "size_bytes": 43422
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE287_SOURCE_EVENT_PATH_BKM_HORIZONTAL_CONDUCTANCE_LIFT_GATE_20260923",
+      "sha256_tree": "76c2b76d9eb24a9d023723e1a3c7399d1d9f1235e639302280f947d274793d2a",
+      "size_bytes": 44998
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE288_CAUSAL_EVEN_EVENT_PLUS_X21R1_ODD_THETA_FULL_LORENTZ_TANGENT_GATE_20260923",
+      "sha256_tree": "b33c0ce76fd5c6787e03926a5881f8ea3d6595a947951eda610928bfc88ae730",
+      "size_bytes": 46600
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE290_INDEPENDENT_DOUBLED_A_SOURCE_TO_CAUSAL_METRIC_HILBERT_WARD_GATE_20260923",
+      "sha256_tree": "da9940dded20ba26868b4336a57bfe4784af66343c06149da7e62f12aab08737",
+      "size_bytes": 45983
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE291_STRESS_WARD_INDEPENDENT_REDERIVATION_AND_SCOPE_RED_TEAM_GATE_20260923",
+      "sha256_tree": "f13e413a140f2b320a7ae06fbbe4067b5b2d3194aec80063a5860949449c08cf",
+      "size_bytes": 35498
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE292_BKM_HORIZONTAL_CONNECTION_CURVATURE_AND_LOCAL_PATH_INDEPENDENCE_GATE_20260923",
+      "sha256_tree": "e8f984e465db3ecffcfc34883a418164e89845cbaf6dd552c7b01e57c0d02ea3",
+      "size_bytes": 27635
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE294_SOURCE_SYMMETRIC_PRODUCT_FUNCTOR_TO_UNIQUE_PHYSICAL_SOLDER_GATE_20260923",
+      "sha256_tree": "f24ef7ca3ce3be66e696eb47100c3bbfbd9ef84214decffd8d229095a098e0b2",
+      "size_bytes": 22073
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE295_FINITE_BRAID_ACTION_TO_CONTINUUM_HILBERT_VARIATION_IDENTITY_GATE_20260923",
+      "sha256_tree": "96c1b0bff6cd9d6a1647753fc1af33a41db00d144c27e0bf7157472f35d6738c",
+      "size_bytes": 21448
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE298_CLOCK_REDUNDANCY_CHAIN_RULE_TO_STRESS_WARD_COMPLETION_GATE_20260923",
+      "sha256_tree": "45b1bae4a05c58a0b5ffe4d1af4f5a441961551c9ad39fe3b92888f0da95adbb",
+      "size_bytes": 20623
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE299_INDEPENDENT_STRESS_WARD_COMPLETION_RED_TEAM_AND_CLAIM_CEILING_AUDIT_20260923",
+      "sha256_tree": "9d1e428d860026382c9cc51f0d5eecfe287fe3ae3133036502530413026d6dbf",
+      "size_bytes": 23540
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE300R1_A49_NONCIRCULAR_BACKREACTION_TO_LOW_ENERGY_SPIN2_EINSTEIN_GATE_20260923",
+      "sha256_tree": "514c96684a58042ea4dcca24cef7a6cdc04cedffa69e8b7997cd51315530f136",
+      "size_bytes": 33967
+    },
+    {
+      "file_count": 9,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE307_SOURCE_GKSL_STINESPRING_DILATION_TO_TOTAL_STRESS_WARD_GATE_20260923",
+      "sha256_tree": "7594aefb64d03355c99c4bc7045e774144780eea20f358286fed3fab401872d3",
+      "size_bytes": 28715
+    },
+    {
+      "file_count": 9,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE308_SOURCE_RIGHT_TAIL_REPEATED_INTERACTION_DILATION_AND_TOTAL_BALANCE_GATE_20260923",
+      "sha256_tree": "8bb1975a209e94d862d99f56e2df3d891921fe4938d8c4f4473b01d1d5b277c6",
+      "size_bytes": 39123
+    },
+    {
+      "file_count": 4,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE322_COLLISION_SUPPORT_INTERACTION_STRESS_AND_FOUR_COMPONENT_BALANCE_GATE_20260923",
+      "sha256_tree": "707600723963988d297cb54143a33809c8c5b840fdc9b9f3c85317bbca846327",
+      "size_bytes": 28713
+    },
+    {
+      "file_count": 4,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE323_SOURCE_SELECTED_COLLISION_METRIC_DEFORMATION_TO_DYNAMICAL_INFLUENCE_AND_REPEATED_TOTAL_WARD_GATE_20260923",
+      "sha256_tree": "8b8f508159e2492a657f34b8bdfe681e95a50d6c2873dbbfe4cf86ee7b27473e",
+      "size_bytes": 39781
+    },
+    {
+      "file_count": 4,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE324_CENTERED_CHARGE_SCORE_TO_COLLISION_NOETHER_TIME_OR_MODULAR_ENERGY_GATE_20260923",
+      "sha256_tree": "55606fb132b7ea4c11e590d60e66f669777f94e3f95ad619002f8eacd0c8cdd3",
+      "size_bytes": 36784
+    },
+    {
+      "file_count": 4,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE336R2_REFINED_COLLISION_CTP_TO_CONTINUUM_LORENTZIAN_INFLUENCE_AND_NONCIRCULAR_FINITE_BACKREACTION_GATE_20260923",
+      "sha256_tree": "c5a77d033991758c0c32b4d23147291d809d48e7052a699f3bdc2cce38aa5d2a",
+      "size_bytes": 40524
+    },
+    {
+      "file_count": 4,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE349_BRANCH_RESOLVED_CHOI_TRANSFER_TO_LOCAL_3PLUS1_DOUBLED_METRIC_LORENTZIAN_PARENT_GATE_20260924",
+      "sha256_tree": "a4cbf52897775a53d8235e80174105e6fa74197c3b3b4d00cf1ae288496cdc99",
+      "size_bytes": 56810
+    },
+    {
+      "file_count": 4,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE350_FINITE_SOURCE_CYLINDER_PARENT_TO_LOCAL_HISTORY_DRESSED_TOTAL_WARD_IDENTITY_GATE_20260924",
+      "sha256_tree": "aa0f8174822761383dc598e3ce4df50a5c8e11fd4cd79a87ff517ac273355ddd",
+      "size_bytes": 78089
+    },
+    {
+      "file_count": 6,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE439_SOURCE_DERIVED_ANOMALY_SOLUTION_GROUPOID_CROSSED_PRODUCT_TO_PHYSICAL_WEIGHT_ONE_GENERATIONS_AND_INVARIANT_HIGGS_GATE_20260924",
+      "sha256_tree": "fb6651f5730fbb8465a8d81d7dc2043df130904debaec4587b8e80145358ec81",
+      "size_bytes": 42384
+    },
+    {
+      "file_count": 104,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925",
+      "sha256_tree": "f41a60bd6549cfb3e7634387fc490e673a9656a98a60f99e23b30e246c327c1d",
+      "size_bytes": 1515881
+    },
+    {
+      "file_count": 6,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE444_TEN_METRIC_SOURCE_TO_THIRTY_FIVE_QUARTIC_SECOND_RESPONSE_GATE_20260925",
+      "sha256_tree": "8fecfcb729f7a9e64e194b6ae52625c3fa3d72b2d00f1d82d28a31f4a63fb886",
+      "size_bytes": 31389
+    },
+    {
+      "file_count": 6,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE445_AF_QUASILOCAL_CPTP_ALL_SCALE_COMPLETION_GATE_20260925",
+      "sha256_tree": "690011a2fcc76eac77d7a085e828fddf001a0fb30c6e3f7d0ba4d79ad3ba96eb",
+      "size_bytes": 20085
+    },
+    {
+      "file_count": 5,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE447_SOURCE_CYLINDER_TO_UB612_PBM_METRIC_SAME_CARRIER_INTERTWINER_GATE_20260925",
+      "sha256_tree": "8288fe52ac118a99afd99b06a52b4bf5dafad1a830da2d22b20dc82aef5107d0",
+      "size_bytes": 17982
+    },
+    {
+      "file_count": 6,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE448_ACTUAL_UB612_U4_JETS_TO_SOURCE_CYLINDER_FIFTY_FIVE_COLUMN_HESSIAN_GATE_20260925",
+      "sha256_tree": "f63d13e431b32a28ad2bba1837f34d8ad3aa2b004220cbfce934a9416d9f2442",
+      "size_bytes": 31776
+    },
+    {
+      "file_count": 5,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE449_PRECONDITIONED_UB612_INTERVAL_RANK35_CERTIFICATE_GATE_20260925",
+      "sha256_tree": "c14134e49d0b518bc976cea8490a69e09fa89f26c9621bc43579f48b40f5d6bc",
+      "size_bytes": 16476
+    },
+    {
+      "file_count": 5,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE452_SOURCE_HIERARCHICAL_SPATIAL_LAPLACIAN_UCP_HEAT_AND_WARD_GATE_20260925",
+      "sha256_tree": "06afdf30719489118e15e1391e2d14da8771cd66b6b9004f4db85293a87906e3",
+      "size_bytes": 23949
+    },
+    {
+      "file_count": 5,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE456_ACTUAL_METRIC_CONDUCTANCE_HIERARCHICAL_MARKOV_AND_WAVE_COMPATIBILITY_GATE_20260925",
+      "sha256_tree": "6c48bce96a23b64614568adbca43177aa9137b2a503d4b1d31567c8fb833e522",
+      "size_bytes": 36558
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE457_ITERATED_STRONG_CURVATURE_BACKREACTION_GATE_20260925",
+      "sha256_tree": "8c85ba6d7d1701a7b8693fad641b0e3c3231aa0e2a20738e5646fba473764e42",
+      "size_bytes": 36096
+    },
+    {
+      "file_count": 16,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925",
+      "sha256_tree": "8fa4d7f1ca538ce8c3ee584e8da476070c43277aa967965693698e43badd446d",
+      "size_bytes": 44736
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE459_SOURCE_COUNTING_GLUE_TO_BORN_PROBABILITY_UNIQUENESS_GATE_20260925",
+      "sha256_tree": "547b758bc23039874ca5600391a0ad4eeb5a147742e8bc1aa99649674d5bff32",
+      "size_bytes": 32195
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE464_WITHIN_SUPERSELECTION_SECTOR_ALGEBRA_IRREDUCIBILITY_GATE_20260925",
+      "sha256_tree": "5687e5acbcc63e84f1b3c677867c08733bf30cca99d690e25c99728bf8b3e134",
+      "size_bytes": 31729
+    },
+    {
+      "file_count": 9,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE466_SOURCE_SELECTED_STOCHASTIC_QUANTUM_ENGINE_GATE_20260925",
+      "sha256_tree": "e64cb4f55b5620f9d33fc3e57183c66a01b18f3d189125130d18a489855d7765",
+      "size_bytes": 42431
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE490_SOURCE_STRUCTURED_LOW_NORMALIZATION_SPECTRAL_FACTOR_OR_DIRECT_QUOTIENT_QSP_GATE_20260925",
+      "sha256_tree": "35efdf98bb34ff94f6b709293a4245862c9d6fbbdbe1cc102fa8804302ac5088",
+      "size_bytes": 45771
+    },
+    {
+      "file_count": 9,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE491_TYPED_HALMOS_CHEBYSHEV_WALK_TO_SOURCE_WORD_LOCAL_COMPILATION_GATE_20260925",
+      "sha256_tree": "2bfb7164a28ee0733e8a2693346ab8546244da910095849e2a27607ed7231b33",
+      "size_bytes": 41968
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE495_MINIMAL_G1_CHEBYSHEV_POWER_SELECTOR_AND_FULL_ACTUATOR_NATIVE_RESOURCE_GATE_20260925",
+      "sha256_tree": "25e84069dc0941b6dc4643dfe48f43da6e261e51a4bed47f36fe5618ab1c6402",
+      "size_bytes": 29560
+    },
+    {
+      "file_count": 14,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE499_FISHER_GAIN_AND_OUTER_CUP_TYPED_RECONCILIATION_GATE_20260925",
+      "sha256_tree": "a453b69bdaed9c63e25d2e8cd2d5356e11b7e09dc46f9d74296035a843f4fdda",
+      "size_bytes": 31161
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE530_SOURCE_STATE_WEIGHTED_KINETIC_METRIC_AND_FINITE_FERMION_DETERMINANT_HIGGS_GATE_20260926",
+      "sha256_tree": "85f02a261477f6574c903cc08249f9dae0dfec5f6a3b0df41de707315cd326f4",
+      "size_bytes": 39653
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE532_SOURCE_SIGN_LINE_EXTERIOR_TRACE_TO_FINITE_FERMION_DETERMINANT_GATE_20260926",
+      "sha256_tree": "a3d6c0355dc2240c7be22b7facc31b1448ac605a0d89aed05723ea8ac1aa02c8",
+      "size_bytes": 42369
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE546_SOURCE_INTRINSIC_PREDICATE_MODULAR_WEIGHT_TO_UNIQUE_NONNORMAL_FLAVOUR_OPERATOR_GATE_20260926",
+      "sha256_tree": "8ae03a392dfed6b3cb830205f501ce8d0086a6c4acd8645b946f13ed8b94bbaf",
+      "size_bytes": 35938
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE552_SOURCE_SELECTED_SELECTOR_TO_VARIATIONAL_YUKAWA_COUPLING_GATE_20260926",
+      "sha256_tree": "9658776d8a6d13f70d10dc0059f5c1648234f928bdc90fabd73f875a501fb8ef",
+      "size_bytes": 40029
+    },
+    {
+      "file_count": 15,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BGCE570_SOURCE_MAJORANA_ACTION_CROSS_VARIATION_GATE_20260926",
+      "sha256_tree": "c65936766fe7ec6bcdf14cc5a995702c240b52c3ab45485afc42247d8ed0b7ac",
+      "size_bytes": 50969
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGADM013_PARENT_TO_TRAJECTORY_ASYMPTOTIC_BRIDGE_20260929",
+      "sha256_tree": "d68165875c666e9e360d75bc352264d9100d31c23e11a7f5847005e2902731c4",
+      "size_bytes": 49516
+    },
+    {
+      "file_count": 9,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGADM014_SOURCE_TT_PHYSICAL_PROJECTOR_20260929",
+      "sha256_tree": "12aa106b78826031f5847da1b31f1e775aacca30902bc3b4643bd7aca4dea18e",
+      "size_bytes": 51917
+    },
+    {
+      "file_count": 9,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGADM015_MOVING_PROJECTOR_ALL_SOURCE_MOMENTA_20260929",
+      "sha256_tree": "dc0398c872b09d5b513cc3b9a6ace2d9e2f7ce10d36b92736b49a51bb7e0b0bc",
+      "size_bytes": 161557
+    },
+    {
+      "file_count": 13,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGBH031_COMPLETE_STATIC_SPHERICAL_SIX_FACE_EULER_TO_SCHWARZSCHILD_AND_BOUNCE_GATE_20260929",
+      "sha256_tree": "59fb3023e0e2aa2a8878d1a9d333827bf8f79d2d9b88df4690ec9e5e51d0ebb9",
+      "size_bytes": 29329
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGBH032_SOURCE_SCREEN_RELATIVE_PALATINI_INTERACTION_TO_REGULAR_BOUNCE_STATIONARITY_GATE_20260929",
+      "sha256_tree": "5bd2d5f69e0ca0685f8ec9a06f0f77f676ec41cfee1abc8deaf3c6c29ae3b0d3",
+      "size_bytes": 30508
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGBH033_SOURCE_SCREEN_WALK_CURRENT_TO_RELATIVE_PALATINI_EULER_COVECTOR_GATE_20260929",
+      "sha256_tree": "1592c37f6c922cfa628b33f1781b78e8ff50382c9a2d0f34f03166d6d9191e9c",
+      "size_bytes": 24563
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGBH034_PETZ_RECOVERY_ORIENTATION_TO_NEGATIVE_SCREEN_CURRENT_COUPLING_GATE_20260929",
+      "sha256_tree": "7fd9c904a9b133e02bad3e4950e8c559a1b705540a508f09681ce20abdf5005a",
+      "size_bytes": 22456
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGBH035_SOURCE_RELATIVE_ENTROPY_PRODUCTION_TO_NEGATIVE_PALATINI_GRADIENT_GATE_20260929",
+      "sha256_tree": "03ebf2c8106b0253d426c024b6b8b206a571de38d8f006851782718484ef5069",
+      "size_bytes": 24448
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGBH036_GLOBAL_LOG_BRANCH_AND_MAXIMAL_EXTENSION_FROM_SELECTED_STATIC_SPHERICAL_FINITE_ACTION_GATE_20260929",
+      "sha256_tree": "68b45d50037ca25c99c093753b3da4c095ce98936d328258af147bd9783e8ad8",
+      "size_bytes": 28907
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGBH037_SOURCE_MAXIMAL_ATLAS_INEXTENDIBILITY_AND_GLOBAL_CAUSAL_STRUCTURE_GATE_20260929",
+      "sha256_tree": "45a6ba75aac37a483aeb3162a1922893f3e14533acc321ce13cde49ecba52743",
+      "size_bytes": 30102
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGCAL007_SOURCE_TOTAL_CHARGE_TO_FINITE_SCREEN_RADIUS_AND_REFINEMENT_LEVEL_QUANTIZATION_GATE_20260928",
+      "sha256_tree": "5124072047bc222e6b21e35f0429feb25261e6c711dd35f2a51bb4734d0670ba",
+      "size_bytes": 45066
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGCAL008_SOURCE_POSITIVE_SCREEN_NUMBER_AND_QUASILOCAL_ENERGY_TO_REFINEMENT_INVARIANT_HORIZON_AREA_GATE_20260928",
+      "sha256_tree": "9af02ea4cc21f3cd5076f809262cb2bfa44ae01c972ea75c6d77fad16cc88828",
+      "size_bytes": 38140
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGCAL009_SOURCE_QUADRATIC_CHARGE_CASIMIR_AND_DIRICHLET_ENERGY_TO_SCREEN_NUMBER_AREA_LAW_GATE_20260928",
+      "sha256_tree": "8d1419da3910f2961846fb9895a548f5a566d67f325e3740f9cd4b0ade67f60a",
+      "size_bytes": 39439
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGCAL010_SOURCE_EXCITATION_AREA_NUMBER_TO_CONSERVED_MISNER_SHARP_MASS_AND_SCHWARZSCHILD_SPECTRUM_GATE_20260928",
+      "sha256_tree": "1ace6d10476df726836edcdcf4073571abab78b819277566ba3c16a74211bf16",
+      "size_bytes": 48942
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGCAL042_GLOBAL_DIMENSIONAL_RESCALING_ORBIT_TO_MINIMAL_ONE_EXTERNAL_ANCHOR_NECESSITY_AND_SUFFICIENCY_GATE_20260929",
+      "sha256_tree": "33d81e197a0797617ef554149f4242c9c64ab1b5b24e41046ad3ab8b090b550a",
+      "size_bytes": 31561
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGCAL043_SOURCE_QUANTUM_PHASE_ACTION_AND_EVENT_CELL_TYPE_COMPOSITION_TO_UNCONDITIONAL_ONE_ANCHOR_GATE_20260929",
+      "sha256_tree": "30f13768dbaf2fa49b6f46f6383f692301de356efcc2c7a67d25ba65e753dd37",
+      "size_bytes": 28187
+    },
+    {
+      "file_count": 12,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGCTRL013_FREE_TYPED_LIFT_AND_MINIMAL_FAITHFUL_BRAID_QUOTIENT_GATE_20260929",
+      "sha256_tree": "30257cd5753631ea2cd5d6f12ffbaee13c2e980250d3cc84f0fea9fa9308e4ca",
+      "size_bytes": 37453
+    },
+    {
+      "file_count": 12,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGNEUT023_INTERNAL_M3_NEUTRAL_CARRIER_AND_SOURCE_WEIGHTED_GAP_LAPLACIAN_GATE_20260928",
+      "sha256_tree": "7cac43379abbfae44ed0a0502e989e9ee04591c26d1b01d173884da73fba8c3c",
+      "size_bytes": 37032
+    },
+    {
+      "file_count": 12,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGNEUT024_SOURCE_ORDERED_C3_WEIGHTED_FLOQUET_SIMULTANEOUS_CP_GAP_GATE_20260928",
+      "sha256_tree": "361542dd9abd46cead451eb15fca8eba2a86ec9c2db3fbf364019b5f20a8b8e8",
+      "size_bytes": 38588
+    },
+    {
+      "file_count": 12,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGNEUT025_SOURCE_NATIVE_WEAK_CURRENT_INTERTWINER_TO_PHYSICAL_THREE_NEUTRINO_TYPING_GATE_20260928",
+      "sha256_tree": "2ad353c7ac1c6bc869d1b409d889640908560476813d0da0e31beaa4e277a015",
+      "size_bytes": 40468
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGNEUT031_FINITE_NEUTRAL_CTP_ACTION_TO_CAUSAL_FACE_TWO_FORM_TRANSGRESSION_GATE_20260928",
+      "sha256_tree": "dba23e23c7dd83a585558be01f705867ff1acf00104379868ca3dc28bc4f729d",
+      "size_bytes": 30698
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGQBV002_POINTED_HODGE_POLAR_GINSPARG_WILSON_REGULATOR_GATE_20260929",
+      "sha256_tree": "d30bddde894e9652b6267439e14586aa28ae324bca93f950edc206e166fbf5f2",
+      "size_bytes": 19568
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGQBV003_POINTED_BV_HALFDENSITY_QME_REFINEMENT_RENORMALIZATION_GATE_20260929",
+      "sha256_tree": "137fdc20ba33c3c95224171535628752cfe21e340ce7f8d9dca6d1b46be8724e",
+      "size_bytes": 18649
+    },
+    {
+      "file_count": 14,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGSTRAT009_RAW_COVARIANT_TEMPORAL_AUXILIARY_EQUIVALENCE_20260929",
+      "sha256_tree": "ca19644b0fc3388ec3c5bd85d44628bc8801b80bcf87258448405d41bb7346e3",
+      "size_bytes": 23757
+    },
+    {
+      "file_count": 11,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGSTRAT009_SOURCE_AFFINE_PLAQUETTE_SECOND_JET_AND_CHILD_SPLIT_GATE_20260929",
+      "sha256_tree": "3c6bed7cdab54ed7d38b176506269dea24d9c97cbb04153447e6773552ad6b95",
+      "size_bytes": 28496
+    },
+    {
+      "file_count": 12,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGSTRAT010_EXACT_CYCLOTOMIC_HESSIAN_RANK_AND_ORIENTATION_SHEET_GATE_20260929",
+      "sha256_tree": "80ac72b4ff83ac2370d435b8e973622b3d9d608b442a914529747662ba4ec444",
+      "size_bytes": 34666
+    },
+    {
+      "file_count": 9,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGSTRAT011_SOURCE_REVERSE_SHEET_PALATINI_COMPLETION_GATE_20260929",
+      "sha256_tree": "31ea687761091118d7a01d9d829d155a3cc8378932c301f7411d348dedeb09c9",
+      "size_bytes": 32444
+    },
+    {
+      "file_count": 12,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGSTRAT012_SOURCE_DAGGER_CHIRAL_DOUBLE_COVER_GATE_20260929",
+      "sha256_tree": "ac65858cc0adf503aa9ee50f4fc12c2b872072ef9fbd4bc7d2f5ac31889ae0cb",
+      "size_bytes": 35862
+    },
+    {
+      "file_count": 12,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQGSTRAT013_SOURCE_PERFECT_BFV_SCHUR_COMPLEMENT_GATE_20260929",
+      "sha256_tree": "14862d7181a8043ed60432a08b7b9183efcf75fab9337f49925cae9fd5d7ed99",
+      "size_bytes": 45377
+    },
+    {
+      "file_count": 5,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQG_G3_R01_5_SOURCE_PERFECT_HISTORY_GROUPOID_ADM_HDA_CLOSURE_20260926",
+      "sha256_tree": "87bd06764a82797978e32dcc4550a55484c4941c6ea49047d1c8d73f153dc892",
+      "size_bytes": 13287
+    },
+    {
+      "file_count": 10,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQG_G3_R02_5_LINEAR_TWO_MODE_FINITE_TIME_STRONG_CONVERGENCE_GATE_20260926",
+      "sha256_tree": "e816c68e92a557b8478a678508158589f6404c7ae31025db1a2d7aad28fad542",
+      "size_bytes": 28773
+    },
+    {
+      "file_count": 5,
+      "kind": "directory",
+      "path": "evidence/packages/sra/SRA_DPA_BQG_G3_R02_5_NORMALIZED_SYM2_TEN_COMPONENT_STRONG_CONVERGENCE_CLOSURE_20260926",
+      "sha256_tree": "7fcbfeab853f874eb2d7c7a22c1845501b1ce373f539ef6177014f1a513f85c4",
+      "size_bytes": 9212
+    },
+    {
+      "file_count": 8,
+      "kind": "directory",
+      "path": "evidence/packages/sra/UB612_PBM_COVARIANT_SIGMA6_U4_V0_2_PARALLEL4_FOUR_ROOT_GENERATOR_GATE",
+      "sha256_tree": "7627b30c1cd7e52dfc88f786e50bc187cfdbb6c3c74914f660573fb9bde1f4e1",
+      "size_bytes": 354760
+    },
+    {
+      "file_count": 1,
+      "kind": "file",
+      "path": "expected/source_verification_v099.json",
+      "sha256": "fc6eef24e85f7d52320f47e452f00af667bf300aedc81657b5fca50217cdead5",
+      "size_bytes": 2188
+    },
+    {
+      "file_count": 1,
+      "kind": "file",
+      "path": "src/bqg_v099/source.py",
+      "sha256": "b083c6cff369b7ff58774f9d5c6a12dc32d13ccc692ad537f2b4799ecc0423e5",
+      "size_bytes": 14405
+    },
+    {
+      "file_count": 1,
+      "kind": "file",
+      "path": "theorems/analytic_proofs_v1.md",
+      "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397",
+      "size_bytes": 11477
+    }
+  ],
+  "schema": "siel.bqg.evidence-integrity.v1"
+}

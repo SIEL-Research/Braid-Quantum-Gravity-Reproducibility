@@ -1,0 +1,48 @@
+{
+  "schema": "siel.dpa.bgce439.derived-anomaly-solution-groupoid-sm-completion.result.v1",
+  "candidate_id": "BGCE439",
+  "date": "2026-09-24",
+  "fixed_source_revision": "08251de82bef1bfe26c55840d36689a675c7ef96",
+  "primary_evidence_status": "Theoretical derivation",
+  "qualifier": "Commit-pinned exact finite algebra in an explicit source-derived solution-groupoid extension; unchanged current-source operation NO-GO retained",
+  "scientific_layer": "mathematical formulation and derived finite matter-sector construction",
+  "status": "SCOPED_PASS_DERIVED_ANOMALY_SOLUTION_GROUPOID_STANDARD_MODEL_EQUIVALENT_MATTER_CONTENT",
+  "decisive_result": "The eight source-selected D,U anomaly orientations and their three intrinsic flips define the explicit transformation groupoid X semidirect (Z2)^3. Its regular crossed product has 64 independent matrix units and is exactly M8(C). Boolean degree resolves as 1,3,3,1; degree one is the canonical linear solution-response shell and gives a rank-three projector. Gauge action is identical on every object, so this shell carries three exact copies of the derived nonvectorlike left-Weyl character (3,2)_1+(bar3,1)_-4+(bar3,1)_2+(1,2)_-3+(1,1)_6. Every local anomaly remains zero, Witten parity is even and the global quotient kernel remains Z6. The degree-zero orientation projector has rank one. On its two conjugate scalar routes, the exact gauge-equivariant anti-linear involution J_H=A K has a four-real-dimensional fixed form, hence one independent complex weak doublet rather than two Higgs fields. The source trace cubic supplies the up, down and lepton Yukawa cycles; groupoid averaging keeps exactly three generation-diagonal couplings. All checks pass in all eight source sectors without target charges or fitted coefficients.",
+  "observed_evidence": [
+    "C(X) crossed_product (Z2)^3 has an exact 64-element matrix-unit basis and faithful regular representation M8(C).",
+    "The intrinsic Boolean degree-one Fourier projector has exact rank three and commutes with the common gauge representation.",
+    "Three copied anomaly vectors remain identically zero; Witten parity stays even and the common center kernel is Z6.",
+    "The trivial solution character has rank one and the scalar anti-linear fixed form is one complex SU2 doublet plus its dependent conjugate.",
+    "The source Tr(ABC) cubic and cube averaging retain exactly the up, down and lepton generation-diagonal Yukawa intertwiners."
+  ],
+  "pattern": "Quantizing the complete source-selected anomaly-solution space supplies the missing finite generation algebra: linear solution responses are fermionic generations, while the invariant solution mode is the scalar carrier.",
+  "interpretive_leap": "Treat the derived anomaly-solution transformation groupoid as a finite internal quantum extension of the source, and treat Boolean degree as physical response order. This extension is explicit and exact but is not an operation already present in the unchanged source algebra.",
+  "alternative_explanations": [
+    "The eight orientations may remain a classification device rather than a physical internal space.",
+    "The degree-one shell may encode formal parameter responses rather than propagating fermion generations.",
+    "Realistic flavor breaking may require additional dynamics even though the Standard Model interaction types are present."
+  ],
+  "novel_hypothesis": "Physical generation is the first-order Fourier response of the complete source-selected anomaly-solution groupoid, and the Higgs is its invariant real scalar mode.",
+  "falsifier": "Reject this completion scope if the solution-groupoid extension is not admitted as physical, if an independent derivation selects a different response degree, or if a required Standard Model interaction fails under a future dynamical or empirical realization.",
+  "required_prospective_test": "Construct dynamics for the derived groupoid fields and test whether symmetry breaking, nondegenerate masses and flavor mixing arise without fitted target matching; these are beyond the present representation-and-interaction closure.",
+  "counter_intuition_scan": {
+    "ordinary_explanation": "Any finite eight-point cube has a rank-three Fourier shell; dimension three alone is not evidence for generations.",
+    "strongest_counterpattern": "Here the cube is the complete target-free anomaly-minimum solution class selected by the original modular spectrum, its coordinates have intrinsic source meanings, and every vertex carries the same independently derived Standard Model character.",
+    "selection_risk": "The physical identification of linear response with generations remains the declared bold hypothesis. It is not hidden as a theorem of the unchanged source."
+  },
+  "confidence": {
+    "finite_groupoid_and_projectors": "VERY_HIGH_EXACT",
+    "representation_anomaly_and_Higgs_real_form": "VERY_HIGH_EXACT_WITHIN_DERIVED_EXTENSION",
+    "physical_identification_of_linear_response": "BOLD_SCOPED_HYPOTHESIS",
+    "empirical_Standard_Model": "NOT_CLAIMED"
+  },
+  "SIEL_generation_classification": "SIEL_GUIDED_STANDARD_COMPATIBLE_DERIVED_EXTENSION",
+  "gate_decision": {
+    "BQG_G3_R03_4": "CLOSED_SCOPED_IN_EXPLICIT_DERIVED_ANOMALY_SOLUTION_GROUPOID_CLASS",
+    "new_subtask_created": false
+  },
+  "next_gate": null,
+  "runtime_class": "SECONDS_EXACT_64_MATRIX_UNIT_AND_EIGHT_SECTOR_CHECK",
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+  "claim_ceiling": "BGCE439 closes BQG-G3-R03.4 only in the explicit derived anomaly-solution-groupoid and Boolean-linear-response class. It does not retract BGCE438's NO-GO for existing source operations, derive observed Yukawa values, masses, CKM or PMNS mixing, electroweak vacuum dynamics, empirical Standard Model confirmation, or completed quantum gravity."
+}

@@ -1,0 +1,373 @@
+{
+  "schema": "siel.dpa.bgce323.result.v1",
+  "candidate_id": "BGCE323",
+  "date": "2026-09-23",
+  "fixed_source_revision": "575c571946ba4006377ce51c9d89d49f0c5170b4",
+  "input_hashes": {
+    "audits/SRA_DPA_BGCE310_TORSOR_GAUGE_COVARIANT_ENVIRONMENT_CHARGE_AND_TOTAL_G1_BALANCE_GATE_20260923/RESULT.json": "cf2c04a8f32f8f5a2ffb2d2ff0c95600de10e2d467e830a0d5da65452a2988f0",
+    "audits/SRA_DPA_BGCE311_FOUR_SOURCE_CHARGE_ENVIRONMENT_BALANCES_TO_DISCRETE_TOTAL_WARD_GATE_20260923/RESULT.json": "fb4a435034c5dfaa79864fd7c3dee0b3bc4c1d744e8763e6bb23b20b76c8d41d",
+    "audits/SRA_DPA_BGCE319_CANONICAL_MODULAR_TIME_REVERSAL_AND_CTP_METRIC_GATE_20260923/RESULT.json": "bb5d05194da43dd5a5755a96aafc51463120dbae335c490b3c4f053fbde986f7",
+    "audits/SRA_DPA_BGCE321_BKM_RIESZ_ODD_SOURCE_LIFT_AND_CONTACT_TERM_GATE_20260923/RESULT.json": "ea0de4f01e6975768445cb00acbd24fca25e1cb63f8126d0f8c00bd5b9e269a3",
+    "audits/SRA_DPA_BGCE322_COLLISION_SUPPORT_INTERACTION_STRESS_AND_FOUR_COMPONENT_BALANCE_GATE_20260923/RESULT.json": "8ae1776515657371834bd52f0f7e35d9cdd723e36ebf5931d0b3705f8ca61754",
+    "projects/active/discovery_partner/formal_checks/ocbfh014_source_native_refinement_naturality_check.py": "176c75ac349f0f3f142d9c850ca0682436b7ad00cd179f6806de253d0a7acabb",
+    "audits/SRA_DPA_BGCE141_SOURCE_MARK_CHARGE_CYLINDER_CURRENT_TO_DOUBLED_METRIC_STRESS_FUNCTOR_GATE_20260919/evaluate.py": "be872bba4a2b6da1ed0aeb20a443714d6984086c5d5ae8f584e0dad4a12da3c1",
+    "audits/SRA_DPA_BGCE319_CANONICAL_MODULAR_TIME_REVERSAL_AND_CTP_METRIC_GATE_20260923/evaluate.py": "0be77a8650115667ae14be1c07adb168449372924d02ca6fe3131a10cb30c3e3",
+    "audits/SRA_DPA_BGCE320_THETA_ODD_RESPONSE_TO_SOURCE_METRIC_TANGENT_INTERTWINER_GATE_20260923/evaluate.py": "433abba77f16fe239a07034bb390bb3808ce013aef0f03e95f6d06314efa805e",
+    "audits/UB476_BRAID_CASIMIR_SECTION_FREE_SAME_ENERGY_C5_BACKREACTION_GATE/evaluate.py": "1a97f11de4a3024a4839fc99f54574ca148ac59c7026bb24bb16ba8e6e5f2ad6",
+    "audits/UB443_TYPED_SIGNED_SURVIVOR_GAUGE_OR_OBSERVABLE_GATE/evaluate.py": "ad53908146ba65d9de71994c0b297fac759a05c4938378f6cc962bbf9eae8c9e",
+    "audits/SRA_DPA_BGCE108_SOURCE_PARENT_ACTION_SECTOR_IDEMPOTENT_GATE_20260919/evaluate.py": "cdaabce1dd356cd67505463baff2d9963c1dc598aa888982d046ae93910f3ea7"
+  },
+  "primary_evidence_status": "Speculative interpretation",
+  "qualifier": "exact all-sector finite isometry theorem with temporal typing obstruction",
+  "status": "SPLIT_PASS_EXACT_STRONG_ONE_COLLISION_FOUR_GENERATOR_INTERTWINER_AND_FINITE_NOETHER_COVARIANCE__SPATIAL_METRIC_DIRECTIONS_ALIGN__TEMPORAL_CHARGE_SCORE_INDEPENDENT_OF_G1__FULL_VARIATIONAL_STRESS_DYNAMICAL_INFLUENCE_LOCAL_REPEATED_WARD_AND_CONTINUUM_IDENTIFICATION_OPEN",
+  "strong_intertwiner": {
+    "input_generators": [
+      "G1",
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "bare_output_generator": "Y0_alpha=X_alpha tensor I + I tensor E_alpha",
+    "residual": "R_alpha=V X_alpha-Y0_alpha V",
+    "compressed_defect": "D_alpha=V*R_alpha",
+    "minimal_Hermitian_interaction": "J_alpha=R_alpha V*+V R_alpha*-V D_alpha V*",
+    "identity": "(Y0_alpha+J_alpha)V=V X_alpha",
+    "Hermitian": true,
+    "all_four_nonzero_strong_residuals": true,
+    "all_eight_actual_sectors": true,
+    "strong_residual_HS_norm_squared": [
+      "12",
+      "64",
+      "112/3",
+      "112/3"
+    ],
+    "minimal_interaction_HS_norm_squared": [
+      "24",
+      "104",
+      "182/3",
+      "182/3"
+    ],
+    "exponentiated_covariance": "exp(-it(Y0+J)) V = V exp(-itX) for every real t",
+    "new_fit_or_coefficient": false,
+    "q_one_quarter_collision_used": true
+  },
+  "uniqueness_and_contact": {
+    "selection": "unique Hermitian solution with zero complement-complement block, equivalently the minimum Hilbert-Schmidt/reachable-block representative",
+    "general_solution": "J=J_min+C with C=C* and C V=0",
+    "undetermined_complement_dimension": 390625,
+    "doubled_undetermined_complement_dimension": 1562500,
+    "physical_intertwining_affected_by_C": false,
+    "unrestricted_microscopic_contact_removed": false
+  },
+  "metric_response_alignment": {
+    "three_spatial_directions": "PASS: both use the same G1/P_chi_i commutators",
+    "temporal_collision_generator": "G1",
+    "temporal_BGCE321_score_source": "centered charge chemical-potential tangent",
+    "charge_tangent_vs_omega_G1_tangent_rank_all_sectors": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "common_exact_Gram": [
+      [
+        "4/375",
+        "3217/3796875"
+      ],
+      [
+        "3217/3796875",
+        "598699/34171875"
+      ]
+    ],
+    "charge_score_proportional_to_G1_score": false,
+    "full_one_plus_three_metric_Noether_identification": false
+  },
+  "repeated_collision": {
+    "global_n_step_support_covariance": "PASS_BY_ISOMETRY_COMPOSITION",
+    "local_additive_interaction_telescoping": false,
+    "reason": "The spatial J_i acts jointly on the continuing system and emitted block, so later collisions dress earlier interaction terms; it is not an emitted environment-only charge."
+  },
+  "scope_boundary": {
+    "strong_finite_one_collision_Ward_Noether_candidate": true,
+    "physical_full_four_component_metric_variational_stress": false,
+    "source_selected_full_ten_metric_collision_deformation": false,
+    "standard_dynamical_Feynman_Vernon_or_SK_influence_action": false,
+    "local_repeated_total_Ward": false,
+    "finite_to_continuum_Hilbert_stress_identity": false,
+    "continuum_total_Ward_from_collision_parent": false,
+    "full_finite_Lorentzian_Einstein_backreaction": false
+  },
+  "records": [
+    {
+      "mask": 0,
+      "strong_residual_HS_norm_squared": [
+        "12",
+        "64",
+        "112/3",
+        "112/3"
+      ],
+      "compressed_defect_HS_norm_squared": [
+        "0",
+        "24",
+        "14",
+        "14"
+      ],
+      "minimal_strong_interaction_HS_norm_squared": [
+        "24",
+        "104",
+        "182/3",
+        "182/3"
+      ],
+      "charge_vs_G1_tangent_Gram": [
+        [
+          "4/375",
+          "3217/3796875"
+        ],
+        [
+          "3217/3796875",
+          "598699/34171875"
+        ]
+      ],
+      "charge_vs_G1_tangent_rank": 2
+    },
+    {
+      "mask": 5,
+      "strong_residual_HS_norm_squared": [
+        "12",
+        "64",
+        "112/3",
+        "112/3"
+      ],
+      "compressed_defect_HS_norm_squared": [
+        "0",
+        "24",
+        "14",
+        "14"
+      ],
+      "minimal_strong_interaction_HS_norm_squared": [
+        "24",
+        "104",
+        "182/3",
+        "182/3"
+      ],
+      "charge_vs_G1_tangent_Gram": [
+        [
+          "4/375",
+          "3217/3796875"
+        ],
+        [
+          "3217/3796875",
+          "598699/34171875"
+        ]
+      ],
+      "charge_vs_G1_tangent_rank": 2
+    },
+    {
+      "mask": 8,
+      "strong_residual_HS_norm_squared": [
+        "12",
+        "64",
+        "112/3",
+        "112/3"
+      ],
+      "compressed_defect_HS_norm_squared": [
+        "0",
+        "24",
+        "14",
+        "14"
+      ],
+      "minimal_strong_interaction_HS_norm_squared": [
+        "24",
+        "104",
+        "182/3",
+        "182/3"
+      ],
+      "charge_vs_G1_tangent_Gram": [
+        [
+          "4/375",
+          "3217/3796875"
+        ],
+        [
+          "3217/3796875",
+          "598699/34171875"
+        ]
+      ],
+      "charge_vs_G1_tangent_rank": 2
+    },
+    {
+      "mask": 13,
+      "strong_residual_HS_norm_squared": [
+        "12",
+        "64",
+        "112/3",
+        "112/3"
+      ],
+      "compressed_defect_HS_norm_squared": [
+        "0",
+        "24",
+        "14",
+        "14"
+      ],
+      "minimal_strong_interaction_HS_norm_squared": [
+        "24",
+        "104",
+        "182/3",
+        "182/3"
+      ],
+      "charge_vs_G1_tangent_Gram": [
+        [
+          "4/375",
+          "3217/3796875"
+        ],
+        [
+          "3217/3796875",
+          "598699/34171875"
+        ]
+      ],
+      "charge_vs_G1_tangent_rank": 2
+    },
+    {
+      "mask": 16,
+      "strong_residual_HS_norm_squared": [
+        "12",
+        "64",
+        "112/3",
+        "112/3"
+      ],
+      "compressed_defect_HS_norm_squared": [
+        "0",
+        "24",
+        "14",
+        "14"
+      ],
+      "minimal_strong_interaction_HS_norm_squared": [
+        "24",
+        "104",
+        "182/3",
+        "182/3"
+      ],
+      "charge_vs_G1_tangent_Gram": [
+        [
+          "4/375",
+          "3217/3796875"
+        ],
+        [
+          "3217/3796875",
+          "598699/34171875"
+        ]
+      ],
+      "charge_vs_G1_tangent_rank": 2
+    },
+    {
+      "mask": 21,
+      "strong_residual_HS_norm_squared": [
+        "12",
+        "64",
+        "112/3",
+        "112/3"
+      ],
+      "compressed_defect_HS_norm_squared": [
+        "0",
+        "24",
+        "14",
+        "14"
+      ],
+      "minimal_strong_interaction_HS_norm_squared": [
+        "24",
+        "104",
+        "182/3",
+        "182/3"
+      ],
+      "charge_vs_G1_tangent_Gram": [
+        [
+          "4/375",
+          "3217/3796875"
+        ],
+        [
+          "3217/3796875",
+          "598699/34171875"
+        ]
+      ],
+      "charge_vs_G1_tangent_rank": 2
+    },
+    {
+      "mask": 24,
+      "strong_residual_HS_norm_squared": [
+        "12",
+        "64",
+        "112/3",
+        "112/3"
+      ],
+      "compressed_defect_HS_norm_squared": [
+        "0",
+        "24",
+        "14",
+        "14"
+      ],
+      "minimal_strong_interaction_HS_norm_squared": [
+        "24",
+        "104",
+        "182/3",
+        "182/3"
+      ],
+      "charge_vs_G1_tangent_Gram": [
+        [
+          "4/375",
+          "3217/3796875"
+        ],
+        [
+          "3217/3796875",
+          "598699/34171875"
+        ]
+      ],
+      "charge_vs_G1_tangent_rank": 2
+    },
+    {
+      "mask": 29,
+      "strong_residual_HS_norm_squared": [
+        "12",
+        "64",
+        "112/3",
+        "112/3"
+      ],
+      "compressed_defect_HS_norm_squared": [
+        "0",
+        "24",
+        "14",
+        "14"
+      ],
+      "minimal_strong_interaction_HS_norm_squared": [
+        "24",
+        "104",
+        "182/3",
+        "182/3"
+      ],
+      "charge_vs_G1_tangent_Gram": [
+        [
+          "4/375",
+          "3217/3796875"
+        ],
+        [
+          "3217/3796875",
+          "598699/34171875"
+        ]
+      ],
+      "charge_vs_G1_tangent_rank": 2
+    }
+  ],
+  "decision": "The BGCE322 compression balance upgrades exactly to a strong one-collision intertwiner.  The unique reachable-block Hermitian completion J_alpha makes (Y0_alpha+J_alpha)V=V X_alpha and therefore exponentiates to a finite Noether covariance in all eight sectors without a fitted coefficient.  This is stronger than expectation or compression conservation.  The three spatial generators are the same G1/P_chi_i directions used by the BGCE321 mixed scores.  The remaining temporal direction does not align: the BGCE321 centered-charge tangent and the omega_can G1 tangent have exact rank two in every sector, so their BKM scores are independent.  Consequently the strong G1+H_i quartet cannot yet be identified with the full charge+mixed metric-response quartet.  Global repeated support transport follows by composition, but local additive interaction telescoping, a full metric-dependent collision deformation, a standard dynamical influence action, physical four-component variational stress, and collision-derived continuum total Ward remain open.",
+  "counter_intuition_scan": {
+    "ordinary_explanation": "A Hermitian strong completion can be built for any finite isometry once a generator is chosen; the formula is general dilation geometry.",
+    "SIEL_specific_part": "The actual Braid source fixes V, G1, the three H_i, the exact residual norms, the common all-sector result, and the independent charge-plus-mixed BKM metric packet.",
+    "strongest_counterpattern": "The temporal metric score is not the conserved G1 generator, and arbitrary complement-only operators remain invisible to the physical intertwining relation.",
+    "falsifier": "Failure of the exact residual norms, non-Hermiticity or failure of the strong identity, or rank one rather than rank two for the charge/G1 tangent pair."
+  },
+  "next_gate": "BGCE324_CENTERED_CHARGE_SCORE_TO_COLLISION_NOETHER_TIME_OR_MODULAR_ENERGY_GATE",
+  "runtime_class": "SHORT_EXACT_ALL_SECTOR_LINEAR_ALGEBRA_NO_PARAMETER_SCAN",
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+  "claim_ceiling": "BGCE323 derives an exact strong one-collision four-generator intertwiner and finite exponentiated Noether covariance, and proves a temporal typing obstruction between the conserved G1 direction and the BGCE321 centered-charge metric score.  It does not derive a full four-component physical variational stress, a full ten-component metric deformation of the collision, a standard causal influence action, local repeated Ward conservation, equality with continuum Hilbert stress, collision-derived continuum Einstein backreaction, empirical gravity, or completed quantum gravity."
+}

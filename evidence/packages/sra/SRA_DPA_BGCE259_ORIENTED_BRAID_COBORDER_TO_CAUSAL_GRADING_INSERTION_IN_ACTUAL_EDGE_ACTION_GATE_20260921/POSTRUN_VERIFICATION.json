@@ -1,0 +1,10 @@
+{
+  "candidate_id": "BGCE259",
+  "stored_verify": "PASS",
+  "python_compile": "PASS",
+  "git_diff_check": "PASS",
+  "runtime_seconds": 0.11291495896875858,
+  "long_computation_used": false,
+  "manual_fit_used": false,
+  "result": "ORIENTATION_ONLY_ACTION_SELECTION_NO_GO"
+}

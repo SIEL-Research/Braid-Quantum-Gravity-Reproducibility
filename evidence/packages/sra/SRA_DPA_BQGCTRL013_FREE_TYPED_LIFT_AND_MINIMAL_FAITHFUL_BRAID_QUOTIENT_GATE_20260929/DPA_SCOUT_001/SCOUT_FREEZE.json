@@ -1,0 +1,16 @@
+{
+  "schema": "siel.dpa.bqgctrl013.freeze.v1",
+  "id": "BQGCTRL-013",
+  "scout_id": "DPA-SCOUT-BQGCTRL013-001",
+  "date": "2026-09-29",
+  "parent": "BQGCTRL-011/012",
+  "status": "FROZEN_BEFORE_EVALUATION",
+  "pinned_revision": "c45a07ce1994835e9b0c9f00bafff73b69eb6740",
+  "hypothesis": "A non-Braid free typed lift reproduces the full product-cone image only nonfaithfully; the minimal faithful quotient is forced to impose the Yang-Baxter relation.",
+  "ordinary_alternative": "The Braid source is one presentation of a generic typed monoidal source and is not ontologically identifiable from downstream endpoints.",
+  "endpoint": "full-chain source-presentation identifiability and minimal faithful quotient",
+  "falsifier": "A faithful coherent source with distinct r1r2r1 and r2r1r2 arrows reproduces the exact complete BQGCTRL-012 target functor.",
+  "stopping_condition": "First exact complete quotient/countermodel certificate.",
+  "execution": "python3 evaluate_minimal_source.py",
+  "claim_ceiling": "Scoped full-chain source-selection theorem up to observational equivalence and minimal faithful crossing presentation; no universal source ontology or empirical claim."
+}

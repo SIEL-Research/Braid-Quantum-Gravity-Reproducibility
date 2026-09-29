@@ -1,0 +1,24 @@
+{
+  "schema": "siel.dpa.bqgneut023.input.v1",
+  "scout_id": "BQGNEUT-023-X1",
+  "gate_id": "BQGNEUT-023_INTERNAL_M3_NEUTRAL_CARRIER_AND_SOURCE_WEIGHTED_GAP_LAPLACIAN_GATE",
+  "source_commit": "2e1c68acb995be38a438846b2bede93ae94815a8",
+  "source_snapshot_id": "DPA-SNAPSHOT-2e1c68acb995",
+  "inputs": [
+    {
+      "path": "audits/SRA_DPA_BQGNEUT022_SOURCE_CONJUGATION_EQUIVARIANT_HISTORY_PROCESS_AND_PHASE_FRAME_GATE_20260928/DPA_SCOUT_001/RESULT.json",
+      "sha256": "4314839758fba41bf130db4b6878ce54c7559f3519ae6a12833ad1ac4acb8282"
+    },
+    {
+      "path": "audits/SRA_DPA_BQGFLAV026_UNCOMPRESSED_COMPLEX_BRAID_ACTION_TO_NEW_FLAVOUR_OPERATOR_GATE_20260927/DPA_SCOUT_001/RESULT.json",
+      "sha256": "89cca1b689ed981142ec010fa3560e96d075e00b19358d9659cbba4c9bc11d83"
+    },
+    {
+      "path": "audits/SRA_DPA_BGCE524_SOURCE_POINTING_CAP_SELECTOR_ON_STANDARD_MULTIPLICITY_SPACE_TO_CANONICAL_THREE_COPY_MATTER_MODULE_GATE_20260926/DPA_SCOUT_001/RESULT.json",
+      "sha256": "8c641cf31a1046ea83c471149fa794cfdce177e2302406260d1af93d1b27c7f6"
+    }
+  ],
+  "target_data_accessed": false,
+  "parameter_scan_used": false,
+  "long_computation_used": false
+}

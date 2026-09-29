@@ -1,0 +1,109 @@
+{
+  "schema": "siel.dpa.bqgcal009.raw.v1",
+  "scout_id": "DPA-SCOUT-BQGCAL-009-X1",
+  "gate_id": "BQGCAL-009_SOURCE_QUADRATIC_CHARGE_CASIMIR_AND_DIRICHLET_ENERGY_TO_SCREEN_NUMBER_AREA_LAW_GATE",
+  "source_commit": "b1db38f07a60ea7e3cf925e1f540f6f4599546d8",
+  "source_snapshot_id": "DPA-SNAPSHOT-b1db38f07a60",
+  "evidence_status": "Theoretical derivation",
+  "evidence_qualifiers": "Exact Q(sqrt(3)) quadratic-Casimir calculation and pointed conditional expectation; physical mass interpretation remains open",
+  "scientific_layer": "source quadratic excitation Casimir and refinement-invariant area-number algebra",
+  "governance_class": "DPA_SCOPED_SCIENTIFIC_DECISION",
+  "decision": "SCOPED_PASS__THE_SOURCE_POINTED_TRACE_PRESERVING_CONDITIONAL_EXPECTATION_OF_H_E_SQUARED_HAS_IDENTITY_VALUE_ONE_OVER_18_AND_NONIDENTITY_VALUE_THIRTEEN_OVER_90__SUBTRACTING_THE_SOURCE_SELECTED_IDENTITY_BASELINE_GIVES_THE_POSITIVE_EXCITATION_CASIMIR_C_EXC_EQUALS_FOUR_OVER_45_TIMES_N1_EXACTLY__THE_TAIL_LIFT_IS_ADDITIVE_AND_COMPOSES_WITH_THE_REFINEMENT_INVARIANT_AREA_LAW__PHYSICAL_SCREEN_TYPING_QUASILOCAL_MASS_AND_ABSOLUTE_SCALE_REMAIN_OPEN",
+  "bold_hypothesis": {
+    "interpretive_leap": "The linear Ward charge is signed and symmetry-centered, while its positive quadratic Casimir contains the source activity. The pointed identity/nonidentity conditional expectation may isolate a vacuum-subtracted excitation Casimir exactly proportional to the source event number.",
+    "new_structure": "C_exc=E_point(H_E^2)-c_e I, where E_point is the trace-preserving conditional expectation onto span{P_e,P_non} and c_e is the identity-sector quadratic vacuum value.",
+    "source_status": "H_E, pointing and N are derived. Interpreting C_exc as physical horizon area or quasi-local mass remains open.",
+    "strongest_ordinary_alternative": "This is a generic two-sector coarse-graining identity for a pointed finite Hamiltonian and does not make the resulting count a gravitational observable."
+  },
+  "pointed_conditional_expectation": {
+    "algebra": "span{P_e,P_non}",
+    "formula": "E_point(X)=Tr(P_e X)P_e+(Tr(P_non X)/5)P_non",
+    "trace_preserving": true,
+    "completely_positive": true,
+    "unital": true,
+    "torsor_covariant": true
+  },
+  "quadratic_values": {
+    "identity_sector": "1/18",
+    "nonidentity_normalized_trace": "13/90",
+    "nonidentity_trace_total": "13/18",
+    "vacuum_subtracted_contrast": "4/45"
+  },
+  "excitation_casimir": {
+    "definition": "C_exc=E_point(H_E^2)-(1/18)I",
+    "exact_operator_identity": "C_exc=(4/45)N_1",
+    "positive": true,
+    "spectrum": [
+      "0",
+      "4/45"
+    ],
+    "coefficient_fitted": false,
+    "identity_baseline_source_selected": true
+  },
+  "tail_and_area_law": {
+    "tail_identity": "C_exc,n=(4/45)N_n",
+    "count_recovery": "N_n=(45/4)C_exc,n",
+    "refinement_invariant_area": "A_total=(45/4)A_0*C_exc,n",
+    "radius_candidate": "r=sqrt((45/4)C_exc,n)*ell_star"
+  },
+  "noncompensating_gates": {
+    "G1_PINNED_CHARGE_COUNT_AND_COMPOSITE_AREA_INPUTS_VALID": true,
+    "G2_H_E_SQUARED_IS_POSITIVE_BY_CONSTRUCTION": true,
+    "G3_POINTED_TRACE_PRESERVING_EXPECTATION_IS_SOURCE_CANONICAL": true,
+    "G4_IDENTITY_BASELINE_IS_FIXED_BEFORE_NONIDENTITY_CONTRAST": true,
+    "G5_VACUUM_SUBTRACTED_QUADRATIC_CASIMIR_IS_POSITIVE": true,
+    "G6_EXCITATION_CASIMIR_EQUALS_FOUR_OVER_45_TIMES_N1": true,
+    "G7_TAIL_LIFT_IS_ADDITIVE_AND_REFINEMENT_COMPATIBLE": true,
+    "G8_EVENT_COUNT_IS_DERIVED_AS_PHYSICAL_GEOMETRIC_SCREEN_COUNT": false,
+    "G9_CASIMIR_IS_DERIVED_AS_CONSERVED_QUASILOCAL_MASS": false,
+    "G10_ABSOLUTE_SI_SCALE_IS_DERIVED": false,
+    "G11_NO_TARGET_ACCESS_FIT_SCAN_OR_LONG_COMPUTATION": true
+  },
+  "positive_quadratic_count_relation_pass": true,
+  "refinement_invariant_area_composition_pass": true,
+  "physical_source_screen_number_pass": false,
+  "conserved_quasilocal_mass_pass": false,
+  "absolute_gravity_calibration_pass": false,
+  "pattern": "The signed linear charge has zero first moments, but its pointed quadratic contrast isolates the event-number projection with exact coefficient 4/45.",
+  "interpretive_leap": "The excitation Casimir is proposed as an area-number carrier, not yet as physical mass.",
+  "alternative_explanations": [
+    "Any pointed finite Hamiltonian admits a two-sector block expectation, so the operator identity alone is not gravitational.",
+    "Vacuum-subtracted quadratic activity may count source events without representing conserved quasi-local energy.",
+    "The event-count/geometric-screen identification remains an unproved source-typing bridge."
+  ],
+  "novel_hypothesis": "The square root of the additive excitation-area number, combined with the marginal-screen condition, gives the source Schwarzschild mass spectrum M_K proportional to sqrt(K) and can be matched to the finite total Ward energy without importing G.",
+  "falsifier": "Reject the mechanism if the pointed conditional expectation of H_E^2 minus its identity baseline is not positive, is not exactly proportional to N_1, is not additive on the tail, or requires a fitted coefficient.",
+  "required_prospective_test": "Derive or exclude the identification of sqrt((45/4)C_exc,n) with a conserved finite quasi-local mass and require compatibility with the Schwarzschild/Misner-Sharp relation and the continuum Ward normalization.",
+  "strongest_ordinary_alternative": "This is a generic two-sector coarse-graining identity for a pointed finite Hamiltonian and does not make the resulting count a gravitational observable.",
+  "counter_intuition_scan": "The exact 4/45 relation is strong algebraically and was not fitted. Yet the pointed conditional expectation deliberately forgets label-resolved structure, and a positive activity Casimir is not automatically conserved mass. The result closes a count/area carrier, not black-hole dynamics or calibration.",
+  "confidence_in_algebraic_relation": "VERY_HIGH_EXACT",
+  "confidence_in_physical_horizon_interpretation": "LOW_OPEN",
+  "standard_explanation": "Vacuum subtraction of a block-averaged quadratic Hamiltonian can yield a positive excitation-number observable.",
+  "SIEL_specific_interpretation": "The actual Braid six-label charge, pointing and 25-adic screen law jointly fix the coefficient 4/45 and the resulting area-number composition.",
+  "novelty_question": "No external novelty claim is made until a conserved mass relation or competitor-divergent prediction is derived.",
+  "distinguishing_prediction": "A source-fixed sqrt(K) mass spectrum or horizon correction must follow from the next conservation test; otherwise the relation remains internal algebra.",
+  "SIEL_generation_classification": "SIEL_GUIDED_STANDARD_COMPATIBLE",
+  "claim_ceiling": "This scout may derive a source-canonical positive quadratic excitation Casimir and its exact relation to the pointed integer count and BQGCAL-007 area law. It may not establish that the Casimir is conserved physical quasi-local mass, identify event count with geometric screen count, derive SI radius or mass, Newton's constant, entropy, Hawking physics, or a finite quantum black hole.",
+  "next_gate": "BQGCAL-010_SOURCE_EXCITATION_AREA_NUMBER_TO_CONSERVED_MISNER_SHARP_MASS_AND_SCHWARZSCHILD_SPECTRUM_GATE",
+  "work_packages": [
+    "BQG-G3-R03.2",
+    "BQG-G3-R03.5"
+  ],
+  "work_package_status": "R03.2_EXTERNAL_PENDING_QUADRATIC_AREA_NUMBER_PASS__R03.5_PARTIAL_STRENGTHENED",
+  "runtime": {
+    "python": "3.14.6",
+    "target_data_accessed": false,
+    "parameter_scan_used": false,
+    "long_computation_used": false
+  },
+  "tests": {
+    "T1_INPUT_HASHES_MATCH": true,
+    "T2_IDENTITY_QUADRATIC_VALUE_IS_ONE_OVER_18": true,
+    "T3_NONIDENTITY_NORMALIZED_TRACE_IS_THIRTEEN_OVER_90": true,
+    "T4_EXCITATION_CONTRAST_IS_FOUR_OVER_45": true,
+    "T5_OPERATOR_EQUALITY_C_EXC_EQUALS_FOUR_OVER_45_N1": true,
+    "T6_EXCITATION_CASIMIR_IS_POSITIVE": true,
+    "T7_NO_PHYSICAL_MASS_OR_ABSOLUTE_SCALE_PROMOTION": true,
+    "T8_NO_TARGET_ACCESS_FIT_SCAN_OR_LONG_COMPUTATION": true
+  }
+}

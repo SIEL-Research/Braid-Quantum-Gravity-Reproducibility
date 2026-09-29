@@ -1,0 +1,10 @@
+{
+  "schema": "siel.dpa.execution_log.v1",
+  "scout_id": "DPA-SCOUT-BQGBH-037-X1",
+  "date": "2026-09-29",
+  "command": "python3 evaluate_scout.py",
+  "exit_code": 0,
+  "runtime_class": "short exact algebra",
+  "iterations_inspected": 1,
+  "outcome_file": "RAW_OUTPUT.json"
+}

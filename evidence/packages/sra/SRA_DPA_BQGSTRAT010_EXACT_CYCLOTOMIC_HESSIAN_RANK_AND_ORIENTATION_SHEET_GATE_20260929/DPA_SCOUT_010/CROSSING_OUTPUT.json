@@ -1,0 +1,39 @@
+{
+  "classification": "NUMERICAL_SUPPORT_ONLY__NOT_AN_EXACT_CROSSING_CERTIFICATE",
+  "records": [
+    {
+      "crossing_nonzero_eigenvalues_numeric": [
+        1.316827822574198,
+        1.3168278225741992
+      ],
+      "crossing_rank_numeric": 2,
+      "digits": [
+        1,
+        0,
+        0,
+        1
+      ],
+      "finite_difference_epsilon": 1e-06,
+      "hermitian_residual": 0.0,
+      "nullity": 16,
+      "transverse_parameter": "theta_0"
+    },
+    {
+      "crossing_nonzero_eigenvalues_numeric": [
+        1.2835563877688674
+      ],
+      "crossing_rank_numeric": 1,
+      "digits": [
+        1,
+        0,
+        0,
+        4
+      ],
+      "finite_difference_epsilon": 1e-06,
+      "hermitian_residual": 0.0,
+      "nullity": 15,
+      "transverse_parameter": "theta_0"
+    }
+  ],
+  "schema": "siel.dpa.bqgstrat010.crossing-probe.v1"
+}

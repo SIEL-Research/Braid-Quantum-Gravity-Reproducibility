@@ -1,0 +1,30 @@
+{
+  "schema": "siel.dpa.bgce443.r2.status.v1",
+  "candidate_id": "BGCE443-R2",
+  "date": "2026-09-25",
+  "producer_revision": "801238084ee43fc58a11fb213cdf9bdb530f103e",
+  "audited_active_revision": "6ecac190414df484f86de3da375881f1259fce0a",
+  "state": "E0_FAIL_EXECUTION_BLOCKED",
+  "focal_evaluator_created": false,
+  "focal_outcome_accessed": false,
+  "independent_E0": "FAIL",
+  "independent_E0_record": {
+    "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_2/E0_RESULT.json",
+    "sha256": "47d561f165c7a2eb16143ea3b6020b0ed10639b357fd7f890c88c9e4f075f5b4"
+  },
+  "independent_E0_audit": {
+    "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_2/E0_AUDIT_JA.md",
+    "sha256": "48d90cfa2c881331b82399fbd65d8c354e0ca5b5e88679cab2ab3c6307d452ad"
+  },
+  "blocking_findings": [
+    "declared producer revision does not contain the Revision 2 packet",
+    "no source-derived all-window null-link orientation/sign map s_a(x)",
+    "no executable common positive/negative/comparator witness harness",
+    "orders, local-core basis, norm, bounded-inner exclusion and closability certificate are not frozen",
+    "shuffled-sign and coordinate-swap controls are not exact frozen artifacts",
+    "raw retention schema and technical isolation from invalid Revision 1 outcomes are absent"
+  ],
+  "execution_authorized": false,
+  "revision_1_scientific_decision_reused": false,
+  "next_permitted_action": "CREATE_APPEND_ONLY_REVISION_3_PACKET_CLOSING_E0_FINDINGS_WITHOUT_FOCAL_OUTCOME_ACCESS"
+}

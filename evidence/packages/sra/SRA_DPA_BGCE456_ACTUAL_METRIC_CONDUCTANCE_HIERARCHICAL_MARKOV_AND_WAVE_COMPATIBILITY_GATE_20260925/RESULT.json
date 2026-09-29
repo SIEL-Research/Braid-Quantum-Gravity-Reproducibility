@@ -1,0 +1,255 @@
+{
+  "schema": "siel.dpa.bgce456.result.v1",
+  "candidate_id": "BGCE456",
+  "date": "2026-09-25",
+  "primary_evidence_status": "Theoretical derivation with exact actual-metric finite-conductance witnesses",
+  "scientific_layer": "actual-metric anisotropic hierarchical Markov and wave carrier",
+  "status": "SCOPED_PASS_ACTUAL_METRIC_POSITIVE_CONDUCTANCE__EXACT_ISOTROPIC_BGCE452_LIMIT__ALL_DEPTH_REFINEMENT_AND_UCP_HEAT__SAME_OPERATOR_POSITIVE_WAVE__SPECTRAL_DIMENSION_THREE_BY_EXACT_FORM_BOUNDS__OPEN_UNIQUENESS_ACTIVE_VOLUME_SMOOTH_SYMBOL_AND_EMPIRICAL_MATCH",
+  "input_hashes": {
+    "audits/SRA_DPA_BGCE452_SOURCE_HIERARCHICAL_SPATIAL_LAPLACIAN_UCP_HEAT_AND_WARD_GATE_20260925/RESULT.json": "1f964c5659d3fae29caa1b399f78cadcf14a671d7a72ea94f381cc5e90db981d",
+    "audits/SRA_DPA_BGCE453_ACTUAL_METRIC_WEIGHTED_HIERARCHICAL_HEAT_HILBERT_STRESS_AND_LORENTZIAN_WARD_GATE_20260925/RESULT.json": "210f7a8342971273ebd9dda3512ba91544750c8d725c6ab5c4e35344f0d3e0d1",
+    "audits/SRA_DPA_BGCE454_CALIBRATED_DIMENSIONFUL_HIERARCHICAL_HEAT_RATE_AND_LOW_MODE_LORENTZIAN_PROPAGATOR_GATE_20260925/RESULT.json": "8955d1114de2e95465251d31927b3dc04b205656179aa232a3646ae5ca6f9882",
+    "audits/SRA_DPA_BGCE455_ACTIVE_PBM_PROJECTIVE_VOLUME_AND_ANISOTROPIC_THREE_CHARACTER_PROPAGATOR_GATE_20260925/RESULT.json": "e7e529aed0a34b272a0bb6c864b5d5d5f99a9325f5304ef3163ad4e26b745c8f",
+    "audits/SRA_DPA_BGCE455_ACTIVE_PBM_PROJECTIVE_VOLUME_AND_ANISOTROPIC_THREE_CHARACTER_PROPAGATOR_GATE_20260925/ACTUAL_METRIC_INPUT.json": "892c22811af19e8e59c445814a26ce400646f2a115c184839a6257f203da497b",
+    "audits/UB476_BRAID_CASIMIR_SECTION_FREE_SAME_ENERGY_C5_BACKREACTION_GATE/SAME_ENERGY_C5_CERTIFICATE.json": "3e2f816dffd2d0dbae96b7ff10c94e684e80aec8a824620cb1f27b5e51dc0b97"
+  },
+  "conductance_construction": {
+    "child_group": "C5^3 with ordered source characters chi1, chi2, chi3",
+    "centered_difference": "delta(x,y) is the unique representative of y-x in {-2,-1,0,1,2}^3.",
+    "formula": "c_A(x,y)=(1/5)*(delta^T A delta)/(delta^T delta) for x!=y, with A=gamma^-1 from the saved actual metric.",
+    "normalization": "The factor 1/5 is forced by L_I=25(I-E0) on 125 children.",
+    "unordered_edge_count": 7750,
+    "all_edges_strictly_positive": true,
+    "distinct_exact_conductance_count": 29,
+    "minimum_edge": {
+      "x": [
+        0,
+        0,
+        0
+      ],
+      "y": [
+        2,
+        4,
+        4
+      ],
+      "conductance": "5606622/32824217"
+    },
+    "maximum_edge": {
+      "x": [
+        0,
+        0,
+        0
+      ],
+      "y": [
+        1,
+        1,
+        1
+      ],
+      "conductance": "344277153/262593736"
+    },
+    "axis_conductances": {
+      "chi1": "133223499/262593736",
+      "chi2": "88483260375/145214336008",
+      "chi3": "88483260375/145214336008"
+    },
+    "old_BGCE455_witness": {
+      "x": [
+        0,
+        1,
+        2
+      ],
+      "y": [
+        1,
+        0,
+        2
+      ],
+      "conductance": "13732655193/72607168004",
+      "new_L_xy": "-13732655193/72607168004",
+      "old_raw_L_xy": "5630036271921/290428672016"
+    },
+    "decision": "PASS_STRICTLY_POSITIVE_SOURCE_METRIC_CONDUCTANCE"
+  },
+  "isotropic_and_hierarchical_theorem": {
+    "isotropic_limit": "A=I gives c_I(x,y)=1/5 on every unordered child pair and L_I=25(I-E0) exactly.",
+    "level_operator": "Delta_m^A=sum_(k=1)^m 25^(k-1) L_A^(k), where L_A^(k) is the same 125-child conductance Laplacian inside each level-k parent block.",
+    "refinement": "The new level operator annihilates child-constant functions, so Delta_(m+1)^A j_m=j_m Delta_m^A exactly.",
+    "heat_refinement": "Functional calculus gives exp(-t Delta_(m+1)^A)j_m=j_m exp(-t Delta_m^A).",
+    "UCP": "Every finite-depth Delta_m^A is a symmetric graph Laplacian with nonnegative jump rates; its heat semigroup is positivity preserving, unital and trace preserving on the commutative address algebra, and its identity lift is UCP on the internal M_125 fiber.",
+    "weighted_state_scope": "Under BGCE349 child-constant actual-metric refinement, the 125 child volume weights are equal inside each parent, so the same symmetric conductance heat preserves the BGCE453 metric-volume state.",
+    "decision": "PASS_EXACT_ALL_DEPTH_REFINEMENT_AND_UCP_IN_CHILD_CONSTANT_ACTUAL_METRIC_SCOPE"
+  },
+  "wave_and_spectral_theorem": {
+    "same_operator_wave": "Delta_m^A is positive self-adjoint, so partial_s^2+Delta_m^A has the standard spectral cosine/sine evolution; no separate raw exterior operator is needed.",
+    "exact_rational_form_bounds": {
+      "alpha": "6471630/13949279",
+      "beta": "1253195578485/145214336008",
+      "proof": "Positive gamma gives A>=alpha I with alpha=1/tr(gamma), while A<=beta I with beta=tr(A). Therefore alpha Delta_iso<=Delta_A<=beta Delta_iso levelwise and at every finite depth."
+    },
+    "spectral_dimension": "Min-max comparison with BGCE452 yields N_iso(Lambda/beta)<=N_A(Lambda)<=N_iso(Lambda/alpha); both bounds scale as Lambda^(3/2), so the anisotropic spatial spectral dimension is 3.",
+    "dynamic_scaling": "Level eigenvalue bands scale by 25 and their wave-frequency bands by 5, retaining hierarchical z=1.",
+    "UV_moments": "The positive lower comparison alpha Delta_iso makes every finite polynomial heat moment finite for t>0.",
+    "levels_1_to_8": [
+      {
+        "level": 1,
+        "detail_multiplicity": 124,
+        "cumulative_dimension": 125,
+        "isotropic_reference_eigenvalue": 25,
+        "anisotropic_lower_bound": "161790750/13949279",
+        "anisotropic_upper_bound": "31329889462125/145214336008",
+        "N_squared_equals_reference_lambda_cubed": true
+      },
+      {
+        "level": 2,
+        "detail_multiplicity": 15500,
+        "cumulative_dimension": 15625,
+        "isotropic_reference_eigenvalue": 625,
+        "anisotropic_lower_bound": "4044768750/13949279",
+        "anisotropic_upper_bound": "783247236553125/145214336008",
+        "N_squared_equals_reference_lambda_cubed": true
+      },
+      {
+        "level": 3,
+        "detail_multiplicity": 1937500,
+        "cumulative_dimension": 1953125,
+        "isotropic_reference_eigenvalue": 15625,
+        "anisotropic_lower_bound": "101119218750/13949279",
+        "anisotropic_upper_bound": "19581180913828125/145214336008",
+        "N_squared_equals_reference_lambda_cubed": true
+      },
+      {
+        "level": 4,
+        "detail_multiplicity": 242187500,
+        "cumulative_dimension": 244140625,
+        "isotropic_reference_eigenvalue": 390625,
+        "anisotropic_lower_bound": "2527980468750/13949279",
+        "anisotropic_upper_bound": "489529522845703125/145214336008",
+        "N_squared_equals_reference_lambda_cubed": true
+      },
+      {
+        "level": 5,
+        "detail_multiplicity": 30273437500,
+        "cumulative_dimension": 30517578125,
+        "isotropic_reference_eigenvalue": 9765625,
+        "anisotropic_lower_bound": "63199511718750/13949279",
+        "anisotropic_upper_bound": "12238238071142578125/145214336008",
+        "N_squared_equals_reference_lambda_cubed": true
+      },
+      {
+        "level": 6,
+        "detail_multiplicity": 3784179687500,
+        "cumulative_dimension": 3814697265625,
+        "isotropic_reference_eigenvalue": 244140625,
+        "anisotropic_lower_bound": "1579987792968750/13949279",
+        "anisotropic_upper_bound": "305955951778564453125/145214336008",
+        "N_squared_equals_reference_lambda_cubed": true
+      },
+      {
+        "level": 7,
+        "detail_multiplicity": 473022460937500,
+        "cumulative_dimension": 476837158203125,
+        "isotropic_reference_eigenvalue": 6103515625,
+        "anisotropic_lower_bound": "39499694824218750/13949279",
+        "anisotropic_upper_bound": "7648898794464111328125/145214336008",
+        "N_squared_equals_reference_lambda_cubed": true
+      },
+      {
+        "level": 8,
+        "detail_multiplicity": 59127807617187500,
+        "cumulative_dimension": 59604644775390625,
+        "isotropic_reference_eigenvalue": 152587890625,
+        "anisotropic_lower_bound": "987492370605468750/13949279",
+        "anisotropic_upper_bound": "191222469861602783203125/145214336008",
+        "N_squared_equals_reference_lambda_cubed": true
+      }
+    ],
+    "decision": "PASS_POSITIVE_WAVE_AND_SPECTRAL_DIMENSION_THREE_WITH_EXACT_COMPARISON_BOUNDS"
+  },
+  "all_eight_sector_inheritance": [
+    {
+      "mask": 0,
+      "same_actual_spatial_metric": true,
+      "same_positive_conductance": true,
+      "same_refinement_UCP_and_wave_theorem": true
+    },
+    {
+      "mask": 5,
+      "same_actual_spatial_metric": true,
+      "same_positive_conductance": true,
+      "same_refinement_UCP_and_wave_theorem": true
+    },
+    {
+      "mask": 8,
+      "same_actual_spatial_metric": true,
+      "same_positive_conductance": true,
+      "same_refinement_UCP_and_wave_theorem": true
+    },
+    {
+      "mask": 13,
+      "same_actual_spatial_metric": true,
+      "same_positive_conductance": true,
+      "same_refinement_UCP_and_wave_theorem": true
+    },
+    {
+      "mask": 16,
+      "same_actual_spatial_metric": true,
+      "same_positive_conductance": true,
+      "same_refinement_UCP_and_wave_theorem": true
+    },
+    {
+      "mask": 21,
+      "same_actual_spatial_metric": true,
+      "same_positive_conductance": true,
+      "same_refinement_UCP_and_wave_theorem": true
+    },
+    {
+      "mask": 24,
+      "same_actual_spatial_metric": true,
+      "same_positive_conductance": true,
+      "same_refinement_UCP_and_wave_theorem": true
+    },
+    {
+      "mask": 29,
+      "same_actual_spatial_metric": true,
+      "same_positive_conductance": true,
+      "same_refinement_UCP_and_wave_theorem": true
+    }
+  ],
+  "gate_decision": {
+    "actual_metric_nonnegative_conductance": "PASS_STRICTLY_POSITIVE",
+    "exact_BGCE452_isotropic_limit": "PASS",
+    "all_depth_refinement_intertwining": "PASS",
+    "same_operator_UCP_heat": "PASS",
+    "same_operator_positive_selfadjoint_wave": "PASS",
+    "anisotropic_spectral_dimension_three": "PASS_EXACT_ASYMPTOTIC_EXPONENT_BY_FORM_COMPARISON",
+    "all_finite_polynomial_heat_moments": "PASS",
+    "child_constant_actual_metric_volume_state": "PASS",
+    "conductance_uniqueness_from_source_axioms": "OPEN",
+    "active_nonpolynomial_PBM_volume_projectivity": "OPEN_AFTER_BGCE455_NO_GO_FOR_COMPONENTWISE_ROUTE",
+    "smooth_spacetime_principal_symbol_equal_to_A": "OPEN",
+    "provider_clock_SI_traceability": "OPEN_EXTERNAL_PENDING",
+    "empirical_gravity_match": "OPEN",
+    "general_physical_UV_completion": "OPEN",
+    "BQG_G3_R02_4": "REMAINS_CLOSED_SCOPED_WITH_ANISOTROPIC_HIERARCHICAL_UCP_BRIDGE_CLOSED",
+    "MMR_CGR_used": false,
+    "target_Einstein_equation_used": false,
+    "Einstein_Hilbert_or_Fierz_Pauli_action_used": false,
+    "manual_three_fifths_used": false,
+    "fitted_coefficient_used": false
+  },
+  "counter_intuition_scan": {
+    "ordinary_explanation": "Any positive definite quadratic form gives positive directional Rayleigh quotients, and any finite symmetric nonnegative conductance graph gives a Markov heat semigroup and a positive wave operator.",
+    "SIEL_specific_part": "The C5^3 child group, ordered three-character metric, 125-child normalization, 25-per-level scaling, internal M_125 lift and eight-sector inheritance all come from the saved Braid source carrier.",
+    "strongest_counterpattern": "The Rayleigh-quotient conductance is a natural source-derived bridge but is not proved unique. Its finite-group Fourier symbol is not yet proved to equal the smooth principal symbol p^T A p, and active PBM metric-volume projectivity remains open after the componentwise route failed.",
+    "falsifier": "A nonpositive conductance for the saved metric, failure of the A=I BGCE452 identity, loss of refinement/UCP after the hierarchy lift, or a spectral counting exponent different from three would falsify the scoped theorem."
+  },
+  "bold_hypothesis": {
+    "id": "H456_METRIC_ANISOTROPY_IS_DIRECTIONAL_CONDUCTANCE",
+    "statement": "On the fundamental Braid source cylinder, inverse spatial metric is physically realized by directional transition conductance on C5^3 rather than by inserting its raw exterior matrix into a Markov generator.",
+    "supported_part": "The actual saved metric now gives one exact strictly positive conductance carrier with the BGCE452 isotropic limit, all-depth UCP heat, positive wave dynamics and spectral dimension three.",
+    "unsupported_part": "Source-axiom uniqueness, the exact smooth principal symbol, active metric-volume projectivity, SI traceability and empirical gravity remain unproved."
+  },
+  "next_gate": "BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE",
+  "runtime_class": "SECONDS_EXACT_7750_EDGE_RATIONAL_CONDUCTANCE_CHECK_PLUS_EIGHT_LEVEL_AND_EIGHT_SECTOR_WITNESSES_NO_SEARCH",
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+  "claim_ceiling": "BGCE456 constructs an exact actual-metric-derived strictly positive conductance Laplacian on the Braid C5^3 child group. In the child-constant actual-metric hierarchy it has the exact BGCE452 isotropic limit, all-depth refinement-compatible UCP heat, same-operator positive wave evolution, spatial spectral dimension three and finite heat moments. It does not prove uniqueness of the conductance map, active PBM volume projectivity, equality to a smooth inverse-metric principal symbol, SI traceability, empirical gravity, general physical UV completion or completed quantum gravity."
+}

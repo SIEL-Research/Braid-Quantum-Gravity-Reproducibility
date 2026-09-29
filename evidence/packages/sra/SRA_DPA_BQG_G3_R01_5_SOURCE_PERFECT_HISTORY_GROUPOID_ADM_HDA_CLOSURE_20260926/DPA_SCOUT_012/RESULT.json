@@ -1,0 +1,58 @@
+{
+  "schema": "siel.dpa.bqgadm012.result.v1",
+  "scout_id": "DPA-SCOUT-BQGADM-012",
+  "date": "2026-09-26",
+  "work_package": "BQG-G3-R01.5",
+  "primary_evidence_status": "Theoretical derivation",
+  "decision": "CLOSED_SCOPED_LOCAL_REGULAR_SOURCE_PERFECT_HISTORY_GROUPOID_ADM_HDA",
+  "construction": {
+    "raw_tower": "the BGCE094/BGCE097 source-clock-oriented five-adic Palatini slab actions",
+    "perfect_action": "S_n^perf(z_minus,z_plus)=lim_(m to infinity) stat_(R_(m,n) z_m^boundary=(z_minus,z_plus)) S_m[z_m] on one common regular noncaustic history branch",
+    "stationary_composition": "S_02^perf=stat_(z_1)(S_01^perf+S_12^perf)",
+    "refinement": "J_(n+1,n)^* S_(n+1)^perf=S_n^perf",
+    "primitive_generators": "exactly the source-selected one clock deformation and three spatial incidence deformations",
+    "composites": "history-groupoid arrows and coherence cells, not new independent first-class constraints"
+  },
+  "proof": {
+    "existence_scope": "BGCE097/BGCE099 action convergence plus BQGEULER-010 strong trajectory convergence gives the local stationary limit on every declared regular noncaustic branch",
+    "noether_identity": "groupoid refactorization invariance gives R_n^dagger E(S_n^perf)=0 exactly",
+    "presymplectic_kernel": "after the BQGADM-005 Lorentz/torsion reduction, the four independent BQGADM-006 generators span the kernel on the open regular neighborhood where their rank-four minor stays nonzero",
+    "finite_HDA": "the Lie algebroid of the perfect history groupoid is the pullback of the BQGADM-011 metric-dependent hypersurface-deformation algebroid, so its scalar/vector moment maps are first class without promoting composite arrows to independent constraints",
+    "BFV": "the local first-class Lie-algebroid structure defines the standard homological BFV differential s_n with s_n squared equal to zero; groupoid associativity supplies the higher coherence that the failed fixed-module two-term construction lacked",
+    "refinement_intertwiner": "stationary composition and the nested source refinement maps intertwine the action, presymplectic form, constraint surface, BFV differential and HDA arrows exactly on the perfect-history image",
+    "physical_quotient": "the twelve-dimensional reduced Palatini phase space with four regular first-class generators has dimension 12-2*4=4, hence two configuration modes"
+  },
+  "analytic_domain": [
+    "one common local smooth history interval",
+    "a noncaustic stationary branch with unique gauge-fixed continuation",
+    "a nondegenerate transverse stationary Hessian after quotienting the four gauge directions",
+    "Sobolev regularity high enough for the BQGEULER-010 strong limit and boundary traces",
+    "the open neighborhood on which the BQGADM-006 rank-four minor remains nonzero"
+  ],
+  "gate_results": {
+    "source_clock_time_sliced_boundary_action": "PASS_AS_STATIONARY_REFINEMENT_LIMIT",
+    "generic_four_direction_kernel": "PASS_ON_LOCAL_REGULAR_RANK_FOUR_NEIGHBORHOOD",
+    "off_shell_noether_identity": "PASS_EXACT_ON_PERFECT_HISTORY_GROUPOID",
+    "finite_first_class_HDA": "PASS_AS_HISTORY_GROUPOID_LIE_ALGEBROID",
+    "BFV_nilpotency": "PASS_LOCAL_REGULAR_LIE_ALGEBROID",
+    "refinement_naturality": "PASS_EXACT_ON_NESTED_PERFECT_HISTORY_IMAGE",
+    "physical_phase_dimension_four": "PASS",
+    "new_physical_coefficient_or_target_Einstein_fit": "NONE"
+  },
+  "why_previous_no_go_is_avoided": "BQGADM-008 promoted the full gl(5) linear span of composed pair-groupoid moves to independent first-class constraints and therefore overgauged the phase space. The perfect-history construction retains four primitive source generators; their composites are arrows or coherence cells. Closure occurs by associative groupoid composition, not by adding every matrix in the fixed-grid linear span as a new constraint.",
+  "work_package_status_after_gate": "CLOSED_SCOPED",
+  "remaining_open": [
+    "an explicit local closed-form formula for the perfect action at finite depth",
+    "a proof beyond the local regular noncaustic branch, including caustics, singularities and strong curvature",
+    "an exact fixed-grid ultralocal finite HDA independent of the refinement limit",
+    "full coupled quantum matter BFV data, SI calibration and empirical gravity"
+  ],
+  "counter_intuition": {
+    "ordinary_explanation": "This is the standard exact-discrete-Lagrangian or perfect-action construction for a generally covariant system, expressed as a history groupoid.",
+    "braid_specific_input": "The Braid source supplies the finite Palatini tower, one-plus-three primitive directions, reduced twelve-dimensional carrier, five-way refinement and strong source update convergence.",
+    "strongest_boundary": "The result proves existence and exact closure on the source-perfect refinement image. It is not an explicit local finite-cell formula and does not show that the unrenormalized raw cell action has exact finite HDA.",
+    "falsifier": "Failure of the regular stationary refinement limit, loss of the rank-four generator minor, failure of groupoid stationary composition, or failure of refinement intertwining on the declared branch."
+  },
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_DERIVATION_ONLY",
+  "claim_ceiling": "Local regular source-perfect history-groupoid existence theorem with exact Noether identity, four first-class generator types, metric-dependent HDA Lie algebroid, BFV nilpotency, refinement intertwining and four-dimensional physical phase quotient. No explicit ultralocal raw finite action, global/strong-curvature theorem, empirical gravity, RPD adoption, Level 3 or Official SIEL status."
+}

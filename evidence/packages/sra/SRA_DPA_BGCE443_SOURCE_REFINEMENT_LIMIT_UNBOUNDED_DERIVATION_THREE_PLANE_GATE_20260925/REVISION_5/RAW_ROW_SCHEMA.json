@@ -1,0 +1,16 @@
+{
+  "schema": "siel.dpa.bgce443.r5.typed-retention.v1",
+  "result_schema": "siel.dpa.bgce443.r5.exact-nonfocal-witness.v1",
+  "aggregate_only_forbidden": true,
+  "row_variants": {
+    "stabilization": {"cardinality_per_direction": 3, "fields": {"order": "int", "residual_frobenius_square": "int"}},
+    "variance": {"cardinality_per_direction": 4, "fields": {"order": "int", "variance": "exact-rational-string", "expected": "exact-rational-string", "residual": "exact-rational-string"}},
+    "action_growth": {"cardinality_per_direction": 4, "fields": {"order": "int", "implementer_eigenvector_residual_square": "int", "action_vector_residual_square": "int", "observable_unitarity_residual_frobenius_square": "int", "action_ratio_square": "exact-rational-string", "action_norm_lower_bound": "exact-rational-string", "action_norm_upper_bound": "exact-rational-string"}},
+    "bounded_action": {"cardinality": 5, "fields": {"order": "int", "telescoping_residual_frobenius_square": "int", "action_ratio_square": "exact-rational-string", "action_norm_lower_bound": "exact-rational-string", "action_norm_upper_bound": "exact-rational-string"}},
+    "raw_action_hash": {"cardinality_per_transport": 16, "fields": {"basis_row": "int", "basis_column": "int", "action_sha256": "sha256-hex"}}
+  },
+  "endpoint_cardinalities": {"positive_directions": 3, "rank_controls": 3, "closability_positive_terms": 3, "comparator_transports": 2},
+  "decision_reconstruction_required": true,
+  "atomic_preservation_before_interpretation": true,
+  "noncompensating_endpoint_decisions_required": true
+}

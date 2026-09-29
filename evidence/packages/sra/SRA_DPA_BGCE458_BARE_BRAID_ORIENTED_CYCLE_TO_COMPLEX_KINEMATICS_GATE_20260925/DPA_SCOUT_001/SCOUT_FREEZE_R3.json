@@ -1,0 +1,18 @@
+{
+  "schema": "siel.dpa.scout.freeze.v1",
+  "scout_id": "DPA-SCOUT-BGCE458-001",
+  "gate_id": "BGCE458",
+  "attempt": "0003",
+  "frozen_at": "2026-09-25T14:54:36+09:00",
+  "source_commit": "abd5261df92d1639c4a16d6e2309b542d176fe14",
+  "source_snapshot_id": "DPA-SNAPSHOT-abd5261df92d",
+  "parent_freezes": ["SCOUT_FREEZE.json", "SCOUT_FREEZE_R2.json"],
+  "frozen_scientific_evaluator_sha256": "f7fc8db4ab821c223e466e335b5c18a4c2dc824e6f0060471fcf9d53271d02a8",
+  "attempt_0003_runner_sha256": "304706dbb260e2d88e8e50ec0a3e341a56ce3f3a000ff9594e4ef5ebf562e43d",
+  "attempt_0002_failure_sha256": "9d8621dd4b3a51c43ea94c22e031381d823a4eda0e3e2b7987a9ba4f6bf3d6dd",
+  "execution_command": "python3 audits/SRA_DPA_BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925/DPA_SCOUT_001/evaluate_scout_r3.py",
+  "result_informed_change": "Correct only the ordinary-flip comparator expected P rank from 120 to 80, because its 40 three-cycles contribute two real nontrivial directions each. The actual-source endpoint, expected rank 72, source rows, gates, and claim ceiling are unchanged.",
+  "outcome_accessed_before_freeze": "Only the comparator assertion failure; no complete raw output.",
+  "e0_status": "NOT_REQUIRED_FOR_BOUNDED_DPA_SCOUT_UNDER_SIEL_DEC_2026_067",
+  "claim_ceiling": "Unchanged from SCOUT_FREEZE.json. A pass is limited to the finite source-oriented complex kinematic sector and cannot establish the Born rule or pointed-Braid specificity."
+}

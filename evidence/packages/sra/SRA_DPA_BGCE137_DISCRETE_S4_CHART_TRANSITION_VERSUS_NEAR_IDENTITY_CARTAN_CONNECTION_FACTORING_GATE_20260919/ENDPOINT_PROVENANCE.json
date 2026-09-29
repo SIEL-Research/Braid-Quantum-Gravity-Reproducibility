@@ -1,0 +1,10 @@
+{
+  "schema": "siel.dpa.bgce137.endpoint-provenance.v1",
+  "candidate_id": "BGCE137",
+  "lifecycle_level": "NOT_ISSUED_BY_DPA__THEORETICAL_REFINEMENT_AND_CONTINUUM_DEPENDENCY_GATE_ONLY",
+  "positive_witness": "Four source-derived null rays, four new C5 tail factors and equal one-fifth child links give 625 children, exact one- and two-stage projective coarsening, constant normalized coframes and identity temporal connection in every chart.",
+  "negative_witness": "OCBFH014 supplies tensor-tail growth but does not physically identify the source-labelled diagonal digits with child event positions, and the resulting constant flat anchor does not supply an open compactly supported off-shell field domain.",
+  "matched_comparator": "A fixed clock-first/spatial-next assignment and any of its 23 reorderings give the same refinement modulo S4; restricting to orientation-preserving A4 leaves exactly two parity sheets rather than a preferred external axis order.",
+  "degeneracy_control": "Axis-count/order removal, physical localization, on-shell UTC and off-shell variational completion are reported separately.",
+  "status": "THEORETICAL_EXACT_CHECK__NO_E0_E1_E2_AUTHORITY"
+}

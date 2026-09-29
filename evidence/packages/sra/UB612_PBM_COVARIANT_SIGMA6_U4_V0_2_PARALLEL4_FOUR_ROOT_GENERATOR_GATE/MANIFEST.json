@@ -1,0 +1,41 @@
+{
+  "schema": "siel.audit.manifest.v1",
+  "date": "2026-09-13",
+  "files": [
+    {
+      "path": "audits/UB612_PBM_COVARIANT_SIGMA6_U4_V0_2_PARALLEL4_FOUR_ROOT_GENERATOR_GATE/AUDIT_JA.md",
+      "sha256": "83cbdc8f303df7c534f941ceea074a5cb68cb8f45c749644d95c729ac4b09138",
+      "bytes": 2526
+    },
+    {
+      "path": "audits/UB612_PBM_COVARIANT_SIGMA6_U4_V0_2_PARALLEL4_FOUR_ROOT_GENERATOR_GATE/PBM_COVARIANT_TRANSPORT_JETS_PARTIAL_v1.json",
+      "sha256": "d69eeb240dd4704814925e751d64bae7c0b1f642118a9302af9c7bf082561cbc",
+      "bytes": 327041
+    },
+    {
+      "path": "audits/UB612_PBM_COVARIANT_SIGMA6_U4_V0_2_PARALLEL4_FOUR_ROOT_GENERATOR_GATE/RESULT.json",
+      "sha256": "3a563ea6afc6962ce7f1dda10c767f449f5d0e8294d600e13e9f7e0beeca9e8d",
+      "bytes": 3923
+    },
+    {
+      "path": "audits/UB612_PBM_COVARIANT_SIGMA6_U4_V0_2_PARALLEL4_FOUR_ROOT_GENERATOR_GATE/evaluate.py",
+      "sha256": "ceb647f7b28e158edca6a4d6cb36792d96f8dd63e142d58a063826bd80faa23a",
+      "bytes": 13772
+    },
+    {
+      "path": "audits/UB612_PBM_COVARIANT_SIGMA6_U4_V0_2_PARALLEL4_FOUR_ROOT_GENERATOR_GATE/finalize.py",
+      "sha256": "3816d8a1e74e75521cb1bf18c94b377b8fb539cdf81e5aa3f114badd5cdea547",
+      "bytes": 2928
+    },
+    {
+      "path": "audits/UB612_PBM_COVARIANT_SIGMA6_U4_V0_2_PARALLEL4_FOUR_ROOT_GENERATOR_GATE/make_manifest.py",
+      "sha256": "928d8041c3bf8b416c6d2820b904e7c64eae6abd05fa9347c8ec4327504eb7df",
+      "bytes": 759
+    },
+    {
+      "path": "audits/UB612_PBM_COVARIANT_SIGMA6_U4_V0_2_PARALLEL4_FOUR_ROOT_GENERATOR_GATE/verify.py",
+      "sha256": "4a3318afce122e80099f175127619a10eb771b3754b3738ca13082b1a43bb119",
+      "bytes": 2130
+    }
+  ]
+}

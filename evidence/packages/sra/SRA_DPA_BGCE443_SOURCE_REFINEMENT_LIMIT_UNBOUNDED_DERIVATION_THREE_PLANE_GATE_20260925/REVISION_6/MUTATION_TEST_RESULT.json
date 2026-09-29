@@ -1,0 +1,10 @@
+{
+  "schema": "siel.dpa.bgce443.r6.mutation-test-result.v1",
+  "status": "PASS",
+  "tests_run": 5,
+  "decision_mutation": "REJECTED",
+  "relation_certificate_mutation": "REJECTED",
+  "rank_determinant_mutation": "REJECTED",
+  "fabricated_action_hashes_with_aggregate_update": "REJECTED",
+  "raw_action_entry_with_hash_and_aggregate_update": "REJECTED"
+}

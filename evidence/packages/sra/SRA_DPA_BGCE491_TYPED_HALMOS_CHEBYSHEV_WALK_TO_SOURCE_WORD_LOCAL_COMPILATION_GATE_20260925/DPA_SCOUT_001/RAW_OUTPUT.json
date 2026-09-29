@@ -1,0 +1,655 @@
+{
+  "BGCE490_total_H_query_range_preserved": [
+    203,
+    39102
+  ],
+  "attempt": "0001",
+  "cases_checked": 32,
+  "coefficient_fit": false,
+  "construction": {
+    "exact_identity": "E^dagger W^k E=T_k(A) for every k>=0",
+    "hermitianization": "U_tilde=|0><1| tensor U_A + |1><0| tensor U_A^dagger",
+    "input": "Any BGCE483-484 source-word LCU unitary U_A with success block A=H/alpha=A^dagger",
+    "reflection": "S=2EE^dagger-I, implemented by PREP, a success-address phase mark, and PREP^dagger",
+    "signal_block": "E^dagger U_tilde E=(A+A^dagger)/2=A",
+    "success_isometry": "E=|+> tensor |PREP-success>",
+    "walk": "W=S U_tilde"
+  },
+  "control_families_checked": [
+    "G1",
+    "H1",
+    "H2",
+    "H3"
+  ],
+  "counter_intuition_scan": "The square-root defect in the canonical Halmos formula is a representation choice, not a necessary physical primitive. Hermitianizing the already realized source-word LCU unitary produces a reflection with the same signal block, after which the product-of-reflections walk generates the identical Chebyshev functional calculus.",
+  "exact_recurrence_proof": "B_0=I and B_1=A. Since U_tilde^2=I and S=2EE^dagger-I, compression of successive powers gives B_(k+1)=2A B_k-B_(k-1), hence B_k=T_k(A).",
+  "focal_decision": "CLOSED_SCOPED_SOURCE_WORD_LCU_HERMITIANIZATION_AND_EXACT_CHEBYSHEV_WALK_COMPILATION",
+  "four_probability_role": "The four-probability source-V4 carrier remains the outer G1,H1,H2,H3 selector. Hermitianization and the Chebyshev walk are branch-local and do not act by compressed raw V4 reflections.",
+  "gate_id": "BGCE491",
+  "manual_phase_tuning": false,
+  "maximum_residuals": {
+    "chebyshev_residual": 1.1324410907102486e-14,
+    "hermitian_residual": 0.0,
+    "involution_residual": 4.463254353124628e-16,
+    "signal_block_residual": 1.1102230246251565e-16,
+    "unitary_residual": 3.1559974192548023e-16
+  },
+  "next_gate": "BGCE492_TYPED_SUCCESS_ADDRESS_MARK_MINIMALITY_AND_BARE_BRAID_OBSTRUCTION_GATE",
+  "primary_evidence_status": "Theoretical derivation",
+  "records": [
+    {
+      "BGCE490_total_H_query_count_preserved": 203,
+      "chebyshev_residual": 1.1324410907102486e-14,
+      "compiled_walk_steps_per_power": 29,
+      "control": "G1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.463254353124628e-16,
+      "mask": 0,
+      "maximum_chebyshev_degree": 29,
+      "signal_block_residual": 1.1102230246251565e-16,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 30,
+      "unitary_residual": 3.1559974192548023e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 243,
+      "chebyshev_residual": 8.884494670016878e-15,
+      "compiled_walk_steps_per_power": 27,
+      "control": "H1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440966973802366e-16,
+      "mask": 0,
+      "maximum_chebyshev_degree": 27,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 28,
+      "unitary_residual": 3.140237862201154e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 39102,
+      "chebyshev_residual": 4.884981327601437e-15,
+      "compiled_walk_steps_per_power": 14,
+      "control": "H2",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.441000688046494e-16,
+      "mask": 0,
+      "maximum_chebyshev_degree": 14,
+      "signal_block_residual": 6.938893903907228e-18,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 15,
+      "unitary_residual": 3.140261701771799e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 11339,
+      "chebyshev_residual": 5.447014881784507e-15,
+      "compiled_walk_steps_per_power": 17,
+      "control": "H3",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440901007320672e-16,
+      "mask": 0,
+      "maximum_chebyshev_degree": 17,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 18,
+      "unitary_residual": 3.140191216854617e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 203,
+      "chebyshev_residual": 1.1324410907102486e-14,
+      "compiled_walk_steps_per_power": 29,
+      "control": "G1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.463254353124628e-16,
+      "mask": 5,
+      "maximum_chebyshev_degree": 29,
+      "signal_block_residual": 1.1102230246251565e-16,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 30,
+      "unitary_residual": 3.1559974192548023e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 243,
+      "chebyshev_residual": 8.884494670016878e-15,
+      "compiled_walk_steps_per_power": 27,
+      "control": "H1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440966973802366e-16,
+      "mask": 5,
+      "maximum_chebyshev_degree": 27,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 28,
+      "unitary_residual": 3.140237862201154e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 39102,
+      "chebyshev_residual": 4.884981327601437e-15,
+      "compiled_walk_steps_per_power": 14,
+      "control": "H2",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.441000688046494e-16,
+      "mask": 5,
+      "maximum_chebyshev_degree": 14,
+      "signal_block_residual": 6.938893903907228e-18,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 15,
+      "unitary_residual": 3.140261701771799e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 11339,
+      "chebyshev_residual": 5.447014881784507e-15,
+      "compiled_walk_steps_per_power": 17,
+      "control": "H3",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440901007320672e-16,
+      "mask": 5,
+      "maximum_chebyshev_degree": 17,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 18,
+      "unitary_residual": 3.140191216854617e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 217,
+      "chebyshev_residual": 1.0774556767329527e-14,
+      "compiled_walk_steps_per_power": 31,
+      "control": "G1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.463254353124628e-16,
+      "mask": 8,
+      "maximum_chebyshev_degree": 31,
+      "signal_block_residual": 1.1102230246251565e-16,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 32,
+      "unitary_residual": 3.1559974192548023e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 243,
+      "chebyshev_residual": 8.661618671970764e-15,
+      "compiled_walk_steps_per_power": 27,
+      "control": "H1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.44116287846271e-16,
+      "mask": 8,
+      "maximum_chebyshev_degree": 27,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 28,
+      "unitary_residual": 3.140376387714949e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 27555,
+      "chebyshev_residual": 4.6681382952969845e-15,
+      "compiled_walk_steps_per_power": 15,
+      "control": "H2",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.441323011315229e-16,
+      "mask": 8,
+      "maximum_chebyshev_degree": 15,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 16,
+      "unitary_residual": 3.140489618740856e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 11339,
+      "chebyshev_residual": 4.886927633334958e-15,
+      "compiled_walk_steps_per_power": 17,
+      "control": "H3",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.441199295515004e-16,
+      "mask": 8,
+      "maximum_chebyshev_degree": 17,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 18,
+      "unitary_residual": 3.1404021384595776e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 217,
+      "chebyshev_residual": 1.0774556767329527e-14,
+      "compiled_walk_steps_per_power": 31,
+      "control": "G1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.463254353124628e-16,
+      "mask": 13,
+      "maximum_chebyshev_degree": 31,
+      "signal_block_residual": 1.1102230246251565e-16,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 32,
+      "unitary_residual": 3.1559974192548023e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 243,
+      "chebyshev_residual": 8.661618671970764e-15,
+      "compiled_walk_steps_per_power": 27,
+      "control": "H1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.44116287846271e-16,
+      "mask": 13,
+      "maximum_chebyshev_degree": 27,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 28,
+      "unitary_residual": 3.140376387714949e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 27555,
+      "chebyshev_residual": 4.6681382952969845e-15,
+      "compiled_walk_steps_per_power": 15,
+      "control": "H2",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.441362073941246e-16,
+      "mask": 13,
+      "maximum_chebyshev_degree": 15,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 16,
+      "unitary_residual": 3.140517240188603e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 11339,
+      "chebyshev_residual": 4.886927633334958e-15,
+      "compiled_walk_steps_per_power": 17,
+      "control": "H3",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.441199295515004e-16,
+      "mask": 13,
+      "maximum_chebyshev_degree": 17,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 18,
+      "unitary_residual": 3.1404021384595776e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 210,
+      "chebyshev_residual": 1.0880970281146686e-14,
+      "compiled_walk_steps_per_power": 30,
+      "control": "G1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.448463208428105e-16,
+      "mask": 16,
+      "maximum_chebyshev_degree": 30,
+      "signal_block_residual": 1.1102230246251565e-16,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 31,
+      "unitary_residual": 3.145538500538379e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 243,
+      "chebyshev_residual": 8.663752990105662e-15,
+      "compiled_walk_steps_per_power": 27,
+      "control": "H1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.44142447144282e-16,
+      "mask": 16,
+      "maximum_chebyshev_degree": 27,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 28,
+      "unitary_residual": 3.140561361885096e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 38794,
+      "chebyshev_residual": 4.558574727259167e-15,
+      "compiled_walk_steps_per_power": 14,
+      "control": "H2",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440998682972428e-16,
+      "mask": 16,
+      "maximum_chebyshev_degree": 14,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 15,
+      "unitary_residual": 3.1402602839703303e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 6714,
+      "chebyshev_residual": 6.1101840616235454e-15,
+      "compiled_walk_steps_per_power": 18,
+      "control": "H3",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440944659425684e-16,
+      "mask": 16,
+      "maximum_chebyshev_degree": 18,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 19,
+      "unitary_residual": 3.1402220835540834e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 210,
+      "chebyshev_residual": 1.0880970281146686e-14,
+      "compiled_walk_steps_per_power": 30,
+      "control": "G1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.448463208428105e-16,
+      "mask": 21,
+      "maximum_chebyshev_degree": 30,
+      "signal_block_residual": 1.1102230246251565e-16,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 31,
+      "unitary_residual": 3.145538500538379e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 243,
+      "chebyshev_residual": 8.663752990105662e-15,
+      "compiled_walk_steps_per_power": 27,
+      "control": "H1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.44142447144282e-16,
+      "mask": 21,
+      "maximum_chebyshev_degree": 27,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 28,
+      "unitary_residual": 3.140561361885096e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 38794,
+      "chebyshev_residual": 4.558574727259167e-15,
+      "compiled_walk_steps_per_power": 14,
+      "control": "H2",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440998682972428e-16,
+      "mask": 21,
+      "maximum_chebyshev_degree": 14,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 15,
+      "unitary_residual": 3.1402602839703303e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 6714,
+      "chebyshev_residual": 6.1101840616235454e-15,
+      "compiled_walk_steps_per_power": 18,
+      "control": "H3",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440944659425684e-16,
+      "mask": 21,
+      "maximum_chebyshev_degree": 18,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 19,
+      "unitary_residual": 3.1402220835540834e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 210,
+      "chebyshev_residual": 1.066251308843905e-14,
+      "compiled_walk_steps_per_power": 30,
+      "control": "G1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.448322848038761e-16,
+      "mask": 24,
+      "maximum_chebyshev_degree": 30,
+      "signal_block_residual": 1.1102230246251565e-16,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 31,
+      "unitary_residual": 3.1454392507552644e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 243,
+      "chebyshev_residual": 7.884342434787946e-15,
+      "compiled_walk_steps_per_power": 27,
+      "control": "H1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440919280096531e-16,
+      "mask": 24,
+      "maximum_chebyshev_degree": 27,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 28,
+      "unitary_residual": 3.140204137658338e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 27405,
+      "chebyshev_residual": 4.884981327601437e-15,
+      "compiled_walk_steps_per_power": 15,
+      "control": "H2",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.441362073941246e-16,
+      "mask": 24,
+      "maximum_chebyshev_degree": 15,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 16,
+      "unitary_residual": 3.140517240188603e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 6714,
+      "chebyshev_residual": 5.665440156575108e-15,
+      "compiled_walk_steps_per_power": 18,
+      "control": "H3",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440976740399686e-16,
+      "mask": 24,
+      "maximum_chebyshev_degree": 18,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 19,
+      "unitary_residual": 3.140244768228348e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 210,
+      "chebyshev_residual": 1.066251308843905e-14,
+      "compiled_walk_steps_per_power": 30,
+      "control": "G1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.448322848038761e-16,
+      "mask": 29,
+      "maximum_chebyshev_degree": 30,
+      "signal_block_residual": 1.1102230246251565e-16,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 31,
+      "unitary_residual": 3.1454392507552644e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 243,
+      "chebyshev_residual": 7.884342434787946e-15,
+      "compiled_walk_steps_per_power": 27,
+      "control": "H1",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440919280096531e-16,
+      "mask": 29,
+      "maximum_chebyshev_degree": 27,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 28,
+      "unitary_residual": 3.140204137658338e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 27405,
+      "chebyshev_residual": 4.884981327601437e-15,
+      "compiled_walk_steps_per_power": 15,
+      "control": "H2",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.441362073941246e-16,
+      "mask": 29,
+      "maximum_chebyshev_degree": 15,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 16,
+      "unitary_residual": 3.140517240188603e-16
+    },
+    {
+      "BGCE490_total_H_query_count_preserved": 6714,
+      "chebyshev_residual": 5.665440156575108e-15,
+      "compiled_walk_steps_per_power": 18,
+      "control": "H3",
+      "hermitian_residual": 0.0,
+      "involution_residual": 4.440976740399686e-16,
+      "mask": 29,
+      "maximum_chebyshev_degree": 18,
+      "signal_block_residual": 1.3877787807814457e-17,
+      "source_dilation_phases_checked": [
+        "0",
+        "+2pi/3",
+        "-2pi/3"
+      ],
+      "spectral_nodes_checked": 19,
+      "unitary_residual": 3.140244768228348e-16
+    }
+  ],
+  "schema": "siel.dpa.bgce491.raw.v1",
+  "scientific_layer": "source-word LCU hermitianization and local Chebyshev qubiterate compilation",
+  "scope_boundary": "This closes the walk using the existing typed finite-list source-word controller, source dagger and a typed success-address phase mark. It still does not derive the enlarged coherent controller or its address mark from bare adjacent-Braid relations alone, nor provide hardware errors, seconds calibration, continuum/QFT completion or empirical confirmation.",
+  "scout_id": "DPA-SCOUT-BGCE491-001",
+  "signed_sectors_checked": 8,
+  "source_commit": "2c0d7d75cea3a714a4edc8d428e8fad5230faa81",
+  "source_dilation_phases_checked": [
+    "0",
+    "+2pi/3",
+    "-2pi/3"
+  ],
+  "source_local_operations": [
+    "BGCE484 source-counted PREP and typed finite-list source-word SELECT",
+    "source reversal/dagger to obtain U_A^dagger",
+    "BGCE487 encoded signal-qubit X and continuous phase controls",
+    "typed success-address reflection on the finite controller register"
+  ],
+  "source_metadata": {
+    "actual_spatial_projector_ranks": [
+      8,
+      4,
+      4
+    ],
+    "actual_survivor_masks": [
+      0,
+      5,
+      8,
+      13,
+      16,
+      21,
+      24,
+      29
+    ],
+    "cross_source_commit": "c4b0db5fb5e175a1ea0b542e6dc71d41b7dbf551",
+    "cross_source_hashes_verified": 3
+  },
+  "spectral_READ_H_required": false,
+  "square_root_defect_required": false
+}

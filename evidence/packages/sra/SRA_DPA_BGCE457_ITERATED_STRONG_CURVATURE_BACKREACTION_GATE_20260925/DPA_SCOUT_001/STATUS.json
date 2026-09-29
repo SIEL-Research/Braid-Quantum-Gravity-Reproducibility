@@ -1,0 +1,14 @@
+{
+  "schema": "siel.dpa.scout.bgce457.status.v1",
+  "scout_id": "DPA-SCOUT-BGCE457-001",
+  "gate_id": "BGCE457",
+  "date": "2026-09-25",
+  "state": "COMPLETE_CLOSED_SCOPED",
+  "primary_evidence_status": "Theoretical derivation",
+  "decision": "CLOSED_SCOPED",
+  "work_package": "BQG-G3-R01.4",
+  "raw_output_sha256": "88d29093c075c0d0082198ad8e4c0468c5c936cc41378209fd3599d618e4cfa0",
+  "result_sha256": "274b792200690990c9d72d75129b65b5ccbc2c0a542817c9635635f87a4edafb",
+  "attempts_retained": 1,
+  "invalid_predecessor_retained": "DPA-SCOUT-BGCE444-001"
+}

@@ -1,0 +1,225 @@
+{
+  "schema": "siel-endpoint-provenance-record-v1",
+  "record_id": "BGCE443-REVISION-3-INDEPENDENT-E0-001",
+  "experiment_id": "BGCE443-REVISION-3",
+  "claim_id": "BGCE443-R3-UNIT-COUNTING-REFINEMENT-LIMIT-DERIVATION-THREE-PLANE",
+  "lifecycle_level": "E0",
+  "governing_subsystem": "SRA-INDEPENDENT-RESEARCH-AUDIT",
+  "source_revision": "4d8688d82b80e75771c52e3d235ac2c5cc493951",
+  "preregistration_revision": null,
+  "result_revision": null,
+  "producer_artifact": {
+    "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/PROTOCOL.md",
+    "sha256": "26d2e0814f4011127e9684dbf12111b5bde3d19c52875d374d8076b902496d63",
+    "context_id": "dpa-bgce443-revision3-producer",
+    "reviewer_id": "SRA-DPA"
+  },
+  "semantic_audit_artifact": {
+    "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/E0_AUDIT_JA.md",
+    "sha256": "8f5d50eb34b860900183e385a9311f2cdfa96cd64946945cbf358fd096d7ce0c",
+    "context_id": "bgce443-revision3-independent-e0-audit",
+    "reviewer_id": "SRA-INDEPENDENT-RESEARCH-AUDITOR"
+  },
+  "independence": {
+    "different_context": true,
+    "different_reviewer": true,
+    "statement": "Independent non-DPA pre-outcome audit of exact freeze commit 4d8688d82b80e75771c52e3d235ac2c5cc493951. The reviewer rehashed the complete tracked R3 packet and allowlisted sources and replayed only the non-focal witness harness. No focal evaluator was created, executed or inspected, and no focal or invalid R1/R2 outcome was accessed. Source typing and the corrected unit-counting prospective algebra pass, but executable endpoint discrimination, unsigned-swap specificity, bounded-inner exclusion, closability, E2 retention and access-control enforcement fail or remain unresolved."
+  },
+  "gates": [
+    {
+      "gate_id": "BGCE443-R3-E0-G1-REVISION-SOURCE-TYPING-AND-UNIT-COUNTING",
+      "scientific_alternative": "The prospective family either has revision-bound ordered source seeds and one coefficient-free all-window law or derives three directions from untyped dimension matching or ill-typed BGCE386 window coefficients.",
+      "code_locator": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/PROTOCOL.md:Source-typed construction; Algebraic local core and all-order stabilization",
+      "source_variables": [
+        "BGCE075 ordered mixed-bracket to g01,g02,g03 map",
+        "BGCE117 ordered modular-response transport",
+        "OCBFH014 marked-support Braid transport",
+        "all windows X_n from 0 through n-3 with unit coefficients",
+        "BGCE386 excluded from refinement-window coefficients"
+      ],
+      "intervention_constructor": "Bind the complete tracked packet to the exact commit, verify all six allowlisted hashes, and derive the ordered three seeds and all-window unit-counting law from the pinned source statements.",
+      "comparator_constructor": "Use the rejected R2 window-sign typing and an unordered dimension-only identification as explicit source-typing alternatives.",
+      "expression": "The only admitted family is P_a^(n)=sum over every x in X_n of tau_x(i[G1,P_chi_a]) with coefficient one and ordered a labels fixed by BGCE075/117.",
+      "reused_intermediates": [
+        "freeze revision 4d8688d82b80e75771c52e3d235ac2c5cc493951",
+        "protocol SHA-256 26d2e0814f4011127e9684dbf12111b5bde3d19c52875d374d8076b902496d63",
+        "BGCE075 SHA-256 caefe2267222eb37db4027994a96d6302b09ad95f0d032f5eb9be262650a70b0",
+        "BGCE117 SHA-256 1f70e356863d4910e4c4d945b328eda7a1c80056df2ff1dcad528cc503ee741f",
+        "OCBFH014 certificate SHA-256 717c79fddcf2c94ed89a1c7bef19965627cad9b56e9ccd7bb3fbfa86b45f35f9",
+        "source typing audit SHA-256 71f62d98537b3732f4caac1fc70c544f26f8af36c53fdc4212eb49963deff14b"
+      ],
+      "symbolic_relation": "BGCE075/117 fix the ordered commutator directions; BGCE386 labels four null links rather than refinement windows; unit counting removes all coefficient choice; a length-three interaction stabilizes on A_m once n reaches m+2.",
+      "degeneracy_class": "NONE_DETECTED",
+      "witnesses": {
+        "positive": {
+          "path": "audits/SRA_DPA_BGCE075_MIXED_BRACKET_TO_TEMPORAL_METRIC_VECTOR_RANK_GATE_20260919/RESULT.json",
+          "sha256": "caefe2267222eb37db4027994a96d6302b09ad95f0d032f5eb9be262650a70b0",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "audits/SRA_DPA_BGCE075_MIXED_BRACKET_TO_TEMPORAL_METRIC_VECTOR_RANK_GATE_20260919/RESULT.json"
+        },
+        "negative": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/SOURCE_TYPING_AUDIT_JA.md",
+          "sha256": "71f62d98537b3732f4caac1fc70c544f26f8af36c53fdc4212eb49963deff14b",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": true,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/SOURCE_TYPING_AUDIT_JA.md"
+        },
+        "comparator": {
+          "path": "audits/SRA_DPA_BGCE117_G1_KMS_TO_UB484_DYNAMICAL_KMS_TYPING_GATE_20260919/RESULT.json",
+          "sha256": "1f70e356863d4910e4c4d945b328eda7a1c80056df2ff1dcad528cc503ee741f",
+          "status": "PASS",
+          "target_changed": true,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE117_G1_KMS_TO_UB484_DYNAMICAL_KMS_TYPING_GATE_20260919/RESULT.json"
+        }
+      },
+      "evidence_paths": [
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/PROTOCOL.md",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/INPUT_ALLOWLIST.json",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/SOURCE_TYPING_AUDIT_JA.md",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/E0_AUDIT_JA.md"
+      ],
+      "permitted_interpretation": "R3 fixes a unique ordered unit-counting prospective operator family and the correct eventual-stabilization target.",
+      "prohibited_interpretations": [
+        "The source typing proves the R3 focal endpoints.",
+        "BGCE386 supplies refinement-window coefficients.",
+        "Ordered local seeds already establish outer derivations or gravity."
+      ],
+      "status": "PASS"
+    },
+    {
+      "gate_id": "BGCE443-R3-E0-G2-NONCIRCULAR-WITNESSES-AND-TWO-LAYER-COMPARATOR",
+      "scientific_alternative": "One common constructor either derives every endpoint from changed source interactions and domains, including an actual unsigned-swap rival, or the witness inputs simply encode the desired endpoint decisions.",
+      "code_locator": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/witness_harness.py:evaluate",
+      "source_variables": [
+        "positive and zero/rank-two/bounded-inner/nonclosable source constructors",
+        "stabilization residuals and variance/action-growth outputs",
+        "actual signed Braid adjacent actions",
+        "canonical unsigned tensor-factor swaps and matching invariants",
+        "generic-carrier and Braid-specificity decisions"
+      ],
+      "intervention_constructor": "Change seed, interaction, support or domain and compute residual, variance, action growth, rank and closure through the same source-to-endpoint constructor.",
+      "comparator_constructor": "Construct actual signed and canonical unsigned-swap transports on the same matrices, verify matched dimension/window/spectrum/norm, and compare a frozen raw endpoint with PASS allowed for the unsigned rival.",
+      "expression": "PASS requires endpoint changes derived from interventions rather than supplied as endpoint fields, plus an explicit generic-carrier decision and mandatory Braid-specificity NO_GO when signed and unsigned raw endpoints coincide.",
+      "reused_intermediates": [
+        "witness cases SHA-256 039bb1a61e5830a1749abe0be15a3dde5042dc912d41baa9eae4ce0d0f3d3eb7",
+        "witness result SHA-256 81af252413f536fdf0efec0d7cb39b245f9be3a8d92b2e75fb0c7c978a968b13",
+        "witness harness SHA-256 ef3a490dac79ebcac21f50bbd26f77453ba0f09f65653a2dfd16d53cad71ad87",
+        "non-focal replay matches the frozen compact result",
+        "only exact integer rank is derived from a lower-level witness object",
+        "stabilization, growth, action growth, closability and word-independence values are direct witness inputs"
+      ],
+      "symbolic_relation": "Each synthetic case supplies the values later used to pass or fail its assigned endpoint. The two non-Braid cases contain no transport action, and the harness emits only full_pass rather than the frozen two-layer specificity decision.",
+      "degeneracy_class": "DEFINITIONAL_IDENTITY_OR_INVERSE",
+      "witnesses": {
+        "positive": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/WITNESS_CASES.json",
+          "sha256": "039bb1a61e5830a1749abe0be15a3dde5042dc912d41baa9eae4ce0d0f3d3eb7",
+          "status": "FAIL",
+          "target_changed": false,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/WITNESS_CASES.json"
+        },
+        "negative": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/WITNESS_RESULT.json",
+          "sha256": "81af252413f536fdf0efec0d7cb39b245f9be3a8d92b2e75fb0c7c978a968b13",
+          "status": "FAIL",
+          "target_changed": false,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/WITNESS_RESULT.json"
+        },
+        "comparator": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/witness_harness.py",
+          "sha256": "ef3a490dac79ebcac21f50bbd26f77453ba0f09f65653a2dfd16d53cad71ad87",
+          "status": "FAIL",
+          "target_changed": true,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/WITNESS_RESULT.json"
+        }
+      },
+      "evidence_paths": [
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/WITNESS_CASES.json",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/WITNESS_RESULT.json",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/witness_harness.py",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/E0_AUDIT_JA.md"
+      ],
+      "permitted_interpretation": "The small decision predicate is internally consistent, but it does not establish endpoint discriminating capacity.",
+      "prohibited_interpretations": [
+        "Hand-entered pass and fail endpoint values are noncircular witnesses.",
+        "The comparator cases instantiate unsigned tensor-swap transport.",
+        "A comparator full_pass automatically enforces Braid-specificity NO_GO."
+      ],
+      "status": "FAIL"
+    },
+    {
+      "gate_id": "BGCE443-R3-E0-G3-OUTER-CLOSABILITY-RETENTION-AND-ACCESS-CONTROL",
+      "scientific_alternative": "The prospective packet either independently proves implementer growth, bounded-inner exclusion and closability with E2-replayable raw evidence and enforced input isolation, or leaves essential conclusions as unbound proof obligations and policy declarations.",
+      "code_locator": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/PROTOCOL.md:Noncompensating primary endpoints; Retention and isolation",
+      "source_variables": [
+        "exact covariance identity and positive slope",
+        "action-growth lower bound for the limit derivation",
+        "bounded-inner norm inequality and limit bridge",
+        "finite-range interaction theorem hypotheses and automorphism group or graph closure",
+        "retained per-unit raw fields and access-control enforcement"
+      ],
+      "intervention_constructor": "Build exact certificates from the same interaction family for variance, action growth, rank, bounded-inner exclusion and closability, retaining every intermediate required for independent E2 replay.",
+      "comparator_constructor": "Use a genuinely bounded-inner family and a genuinely nonclosable domain construction, and execute allowlist/denylist escape tests without reading focal or invalid outcomes.",
+      "expression": "PASS requires an exact bridge from the chosen extensive implementers to outer limit action, an instantiated closability theorem, sufficient raw retention and tested fail-closed path containment before focal construction.",
+      "reused_intermediates": [
+        "protocol SHA-256 26d2e0814f4011127e9684dbf12111b5bde3d19c52875d374d8076b902496d63",
+        "retention schema SHA-256 8d131e2d1eea6f4cbdff3f9eea68c23c9b8506879cbafbe08bc6cc5981eed257",
+        "input allowlist SHA-256 1246617aa70c845f1d2e437cfcc8e5bdf7f1199dbd976d1c96f7a3794521d9a0",
+        "eventual stabilization threshold n at least m plus 2",
+        "exact variance identity with slope gamma_0 plus twice gamma_1 plus twice gamma_2",
+        "no action-growth constructor, closability theorem certificate or access-guard test artifact present"
+      ],
+      "symbolic_relation": "Variance growth proves the chosen P_n family is unbounded but the packet does not yet connect that fact to exclusion of every bounded implementer of the limit action. Closability and access isolation are declared obligations, while retention omits their replay-critical fields.",
+      "degeneracy_class": "UNRESOLVED_SEMANTIC_CAPACITY",
+      "witnesses": {
+        "positive": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/PROTOCOL.md",
+          "sha256": "26d2e0814f4011127e9684dbf12111b5bde3d19c52875d374d8076b902496d63",
+          "status": "FAIL",
+          "target_changed": false,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/PROTOCOL.md"
+        },
+        "negative": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/RETENTION_SCHEMA.json",
+          "sha256": "8d131e2d1eea6f4cbdff3f9eea68c23c9b8506879cbafbe08bc6cc5981eed257",
+          "status": "FAIL",
+          "target_changed": true,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/RETENTION_SCHEMA.json"
+        },
+        "comparator": {
+          "path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/INPUT_ALLOWLIST.json",
+          "sha256": "1246617aa70c845f1d2e437cfcc8e5bdf7f1199dbd976d1c96f7a3794521d9a0",
+          "status": "FAIL",
+          "target_changed": true,
+          "endpoint_changed": false,
+          "raw_output_path": "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/INPUT_ALLOWLIST.json"
+        }
+      },
+      "evidence_paths": [
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/PROTOCOL.md",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/RETENTION_SCHEMA.json",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/INPUT_ALLOWLIST.json",
+        "audits/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925/REVISION_3/E0_AUDIT_JA.md"
+      ],
+      "permitted_interpretation": "The packet identifies plausible proof routes and a correct narrow claim ceiling, but their executable provenance is incomplete.",
+      "prohibited_interpretations": [
+        "Unbounded norm of one implementer family alone proves the limit derivation is outer.",
+        "A named finite-range theorem is an instantiated closability certificate.",
+        "A JSON allowlist without enforcement tests makes invalid outcomes inaccessible."
+      ],
+      "status": "FAIL"
+    }
+  ],
+  "overall_status": "FAIL",
+  "created_at": "2026-09-25",
+  "historical": false
+}

@@ -1,0 +1,6 @@
+{
+  "iteration": 1,
+  "command": "python3 evaluate_scout.py",
+  "runtime_class": "subsecond six-permutation and exact 6x6 integer intertwiner audit",
+  "result_informed_change": false
+}

@@ -1,0 +1,12 @@
+{
+  "schema": "siel.dpa.bgce443.r6.status.v1",
+  "candidate_id": "BGCE443-R6",
+  "date": "2026-09-25",
+  "state": "E0_PASS_FOCAL_CREATION_AUTHORIZED",
+  "focal_evaluator_created": false,
+  "focal_outcome_accessed": false,
+  "independent_E0": "PASS_BGCE443-REVISION-6-INDEPENDENT-E0-001",
+  "execution_authorized": true,
+  "prior_scientific_decision_reused": false,
+  "next_permitted_action": "CREATE_FREEZE_AND_RUN_MATCHED_ACTUAL_SOURCE_FOCAL_EVALUATOR_ONCE"
+}

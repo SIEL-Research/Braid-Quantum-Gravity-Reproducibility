@@ -1,0 +1,1836 @@
+{
+  "attempt": 3,
+  "input_sha256": "3a49ca52d0ea86879e94384cbb030d8d8231296044d3397d5ab022f13f412bc0",
+  "retained_attempt_2_transport_covariance_raw_sha256": "eded02d256a2566e129479b7a7f428cb1f744211cfc4439f8e8d2799bc2e2809",
+  "schema": "siel.dpa.scout.bgce443.raw-r2.v1",
+  "scout_id": "DPA-SCOUT-BGCE443-001",
+  "sector_rows": [
+    {
+      "directions": [
+        {
+          "direction": 1,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              1,
+              7,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e1",
+              "e1+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "reference": true
+          }
+        },
+        {
+          "direction": 2,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              4,
+              20,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e4",
+              "e4+ie0"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "reference": true
+          }
+        },
+        {
+          "direction": 3,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              9,
+              107,
+              -16
+            ],
+            "state": [
+              "e0+1e4",
+              "e1",
+              "e4+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "reference": true
+          }
+        }
+      ],
+      "mask": 0,
+      "matrix_commutator_jacobi_zero": true,
+      "relation_checks": {
+        "braid_relation": true,
+        "involution": true
+      },
+      "seed_rank": {
+        "pivot_columns": [
+          132,
+          520,
+          1232
+        ],
+        "rank": 3
+      }
+    },
+    {
+      "directions": [
+        {
+          "direction": 1,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              1,
+              7,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e1",
+              "e1+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 40960,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 5,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 3,
+                  "value": 16
+                },
+                {
+                  "column": 3,
+                  "row": 5,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 3,
+                  "value": -16
+                },
+                {
+                  "column": 3,
+                  "row": 5,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 2,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              4,
+              20,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e4",
+              "e4+ie0"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 12288,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 45,
+                  "row": 45,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 45,
+                  "row": 23,
+                  "value": -16
+                },
+                {
+                  "column": 23,
+                  "row": 45,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 45,
+                  "row": 23,
+                  "value": 16
+                },
+                {
+                  "column": 23,
+                  "row": 45,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 3,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              9,
+              107,
+              -16
+            ],
+            "state": [
+              "e0+1e4",
+              "e1",
+              "e4+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 12288,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 105,
+                  "row": 105,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 105,
+                  "row": 19,
+                  "value": 16
+                },
+                {
+                  "column": 105,
+                  "row": 103,
+                  "value": 16
+                },
+                {
+                  "column": 19,
+                  "row": 105,
+                  "value": 16
+                },
+                {
+                  "column": 103,
+                  "row": 105,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 105,
+                  "row": 19,
+                  "value": -16
+                },
+                {
+                  "column": 105,
+                  "row": 103,
+                  "value": -16
+                },
+                {
+                  "column": 19,
+                  "row": 105,
+                  "value": -16
+                },
+                {
+                  "column": 103,
+                  "row": 105,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        }
+      ],
+      "mask": 5,
+      "matrix_commutator_jacobi_zero": true,
+      "relation_checks": {
+        "braid_relation": true,
+        "involution": true
+      },
+      "seed_rank": {
+        "pivot_columns": [
+          132,
+          520,
+          1232
+        ],
+        "rank": 3
+      }
+    },
+    {
+      "directions": [
+        {
+          "direction": 1,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              1,
+              7,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e1",
+              "e1+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 24576,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 107,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 9,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 107,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 9,
+                  "value": 16
+                },
+                {
+                  "column": 9,
+                  "row": 107,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 2,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "1/3",
+            "energy": "-1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              4,
+              20,
+              16
+            ],
+            "state": [
+              "e0",
+              "e0+1e4",
+              "e4+ie0"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 28672,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 20,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 4,
+                  "value": 16
+                },
+                {
+                  "column": 4,
+                  "row": 20,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 4,
+                  "value": -16
+                },
+                {
+                  "column": 4,
+                  "row": 20,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 3,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "1/3",
+            "energy": "-1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              9,
+              107,
+              16
+            ],
+            "state": [
+              "e0+1e4",
+              "e1",
+              "e4+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 24576,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 107,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 9,
+                  "value": 16
+                },
+                {
+                  "column": 107,
+                  "row": 101,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 107,
+                  "value": 16
+                },
+                {
+                  "column": 101,
+                  "row": 107,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 9,
+                  "value": -16
+                },
+                {
+                  "column": 107,
+                  "row": 101,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 107,
+                  "value": -16
+                },
+                {
+                  "column": 101,
+                  "row": 107,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        }
+      ],
+      "mask": 8,
+      "matrix_commutator_jacobi_zero": true,
+      "relation_checks": {
+        "braid_relation": true,
+        "involution": true
+      },
+      "seed_rank": {
+        "pivot_columns": [
+          132,
+          520,
+          1232
+        ],
+        "rank": 3
+      }
+    },
+    {
+      "directions": [
+        {
+          "direction": 1,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              1,
+              7,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e1",
+              "e1+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 49152,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 5,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 3,
+                  "value": 16
+                },
+                {
+                  "column": 3,
+                  "row": 5,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 3,
+                  "value": -16
+                },
+                {
+                  "column": 3,
+                  "row": 5,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 2,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "1/3",
+            "energy": "-1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              4,
+              20,
+              16
+            ],
+            "state": [
+              "e0",
+              "e0+1e4",
+              "e4+ie0"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 24576,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 20,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 4,
+                  "value": 16
+                },
+                {
+                  "column": 4,
+                  "row": 20,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 4,
+                  "value": -16
+                },
+                {
+                  "column": 4,
+                  "row": 20,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 3,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "1/3",
+            "energy": "-1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              9,
+              107,
+              16
+            ],
+            "state": [
+              "e0+1e4",
+              "e1",
+              "e4+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 20480,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 107,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 9,
+                  "value": 16
+                },
+                {
+                  "column": 107,
+                  "row": 101,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 107,
+                  "value": 16
+                },
+                {
+                  "column": 101,
+                  "row": 107,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 9,
+                  "value": -16
+                },
+                {
+                  "column": 107,
+                  "row": 101,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 107,
+                  "value": -16
+                },
+                {
+                  "column": 101,
+                  "row": 107,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        }
+      ],
+      "mask": 13,
+      "matrix_commutator_jacobi_zero": true,
+      "relation_checks": {
+        "braid_relation": true,
+        "involution": true
+      },
+      "seed_rank": {
+        "pivot_columns": [
+          132,
+          520,
+          1232
+        ],
+        "rank": 3
+      }
+    },
+    {
+      "directions": [
+        {
+          "direction": 1,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              1,
+              7,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e1",
+              "e1+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 24576,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 21,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 9,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 21,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 9,
+                  "value": 16
+                },
+                {
+                  "column": 9,
+                  "row": 21,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 2,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              4,
+              20,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e4",
+              "e4+ie0"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 24576,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 21,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 9,
+                  "value": 16
+                },
+                {
+                  "column": 9,
+                  "row": 21,
+                  "value": 16
+                },
+                {
+                  "column": 47,
+                  "row": 21,
+                  "value": 16
+                },
+                {
+                  "column": 21,
+                  "row": 47,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 9,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 21,
+                  "value": -16
+                },
+                {
+                  "column": 47,
+                  "row": 21,
+                  "value": -16
+                },
+                {
+                  "column": 21,
+                  "row": 47,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 3,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "1/3",
+            "energy": "-1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              9,
+              107,
+              16
+            ],
+            "state": [
+              "e0+1e4",
+              "e1",
+              "e4+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 28672,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 107,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 9,
+                  "value": 16
+                },
+                {
+                  "column": 107,
+                  "row": 101,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 107,
+                  "value": 16
+                },
+                {
+                  "column": 101,
+                  "row": 107,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 9,
+                  "value": -16
+                },
+                {
+                  "column": 107,
+                  "row": 101,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 107,
+                  "value": -16
+                },
+                {
+                  "column": 101,
+                  "row": 107,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        }
+      ],
+      "mask": 16,
+      "matrix_commutator_jacobi_zero": true,
+      "relation_checks": {
+        "braid_relation": true,
+        "involution": true
+      },
+      "seed_rank": {
+        "pivot_columns": [
+          132,
+          520,
+          1232
+        ],
+        "rank": 3
+      }
+    },
+    {
+      "directions": [
+        {
+          "direction": 1,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              1,
+              7,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e1",
+              "e1+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 49152,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 5,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 3,
+                  "value": 16
+                },
+                {
+                  "column": 3,
+                  "row": 5,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 3,
+                  "value": -16
+                },
+                {
+                  "column": 3,
+                  "row": 5,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 2,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              4,
+              20,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e4",
+              "e4+ie0"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 20480,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 21,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 9,
+                  "value": 16
+                },
+                {
+                  "column": 9,
+                  "row": 21,
+                  "value": 16
+                },
+                {
+                  "column": 47,
+                  "row": 21,
+                  "value": 16
+                },
+                {
+                  "column": 21,
+                  "row": 47,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 9,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 21,
+                  "value": -16
+                },
+                {
+                  "column": 47,
+                  "row": 21,
+                  "value": -16
+                },
+                {
+                  "column": 21,
+                  "row": 47,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 3,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "1/3",
+            "energy": "-1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              9,
+              107,
+              16
+            ],
+            "state": [
+              "e0+1e4",
+              "e1",
+              "e4+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 24576,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 107,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 9,
+                  "value": 16
+                },
+                {
+                  "column": 107,
+                  "row": 101,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 107,
+                  "value": 16
+                },
+                {
+                  "column": 101,
+                  "row": 107,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 107,
+                  "row": 9,
+                  "value": -16
+                },
+                {
+                  "column": 107,
+                  "row": 101,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 107,
+                  "value": -16
+                },
+                {
+                  "column": 101,
+                  "row": 107,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        }
+      ],
+      "mask": 21,
+      "matrix_commutator_jacobi_zero": true,
+      "relation_checks": {
+        "braid_relation": true,
+        "involution": true
+      },
+      "seed_rank": {
+        "pivot_columns": [
+          132,
+          520,
+          1232
+        ],
+        "rank": 3
+      }
+    },
+    {
+      "directions": [
+        {
+          "direction": 1,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              1,
+              7,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e1",
+              "e1+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 16384,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 21,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 9,
+                  "value": -16
+                },
+                {
+                  "column": 9,
+                  "row": 21,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 21,
+                  "row": 9,
+                  "value": 16
+                },
+                {
+                  "column": 9,
+                  "row": 21,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 2,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "1/3",
+            "energy": "-1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              4,
+              20,
+              16
+            ],
+            "state": [
+              "e0",
+              "e0+1e4",
+              "e4+ie0"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 20480,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 20,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 4,
+                  "value": 16
+                },
+                {
+                  "column": 4,
+                  "row": 20,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 4,
+                  "value": -16
+                },
+                {
+                  "column": 4,
+                  "row": 20,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 3,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              9,
+              107,
+              -16
+            ],
+            "state": [
+              "e0+1e4",
+              "e1",
+              "e4+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 20480,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 45,
+                  "row": 45,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 45,
+                  "row": 23,
+                  "value": -16
+                },
+                {
+                  "column": 45,
+                  "row": 29,
+                  "value": 16
+                },
+                {
+                  "column": 23,
+                  "row": 45,
+                  "value": -16
+                },
+                {
+                  "column": 29,
+                  "row": 45,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 45,
+                  "row": 23,
+                  "value": -16
+                },
+                {
+                  "column": 45,
+                  "row": 29,
+                  "value": -16
+                },
+                {
+                  "column": 23,
+                  "row": 45,
+                  "value": -16
+                },
+                {
+                  "column": 29,
+                  "row": 45,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        }
+      ],
+      "mask": 24,
+      "matrix_commutator_jacobi_zero": true,
+      "relation_checks": {
+        "braid_relation": true,
+        "involution": true
+      },
+      "seed_rank": {
+        "pivot_columns": [
+          132,
+          520,
+          1232
+        ],
+        "rank": 3
+      }
+    },
+    {
+      "directions": [
+        {
+          "direction": 1,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              1,
+              7,
+              -16
+            ],
+            "state": [
+              "e0",
+              "e0+1e1",
+              "e1+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 57344,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 5,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 3,
+                  "value": 16
+                },
+                {
+                  "column": 3,
+                  "row": 5,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 5,
+                  "row": 3,
+                  "value": -16
+                },
+                {
+                  "column": 3,
+                  "row": 5,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 2,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "1/3",
+            "energy": "-1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              4,
+              20,
+              16
+            ],
+            "state": [
+              "e0",
+              "e0+1e4",
+              "e4+ie0"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 32768,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 20,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 4,
+                  "value": 16
+                },
+                {
+                  "column": 4,
+                  "row": 20,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 20,
+                  "row": 4,
+                  "value": -16
+                },
+                {
+                  "column": 4,
+                  "row": 20,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        },
+        {
+          "direction": 3,
+          "product_witness": {
+            "all_n_domain": "integers n>=3",
+            "all_n_lower_bound": "(2/3)*(n-2)",
+            "conjugate_energy": "-1/3",
+            "energy": "1/3",
+            "exact_gap": "2/3",
+            "found": true,
+            "source_matrix_entry": [
+              9,
+              107,
+              -16
+            ],
+            "state": [
+              "e0+1e4",
+              "e1",
+              "e4+ie2"
+            ]
+          },
+          "signed_sector_vs_unsigned_reference": {
+            "found": true,
+            "implementer_difference_frobenius_square": 32768,
+            "observable": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 105,
+                  "row": 105,
+                  "value": 1
+                }
+              ],
+              "rows": 125
+            },
+            "signed_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 105,
+                  "row": 19,
+                  "value": 16
+                },
+                {
+                  "column": 105,
+                  "row": 103,
+                  "value": 16
+                },
+                {
+                  "column": 19,
+                  "row": 105,
+                  "value": 16
+                },
+                {
+                  "column": 103,
+                  "row": 105,
+                  "value": 16
+                }
+              ],
+              "rows": 125
+            },
+            "unsigned_action": {
+              "columns": 125,
+              "entries": [
+                {
+                  "column": 105,
+                  "row": 19,
+                  "value": -16
+                },
+                {
+                  "column": 105,
+                  "row": 103,
+                  "value": -16
+                },
+                {
+                  "column": 19,
+                  "row": 105,
+                  "value": -16
+                },
+                {
+                  "column": 103,
+                  "row": 105,
+                  "value": -16
+                }
+              ],
+              "rows": 125
+            }
+          }
+        }
+      ],
+      "mask": 29,
+      "matrix_commutator_jacobi_zero": true,
+      "relation_checks": {
+        "braid_relation": true,
+        "involution": true
+      },
+      "seed_rank": {
+        "pivot_columns": [
+          132,
+          520,
+          1232
+        ],
+        "rank": 3
+      }
+    }
+  ]
+}

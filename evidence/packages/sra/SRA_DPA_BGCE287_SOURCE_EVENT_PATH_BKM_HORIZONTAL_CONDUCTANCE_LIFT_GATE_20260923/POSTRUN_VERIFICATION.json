@@ -1,0 +1,11 @@
+{
+  "schema": "siel.dpa.bgce287.postrun.v1",
+  "candidate_id": "BGCE287",
+  "status": "PASS",
+  "verification_command": "python3 audits/SRA_DPA_BGCE287_SOURCE_EVENT_PATH_BKM_HORIZONTAL_CONDUCTANCE_LIFT_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE287_VERIFICATION",
+  "raw_output_sha256": "8a7ee9c6e4d50a3b97b0df7101868a25961f5ba562f6d884884748eed90583c0",
+  "result_sha256": "4181bc2f55d161b7a3b1cd64679ddb7f83df2b705d3b218a24521db17b289516",
+  "formal_endpoint_gate": "NOT_ISSUED_BY_DPA",
+  "scientific_decision": "FULL_PASS_SOURCE_EVENT_PATH_BKM_SELECTS_UNIQUE_EXACT_S4_EQUIVARIANT_FIRST_ORDER_CONDUCTANCE_LIFT"
+}

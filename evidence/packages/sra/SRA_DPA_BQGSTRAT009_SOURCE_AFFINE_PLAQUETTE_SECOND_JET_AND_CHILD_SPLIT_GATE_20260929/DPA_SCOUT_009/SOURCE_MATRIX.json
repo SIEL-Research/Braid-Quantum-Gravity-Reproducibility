@@ -1,0 +1,47 @@
+{
+  "schema": "siel.dpa.bqgstrat009.sources.v1",
+  "snapshot_commit": "162680b8b2c0b45d2ceaa6baef6a1f00d9af7cc5",
+  "sources": [
+    {
+      "role": "conditional six-face Palatini action",
+      "path": "audits/SRA_DPA_BGCE094_TEMPORAL_CARTAN_PAIR_CONDITIONAL_FINITE_ACTION_PACKET_20260919/RESULT.json",
+      "sha256": "71f855f2ef7df8e58f9d8f6939ec30f943b6cb010e05d8601288b44f1f54e712"
+    },
+    {
+      "role": "oriented plaquette word and exact coarsening",
+      "path": "audits/SRA_DPA_BGCE096_TEMPORAL_CARTAN_PARENT_CHILD_MAP_GATE_20260919/RESULT.json",
+      "sha256": "5df0202fdc4990e63887af65e1b33dd26fa61687fefd11aafc9199c38f5fa0b5"
+    },
+    {
+      "role": "principal face-log scaling",
+      "path": "audits/SRA_DPA_BGCE097_FULL_SIX_FACE_ACTION_FIVE_ADIC_ADDITIVITY_GATE_20260919/RESULT.json",
+      "sha256": "5745541e2bb5b5d551c21cad16ad00ee8585b3910b1eb86ee0537ebb223dcc72"
+    },
+    {
+      "role": "source five-adic four-cube and orientation grade",
+      "path": "audits/SRA_DPA_BGCE137_DISCRETE_S4_CHART_TRANSITION_VERSUS_NEAR_IDENTITY_CARTAN_CONNECTION_FACTORING_GATE_20260919/RESULT.json",
+      "sha256": "431fa92951f652b5417c458e3f131b176fc951a9e1523728ad575dea2a1d3ab6"
+    },
+    {
+      "role": "Pexp link discretization, principal branch domain and flat anchor",
+      "path": "audits/SRA_DPA_BGCE138_SOURCE_CYLINDER_DIAGONAL_LOCALIZATION_AND_MINIMAL_SMOOTH_CARTAN_COMPLETION_GATE_20260919/RESULT.json",
+      "sha256": "7bd3516a3ee5bea31194b43b98178a009762f7bbd3381e127dcaf91da11e42bb"
+    },
+    {
+      "role": "formal finite-depth child construction",
+      "path": "audits/SRA_DPA_BQGCHILD001_SOURCE_FREE_VARIATIONAL_PALATINI_MATTER_CHILD_GATE_20260929/DPA_SCOUT_001/RESULT.json",
+      "sha256": "8ce5f0e0436ba7e5a62e107e4a51874f9df22e2bc7470a3e918a8599cff91052"
+    },
+    {
+      "role": "current-packet second-jet non-identifiability boundary",
+      "path": "audits/SRA_DPA_BQGSTRAT008_ACTUAL_PALATINI_SECOND_JET_IDENTIFIABILITY_GATE_20260929/DPA_SCOUT_008/RESULT.json",
+      "sha256": "2967022604a9199f4d7ab907364e9a25ce17833b8b6ebafcb6cf0081942c07ae"
+    },
+    {
+      "role": "ordered-history relation and endpoint-only branch-selection no-go",
+      "revision": "a8a912cb8d17c312fd171ecefa8c2cbdd17af3fc",
+      "path": "audits/SRA_DPA_BQGSTRAT005_SPECTRAL_TRANSPORT_REFINEMENT_COCYCLE_GATE_20260929/BQGSTRAT_005/RESULT.json",
+      "sha256": "1aa8f9eb53f0d27b84e441ab70d5abdc71aba5b63ef0f2fce355fc1af8eda2a3"
+    }
+  ]
+}

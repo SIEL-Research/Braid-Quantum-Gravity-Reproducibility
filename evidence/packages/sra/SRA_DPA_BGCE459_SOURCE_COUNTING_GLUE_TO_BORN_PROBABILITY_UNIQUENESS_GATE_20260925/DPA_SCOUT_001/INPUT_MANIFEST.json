@@ -1,0 +1,48 @@
+{
+  "schema": "siel.dpa.scout.input-manifest.v1",
+  "scout_id": "DPA-SCOUT-BGCE459-001",
+  "source_commit": "0de3fde9ca4d2f896eac3c63f948641da104843b",
+  "source_snapshot_id": "DPA-SNAPSHOT-0de3fde9ca4d",
+  "inputs": [
+    {
+      "path": "audits/SRA_DPA_BGCE139_SOURCE_SPECTRAL_CYLINDER_OPERATIONAL_EVENT_IDENTIFICATION_GATE_20260919/RAW_OUTPUT.json",
+      "sha256": "ddf630fbaff1ae4e72c778f47dc2bed6906da0a8aa17d4e6a98d2c96791955e9",
+      "role": "exact 25-row source event permutation"
+    },
+    {
+      "path": "audits/SRA_DPA_BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925/DPA_SCOUT_001/RAW_OUTPUT.json",
+      "sha256": "0db4d8cb8cb92cc5defadda23b84a1e1f59c5b66cdf1b8c971e57e60103a5c5a",
+      "role": "reconstructed complex-sector baseline"
+    },
+    {
+      "path": "audits/SRA_DPA_BGCE458_BARE_BRAID_ORIENTED_CYCLE_TO_COMPLEX_KINEMATICS_GATE_20260925/DPA_SCOUT_001/RESULT.json",
+      "sha256": "ea9874a062e2c90e9cdcd26cc7c22834f8c59d9abc67d895076099e43dd8a7d3",
+      "role": "BGCE458 decision and open Born boundary"
+    },
+    {
+      "path": "projects/active/discovery_partner/formal_checks/ocbfh017_source_cup_trace_necessity_certificate_v1.json",
+      "sha256": "54c20f4c0df9d757746fdafff522e84a63225b68224c4a35ad0939732de2e517",
+      "role": "source-cup normalized trace and uniqueness boundary"
+    },
+    {
+      "path": "projects/active/discovery_partner/formal_checks/disc008_captower194r_coherent_brauer_cap_tower_v1.json",
+      "sha256": "98011b7f02fbbc99a8cf34f7a8eb837135c784baf5a3b498c6dacc8d29bafe14",
+      "role": "all-stage dagger cap/evaluation closure theorem"
+    },
+    {
+      "path": "projects/active/discovery_partner/formal_checks/ocbfh007_reciprocal_crossing_parallelogram_quadratic_origin_certificate_v1.json",
+      "sha256": "a891e2db7642ba5870a774ffc89c9991f40bc4a740b8309d2a6ae1b40fd7aa41",
+      "role": "existing exact norm-blind nonquadratic controls"
+    }
+  ],
+  "path_semantics": "No glob, search-selected partition, external data, or excluded row. The evaluator reads only the exact paths listed above and selects the first two actual C three-cycles in canonical history-index order.",
+  "forbidden_inputs": [
+    "complex source matrices",
+    "input Hilbert or trace state",
+    "density matrix",
+    "Gleason noncontextuality",
+    "q phase",
+    "Born probability",
+    "frequency or coefficient fitting"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "siel.dpa.scout.bqgstrat009.result.v1",
+  "scout_id": "DPA-SCOUT-BQGSTRAT-009",
+  "date": "2026-09-29",
+  "primary_evidence_status": "Theoretical derivation",
+  "decision": "SCOPED_PASS_SOURCE_AFFINE_PLAQUETTE_SECOND_JET_AND_CANONICAL_CHILD_SPLIT__OPEN_SPARSE_HESSIAN_RANK_CROSSING_AND_COMPONENT_SELECTION",
+  "construction": "The BGCE138 Pexp link, BGCE097 principal oriented face log, BGCE137 five-adic source four-cube and flat anchor e=3I,Gamma=0 define the raw conditional vacuum Palatini second jet. No target equation, fit or new action term is used.",
+  "exact_plaquette_result": "For P=exp(A)exp(B)exp(-C)exp(-D), log(P)=A+B-C-D+(1/2)sum_(i<j)[Z_i,Z_j]+O(3), Z=(A,B,-C,-D). Reversal negates the log; C=A,D=B gives [A,B].",
+  "exact_child_split": {
+    "cells": 625,
+    "vertices": {"total": 1296, "interior": 256, "boundary": 1040},
+    "edges": {"total": 4320, "interior": 1280, "boundary": 3040},
+    "faces": {"total": 5400, "interior": 2400, "boundary": 3000},
+    "raw_interior_coordinates": 24576,
+    "raw_boundary_coordinates": 65280,
+    "K_ii_shape": [24576, 24576],
+    "K_ib_shape": [24576, 65280]
+  },
+  "flat_stationarity": "At e=3I,Gamma=0 all face logs vanish. The coframe gradient is zero and the linear connection incidence cancels exactly on every interior edge, so the fixed-boundary vacuum block has a flat interior critical point.",
+  "second_variation": "delta^2 S=C sum epsilon epsilon [2 ebar f (D a)+ebar ebar Q(a,a)]; K_ii and K_ib are its interior-interior and interior-boundary restrictions.",
+  "provenance_status": "The ordered spectral-digit history plus BGCE137 orientation sheet is a refinement-natural component label. Its injectivity against actual connected relation components is not yet proved.",
+  "counter_intuition_result": "The two-jet construction is generic lattice gauge/Palatini mathematics on a source-selected complex. It removes the construction gap but does not establish Braid necessity or an actual physical caustic.",
+  "inherited_condition": "BGCE094 off-shell temporal coframe e_0 and temporal transport U_0 remain explicit conditional promotions.",
+  "next_operation": "BQGSTRAT-010 must evaluate the sparse raw/reduced Hessian rank and kernel without materializing the dense matrix, locate or exclude rank loss, compute the oriented crossing form and test the ordered provenance label against connected components.",
+  "claim_ceiling": "Scoped conditional construction of the raw finite-depth vacuum Palatini second jet and canonical child split. No evaluated rank loss, crossing form, unique component, global continuation, unconditional Braid-only temporal provenance, Braid necessity, quantum BV theorem, empirical validation, confirmation, RPD adoption, Level 3 or Official SIEL status.",
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_DERIVATION_ONLY"
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "siel.dpa.scout.status.v1",
+  "scout_id": "DPA-SCOUT-BGCE458-001",
+  "gate_id": "BGCE458",
+  "status": "COMPLETE",
+  "decision": "CLOSED_SCOPED",
+  "work_package": "BQG-G0-R01.1",
+  "completed_at": "2026-09-25T14:55:30+09:00",
+  "successful_attempt": "0003",
+  "attempts_retained": 3,
+  "raw_output_sha256": "0db4d8cb8cb92cc5defadda23b84a1e1f59c5b66cdf1b8c971e57e60103a5c5a",
+  "result_sha256": "ea9874a062e2c90e9cdcd26cc7c22834f8c59d9abc67d895076099e43dd8a7d3",
+  "report_sha256": "1e889cbc7548c14733b69e4d80874273a91ea8f11154cee3a81517293cca7dfa",
+  "evidence_status": "Theoretical derivation",
+  "next_gate": "BGCE459_SOURCE_COUNTING_GLUE_TO_BORN_PROBABILITY_UNIQUENESS_GATE"
+}

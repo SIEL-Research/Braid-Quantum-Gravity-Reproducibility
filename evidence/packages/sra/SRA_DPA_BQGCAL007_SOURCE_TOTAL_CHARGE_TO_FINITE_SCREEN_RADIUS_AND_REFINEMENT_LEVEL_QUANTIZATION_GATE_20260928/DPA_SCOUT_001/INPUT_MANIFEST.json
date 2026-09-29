@@ -1,0 +1,36 @@
+{
+  "schema": "siel.dpa.bqgcal007.input_manifest.v1",
+  "scout_id": "DPA-SCOUT-BQGCAL-007-X1",
+  "gate_id": "BQGCAL-007_SOURCE_TOTAL_CHARGE_TO_FINITE_SCREEN_RADIUS_AND_REFINEMENT_LEVEL_QUANTIZATION_GATE",
+  "source_commit": "21f08ae4fdcc8ee92794ad2ce00b9f34a28e5e3d",
+  "source_snapshot_id": "DPA-SNAPSHOT-21f08ae4fdcc",
+  "inputs": [
+    {
+      "path": "audits/SRA_DPA_BGCE310_TORSOR_GAUGE_COVARIANT_ENVIRONMENT_CHARGE_AND_TOTAL_G1_BALANCE_GATE_20260923/RESULT.json",
+      "sha256": "cf2c04a8f32f8f5a2ffb2d2ff0c95600de10e2d467e830a0d5da65452a2988f0"
+    },
+    {
+      "path": "audits/SRA_DPA_BQGCAL004_SOURCE_CODIMENSION_TWO_TRAPPED_SURFACE_ALGEBRA_AND_AREA_SPECTRUM_GATE_20260928/DPA_SCOUT_001/RESULT.json",
+      "sha256": "0321e688a61243adc47336116ddf326a7d0f68f569703e215c02fd0aef3809b6"
+    },
+    {
+      "path": "audits/SRA_DPA_BQGCAL005_SOURCE_FACE_AREA_TRANSPORT_TO_DISCRETE_NULL_EXPANSION_AND_MARGINAL_FIXED_POINT_GATE_20260928/DPA_SCOUT_001/RESULT.json",
+      "sha256": "a930463f890840dabe3d4166515431246abcc003ce560b03e26e3d28164d8b06"
+    },
+    {
+      "path": "audits/SRA_DPA_BQGCAL006_SOURCE_METRIC_DEPENDENT_SCREEN_AREA_VARIATION_AND_NULL_EXPANSION_RESPONSE_GATE_20260928/DPA_SCOUT_001/RESULT.json",
+      "sha256": "fd002932d921c6d7d98516b64aa4b5d05c08407969aa6ab8f45d38b572fff83d"
+    }
+  ],
+  "bold_hypothesis": {
+    "interpretive_leap": "The refinement label m is a resolution coordinate, not a black-hole state quantum number. A physical screen is the complete 25-adic descendant family, while a separate positive additive source count K labels its physical area.",
+    "new_structure": "Replace single-cell radius selection r proportional to 5^(-m) by refinement-invariant composite screens with N_m=K*25^m elementary faces, A_total=K*A_0 and r_K=sqrt(K)*ell_star.",
+    "source_status": "The 25-child area conservation and total-charge refinement transport are derived. The positive additive count K and its relation to total Ward energy are not yet derived.",
+    "strongest_ordinary_alternative": "Refinement is ordinary discretization gauge: neither m nor a new count K is a physical black-hole quantum number without an independently derived number operator and energy-area law."
+  },
+  "falsifier": "The theorem fails if the total charge changes under source refinement, if 25 child faces do not conserve parent area, or if a source-derived positive integer screen-count operator already identifies one unique m.",
+  "claim_ceiling": "This scout may exclude selection of a unique refinement level by the existing total G1 charge and may derive the exact refinement-invariant composite-screen area/radius law. It may not identify K with a physical source observable, derive absolute SI radius or mass, predict Newton's constant, entropy or Hawking physics, or establish a finite quantum black hole.",
+  "target_data_accessed": false,
+  "parameter_scan_used": false,
+  "long_computation_used": false
+}

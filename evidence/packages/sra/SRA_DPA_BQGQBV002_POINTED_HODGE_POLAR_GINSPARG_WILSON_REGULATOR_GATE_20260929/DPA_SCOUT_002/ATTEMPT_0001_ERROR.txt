@@ -1,0 +1,10 @@
+IMPLEMENTATION_ABORTED_WITHOUT_SCIENTIFIC_DECISION
+
+The first evaluator redundantly performed exact Fraction Gaussian elimination
+on the full 81-by-81 off-diagonal Hodge--Dirac matrix. It exceeded the intended
+short-runtime gate and was terminated. No result artifact was written.
+
+Repair: reuse the already hash-bound exact BGCE399 result rank(D_plus)=40 and
+the block identity rank([[0,D_plus^T],[D_plus,0]])=2 rank(D_plus). This changes
+only the implementation, not the frozen construction, inputs or decision rule.
+

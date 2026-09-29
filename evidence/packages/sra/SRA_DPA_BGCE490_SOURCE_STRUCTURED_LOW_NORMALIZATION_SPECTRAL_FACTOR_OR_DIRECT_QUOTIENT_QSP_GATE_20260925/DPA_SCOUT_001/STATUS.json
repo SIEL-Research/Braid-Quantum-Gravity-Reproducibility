@@ -1,0 +1,9 @@
+{
+  "schema": "siel.dpa.scout.status.v1",
+  "scout_id": "DPA-SCOUT-BGCE490-001",
+  "gate_id": "BGCE490",
+  "work_package": "BQG-G0-R01.2",
+  "status": "CLOSED_SCOPED",
+  "decision": "CLOSED_SCOPED_SOURCE_STRUCTURED_CHEBYSHEV_LCU_RENORMALIZATION_AND_EXACT_PHASE_MATCHED_ACTUATOR",
+  "next_gate": "BGCE491_TYPED_HALMOS_CHEBYSHEV_WALK_TO_SOURCE_WORD_LOCAL_COMPILATION_GATE"
+}

@@ -1,0 +1,101 @@
+{
+  "schema": "siel.dpa.bgce290.raw.v1",
+  "candidate_id": "BGCE290",
+  "source_revision": "b7499ca5327e1622bf53e77d46d5d06810fa9d64",
+  "input_hashes_verified": {
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE141_SOURCE_MARK_CHARGE_CYLINDER_CURRENT_TO_DOUBLED_METRIC_STRESS_FUNCTOR_GATE_20260919/evaluate.py": "be872bba4a2b6da1ed0aeb20a443714d6984086c5d5ae8f584e0dad4a12da3c1",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE142_CHARGE_MIXED_RESPONSE_TO_LOCAL_DOUBLED_INFLUENCE_FUNCTIONAL_GATE_20260919/RESULT.json": "eff81de7e37c86fc635495feabf21ef3c4c8a4d806a6b701328ff7acc30401c7",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE143_EXTENSIVE_LOCAL_G1_INTERACTION_TO_QUANTUM_MARKOV_CYLINDER_ACTION_DENSITY_GATE_20260919/RESULT.json": "c5f2ec4ce8bcb97d70b7ce579c82220d95a677ee052f3720fe564a49430cbbbc",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE148_SOURCE_METRIC_FUNCTIONAL_TO_CTP_DIFFERENCE_GEOMETRY_NATURALITY_GATE_20260920/RESULT.json": "410c682a56688ce2895e4d3d99c7c9f4479b5d1232e178048684e2a084dfa056",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE150_PREDECLARED_CHARACTER_OBSERVABLE_NULL_GRAM_AND_SOURCE_SOLDER_GATE_20260920/RESULT.json": "aa81277c9d555d28b344351f62072e8efa85b72009a10c99bdbd7f87df17b602",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE252_NEIGHBOR_GIBBS_RELATIVE_ENTROPY_TO_BKM_DIRICHLET_PARENT_ACTION_GATE_20260921/RESULT.json": "e63682ebab7cbc91b4e9b04f6ab5aa451ffce04fdfa07494cffd78e1962b7520",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE254_SOURCE_RESPONSE_LEGENDRE_EXACTNESS_TO_UNIQUE_LOGZ_BREGMAN_EDGE_ACTION_GATE_20260921/RESULT.json": "09b6b9dc098d48bfca0e00434ad43a053a03a4bf56e7a27bfacd72649a525ecc",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE256_BRAID_INDUCED_EVENT_TRANSITION_COBORDER_TO_NEIGHBOR_COUPLING_LAW_GATE_20260921/RESULT.json": "21d80b1c2d1779598cba6f5f9e85dfbbb7a96e059e7e5aa28b5bf726908afc0f",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE266_REFINEMENT_CLOCK_TO_UNIQUE_EVENT_SEMIGROUP_AND_IR_OS_CONTINUATION_GATE_20260922/RESULT.json": "3a3917608252c94e2cd67232340c878db75403602fdf4464c0cc3fffac471fb7",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE266_REFINEMENT_CLOCK_TO_UNIQUE_EVENT_SEMIGROUP_AND_IR_OS_CONTINUATION_GATE_20260922/RAW_OUTPUT.json": "994b78845e496b709b2f7aca93926678614623e69e06104cb2d6e2d0707a5fe2",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE268_SOURCE_GRAM_SCHUR_CHANNEL_TO_CAUSAL_METRIC_INTERTWINER_GATE_20260922/RESULT.json": "02e8a8d6f34493c16997fe954df7c913ec207085ba9f71ec75220c29701c1794",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE284_LOCAL_GL4_NATURALITY_AND_VARIATIONAL_STRESS_WARD_GATE_20260923/RESULT.json": "6d18e979b7e66ca4c7a5d051253afacad02b750cfdc2ad30c1d1f86f9a0a832e",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE285_SOURCE_CYLINDER_MEASURE_AND_MARKOV_NATURALITY_TO_UNIQUE_MINIMAL_COVARIANT_PARENT_GATE_20260923/RESULT.json": "47bd68516602ab7994118212b4901f655006dd5cf9cb032aee43a40981287abf",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE288_CAUSAL_EVEN_EVENT_PLUS_X21R1_ODD_THETA_FULL_LORENTZ_TANGENT_GATE_20260923/RESULT.json": "914101bd3bb9628cf7cba3c8cd704527487290f17f291a9d8b7f51a06a5779d9",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE288_CAUSAL_EVEN_EVENT_PLUS_X21R1_ODD_THETA_FULL_LORENTZ_TANGENT_GATE_20260923/RAW_OUTPUT.json": "23dc9dfbca24352330d138521c85fa96e311df365f1e439fb265c947e228fa6a",
+    "b7499ca5327e1622bf53e77d46d5d06810fa9d64:audits/SRA_DPA_BGCE289_THETA_ODD_ANALYTIC_INTEGRABILITY_AND_HILBERT_INDEPENDENCE_GATE_20260923/RESULT.json": "5b96a46ce90d9f9bf56cc82cec92f17084e6d13d0ee3eadcf09b67becc8169ba"
+  },
+  "baseline_gate": "PASS_REVISION_MATCHED_BGCE141_142_143_148_150_252_254_256_266_268_284_285_288_289",
+  "endpoint_provenance": "NOT_ISSUED_BY_DPA__EXACT_SYM2_CAUSAL_SOLDER_AND_VARIATIONAL_IDENTITY_GATE_ONLY",
+  "primary_evidence_status": "Theoretical derivation of scoped source-native Hilbert stress and on-shell Ward identity",
+  "scientific_layer": "independent metric-source solder, minimal IR parent variation and Noether identity",
+  "independent_metric_source_solder": {
+    "source_frame": "[G1,{G1,P1}/2,{G1,P2}/2,{G1,P3}/2]",
+    "source_tensor_type": "ten packed symmetric-pair sources a_A",
+    "frame_intertwiner": "U=H4/2",
+    "solder": "H_ray=U^T A_char U",
+    "packed_off_diagonal_convention": "A_ij=a_ij/2 for i<j so sum_(i,j) A_ij F_ij=sum_(i<=j) a_ij F_ij",
+    "Sym2_rank": 10,
+    "causal_even_rank": 7,
+    "causal_odd_rank": 3,
+    "S4_intertwining_checks": 240,
+    "matter_theta_independent": true,
+    "fixed_matter_metric_variation_rank": 10,
+    "new_fitted_coefficient": false,
+    "BGCE150_KMS_covariance_metric_equality_reasserted": false
+  },
+  "active_source_markov_transport": {
+    "metric_tangent_to_coframe_strain_formula": "S=(1/2) K_evt^(-1) H",
+    "coframe_strain_checks": 10,
+    "metric_tangent_identity": "S^T K_evt+K_evt S=H",
+    "full_rank10": true,
+    "active_event_coframe_transport": true,
+    "symmetric_conservative_refinement_preserved": true,
+    "zero_order_curvature_potential_excluded_in_declared_class": true,
+    "why": "the transported source action remains a nearest-neighbor difference/Dirichlet action with unchanged Markov row sum and no on-site killing term"
+  },
+  "source_selected_parent": {
+    "edge_scalar": "response-exact Umegaki/logZ Bregman divergence",
+    "neighbor_law": "actual Braid event transition coboundary",
+    "internal_metric": "faithful Gibbs BKM metric G_AB(lambda)",
+    "Lorentz_principal_tensor": "source-OS-continued K_evt and its a-source coframe neighborhood",
+    "continuum_action": "S_BKM=(1/2) integral sqrt|g| G_AB(lambda) g^mn partial_m lambda^A partial_n lambda^B d4x",
+    "new_matter_action_added": false,
+    "external_coefficient_fit": false,
+    "declared_class": "long-wavelength local second-order formally self-adjoint conservative source-event continuum"
+  },
+  "hilbert_ward": {
+    "Hilbert_convention": "T_mn=2/sqrt|g| delta S_BKM/delta g^mn",
+    "Hilbert_stress": "T_mn=G_AB(lambda)[partial_m lambda^A partial_n lambda^B-(1/2)g_mn g^rs partial_r lambda^A partial_s lambda^B]",
+    "Euler_expression": "E_A=(1/sqrt|g|) delta S_BKM/delta lambda^A",
+    "off_shell_Noether_identity": "nabla^m T_mn=-E_A partial_n lambda^A; hence nabla^m T_mn=0 on shell",
+    "on_shell_Ward": "nabla^m T_mn=0",
+    "Hilbert_stress_source_derived_in_declared_class": true,
+    "Ward_source_derived_in_declared_class": true
+  },
+  "dependency_effect": {
+    "BGCE289_fixed_matter_rank7_obstruction": "REMOVED_BY_EXISTING_INDEPENDENT_A_SOURCE_SOLDER",
+    "BGCE285_active_source_Markov_transport": "PROMOTED_TO_PASS_IN_THE_DECLARED_LOCAL_SECOND_ORDER_SOURCE_EVENT_CLASS",
+    "BGCE267_curvature_potential_ambiguity": "EXCLUDED_IN_THE_SAME_DECLARED_CLASS",
+    "MMR2_and_source_three_fifths": "RETAINED_UNCHANGED_NOT_REDERIVED",
+    "SDPC_complete": false,
+    "unconditional_Einstein_dynamics": false,
+    "completed_quantum_gravity": false
+  },
+  "retained_boundaries": {
+    "higher_derivative_or_different_principal_symbol_actions": "OUTSIDE_DECLARED_CLASS_NOT_EXCLUDED",
+    "retained_real_Stone_affine_completion_is_finite_Braid_only": false,
+    "full_finite_Umegaki_Lorentz_parent": "NOT_DERIVED_BEYOND_IR_LONG_WAVELENGTH_ACTION",
+    "MMR2_and_three_fifths": "SEPARATE_RETAINED_RESULTS",
+    "Einstein_equation": "NOT_DERIVED_BY_THIS_GATE",
+    "empirical_gravity": false,
+    "completed_quantum_gravity": false
+  },
+  "counter_intuition_scan": {
+    "tempting_failure": "BGCE150 already disproved every operator-to-causal solder.",
+    "refutation": "BGCE150 disproved equality of the KMS covariance metric with the fixed causal metric under one coefficient pullback. BGCE290 transports the independent source covector a by the later source-fixed Hadamard frame map and keeps K_evt as the background metric.",
+    "ordinary_explanation": "A typed frame isomorphism induces an invertible Sym2 map, and a diffeomorphism-covariant sigma model has a Hilbert tensor and Noether identity.",
+    "siel_specific_content": "the four operator labels, ten metric functionals, Hadamard causal frame, Braid neighbor law, source measure, OS sign and BKM target metric all come from the same pointed-Braid lineage without coefficient fitting.",
+    "falsifier": "failure of source-frame typing, Sym2 rank or 7+3/S4 intertwining; a surviving on-site killing term in the transported exact source action; or a mismatch between the transported principal symbol and the source-derived BKM continuum action."
+  },
+  "next_gate": "BGCE291_STRESS_WARD_INDEPENDENT_REDERIVATION_AND_SCOPE_RED_TEAM_GATE",
+  "decision": "FULL_PASS_IN_THE_DECLARED_LONG_WAVELENGTH_LOCAL_SECOND_ORDER_SELF_ADJOINT_CONSERVATIVE_CLASS__THE_EXISTING_TEN_INDEPENDENT_DOUBLED_SOURCES_A_ARE_THE_SYMMETRIC_SQUARE_OF_THE_SOURCE_FIXED_G1_JORDAN_FRAME__THE_BGCE268_NORMALIZED_HADAMARD_INDUCES_AN_EXACT_RANK_TEN_SYM2_SOLDER_TO_THE_CAUSAL_RAY_FRAME_WITH_RANK_SEVEN_EVEN_RANK_THREE_ODD_AND_TWO_HUNDRED_FORTY_EXACT_S4_INTERTWINING_CHECKS__BECAUSE_A_A_IS_INDEPENDENT_OF_THE_MATTER_LABELS_THIS_REMOVES_THE_BGCE289_FIXED_MATTER_RANK_SEVEN_OBSTRUCTION__EVERY_METRIC_TANGENT_HAS_AN_EXACT_SOURCE_EVENT_COFRAME_STRAIN_LIFT_PRESERVING_SYMMETRIC_CONSERVATIVE_REFINEMENT_COMPATIBLE_MARKOV_TRANSPORT__THE_ALREADY_SELECTED_UMEGAKI_BKM_NEIGHBOR_PARENT_AND_SOURCE_OS_CONTINUATION_THEREFORE_HAVE_A_SOURCE_DERIVED_MINIMAL_OFF_SHELL_VARIATION__HILBERT_STRESS_AND_THE_NOETHER_IDENTITY_NABLA_T_EQUALS_MINUS_E_TIMES_D_LAMBDA_FOLLOW_WITH_ON_SHELL_WARD_CONSERVATION__NO_EXTERNAL_COEFFICIENT_FIT_OR_NEW_MATTER_ACTION_IS_USED__HIGHER_DERIVATIVE_FULL_FINITE_BRAID_MMR2_THREE_FIFTHS_EINSTEIN_AND_EMPIRICAL_GRAVITY_BOUNDARIES_REMAIN",
+  "runtime_class": "SUBSECOND_EXACT_RATIONAL_SYM2_AND_VARIATIONAL_IDENTITY_AUDIT_NO_SCAN",
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+  "claim_ceiling": "BGCE290 derives, in the declared long-wavelength local second-order formally self-adjoint conservative source-event class, an exact rank-ten source-native solder from the existing independent doubled metric sources to the causal metric tangent, an active conservative coframe transport, the minimal BKM parent Hilbert tensor and its off-shell Noether identity with on-shell Ward conservation. It uses no fitted coefficient and adds no new matter action. It does not exclude higher-derivative or different-principal-symbol theories, remove the retained real affine/Stone completion, rederive MMR2 or three-fifths, derive Einstein dynamics, establish empirical gravity or complete quantum gravity."
+}

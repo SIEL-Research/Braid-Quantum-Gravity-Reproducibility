@@ -1,0 +1,6 @@
+{
+  "iteration": 1,
+  "command": "python3 -B evaluate_scout.py",
+  "runtime_class": "subsecond exact refinement and rational area-count algebra",
+  "result_informed_change": false
+}

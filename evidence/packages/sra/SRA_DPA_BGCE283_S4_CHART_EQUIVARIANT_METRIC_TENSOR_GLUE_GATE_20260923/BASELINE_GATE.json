@@ -1,0 +1,15 @@
+{
+  "schema": "siel.dpa.bgce283.baseline-gate.v1",
+  "candidate_id": "BGCE283",
+  "status": "PASS_REVISION_MATCHED_BGCE137_268_280_281_282_AND_X21R1_EXACT_MATRIX_REPLAY",
+  "source_revision": "d7ea49bec4557b820e0a72d906a6b6c4af31fa34",
+  "cross_source_revision": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+  "preregistered_commit": "2f95f02a5a06255eae52595bdbe47020776ec429",
+  "all_input_hashes_verified": true,
+  "stored_sector_count": 8,
+  "stored_metric_count": 8,
+  "stored_theta_tangent_count": 24,
+  "stored_source_chart_count": 24,
+  "stored_Hadamard_intertwiner_exact": true,
+  "outcome_access_class": "EXACT_INTERNAL_THEORETICAL_FINITE_ATLAS_ONLY__NO_EMPIRICAL_ENDPOINT"
+}

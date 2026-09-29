@@ -1,0 +1,6 @@
+{
+  "command": "python3 evaluate_scout.py",
+  "iteration": "0001",
+  "result_informed_repair": false,
+  "long_computation_used": false
+}

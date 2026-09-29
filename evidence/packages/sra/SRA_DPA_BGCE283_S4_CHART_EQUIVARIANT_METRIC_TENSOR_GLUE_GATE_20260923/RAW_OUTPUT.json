@@ -1,0 +1,143 @@
+{
+  "schema": "siel.dpa.bgce283.raw.v1",
+  "candidate_id": "BGCE283",
+  "source_revision": "d7ea49bec4557b820e0a72d906a6b6c4af31fa34",
+  "cross_source_revision": "269a832e497c901a2b24bb2167ca97b9e6ce2bd1",
+  "input_hashes_verified": {
+    "d7ea49bec4557b820e0a72d906a6b6c4af31fa34:audits/SRA_DPA_BGCE282_SOURCE_EVENT_CYLINDER_METRIC_CHAIN_RULE_GATE_20260923/RESULT.json": "90714f9a758ba72abfd098ac6d1a9ab019bbd80c0362eefb89d21ba7563546f3",
+    "d7ea49bec4557b820e0a72d906a6b6c4af31fa34:audits/SRA_DPA_BGCE282_SOURCE_EVENT_CYLINDER_METRIC_CHAIN_RULE_GATE_20260923/RAW_OUTPUT.json": "7907942257cefefe398f410c0ffe8ca103a2408b9418ceda079432148cd73bbc",
+    "d7ea49bec4557b820e0a72d906a6b6c4af31fa34:audits/SRA_DPA_BGCE281_ALL_SECTOR_ORDERED_EDGE_METRIC_TANGENT_AND_NONMETRICITY_GATE_20260923/RAW_OUTPUT.json": "61fb6f04e665506e53316662e389ad7013b09879f30c311f3d24752a402ecc70",
+    "d7ea49bec4557b820e0a72d906a6b6c4af31fa34:audits/SRA_DPA_BGCE280_ALL_SECTOR_CHARACTERISTIC_ZERO_ZERO_CONNECTION_LIFT_20260923/RESULT.json": "483ca680a62043ef12b7bf24b65848dad7a5f0164002b480edced168b27d0035",
+    "d7ea49bec4557b820e0a72d906a6b6c4af31fa34:audits/SRA_DPA_BGCE268_SOURCE_GRAM_SCHUR_CHANNEL_TO_CAUSAL_METRIC_INTERTWINER_GATE_20260922/RAW_OUTPUT.json": "1e9d2355ecf83fa68832859163b6fdf473e5f6baac80c3e190ed7cded4749207",
+    "d7ea49bec4557b820e0a72d906a6b6c4af31fa34:audits/SRA_DPA_BGCE137_DISCRETE_S4_CHART_TRANSITION_VERSUS_NEAR_IDENTITY_CARTAN_CONNECTION_FACTORING_GATE_20260919/RESULT.json": "431fa92951f652b5417c458e3f131b176fc951a9e1523728ad575dea2a1d3ab6",
+    "d7ea49bec4557b820e0a72d906a6b6c4af31fa34:audits/SRA_DPA_BGCE137_DISCRETE_S4_CHART_TRANSITION_VERSUS_NEAR_IDENTITY_CARTAN_CONNECTION_FACTORING_GATE_20260919/RAW_OUTPUT.json": "3e9ada65bdd3faa740bffafbb1256a9feae5df77910c54ffe8eae1a826673dab",
+    "269a832e497c901a2b24bb2167ca97b9e6ce2bd1:projects/active/research_program_director/manual_dpa_intakes/DISC-009/CP-HYP-033-X21R1/RAW_PACKET_OUTPUTS.json": "7ba1c987a9389f7426becdde136986be7fbc7b17b92dac938cc2a43cc39b373e"
+  },
+  "baseline_gate": "PASS_REVISION_MATCHED_BGCE137_268_280_281_282_AND_X21R1_EXACT_MATRIX_REPLAY",
+  "endpoint_provenance": "NOT_ISSUED_BY_DPA__THEORETICAL_EXACT_FINITE_ATLAS_COCYCLE_AUDIT_ONLY",
+  "primary_evidence_status": "Theoretical derivation with exact finite-group cocycle and tensor-overlap identities",
+  "scientific_layer": "S4-equivariant first-order metric/nonmetricity tensor gluing on the source operational event atlas",
+  "atlas_representation": {
+    "ray_chart_count": 24,
+    "carrier_transition_definition": "C_pi=U P_pi U^T",
+    "all_carrier_transitions_clock_fixed_signed_monomial_orthogonal": true,
+    "carrier_image_size": 24,
+    "projector_label_action_definition": "S_pi=C_pi entrywise-square",
+    "label_image_size": 6,
+    "label_kernel_size": 4,
+    "label_image": "S3 permutations of the three spatial theta/projector directions",
+    "carrier_cocycle_checks": 576,
+    "label_cocycle_checks": 576,
+    "constant_overlap_transition_derivative": "zero"
+  },
+  "sector_records": [
+    {
+      "mask": 0,
+      "metric_chart_covariance_packets": 24,
+      "tangent_and_nonmetricity_chart_covariance_packets": 72,
+      "double_overlap_tangent_cocycle_packets": 1728,
+      "all_chart_tangents_symmetric_rank_two": true,
+      "constant_transition_keeps_zero_connection": true,
+      "nonmetricity_equals_transformed_metric_tangent": true
+    },
+    {
+      "mask": 5,
+      "metric_chart_covariance_packets": 24,
+      "tangent_and_nonmetricity_chart_covariance_packets": 72,
+      "double_overlap_tangent_cocycle_packets": 1728,
+      "all_chart_tangents_symmetric_rank_two": true,
+      "constant_transition_keeps_zero_connection": true,
+      "nonmetricity_equals_transformed_metric_tangent": true
+    },
+    {
+      "mask": 8,
+      "metric_chart_covariance_packets": 24,
+      "tangent_and_nonmetricity_chart_covariance_packets": 72,
+      "double_overlap_tangent_cocycle_packets": 1728,
+      "all_chart_tangents_symmetric_rank_two": true,
+      "constant_transition_keeps_zero_connection": true,
+      "nonmetricity_equals_transformed_metric_tangent": true
+    },
+    {
+      "mask": 13,
+      "metric_chart_covariance_packets": 24,
+      "tangent_and_nonmetricity_chart_covariance_packets": 72,
+      "double_overlap_tangent_cocycle_packets": 1728,
+      "all_chart_tangents_symmetric_rank_two": true,
+      "constant_transition_keeps_zero_connection": true,
+      "nonmetricity_equals_transformed_metric_tangent": true
+    },
+    {
+      "mask": 16,
+      "metric_chart_covariance_packets": 24,
+      "tangent_and_nonmetricity_chart_covariance_packets": 72,
+      "double_overlap_tangent_cocycle_packets": 1728,
+      "all_chart_tangents_symmetric_rank_two": true,
+      "constant_transition_keeps_zero_connection": true,
+      "nonmetricity_equals_transformed_metric_tangent": true
+    },
+    {
+      "mask": 21,
+      "metric_chart_covariance_packets": 24,
+      "tangent_and_nonmetricity_chart_covariance_packets": 72,
+      "double_overlap_tangent_cocycle_packets": 1728,
+      "all_chart_tangents_symmetric_rank_two": true,
+      "constant_transition_keeps_zero_connection": true,
+      "nonmetricity_equals_transformed_metric_tangent": true
+    },
+    {
+      "mask": 24,
+      "metric_chart_covariance_packets": 24,
+      "tangent_and_nonmetricity_chart_covariance_packets": 72,
+      "double_overlap_tangent_cocycle_packets": 1728,
+      "all_chart_tangents_symmetric_rank_two": true,
+      "constant_transition_keeps_zero_connection": true,
+      "nonmetricity_equals_transformed_metric_tangent": true
+    },
+    {
+      "mask": 29,
+      "metric_chart_covariance_packets": 24,
+      "tangent_and_nonmetricity_chart_covariance_packets": 72,
+      "double_overlap_tangent_cocycle_packets": 1728,
+      "all_chart_tangents_symmetric_rank_two": true,
+      "constant_transition_keeps_zero_connection": true,
+      "nonmetricity_equals_transformed_metric_tangent": true
+    }
+  ],
+  "summary": {
+    "sector_count": 8,
+    "metric_chart_covariance_packets": 192,
+    "tangent_nonmetricity_chart_covariance_packets": 576,
+    "double_overlap_tangent_cocycle_packets": 13824,
+    "all_chart_tangents_symmetric_exact_rank_two": true,
+    "all_connections_remain_exact_zero": true,
+    "source_event_atlas_tensor_gluing": true
+  },
+  "dependency_effect": {
+    "BGCE282_fixed_chart_chain_rule_retained": true,
+    "S4_chart_independent_metric_tensor_bundle_on_source_event_atlas": true,
+    "S4_chart_independent_nonmetricity_tensor_bundle_on_source_event_atlas": true,
+    "continuous_first_order_source_event_tensor_field": true,
+    "arbitrary_smooth_diffeomorphism_covariance": false,
+    "empirical_natural_spacetime_identification_and_calibration": false,
+    "mu_direction_X21R1_metric_tangent": false,
+    "Hilbert_stress": false,
+    "Ward_identity": false,
+    "Einstein_dynamics": false,
+    "fixed_event_conditioned_MMR2": "RETAINED",
+    "source_three_fifths": "RETAINED_NOT_USED"
+  },
+  "counter_intuition_scan": {
+    "tempting_failure": "The Hadamard carrier match fixes only one clock projector and does not transport the full atlas or metric response.",
+    "refutation": "All 24 transported chart matrices, both finite-group representations, every sector metric, every theta tangent/nonmetricity and all double overlaps are checked exactly.",
+    "ordinary_explanation": "A constant finite-group atlas and a representation define an associated tensor bundle; the project-specific content is that the atlas, Hadamard solder, metrics and nonmetricities are all pinned outputs of the same Braid lineage.",
+    "tempting_overclaim": "S4 atlas covariance already proves arbitrary diffeomorphism covariance and natural spacetime validity.",
+    "overclaim_refutation": "Only the source-derived finite chart atlas and declared smooth completion are covered; arbitrary smooth coordinate changes and empirical calibration remain untested.",
+    "strongest_falsifier": "Failure to extend the S4 overlap law to the open local GL4/diffeomorphism domain needed by the variational stress and Ward identity."
+  },
+  "next_gate": "BGCE284_LOCAL_GL4_NATURALITY_AND_VARIATIONAL_STRESS_WARD_GATE",
+  "decision": "PASS_THE_SOURCE_FIXED_HADAMARD_INTERTWINER_TRANSPORTS_ALL_TWENTY_FOUR_S4_RAY_CHARTS_TO_EXACT_CLOCK_FIXED_SIGNED_MONOMIAL_CARRIER_TRANSITIONS__THE_PROJECTOR_LABEL_ACTION_HAS_SIX_ELEMENT_SPATIAL_S3_IMAGE_AND_FOUR_ELEMENT_KERNEL_WITH_ALL_FIVE_HUNDRED_SEVENTY_SIX_COCYCLES_EXACT__ALL_ONE_HUNDRED_NINETY_TWO_METRIC_AND_FIVE_HUNDRED_SEVENTY_SIX_TANGENT_NONMETRICITY_CHART_PACKETS_OBEY_EXACT_CHARACTER_AND_RAY_TENSOR_COVARIANCE__ALL_DOUBLE_OVERLAPS_COMPOSE_EXACTLY_AND_CONSTANT_TRANSITIONS_KEEP_THE_BGCE280_CONNECTION_ZERO__THE_CONTINUOUS_FIRST_ORDER_METRIC_NONMETRICITY_FIELD_THEREFORE_GLUES_AS_AN_S4_EQUIVARIANT_TENSOR_ON_THE_SOURCE_OPERATIONAL_EVENT_ATLAS__ARBITRARY_DIFFEO_NATURAL_SPACETIME_VALIDATION_MU_TANGENT_STRESS_WARD_AND_EINSTEIN_REMAIN_OPEN",
+  "runtime_class": "SHORT_EXACT_FINITE_GROUP_TENSOR_GLUE_GATE",
+  "formal_E0_E1_E2": "NOT_CLAIMED__THEORETICAL_EXACT_FINITE_ATLAS_AUDIT_ONLY",
+  "claim_ceiling": "BGCE283 tests exact S4-atlas overlap and cocycle gluing for the committed X21R1 metric, BGCE281 theta tangents and BGCE280 zero-connection nonmetricity. A PASS proves a continuous first-order S4-equivariant tensor field on the source-derived operational event atlas. It does not prove arbitrary smooth diffeomorphism covariance, empirical identification/calibration with natural spacetime, the mu metric tangent, Hilbert stress, Ward conservation, Einstein dynamics or empirical quantum gravity."
+}

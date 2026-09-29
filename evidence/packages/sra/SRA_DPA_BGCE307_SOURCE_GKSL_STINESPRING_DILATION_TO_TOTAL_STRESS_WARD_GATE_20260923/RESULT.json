@@ -1,0 +1,141 @@
+{
+  "schema": "siel.dpa.bgce307.result.v1",
+  "candidate_id": "BGCE307",
+  "date": "2026-09-23",
+  "source_revision": "b168bb94e266dbe96614e67aa8ea636f352ce1b1",
+  "input_hashes_verified": {
+    "b168bb94e266dbe96614e67aa8ea636f352ce1b1:audits/SRA_DPA_BGCE125_REYNOLDS_PROJECTION_CP_SEMIGROUP_FOR_AFFINE_SCALAR_FLOW_GATE_20260919/RESULT.json": "ab72ec976b020c4f0028a4e9eca93e73062bc4a540f2142e320a7510eebc767b",
+    "b168bb94e266dbe96614e67aa8ea636f352ce1b1:audits/SRA_DPA_BGCE125_REYNOLDS_PROJECTION_CP_SEMIGROUP_FOR_AFFINE_SCALAR_FLOW_GATE_20260919/RAW_OUTPUT.json": "620781a90eb65b1e1e027ed35f9464e0533b265fbe0760d21568d177e01de035",
+    "b168bb94e266dbe96614e67aa8ea636f352ce1b1:audits/SRA_DPA_BGCE126_HYBRID_GKSL_AND_THREE_INNER_DERIVATIONS_LOCAL_METRIC_EVOLUTION_GATE_20260919/RESULT.json": "ee49aef7a00df47f07195f0951812636f0688c84182af837e1258e6e3bd01e80",
+    "b168bb94e266dbe96614e67aa8ea636f352ce1b1:audits/SRA_DPA_BGCE126_HYBRID_GKSL_AND_THREE_INNER_DERIVATIONS_LOCAL_METRIC_EVOLUTION_GATE_20260919/RAW_OUTPUT.json": "700b293e367e0920081b388de470636e9d7721212233abcba1560aeb406538e5",
+    "b168bb94e266dbe96614e67aa8ea636f352ce1b1:projects/active/discovery_partner/formal_checks/ocbfh014_source_native_refinement_naturality_check.py": "176c75ac349f0f3f142d9c850ca0682436b7ad00cd179f6806de253d0a7acabb",
+    "b168bb94e266dbe96614e67aa8ea636f352ce1b1:audits/SRA_DPA_BGCE266_REFINEMENT_CLOCK_TO_UNIQUE_EVENT_SEMIGROUP_AND_IR_OS_CONTINUATION_GATE_20260922/RESULT.json": "3a3917608252c94e2cd67232340c878db75403602fdf4464c0cc3fffac471fb7",
+    "b168bb94e266dbe96614e67aa8ea636f352ce1b1:audits/SRA_DPA_BGCE295_FINITE_BRAID_ACTION_TO_CONTINUUM_HILBERT_VARIATION_IDENTITY_GATE_20260923/RESULT.json": "7c629269ae0356bb4da1dad008e1c934581a3cacd2c1337915fcfc0f74cb6ed1",
+    "b168bb94e266dbe96614e67aa8ea636f352ce1b1:audits/SRA_DPA_BGCE300R1_A49_NONCIRCULAR_BACKREACTION_TO_LOW_ENERGY_SPIN2_EINSTEIN_GATE_20260923/RESULT.json": "3ea43d21415ffc1a33b4d4446e6db053772a886c604147b50d614b2c9931835a",
+    "b168bb94e266dbe96614e67aa8ea636f352ce1b1:audits/SRA_DPA_BGCE306_SOURCE_GKSL_EVENT_CLOCK_TO_FINITE_BACKREACTION_TRANSFER_GATE_20260923/RESULT.json": "b2d941cc87d5140bf5bb10bd15e4d17d750ffd7e4841b2a1a7ad9adc2ad83256"
+  },
+  "primary_evidence_status": "Exact fixed-time dilation theorem, exact eight-sector conservation defect, and finite-autonomous-dilation no-go",
+  "scientific_layer": "open quantum dynamics, closed-system dilation, and total stress/Ward conservation",
+  "fixed_time_source_labelled_Stinespring": {
+    "channel": "T_t=q Id+(1-q)E, q=exp(-gamma t)",
+    "exact_witness_q": "1/4",
+    "group_probabilities_at_witness": [
+      "3/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8"
+    ],
+    "environment": "C[S3] group register labelled by the six actual Braid unitaries",
+    "environment_dimension": 6,
+    "controlled_unitary": "W=sum_g U_g tensor |g><g|",
+    "environment_state": "|psi_t>=sum_g sqrt(p_t(g))|g>",
+    "partial_trace_reproduces_channel": true,
+    "all_eight_actual_sectors": true,
+    "new_fitted_coefficient": false
+  },
+  "full_semigroup_autonomous_dilation": {
+    "single_finite_environment_fixed_initial_state_and_time_independent_H_total": false,
+    "theorem": "A finite-dimensional autonomous unitary reduction has matrix elements that are finite sums of phases. If such a function converges as t tends to infinity, all nonzero-frequency coefficients vanish and it is constant. The nonconstant channel E+exp(-gamma t)(I-E) converges to E, so it cannot have such a realization.",
+    "required_for_exact_full_semigroup": "an infinite ancilla/Fock environment or repeated fresh-ancilla reset",
+    "required_structure_source_selected": false,
+    "fixed_time_dilation_is_autonomous_semigroup_dilation": false
+  },
+  "sector_records": [
+    {
+      "mask": 0,
+      "group_register_dimension": 6,
+      "fixed_time_controlled_Braid_unitary": true,
+      "Stinespring_isometry_exact": true,
+      "G1_adjoint_generator_defect_nonzero": true,
+      "G1_defect_Hilbert_Schmidt_norm_squared": "18",
+      "G1_defect_nonzero_entries": 324
+    },
+    {
+      "mask": 5,
+      "group_register_dimension": 6,
+      "fixed_time_controlled_Braid_unitary": true,
+      "Stinespring_isometry_exact": true,
+      "G1_adjoint_generator_defect_nonzero": true,
+      "G1_defect_Hilbert_Schmidt_norm_squared": "18",
+      "G1_defect_nonzero_entries": 324
+    },
+    {
+      "mask": 8,
+      "group_register_dimension": 6,
+      "fixed_time_controlled_Braid_unitary": true,
+      "Stinespring_isometry_exact": true,
+      "G1_adjoint_generator_defect_nonzero": true,
+      "G1_defect_Hilbert_Schmidt_norm_squared": "18",
+      "G1_defect_nonzero_entries": 324
+    },
+    {
+      "mask": 13,
+      "group_register_dimension": 6,
+      "fixed_time_controlled_Braid_unitary": true,
+      "Stinespring_isometry_exact": true,
+      "G1_adjoint_generator_defect_nonzero": true,
+      "G1_defect_Hilbert_Schmidt_norm_squared": "18",
+      "G1_defect_nonzero_entries": 324
+    },
+    {
+      "mask": 16,
+      "group_register_dimension": 6,
+      "fixed_time_controlled_Braid_unitary": true,
+      "Stinespring_isometry_exact": true,
+      "G1_adjoint_generator_defect_nonzero": true,
+      "G1_defect_Hilbert_Schmidt_norm_squared": "18",
+      "G1_defect_nonzero_entries": 324
+    },
+    {
+      "mask": 21,
+      "group_register_dimension": 6,
+      "fixed_time_controlled_Braid_unitary": true,
+      "Stinespring_isometry_exact": true,
+      "G1_adjoint_generator_defect_nonzero": true,
+      "G1_defect_Hilbert_Schmidt_norm_squared": "18",
+      "G1_defect_nonzero_entries": 324
+    },
+    {
+      "mask": 24,
+      "group_register_dimension": 6,
+      "fixed_time_controlled_Braid_unitary": true,
+      "Stinespring_isometry_exact": true,
+      "G1_adjoint_generator_defect_nonzero": true,
+      "G1_defect_Hilbert_Schmidt_norm_squared": "18",
+      "G1_defect_nonzero_entries": 324
+    },
+    {
+      "mask": 29,
+      "group_register_dimension": 6,
+      "fixed_time_controlled_Braid_unitary": true,
+      "Stinespring_isometry_exact": true,
+      "G1_adjoint_generator_defect_nonzero": true,
+      "G1_defect_Hilbert_Schmidt_norm_squared": "18",
+      "G1_defect_nonzero_entries": 324
+    }
+  ],
+  "total_conservation": {
+    "system_source_clock_observable": "G1",
+    "Reynolds_adjoint_generator_fixes_G1": false,
+    "all_eight_G1_defect_HS_norm_squared": "18",
+    "trivial_environment_Hamiltonian_can_balance_G1": false,
+    "source_environment_Hamiltonian_or_stress_present": false,
+    "total_system_environment_Ward_identity_derived": false,
+    "probability_norm_conservation_upgraded_to_stress_conservation": false,
+    "finite_Einstein_backreaction_bridge_closed": false
+  },
+  "BGCE300R1_low_energy_Einstein_result_retained": true,
+  "decision": "SPLIT_PASS_FIXED_TIME_DILATION_ONLY__THE_SIX_ACTUAL_BRAID_UNITARIES_GIVE_AN_EXACT_SOURCE_LABELLED_SIX_DIMENSIONAL_STINESPRING_DILATION_OF_EACH_REYNOLDS_SEMIGROUP_CHANNEL_AND_AT_Q_ONE_QUARTER_THE_GROUP_WEIGHTS_ARE_EXACTLY_THREE_EIGHTHS_PLUS_FIVE_TIMES_ONE_EIGHTH__BUT_NO_SINGLE_FINITE_ENVIRONMENT_WITH_FIXED_STATE_AND_AUTONOMOUS_HAMILTONIAN_CAN_REALIZE_THE_NONCONSTANT_EXPONENTIALLY_RELAXING_SEMIGROUP_FOR_ALL_TIMES__MOREOVER_THE_REYNOLDS_ADJOINT_GENERATOR_CHANGES_G1_WITH_EXACT_HS_DEFECT_SQUARED_18_IN_ALL_EIGHT_SECTORS__NO_SOURCE_ENVIRONMENT_STRESS_OR_TOTAL_WARD_BALANCE_IS_PRESENT__FINITE_EINSTEIN_BACKREACTION_REMAINS_OPEN",
+  "counter_intuition_scan": {
+    "ordinary_explanation": "Every finite-dimensional CPTP map has a Stinespring dilation, but a relaxing Markov semigroup needs an effectively inexhaustible environment and total energy bookkeeping.",
+    "SIEL_specific_part": "Here the dilation labels and controlled unitaries are not arbitrary: they are the six actual pointed-Braid actions, and the failure to conserve the same source clock G1 is exact and identical across all eight sectors.",
+    "strongest_counterpattern": "The already source-native infinite right-tail refinement may itself provide the fresh ancilla chain, avoiding an externally postulated bath.",
+    "falsifier": "A finite autonomous fixed-environment dilation of the full nonconstant relaxation semigroup, or exact vanishing of the computed G1 adjoint defect."
+  },
+  "next_gate": "BGCE308_SOURCE_RIGHT_TAIL_REPEATED_INTERACTION_DILATION_AND_TOTAL_BALANCE_GATE",
+  "runtime_class": "SUBSECOND_EXACT_INTEGER_RATIONAL_OPERATOR_CHECK_NO_SCAN",
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+  "claim_ceiling": "BGCE307 derives an exact source-labelled Stinespring dilation for each finite-time Reynolds channel and proves an exact nonzero G1 conservation defect, but it does not derive an autonomous full-semigroup environment, environment stress, total Ward identity or full finite Lorentzian quantum backreaction."
+}

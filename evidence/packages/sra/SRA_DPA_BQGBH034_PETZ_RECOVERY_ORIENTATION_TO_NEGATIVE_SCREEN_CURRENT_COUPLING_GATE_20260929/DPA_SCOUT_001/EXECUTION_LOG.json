@@ -1,0 +1,13 @@
+{
+  "schema": "siel.dpa.bqgbh034.execution_log.v1",
+  "scout_id": "DPA-SCOUT-BQGBH-034-X1",
+  "frozen_commit": "34b97a2bb",
+  "attempts": [{
+    "attempt": "X1-I001",
+    "command": "python3 audits/SRA_DPA_BQGBH034_PETZ_RECOVERY_ORIENTATION_TO_NEGATIVE_SCREEN_CURRENT_COUPLING_GATE_20260929/DPA_SCOUT_001/evaluate_scout.py",
+    "exit_code": 0,
+    "status": "COMPLETE_SCOPED_NO_GO"
+  }],
+  "prefreeze_implementation_repairs": [],
+  "repairs_after_outcome_access": []
+}

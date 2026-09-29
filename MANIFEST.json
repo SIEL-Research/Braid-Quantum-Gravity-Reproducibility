@@ -1,34 +1,174 @@
 {
-  "schema": "siel.bqg.reproduction.manifest.v1",
-  "package_version": "0.99.0",
-  "prepared_at": "2026-09-29",
-  "release_state": "PREPARED_FOR_PUBLIC_RELEASE",
-  "repository": "https://github.com/SIEL-Research/Braid-Quantum-Gravity-Reproducibility",
-  "test_entrypoint": "scripts/verify_source.py",
-  "expected_status": "PASS",
   "claim_boundary": {
-    "source_reconstruction": "EXECUTABLE_EXACT_VERIFICATION",
-    "representatives": 8,
-    "real_typed_orbits": 8,
+    "paper_wide_evidence_reachability": "PASS_LOCAL_VALIDATION",
+    "paper_wide_independent_replication": "NOT_CLAIMED",
     "physical_sector_selection": "OPEN",
-    "paper_wide_reproduction": "INCOMPLETE"
+    "real_typed_orbits": 8,
+    "representatives": 8,
+    "source_reconstruction": "EXECUTABLE_EXACT_VERIFICATION"
   },
+  "expected_status": "PASS",
   "files": [
-    {"path": ".github/workflows/verify.yml", "size_bytes": 449, "sha256": "e8a7dbe34c8299fb5e70beb41aecad7a9669d7dadd40af6e9da89a09f0be4afa"},
-    {"path": "CITATION.cff", "size_bytes": 402, "sha256": "22ecaf636e96d95a9fa2b7573e5be29485095392af9f4a9f5bcf5ed09cce9a67"},
-    {"path": "CLAIM_TEST_MAP.md", "size_bytes": 1308, "sha256": "6ec965947475adaef85fbf983049ea1d5cb2d0d3e4eccd1e2132c3272f0e280d"},
-    {"path": "LICENSE", "size_bytes": 11344, "sha256": "5d112a0e587bbda4de896a6480caf0710940a83391ec9d0c992f218499d37794"},
-    {"path": "PROVENANCE.md", "size_bytes": 1241, "sha256": "bbaa203b40e09cb06f71d156ab4d0ef831f3e074eb96b55cedb43c728fbe07cf"},
-    {"path": "README.md", "size_bytes": 3048, "sha256": "06800ac25eabc241b7f71569309c55f28cb8fc6b5b2ceea04b0e601ef1a08bfa"},
-    {"path": "VERIFICATION_SCOPE.md", "size_bytes": 1204, "sha256": "17b1befca04af0e66ea2391451bfc58eb9e4029f7429ea1101c8db7f2ffcc6e0"},
-    {"path": "pyproject.toml", "size_bytes": 653, "sha256": "5b5f05dc1e9495fdbdaabb13c317ec68018d145c4ae0c400cb1b3d5740314320"},
-    {"path": "requirements.txt", "size_bytes": 13, "sha256": "e5f223cf307a68a2b0f25aba3e415f62caa06e2fdd7cf008f901af18dd6e31aa"},
-    {"path": "data/canonical_source_class_v099.json", "size_bytes": 1183, "sha256": "801894ab3667c0f1f394263eb224172a972d33894e73fe7380227d414f1a64d9"},
-    {"path": "expected/source_verification_v099.json", "size_bytes": 380, "sha256": "d2359fa8ac2244d73901bf4253b7929003ecc6624c4508e8eb772773288e2fef"},
-    {"path": "scripts/verify_manifest.py", "size_bytes": 1319, "sha256": "9b493be0acf6953dbf807d5ce8ff2baf43edd1eaeab17db0b45a8dd6d4a6208b"},
-    {"path": "scripts/verify_source.py", "size_bytes": 728, "sha256": "744ed230dd96b3457ed2e682233c6fd053f863e686fabe74e93402d440c8d98f"},
-    {"path": "src/bqg_v099/__init__.py", "size_bytes": 138, "sha256": "274115b4b48085228ab7fa7f0c7343bf060a358cf3fd204c119a1dadc809bad5"},
-    {"path": "src/bqg_v099/source.py", "size_bytes": 5707, "sha256": "c176424b100818dab4dc7b09df11a7372a3d6c793306d999192739ff4e56157c"},
-    {"path": "tests/test_source.py", "size_bytes": 584, "sha256": "58ea4ca2f5f0d2eef8db52a47bc7f642f27f7401566b7328edb9595f60fb3fe5"}
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "5cd57b407b63a873a7910e24a3832ac845f857f7fce59095a8997b0e377d9e74",
+      "size_bytes": 620
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "d94c6521960085a77f076f56a81d78e4d52bfeba5ec4d6edb91b9862bde9d8e1",
+      "size_bytes": 425
+    },
+    {
+      "path": "CLAIM_TEST_MAP.md",
+      "sha256": "7207e963cc919a205d583f7aa8528a80b46fc0a272fc2b72c9becdc673835d7b",
+      "size_bytes": 2395
+    },
+    {
+      "path": "EVIDENCE_REACHABILITY_AUDIT_v1.0.md",
+      "sha256": "2b76fa089c119998cd15ba21b6532946d87cde3962f10fdf38a0d022dbc1e9fa",
+      "size_bytes": 2659
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "5d112a0e587bbda4de896a6480caf0710940a83391ec9d0c992f218499d37794",
+      "size_bytes": 11344
+    },
+    {
+      "path": "PROVENANCE.md",
+      "sha256": "c87ab1844ab12879578901c9a72c09dc07d2b77931c4041d5bda11bc07d8e5f9",
+      "size_bytes": 1946
+    },
+    {
+      "path": "README.md",
+      "sha256": "7f23c8bfe3c7afc4829399b18419ccbe5f4133595f2210cfc9d2f99f8c2dc7d3",
+      "size_bytes": 4382
+    },
+    {
+      "path": "THEOREM_EVIDENCE_INDEX_v1.0.md",
+      "sha256": "2ddf9edc91ad0f41a9b750cb234de75d0603ea3961d913a9876d423486095a1e",
+      "size_bytes": 26650
+    },
+    {
+      "path": "VERIFICATION_SCOPE.md",
+      "sha256": "5596b0114a064d8afb88b4f589db61264fecf7f130ba52b7249d632bd487b4fb",
+      "size_bytes": 1677
+    },
+    {
+      "path": "data/canonical_source_class_v099.json",
+      "sha256": "801894ab3667c0f1f394263eb224172a972d33894e73fe7380227d414f1a64d9",
+      "size_bytes": 1183
+    },
+    {
+      "path": "evidence/IMPORT_PROVENANCE.md",
+      "sha256": "08fd6d5adb00ad2d8e500563a10751760e3c9ce0ab9ff61a2b95c782f057fe18",
+      "size_bytes": 1733
+    },
+    {
+      "path": "evidence/evidence_integrity_v1.json",
+      "sha256": "6a818892b0f9828ad933796d983b52de4278a909d36e92c9ddaa89788f452ee6",
+      "size_bytes": 25489
+    },
+    {
+      "path": "evidence/public_url_audit_v1.json",
+      "sha256": "b3c832a5b6cbc46ac9184ad611bdad0ff8e3e3d6e5a81427db886e8526c8cc8a",
+      "size_bytes": 925
+    },
+    {
+      "path": "expected/source_verification_v099.json",
+      "sha256": "fc6eef24e85f7d52320f47e452f00af667bf300aedc81657b5fca50217cdead5",
+      "size_bytes": 2188
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "5b5f05dc1e9495fdbdaabb13c317ec68018d145c4ae0c400cb1b3d5740314320",
+      "size_bytes": 653
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "e5f223cf307a68a2b0f25aba3e415f62caa06e2fdd7cf008f901af18dd6e31aa",
+      "size_bytes": 13
+    },
+    {
+      "path": "scripts/build_manifest.py",
+      "sha256": "c9ee9186346c74f7244c6c9918b839f462c21503fc72e06fadf32274c1f139ac",
+      "size_bytes": 2696
+    },
+    {
+      "path": "scripts/extract_theorem_inventory.py",
+      "sha256": "7508f5c075b8a897594f4e669edc15c41a85093c91655b2f0759c34b08729091",
+      "size_bytes": 2040
+    },
+    {
+      "path": "scripts/render_theorem_evidence_index.py",
+      "sha256": "ff8d2aeeee44bc78b9ea0344dda64c198f2c8aaa912d0b7eb096e4abb99bf9c9",
+      "size_bytes": 3128
+    },
+    {
+      "path": "scripts/verify_evidence_integrity.py",
+      "sha256": "64a079c00aca5b0f8f4fb2f6850b53b6646b6e2368214ff05f6b4820b948eabc",
+      "size_bytes": 3002
+    },
+    {
+      "path": "scripts/verify_manifest.py",
+      "sha256": "9b493be0acf6953dbf807d5ce8ff2baf43edd1eaeab17db0b45a8dd6d4a6208b",
+      "size_bytes": 1319
+    },
+    {
+      "path": "scripts/verify_source.py",
+      "sha256": "744ed230dd96b3457ed2e682233c6fd053f863e686fabe74e93402d440c8d98f",
+      "size_bytes": 728
+    },
+    {
+      "path": "scripts/verify_theorem_coverage_v1.py",
+      "sha256": "79f60eb396b3d2cc5077ffa75d943fb0a65ec9e6ad571d2a5a2523ab139023f6",
+      "size_bytes": 4968
+    },
+    {
+      "path": "scripts/verify_vendored_packages.py",
+      "sha256": "e373b1aa04998eff7334ba0cf912dc06467d86d4dffd368f330fdb385f8454c1",
+      "size_bytes": 14684
+    },
+    {
+      "path": "src/bqg_v099/__init__.py",
+      "sha256": "274115b4b48085228ab7fa7f0c7343bf060a358cf3fd204c119a1dadc809bad5",
+      "size_bytes": 138
+    },
+    {
+      "path": "src/bqg_v099/source.py",
+      "sha256": "b083c6cff369b7ff58774f9d5c6a12dc32d13ccc692ad537f2b4799ecc0423e5",
+      "size_bytes": 14405
+    },
+    {
+      "path": "tests/test_source.py",
+      "sha256": "58ea4ca2f5f0d2eef8db52a47bc7f642f27f7401566b7328edb9595f60fb3fe5",
+      "size_bytes": 584
+    },
+    {
+      "path": "theorems/analytic_proofs_v1.md",
+      "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397",
+      "size_bytes": 11477
+    },
+    {
+      "path": "theorems/theorem_evidence_v1.json",
+      "sha256": "84c25faff2eafd2053ebe92d64a82768d14064b711734464e1bd1ba92f628f02",
+      "size_bytes": 20739
+    },
+    {
+      "path": "theorems/theorem_inventory_v1.json",
+      "sha256": "e62f66e7ebd8e470f69d072360e3e4ef08e1d0bc88599b6e92ad728f905a81f5",
+      "size_bytes": 33358
+    }
+  ],
+  "package_version": "1.0.0",
+  "prepared_at": "2026-09-29",
+  "release_state": "LOCAL_VALIDATED_AWAITING_PUBLIC_PUSH",
+  "repository": "https://github.com/SIEL-Research/Braid-Quantum-Gravity-Reproducibility",
+  "schema": "siel.bqg.reproduction.manifest.v2",
+  "test_entrypoints": [
+    "scripts/verify_source.py",
+    "scripts/verify_theorem_coverage_v1.py",
+    "scripts/verify_evidence_integrity.py",
+    "scripts/verify_vendored_packages.py"
   ]
 }

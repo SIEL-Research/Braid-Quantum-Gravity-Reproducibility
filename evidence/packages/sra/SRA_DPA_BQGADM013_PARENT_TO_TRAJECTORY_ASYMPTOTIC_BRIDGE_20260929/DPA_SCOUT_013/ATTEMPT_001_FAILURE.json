@@ -1,0 +1,14 @@
+{
+  "schema": "siel.dpa.bqgadm013.failed_implementation.v1",
+  "scout_id": "DPA-SCOUT-BQGADM-013",
+  "attempt": 1,
+  "date": "2026-09-29",
+  "status": "FAILED_IMPLEMENTATION",
+  "defect": "The evaluator used HERE.parents[3] instead of HERE.parents[2] for the repository root.",
+  "first_failed_operation": "git show b93a2a5dad11476be7e7b0203a8c8c30e0f851db:audits/SRA_DPA_BGCE097_FULL_SIX_FACE_ACTION_FIVE_ADIC_ADDITIVITY_GATE_20260919/RESULT.json",
+  "scientific_outcome_produced": false,
+  "scientific_decision": null,
+  "permitted_fix": "Change only the repository-root index from parents[3] to parents[2].",
+  "source_hypothesis_endpoint_or_threshold_changed": false,
+  "process_defect_assessment": "Local implementation defect retained in the scout; no SRA policy change is required."
+}

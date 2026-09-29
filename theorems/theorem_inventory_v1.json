@@ -1,0 +1,384 @@
+{
+  "schema": "siel.bqg.theorem-inventory.v1",
+  "manuscript": "SUBJECTIVITY_INTERSECTION_BRAID_QUANTUM_GRAVITY_v1.0_EN.tex",
+  "counts": {
+    "theorem": 47,
+    "proposition": 4,
+    "lemma": 0,
+    "corollary": 2,
+    "total": 53
+  },
+  "records": [
+    {
+      "id": "V100-THE-01",
+      "kind": "theorem",
+      "title": "Four-direction event moment",
+      "line": 299,
+      "statement": "For the fixed marked source, the source-canonical event moment is \\begin{equation} Q_4=\\frac{12}{25}P_0+\\frac{52}{25}P_1, \\label{eq:q4} \\end{equation} where $P_0$ is the uniform one-dimensional projector and $P_1$ is the standard three-dimensional projector. Therefore \\begin{equation} \\rank Q_4=4, \\qquad \\mathbb R^4\\cong\\operatorname{im}P_0\\oplus\\operatorname{im}P_1 \\cong \\mathbf 1\\oplus\\mathbf 3. \\end{equation}"
+    },
+    {
+      "id": "V100-THE-02",
+      "kind": "theorem",
+      "title": "Source-derived Lorentz signature",
+      "line": 316,
+      "statement": "The marked clock determines the causal reflection \\begin{equation} J_{\\rm ray}=-P_0+P_1. \\end{equation} The event metric \\begin{equation} K_{\\rm evt}=J_{\\rm ray}Q_4 =-\\frac{12}{25}P_0+\\frac{52}{25}P_1 \\label{eq:kevt} \\end{equation} has signature $(3+,1-)$."
+    },
+    {
+      "id": "V100-THE-03",
+      "kind": "theorem",
+      "title": "Full matter corner and routing ratio",
+      "line": 332,
+      "statement": "In the complete declared five-partition retraction class, the fixed event-conditioned source selects one full matter corner. Normalized source-cup routing gives the relative matter/gravity weight \\begin{equation} \\kappa_B=\\frac35. \\label{eq:threefifths} \\end{equation} The value is an output of the fixed routing count, not a manually inserted gravitational coupling."
+    },
+    {
+      "id": "V100-THE-04",
+      "kind": "theorem",
+      "title": "Tensor gluing",
+      "line": 349,
+      "statement": "The finite source metrics glue to a smooth metric field with \\begin{equation} g_b=L_{ba}^{-\\mathsf T}g_aL_{ba}^{-1}, \\qquad \\dot g_b=L_{ba}^{-\\mathsf T}\\dot g_aL_{ba}^{-1}. \\label{eq:metricglue} \\end{equation} The associated nonmetricity transforms tensorially under passive local $GL(4)$ changes."
+    },
+    {
+      "id": "V100-THE-05",
+      "kind": "theorem",
+      "title": "Positive horizontal lift",
+      "line": 362,
+      "statement": "For every infinitesimal metric variation in the ten-dimensional symmetric sector, event-path Fisher/Bogoliubov--Kubo--Mori horizontality selects a finite positive Markov-rate lift. Its curvature vanishes on all 45 metric two-planes, hence it integrates locally to an exponential leaf."
+    },
+    {
+      "id": "V100-THE-06",
+      "kind": "theorem",
+      "title": "Unique typed physical solder",
+      "line": 366,
+      "statement": "Within the source-product typing class, the map from ten source responses to $\\Sym^2(T^*M)$ is unique. The co-moving causal reflection \\begin{equation} J(Q,\\tau)=I-2\\frac{(Q\\tau)\\tau^{\\mathsf T}}{\\tau^{\\mathsf T}Q\\tau} \\end{equation} and \\begin{equation} K(Q,\\tau)=Q-2\\frac{(Q\\tau)(Q\\tau)^{\\mathsf T}}{\\tau^{\\mathsf T}Q\\tau} \\label{eq:comoving} \\end{equation} restore all ten Lorentz-metric variations without an independent clock coupling."
+    },
+    {
+      "id": "V100-THE-07",
+      "kind": "theorem",
+      "title": "Hilbert variation and Ward identity",
+      "line": 387,
+      "statement": "The finite source action variation converges in the declared class to \\begin{equation} \\delta S_m =\\frac12\\int_M\\sqrt{|g|}\\,T^{\\mu\\nu}\\delta g_{\\mu\\nu}\\,d^4x. \\label{eq:hilbert} \\end{equation} Diffeomorphism variation gives the off-shell Noether identity and, on the matter equations of motion, \\begin{equation} \\nabla_\\mu T^{\\mu}{}_{\\nu}=0. \\label{eq:ward} \\end{equation}"
+    },
+    {
+      "id": "V100-THE-08",
+      "kind": "theorem",
+      "title": "Scoped Einstein equation",
+      "line": 401,
+      "statement": "Write \\begin{equation} \\kappa_B^{\\rm norm}:=\\frac35 \\label{eq:kappa-b-normalized} \\end{equation} for the dimensionless matter/gravity routing weight in normalized source variables. The common gravity--matter variation is \\begin{equation} \\delta S_{\\rm tot} =\\frac12\\int_M\\sqrt{|g|} \\left(G^{\\mu\\nu}-\\kappa_B^{\\rm norm}T^{\\mu\\nu}\\right) \\delta g_{\\mu\\nu}\\,d^4x. \\label{eq:totalvariation} \\end{equation} Stationarity for arbitrary compactly supported $\\delta g_{\\mu\\nu}$ yields \\begin{equation} G_{\\mu\\nu}(g)=\\kappa_B^{\\rm norm}T_{\\mu\\nu}(g,\\lambda). \\label{eq:einstein} \\end{equation}"
+    },
+    {
+      "id": "V100-COR-01",
+      "kind": "corollary",
+      "title": "Massless spin two",
+      "line": 437,
+      "statement": "Around $g_{\\mu\\nu}=\\eta_{\\mu\\nu}+h_{\\mu\\nu}$, the quadratic gravity action is the massless Fierz--Pauli gauge class. After the linear constraints and gauge quotient, two physical helicities remain in four dimensions \\cite{fierzpauli1939}."
+    },
+    {
+      "id": "V100-THE-09",
+      "kind": "theorem",
+      "title": "Source-native CPTP parent",
+      "line": 451,
+      "statement": "The fixed collision family admits a source-native Stinespring dilation and a reduced CPTP/unital evolution. The local recorded closed-time-path parent has retarded support, positive noise, exact address/time refinement, and the correct $3+1$ causal typing \\cite{stinespring1955,gorini1976,lindblad1976,feynmanvernon1963}."
+    },
+    {
+      "id": "V100-THE-10",
+      "kind": "theorem",
+      "title": "Interaction stress from record contrast",
+      "line": 462,
+      "statement": "The source-fixed raw/Petz forward--reverse record contrast has conditional effect tangents $+D_\\alpha/2$ and $-D_\\alpha/2$. Its gauge-invariant Choi marginal difference is exactly $D_\\alpha$. Therefore the interaction-stress compression is derived from the collision record rather than chosen to cancel a known defect."
+    },
+    {
+      "id": "V100-THE-11",
+      "kind": "theorem",
+      "title": "Four-component finite Ward telescope",
+      "line": 466,
+      "statement": "For every finite history length $n$ and all four components, \\begin{equation} \\sum_{k=0}^{n-1}\\Phi^k(D_\\alpha) =S_\\alpha-\\Phi^n(S_\\alpha). \\label{eq:wardtelescope} \\end{equation} This identity holds in all eight source sectors."
+    },
+    {
+      "id": "V100-THE-12",
+      "kind": "theorem",
+      "title": "One-cycle Fisher feedback",
+      "line": 480,
+      "statement": "The recorded source family has a full-rank Fisher response on the four metric directions. The stationary record action defines a coefficient-free update \\begin{equation} \\text{matter record}\\longrightarrow \\text{metric register}\\longrightarrow \\text{next CPTP matter collision} \\end{equation} without MMR, CGR, an Einstein target, a manually inserted $3/5$, or a fitted response coefficient."
+    },
+    {
+      "id": "V100-THE-13",
+      "kind": "theorem",
+      "title": "All finite adaptive iterations",
+      "line": 490,
+      "statement": "Let $\\rho_n$ be the finite record state and let $A_n$ be the source-derived response operator at step $n$. The operator-logistic update \\begin{equation} \\rho_{n+1} =\\frac{\\exp(\\log\\rho_n+A_n)}{\\Tr\\exp(\\log\\rho_n+A_n)} \\label{eq:logistic} \\end{equation} is positive and normalized. For every finite $N$, the adaptive composition through step $N$ remains CPTP, obeys the nonautonomous four-component Ward telescope, preserves four independent global response directions, and retains the scoped constraint representation."
+    },
+    {
+      "id": "V100-PRO-01",
+      "kind": "proposition",
+      "title": "The coefficients $1$ and $3/5$",
+      "line": 500,
+      "statement": "The direct finite Fisher gain is exactly $1$ because it compares score and Hessian in the same record normalization. The coefficient $3/5$ is the outer full-corner matter/gravity routing weight. They have different domains and are not rival estimates of one constant."
+    },
+    {
+      "id": "V100-THE-14",
+      "kind": "theorem",
+      "title": "Source-generated local derivations",
+      "line": 517,
+      "statement": "Three signed-sector local generators survive refinement as independent closable unbounded derivations $\\delta_i$. Their all-sector Gram rank is three. The generated finite-order derivation algebra closes under commutators, \\begin{equation} [\\delta_i,\\delta_j]\\in\\operatorname{Lie}\\langle\\delta_1,\\delta_2,\\delta_3\\rangle, \\end{equation} obeys the Jacobi identity exactly, and has no central anomaly in the declared derivation representation."
+    },
+    {
+      "id": "V100-THE-15",
+      "kind": "theorem",
+      "title": "Temporal auxiliaries and the source-clock gauge slice",
+      "line": 525,
+      "statement": "In the raw covariant Palatini parent, $e_0$ is the auxiliary multiplier for the source-derived scalar/vector constraints and $U_0$ is the temporal Lorentz gauge link. They are retained during variation, after which the constraints are imposed and a gauge is fixed or quotiented. On a local contractible regular branch, the marked source clock $\\tau$ is a reachable gauge slice rather than an additional observable. In the source-derived canonical multiplier bundle, all eight spatial-orientation sectors have constraint rank four, zero discrete multiplier-gauge residual, a reachable source-clock representative and a four-dimensional reduced phase space. Independently, the literal raw six-face action has 24 nonzero alternating terms that split exactly into 12 $e_0e_iF_{jk}$ terms and 12 $e_ie_jF_{0k}(U_0)$ terms; its $e_0$ Hessian vanishes, its proper-Lorentz action is invariant, and two ordered noncommuting temporal links are jointly gauge-trivial on a contractible two-edge interval. Fixing or deleting $e_0,U_0$ before variation would instead remove the corresponding constraint equations."
+    },
+    {
+      "id": "V100-THE-16",
+      "kind": "theorem",
+      "title": "Local regular source-perfect ADM/HDA--BFV parent",
+      "line": 543,
+      "statement": "The source supplies the Palatini coframe expression \\begin{equation} C_a=\\epsilon^{ijk}\\epsilon_{abcd}\\,e_i^{\\ b}F_{jk}^{\\ cd} \\label{eq:finite-palatini-constraint} \\end{equation} and the source-clock-oriented five-adic Palatini slab tower. On a common local regular noncaustic history branch, define the source-perfect boundary action by the stationary refinement limit \\begin{equation} S_n^{\\rm perf}(z_-,z_+) =\\lim_{m\\to\\infty} \\operatorname*{stat}_{R_{m,n}z_m^{\\partial}=(z_-,z_+)}S_m[z_m]. \\label{eq:perfect-history-action} \\end{equation} Stationary composition makes these actions a history groupoid. Its one clock and three spatial incidence deformations generate an exact off-shell Noether identity \\begin{equation} R_n^\\dagger\\cE(S_n^{\\rm perf})=0. \\label{eq:finite-noether} \\end{equation} On the open rank-four neighborhood, the four primitive generators span the presymplectic kernel, their metric-dependent brackets form the hypersurface-deformation Lie algebroid, the associated local BFV differential satisfies $s_n^2=0$, and refinement intertwines the action, constraint surface, presymplectic form, BFV differential and HDA arrows. The reduced Palatini phase space has dimension $12-2\\times4=4$, hence two configuration modes. This is a source-perfect refinement-image theorem, not a claim that the unrenormalized raw cell action has an exact ultralocal fixed-grid HDA \\cite{hkt1976,henneauxteitelboim1992,bahrdittrich2009}."
+    },
+    {
+      "id": "V100-THE-17",
+      "kind": "theorem",
+      "title": "Source-derived physical projector",
+      "line": 576,
+      "statement": "Let $H_z$ be the regular four-row constraint/gauge horizontal map, let $G_z$ be the positive source-coframe phase metric, and assume $H_zG_z^{-1}H_z^{\\mathsf T}$ is nonsingular. The physical tangent projector is \\begin{equation} P_z=I-G_z^{-1}H_z^{\\mathsf T} \\left(H_zG_z^{-1}H_z^{\\mathsf T}\\right)^{-1}H_z. \\label{eq:moving-projector} \\end{equation} At the flat anchor it has configuration rank two and phase rank four, kills all four constraint/gauge directions, is symplectic on its image, and splits the eight-dimensional constraint surface into four gauge plus four physical dimensions. Exact rational evaluation passes these identities for every one of the 124 nonzero momentum directions of $C_5^3$. On the curved local regular perfect-history branch, Eq.~\\eqref{eq:moving-projector} varies smoothly with $z(t)$ and is exactly refinement-natural. It identifies the flat physical configuration image with the two-copy hierarchical carrier of Eq.~\\eqref{eq:strongwave}; the construction is the source realization of a standard transverse--traceless/York coisotropic reduction \\cite{york1973}."
+    },
+    {
+      "id": "V100-THE-18",
+      "kind": "theorem",
+      "title": "Physical two-polarization principal symbol",
+      "line": 598,
+      "statement": "Let $q_h(\\omega,k)$ be the scalar symbol of the normalized metric--Euler principal operator on the source-derived physical quotient of the source-perfect parent. Because it acts identically on the symmetric tensor factor and the source-derived TT projector acts only on that factor, the two commute exactly and \\begin{equation} \\sigma_{\\rm phys}(\\omega,k)=q_h(\\omega,k)I_2. \\label{eq:physical-principal-symbol} \\end{equation} Exact evaluation on all 124 nonzero momenta of $C_5^3$ gives configuration rank two and phase rank four. On the 24 flat source-axis characteristic sectors (four temporal digits, three axes, and two orientations), the physical kernel has dimension two on both orientations; off characteristic, the physical rank is two. No Holst phase, fitted coefficient, or target Einstein equation enters this reduction."
+    },
+    {
+      "id": "V100-PRO-02",
+      "kind": "proposition",
+      "title": "Raw-block no-go and physical-parent separation",
+      "line": 623,
+      "statement": "The raw 80-component ultralocal coframe/connection block retains its exact rank profile and its orientation-dependent $2$ versus $1$ additional corank. Coefficient-free scalar reweighting and an equal-weight dagger-conjugate chiral completion do not repair it; the latter reproduces the existing real Palatini insertion, while an independent Holst insertion requires a source-unselected relative phase. These are no-go results for those raw-block routes, not obstructions to Eq.~\\eqref{eq:physical-principal-symbol} on the source-perfect physical quotient."
+    },
+    {
+      "id": "V100-THE-19",
+      "kind": "theorem",
+      "title": "Quartic response capacity",
+      "line": 645,
+      "statement": "For a four-dimensional carrier, \\begin{equation} \\Sym^2(\\Sym^2V_4^*) \\cong\\Sym^4V_4^*\\oplus\\mathbb S_{(2,2)}V_4^*, \\qquad 55=35+20. \\label{eq:quarticdecomp} \\end{equation} The actual source-fixed $35\\times55$ quartic response has row rank $35$ throughout its saved independent coefficient box."
+    },
+    {
+      "id": "V100-THE-20",
+      "kind": "theorem",
+      "title": "Quasi-local UCP limit",
+      "line": 656,
+      "statement": "The compatible finite source-cylinder channels extend uniquely to a strongly continuous UCP semigroup on the AF/quasi-local inductive-limit algebra with complete bound one."
+    },
+    {
+      "id": "V100-THE-21",
+      "kind": "theorem",
+      "title": "Anisotropic positive heat and wave law",
+      "line": 660,
+      "statement": "The actual inverse spatial metric determines positive directional conductances $c_{xy}>0$. The generator \\begin{equation} (Lf)(x)=\\sum_yc_{xy}\\bigl(f(y)-f(x)\\bigr) \\label{eq:conductance} \\end{equation} is Markov, refinement-compatible, anisotropic, and positive in the associated quadratic form. The same operator generates UCP heat and positive wave evolution and has spatial spectral dimension three in the declared hierarchy."
+    },
+    {
+      "id": "V100-THE-22",
+      "kind": "theorem",
+      "title": "All-real-time strong wave convergence",
+      "line": 669,
+      "statement": "Let $J_m$ embed the finite mean-zero carrier, $Q_m$ be the energy projection, and $W_m(t)$ and $W(t)$ be the finite and limiting two-polarization wave groups. Exact refinement intertwining gives \\begin{equation} \\sup_{t\\in\\mathbb R} \\left\\|W(t)x-J_mW_m(t)Q_mx\\right\\|_{\\cE} =\\left\\|(I-Q_m)x\\right\\|_{\\cE} \\longrightarrow0. \\label{eq:strongwave} \\end{equation}"
+    },
+    {
+      "id": "V100-THE-23",
+      "kind": "theorem",
+      "title": "Local regular ten-component metric--Euler convergence",
+      "line": 680,
+      "statement": "Let $g_{AB,h}^n$, $A\\le B$, be the ten source-soldered symmetric metric components. The normalized source update is \\begin{equation} D_\\tau^2 g_{AB,h}^n-\\mathcal L_h(g_h^n)g_{AB,h}^n=N_{AB,h}^{\\rm src}, \\qquad \\mathcal L_h(g)u=\\frac1{25h^2}\\sum_{\\delta\\in C_5^3\\setminus\\{0\\}} c_\\delta(g)\\,[u(x+h\\delta)-u(x)]. \\label{eq:metric-euler-update} \\end{equation} The factor $1/25$ is forced by the exact second moment $\\sum_\\delta c_\\delta\\delta_i\\delta_j=50A_{ij}(g)$ and is not fitted. On every common smooth interval contained in the declared positive regular neighborhood, \\begin{align} \\|E_hI_hU-I_hE(U)\\|_{H^{s-1}}&\\le C_T(h^2+\\tau^2),\\\\ \\|B_hE_hI_hU\\|_{H^{s-2}}&\\le C_T(h+\\tau^2/h),\\\\ \\sup_{0\\le t\\le T}\\|J_hU_h(t)-U(t)\\|_{H^{s-1}} &\\le C_T(\\eta_h+h+\\tau^2/h). \\label{eq:metric-euler-bounds} \\end{align} Thus $\\tau=O(h)$ gives strong trajectory convergence and an $O(h)$ subsidiary-constraint defect. The actual inverse-metric principal tensor is recovered exactly in the limit for all ten components."
+    },
+    {
+      "id": "V100-PRO-03",
+      "kind": "proposition",
+      "title": "Parent--trajectory asymptotic bridge",
+      "line": 706,
+      "statement": "The perfect history-groupoid flow and the local update Eq.~\\eqref{eq:metric-euler-update} are not literally the same finite map: the former preserves the Noether/refinement constraints exactly, whereas the latter has the vanishing defect in Eq.~\\eqref{eq:metric-euler-bounds}. They nevertheless form an on-shell asymptotic commuting bridge on the same local regular branch, with Euler defect $O(h^2)$ and constraint defect $O(h)$ when $\\tau=O(h)$. No new action, damping coefficient, target Einstein equation, or fitted coupling is introduced. Within the declared positive-BKM exact-moment class, the local shadow is unique."
+    },
+    {
+      "id": "V100-THE-24",
+      "kind": "theorem",
+      "title": "Complex carrier",
+      "line": 737,
+      "statement": "The oriented source cycle satisfies $C^3=I$. The operator $P$ is a rank-72 real projector and \\begin{equation} J^2=-P. \\end{equation} Hence $J^2=-I$ on $\\operatorname{im}P$, which is a 36-dimensional complex carrier."
+    },
+    {
+      "id": "V100-THE-25",
+      "kind": "theorem",
+      "title": "Source-dagger probability",
+      "line": 745,
+      "statement": "Source reversal supplies the dagger. Equality counting and cup/cap gluing force the projective probability law \\begin{equation} p_i(\\psi)=\\frac{\\|P_i\\psi\\|^2}{\\sum_j\\|P_j\\psi\\|^2} \\label{eq:born} \\end{equation} inside the declared finite linear source-dagger class."
+    },
+    {
+      "id": "V100-THE-26",
+      "kind": "theorem",
+      "title": "Observable algebra",
+      "line": 754,
+      "statement": "Endpoint exchange and the retained Brauer crossing/cap family expose an exact $\\mathbb Z_2$ superselection charge. The generated dagger algebra is \\begin{equation} \\cO\\cong M_{18}(\\mathbb C)\\oplus M_{18}(\\mathbb C). \\label{eq:observablealgebra} \\end{equation}"
+    },
+    {
+      "id": "V100-THE-27",
+      "kind": "theorem",
+      "title": "Finite quantum BV completion",
+      "line": 762,
+      "statement": "On a simply connected, gap-admissible local regular branch, the pointed Hodge-polar construction defines a source-derived Ginsparg--Wilson regulator $D_n$ with index one and a rescaled spectral gap bounded below by one at every finite refinement depth. With the source half-density and the derived anomaly cancellation, the finite BV action $S_n^{\\rm BV}$ satisfies \\begin{equation} \\frac12\\{S_n^{\\rm BV},S_n^{\\rm BV}\\}-i\\hbar\\Delta_nS_n^{\\rm BV}=0. \\label{eq:finite-qme} \\end{equation} The determinant-inclusive Wilsonian BV pushforward from level $n+1$ to level $n$ preserves Eq.~\\eqref{eq:finite-qme} exactly and composes at every finite depth. This is a finite-cutoff quantum closure, not yet a construction of the infinite-depth continuum measure \\cite{ginspargwilson1982,batalinvilkovisky1981,cattaneomnevreshetikhin2012}."
+    },
+    {
+      "id": "V100-THE-28",
+      "kind": "theorem",
+      "title": "Minimal faithful Braid specificity",
+      "line": 817,
+      "statement": "For a source presentation that is faithful to the crossing arrows and relation-minimal, simultaneous realization of the retained transport, pointing, cap/cup and provenance chain forces the Yang--Baxter quotient. Nonfaithful presentations can encode the same observables under redundant or collapsed arrows, so unrestricted notational uniqueness is impossible. The result is Braid-specificity up to observational equivalence in the minimal faithful crossing-source class."
+    },
+    {
+      "id": "V100-THE-29",
+      "kind": "theorem",
+      "title": "Source-selected stochastic engine",
+      "line": 833,
+      "statement": "Four noncommuting compressed controls generate a six-order mixed-unitary channel \\begin{equation} \\mathcal E(\\rho)=\\frac16\\sum_{a=1}^{6}U_a\\rho U_a^\\dagger, \\end{equation} which is CPTP and unital and has Kraus rank six in the declared carrier."
+    },
+    {
+      "id": "V100-THE-30",
+      "kind": "theorem",
+      "title": "Low-normalization Chebyshev actuator",
+      "line": 841,
+      "statement": "Let $A=H/\\alpha$ with $\\|A\\|\\le1$. The source-word LCU unitary, source dagger, signal qubit, and success-address reflection generate a walk $W$ satisfying \\begin{equation} E^\\dagger W^kE=T_k(A). \\label{eq:cheb} \\end{equation} For each of the 32 sector/control cases, the finite-spectrum interpolant \\begin{equation} P_H(x)=\\sum_{k=0}^{m-1}c_kT_k(x), \\qquad P_H(\\lambda_j/\\alpha)=e^{-i\\pi\\lambda_j/3} \\end{equation} gives an exact deterministic actuator using 203--39,102 $H$-block-encoding queries \\cite{childswiebe2012,lowchuang2017,gilyen2019}."
+    },
+    {
+      "id": "V100-COR-02",
+      "kind": "corollary",
+      "title": "Exact source-generator compiler",
+      "line": 856,
+      "statement": "Coordinate compression and a source-arrow $\\mathbb Z_4$ phase frame give an exact 34-CNOT representative of the finite source generator and a 61-CZ realization on the retained native gate vocabulary. This is a compilation theorem; it is not quantum advantage or gravity evidence."
+    },
+    {
+      "id": "V100-THE-31",
+      "kind": "theorem",
+      "title": "Anomaly-solution groupoid",
+      "line": 866,
+      "statement": "The transformation groupoid has object algebra \\begin{equation} C((\\mathbb Z_2)^3)\\rtimes(\\mathbb Z_2)^3\\cong M_8(\\mathbb C) \\label{eq:m8} \\end{equation} and Boolean degree multiplicities $(1,3,3,1)$."
+    },
+    {
+      "id": "V100-THE-32",
+      "kind": "theorem",
+      "title": "Standard-Model-like chiral character and Higgs content",
+      "line": 875,
+      "statement": "The degree-one shell gives three identical copies of a left-Weyl character matching the Standard-Model gauge representation used in the declared groupoid. All local gauge anomalies vanish, Witten parity is even, and the global kernel is $\\mathbb Z_6$. A gauge-equivariant anti-linear real structure leaves one independent complex weak doublet. The source cubic permits up-, down-, and charged-lepton Yukawa interaction cycles. This representation match is not a derivation of measured gauge couplings, masses, flavour labels, renormalization-group flow, or the full Standard Model."
+    },
+    {
+      "id": "V100-THE-33",
+      "kind": "theorem",
+      "title": "Source-selected generation operator",
+      "line": 888,
+      "statement": "The pointed right-difference KMS response selects a full-rank nonnormal generation operator $Y$ with three distinct singular values. The source-central KMS metric supplies the same generation operator across the up, down, and charged-lepton sectors together with source-fixed relative species normalizations."
+    },
+    {
+      "id": "V100-THE-34",
+      "kind": "theorem",
+      "title": "Variational Yukawa operator",
+      "line": 892,
+      "statement": "For the pointed affine source path, the exact variation $W(1)-W(0)$ equals $Y$. The forward/reverse CTP trilinears carry $Y$ and $Y^{\\mathsf T}$, and the mixed Higgs variation produces the same positive $Y^{\\mathsf T}Y$ entering the finite determinant. Thus the relative Yukawa operator is an action variation, not an independently fitted matrix."
+    },
+    {
+      "id": "V100-THE-35",
+      "kind": "theorem",
+      "title": "Nonzero finite Higgs stationary point",
+      "line": 896,
+      "statement": "The source sign line and matter parity select the ordinary exterior/Fock trace. For $A(H)=|H|^2M^*M\\ge0$, \\begin{equation} S_{\\rm eff}(H)=S_H(H)-\\log\\det(I+A(H)). \\label{eq:higgsaction} \\end{equation} Within the retained variational selector, the radial potential is strictly convex and has a unique positive stationary point. This is an existence-and-uniqueness theorem for a finite-source coordinate, not a numerical identification with the measured electroweak vacuum expectation value."
+    },
+    {
+      "id": "V100-THE-36",
+      "kind": "theorem",
+      "title": "E016 registered reproducibility confirmation",
+      "line": 939,
+      "statement": "DOI-1 froze Eqs.~\\eqref{eq:ckmweights}--\\eqref{eq:ckmreadout}, the expected output, tolerances, and three controls before the registered command was executed once. All ten tests passed, yielding \\begin{equation} |V_{\\rm CKM}|= \\begin{pmatrix} 0.9739619651&0.2266869484&0.0033343545\\\\ 0.2265269160&0.9731130260&0.0416724717\\\\ 0.0091458642&0.0407929649&0.9991257614 \\end{pmatrix}. \\label{eq:ckmconfirmed} \\end{equation} The maximum absolute residual against the frozen output was $0$, and the unitarity residual was $8.51\\times10^{-16}$. Against the frozen PDG 2024 CKM modulus table, the Frobenius distance was $0.00254046$, the maximum element pull was $4.4183\\sigma$, and all nine elements satisfied the registered $5\\sigma$ criterion \\cite{pdg2024ckm}."
+    },
+    {
+      "id": "V100-THE-37",
+      "kind": "theorem",
+      "title": "Structure-breaking controls",
+      "line": 953,
+      "statement": "The Frobenius distances from the primary output were $0.0643119$ for a uniform non-Braid clock, $0.150013$ for broken pointing, and $0.328022$ with the pair-star response removed. Each exceeded the registered threshold $10^{-6}$. The fixed pipeline is therefore not invariant under any of these three tested disruptions of its clock, pointing, and pair-star structure."
+    },
+    {
+      "id": "V100-THE-38",
+      "kind": "theorem",
+      "title": "Internal neutral carrier",
+      "line": 972,
+      "statement": "The $*$-algebra generated by the three source reflections and the induced $C_3$ history transport is $M_3(\\mathbb C)$, and its commutant consists only of scalars. Hence no external three-generation carrier is required for this neutral operational sector."
+    },
+    {
+      "id": "V100-THE-39",
+      "kind": "theorem",
+      "title": "Source-ordered neutral propagation",
+      "line": 993,
+      "statement": "$U_F$ is exactly unitary, has three distinct non-equally-spaced eigenphases, and has a nonzero exact CP-odd numerator. Its mixing invariant satisfies $|J|=0.08557801977513962$ in the fixed operational convention. The value is a source output and was obtained without a PMNS target or parameter scan; it is not asserted to equal the measured leptonic invariant."
+    },
+    {
+      "id": "V100-THE-40",
+      "kind": "theorem",
+      "title": "Weak-current typing",
+      "line": 1001,
+      "statement": "Inside the derived matter class, composition of the pointed oriented dagger Frobenius map with the derived lepton $SU(2)$ ladder gives a unique rank-three weak-current partial isometry. It intertwines all nine matrix units of $M_3(\\mathbb C)$ and types the internal neutral qutrit as the physical three-generation neutrino factor in that class."
+    },
+    {
+      "id": "V100-PRO-04",
+      "kind": "proposition",
+      "title": "Finite causal plaquette boundary",
+      "line": 1017,
+      "statement": "The existing source transport, weighted interaction, and CTP dagger reversal produce a nonidentity unitary non-Abelian face holonomy \\begin{equation} W=C_gEC_g^\\dagger E^\\dagger. \\end{equation} However $W$ is a group commutator and therefore $\\det W=1$ exactly. Its central $U(1)$ flux vanishes, so this minimal rectangle does not generate the nonzero central two-form required by the lifted phase law."
+    },
+    {
+      "id": "V100-THE-41",
+      "kind": "theorem",
+      "title": "Refinement-invariant finite screen",
+      "line": 1054,
+      "statement": "For $K$ complete source cells at refinement depth $m$, the composite count, area, and radius satisfy \\begin{equation} N_m=K25^m,\\qquad A_{\\rm total}=K A_0,\\qquad r_K=\\sqrt K\\,\\ell_*. \\label{eq:screen-refinement} \\end{equation} Equivalently, \\begin{equation} A_{\\rm total}=\\frac{45}{4}A_0 C_{{\\rm exc},n}. \\end{equation} The area is therefore invariant under complete $25$-adic descendant refinement."
+    },
+    {
+      "id": "V100-THE-42",
+      "kind": "theorem",
+      "title": "Source-normalized fixed-boundary mass spectrum",
+      "line": 1079,
+      "statement": "For the scoped Schwarzschild branch, the fixed-boundary Misner--Sharp charge is \\begin{equation} M_{\\rm MS}=\\frac{20\\pi}{3}r_h. \\end{equation} On the screen spectrum this gives \\begin{equation} M_K=\\frac{20\\pi}{3}\\ell_*\\sqrt K =10\\pi\\sqrt5\\,\\ell_*\\sqrt{C_{{\\rm exc},n}}. \\label{eq:screen-mass} \\end{equation} Thus $M_K^2$ is equally spaced in the source screen number. The statement is source-normalized; it is not yet a mass in SI units."
+    },
+    {
+      "id": "V100-THE-43",
+      "kind": "theorem",
+      "title": "Static regular black-bounce",
+      "line": 1134,
+      "statement": "In the declared static spherical six-face Palatini class, Eqs.~\\eqref{eq:spherical-palatini}--\\eqref{eq:black-bounce-centering} have the exact stationary solution \\begin{equation} R(X)=\\sqrt{X^2+\\ell_*^2},\\qquad F(X)=1-\\frac{r_h}{R(X)},\\qquad X\\in\\mathbb R. \\label{eq:black-bounce} \\end{equation} It has two asymptotically flat ends, $R\\ge\\ell_*>0$, bounded curvature and a regular ingoing/outgoing Eddington--Finkelstein and Kruskal atlas across every horizon."
+    },
+    {
+      "id": "V100-THE-44",
+      "kind": "theorem",
+      "title": "Source-maximal global extension",
+      "line": 1156,
+      "statement": "The injective source-event order excludes a periodic time quotient and selects the non-quotient universal cover of the repeated horizon gluing. On this cover all timelike and null geodesics are complete. A block time $T=n+\\tau$ is a Cauchy time, so the spacetime is globally hyperbolic and has no Cauchy horizon. Global hyperbolicity together with timelike geodesic completeness then implies $C^0$-inextendibility, hence analytic inextendibility, by the Galloway--Ling--Sbierski theorem \\cite{galloway2018}."
+    },
+    {
+      "id": "V100-THE-45",
+      "kind": "theorem",
+      "title": "Minimal one-anchor theorem",
+      "line": 1175,
+      "statement": "In the declared typed continuum quantum class, a dimensionless source retains a positive global rescaling orbit. Consequently zero independent dimensionful anchors cannot determine a unique physical scale. One universal time anchor $\\tau$ is both necessary and sufficient: with the fixed conversion constants $c$ and $\\hbar$, the source-derived four-dimensional cell, Hilbert stress and typed matter/gravity factor $3/5$ determine time, length, energy, action, four-volume, stress, gravity coupling, Newton's constant, mass and temperature as unique monomials in $\\tau$."
+    },
+    {
+      "id": "V100-THE-46",
+      "kind": "theorem",
+      "title": "Fixed-phase direct-action NO-GO",
+      "line": 1196,
+      "statement": "The presently fixed collision phase has zero metric variation. By contrast, the effective matter action has an exact witness with $T_{00}=1/2$ at $g=\\operatorname{diag}(-1,1,1,1)$ and $\\lambda=t$. Multiplication by an event-cell density and $\\hbar$ therefore cannot identify the fixed phase with the physical variational action: $0\\ne1/2$."
+    },
+    {
+      "id": "V100-THE-47",
+      "kind": "theorem",
+      "title": "Countermodel to universal objectivist primacy",
+      "line": 1283,
+      "statement": "The fixed construction contains no completed public Lorentz carrier at its first stage. That carrier is generated only after pointing, typed intersection, event selection, chart gluing, and source transport. Nevertheless the resulting carrier is stable, public, and transformation-respecting and supports conserved stress and a scoped Einstein limit. Therefore $\\OPT$ is false as a universal necessity thesis."
+    }
+  ]
+}

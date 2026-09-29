@@ -1,0 +1,6 @@
+{
+  "iteration": 1,
+  "command": "python3 evaluate_scout.py",
+  "runtime_class": "subsecond exact Q(zeta_15) plus one 3x3 eigendecomposition",
+  "result_informed_change": false
+}

@@ -1,0 +1,6 @@
+{
+  "iteration": 1,
+  "command": "python3 -B evaluate_scout.py",
+  "runtime_class": "subsecond exact determinant identity plus fixed 3x3 matrix witness",
+  "result_informed_change": false
+}

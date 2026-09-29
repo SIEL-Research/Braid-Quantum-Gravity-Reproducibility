@@ -1,0 +1,42 @@
+{
+  "schema": "siel.dpa.bgce445.result.v1",
+  "candidate_id": "BGCE445",
+  "date": "2026-09-25",
+  "fixed_source_revision": "c8a1fe03d97805aaf43995c49386ab419dde0b07",
+  "primary_evidence_status": "Theoretical derivation",
+  "scientific_layer": "block-local operator-algebraic all-scale completion",
+  "status": "SCOPED_PASS_AF_QUASILOCAL_CPTP_ALL_SCALE_COMPLETION__OPEN_FULL_NONLINEAR_METRIC_PBM_AND_PHYSICAL_UV",
+  "input_hashes": {
+    "audits/SRA_DPA_BGCE336R2_REFINED_COLLISION_CTP_TO_CONTINUUM_LORENTZIAN_INFLUENCE_AND_NONCIRCULAR_FINITE_BACKREACTION_GATE_20260923/RESULT.json": "c1ddd9d8451cfe68dae8a134706fbf589375fe3e35da665a8e4cbb70f3519875",
+    "audits/SRA_DPA_BGCE349_BRANCH_RESOLVED_CHOI_TRANSFER_TO_LOCAL_3PLUS1_DOUBLED_METRIC_LORENTZIAN_PARENT_GATE_20260924/RESULT.json": "2385486c5c3f8016d64e831e72859b55371cd542468333b8b928536c2d56de65",
+    "audits/SRA_DPA_BGCE350_FINITE_SOURCE_CYLINDER_PARENT_TO_LOCAL_HISTORY_DRESSED_TOTAL_WARD_IDENTITY_GATE_20260924/RESULT.json": "450a22816827413774c9ac70aa08d5cd8e2f665f983e6f476191c0a7a62584e9",
+    "audits/SRA_DPA_BGCE444_TEN_METRIC_SOURCE_TO_THIRTY_FIVE_QUARTIC_SECOND_RESPONSE_GATE_20260925/RESULT.json": "6bf2b8b0053b142983a7719a6258eb2ee52b84d02d2513d47bef03fe9ed9cdb3"
+  },
+  "theorem": {
+    "finite_algebras": "A_m=C(C_m) tensor M_125, with the declared identity tails when present; every A_m is a finite direct sum of full matrix algebras.",
+    "embeddings": "The child-constant pullbacks and identity-tail maps are injective unital star homomorphisms j_m:A_m->A_(m+1).",
+    "limit": "The norm closure of the algebraic direct limit is a uniquely defined AF/quasi-local C-star algebra A_infinity.",
+    "dynamics": "The Heisenberg adjoints of the finite CPTP channels are compatible UCP maps. Naturality Phi_(m+1,t) j_m=j_m Phi_(m,t) defines one UCP map Phi_(infinity,t) on the algebraic union.",
+    "uniform_bound": "Every unital positive map between C-star algebras is operator-norm contractive, and every UCP map is completely contractive; hence ||Phi_(infinity,t)||_cb=1 for all t and all refinement depths.",
+    "time_continuity": "BGCE336R2 operator-norm convergence on every finite stage plus the common contractive bound and density of the algebraic union imply strong continuity of t->Phi_(infinity,t).",
+    "ward_extension": "The BGCE350 telescope is compatible with j_m and therefore defines the same cylinder-local Ward functional on the dense local subalgebra."
+  },
+  "gate_decision": {
+    "finite_stage_injective_system": "PASS",
+    "compatible_CPTP_UCP_dynamics": "PASS",
+    "unique_quasilocal_extension": "PASS",
+    "uniform_all_scale_complete_bound_one": "PASS",
+    "refinement_compatible_Ward_on_local_algebra": "PASS",
+    "bounded_limit_generator": "OPEN_NOT_REQUIRED_FOR_SEMIGROUP_EXISTENCE",
+    "actual_UB612_U4_generation": "OPEN",
+    "smooth_Lorentzian_continuum_field_UV": "OPEN",
+    "BQG_G3_R02_4": "SCOPED_ALL_SCALE_SUBGATE_CLOSED__OVERALL_REMAINS_ACTIVE"
+  },
+  "counter_intuition_scan": {
+    "strongest_counter_pattern": "A norm-one channel can coexist with divergent composite observables, an unbounded generator, or absent spatial-gradient dynamics; channel boundedness alone is not perturbative renormalizability or physical UV completeness.",
+    "ordinary_explanation": "Compatible UCP maps on an AF inductive system extend contractively by standard C-star completion.",
+    "falsifier": "A noninjective or non-star refinement map, failure of channel intertwining at any stage, loss of complete positivity or unitality in the Heisenberg adjoint, or a retained observable that is not a compatible local-algebra element."
+  },
+  "next_gate": "BGCE446_ACTUAL_UB612_TEN_SOURCE_SECOND_VARIATION_AND_REFINEMENT_NATURALITY_GATE",
+  "claim_ceiling": "BGCE445 proves a nonperturbative all-refinement-depth existence and uniform complete-contraction theorem only for the BGCE349 block-local aligned source-cylinder CPTP parent and its local Ward observables. It does not prove a bounded limit generator, nontrivial spatial-gradient field dynamics, actual UB612 quartic coefficient generation, smooth-spacetime renormalizability, ultraviolet completeness of full quantum gravity, empirical gravity, RPD adoption, or Official SIEL adoption."
+}

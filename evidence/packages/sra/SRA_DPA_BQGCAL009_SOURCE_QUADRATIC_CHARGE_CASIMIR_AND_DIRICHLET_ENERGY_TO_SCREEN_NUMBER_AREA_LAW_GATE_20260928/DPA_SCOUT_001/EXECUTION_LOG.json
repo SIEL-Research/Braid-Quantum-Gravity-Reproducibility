@@ -1,0 +1,6 @@
+{
+  "iteration": 1,
+  "command": "python3 -B evaluate_scout.py",
+  "runtime_class": "subsecond exact Q(sqrt(3)) quadratic operator algebra",
+  "result_informed_change": false
+}

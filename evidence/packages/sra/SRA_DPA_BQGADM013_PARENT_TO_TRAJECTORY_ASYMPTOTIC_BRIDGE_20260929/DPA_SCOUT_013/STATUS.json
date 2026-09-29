@@ -1,0 +1,10 @@
+{
+  "schema": "siel.dpa.scout.status.v1",
+  "scout_id": "DPA-SCOUT-BQGADM-013",
+  "status": "COMPLETE",
+  "scientific_decision": "SCOPED_PASS_ASYMPTOTIC_ON_SHELL_PARENT_TO_TRAJECTORY_BRIDGE__NO_GO_LITERAL_EXACT_FINITE_FLOW_IDENTITY__OPEN_EXPLICIT_PHYSICAL_PROJECTOR",
+  "primary_evidence_status": "Theoretical derivation",
+  "experiment_executed": false,
+  "confirmatory_status": "NOT_CLAIMED",
+  "failed_implementation_attempts_retained": 1
+}

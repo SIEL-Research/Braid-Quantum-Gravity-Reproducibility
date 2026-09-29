@@ -1,0 +1,11 @@
+{
+  "schema": "siel.dpa.bgce291.postrun.v1",
+  "candidate_id": "BGCE291",
+  "status": "PASS",
+  "verification_command": "python3 -B audits/SRA_DPA_BGCE291_STRESS_WARD_INDEPENDENT_REDERIVATION_AND_SCOPE_RED_TEAM_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE291_VERIFICATION",
+  "raw_output_sha256": "53eefc6eb01f81b92b6b23117b0395dd1dc9a636a2285abd0050fc7a37fc138b",
+  "result_sha256": "ecba95e06d3cde68a67ecadb2e98ddee4c491dc065ae6d843b2839e2a300c61b",
+  "formal_endpoint_gate": "NOT_ISSUED_BY_DPA",
+  "scientific_decision": "RED_TEAM_PARTIAL_REVERSAL_BGCE290_FULL_PASS_NOT_SUSTAINED"
+}

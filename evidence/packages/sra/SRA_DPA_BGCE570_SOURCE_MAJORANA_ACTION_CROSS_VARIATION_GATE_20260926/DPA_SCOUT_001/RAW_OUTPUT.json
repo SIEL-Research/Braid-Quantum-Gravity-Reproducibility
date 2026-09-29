@@ -1,0 +1,164 @@
+{
+  "bold_hypothesis": {
+    "exact_falsifier": "any second positive zero-defect s, or failure of the K norm/positivity/nondegeneracy checks",
+    "interpretive_leap": "The source clock Cartan and the normalized dagger-compact pair ladder are components of one pointed-oriented bracket-preserving Nambu action rather than independent action terms.",
+    "minimum_decisive_test": "exact two-by-two Lie bracket plus exact rational K invariants",
+    "new_structure": "derived unital dagger-compact pointed-oriented Nambu-Lie completion",
+    "source_status": "DERIVED_DECLARED_CLASS__NOT_UNCHANGED_RAW_SOURCE",
+    "strongest_ordinary_alternative": "clock and pair remain independent, retaining the BGCE569 positive scale counterfamily"
+  },
+  "claim_ceiling": "Inside the declared derived unital dagger-compact pointed-oriented Nambu-Lie completion, the fixed clock Cartan rate c=1 and bracket preservation force the positive pair rate s=1; s=2 from the separated BGCE569 counterfamily fails the joint Cartan bracket. The same unital action fixes y_nu=1, and canonical normalization of the already selected K=Y Y^T pair gives one device-relative Majorana coefficient and a six-mode neutral spectrum without observed-data fitting. This closes BQG-G3-R03.7 only in that declared class; unchanged-raw-source, universal SI, observed-label, numerical PMNS, RG/total-uncertainty and empirical claims remain open elsewhere.",
+  "counter_intuition": "Any normalized nonzero pair vector creates an abstract two-state su(2) orbit. The scientific content is therefore scoped to the explicit joint source-typed action; if that typing is dropped, BGCE569 remains the correct no-go.",
+  "decision": "CLOSED_SCOPED_DERIVED_UNITAL_DAGGER_COMPACT_POINTED_ORIENTED_NAMBU_LIE_COMPLETION_JOINT_BRACKET_FORCES_POSITIVE_MAJORANA_RATE_ONE_AND_UNITALITY_FORCES_Y_NU_ONE__DEVICE_RELATIVE_NEUTRAL_SPECTRUM_DERIVED_WITHOUT_TARGET_FIT",
+  "evidence_status": "Theoretical derivation",
+  "exact_tests": {
+    "T10_SIX_NEUTRAL_MASS_ENERGIES_POSITIVE_AND_NONDEGENERATE": true,
+    "T11_NO_OBSERVED_MASS_MIXING_OR_LABEL_FIT": true,
+    "T12_BGCE569_SEPARATED_COUNTERFAMILY_RESTORED_IF_JOINT_TYPING_DROPPED": true,
+    "T1_PINNED_INPUT_HASHES_MATCH": true,
+    "T2_CLOCK_CARTAN_RATE_ALREADY_FIXED_TO_C_ONE": true,
+    "T3_PAIR_NORM_MATCHES_PINNED_DAGGER_COMPACT_RECORD": true,
+    "T4_K_POSITIVE_DEFINITE_BY_EXACT_SYLVESTER_MINORS": true,
+    "T5_K_HAS_THREE_DISTINCT_REAL_EIGENVALUES_BY_POSITIVE_EXACT_DISCRIMINANT": true,
+    "T6_BGCE569_S_TWO_COUNTERMODEL_FAILS_JOINT_BRACKET": true,
+    "T7_EXACT_JOINT_BRACKET_HAS_UNIQUE_POSITIVE_SCALE": true,
+    "T8_UNITAL_NEUTRAL_MAP_HAS_UNIQUE_POSITIVE_DIRAC_COEFFICIENT": true,
+    "T9_THREE_ODD_NEUTRAL_CARRIERS_RETAINED": true
+  },
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+  "handoff": "BQG-G3-R03.8 may now import the intrinsic neutral ordering and finite ambiguity without treating observed names or PMNS data as derived.",
+  "joint_action": {
+    "bracket_controls": [
+      {
+        "all_joint_relations": false,
+        "cartan_relation": false,
+        "joint_bracket_defect_norm_squared": "2",
+        "minus_relation": true,
+        "plus_relation": true,
+        "real_positive": false,
+        "s": 0
+      },
+      {
+        "all_joint_relations": true,
+        "cartan_relation": true,
+        "joint_bracket_defect_norm_squared": "0",
+        "minus_relation": true,
+        "plus_relation": true,
+        "real_positive": true,
+        "s": 1
+      },
+      {
+        "all_joint_relations": false,
+        "cartan_relation": false,
+        "joint_bracket_defect_norm_squared": "18",
+        "minus_relation": true,
+        "plus_relation": true,
+        "real_positive": true,
+        "s": 2
+      },
+      {
+        "all_joint_relations": true,
+        "cartan_relation": true,
+        "joint_bracket_defect_norm_squared": "0",
+        "minus_relation": true,
+        "plus_relation": true,
+        "real_positive": false,
+        "s": -1
+      }
+    ],
+    "clock_Cartan_rate": "c=1",
+    "dimensionless_Dirac_coefficient": "y_nu=1",
+    "map": "H->cH, E_plus->sE_plus, E_minus->sE_minus",
+    "positive_root": 1,
+    "real_roots_at_c_one": [
+      -1,
+      1
+    ],
+    "unit_controls": [
+      {
+        "joint_unital_condition": false,
+        "real_positive": false,
+        "unit_preserved": false,
+        "y_nu": 0
+      },
+      {
+        "joint_unital_condition": true,
+        "real_positive": true,
+        "unit_preserved": true,
+        "y_nu": 1
+      },
+      {
+        "joint_unital_condition": false,
+        "real_positive": true,
+        "unit_preserved": false,
+        "y_nu": 2
+      },
+      {
+        "joint_unital_condition": false,
+        "real_positive": false,
+        "unit_preserved": false,
+        "y_nu": -1
+      }
+    ],
+    "zero_defect_equations": [
+      "s(c-1)=0",
+      "s^2-c=0"
+    ]
+  },
+  "neutral_sector": {
+    "device_energy_unit_eV": "0.000004637116882736515316652455312240",
+    "identity_Dirac_mass_energy_eV": "1.451343358677657065411841099024614575904298409361430979912338768105999E-8",
+    "inherited_relative_statistical_standard_error": "0.0000020769033700449827494411533698115232813324964004384525200854719228241018490697027",
+    "mass_block": "[[0,m_D I_3],[m_D I_3,E_device K_hat]]",
+    "modes": [
+      {
+        "Majorana_diagonal_energy_eV": "7.5831207281584535e-09",
+        "intrinsic_spectral_label": "n1",
+        "lower_absolute_mass_energy_eV": "1.1208962442550908e-08",
+        "normalized_K_eigenvalue": "0.0016353093786334331",
+        "observed_neutrino_name": "NOT_ASSIGNED",
+        "upper_absolute_mass_energy_eV": "1.879208317070936e-08"
+      },
+      {
+        "Majorana_diagonal_energy_eV": "4.4518424177582252e-07",
+        "intrinsic_spectral_label": "n2",
+        "lower_absolute_mass_energy_eV": "4.7265005509595414e-10",
+        "normalized_K_eigenvalue": "0.096004533211831528",
+        "observed_neutrino_name": "NOT_ASSIGNED",
+        "upper_absolute_mass_energy_eV": "4.456568918309185e-07"
+      },
+      {
+        "Majorana_diagonal_energy_eV": "4.6156913318932586e-06",
+        "intrinsic_spectral_label": "n3",
+        "lower_absolute_mass_energy_eV": "4.5635129554164413e-11",
+        "normalized_K_eigenvalue": "0.99537955341970741",
+        "observed_neutrino_name": "NOT_ASSIGNED",
+        "upper_absolute_mass_energy_eV": "4.6157369670228128e-06"
+      }
+    ],
+    "odd_neutral_carriers": 3,
+    "provider_clock_SI_traceability": "OPEN",
+    "source_normalized_Higgs_radius": "0.00312983993153343069127183739387790252713285361153524246872003177037830778549753036784623283",
+    "universal_natural_Braid_scale": "NOT_ESTABLISHED"
+  },
+  "pair_normalization": {
+    "K": "Y Y^T",
+    "Tr_KtK_exact": "496447773397919319041/110324037687890625000000000000",
+    "characteristic_discriminant_exact": "13281050605467142104674757949851896961706988026606749689/20489460025545826658199210100767814765276852995157241821289062500000000000000000000",
+    "coefficient_on_unnormalized_K_device_eV": "0.06912678091589853745677313447172424023871172179060729900674282679960528",
+    "normalized_kernel": "K_hat=K/sqrt(Tr(K^T K))",
+    "positive_principal_minors": [
+      "3963175931/332150625000000",
+      "88258281010956973/861906544436645507812500000",
+      "6594028382154653653444/139786522180772499181330204010009765625"
+    ],
+    "sqrt_Tr_KtK_decimal": "0.00006708133694780542237773075866699370127510719271971532821792749682889097"
+  },
+  "schema": "siel.dpa.bgce570.raw.v1",
+  "scientific_layer": "declared derived joint clock--Nambu matter action and device-relative neutral spectrum",
+  "scout_id": "DPA-SCOUT-BGCE570-001",
+  "source_commit": "5b87ed40858eb567c2e0911ef7e226ff9104814b",
+  "source_snapshot_id": "DPA-SNAPSHOT-5b87ed40858e",
+  "work_package": "BQG-G3-R03.7",
+  "work_package_status": "CLOSED_SCOPED"
+}

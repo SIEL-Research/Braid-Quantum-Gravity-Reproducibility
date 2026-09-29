@@ -1,0 +1,369 @@
+{
+  "all_expected_separations": true,
+  "decision": {
+    "bounded_inner_rejected": true,
+    "closability_hypothesis_failure_rejected": true,
+    "matched_comparator_non_structural": true,
+    "positive_all_endpoints": true,
+    "rank_two_rejected": true,
+    "single_direction_reports_rank_one": true,
+    "zero_rejected": true
+  },
+  "focal_source_used": false,
+  "matched_comparator": {
+    "constructor_signed": "tau_x(h)=Z^(x mod 2) h Z^(x mod 2) embedded at window x",
+    "constructor_unsigned": "sigma_x(h)=h embedded at window x",
+    "generic_carrier_decision": "PASS",
+    "matching_invariants": {
+      "local_seed_square_equal": true,
+      "local_seed_trace_equal": true,
+      "matrix_dimension_equal": true,
+      "window_count_equal": 4
+    },
+    "non_structural": true,
+    "raw_implementer_difference_frobenius_square": 512,
+    "signed_carrier_pass": true,
+    "transport_specificity_decision": "PASS_TOY_RAW_ACTION_DIFFERENCE",
+    "unsigned_carrier_pass": true
+  },
+  "negative_controls": {
+    "bounded_telescoping": {
+      "pass_as_outer_unbounded": false,
+      "records": [
+        {
+          "derivation_norm_upper_bound": "4",
+          "implementer_norm_upper_bound": "2",
+          "order": 2,
+          "telescoping_residual_frobenius_square": 0
+        },
+        {
+          "derivation_norm_upper_bound": "4",
+          "implementer_norm_upper_bound": "2",
+          "order": 3,
+          "telescoping_residual_frobenius_square": 0
+        },
+        {
+          "derivation_norm_upper_bound": "4",
+          "implementer_norm_upper_bound": "2",
+          "order": 4,
+          "telescoping_residual_frobenius_square": 0
+        },
+        {
+          "derivation_norm_upper_bound": "4",
+          "implementer_norm_upper_bound": "2",
+          "order": 5,
+          "telescoping_residual_frobenius_square": 0
+        },
+        {
+          "derivation_norm_upper_bound": "4",
+          "implementer_norm_upper_bound": "2",
+          "order": 6,
+          "telescoping_residual_frobenius_square": 0
+        }
+      ],
+      "unbounded_action": false
+    },
+    "closability_hypothesis_failure": {
+      "closability_endpoint_pass": false,
+      "seed_self_adjoint": false,
+      "star_derivation_defect": {
+        "basis_index": 0,
+        "residual_frobenius_square": 2
+      }
+    },
+    "rank_two": {
+      "nonzero_minor": null,
+      "rank": 2
+    },
+    "single_direction_rank": 1,
+    "zero_seed_rank": {
+      "nonzero_minor": null,
+      "rank": 0
+    }
+  },
+  "positive": {
+    "action_growth": [
+      {
+        "bounded_inner_excluded": true,
+        "records": [
+          {
+            "action_norm": "2",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 3
+          },
+          {
+            "action_norm": "4",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 4
+          },
+          {
+            "action_norm": "6",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 5
+          },
+          {
+            "action_norm": "8",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 6
+          }
+        ],
+        "unbounded_linear_slope": "2"
+      },
+      {
+        "bounded_inner_excluded": true,
+        "records": [
+          {
+            "action_norm": "2",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 3
+          },
+          {
+            "action_norm": "4",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 4
+          },
+          {
+            "action_norm": "6",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 5
+          },
+          {
+            "action_norm": "8",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 6
+          }
+        ],
+        "unbounded_linear_slope": "2"
+      },
+      {
+        "bounded_inner_excluded": true,
+        "records": [
+          {
+            "action_norm": "2",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 3
+          },
+          {
+            "action_norm": "4",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 4
+          },
+          {
+            "action_norm": "6",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 5
+          },
+          {
+            "action_norm": "8",
+            "identity_residual_frobenius_square": 0,
+            "observable_norm": "1",
+            "order": 6
+          }
+        ],
+        "unbounded_linear_slope": "2"
+      }
+    ],
+    "closability": {
+      "analytic_vector_bound": "for support size m, ||delta^k(A)|| <= (2(m+2k))^k k! ||A||; each local A has a nonzero analytic radius and the local evolutions extend to a strongly continuous automorphism group",
+      "dense_domain": "algebraic local core union_n M_2^(tensor n)",
+      "explicit_commuting_toy_group": "alpha_t^(n)=Ad(product_x exp(i t tau_x(h))); disjoint one-site translates commute",
+      "local_involutions": [
+        true,
+        true,
+        true
+      ],
+      "pass": true,
+      "range": 3,
+      "self_adjoint_local_terms": [
+        true,
+        true,
+        true
+      ],
+      "uniform_local_norm": "1"
+    },
+    "rank": {
+      "nonzero_minor": {
+        "columns": [
+          1,
+          2,
+          5
+        ],
+        "determinant": "-4"
+      },
+      "rank": 3
+    },
+    "stabilization": [
+      {
+        "pass": true,
+        "records": [
+          {
+            "order": 4,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 5,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 6,
+            "residual_frobenius_square": 0
+          }
+        ],
+        "support_order": 2,
+        "threshold": 4
+      },
+      {
+        "pass": true,
+        "records": [
+          {
+            "order": 4,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 5,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 6,
+            "residual_frobenius_square": 0
+          }
+        ],
+        "support_order": 2,
+        "threshold": 4
+      },
+      {
+        "pass": true,
+        "records": [
+          {
+            "order": 4,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 5,
+            "residual_frobenius_square": 0
+          },
+          {
+            "order": 6,
+            "residual_frobenius_square": 0
+          }
+        ],
+        "support_order": 2,
+        "threshold": 4
+      }
+    ],
+    "variance_growth": [
+      {
+        "pass": true,
+        "records": [
+          {
+            "expected": "1",
+            "order": 3,
+            "residual": "0",
+            "variance": "1"
+          },
+          {
+            "expected": "2",
+            "order": 4,
+            "residual": "0",
+            "variance": "2"
+          },
+          {
+            "expected": "3",
+            "order": 5,
+            "residual": "0",
+            "variance": "3"
+          },
+          {
+            "expected": "4",
+            "order": 6,
+            "residual": "0",
+            "variance": "4"
+          }
+        ],
+        "slope": "1"
+      },
+      {
+        "pass": true,
+        "records": [
+          {
+            "expected": "1",
+            "order": 3,
+            "residual": "0",
+            "variance": "1"
+          },
+          {
+            "expected": "2",
+            "order": 4,
+            "residual": "0",
+            "variance": "2"
+          },
+          {
+            "expected": "3",
+            "order": 5,
+            "residual": "0",
+            "variance": "3"
+          },
+          {
+            "expected": "4",
+            "order": 6,
+            "residual": "0",
+            "variance": "4"
+          }
+        ],
+        "slope": "1"
+      },
+      {
+        "pass": true,
+        "records": [
+          {
+            "expected": "1",
+            "order": 3,
+            "residual": "0",
+            "variance": "1"
+          },
+          {
+            "expected": "2",
+            "order": 4,
+            "residual": "0",
+            "variance": "2"
+          },
+          {
+            "expected": "3",
+            "order": 5,
+            "residual": "0",
+            "variance": "3"
+          },
+          {
+            "expected": "4",
+            "order": 6,
+            "residual": "0",
+            "variance": "4"
+          }
+        ],
+        "slope": "1"
+      }
+    ]
+  },
+  "schema": "siel.dpa.bgce443.r4.exact-nonfocal-witness.v1",
+  "toy_source": {
+    "all_seed_entries": "Gaussian integers",
+    "local_dimension": 2,
+    "seeds": [
+      "Pauli-X",
+      "Pauli-Y",
+      "Pauli-Z"
+    ],
+    "window_range": 3
+  }
+}

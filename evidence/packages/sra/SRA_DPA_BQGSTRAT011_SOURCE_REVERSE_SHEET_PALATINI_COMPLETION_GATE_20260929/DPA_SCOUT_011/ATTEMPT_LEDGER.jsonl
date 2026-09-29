@@ -1,0 +1,2 @@
+{"attempt":1,"date":"2026-09-29","status":"COMPLETE","change":"Initial exact source-orientation proportionality gate; no outcome was inspected before the plan and endpoint were frozen.","command":"python3 evaluate.py","decision":"NO_GO_SOURCE_REVERSE_FACE_OR_ADJOINT_SCALAR_COMPLETION"}
+{"validation_attempt":1,"date":"2026-09-29","status":"FAILED_WRAPPER_PATH_ONLY","command":"combined verification from scout subdirectory","reason":"repository-relative machine-ledger path was resolved from the scout subdirectory","scientific_output_changed":false}

@@ -1,0 +1,8 @@
+{
+  "schema":"siel.dpa.bgce294.postrun.v1","candidate_id":"BGCE294","status":"PASS",
+  "verification_command":"python3 -B audits/SRA_DPA_BGCE294_SOURCE_SYMMETRIC_PRODUCT_FUNCTOR_TO_UNIQUE_PHYSICAL_SOLDER_GATE_20260923/verify.py",
+  "verification_output":"PASS_BGCE294_VERIFICATION",
+  "raw_output_sha256":"ca6629f8a1416ac1e6d86a0a6a30af05ec501b11f4386334b16198e7df13705e",
+  "result_sha256":"9ea44934718f7363ef6a98ef198be64eff262b9b65444769fd8f301a8ccdf7cb",
+  "scientific_decision":"FULL_PASS_UNIQUE_SOLDER_IN_EXISTING_SOURCE_SYMMETRIC_PRODUCT_FUNCTORIAL_CLASS"
+}

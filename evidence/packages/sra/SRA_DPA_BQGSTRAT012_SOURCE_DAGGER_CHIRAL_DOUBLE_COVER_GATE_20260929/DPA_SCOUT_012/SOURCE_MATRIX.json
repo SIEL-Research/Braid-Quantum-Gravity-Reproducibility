@@ -1,0 +1,32 @@
+{
+  "schema": "siel.dpa.bqgstrat012.source-matrix.v1",
+  "source_revision": "83a71126a71fbd613c5fc1d5c493271286de9e7f",
+  "sources": [
+    {
+      "repository_commit": "83a71126a71fbd613c5fc1d5c493271286de9e7f",
+      "path": "audits/SRA_THEORY_BGCE027_SOURCE_NATIVE_HODGE_PALATINI_SPATIAL_SECTOR_20260918/CERTIFICATE.json",
+      "sha256": "ea0e295a95554c821446eece30c017fb906d735fbd4448f31e0de9cc74ed819d"
+    },
+    {
+      "repository_commit": "83a71126a71fbd613c5fc1d5c493271286de9e7f",
+      "path": "audits/SRA_DPA_BGCE041_X30_LORENTZ_HODGE_ROTATION_TO_BOOST_INTERTWINER_GATE_20260919/RESULT.json",
+      "sha256": "bb5e2a81a5e15cffd9bcfae78348907281f6727e219d3620414b46269cc23ec1"
+    },
+    {
+      "repository_commit": "0204a73d73cbe2e728e6a37bd11f8bf3e72cbac0",
+      "path": "audits/SRA_DPA_BQGQBV002_POINTED_HODGE_POLAR_GINSPARG_WILSON_REGULATOR_GATE_20260929/DPA_SCOUT_002/RESULT.json",
+      "sha256": "90f06e499274d4f2a04b70648b620aa05e70e4a12360072c8649d2c6f070854c"
+    },
+    {
+      "repository_commit": "83a71126a71fbd613c5fc1d5c493271286de9e7f",
+      "path": "audits/SRA_DPA_BQGSTRAT010_EXACT_CYCLOTOMIC_HESSIAN_RANK_AND_ORIENTATION_SHEET_GATE_20260929/DPA_SCOUT_010/RESULT.json",
+      "sha256": "b32ed3fcff354c25e7d16d5c93967f7398b5ae568092f36dc0cbc7a98e44c753"
+    },
+    {
+      "repository_commit": "83a71126a71fbd613c5fc1d5c493271286de9e7f",
+      "path": "audits/SRA_DPA_BQGSTRAT011_SOURCE_REVERSE_SHEET_PALATINI_COMPLETION_GATE_20260929/DPA_SCOUT_011/RESULT.json",
+      "sha256": "360efe8b82271ebec9489a43fbca0700994d5f5948bc10cb0f2a646aa122cb02"
+    }
+  ]
+}
+

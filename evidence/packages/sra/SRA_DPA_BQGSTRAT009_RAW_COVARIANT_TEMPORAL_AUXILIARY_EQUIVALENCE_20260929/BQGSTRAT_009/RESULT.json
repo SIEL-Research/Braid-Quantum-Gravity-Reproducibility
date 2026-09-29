@@ -1,0 +1,13 @@
+{
+  "schema": "siel.dpa.bqgstrat009bare.result.v1",
+  "experiment_id": "BQGSTRAT-009",
+  "date": "2026-09-29",
+  "primary_evidence_status": "Theoretical derivation",
+  "decision": "BGCE094 TEMPORAL PROMOTIONS RECLASSIFIED AS SOURCE-DERIVED AUXILIARY GAUGE COMPLETION CLOSED_SCOPED",
+  "decisive_result": "The literal BGCE094 four-dimensional alternating contraction splits exactly into 12 terms linear in e_0 multiplying spatial-curvature constraints and 12 terms containing mixed curvature F_0i(U_0) with spatial coframes. The action has zero e_0 Hessian. Exact rational tests verify proper-Lorentz invariance, ordered noncommuting temporal-link composition and simultaneous temporal gauge U_0=I on a contractible two-edge interval.",
+  "source_derivation": "BQGADM-005/006/012 supply the Lorentz and one-plus-three first-class source groupoids. Their canonical dual multiplier/link bundle is BQGSTRAT-008. The literal BGCE094 action realizes exactly those auxiliary slots, so TCP1/TCP2 are no longer independent physical promotions in the declared scope.",
+  "source_clock": "The source clock is a reachable local gauge slice for the four deformation multipliers, not a new observable or a unique off-shell law.",
+  "mandatory_order": "Vary e_0 and U_0 first, impose the Gauss/scalar/vector equations, then gauge fix or quotient. Fixing either before variation remains invalid.",
+  "counter_intuition": "The temporal slots remain present off shell. What is removed is the claim that Braid must select their numerical values as physical fields. This is standard gauge completion once the source-derived groupoids exist.",
+  "claim_ceiling": "Local contractible source cylinder, proper Lorentz component and local regular variational branch. No global noncontractible holonomy theorem, caustic/global continuation, quantum measure, empirical gravity, confirmation or Official SIEL status."
+}

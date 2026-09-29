@@ -1,0 +1,30 @@
+{
+  "schema": "siel.bqg.public-url-audit.v1",
+  "checked_at": "2026-09-29",
+  "method": "HTTP redirect-following GET without repository credentials",
+  "records": [
+    {
+      "url": "https://doi.org/10.5281/zenodo.23006547",
+      "http_status": 200,
+      "resolved_url": "https://zenodo.org/records/23006547",
+      "role": "E016 preregistration DOI-1"
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.23006637",
+      "http_status": 200,
+      "resolved_url": "https://zenodo.org/records/23006637",
+      "role": "E016 result DOI-2"
+    },
+    {
+      "url": "https://arxiv.org/abs/1812.10886",
+      "http_status": 200,
+      "role": "open spin-two reduction source"
+    },
+    {
+      "url": "https://doi.org/10.1007/s00220-017-3019-2",
+      "http_status": 200,
+      "resolved_url": "https://link.springer.com/article/10.1007/s00220-017-3019-2",
+      "role": "external inextendibility theorem"
+    }
+  ]
+}

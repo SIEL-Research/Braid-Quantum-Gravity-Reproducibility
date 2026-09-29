@@ -1,0 +1,11 @@
+{
+  "schema": "siel.dpa.bgce288.postrun.v1",
+  "candidate_id": "BGCE288",
+  "status": "PASS",
+  "verification_command": "python3 audits/SRA_DPA_BGCE288_CAUSAL_EVEN_EVENT_PLUS_X21R1_ODD_THETA_FULL_LORENTZ_TANGENT_GATE_20260923/verify.py",
+  "verification_output": "PASS_BGCE288_VERIFICATION",
+  "raw_output_sha256": "23dc9dfbca24352330d138521c85fa96e311df365f1e439fb265c947e228fa6a",
+  "result_sha256": "914101bd3bb9628cf7cba3c8cd704527487290f17f291a9d8b7f51a06a5779d9",
+  "formal_endpoint_gate": "NOT_ISSUED_BY_DPA",
+  "scientific_decision": "PARTIAL_PASS_PHYSICAL_Q4_TO_K_EVT_BASE_PLUS_CAUSAL_7_EVEN_AND_3_ODD_RESPONSES_GIVE_FULL_RANK10_FIRST_ORDER_LORENTZ_METRIC_VARIATION"
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "siel.dpa.bgce445.proof-certificate.v1",
+  "candidate_id": "BGCE445",
+  "source_revision": "c8a1fe03d97805aaf43995c49386ab419dde0b07",
+  "finite_stage_algebra_class": "finite direct sums of matrix algebras",
+  "address_embedding": "injective unital star homomorphism",
+  "finite_stage_dynamics": "CPTP / dual UCP",
+  "spatial_refinement_levels_checked": 5,
+  "largest_checked_address_count": 152587890625,
+  "time_semigroup_operator_norm_convergence": true,
+  "inductive_limit_UCP_extension": "THEOREM_PROVED_IN_AUDIT",
+  "uniform_complete_bound": 1,
+  "actual_PBM_U4_generation": "OPEN",
+  "endpoint_provenance": "NOT_ISSUED__THEORETICAL_CSTAR_EXTENSION_PROOF_WITH_PINNED_SOURCE_CHECKER"
+}

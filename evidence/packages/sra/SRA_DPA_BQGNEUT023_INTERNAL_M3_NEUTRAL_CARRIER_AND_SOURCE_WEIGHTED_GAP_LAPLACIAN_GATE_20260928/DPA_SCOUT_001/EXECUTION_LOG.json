@@ -1,0 +1,6 @@
+{
+  "iteration": 1,
+  "command": "python3 evaluate_scout.py",
+  "runtime_class": "subsecond exact rational M3 closure and graph spectrum",
+  "result_informed_change": false
+}

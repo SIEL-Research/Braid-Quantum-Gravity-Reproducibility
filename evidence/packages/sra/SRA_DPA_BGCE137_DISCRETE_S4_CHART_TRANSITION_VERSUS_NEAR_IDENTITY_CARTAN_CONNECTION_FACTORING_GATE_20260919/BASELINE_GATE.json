@@ -1,0 +1,9 @@
+{
+  "schema": "siel.dpa.bgce137.baseline.v1",
+  "candidate_id": "BGCE137",
+  "status": "PASS_BY_REVISION_MATCHED_COMMITTED_THEOREM_AUDIT",
+  "scope": "Exact rational S4-equivariant five-adic null-cell refinement, discrete/continuous Cartan factorization, orientation grading and UTC dependency audit.",
+  "authoritative_revision": "5520c1e665791f954111af63594d5ba7a33c12cb",
+  "intervention": "none; exact source-composition theorem and dependency check",
+  "science_outcome_authorized": true
+}

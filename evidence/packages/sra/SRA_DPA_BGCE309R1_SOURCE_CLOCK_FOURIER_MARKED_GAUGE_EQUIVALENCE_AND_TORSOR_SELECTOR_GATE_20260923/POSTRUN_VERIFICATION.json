@@ -1,0 +1,13 @@
+{
+  "schema": "siel.dpa.bgce309r1.postrun-verification.v1",
+  "candidate_id": "BGCE309R1",
+  "status": "PASS",
+  "checks": {
+    "all_32_marked_sign_gauges": "PASS",
+    "six_compressed_clock_Fourier_rays": "PASS",
+    "regular_basis_nonidentification": "PASS",
+    "environment_unitary_reduced_channel_invariance": "PASS",
+    "claim_ceiling_fail_closed": "PASS"
+  },
+  "result_sha256": "0cf364199bab837590277738fe200f853012131a16fdc2b0bd4fedb60af40eab"
+}

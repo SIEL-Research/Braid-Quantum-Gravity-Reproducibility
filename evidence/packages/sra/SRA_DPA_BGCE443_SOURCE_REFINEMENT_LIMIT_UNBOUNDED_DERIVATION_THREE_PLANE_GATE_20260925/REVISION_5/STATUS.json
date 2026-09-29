@@ -1,0 +1,12 @@
+{
+  "schema": "siel.dpa.bgce443.r5.status.v1",
+  "candidate_id": "BGCE443-R5",
+  "date": "2026-09-25",
+  "state": "E0_FAIL_EXECUTION_BLOCKED",
+  "focal_evaluator_created": false,
+  "focal_outcome_accessed": false,
+  "independent_E0": "FAIL",
+  "execution_authorized": false,
+  "r1_r2_r3_r4_scientific_decision_reused": false,
+  "next_permitted_action": "APPEND_ONLY_REVISION_6_ALL_N_AND_RAW_RETENTION_REPAIR"
+}

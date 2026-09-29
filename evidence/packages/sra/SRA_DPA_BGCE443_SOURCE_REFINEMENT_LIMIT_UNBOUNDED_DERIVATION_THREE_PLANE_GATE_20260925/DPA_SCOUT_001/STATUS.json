@@ -1,0 +1,13 @@
+{
+  "schema": "siel.dpa.scout.bgce443.status.v1",
+  "scout_id": "DPA-SCOUT-BGCE443-001",
+  "date": "2026-09-25",
+  "state": "COMPLETE_CLOSED_SCOPED",
+  "primary_evidence_status": "Theoretical derivation",
+  "e0_used": false,
+  "attempts_retained": 3,
+  "final_attempt": 3,
+  "decision": "CLOSED_SCOPED",
+  "work_package": "BQG-G3-R01.3",
+  "next_work_package": "BQG-G3-R01.4"
+}

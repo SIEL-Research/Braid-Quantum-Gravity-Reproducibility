@@ -1,0 +1,16 @@
+{
+  "schema":"siel.dpa.bgce294.result.v1","candidate_id":"BGCE294",
+  "source_revision":"ccf1e28a3424deb42b452720fe02eda3c0dcdcc2","preregistered_commit":"c86f88ff6ce417828c4b0dbf669e66efd6b8335d",
+  "verification":"FULL_PASS_UNIQUE_SOLDER_IN_EXISTING_SOURCE_SYMMETRIC_PRODUCT_FUNCTORIAL_CLASS",
+  "primary_evidence_status":"Theoretical derivation with exact source-type uniqueness audit",
+  "S4_equivariant_commutant_dimension":9,"spectral_constraint_residual_dimension":5,
+  "spectral_constraints_alone_unique":false,"source_product_spanning_rank":10,
+  "source_typed_residual_dimension":0,"unique_solder":"A maps to U^T A U",
+  "new_coefficient":false,"new_matter_action":false,
+  "active_source_Markov_transport":"PASS_LOCAL_FINITE_RETAINED",
+  "finite_to_continuum_action_variation_identity":"OPEN",
+  "Hilbert_stress_Braid_only":"OPEN_PENDING_ONE_ACTION_IDENTITY_GATE",
+  "Ward_Braid_only":"OPEN_PENDING_SAME",
+  "next_gate":"BGCE295_FINITE_BRAID_BKM_EXPONENTIAL_ACTION_TO_CONTINUUM_HILBERT_VARIATION_IDENTITY_GATE",
+  "claim_ceiling":"BGCE294 proves uniqueness of the Hadamard Sym2 solder within the existing source-typed symmetric-product functorial class and shows weaker S4/spectral constraints are insufficient. It does not exclude deliberately non-functorial maps, prove the finite-to-continuum action variation identity, derive Hilbert stress, Ward, Einstein dynamics or empirical gravity."
+}

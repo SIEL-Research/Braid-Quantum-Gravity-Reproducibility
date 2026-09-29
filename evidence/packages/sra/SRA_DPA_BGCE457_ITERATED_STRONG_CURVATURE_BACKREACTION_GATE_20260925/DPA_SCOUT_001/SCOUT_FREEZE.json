@@ -1,0 +1,18 @@
+{
+  "schema": "siel.dpa.scout.bgce457.freeze.v1",
+  "scout_id": "DPA-SCOUT-BGCE457-001",
+  "attempt": 1,
+  "date": "2026-09-25",
+  "source_commit": "e18c567fb519f3c6726d68610ab9a04cac96f410",
+  "source_snapshot_id": "DPA-SNAPSHOT-e18c567fb519",
+  "e0_required": false,
+  "governance": "SIEL-DEC-2026-067",
+  "execution_command": "python3 evaluate_scout.py --output RAW_OUTPUT.json",
+  "output_must_not_exist_before_run": true,
+  "scout_plan_sha256": "3cf5017453995e019cf9a9210d1c628502035f473a5b8bc68b38557bbab6fd7e",
+  "input_manifest_sha256": "9fa7fb6fd24e26982ed37263b36055c95dcb438791bc9b5bdc0c830171c2072a",
+  "iteration_ledger_sha256": "1b1b4bcff25cc52980ab9161aa69e7fb6dd53f3dd1dba083a568285737b02a0f",
+  "evaluator_sha256": "eaaf45edd1257b06fe6eb333296a3329191a34a9a5216e3ade24e5d554ff2e5b",
+  "predecessor_collision_record": "DPA-SCOUT-BGCE444-001__INVALID_FOR_SCIENTIFIC_DECISION",
+  "status": "FROZEN_NOT_EXECUTED"
+}

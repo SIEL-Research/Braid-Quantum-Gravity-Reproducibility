@@ -1,0 +1,15 @@
+{
+  "schema": "siel.dpa.bgce287.baseline-gate.v1",
+  "candidate_id": "BGCE287",
+  "source_identity": "PASS",
+  "source_revision": "1768d7f259a8aad654092ee6100d56b77da6fc0b",
+  "preregistered_commit": "1c2ee583db62a127c6fed3636abb30845129f272",
+  "preendpoint_amendment_commit": "3dbb563a8ed59b287852181819ef8981f84b28f8",
+  "path_manifest": "PASS_EXACT_COMMITTED_PATHS_AND_HASHES",
+  "split_manifest_status": "NOT_APPLICABLE_THEORETICAL_EXACT_GATE",
+  "baseline_intermediate": "PASS_BGCE139_254_256_266_268_281_286_REVISION_MATCHED",
+  "baseline_primary": "PASS_BGCE286_RANK10_KERNEL2_REPRODUCED",
+  "intervention_invariants": "PASS_ONLY_SOURCE_EVENT_BKM_HORIZONTAL_SELECTION_ADDED",
+  "science_outcome_authorized": true,
+  "endpoint_provenance": "NOT_ISSUED_BY_DPA__EXACT_FINITE_EVENT_PATH_INFORMATION_GEOMETRY_AUDIT_ONLY"
+}

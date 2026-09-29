@@ -1,0 +1,28 @@
+{
+  "schema": "siel.dpa.bqgcal008.input_manifest.v1",
+  "scout_id": "DPA-SCOUT-BQGCAL-008-X1",
+  "gate_id": "BQGCAL-008_SOURCE_POSITIVE_SCREEN_NUMBER_AND_QUASILOCAL_ENERGY_TO_REFINEMENT_INVARIANT_HORIZON_AREA_GATE",
+  "source_commit": "8dd3bc9a5ce11a2ecc43d471e0f8a501139ac792",
+  "source_snapshot_id": "DPA-SNAPSHOT-8dd3bc9a5ce1",
+  "inputs": [
+    {
+      "path": "audits/SRA_DPA_BGCE310_TORSOR_GAUGE_COVARIANT_ENVIRONMENT_CHARGE_AND_TOTAL_G1_BALANCE_GATE_20260923/RESULT.json",
+      "sha256": "cf2c04a8f32f8f5a2ffb2d2ff0c95600de10e2d467e830a0d5da65452a2988f0"
+    },
+    {
+      "path": "audits/SRA_DPA_BQGCAL007_SOURCE_TOTAL_CHARGE_TO_FINITE_SCREEN_RADIUS_AND_REFINEMENT_LEVEL_QUANTIZATION_GATE_20260928/DPA_SCOUT_001/RESULT.json",
+      "sha256": "89d005a48be445029ff04ec43fc9e77508d4a1ae50c11ae0f6ac697b8858389b"
+    }
+  ],
+  "bold_hypothesis": {
+    "interpretive_leap": "The pointed identity label supplies a canonical positive event-count projection: one screen quantum is associated with a nonidentity source event, and the additive tail number may realize the K required by BQGCAL-007.",
+    "new_structure": "N_1=I-|e><e| on the six-label pointed environment and N_n=sum_k N_1^(k), with integer spectrum 0 through n.",
+    "source_status": "The pointed identity/nonidentity split and six-label probabilities are source supplied. The identification of one nonidentity event with one geometric screen quantum is a new speculative typing and must pass the energy compatibility test.",
+    "strongest_ordinary_alternative": "The nonidentity count is only a record statistic. It is stochastic, does not commute with the conserved environment charge, and has no derived relation to horizon area."
+  },
+  "falsifier": "Reject direct K=N_n if N_n is not positive integer additive, if it fails source covariance, or if it fails to commute or have a nonzero coefficient-free first-moment relation with the conserved environment energy charge.",
+  "claim_ceiling": "This scout may construct a positive additive pointed-label count and decide its direct compatibility with the existing linear total Ward energy. It may not identify the count as a physical horizon observable, derive a quasi-local energy-area law, absolute mass or radius, entropy, Hawking physics, or a finite quantum black hole.",
+  "target_data_accessed": false,
+  "parameter_scan_used": false,
+  "long_computation_used": false
+}

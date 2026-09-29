@@ -1,0 +1,7 @@
+{
+  "schema": "siel.dpa.bqgbh034.status.v1",
+  "scout_id": "DPA-SCOUT-BQGBH-034-X1",
+  "status": "COMPLETE_SCOPED_NO_GO",
+  "result_accessed": true,
+  "next_gate_if_no_go": "BQGBH-035_SOURCE_RELATIVE_ENTROPY_PRODUCTION_TO_NEGATIVE_PALATINI_GRADIENT_GATE"
+}

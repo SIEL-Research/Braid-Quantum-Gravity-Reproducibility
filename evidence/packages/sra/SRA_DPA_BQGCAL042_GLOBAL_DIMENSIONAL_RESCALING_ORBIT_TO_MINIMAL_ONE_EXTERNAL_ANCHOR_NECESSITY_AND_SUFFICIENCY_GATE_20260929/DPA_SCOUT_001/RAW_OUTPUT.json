@@ -1,0 +1,113 @@
+{
+  "schema": "siel.dpa.bqgcal042.raw.v1",
+  "scout_id": "DPA-SCOUT-BQGCAL-042-X1",
+  "gate_id": "BQGCAL-042_GLOBAL_DIMENSIONAL_RESCALING_ORBIT_TO_MINIMAL_ONE_EXTERNAL_ANCHOR_NECESSITY_AND_SUFFICIENCY_GATE",
+  "source_commit": "19e914678257d51d2ee6c289cc10b5a5168f3fa6",
+  "source_snapshot_id": "DPA-SNAPSHOT-19e914678257",
+  "frozen_class": "BGCE325_LONG_WAVELENGTH_LOCAL_SECOND_ORDER_FORMALLY_SELF_ADJOINT_CONSERVATIVE_PLUS_BGCE499_TYPED_THREE_FIFTHS_AND_BQGCAL035_SOURCE_EVENT_CELL",
+  "anchor_counting_convention": {
+    "independent_empirical_dimensionful_anchor": "one positive time scale tau",
+    "fixed_conversion_constants_not_counted_as_fitted_anchors": [
+      "c",
+      "hbar",
+      "k_B_when_temperature_is_reported"
+    ],
+    "target_constant_fit_used": false,
+    "empirical_outcome_accessed": false
+  },
+  "global_rescaling_orbit": {
+    "action": "tau -> lambda tau for lambda>0",
+    "tau_exponents": {
+      "time": 1,
+      "length": 1,
+      "frequency": -1,
+      "energy": -1,
+      "action": 0,
+      "four_volume": 4,
+      "stress": -4,
+      "kappa": 2,
+      "Newton_G": 2,
+      "mass": -1,
+      "temperature": -1
+    },
+    "dimensionless_source_packet_invariant": true,
+    "orbit_nontrivial": true,
+    "orbit_dimension_after_typed_action_stress_composition": 1
+  },
+  "necessity_theorem": {
+    "zero_anchor_map_injective": false,
+    "source_only_absolute_scale": "NO_GO_GLOBAL_POSITIVE_RESCALING_ORBIT",
+    "minimal_anchor_lower_bound": 1
+  },
+  "sufficiency_theorem": {
+    "unit_restoration_formulas": {
+      "time": "t_phys=tau t_hat",
+      "length": "x_phys=c tau x_hat",
+      "frequency": "omega_phys=tau^(-1) omega_hat",
+      "energy": "E_phys=hbar tau^(-1) E_hat",
+      "action": "S_phys=hbar S_hat",
+      "four_volume": "V4_phys=c^3 tau^4 V4_hat",
+      "stress": "T_phys=hbar/(c^3 tau^4) T_hat",
+      "kappa": "kappa_phys=(3/5)c tau^2/hbar",
+      "Newton_G": "G_phys=(3/5)c^5 tau^2/(8 pi hbar)",
+      "mass": "m_phys=hbar/(c^2 tau) m_hat",
+      "temperature": "Theta_phys=hbar/(k_B tau) theta_hat"
+    },
+    "typed_relative_gravity_weight": "3/5",
+    "one_anchor_log_jacobian_rank": 1,
+    "one_anchor_map_injective": true,
+    "second_independent_scale_remaining_in_frozen_class": false,
+    "minimal_anchor_upper_bound": 1,
+    "minimal_anchor_count_exact": 1,
+    "status": "CLOSED_SCOPED_EXACT"
+  },
+  "composition_dependencies": {
+    "dimensionless_four_cell_and_metric_density": "BQGCAL-035_CLOSED_SCOPED_EXACT",
+    "effective_Hilbert_stress_and_on_shell_Ward": "BGCE325_CLOSED_IN_DECLARED_CONTINUUM_CLASS",
+    "quantum_action_unit_and_clock_map": "BQGCAL-025_CONDITIONAL_SCOPED_PASS",
+    "relative_three_fifths_weight": "BGCE499-002_CLOSED_SCOPED_TYPED_COMPATIBILITY",
+    "actual_universal_anchor_value_and_traceability": "EXTERNAL_PENDING"
+  },
+  "counterexample_control": {
+    "existing_device_clock_as_universal_anchor": "SCOPED_NO_GO_BQGCAL001",
+    "meaning": "the structural one-anchor theorem does not identify the current PMNS/AWS device clock as that anchor"
+  },
+  "gates": {
+    "G1_HASHES": true,
+    "G2_NONTRIVIAL_GLOBAL_SCALE_ORBIT": true,
+    "G3_ZERO_ANCHOR_NONINJECTIVE": true,
+    "G4_SOURCE_FOUR_CELL_TYPED": true,
+    "G5_EFFECTIVE_HILBERT_STRESS_TYPED": true,
+    "G6_QUANTUM_ACTION_UNIT_AVAILABLE_CONDITIONALLY": true,
+    "G7_ONE_ANCHOR_MAP_INJECTIVE": true,
+    "G8_NO_SECOND_SCALE_IN_FROZEN_CLASS": true,
+    "G9_EXISTING_DEVICE_CLOCK_NOT_PROMOTED": true,
+    "G10_NO_FIT_NO_SCAN": true
+  },
+  "decision": "SPLIT_CLOSED_SCOPED_EXACT_MINIMAL_EXTERNAL_ANCHOR_COUNT_EQUALS_ONE_IN_THE_DECLARED_TYPED_CONTINUUM_QUANTUM_UNIT_RESTORATION_CLASS__SOURCE_ONLY_ZERO_ANCHOR_ABSOLUTE_SCALE_IS_NO_GO_BY_A_NONTRIVIAL_GLOBAL_POSITIVE_RESCALING_ORBIT__THE_VALUE_AND_METROLOGICAL_TRACEABILITY_OF_THE_UNIVERSAL_ANCHOR_REMAIN_EXTERNAL_PENDING__THE_EXISTING_DEVICE_CLOCK_IS_EXCLUDED_AS_A_DIRECT_UNIVERSAL_GRAVITY_ANCHOR",
+  "assessment": {
+    "source_only_zero_anchor_absolute_scale": "NO_GO",
+    "minimal_dimensionful_external_anchor_theorem": "CLOSED_SCOPED_EXACT_AT_ONE",
+    "scale_rank_before_typed_composition": 2,
+    "scale_rank_after_typed_composition": 1,
+    "universal_anchor_value": "EXTERNAL_PENDING",
+    "universal_anchor_metrological_traceability": "EXTERNAL_PENDING",
+    "BQG_G3_R03_2_status": "EXTERNAL_PENDING_ONE_ANCHOR_VALUE_AND_TRACEABILITY"
+  },
+  "evidence_status": "Theoretical derivation",
+  "scientific_layer": "dimensional identifiability and scoped physical unit restoration",
+  "governance_class": "DPA_SCOPED_SCIENTIFIC_DECISION",
+  "counter_intuition_scan": "One anchor is structurally sufficient only after the four-cell, effective Hilbert stress, quantum action unit and typed relative weight are composed. This does not make an arbitrary device clock universal; BQGCAL-001 already falsifies that direct identification by about 1.65e65 in G.",
+  "falsifier": "A second independent positive scale that changes a physical output while preserving tau, c, hbar, the typed action/stress map and all dimensionless source data would falsify sufficiency; a source invariant with nonzero physical dimension would falsify the zero-anchor lower bound.",
+  "claim_ceiling": "The theorem fixes the number of independent external dimensionful anchors in the declared typed continuum quantum unit-restoration class. It does not supply the anchor's numerical value, SI traceability, finite all-scale action, empirical Newton constant, black-hole observations or completed quantum gravity.",
+  "next_gate": "BQGCAL-043_SOURCE_QUANTUM_PHASE_ACTION_AND_EVENT_CELL_TYPE_COMPOSITION_TO_UNCONDITIONAL_ONE_ANCHOR_GATE",
+  "work_packages": [
+    "BQG-G3-R03.2",
+    "BQG-G3-R03.5"
+  ],
+  "runtime": {
+    "python": "3.14.6",
+    "long_computation_used": false,
+    "target_data_accessed": false
+  }
+}

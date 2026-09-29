@@ -1,0 +1,9 @@
+{
+  "candidate_id": "BGCE259",
+  "status": "PREREGISTERED_BEFORE_ENDPOINT_EVALUATION",
+  "source_revision": "f15074c55cb62b1c35893384b46f247f6a01012e",
+  "endpoint": "Exact forward/reverse and A4-parity first/second event moments against the frozen K_evt target",
+  "long_computation": false,
+  "fitted_parameters": false,
+  "formal_E0_E1_E2": "NOT_APPLICABLE_THEORETICAL_EXACT_GATE"
+}

@@ -1,0 +1,106 @@
+{
+  "schema": "siel.dpa.bqgneut023.raw.v1",
+  "scout_id": "BQGNEUT-023-X1",
+  "gate_id": "BQGNEUT-023_INTERNAL_M3_NEUTRAL_CARRIER_AND_SOURCE_WEIGHTED_GAP_LAPLACIAN_GATE",
+  "source_commit": "2e1c68acb995be38a438846b2bede93ae94815a8",
+  "source_snapshot_id": "DPA-SNAPSHOT-2e1c68acb995",
+  "evidence_status": "Theoretical derivation",
+  "scientific_layer": "finite neutral operational carrier algebra and dimensionless weighted-gap generator",
+  "decision": "SPLIT_SCOPED_PASS_SOURCE_GENERATED_REFLECTION_PLUS_C3_ALGEBRA_IS_FULL_M3_WITH_SCALAR_COMMUTANT_SO_NO_EXTERNAL_THREE_GENERATION_CARRIER_IS_REQUIRED_FOR_THE_NEUTRAL_OPERATIONAL_SECTOR__SCOPED_PASS_SOURCE_WEIGHTED_TRANSPOSITION_LAPLACIAN_HAS_EXACT_NONDIMENSIONAL_SPECTRUM_0_4OVER5_6OVER5_AND_UNEQUAL_GAPS__NO_GO_THIS_REAL_LAPLACIAN_ALONE_FOR_NONZERO_CP_OR_FULL_PHYSICAL_PMNS_AND_ABSOLUTE_SCALE",
+  "bold_hypothesis": {
+    "interpretive_leap": "Use source-generated algebraic completeness, rather than identification with BGCE524, as the neutral carrier sufficiency criterion.",
+    "new_structure": "full operational star-algebra plus canonical weighted transposition Laplacian",
+    "source_status": "DERIVED_FOR_NEUTRAL_OPERATIONAL_SECTOR__PHYSICAL_HAMILTONIAN_AND_STANDARD_MODEL_EMBEDDING_OPEN"
+  },
+  "internal_neutral_carrier": {
+    "generators": [
+      "R_e1",
+      "R_e2",
+      "R_e3",
+      "C_g"
+    ],
+    "generated_star_algebra": "M3(C)",
+    "generated_complex_dimension": 9,
+    "commutant_dimension": 1,
+    "irreducible": true,
+    "external_three_generation_carrier_required_for_neutral_operational_sector": false,
+    "BGCE524_Standard_Model_matter_identification_replaced": false
+  },
+  "source_weighted_gap_generator": {
+    "definition": "L_w=sum_a w_a(I-P_a)",
+    "transposition_weights": {
+      "r1": "7/15",
+      "r2": "4/15",
+      "r121": "4/15"
+    },
+    "matrix": [
+      [
+        "11/15",
+        "-7/15",
+        "-4/15"
+      ],
+      [
+        "-7/15",
+        "11/15",
+        "-4/15"
+      ],
+      [
+        "-4/15",
+        "-4/15",
+        "8/15"
+      ]
+    ],
+    "characteristic_polynomial": "lambda*(lambda-4/5)*(lambda-6/5)",
+    "dimensionless_spectrum": [
+      "0",
+      "4/5",
+      "6/5"
+    ],
+    "adjacent_gaps": [
+      "4/5",
+      "2/5"
+    ],
+    "adjacent_gap_ratio_large_over_small": "2",
+    "nondegenerate": true,
+    "real_symmetric": true,
+    "coordinate_frame_Jarlskog": "0",
+    "absolute_scale": "not derived",
+    "physical_mass_squared_interpretation": "not derived"
+  },
+  "noncompensating_gates": {
+    "G1_SOURCE_GENERATED_NEUTRAL_ALGEBRA_IS_FULL_M3": true,
+    "G2_NEUTRAL_ALGEBRA_COMMUTANT_IS_SCALAR": true,
+    "G3_EXTERNAL_THREE_GENERATION_CARRIER_NOT_MATHEMATICALLY_REQUIRED_FOR_NEUTRAL_OPERATIONAL_SECTOR": true,
+    "G4_SOURCE_WEIGHTED_LAPLACIAN_HAS_NONDEGENERATE_DIMENSIONLESS_SPECTRUM": true,
+    "G5_TWO_ADJACENT_GAPS_ARE_UNEQUAL": true,
+    "G6_SAME_WEIGHTED_LAPLACIAN_RETAINS_NONZERO_CP_FRAME": false,
+    "G7_STANDARD_MODEL_LEPTON_EMBEDDING_AND_ABSOLUTE_SCALE_DERIVED": false,
+    "G8_NO_TARGET_DATA_OR_PARAMETER_SCAN": true
+  },
+  "operational_carrier_pass": true,
+  "gap_shape_pass": true,
+  "simultaneous_physical_PMNS_pass": false,
+  "strongest_ordinary_alternative": "Full M3 generation is generic for a diagonal qutrit algebra plus a cyclic shift, and a real weighted graph Laplacian generically splits levels. These facts establish internal mathematical sufficiency, not the empirical identity of this sector with natural neutrinos.",
+  "counter_intuition_scan": "The source weights solve the level-splitting problem only for a real Laplacian whose mixing frame has J=0. The earlier F3 kernel has nonzero CP but degenerate phase chords. Claiming both from separate operators would silently change the physical propagation observable.",
+  "claim_ceiling": "The source-generated neutral operational algebra is internally complete and needs no external three-generation carrier for its own states, observables, channel and history transport. The source-weighted transposition Laplacian has exact unequal dimensionless gaps. The result does not identify the sector with Standard-Model lepton doublets, derive one operator carrying both nonzero CP and unequal physical mass gaps, supply an absolute scale, compare with data, or complete quantum gravity.",
+  "next_gate": "BQGNEUT-024_UNIQUE_SOURCE_ORDERED_C3_WEIGHTED_FLOQUET_TO_SIMULTANEOUS_CP_AND_GAP_GATE",
+  "work_package": "BQG-G3-R03.8",
+  "work_package_status": "ACTIVE",
+  "tests": {
+    "T1_PINNED_INPUT_HASHES_MATCH": true,
+    "T2_GENERATED_ALGEBRA_DIMENSION_IS_NINE": true,
+    "T3_COMMUTANT_LINEAR_SYSTEM_RANK_IS_EIGHT": true,
+    "T4_WEIGHTED_LAPLACIAN_MATRIX_IS_EXPECTED": true,
+    "T5_CHARACTERISTIC_INVARIANTS_MATCH_0_4OVER5_6OVER5": true,
+    "T6_DIMENSIONLESS_ADJACENT_GAPS_ARE_4OVER5_AND_2OVER5": true,
+    "T7_REAL_LAPLACIAN_FRAME_HAS_ZERO_CP": true,
+    "T8_NO_PMNS_NUFIT_OR_MASS_TARGET_ACCESSED": true,
+    "T9_NO_PARAMETER_SCAN_OR_LONG_COMPUTATION": true
+  },
+  "runtime": {
+    "python": "3.14.6",
+    "target_data_accessed": false,
+    "parameter_scan_used": false,
+    "long_computation_used": false
+  }
+}

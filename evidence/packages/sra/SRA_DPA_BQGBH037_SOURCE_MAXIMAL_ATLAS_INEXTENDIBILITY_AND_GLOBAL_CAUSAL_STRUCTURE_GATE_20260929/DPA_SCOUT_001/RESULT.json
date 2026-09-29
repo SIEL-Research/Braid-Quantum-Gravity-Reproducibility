@@ -1,0 +1,69 @@
+{
+  "C0_inextendible": true,
+  "all_input_hashes_match": true,
+  "analytic_inextendible": true,
+  "block_edges": "n->n+1 for future bounce; n->n-1 for past bounce",
+  "block_graph_has_cycle": false,
+  "block_graph_has_finite_terminal_vertex": false,
+  "block_vertex_set": "Z",
+  "cauchy_block_time": "T=n+tau, with tau strictly temporal inside each compactified block",
+  "cauchy_horizon_present": false,
+  "cauchy_level_intersection": "every inextendible causal curve intersects each admissible T-level exactly once",
+  "causal_geodesically_complete": true,
+  "claim_ceiling": "C0-inextendible source-maximal global development of the selected static spherical continuum black-bounce solution. No dynamical collapse, evaporation, thermodynamics, rotation, charge, generic nonspherical strong-curvature, empirical black-hole identity or full quantum-gravity validation.",
+  "coefficient_fit": false,
+  "decision": "CLOSED_SCOPED_SOURCE_EVENT_PROVENANCE_SELECTS_THE_NONQUOTIENT_UNIVERSAL_MAXIMAL_ATLAS__ALL_CAUSAL_GEODESICS_ARE_COMPLETE__THE_BLOCK_TIME_IS_CAUCHY_WITH_NO_CAUCHY_HORIZON__GLOBAL_HYPERBOLICITY_AND_TIMELIKE_COMPLETENESS_THEN_IMPLY_C0_AND_ANALYTIC_INEXTENDIBILITY_FOR_THE_SELECTED_STATIC_SPHERICAL_CONTINUUM_SOLUTION",
+  "exact_reflected_shift_rule_used": true,
+  "finite_X_geodesic_endpoint_after_completed_atlas": false,
+  "finite_affine_escape_to_asymptotic_infinity": false,
+  "galloway_ling_sbierski_hypotheses_pass": true,
+  "global_potential_bounds": "R>=ell_star>0; 1-q<=F<=1; abs(F*(delta+L^2/R^2))<=max(1,abs(1-q))*(delta+L^2/ell_star^2)",
+  "globally_hyperbolic": true,
+  "input_hash_checks": {
+    "audits/SRA_DPA_BQGBH003_SOURCE_RADIAL_REFLECTION_AND_EVENT_AFFINE_COMPLETENESS_GATE_20260929/DPA_SCOUT_001/RAW_OUTPUT.json": true,
+    "audits/SRA_DPA_BQGBH031_COMPLETE_STATIC_SPHERICAL_SIX_FACE_EULER_TO_SCHWARZSCHILD_AND_BOUNCE_GATE_20260929/DPA_SCOUT_001/RAW_OUTPUT.json": true,
+    "audits/SRA_DPA_BQGBH035_SOURCE_RELATIVE_ENTROPY_PRODUCTION_TO_NEGATIVE_PALATINI_GRADIENT_GATE_20260929/DPA_SCOUT_001/RAW_OUTPUT.json": true,
+    "audits/SRA_DPA_BQGBH036_GLOBAL_LOG_BRANCH_AND_MAXIMAL_EXTENSION_FROM_SELECTED_STATIC_SPHERICAL_FINITE_ACTION_GATE_20260929/DPA_SCOUT_001/RAW_OUTPUT.json": true
+  },
+  "literature_comparison": {
+    "arXiv:1704.00353": "global hyperbolicity plus timelike completeness implies C0-inextendibility",
+    "arXiv:1812.07114": "same three regimes and non-quotient maximally extended diagrams; q>1 repeats through spacelike bounces ad infinitum",
+    "arXiv:2009.12057": "same causal regime classification and finite curvature",
+    "arXiv:2206.03814": "black-bounce class distinguished by absence of a Cauchy horizon",
+    "metric_identification": "a=ell_star and 2m=r_h gives the Simpson-Visser metric exactly",
+    "used_to_select_source_action_or_metric": false
+  },
+  "ordinary_explanation": "The source supplies an ordered infinite event history, so the regular bounce is continued to a new block rather than periodically identified with an old event. Smooth horizon patches remove every finite endpoint; infinity itself takes infinite affine time.",
+  "parameter_scan": false,
+  "periodic_time_quotient_source_selected": false,
+  "potential_identity": "Xdot^2=E^2-F*(delta+L^2/R^2), delta in {0,1}",
+  "regimes": {
+    "0<=q<1": {
+      "global_graph": "one two-ended static wormhole block",
+      "horizons": 0,
+      "throat": "timelike two-way traversable"
+    },
+    "q=1": {
+      "global_graph": "countable non-quotient null-bounce chain",
+      "horizon_order": 2,
+      "horizons": 1,
+      "throat": "degenerate null one-way"
+    },
+    "q>1": {
+      "global_graph": "countable non-quotient two-exterior bounce ladder",
+      "horizon_locations": "X=plus/minus ell_star*sqrt(q^2-1)",
+      "horizons": 2,
+      "throat": "spacelike bounce"
+    }
+  },
+  "schema": "siel.dpa.bqgbh037.raw_output.v1",
+  "scout_id": "DPA-SCOUT-BQGBH-037-X1",
+  "selected_solution": "R=sqrt(X^2+ell_star^2); Y=R-r_h; F=1-r_h/R; X in R",
+  "source_event_index_injective": true,
+  "source_revision": "216099f79928d3c21667f9df0b8c917ba9eceab2",
+  "strongest_counterpattern": "Bounded curvature and one Eddington-Finkelstein chart are not enough. The result closes only after the second null family, the non-quotient block graph, a Cauchy time and timelike completeness are proved.",
+  "target_Einstein_tensor_accessed": false,
+  "target_stress_accessed": false,
+  "timelike_geodesically_complete": true,
+  "universal_nonquotient_cover_source_selected": true
+}
