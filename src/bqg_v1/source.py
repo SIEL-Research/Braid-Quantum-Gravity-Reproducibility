@@ -1,4 +1,4 @@
-"""Exact reconstruction and verification of the v0.99 source class."""
+"""Exact reconstruction and verification of the v1.0 source class."""
 
 from fractions import Fraction
 import itertools

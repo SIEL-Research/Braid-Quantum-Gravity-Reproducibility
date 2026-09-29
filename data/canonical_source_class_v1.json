@@ -1,5 +1,5 @@
 {
-  "schema": "siel.bqg.v099.canonical-source-class.v1",
+  "schema": "siel.bqg.v1.canonical-source-class.v1",
   "basis": {
     "space": "C^5",
     "ordered_basis": ["e0", "e1", "e2", "e3", "e4"],

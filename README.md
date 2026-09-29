@@ -60,6 +60,7 @@ python3 -m venv .venv
 .venv/bin/python scripts/verify_manifest.py
 .venv/bin/python scripts/verify_source.py
 .venv/bin/python scripts/verify_theorem_coverage_v1.py
+.venv/bin/python scripts/verify_version_cleanliness.py
 .venv/bin/python scripts/verify_evidence_integrity.py
 .venv/bin/python scripts/verify_vendored_packages.py
 .venv/bin/python -m unittest discover -s tests -v

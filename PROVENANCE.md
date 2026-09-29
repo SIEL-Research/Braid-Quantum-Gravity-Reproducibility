@@ -8,7 +8,7 @@ preprint.
 
 The machine-readable transcription is:
 
-- `data/canonical_source_class_v099.json`
+- `data/canonical_source_class_v1.json`
 
 The transcription is complete for the source-level checks currently exposed
 by this repository: basis order, distinguished point, endpoint involution,

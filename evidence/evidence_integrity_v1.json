@@ -5,9 +5,9 @@
     {
       "file_count": 1,
       "kind": "file",
-      "path": "data/canonical_source_class_v099.json",
-      "sha256": "801894ab3667c0f1f394263eb224172a972d33894e73fe7380227d414f1a64d9",
-      "size_bytes": 1183
+      "path": "data/canonical_source_class_v1.json",
+      "sha256": "add487ff13692a8ab48f7b149b32dd10f7fd31655c7e10371117a74dc7e29647",
+      "size_bytes": 1181
     },
     {
       "file_count": 10,
@@ -565,16 +565,16 @@
     {
       "file_count": 1,
       "kind": "file",
-      "path": "expected/source_verification_v099.json",
+      "path": "expected/source_verification_v1.json",
       "sha256": "fc6eef24e85f7d52320f47e452f00af667bf300aedc81657b5fca50217cdead5",
       "size_bytes": 2188
     },
     {
       "file_count": 1,
       "kind": "file",
-      "path": "src/bqg_v099/source.py",
-      "sha256": "b083c6cff369b7ff58774f9d5c6a12dc32d13ccc692ad537f2b4799ecc0423e5",
-      "size_bytes": 14405
+      "path": "src/bqg_v1/source.py",
+      "sha256": "96f48f781e0f1f3cb496025aeaa3b05a70d62534c7280c3fe4f3848a3c82ac90",
+      "size_bytes": 14404
     },
     {
       "file_count": 1,

@@ -11,8 +11,8 @@
   "files": [
     {
       "path": ".github/workflows/verify.yml",
-      "sha256": "5cd57b407b63a873a7910e24a3832ac845f857f7fce59095a8997b0e377d9e74",
-      "size_bytes": 620
+      "sha256": "f510a86505a0ea84ae33581189baa9e27b0ecb9484d70468055bd08d17b8bd1f",
+      "size_bytes": 678
     },
     {
       "path": "CITATION.cff",
@@ -36,28 +36,28 @@
     },
     {
       "path": "PROVENANCE.md",
-      "sha256": "c87ab1844ab12879578901c9a72c09dc07d2b77931c4041d5bda11bc07d8e5f9",
-      "size_bytes": 1946
+      "sha256": "a4dad485cea0dd931656b914ee491bcceec0b558cc1a661eab344a87a10447d2",
+      "size_bytes": 1944
     },
     {
       "path": "README.md",
-      "sha256": "7f23c8bfe3c7afc4829399b18419ccbe5f4133595f2210cfc9d2f99f8c2dc7d3",
-      "size_bytes": 4382
+      "sha256": "caca51405aab6a337526c79c5ddc2cdfa944b458646c00c536e77be119752aae",
+      "size_bytes": 4437
     },
     {
       "path": "THEOREM_EVIDENCE_INDEX_v1.0.md",
-      "sha256": "2ddf9edc91ad0f41a9b750cb234de75d0603ea3961d913a9876d423486095a1e",
-      "size_bytes": 26650
+      "sha256": "818f1bee0c9683e5d5b8f230dda35c3166263ffae37deac58bf68d426cbccc76",
+      "size_bytes": 26624
     },
     {
       "path": "VERIFICATION_SCOPE.md",
-      "sha256": "5596b0114a064d8afb88b4f589db61264fecf7f130ba52b7249d632bd487b4fb",
-      "size_bytes": 1677
+      "sha256": "5183132310b2a619de4453dd5de78bfbab307efdfb9f13b4f7d0a313e15a7b6b",
+      "size_bytes": 1675
     },
     {
-      "path": "data/canonical_source_class_v099.json",
-      "sha256": "801894ab3667c0f1f394263eb224172a972d33894e73fe7380227d414f1a64d9",
-      "size_bytes": 1183
+      "path": "data/canonical_source_class_v1.json",
+      "sha256": "add487ff13692a8ab48f7b149b32dd10f7fd31655c7e10371117a74dc7e29647",
+      "size_bytes": 1181
     },
     {
       "path": "evidence/IMPORT_PROVENANCE.md",
@@ -66,8 +66,8 @@
     },
     {
       "path": "evidence/evidence_integrity_v1.json",
-      "sha256": "d43781a672ef69d418cda932acdcede60122ec9a8f530c78778f01293e28bfb6",
-      "size_bytes": 25489
+      "sha256": "a8ec8a116c87039b7e652bf11a04d766ce3217896c21fe08211525acf631c32e",
+      "size_bytes": 25483
     },
     {
       "path": "evidence/public_url_audit_v1.json",
@@ -75,14 +75,14 @@
       "size_bytes": 925
     },
     {
-      "path": "expected/source_verification_v099.json",
+      "path": "expected/source_verification_v1.json",
       "sha256": "fc6eef24e85f7d52320f47e452f00af667bf300aedc81657b5fca50217cdead5",
       "size_bytes": 2188
     },
     {
       "path": "pyproject.toml",
-      "sha256": "5b5f05dc1e9495fdbdaabb13c317ec68018d145c4ae0c400cb1b3d5740314320",
-      "size_bytes": 653
+      "sha256": "1d9527ee2d6d249ec16420d15e8b887ed84c6c55daeca252fd26db18e3a25bab",
+      "size_bytes": 651
     },
     {
       "path": "requirements.txt",
@@ -91,12 +91,12 @@
     },
     {
       "path": "scripts/build_manifest.py",
-      "sha256": "44efba0ea004a0b8f32502a2cd33e5af9ebe9a5a1eb8495b5a5aba0baa793955",
-      "size_bytes": 2663
+      "sha256": "b2a33e71323640c1723fbe1db4a322d6f089cb77bea518c7bbb9048f9fd928c1",
+      "size_bytes": 2753
     },
     {
       "path": "scripts/extract_theorem_inventory.py",
-      "sha256": "7508f5c075b8a897594f4e669edc15c41a85093c91655b2f0759c34b08729091",
+      "sha256": "be7b4e4b68b04a4235fec1d59c1dc6012a2d52c0a9ba323ba05777bb0304bb59",
       "size_bytes": 2040
     },
     {
@@ -116,8 +116,8 @@
     },
     {
       "path": "scripts/verify_source.py",
-      "sha256": "744ed230dd96b3457ed2e682233c6fd053f863e686fabe74e93402d440c8d98f",
-      "size_bytes": 728
+      "sha256": "a57eaa214d46b150aa19651b21d2e654d188f4952a07548d3f0dad1cc92b9a91",
+      "size_bytes": 722
     },
     {
       "path": "scripts/verify_theorem_coverage_v1.py",
@@ -125,24 +125,29 @@
       "size_bytes": 4968
     },
     {
+      "path": "scripts/verify_version_cleanliness.py",
+      "sha256": "ce0da1e9a5eeda9a52df04031a934be0f798a4f16d5d76043eff8121220b91bd",
+      "size_bytes": 1501
+    },
+    {
       "path": "scripts/verify_vendored_packages.py",
       "sha256": "3d86392b0a9935406fb5ec3cf69fcb9ff89adeeb6c319b5587619bdd67c8d562",
       "size_bytes": 15225
     },
     {
-      "path": "src/bqg_v099/__init__.py",
-      "sha256": "274115b4b48085228ab7fa7f0c7343bf060a358cf3fd204c119a1dadc809bad5",
-      "size_bytes": 138
+      "path": "src/bqg_v1/__init__.py",
+      "sha256": "18ccd03c794a5e94e95b29c584988d785196769fd58fc37b22cbf8c399ae4362",
+      "size_bytes": 137
     },
     {
-      "path": "src/bqg_v099/source.py",
-      "sha256": "b083c6cff369b7ff58774f9d5c6a12dc32d13ccc692ad537f2b4799ecc0423e5",
-      "size_bytes": 14405
+      "path": "src/bqg_v1/source.py",
+      "sha256": "96f48f781e0f1f3cb496025aeaa3b05a70d62534c7280c3fe4f3848a3c82ac90",
+      "size_bytes": 14404
     },
     {
       "path": "tests/test_source.py",
-      "sha256": "58ea4ca2f5f0d2eef8db52a47bc7f642f27f7401566b7328edb9595f60fb3fe5",
-      "size_bytes": 584
+      "sha256": "da08c611c3b1e4dd924e1aa4ed1c012c5f915280b5f4c99310317361f5dbc613",
+      "size_bytes": 578
     },
     {
       "path": "theorems/analytic_proofs_v1.md",
@@ -151,13 +156,13 @@
     },
     {
       "path": "theorems/theorem_evidence_v1.json",
-      "sha256": "84c25faff2eafd2053ebe92d64a82768d14064b711734464e1bd1ba92f628f02",
-      "size_bytes": 20739
+      "sha256": "8dd97e77598a606f945dbc2cf8c641107075b1167024093eb99b8f489b0bfdd9",
+      "size_bytes": 20723
     },
     {
       "path": "theorems/theorem_inventory_v1.json",
-      "sha256": "e62f66e7ebd8e470f69d072360e3e4ef08e1d0bc88599b6e92ad728f905a81f5",
-      "size_bytes": 33358
+      "sha256": "832a65abc4d962dfa0efc8bd8014307508e60255689a5e7ebbbdbcca47e94e79",
+      "size_bytes": 33353
     }
   ],
   "package_version": "1.0.0",
@@ -168,6 +173,7 @@
   "test_entrypoints": [
     "scripts/verify_source.py",
     "scripts/verify_theorem_coverage_v1.py",
+    "scripts/verify_version_cleanliness.py",
     "scripts/verify_evidence_integrity.py",
     "scripts/verify_vendored_packages.py"
   ]

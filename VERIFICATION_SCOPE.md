@@ -15,7 +15,7 @@ floating-point tolerances:
 8. all eight distinct three-character labels.
 
 The command exits nonzero if any equality fails or if the reconstructed result
-differs from `expected/source_verification_v099.json`.
+differs from `expected/source_verification_v1.json`.
 
 ## Paper-wide evidence map
 

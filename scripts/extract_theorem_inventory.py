@@ -56,7 +56,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("tex", type=Path)
     parser.add_argument("--output", type=Path)
-    parser.add_argument("--id-prefix", default="V099")
+    parser.add_argument("--id-prefix", default="V100")
     args = parser.parse_args()
     result = inventory(args.tex, args.id_prefix)
     payload = json.dumps(result, ensure_ascii=False, indent=2) + "\n"
