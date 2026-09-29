@@ -79,12 +79,23 @@ def main() -> None:
     pages = sorted((ROOT / "evidence/statements").glob("V100-*.md"))
     manifests = sorted((ROOT / "evidence/statements/manifests").glob("V100-*.json"))
     artifact_dirs = sorted(
-        path for path in (ROOT / "evidence/statements/artifacts").iterdir() if path.is_dir()
+        path
+        for path in (ROOT / "evidence/statements/artifacts").iterdir()
+        if path.is_dir() and any(path.iterdir())
     )
-    if len(pages) != 53 or len(manifests) != 53 or len(artifact_dirs) != 53:
+    expected_artifact_sets = sum(
+        bool(json.loads(path.read_text(encoding="utf-8")).get("direct_artifacts"))
+        for path in manifests
+    )
+    if (
+        len(pages) != 53
+        or len(manifests) != 53
+        or len(artifact_dirs) != expected_artifact_sets
+    ):
         failures.append(
             "unexpected endpoint count: "
-            f"pages={len(pages)}, manifests={len(manifests)}, artifacts={len(artifact_dirs)}"
+            f"pages={len(pages)}, manifests={len(manifests)}, "
+            f"artifacts={len(artifact_dirs)}/{expected_artifact_sets}"
         )
 
     result = {

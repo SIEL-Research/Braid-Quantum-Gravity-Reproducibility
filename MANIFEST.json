@@ -126,8 +126,8 @@
     },
     {
       "path": "scripts/verify_public_navigation.py",
-      "sha256": "e4d89ee321603c9712538db976b104f3dac603b3e049daa7b89486f14a53b72c",
-      "size_bytes": 4508
+      "sha256": "2072b724ac592a2be08d8c11b667bbd3a7e432264f9ee8f6f629d392423e29d4",
+      "size_bytes": 4794
     },
     {
       "path": "scripts/verify_source.py",
