@@ -11,8 +11,8 @@ The paper and the reproduction package have different roles:
 - this repository stores machine-readable inputs, executable checks, expected
   outputs and tests.
 
-The manuscript itself remains in the separate
-[Subjectivity-Intersection Mathematics repository](https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/docs/preprint/subjectivity-intersection-braid-quantum-gravity-v1.0).
+The manuscript series is maintained in the separate
+[Subjectivity-Intersection Mathematics preprint directory](https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/docs/preprint).
 
 ## Evidence reachability
 

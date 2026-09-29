@@ -9,7 +9,7 @@ authors = [{name = "Satoru Watanabe"}]
 
 [project.urls]
 Repository = "https://github.com/SIEL-Research/Braid-Quantum-Gravity-Reproducibility"
-Manuscript = "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/docs/preprint/subjectivity-intersection-braid-quantum-gravity-v1.0"
+Manuscript = "https://github.com/SIEL-Research/Subjectivity-Intersection-Mathematics/tree/main/docs/preprint"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
