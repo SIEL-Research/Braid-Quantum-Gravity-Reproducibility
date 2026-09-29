@@ -42,16 +42,19 @@
   "routing_ratio": {
     "marked_eigenvalues": [-7, -5, -4],
     "sectors": [
-      {"mask": 0, "marked_projector_rank": 3, "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
-      {"mask": 5, "marked_projector_rank": 3, "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
-      {"mask": 8, "marked_projector_rank": 3, "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
-      {"mask": 13, "marked_projector_rank": 3, "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
-      {"mask": 16, "marked_projector_rank": 3, "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
-      {"mask": 21, "marked_projector_rank": 3, "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
-      {"mask": 24, "marked_projector_rank": 3, "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
-      {"mask": 29, "marked_projector_rank": 3, "outer_projector_rank": 15, "normalized_cup_weight": "3/5"}
+      {"mask": 0, "marked_projector_rank": 3, "complement_projector_rank": 2, "complement_signature": "(1,1)", "complement_positive_rank": 1, "complement_negative_rank": 1, "source_positive_line": [1, 0, -1, 0, 0], "source_negative_line": [0, 1, 0, -1, 0], "palatini_intertwiner_numerator": [[1, 1, -1, -1, 0], [1, -1, -1, 1, 0]], "palatini_intertwiner_denominator": 2, "factor_five_refinement_checks": "PASS_EXACT", "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
+      {"mask": 5, "marked_projector_rank": 3, "complement_projector_rank": 2, "complement_signature": "(1,1)", "complement_positive_rank": 1, "complement_negative_rank": 1, "source_positive_line": [1, 0, 1, 0, 0], "source_negative_line": [0, 1, 0, -1, 0], "palatini_intertwiner_numerator": [[1, 1, 1, -1, 0], [1, -1, 1, 1, 0]], "palatini_intertwiner_denominator": 2, "factor_five_refinement_checks": "PASS_EXACT", "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
+      {"mask": 8, "marked_projector_rank": 3, "complement_projector_rank": 2, "complement_signature": "(1,1)", "complement_positive_rank": 1, "complement_negative_rank": 1, "source_positive_line": [1, 0, -1, 0, 0], "source_negative_line": [0, 1, 0, -1, 0], "palatini_intertwiner_numerator": [[1, 1, -1, -1, 0], [1, -1, -1, 1, 0]], "palatini_intertwiner_denominator": 2, "factor_five_refinement_checks": "PASS_EXACT", "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
+      {"mask": 13, "marked_projector_rank": 3, "complement_projector_rank": 2, "complement_signature": "(1,1)", "complement_positive_rank": 1, "complement_negative_rank": 1, "source_positive_line": [1, 0, 1, 0, 0], "source_negative_line": [0, 1, 0, -1, 0], "palatini_intertwiner_numerator": [[1, 1, 1, -1, 0], [1, -1, 1, 1, 0]], "palatini_intertwiner_denominator": 2, "factor_five_refinement_checks": "PASS_EXACT", "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
+      {"mask": 16, "marked_projector_rank": 3, "complement_projector_rank": 2, "complement_signature": "(1,1)", "complement_positive_rank": 1, "complement_negative_rank": 1, "source_positive_line": [1, 0, -1, 0, 0], "source_negative_line": [0, 1, 0, -1, 0], "palatini_intertwiner_numerator": [[1, 1, -1, -1, 0], [1, -1, -1, 1, 0]], "palatini_intertwiner_denominator": 2, "factor_five_refinement_checks": "PASS_EXACT", "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
+      {"mask": 21, "marked_projector_rank": 3, "complement_projector_rank": 2, "complement_signature": "(1,1)", "complement_positive_rank": 1, "complement_negative_rank": 1, "source_positive_line": [1, 0, 1, 0, 0], "source_negative_line": [0, 1, 0, -1, 0], "palatini_intertwiner_numerator": [[1, 1, 1, -1, 0], [1, -1, 1, 1, 0]], "palatini_intertwiner_denominator": 2, "factor_five_refinement_checks": "PASS_EXACT", "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
+      {"mask": 24, "marked_projector_rank": 3, "complement_projector_rank": 2, "complement_signature": "(1,1)", "complement_positive_rank": 1, "complement_negative_rank": 1, "source_positive_line": [1, 0, -1, 0, 0], "source_negative_line": [0, 1, 0, -1, 0], "palatini_intertwiner_numerator": [[1, 1, -1, -1, 0], [1, -1, -1, 1, 0]], "palatini_intertwiner_denominator": 2, "factor_five_refinement_checks": "PASS_EXACT", "outer_projector_rank": 15, "normalized_cup_weight": "3/5"},
+      {"mask": 29, "marked_projector_rank": 3, "complement_projector_rank": 2, "complement_signature": "(1,1)", "complement_positive_rank": 1, "complement_negative_rank": 1, "source_positive_line": [1, 0, 1, 0, 0], "source_negative_line": [0, 1, 0, -1, 0], "palatini_intertwiner_numerator": [[1, 1, 1, -1, 0], [1, -1, 1, 1, 0]], "palatini_intertwiner_denominator": 2, "factor_five_refinement_checks": "PASS_EXACT", "outer_projector_rank": 15, "normalized_cup_weight": "3/5"}
     ],
     "common_normalized_cup_weight": "3/5",
-    "claim_boundary": "ratio only; full-corner uniqueness requires a separate partition-retraction proof"
+    "common_complementary_weight": "2/5",
+    "common_rank_split": "3+2",
+    "common_complement_signature": "(1,1)",
+    "claim_boundary": "exact complementary source split and ratio; full-corner uniqueness and the static-spherical Palatini interpretation require their declared proofs"
   }
 }

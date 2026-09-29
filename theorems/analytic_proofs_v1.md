@@ -4,6 +4,93 @@ This supplement is part of the public evidence graph for the v1.0 manuscript.
 It closes only the identifiers named below.  Premises supplied by another
 theorem remain separate dependencies in `theorem_evidence_v1.json`.
 
+## V100-THE-03 — Complementary source split and routing invariant
+
+**Exact finite source calculation.** For each of the eight signed source
+representatives, `src/bqg_v1/source.py` reconstructs the marked projector
+$P_{\rm src}$ over the rationals and defines
+
+\[
+Q_{\rm src}=I_5-P_{\rm src}.
+\]
+
+The verifier checks
+
+\[
+P_{\rm src}+Q_{\rm src}=I_5,\qquad
+P_{\rm src}Q_{\rm src}=0,\qquad
+\operatorname{rank}P_{\rm src}=3,\qquad
+\operatorname{rank}Q_{\rm src}=2.
+\]
+
+Therefore normalized source-cup routing gives
+
+\[
+p_B=\frac{\operatorname{tr}P_{\rm src}}{5}=\frac35,
+\qquad
+1-p_B=\frac{\operatorname{tr}Q_{\rm src}}{5}=\frac25.
+\]
+
+Let $J$ be the source endpoint involution and let
+$S_Q=Q_{\rm src}JQ_{\rm src}$ on
+$\operatorname{im}Q_{\rm src}$.  Exact integer identities in the verifier
+give $S_Q^2=Q_{\rm src}$.  The two spectral projectors
+
+\[
+E_\pm=\frac12\left(Q_{\rm src}\pm S_Q\right)
+\]
+
+are mutually orthogonal and each has rank one in every signed sector.  Hence
+the restricted source form has signature $(1,1)$.
+
+**Intertwiner.** The verifier recovers the generator of each rank-one line by
+the fixed rule: take the first nonzero diagonal coordinate of $E_\pm$, make
+that coordinate positive, and reconstruct the corresponding binary integer
+vector $v_\pm$.  This rule is declared before sector evaluation and leaves
+only the irrelevant sign of a one-dimensional line.  For the radial Hessian
+
+\[
+H_{\rm radial}=\begin{pmatrix}0&1\\1&0\end{pmatrix},
+\]
+
+set $k_+=(1,1)^{\mathsf T}$, $k_-=(1,-1)^{\mathsf T}$ and define the explicit
+rational map
+
+\[
+W=\frac12\left(k_+v_+^{\mathsf T}+k_-v_-^{\mathsf T}\right).
+\]
+
+The exact verifier checks in all eight sectors
+
+\[
+WQ_{\rm src}W^{\mathsf T}=I_2,\qquad
+WS_QW^{\mathsf T}=H_{\rm radial},
+\]
+
+and, with $K_\pm=(I_2\pm H_{\rm radial})/2$,
+
+\[
+WE_\pm W^{\mathsf T}=K_\pm.
+\]
+
+Thus $W$ maps the source positive and negative lines to the Palatini radial
+positive and negative lines and preserves the unit coefficient.  There is no
+post-outcome rotation or numerical fit.
+
+Tensoring $W$ with the
+identity on each factor-five descendant gives the finite-depth refinement
+intertwiner.  V100-THE-16 and V100-PRO-03 supply the exact finite refinement
+naturality and the $O(h^2)$ smooth-action comparison on the common regular
+branch.  Thus the selected rank-three matter summand and signed rank-two
+Palatini summand inherit complementary parts of one source decomposition.
+
+**Ceiling.** The executable calculation proves the exact $3+2$ split and
+signature in the fixed eight-sector source class.  The Palatini interpretation
+uses the separately declared static-spherical construction and its refinement
+bridge.  This is not a theorem for all braids, does not identify the static
+radial channel with the complete nonlinear Einstein variation, and does not
+determine the SI value of Newton's constant.
+
 ## V100-THE-11 — Four-component finite Ward telescope
 
 **Hypotheses.** Let (A) be a unital algebra, let

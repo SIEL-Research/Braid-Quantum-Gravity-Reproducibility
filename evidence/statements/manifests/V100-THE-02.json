@@ -7,7 +7,7 @@
       "origin": "repository_file",
       "original_filename": "source.py",
       "path": "src/bqg_v1/source.py",
-      "sha256": "96f48f781e0f1f3cb496025aeaa3b05a70d62534c7280c3fe4f3848a3c82ac90"
+      "sha256": "b03c79cb3eff9429139fac2354f28fbf748da0005bcc84d51510f9c16a252484"
     },
     {
       "kind": "Canonical input",
@@ -21,7 +21,7 @@
       "origin": "repository_file",
       "original_filename": "source_verification_v1.json",
       "path": "expected/source_verification_v1.json",
-      "sha256": "fc6eef24e85f7d52320f47e452f00af667bf300aedc81657b5fca50217cdead5"
+      "sha256": "fdf5f5313533d7c6ca736ade854e6847f23d25c94861df156d12097dd7fea278"
     }
   ],
   "id": "V100-THE-02",

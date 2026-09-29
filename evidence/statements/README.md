@@ -9,7 +9,7 @@ access to the private research repository or a Japanese-language audit report.
 |---|---|---|
 | [V100-THE-01](V100-THE-01.md) | Theorem 4.1, p. 4 | Four-direction event moment |
 | [V100-THE-02](V100-THE-02.md) | Theorem 4.2, p. 4 | Source-derived Lorentz signature |
-| [V100-THE-03](V100-THE-03.md) | Theorem 4.3, p. 5 | Full matter corner and routing ratio |
+| [V100-THE-03](V100-THE-03.md) | Theorem 4.3, p. 5 | Complementary source split and pointed-Braid matter--gravity routing invariant |
 | [V100-THE-04](V100-THE-04.md) | Theorem 5.1, p. 5 | Tensor gluing |
 | [V100-THE-05](V100-THE-05.md) | Theorem 5.2, p. 5 | Positive horizontal lift |
 | [V100-THE-06](V100-THE-06.md) | Theorem 5.3, p. 5 | Unique typed physical solder |
@@ -57,6 +57,6 @@ access to the private research repository or a Japanese-language audit report.
 | [V100-THE-42](V100-THE-42.md) | Theorem 17.2, p. 15 | Source-normalized fixed-boundary mass spectrum |
 | [V100-THE-43](V100-THE-43.md) | Theorem 18.1, p. 16 | Static regular black-bounce |
 | [V100-THE-44](V100-THE-44.md) | Theorem 18.2, p. 16 | Source-maximal global extension |
-| [V100-THE-45](V100-THE-45.md) | Theorem 19.1, p. 17 | Minimal one-anchor theorem |
+| [V100-THE-45](V100-THE-45.md) | Theorem 19.1, p. 17 | Minimal one-anchor theorem and Newton readout |
 | [V100-THE-46](V100-THE-46.md) | Theorem 19.2, p. 17 | Fixed-phase direct-action NO-GO |
 | [V100-THE-47](V100-THE-47.md) | Theorem 21.1, p. 19 | Countermodel to universal objectivist primacy |

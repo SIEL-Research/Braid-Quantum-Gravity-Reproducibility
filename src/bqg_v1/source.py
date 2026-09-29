@@ -216,6 +216,27 @@ def marked_projector_twice(
     return doubled
 
 
+def recover_binary_line(projector_numerator: np.ndarray, denominator: int) -> np.ndarray:
+    """Recover the predeclared-sign integer generator of a binary rank-one line."""
+    matrix = [
+        [Fraction(int(value), denominator) for value in row]
+        for row in projector_numerator
+    ]
+    pivot = next(index for index in range(len(matrix)) if matrix[index][index])
+    assert matrix[pivot][pivot] == Fraction(1, 2)
+    vector = np.array(
+        [int(2 * matrix[row][pivot]) for row in range(len(matrix))],
+        dtype=np.int64,
+    )
+    assert vector[pivot] == 1
+    assert int(vector @ vector) == 2
+    assert np.array_equal(
+        denominator * np.outer(vector, vector),
+        2 * projector_numerator,
+    )
+    return vector
+
+
 def encode_fraction_matrix(matrix: list[list[Fraction]]) -> list[list[str]]:
     return [[str(value) for value in row] for row in matrix]
 
@@ -272,6 +293,79 @@ def verify_source_class(data_path: Path) -> dict:
             transition_on_marker_atoms(r, projectors, eigenvalues)
         )
         p2 = marked_projector_twice(projectors, eigenvalues[:3])
+        q2 = 2 * I5 - p2
+        assert np.array_equal(q2 @ q2, 2 * q2)
+        assert np.array_equal(p2 @ q2, np.zeros((5, 5), dtype=np.int64))
+        assert np.array_equal(p2 + q2, 2 * I5)
+
+        # P_src=p2/2 and Q_src=q2/2 are the complementary rank 3+2
+        # source projectors.  The endpoint involution restricts to a
+        # nondegenerate (1,1) form on im(Q_src).  With
+        # S_Q=Q_src J Q_src and E_+/-=(Q_src +/- S_Q)/2, the integer
+        # numerators below verify S_Q^2=Q_src and rank(E_+)=rank(E_-)=1
+        # without floating-point diagonalisation.
+        signed_q_num = q2 @ endpoint_j @ q2
+        assert np.array_equal(signed_q_num @ signed_q_num, 8 * q2)
+        e_plus_num = 2 * q2 + signed_q_num
+        e_minus_num = 2 * q2 - signed_q_num
+        assert np.array_equal(e_plus_num @ e_plus_num, 8 * e_plus_num)
+        assert np.array_equal(e_minus_num @ e_minus_num, 8 * e_minus_num)
+        assert np.array_equal(
+            e_plus_num @ e_minus_num, np.zeros((5, 5), dtype=np.int64)
+        )
+        p_rank = exact_rank(
+            [[Fraction(int(value), 2) for value in row] for row in p2]
+        )
+        q_rank = exact_rank(
+            [[Fraction(int(value), 2) for value in row] for row in q2]
+        )
+        q_plus_rank = exact_rank(
+            [[Fraction(int(value), 8) for value in row] for row in e_plus_num]
+        )
+        q_minus_rank = exact_rank(
+            [[Fraction(int(value), 8) for value in row] for row in e_minus_num]
+        )
+        assert (p_rank, q_rank, q_plus_rank, q_minus_rank) == (3, 2, 1, 1)
+
+        # The line representatives use the fixed rule implemented by
+        # recover_binary_line: choose the first nonzero diagonal coordinate
+        # and make it positive.  This produces the explicit rational 2x5
+        # intertwiner before any target-data inspection.
+        v_plus = recover_binary_line(e_plus_num, 8)
+        v_minus = recover_binary_line(e_minus_num, 8)
+        k_plus = np.array([1, 1], dtype=np.int64)
+        k_minus = np.array([1, -1], dtype=np.int64)
+        h_radial = np.array([[0, 1], [1, 0]], dtype=np.int64)
+        w_num = np.outer(k_plus, v_plus) + np.outer(k_minus, v_minus)
+        i2 = np.eye(2, dtype=np.int64)
+        k_plus_num = i2 + h_radial
+        k_minus_num = i2 - h_radial
+        assert np.array_equal(w_num @ w_num.T, 4 * i2)
+        assert np.array_equal(w_num.T @ w_num, 2 * q2)
+        assert np.array_equal(w_num @ q2 @ w_num.T, 8 * i2)
+        assert np.array_equal(w_num @ signed_q_num @ w_num.T, 16 * h_radial)
+        assert np.array_equal(
+            w_num @ e_plus_num @ w_num.T, 16 * k_plus_num
+        )
+        assert np.array_equal(
+            w_num @ e_minus_num @ w_num.T, 16 * k_minus_num
+        )
+
+        # One actual factor-five right-tail step; Kronecker associativity
+        # makes this the induction step for every finite addressed depth.
+        w1_num = np.kron(w_num, I5)
+        assert np.array_equal(
+            w1_num @ np.kron(signed_q_num, I5) @ w1_num.T,
+            16 * np.kron(h_radial, I5),
+        )
+        assert np.array_equal(
+            w1_num @ np.kron(e_plus_num, I5) @ w1_num.T,
+            16 * np.kron(k_plus_num, I5),
+        )
+        assert np.array_equal(
+            w1_num @ np.kron(e_minus_num, I5) @ w1_num.T,
+            16 * np.kron(k_minus_num, I5),
+        )
         p25_twice = np.kron(I5, p2)
         assert int(np.trace(p2)) == 6
         assert int(np.trace(p25_twice)) == 30
@@ -279,9 +373,18 @@ def verify_source_class(data_path: Path) -> dict:
         routing_records.append(
             {
                 "mask": mask,
-                "marked_projector_rank": exact_rank(
-                    [[Fraction(int(value)) for value in row] for row in p2]
-                ),
+                "marked_projector_rank": p_rank,
+                "complement_projector_rank": q_rank,
+                "complement_signature": "(1,1)",
+                "complement_positive_rank": q_plus_rank,
+                "complement_negative_rank": q_minus_rank,
+                "source_positive_line": [int(value) for value in v_plus],
+                "source_negative_line": [int(value) for value in v_minus],
+                "palatini_intertwiner_numerator": [
+                    [int(value) for value in row] for row in w_num
+                ],
+                "palatini_intertwiner_denominator": 2,
+                "factor_five_refinement_checks": "PASS_EXACT",
                 "outer_projector_rank": exact_rank(
                     [[Fraction(int(value)) for value in row] for row in p25_twice]
                 ),
@@ -376,6 +479,9 @@ def verify_source_class(data_path: Path) -> dict:
             "marked_eigenvalues": list(eigenvalues[:3]),
             "sectors": routing_records,
             "common_normalized_cup_weight": "3/5",
-            "claim_boundary": "ratio only; full-corner uniqueness requires a separate partition-retraction proof",
+            "common_complementary_weight": "2/5",
+            "common_rank_split": "3+2",
+            "common_complement_signature": "(1,1)",
+            "claim_boundary": "exact complementary source split and ratio; full-corner uniqueness and the static-spherical Palatini interpretation require their declared proofs",
         },
     }

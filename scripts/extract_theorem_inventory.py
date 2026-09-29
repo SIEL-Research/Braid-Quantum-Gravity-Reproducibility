@@ -21,6 +21,9 @@ def inventory(tex_path: Path, id_prefix: str) -> dict:
     records = []
     for match in PATTERN.finditer(source):
         kind, title, body = match.groups()
+        clean_title = re.sub(
+            r"\s*\\evidenceid\{[^}]+\}\s*", " ", title or ""
+        ).strip()
         counters[kind] = counters.get(kind, 0) + 1
         prefix = {
             "theorem": "THE",
@@ -33,7 +36,7 @@ def inventory(tex_path: Path, id_prefix: str) -> dict:
             {
                 "id": f"{id_prefix}-{prefix}-{counters[kind]:02d}",
                 "kind": kind,
-                "title": title or "",
+                "title": clean_title,
                 "line": line,
                 "statement": " ".join(body.split()),
             }

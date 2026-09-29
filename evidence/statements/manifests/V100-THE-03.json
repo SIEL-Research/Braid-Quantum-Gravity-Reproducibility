@@ -1,20 +1,24 @@
 {
-  "claim_ceiling": "Full-corner uniqueness in the complete declared five-partition class and exact 3/5 routing count only; not a measured gravitational constant.",
-  "dependencies": [],
+  "claim_ceiling": "Exact complementary rank 3+2 split and signed rank-two (1,1) source form in the fixed eight-sector class; the coefficient-free Palatini intertwiner is limited to the separately declared static-spherical refinement branch; not a theorem for all braids or a measured gravitational constant.",
+  "dependencies": [
+    "V100-THE-16",
+    "V100-PRO-03",
+    "V100-THE-43"
+  ],
   "direct_artifacts": [
     {
       "kind": "Model source",
       "origin": "repository_file",
       "original_filename": "source.py",
       "path": "src/bqg_v1/source.py",
-      "sha256": "96f48f781e0f1f3cb496025aeaa3b05a70d62534c7280c3fe4f3848a3c82ac90"
+      "sha256": "b03c79cb3eff9429139fac2354f28fbf748da0005bcc84d51510f9c16a252484"
     },
     {
       "kind": "Expected result",
       "origin": "repository_file",
       "original_filename": "source_verification_v1.json",
       "path": "expected/source_verification_v1.json",
-      "sha256": "fc6eef24e85f7d52320f47e452f00af667bf300aedc81657b5fca50217cdead5"
+      "sha256": "fdf5f5313533d7c6ca736ade854e6847f23d25c94861df156d12097dd7fea278"
     },
     {
       "bundle_label": "BGCE238 FIXED SOURCE PACKET COHERENCE SELECTION",
@@ -69,6 +73,13 @@
       "original_filename": "verify.py",
       "path": "evidence/statements/artifacts/V100-THE-03/bundle-03/verify.py",
       "sha256": "537bebd75247f9133cd480dd7cbb7fadc0701a5d6f3108f781659660aa1de1c7"
+    },
+    {
+      "kind": "Analytic proof",
+      "origin": "repository_file",
+      "original_filename": "analytic_proofs_v1.md",
+      "path": "theorems/analytic_proofs_v1.md",
+      "sha256": "b251e8310f3a9b5255d3a56d9f0eb6e31b882f0236893c0545ff2edd4d9541a1"
     }
   ],
   "id": "V100-THE-03",
