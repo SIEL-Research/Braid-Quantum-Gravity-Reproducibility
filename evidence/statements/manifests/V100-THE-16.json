@@ -8,17 +8,27 @@
   "direct_artifacts": [
     {
       "kind": "Analytic proof",
-      "path": "evidence/statements/artifacts/V100-THE-16/source-01-artifact-01.md",
+      "origin": "repository_file",
+      "original_filename": "analytic_proofs_v1.md",
+      "path": "theorems/analytic_proofs_v1.md",
       "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397"
     },
     {
+      "bundle_label": "BQG G3 R01 5 SOURCE PERFECT HISTORY GROUPOID ADM HDA CLOSURE 20260926",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-16/source-02-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-16/bundle-02/DPA_SCOUT_012/RESULT.json",
       "sha256": "c0a4bcbab124950f921c11430d3f4590199793981be68eba46a1e8d366539815"
     },
     {
+      "bundle_label": "BQG G3 R01 5 SOURCE PERFECT HISTORY GROUPOID ADM HDA CLOSURE 20260926",
+      "bundle_number": 2,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-16/source-02-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "SOURCE_MATRIX.json",
+      "path": "evidence/statements/artifacts/V100-THE-16/bundle-02/DPA_SCOUT_012/SOURCE_MATRIX.json",
       "sha256": "59c8f1c36e4cb9169830f5cae35dccba0dba5706a4742ca0c7ce23ae7966096d"
     }
   ],
@@ -31,6 +41,7 @@
     {
       "file_count": 5,
       "kind": "vendored_calculation_package",
+      "label": "BQG G3 R01 5 SOURCE PERFECT HISTORY GROUPOID ADM HDA CLOSURE 20260926",
       "sha256_tree": "cf745434f16130e9db0ce2da0a168d80e8c53cafa7501396b2707f1743df9e5a"
     }
   ],

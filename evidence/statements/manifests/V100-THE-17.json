@@ -3,33 +3,57 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BQGADM014 SOURCE TT PHYSICAL PROJECTOR 20260929",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-17/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-17/bundle-01/DPA_SCOUT_014/RAW_OUTPUT.json",
       "sha256": "5d81301e27170d61c10b2677fe5250f2789d4a9d713d5a57652c805932bbf8e5"
     },
     {
+      "bundle_label": "BQGADM014 SOURCE TT PHYSICAL PROJECTOR 20260929",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-17/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-17/bundle-01/DPA_SCOUT_014/RESULT.json",
       "sha256": "68e2e4bd50ce3d776d9cd423c64b647a745f0d6b31ba9294ad3f0ca2290f1d97"
     },
     {
+      "bundle_label": "BQGADM014 SOURCE TT PHYSICAL PROJECTOR 20260929",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-17/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "SOURCE_MATRIX.json",
+      "path": "evidence/statements/artifacts/V100-THE-17/bundle-01/DPA_SCOUT_014/SOURCE_MATRIX.json",
       "sha256": "1540cea7749cee324be9baea547bc93ea6f6c2908b5a233cacd1a2fcd2c776c6"
     },
     {
+      "bundle_label": "BQGADM015 MOVING PROJECTOR ALL SOURCE MOMENTA 20260929",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-17/source-02-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-17/bundle-02/DPA_SCOUT_015/RAW_OUTPUT.json",
       "sha256": "760dc37b191c0199d01be8fbcdb2a1dc16b34f9d6748c5fce361ab5d5964fded"
     },
     {
+      "bundle_label": "BQGADM015 MOVING PROJECTOR ALL SOURCE MOMENTA 20260929",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-17/source-02-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-17/bundle-02/DPA_SCOUT_015/RESULT.json",
       "sha256": "045bef41d3731ee7fa79d3f9d1eda3eb03e4f18fb7c95f4cb0a37d3b2f2f612e"
     },
     {
+      "bundle_label": "BQGADM015 MOVING PROJECTOR ALL SOURCE MOMENTA 20260929",
+      "bundle_number": 2,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-17/source-02-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "SOURCE_MATRIX.json",
+      "path": "evidence/statements/artifacts/V100-THE-17/bundle-02/DPA_SCOUT_015/SOURCE_MATRIX.json",
       "sha256": "86a01a6211f5ed1b35b8f4a7ad13928061c7f222e8b5bebad1289c629192e6c8"
     }
   ],
@@ -42,11 +66,13 @@
     {
       "file_count": 9,
       "kind": "vendored_calculation_package",
+      "label": "BQGADM014 SOURCE TT PHYSICAL PROJECTOR 20260929",
       "sha256_tree": "2a76dc268fc37d22cacfdf5485b8740b18ff936fb7237856b32fdd310879cf34"
     },
     {
       "file_count": 9,
       "kind": "vendored_calculation_package",
+      "label": "BQGADM015 MOVING PROJECTOR ALL SOURCE MOMENTA 20260929",
       "sha256_tree": "e9da3ffe0fe6c252f9304194c5e73fd1c83fb081183373a77fbbaef70f4ac32c"
     }
   ],

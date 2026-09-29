@@ -3,13 +3,21 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BGCE336R2 REFINED COLLISION CTP TO CONTINUUM LORENTZIAN INFLUENCE AND NONCIRCULAR FINITE BACKREACTION",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-12/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-12/bundle-01/RESULT.json",
       "sha256": "c1ddd9d8451cfe68dae8a134706fbf589375fe3e35da665a8e4cbb70f3519875"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-12/source-01-artifact-02.py",
+      "bundle_label": "BGCE336R2 REFINED COLLISION CTP TO CONTINUUM LORENTZIAN INFLUENCE AND NONCIRCULAR FINITE BACKREACTION",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate.py",
+      "path": "evidence/statements/artifacts/V100-THE-12/bundle-01/evaluate.py",
       "sha256": "f2dc55705916700fe515f12b4fd34679e27ea8c58403c3c3d1a941f36bd59a7b"
     }
   ],
@@ -22,6 +30,7 @@
     {
       "file_count": 4,
       "kind": "vendored_calculation_package",
+      "label": "BGCE336R2 REFINED COLLISION CTP TO CONTINUUM LORENTZIAN INFLUENCE AND NONCIRCULAR FINITE BACKREACTION",
       "sha256_tree": "4e68a3740a1be3cc1ad21788595fba32513816e88b5d605613fb1ff526a7c03c"
     }
   ],

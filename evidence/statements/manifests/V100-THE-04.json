@@ -3,33 +3,57 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
+      "bundle_number": 1,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-THE-04/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-THE-04/bundle-01/CERTIFICATE.json",
       "sha256": "653ba70772b36bdf254dc4d9e0a7700e23b06a50b974687acd38a4c8f6069c85"
     },
     {
+      "bundle_label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-04/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-04/bundle-01/RAW_OUTPUT.json",
       "sha256": "83472823219c56909fcd0ae68f7a5fd9b07f4c1ee66928838bd3696e29dbe0d3"
     },
     {
+      "bundle_label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-04/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-04/bundle-01/RESULT.json",
       "sha256": "522fd5a22470cb741fbf2911b52140028178f8686a16a371921fee00ce5f11a2"
     },
     {
+      "bundle_label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-04/source-01-artifact-04.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "SOURCE_MATRIX.json",
+      "path": "evidence/statements/artifacts/V100-THE-04/bundle-01/SOURCE_MATRIX.json",
       "sha256": "4d483d356e1b8f5c9261e2db05977c2b0fb8fb0f98419167997b98a206c0fe5f"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-04/source-01-artifact-05.py",
+      "bundle_label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate.py",
+      "path": "evidence/statements/artifacts/V100-THE-04/bundle-01/evaluate.py",
       "sha256": "6f6885b688689732aece9c9cb92bca7743a6200dd8fa4927a9ad9697d99ccb53"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-04/source-01-artifact-06.py",
+      "bundle_label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-04/bundle-01/verify.py",
       "sha256": "b0a5ec223c936ba0939a9eaddb86395300b4b54d418fb96cc3b28348004b4458"
     }
   ],
@@ -42,6 +66,7 @@
     {
       "file_count": 10,
       "kind": "vendored_calculation_package",
+      "label": "BGCE283 S4 CHART EQUIVARIANT METRIC TENSOR GLUE",
       "sha256_tree": "5a9d1b0df76c7b046565f559753d130ce4337a37f575969ed3768e9da12be76e"
     }
   ],

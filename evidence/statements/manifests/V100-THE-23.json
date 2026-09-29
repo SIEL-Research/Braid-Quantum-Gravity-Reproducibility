@@ -8,17 +8,27 @@
   "direct_artifacts": [
     {
       "kind": "Analytic proof",
-      "path": "evidence/statements/artifacts/V100-THE-23/source-01-artifact-01.md",
+      "origin": "repository_file",
+      "original_filename": "analytic_proofs_v1.md",
+      "path": "theorems/analytic_proofs_v1.md",
       "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397"
     },
     {
+      "bundle_label": "BQG G3 R02 5 NORMALIZED SYM2 TEN COMPONENT STRONG CONVERGENCE CLOSURE 20260926",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-23/source-02-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-23/bundle-02/DPA_SCOUT_010/RESULT.json",
       "sha256": "73b4d301c0f3995539b08ef0fe0b490022252c8f397e4b1b63c96d10cee8fb0e"
     },
     {
+      "bundle_label": "BQG G3 R02 5 NORMALIZED SYM2 TEN COMPONENT STRONG CONVERGENCE CLOSURE 20260926",
+      "bundle_number": 2,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-23/source-02-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "SOURCE_MATRIX.json",
+      "path": "evidence/statements/artifacts/V100-THE-23/bundle-02/DPA_SCOUT_010/SOURCE_MATRIX.json",
       "sha256": "cd6c97b3d129e95e09a7f8d54dab7c8e0bb7e73ed48b8b7925d78dc067a5c3da"
     }
   ],
@@ -31,6 +41,7 @@
     {
       "file_count": 5,
       "kind": "vendored_calculation_package",
+      "label": "BQG G3 R02 5 NORMALIZED SYM2 TEN COMPONENT STRONG CONVERGENCE CLOSURE 20260926",
       "sha256_tree": "3dd6f69dceca4e0c63e2f75645d6b8891919557e7f470ffb14d4bcfdafd1b061"
     }
   ],

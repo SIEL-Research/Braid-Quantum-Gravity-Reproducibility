@@ -3,58 +3,102 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BGCE530 SOURCE STATE WEIGHTED KINETIC METRIC AND FINITE FERMION DETERMINANT HIGGS",
+      "bundle_number": 1,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-THE-35/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-THE-35/bundle-01/DPA_SCOUT_001/CERTIFICATE.json",
       "sha256": "9145d97d88727e04c3fd6d2179d7c2d8b8b1a67888dde1b24b2c8baad8a6c7a9"
     },
     {
+      "bundle_label": "BGCE530 SOURCE STATE WEIGHTED KINETIC METRIC AND FINITE FERMION DETERMINANT HIGGS",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-35/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-THE-35/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
       "sha256": "715fd76031d131742d15dbf7b4e762ba8b6b10a9c038d2a6be7168f46eddbba3"
     },
     {
+      "bundle_label": "BGCE530 SOURCE STATE WEIGHTED KINETIC METRIC AND FINITE FERMION DETERMINANT HIGGS",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-35/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-35/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
       "sha256": "5baed875155468c14b3fcf6f372d8de069ea9a15d3e9b24ae87fc890a8309428"
     },
     {
+      "bundle_label": "BGCE530 SOURCE STATE WEIGHTED KINETIC METRIC AND FINITE FERMION DETERMINANT HIGGS",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-35/source-01-artifact-04.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-35/bundle-01/DPA_SCOUT_001/RESULT.json",
       "sha256": "778fca97eeb753aebb3e8400814835ac512df667627e4dddc7194f10964a2a2e"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-35/source-01-artifact-05.py",
+      "bundle_label": "BGCE530 SOURCE STATE WEIGHTED KINETIC METRIC AND FINITE FERMION DETERMINANT HIGGS",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-THE-35/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
       "sha256": "d3710b946d71f9c7fc45bc83f96fda62ba11faf913a65866d21aff7e3e9f7568"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-35/source-01-artifact-06.py",
+      "bundle_label": "BGCE530 SOURCE STATE WEIGHTED KINETIC METRIC AND FINITE FERMION DETERMINANT HIGGS",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-35/bundle-01/DPA_SCOUT_001/verify.py",
       "sha256": "2a37d078141ec8c6097b780b15080dea73aaf5b905b66421853f822b61c5af85"
     },
     {
+      "bundle_label": "BGCE532 SOURCE SIGN LINE EXTERIOR TRACE TO FINITE FERMION DETERMINANT",
+      "bundle_number": 2,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-THE-35/source-02-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-THE-35/bundle-02/DPA_SCOUT_001/CERTIFICATE.json",
       "sha256": "97d348cb968b55025c71fd9da78628c13238b0589743314c9f10b42df66690d0"
     },
     {
+      "bundle_label": "BGCE532 SOURCE SIGN LINE EXTERIOR TRACE TO FINITE FERMION DETERMINANT",
+      "bundle_number": 2,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-35/source-02-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-THE-35/bundle-02/DPA_SCOUT_001/INPUT_MANIFEST.json",
       "sha256": "6875451a519264df56c8a10b55e5b72f83e41f9d08767c1a0a90e825a6c8b5b3"
     },
     {
+      "bundle_label": "BGCE532 SOURCE SIGN LINE EXTERIOR TRACE TO FINITE FERMION DETERMINANT",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-35/source-02-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-35/bundle-02/DPA_SCOUT_001/RAW_OUTPUT.json",
       "sha256": "95bd42434bf9d550ac9ec3f5cb23a061ed0b5d92ece891907a25fd9efa00ccc1"
     },
     {
+      "bundle_label": "BGCE532 SOURCE SIGN LINE EXTERIOR TRACE TO FINITE FERMION DETERMINANT",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-35/source-02-artifact-04.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-35/bundle-02/DPA_SCOUT_001/RESULT.json",
       "sha256": "935fc27573b4ed1b93c5eaf5fc9bcdafdc1eb4850a3f3016880e4e5cf7057690"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-35/source-02-artifact-05.py",
+      "bundle_label": "BGCE532 SOURCE SIGN LINE EXTERIOR TRACE TO FINITE FERMION DETERMINANT",
+      "bundle_number": 2,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-35/bundle-02/DPA_SCOUT_001/verify.py",
       "sha256": "e6992f9da2fe5a4a0ce0ecaa4f9f0c40ef384ad49697a043a2ad8f45396acad3"
     }
   ],
@@ -67,11 +111,13 @@
     {
       "file_count": 10,
       "kind": "vendored_calculation_package",
+      "label": "BGCE530 SOURCE STATE WEIGHTED KINETIC METRIC AND FINITE FERMION DETERMINANT HIGGS",
       "sha256_tree": "8c5381d7292ef549f88b49b20d8feaf71116aba81d8f3ea6b9a493f64db38339"
     },
     {
       "file_count": 10,
       "kind": "vendored_calculation_package",
+      "label": "BGCE532 SOURCE SIGN LINE EXTERIOR TRACE TO FINITE FERMION DETERMINANT",
       "sha256_tree": "c7ece072355fdd4cf9ec418dbc1a798306228c4b2e51a8747a954515e18e389b"
     }
   ],

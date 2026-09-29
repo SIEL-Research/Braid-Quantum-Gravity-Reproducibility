@@ -3,33 +3,57 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
+      "bundle_number": 1,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-THE-33/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/CERTIFICATE.json",
       "sha256": "e6cc890da9997ae8563534c607174bb85f1cda95c5a53b96d096b3a49c2e72da"
     },
     {
+      "bundle_label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-33/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
       "sha256": "9e51bbd7e901a922793b77cb5890f55158cdb1545b32d151a5d590dcb77c2491"
     },
     {
+      "bundle_label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-33/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
       "sha256": "43ec1630573b5781ba817c97e92b24dfe8d842702af9635bc92bdff4fb1ba241"
     },
     {
+      "bundle_label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-33/source-01-artifact-04.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/RESULT.json",
       "sha256": "91850114230e8ac75e452ee260c6fc1b65977b33ffda3a24458242a2ea106fa9"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-33/source-01-artifact-05.py",
+      "bundle_label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
       "sha256": "abae2408dd9ec7bccbd17b91f4f3a7f19797a90d1b936c5557514924c355d91c"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-33/source-01-artifact-06.py",
+      "bundle_label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-33/bundle-01/DPA_SCOUT_001/verify.py",
       "sha256": "634dea144c48a4c7e35b4bff528a93c1ba3a3c3aaa38a06485b23ade4076cac3"
     }
   ],
@@ -42,6 +66,7 @@
     {
       "file_count": 10,
       "kind": "vendored_calculation_package",
+      "label": "BGCE546 SOURCE INTRINSIC PREDICATE MODULAR WEIGHT TO UNIQUE NONNORMAL FLAVOUR OPERATOR",
       "sha256_tree": "65bac394925d37c29dfeb368b09c787aeaf41d3cb6294a09f4f06083e8061bdc"
     }
   ],

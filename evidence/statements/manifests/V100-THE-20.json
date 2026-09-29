@@ -3,18 +3,30 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BGCE445 AF QUASILOCAL CPTP ALL SCALE COMPLETION",
+      "bundle_number": 1,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-THE-20/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "PROOF_CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-THE-20/bundle-01/PROOF_CERTIFICATE.json",
       "sha256": "924190169a27d4073874d7e7893f6c50078d0d3c20196a18fb8a4519ffd2fd6d"
     },
     {
+      "bundle_label": "BGCE445 AF QUASILOCAL CPTP ALL SCALE COMPLETION",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-20/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-20/bundle-01/RESULT.json",
       "sha256": "b86fc3edb6da2c72f18ccfa6a71f15d88eef33150ba53d03402b0793b7b77b52"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-20/source-01-artifact-03.py",
+      "bundle_label": "BGCE445 AF QUASILOCAL CPTP ALL SCALE COMPLETION",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "proof_check.py",
+      "path": "evidence/statements/artifacts/V100-THE-20/bundle-01/proof_check.py",
       "sha256": "0ea00d55ce12d65f59ed185fc640080fe73dd1b86dc1fe518c36f7852154d28d"
     }
   ],
@@ -27,6 +39,7 @@
     {
       "file_count": 6,
       "kind": "vendored_calculation_package",
+      "label": "BGCE445 AF QUASILOCAL CPTP ALL SCALE COMPLETION",
       "sha256_tree": "4fcaf05668b8c61756c3fd1fef7585b92d14ef3c5a7b34b0c32bf368237a0afb"
     }
   ],

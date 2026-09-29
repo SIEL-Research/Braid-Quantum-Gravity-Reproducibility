@@ -3,38 +3,66 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BGCE491 TYPED HALMOS CHEBYSHEV WALK TO SOURCE WORD LOCAL COMPILATION",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-COR-02/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-COR-02/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
       "sha256": "58723bd7d5c1994fe447c38007e609c5f38e086c6c0b0ba588977a7db8a0af3a"
     },
     {
+      "bundle_label": "BGCE491 TYPED HALMOS CHEBYSHEV WALK TO SOURCE WORD LOCAL COMPILATION",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-COR-02/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-COR-02/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
       "sha256": "92821cac41c8c2fea861ec4f587664c42ac67755181052a107bb45ccc1fffaba"
     },
     {
+      "bundle_label": "BGCE491 TYPED HALMOS CHEBYSHEV WALK TO SOURCE WORD LOCAL COMPILATION",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-COR-02/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-COR-02/bundle-01/DPA_SCOUT_001/RESULT.json",
       "sha256": "1bb60b005bd075447a42b0a53a57eb9c1f34d74fb0eeb664ef22c37747108ea9"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-COR-02/source-01-artifact-04.py",
+      "bundle_label": "BGCE491 TYPED HALMOS CHEBYSHEV WALK TO SOURCE WORD LOCAL COMPILATION",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-COR-02/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
       "sha256": "1738acfd5a44b6359646e4c00206255763160bc426d8719ca4f0e9a1febe2bcd"
     },
     {
+      "bundle_label": "BGCE495 MINIMAL G1 CHEBYSHEV POWER SELECTOR AND FULL ACTUATOR NATIVE RESOURCE",
+      "bundle_number": 2,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-COR-02/source-02-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-COR-02/bundle-02/DPA_SCOUT_001/INPUT_MANIFEST.json",
       "sha256": "43e7b317d641e64de53c3b930fd75f5ee745d8acb9838f7820826dcf1a1fdb82"
     },
     {
+      "bundle_label": "BGCE495 MINIMAL G1 CHEBYSHEV POWER SELECTOR AND FULL ACTUATOR NATIVE RESOURCE",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-COR-02/source-02-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-COR-02/bundle-02/DPA_SCOUT_001/RAW_OUTPUT.json",
       "sha256": "94a3b160aad9ffb8c547001f5ebaca261251d42563f5f236b0bcd46d72a10eaf"
     },
     {
+      "bundle_label": "BGCE495 MINIMAL G1 CHEBYSHEV POWER SELECTOR AND FULL ACTUATOR NATIVE RESOURCE",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-COR-02/source-02-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-COR-02/bundle-02/DPA_SCOUT_001/RESULT.json",
       "sha256": "f325db2aeec858d63f27b96d55a412c777dcf319d462d2d7ce00afb8451a2ffe"
     }
   ],
@@ -47,11 +75,13 @@
     {
       "file_count": 9,
       "kind": "vendored_calculation_package",
+      "label": "BGCE491 TYPED HALMOS CHEBYSHEV WALK TO SOURCE WORD LOCAL COMPILATION",
       "sha256_tree": "bb22439fe78723507c402cb941a31eddfd2a19c1d54fd0af24a840ef89d5e5f7"
     },
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
+      "label": "BGCE495 MINIMAL G1 CHEBYSHEV POWER SELECTOR AND FULL ACTUATOR NATIVE RESOURCE",
       "sha256_tree": "672fabef6d2506db06c2cd98010e77b302337f859de4bc12566ebebe7ba79aae"
     }
   ],

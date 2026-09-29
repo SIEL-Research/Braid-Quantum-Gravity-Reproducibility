@@ -48,6 +48,8 @@ def main() -> None:
             failures.append(f"{identifier}: points to private/Japanese-only evidence")
         if "## Navigation" in text or "THEOREM_EVIDENCE_INDEX" in text:
             failures.append(f"{identifier}: bounces back to an index instead of direct evidence")
+        if re.search(r"\b(?:source|artifact|evidence bundle|record)\s+\d+\b", text, re.I):
+            failures.append(f"{identifier}: contains an unexplained numbered evidence label")
         for target in LOCAL_LINK.findall(text):
             resolved = (page.parent / target).resolve()
             try:
@@ -63,11 +65,20 @@ def main() -> None:
         payload = json.loads(manifest.read_text(encoding="utf-8"))
         if payload.get("id") != identifier:
             failures.append(f"{identifier}: manifest ID mismatch")
+        verification_command = payload.get("verification_command", "")
+        if verification_command.startswith("python3 "):
+            command_path = verification_command.split(maxsplit=1)[1]
+            if f"[`{verification_command}`](../../{command_path})" not in text:
+                failures.append(f"{identifier}: verification command is not linked")
         direct_artifacts = payload.get("direct_artifacts", [])
         if not direct_artifacts and not payload.get("public_urls"):
             failures.append(f"{identifier}: no direct evidence artifact or public record")
         for artifact in direct_artifacts:
             artifact_path = ROOT / artifact["path"]
+            if not artifact.get("original_filename"):
+                failures.append(f"{identifier}: direct artifact lacks original filename")
+            elif artifact_path.name != artifact["original_filename"]:
+                failures.append(f"{identifier}: displayed and linked filenames differ")
             try:
                 artifact_text = artifact_path.read_text(encoding="utf-8")
             except (UnicodeDecodeError, OSError) as exc:
@@ -84,7 +95,12 @@ def main() -> None:
         if path.is_dir() and any(path.iterdir())
     )
     expected_artifact_sets = sum(
-        bool(json.loads(path.read_text(encoding="utf-8")).get("direct_artifacts"))
+        any(
+            artifact.get("origin") == "evidence_bundle_entrypoint"
+            for artifact in json.loads(path.read_text(encoding="utf-8")).get(
+                "direct_artifacts", []
+            )
+        )
         for path in manifests
     )
     if (

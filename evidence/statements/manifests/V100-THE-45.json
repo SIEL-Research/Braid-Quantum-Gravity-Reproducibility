@@ -4,37 +4,63 @@
   "direct_artifacts": [
     {
       "kind": "Analytic proof",
-      "path": "evidence/statements/artifacts/V100-THE-45/source-01-artifact-01.md",
+      "origin": "repository_file",
+      "original_filename": "analytic_proofs_v1.md",
+      "path": "theorems/analytic_proofs_v1.md",
       "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397"
     },
     {
+      "bundle_label": "BQGCAL042 GLOBAL DIMENSIONAL RESCALING ORBIT TO MINIMAL ONE EXTERNAL ANCHOR NECESSITY AND SUFFICIENCY",
+      "bundle_number": 2,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-THE-45/source-02-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-THE-45/bundle-02/DPA_SCOUT_001/CERTIFICATE.json",
       "sha256": "08077134a1f0765891765d9e00aa70c50d973ffc9a432247ecb4df0b8d33bd67"
     },
     {
+      "bundle_label": "BQGCAL042 GLOBAL DIMENSIONAL RESCALING ORBIT TO MINIMAL ONE EXTERNAL ANCHOR NECESSITY AND SUFFICIENCY",
+      "bundle_number": 2,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-45/source-02-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-THE-45/bundle-02/DPA_SCOUT_001/INPUT_MANIFEST.json",
       "sha256": "93e07225168f2a284b028c8bea9be8cf14e772f1bdeb5eeadbaa30d02c1ed1a8"
     },
     {
+      "bundle_label": "BQGCAL042 GLOBAL DIMENSIONAL RESCALING ORBIT TO MINIMAL ONE EXTERNAL ANCHOR NECESSITY AND SUFFICIENCY",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-45/source-02-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-45/bundle-02/DPA_SCOUT_001/RAW_OUTPUT.json",
       "sha256": "fdfa3f35fcd8a77ce43bd5af314bf548577ceb16c139d995c1c629012e72b7db"
     },
     {
+      "bundle_label": "BQGCAL042 GLOBAL DIMENSIONAL RESCALING ORBIT TO MINIMAL ONE EXTERNAL ANCHOR NECESSITY AND SUFFICIENCY",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-45/source-02-artifact-04.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-45/bundle-02/DPA_SCOUT_001/RESULT.json",
       "sha256": "fdfa3f35fcd8a77ce43bd5af314bf548577ceb16c139d995c1c629012e72b7db"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-45/source-02-artifact-05.py",
+      "bundle_label": "BQGCAL042 GLOBAL DIMENSIONAL RESCALING ORBIT TO MINIMAL ONE EXTERNAL ANCHOR NECESSITY AND SUFFICIENCY",
+      "bundle_number": 2,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-THE-45/bundle-02/DPA_SCOUT_001/evaluate_scout.py",
       "sha256": "0f808c86ce28381061400d204b0ca79caf1d5f31fd1d3a10767d49ef0913e9e3"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-45/source-02-artifact-06.py",
+      "bundle_label": "BQGCAL042 GLOBAL DIMENSIONAL RESCALING ORBIT TO MINIMAL ONE EXTERNAL ANCHOR NECESSITY AND SUFFICIENCY",
+      "bundle_number": 2,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-45/bundle-02/DPA_SCOUT_001/verify.py",
       "sha256": "c353b9ec4411839345749060da2fde7f98213920f547ea88ea5f0f3bb2e6d09e"
     }
   ],
@@ -47,6 +73,7 @@
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
+      "label": "BQGCAL042 GLOBAL DIMENSIONAL RESCALING ORBIT TO MINIMAL ONE EXTERNAL ANCHOR NECESSITY AND SUFFICIENCY",
       "sha256_tree": "11513dc18c1427c5298364b92d314488547cc8da7281417774a539746e41883c"
     }
   ],

@@ -3,23 +3,39 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BGCE490 SOURCE STRUCTURED LOW NORMALIZATION SPECTRAL FACTOR OR DIRECT QUOTIENT QSP",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-30/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-THE-30/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
       "sha256": "65284d21a3dc13b4175811d6cebce5d5cbdf9caabe22539a88293f96928682b1"
     },
     {
+      "bundle_label": "BGCE490 SOURCE STRUCTURED LOW NORMALIZATION SPECTRAL FACTOR OR DIRECT QUOTIENT QSP",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-30/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-30/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
       "sha256": "c47af5b071ac7adcc075354de801cd84bee24016f09059f51932f9ddc3137267"
     },
     {
+      "bundle_label": "BGCE490 SOURCE STRUCTURED LOW NORMALIZATION SPECTRAL FACTOR OR DIRECT QUOTIENT QSP",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-30/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-30/bundle-01/DPA_SCOUT_001/RESULT.json",
       "sha256": "640e7d62876b420ee79cab0000c6465d4913ee91e6c2d65e8ac1a0ee0a46769a"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-30/source-01-artifact-04.py",
+      "bundle_label": "BGCE490 SOURCE STRUCTURED LOW NORMALIZATION SPECTRAL FACTOR OR DIRECT QUOTIENT QSP",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-THE-30/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
       "sha256": "e2efea4885e63d22e02cce8684bdf484f2fbe2b75a46a01fcf32e590acec5bed"
     }
   ],
@@ -32,6 +48,7 @@
     {
       "file_count": 10,
       "kind": "vendored_calculation_package",
+      "label": "BGCE490 SOURCE STRUCTURED LOW NORMALIZATION SPECTRAL FACTOR OR DIRECT QUOTIENT QSP",
       "sha256_tree": "b2a05631f5c8652bc7db8c99468f55018074d935adf6a2cc1baebe50f427938a"
     }
   ],

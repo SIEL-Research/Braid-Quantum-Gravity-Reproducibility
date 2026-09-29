@@ -3,53 +3,93 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BQGQBV002 POINTED HODGE POLAR GINSPARG WILSON REGULATOR",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-27/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-27/bundle-01/DPA_SCOUT_002/RAW_OUTPUT.json",
       "sha256": "6e206eef2d21b7c4676a165799bbfb7f9891801c5097f0ea869d905f3e345dcf"
     },
     {
+      "bundle_label": "BQGQBV002 POINTED HODGE POLAR GINSPARG WILSON REGULATOR",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-27/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-27/bundle-01/DPA_SCOUT_002/RESULT.json",
       "sha256": "90f06e499274d4f2a04b70648b620aa05e70e4a12360072c8649d2c6f070854c"
     },
     {
+      "bundle_label": "BQGQBV002 POINTED HODGE POLAR GINSPARG WILSON REGULATOR",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-27/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "SOURCE_MATRIX.json",
+      "path": "evidence/statements/artifacts/V100-THE-27/bundle-01/DPA_SCOUT_002/SOURCE_MATRIX.json",
       "sha256": "c835e57c5b41207f712bfdaa27838efa34a826a177a9c86af212d715a2d209a4"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-27/source-01-artifact-04.py",
+      "bundle_label": "BQGQBV002 POINTED HODGE POLAR GINSPARG WILSON REGULATOR",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate.py",
+      "path": "evidence/statements/artifacts/V100-THE-27/bundle-01/DPA_SCOUT_002/evaluate.py",
       "sha256": "a3cc42150fef8b14b82348fd394fe7137bf74f3d2853c750e2adb54006c50170"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-27/source-01-artifact-05.py",
+      "bundle_label": "BQGQBV002 POINTED HODGE POLAR GINSPARG WILSON REGULATOR",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-27/bundle-01/DPA_SCOUT_002/verify.py",
       "sha256": "f9f0d0885e6efe813502d0b38147316d65fd1e1c53e8e867d901b974c846af02"
     },
     {
+      "bundle_label": "BQGQBV003 POINTED BV HALFDENSITY QME REFINEMENT RENORMALIZATION",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-27/source-02-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-27/bundle-02/DPA_SCOUT_003/RAW_OUTPUT.json",
       "sha256": "c345dec2ef90405f3c63aa812401cfcde0d8119a198acea1019f2e4b8432b377"
     },
     {
+      "bundle_label": "BQGQBV003 POINTED BV HALFDENSITY QME REFINEMENT RENORMALIZATION",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-27/source-02-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-27/bundle-02/DPA_SCOUT_003/RESULT.json",
       "sha256": "9e390ebb56a2b28cb0fb71c29b0947bda288353ede046289234de97f9af32c02"
     },
     {
+      "bundle_label": "BQGQBV003 POINTED BV HALFDENSITY QME REFINEMENT RENORMALIZATION",
+      "bundle_number": 2,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-27/source-02-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "SOURCE_MATRIX.json",
+      "path": "evidence/statements/artifacts/V100-THE-27/bundle-02/DPA_SCOUT_003/SOURCE_MATRIX.json",
       "sha256": "e0f8a878de36334c78ba9bc0ba156a547b9f6c523ebd83179fd897d8ae6eb21c"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-27/source-02-artifact-04.py",
+      "bundle_label": "BQGQBV003 POINTED BV HALFDENSITY QME REFINEMENT RENORMALIZATION",
+      "bundle_number": 2,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate.py",
+      "path": "evidence/statements/artifacts/V100-THE-27/bundle-02/DPA_SCOUT_003/evaluate.py",
       "sha256": "7154781f5f4f6fa1060e4eee034d435857467c7b1bc27aa5f8ce4616c68d0936"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-27/source-02-artifact-05.py",
+      "bundle_label": "BQGQBV003 POINTED BV HALFDENSITY QME REFINEMENT RENORMALIZATION",
+      "bundle_number": 2,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-27/bundle-02/DPA_SCOUT_003/verify.py",
       "sha256": "eea644e5b5f92ae1d95f3dddb4b4e57e0b50b88d204a49ce6fd9b6c8636f0c5b"
     }
   ],
@@ -62,11 +102,13 @@
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
+      "label": "BQGQBV002 POINTED HODGE POLAR GINSPARG WILSON REGULATOR",
       "sha256_tree": "56f38ec8dcb2510aa15bce3767a13853b8ab76b9d49ab579b23147d6afa5eb98"
     },
     {
       "file_count": 10,
       "kind": "vendored_calculation_package",
+      "label": "BQGQBV003 POINTED BV HALFDENSITY QME REFINEMENT RENORMALIZATION",
       "sha256_tree": "c200bb9dd63c870a59671c3d57fb3d1b699d9ae33f7964d54acafb0d5d5460a1"
     }
   ],

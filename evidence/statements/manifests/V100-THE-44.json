@@ -4,32 +4,54 @@
   "direct_artifacts": [
     {
       "kind": "Analytic proof",
-      "path": "evidence/statements/artifacts/V100-THE-44/source-01-artifact-01.md",
+      "origin": "repository_file",
+      "original_filename": "analytic_proofs_v1.md",
+      "path": "theorems/analytic_proofs_v1.md",
       "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397"
     },
     {
+      "bundle_label": "BQGBH037 SOURCE MAXIMAL ATLAS INEXTENDIBILITY AND GLOBAL CAUSAL STRUCTURE",
+      "bundle_number": 2,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-THE-44/source-02-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-THE-44/bundle-02/DPA_SCOUT_001/CERTIFICATE.json",
       "sha256": "a69001edb3364b2803019336544ac8c94ba08899238aacfe32961535b4734ea4"
     },
     {
+      "bundle_label": "BQGBH037 SOURCE MAXIMAL ATLAS INEXTENDIBILITY AND GLOBAL CAUSAL STRUCTURE",
+      "bundle_number": 2,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-44/source-02-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-THE-44/bundle-02/DPA_SCOUT_001/INPUT_MANIFEST.json",
       "sha256": "a6f2fc3f63f6bcc38421f0d03043415ca2c446429552d88dd198c8677a02368f"
     },
     {
+      "bundle_label": "BQGBH037 SOURCE MAXIMAL ATLAS INEXTENDIBILITY AND GLOBAL CAUSAL STRUCTURE",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-44/source-02-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-44/bundle-02/DPA_SCOUT_001/RAW_OUTPUT.json",
       "sha256": "cc1e3e471c0cbebeefa8d5b08c1bf15605380b113a0f31f344cd4d3a8719a33f"
     },
     {
+      "bundle_label": "BQGBH037 SOURCE MAXIMAL ATLAS INEXTENDIBILITY AND GLOBAL CAUSAL STRUCTURE",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-44/source-02-artifact-04.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-44/bundle-02/DPA_SCOUT_001/RESULT.json",
       "sha256": "cc1e3e471c0cbebeefa8d5b08c1bf15605380b113a0f31f344cd4d3a8719a33f"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-44/source-02-artifact-05.py",
+      "bundle_label": "BQGBH037 SOURCE MAXIMAL ATLAS INEXTENDIBILITY AND GLOBAL CAUSAL STRUCTURE",
+      "bundle_number": 2,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-THE-44/bundle-02/DPA_SCOUT_001/evaluate_scout.py",
       "sha256": "19b78d74b6137ffb05cb895b8f7bd4680c4a81b4008ea58ef7b91a5d0bb53ef2"
     }
   ],
@@ -44,6 +66,7 @@
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
+      "label": "BQGBH037 SOURCE MAXIMAL ATLAS INEXTENDIBILITY AND GLOBAL CAUSAL STRUCTURE",
       "sha256_tree": "8e4c6291b3f315299fe70c87b0079b8df24a4cd11869d0669f30f84d2f65b4da"
     }
   ],

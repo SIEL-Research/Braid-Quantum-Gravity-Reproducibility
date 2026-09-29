@@ -3,18 +3,30 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BQGADM013 PARENT TO TRAJECTORY ASYMPTOTIC BRIDGE 20260929",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-PRO-03/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-PRO-03/bundle-01/DPA_SCOUT_013/RAW_OUTPUT.json",
       "sha256": "1f7438a4d87bd7c12617686b6dbeac4cc94da6f9595ba56a3811027eb22fb93b"
     },
     {
+      "bundle_label": "BQGADM013 PARENT TO TRAJECTORY ASYMPTOTIC BRIDGE 20260929",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-PRO-03/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-PRO-03/bundle-01/DPA_SCOUT_013/RESULT.json",
       "sha256": "c6afbc91a3bfa5c9f2cd0995b3bbab5f1ee3d4cd257dea22d4292b06c94cb2ca"
     },
     {
+      "bundle_label": "BQGADM013 PARENT TO TRAJECTORY ASYMPTOTIC BRIDGE 20260929",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-PRO-03/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "SOURCE_MATRIX.json",
+      "path": "evidence/statements/artifacts/V100-PRO-03/bundle-01/DPA_SCOUT_013/SOURCE_MATRIX.json",
       "sha256": "372f376058c846af7a5f5757994072eddcdf18716717fd48b993a4587ae266c9"
     }
   ],
@@ -27,6 +39,7 @@
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
+      "label": "BQGADM013 PARENT TO TRAJECTORY ASYMPTOTIC BRIDGE 20260929",
       "sha256_tree": "b816c87c678cf93a80aea6e992170a7796cf78b9778fc40f33b2e9a7379865f5"
     }
   ],

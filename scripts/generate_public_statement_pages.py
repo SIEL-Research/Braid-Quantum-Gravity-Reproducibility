@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 import re
 import shutil
+from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -65,8 +66,20 @@ def package_entrypoints(path: Path) -> list[Path]:
 
 
 def artifact_kind(path: Path) -> str:
+    try:
+        relative = path.relative_to(ROOT)
+    except ValueError:
+        relative = path
+    if relative.parts and relative.parts[0] == "src":
+        return "Model source"
+    if relative.parts and relative.parts[0] == "data":
+        return "Canonical input"
+    if relative.parts and relative.parts[0] == "expected":
+        return "Expected result"
+    if relative.parts and relative.parts[0] == "scripts":
+        return "Executable verifier"
     if path.suffix == ".py":
-        return "Verifier source"
+        return "Verification code"
     if path.name in {"RESULT.json", "RAW_OUTPUT.json"}:
         return "Machine result"
     if "CERTIFICATE" in path.name:
@@ -76,6 +89,28 @@ def artifact_kind(path: Path) -> str:
     if path.suffix == ".md":
         return "Analytic proof"
     return "Public evidence file"
+
+
+def evidence_bundle_label(path: Path) -> str:
+    """Create a readable label while omitting the private-repository prefix."""
+    candidate = path.name
+    for part in reversed(path.relative_to(ROOT).parts):
+        if part.startswith("SRA_DPA_") or re.match(r"^(?:BGCE|BQG|UB)\w*\d", part):
+            candidate = part
+            break
+    candidate = re.sub(r"^SRA_DPA_", "", candidate)
+    candidate = re.sub(r"_GATE_\d{8}.*$", "", candidate)
+    return candidate.replace("_", " ")
+
+
+def external_source_label(url: str) -> str:
+    parsed = urlparse(url)
+    path = parsed.path.strip("/")
+    if parsed.netloc == "doi.org":
+        return f"DOI {path}"
+    if parsed.netloc.endswith("arxiv.org") and path.startswith("abs/"):
+        return f"arXiv {path.removeprefix('abs/')}"
+    return f"{parsed.netloc}{('/' + path) if path else ''}"
 
 
 def main() -> None:
@@ -128,27 +163,43 @@ def main() -> None:
             path = ROOT / relative
             if path.is_dir():
                 digest, count = tree_digest(path)
+                bundle_label = evidence_bundle_label(path)
                 bundles.append(
                     {
                         "kind": "vendored_calculation_package",
+                        "label": bundle_label,
                         "sha256_tree": digest,
                         "file_count": count,
                     }
                 )
                 selected = package_entrypoints(path)
+                for file_number, source in enumerate(selected, start=1):
+                    alias = (
+                        artifact_dir
+                        / f"bundle-{source_number:02d}"
+                        / source.relative_to(path)
+                    )
+                    alias.parent.mkdir(parents=True, exist_ok=True)
+                    shutil.copy2(source, alias)
+                    direct_artifacts.append(
+                        {
+                            "kind": artifact_kind(source),
+                            "original_filename": source.name,
+                            "origin": "evidence_bundle_entrypoint",
+                            "bundle_number": source_number,
+                            "bundle_label": bundle_label,
+                            "path": alias.relative_to(ROOT).as_posix(),
+                            "sha256": sha256_file(alias),
+                        }
+                    )
             else:
-                selected = [path]
-
-            for file_number, source in enumerate(selected, start=1):
-                alias = artifact_dir / (
-                    f"source-{source_number:02d}-artifact-{file_number:02d}{source.suffix}"
-                )
-                shutil.copy2(source, alias)
                 direct_artifacts.append(
                     {
-                        "kind": artifact_kind(source),
-                        "path": alias.relative_to(ROOT).as_posix(),
-                        "sha256": sha256_file(alias),
+                        "kind": artifact_kind(path),
+                        "original_filename": path.name,
+                        "origin": "repository_file",
+                        "path": relative,
+                        "sha256": sha256_file(path),
                     }
                 )
 
@@ -194,9 +245,10 @@ def main() -> None:
 
         command = entry.get("verification_command")
         if command and command.startswith("python3 "):
+            command_path = command.split(maxsplit=1)[1]
             lines.extend(
                 [
-                    "Run from the repository root:",
+                    f"Run [`{command}`](../../{command_path}) from the repository root:",
                     "",
                     "```bash",
                     command,
@@ -206,33 +258,39 @@ def main() -> None:
         elif command:
             lines.append(command)
         else:
+            command = "python3 scripts/verify_all.py"
             lines.extend(
                 [
-                    "Run the complete public verification suite from the repository root:",
+                    "Run the complete public verification suite "
+                    f"[`{command}`](../../scripts/verify_all.py) from the repository root:",
                     "",
                     "```bash",
-                    "python3 scripts/verify_all.py",
+                    command,
                     "```",
                 ]
             )
 
         lines.extend(["", "## Direct evidence", ""])
-        labels: dict[str, int] = {}
         for artifact in direct_artifacts:
-            labels[artifact["kind"]] = labels.get(artifact["kind"], 0) + 1
-            filename = Path(artifact["path"]).name
+            if artifact["origin"] == "repository_file":
+                href = f"../../{artifact['path']}"
+                qualifier = artifact["path"]
+            else:
+                href = (ROOT / artifact["path"]).relative_to(OUT).as_posix()
+                qualifier = artifact["bundle_label"]
             lines.append(
-                f"- [{artifact['kind']} {labels[artifact['kind']]}]"
-                f"(artifacts/{identifier}/{filename}) — SHA-256 `{artifact['sha256']}`"
+                f"- [{artifact['kind']}: `{artifact['original_filename']}`]({href}) "
+                f"— {qualifier}; SHA-256 `{artifact['sha256']}`"
             )
         for number, bundle in enumerate(bundles, start=1):
             lines.append(
-                f"- Complete source bundle {number}: {bundle['file_count']} files; "
+                f"- Complete evidence bundle: {bundle['label']} — "
+                f"{bundle['file_count']} files; "
                 f"tree SHA-256 `{bundle['sha256_tree']}`"
             )
         if not direct_artifacts and not bundles:
-            for number, url in enumerate(entry.get("public_urls", []), start=1):
-                lines.append(f"- [Archived evidence record {number}]({url})")
+            for url in entry.get("public_urls", []):
+                lines.append(f"- [Archived evidence: {external_source_label(url)}]({url})")
         lines.extend(
             [
                 f"- [Machine-readable evidence manifest](manifests/{identifier}.json)",
@@ -246,8 +304,8 @@ def main() -> None:
 
         if entry.get("public_urls") and (direct_artifacts or bundles):
             lines.extend(["## External public sources", ""])
-            for number, url in enumerate(entry["public_urls"], start=1):
-                lines.append(f"- [External source {number}]({url})")
+            for url in entry["public_urls"]:
+                lines.append(f"- [External reference: {external_source_label(url)}]({url})")
             lines.append("")
 
         if entry.get("depends_on"):

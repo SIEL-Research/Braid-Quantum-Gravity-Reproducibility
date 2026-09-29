@@ -3,33 +3,57 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BQGCAL043 SOURCE QUANTUM PHASE ACTION AND EVENT CELL TYPE COMPOSITION TO UNCONDITIONAL ONE ANCHOR",
+      "bundle_number": 1,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-THE-46/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-THE-46/bundle-01/DPA_SCOUT_001/CERTIFICATE.json",
       "sha256": "8753f83332c8b08b5f661f502457192e17049d9a803f62b93b79a3c0dd51327b"
     },
     {
+      "bundle_label": "BQGCAL043 SOURCE QUANTUM PHASE ACTION AND EVENT CELL TYPE COMPOSITION TO UNCONDITIONAL ONE ANCHOR",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-46/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-THE-46/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
       "sha256": "5335ad9f82252531bc07416226aa6358f41e31f5c124e6a54a6820706365d056"
     },
     {
+      "bundle_label": "BQGCAL043 SOURCE QUANTUM PHASE ACTION AND EVENT CELL TYPE COMPOSITION TO UNCONDITIONAL ONE ANCHOR",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-46/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-46/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
       "sha256": "46b2174ce04d48bb319689a1a73b8f7282b4dd50867350932d0064c91899199b"
     },
     {
+      "bundle_label": "BQGCAL043 SOURCE QUANTUM PHASE ACTION AND EVENT CELL TYPE COMPOSITION TO UNCONDITIONAL ONE ANCHOR",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-46/source-01-artifact-04.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-46/bundle-01/DPA_SCOUT_001/RESULT.json",
       "sha256": "46b2174ce04d48bb319689a1a73b8f7282b4dd50867350932d0064c91899199b"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-46/source-01-artifact-05.py",
+      "bundle_label": "BQGCAL043 SOURCE QUANTUM PHASE ACTION AND EVENT CELL TYPE COMPOSITION TO UNCONDITIONAL ONE ANCHOR",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-THE-46/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
       "sha256": "ce7259bc080674d8f5e059c9d2920464dd40c71664914230aad6238599751c88"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-46/source-01-artifact-06.py",
+      "bundle_label": "BQGCAL043 SOURCE QUANTUM PHASE ACTION AND EVENT CELL TYPE COMPOSITION TO UNCONDITIONAL ONE ANCHOR",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-46/bundle-01/DPA_SCOUT_001/verify.py",
       "sha256": "1edb599f2bd083c28d3db888d88ebd05c3382e248a4cfdeb607e6a26aa4a9409"
     }
   ],
@@ -42,6 +66,7 @@
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
+      "label": "BQGCAL043 SOURCE QUANTUM PHASE ACTION AND EVENT CELL TYPE COMPOSITION TO UNCONDITIONAL ONE ANCHOR",
       "sha256_tree": "57c2e9aaee27b8e3c96a698b487ebb2a9cde3e1617544f1104eb8cb74bd716a3"
     }
   ],

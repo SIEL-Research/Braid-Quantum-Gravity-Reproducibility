@@ -3,18 +3,24 @@
   "dependencies": [],
   "direct_artifacts": [
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-02/source-01-artifact-01.py",
+      "kind": "Model source",
+      "origin": "repository_file",
+      "original_filename": "source.py",
+      "path": "src/bqg_v1/source.py",
       "sha256": "96f48f781e0f1f3cb496025aeaa3b05a70d62534c7280c3fe4f3848a3c82ac90"
     },
     {
-      "kind": "Public evidence file",
-      "path": "evidence/statements/artifacts/V100-THE-02/source-02-artifact-01.json",
+      "kind": "Canonical input",
+      "origin": "repository_file",
+      "original_filename": "canonical_source_class_v1.json",
+      "path": "data/canonical_source_class_v1.json",
       "sha256": "add487ff13692a8ab48f7b149b32dd10f7fd31655c7e10371117a74dc7e29647"
     },
     {
-      "kind": "Public evidence file",
-      "path": "evidence/statements/artifacts/V100-THE-02/source-03-artifact-01.json",
+      "kind": "Expected result",
+      "origin": "repository_file",
+      "original_filename": "source_verification_v1.json",
+      "path": "expected/source_verification_v1.json",
       "sha256": "fc6eef24e85f7d52320f47e452f00af667bf300aedc81657b5fca50217cdead5"
     }
   ],

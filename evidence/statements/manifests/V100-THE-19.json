@@ -3,33 +3,57 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BGCE444 TEN METRIC SOURCE TO THIRTY FIVE QUARTIC SECOND RESPONSE",
+      "bundle_number": 1,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-THE-19/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "PROOF_CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-THE-19/bundle-01/PROOF_CERTIFICATE.json",
       "sha256": "b774dee79432e805a3b2bb5f22ca23dbb8e7c5ec7e4c80295aedfb20f66c870a"
     },
     {
+      "bundle_label": "BGCE444 TEN METRIC SOURCE TO THIRTY FIVE QUARTIC SECOND RESPONSE",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-19/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-19/bundle-01/RESULT.json",
       "sha256": "6bf2b8b0053b142983a7719a6258eb2ee52b84d02d2513d47bef03fe9ed9cdb3"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-19/source-01-artifact-03.py",
+      "bundle_label": "BGCE444 TEN METRIC SOURCE TO THIRTY FIVE QUARTIC SECOND RESPONSE",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "proof_check.py",
+      "path": "evidence/statements/artifacts/V100-THE-19/bundle-01/proof_check.py",
       "sha256": "963ee9505ea62deb480e311718fb65a5f8af108329800f51c7c3d8e4b441a01f"
     },
     {
+      "bundle_label": "BGCE449 PRECONDITIONED UB612 INTERVAL RANK35 CERTIFICATE",
+      "bundle_number": 2,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-THE-19/source-02-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "PROOF_CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-THE-19/bundle-02/PROOF_CERTIFICATE.json",
       "sha256": "b3d0ecb38721a6448942f4d127af611e154fadd9131258cf31c6132aaba9433c"
     },
     {
+      "bundle_label": "BGCE449 PRECONDITIONED UB612 INTERVAL RANK35 CERTIFICATE",
+      "bundle_number": 2,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-19/source-02-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-19/bundle-02/RESULT.json",
       "sha256": "254cd8ac13460d84a41593a063c766a549e6ca6e2ad0b8f4b66bc5eab15d6f6d"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-19/source-02-artifact-03.py",
+      "bundle_label": "BGCE449 PRECONDITIONED UB612 INTERVAL RANK35 CERTIFICATE",
+      "bundle_number": 2,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "proof_check.py",
+      "path": "evidence/statements/artifacts/V100-THE-19/bundle-02/proof_check.py",
       "sha256": "72d142fab8c4f71ac6567f9c85e483138493563474fe6ab318f0384f40e33065"
     }
   ],
@@ -42,11 +66,13 @@
     {
       "file_count": 6,
       "kind": "vendored_calculation_package",
+      "label": "BGCE444 TEN METRIC SOURCE TO THIRTY FIVE QUARTIC SECOND RESPONSE",
       "sha256_tree": "21402de48703d8d0b619c8846e44b49148ab7337ac1d684854245b426e734870"
     },
     {
       "file_count": 5,
       "kind": "vendored_calculation_package",
+      "label": "BGCE449 PRECONDITIONED UB612 INTERVAL RANK35 CERTIFICATE",
       "sha256_tree": "6055f9c135f66747444106831f0fdd9ae82de2d2d22c7b29051701af1b85ef54"
     }
   ],

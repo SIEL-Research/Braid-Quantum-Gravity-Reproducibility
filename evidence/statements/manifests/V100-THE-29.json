@@ -3,23 +3,39 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BGCE466 SOURCE SELECTED STOCHASTIC QUANTUM ENGINE",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-29/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-THE-29/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
       "sha256": "c947d37c6dfc13d9402b2fc189b28c678f65dcd96fdd4ab7c20467bd136cc775"
     },
     {
+      "bundle_label": "BGCE466 SOURCE SELECTED STOCHASTIC QUANTUM ENGINE",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-29/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-29/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
       "sha256": "97f4e3e33222486fc7a9d3298f100664d84c51fd085912c0c04f31e972825eae"
     },
     {
+      "bundle_label": "BGCE466 SOURCE SELECTED STOCHASTIC QUANTUM ENGINE",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-29/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-29/bundle-01/DPA_SCOUT_001/RESULT.json",
       "sha256": "bf2aaf773e8ff449eb4c1a93f0d39150befb91d888b78e9ff194d0a77c871636"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-29/source-01-artifact-04.py",
+      "bundle_label": "BGCE466 SOURCE SELECTED STOCHASTIC QUANTUM ENGINE",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-THE-29/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
       "sha256": "a1a78c153e4533a89a1150c9e446d6aae535a8da70ac08cfc74a8743104791cd"
     }
   ],
@@ -32,6 +48,7 @@
     {
       "file_count": 9,
       "kind": "vendored_calculation_package",
+      "label": "BGCE466 SOURCE SELECTED STOCHASTIC QUANTUM ENGINE",
       "sha256_tree": "4fc03c81af4a922899fd9622b80fbcb8af3a2f8153c43c40a8a411d9a1b7ea8f"
     }
   ],

@@ -4,7 +4,9 @@
   "direct_artifacts": [
     {
       "kind": "Analytic proof",
-      "path": "evidence/statements/artifacts/V100-THE-47/source-01-artifact-01.md",
+      "origin": "repository_file",
+      "original_filename": "analytic_proofs_v1.md",
+      "path": "theorems/analytic_proofs_v1.md",
       "sha256": "695ff4615603c794b7807537e6dfe5c6c7852fcdb4e7a189b0c994a7697b4397"
     }
   ],

@@ -3,28 +3,48 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BGCE457 ITERATED STRONG CURVATURE BACKREACTION",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-13/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "INPUT_MANIFEST.json",
+      "path": "evidence/statements/artifacts/V100-THE-13/bundle-01/DPA_SCOUT_001/INPUT_MANIFEST.json",
       "sha256": "9fa7fb6fd24e26982ed37263b36055c95dcb438791bc9b5bdc0c830171c2072a"
     },
     {
+      "bundle_label": "BGCE457 ITERATED STRONG CURVATURE BACKREACTION",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-13/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-13/bundle-01/DPA_SCOUT_001/RAW_OUTPUT.json",
       "sha256": "88d29093c075c0d0082198ad8e4c0468c5c936cc41378209fd3599d618e4cfa0"
     },
     {
+      "bundle_label": "BGCE457 ITERATED STRONG CURVATURE BACKREACTION",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-13/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-13/bundle-01/DPA_SCOUT_001/RESULT.json",
       "sha256": "274b792200690990c9d72d75129b65b5ccbc2c0a542817c9635635f87a4edafb"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-13/source-01-artifact-04.py",
+      "bundle_label": "BGCE457 ITERATED STRONG CURVATURE BACKREACTION",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-THE-13/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
       "sha256": "eaaf45edd1257b06fe6eb333296a3329191a34a9a5216e3ade24e5d554ff2e5b"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-13/source-01-artifact-05.py",
+      "bundle_label": "BGCE457 ITERATED STRONG CURVATURE BACKREACTION",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "validate_result.py",
+      "path": "evidence/statements/artifacts/V100-THE-13/bundle-01/DPA_SCOUT_001/validate_result.py",
       "sha256": "3f2d30bc8f62affd2cc80c18410b6519df51b3748660051d6fe77755c472aa10"
     }
   ],
@@ -37,6 +57,7 @@
     {
       "file_count": 10,
       "kind": "vendored_calculation_package",
+      "label": "BGCE457 ITERATED STRONG CURVATURE BACKREACTION",
       "sha256_tree": "3d925a793bb0efd1aa07ed9e301aeac1148698e5968a9f12d18c93a57a1eeda7"
     }
   ],

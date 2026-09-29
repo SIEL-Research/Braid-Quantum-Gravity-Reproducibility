@@ -3,33 +3,57 @@
   "dependencies": [],
   "direct_artifacts": [
     {
+      "bundle_label": "BQGSTRAT009 RAW COVARIANT TEMPORAL AUXILIARY EQUIVALENCE 20260929",
+      "bundle_number": 1,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-THE-15/source-01-artifact-01.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-THE-15/bundle-01/BQGSTRAT_009/CERTIFICATE.json",
       "sha256": "51eb2cf90a8d942a1cb8cf4963a28d6a5b6bd391acb9130922811891e928b182"
     },
     {
+      "bundle_label": "BQGSTRAT009 RAW COVARIANT TEMPORAL AUXILIARY EQUIVALENCE 20260929",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-15/source-01-artifact-02.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-THE-15/bundle-01/BQGSTRAT_009/RAW_OUTPUT.json",
       "sha256": "1a3a1c2a175f6073b0f75dcccda587e408c6cecc59349e9ddb42ebf5671f8408"
     },
     {
+      "bundle_label": "BQGSTRAT009 RAW COVARIANT TEMPORAL AUXILIARY EQUIVALENCE 20260929",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-THE-15/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-THE-15/bundle-01/BQGSTRAT_009/RESULT.json",
       "sha256": "b7a307a4f49a89b2b4e0672132143e2c1b97875f11c5e0b2f3765f1b4ba5e49e"
     },
     {
+      "bundle_label": "BQGSTRAT009 RAW COVARIANT TEMPORAL AUXILIARY EQUIVALENCE 20260929",
+      "bundle_number": 1,
       "kind": "Input provenance",
-      "path": "evidence/statements/artifacts/V100-THE-15/source-01-artifact-04.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "SOURCE_MATRIX.json",
+      "path": "evidence/statements/artifacts/V100-THE-15/bundle-01/BQGSTRAT_009/SOURCE_MATRIX.json",
       "sha256": "4c601190c74e90ba641d5f0d111bb09624b6db311090e54b70c83fa7f5ca9ed9"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-15/source-01-artifact-05.py",
+      "bundle_label": "BQGSTRAT009 RAW COVARIANT TEMPORAL AUXILIARY EQUIVALENCE 20260929",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate.py",
+      "path": "evidence/statements/artifacts/V100-THE-15/bundle-01/BQGSTRAT_009/evaluate.py",
       "sha256": "9b8d37f315d4d56bb06aea7a119a958e153218dabde671041d85069e07e6254c"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-THE-15/source-01-artifact-06.py",
+      "bundle_label": "BQGSTRAT009 RAW COVARIANT TEMPORAL AUXILIARY EQUIVALENCE 20260929",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "verify.py",
+      "path": "evidence/statements/artifacts/V100-THE-15/bundle-01/BQGSTRAT_009/verify.py",
       "sha256": "ef801358e59d7bbff8ad9ded6b6d648246eef62b7bea64314fb103e4d5b82ea2"
     }
   ],
@@ -42,6 +66,7 @@
     {
       "file_count": 14,
       "kind": "vendored_calculation_package",
+      "label": "BQGSTRAT009 RAW COVARIANT TEMPORAL AUXILIARY EQUIVALENCE 20260929",
       "sha256_tree": "6b7565b02d6f9c60118ca8b75585b804a8a64434f2023ae9b2c33d1cb5ef6326"
     }
   ],

@@ -3,38 +3,66 @@
   "dependencies": [],
   "direct_artifacts": [
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-PRO-01/source-01-artifact-01.py",
+      "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_001/evaluate_scout.py",
       "sha256": "3820068675b9b68d34494e7db69af9db944c1b1c57a3d91796d1a6fbcfd4974e"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-PRO-01/source-01-artifact-02.py",
+      "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "verify.py",
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_001/verify.py",
       "sha256": "0598c22dd53b6c9d2de0950421269d6fd6373cbeaf07ccd8a6093e9345fb1290"
     },
     {
+      "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
+      "bundle_number": 1,
       "kind": "Certificate",
-      "path": "evidence/statements/artifacts/V100-PRO-01/source-01-artifact-03.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "CERTIFICATE.json",
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_002/CERTIFICATE.json",
       "sha256": "b42116060d78d77d1414de8e9561db3447859b7ec38dafc86d619b37607a1bd0"
     },
     {
+      "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-PRO-01/source-01-artifact-04.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RAW_OUTPUT.json",
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_002/RAW_OUTPUT.json",
       "sha256": "c5ba14b503f645bff65d8f378fec038f46b4e17530aaef49b55282036aebe634"
     },
     {
+      "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
+      "bundle_number": 1,
       "kind": "Machine result",
-      "path": "evidence/statements/artifacts/V100-PRO-01/source-01-artifact-05.json",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "RESULT.json",
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_002/RESULT.json",
       "sha256": "974d638fcd065aa26415f55b5f761689bd233e48bf03ee54f2ae281c1c308e16"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-PRO-01/source-01-artifact-06.py",
+      "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "evaluate_scout.py",
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_002/evaluate_scout.py",
       "sha256": "588b8d5ac9453f756a283e20bee1e846ceb9f5edc43a2801f1bc3f72b572ca41"
     },
     {
-      "kind": "Verifier source",
-      "path": "evidence/statements/artifacts/V100-PRO-01/source-01-artifact-07.py",
+      "bundle_label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
+      "bundle_number": 1,
+      "kind": "Verification code",
+      "origin": "evidence_bundle_entrypoint",
+      "original_filename": "verify.py",
+      "path": "evidence/statements/artifacts/V100-PRO-01/bundle-01/DPA_SCOUT_002/verify.py",
       "sha256": "3b99d5b75a42404e102d91d5ca37d4a38504a6122029e3e9d6ad5b3ccfcb74dd"
     }
   ],
@@ -47,6 +75,7 @@
     {
       "file_count": 14,
       "kind": "vendored_calculation_package",
+      "label": "BGCE499 FISHER GAIN AND OUTER CUP TYPED RECONCILIATION",
       "sha256_tree": "8739cb1406217900b6790c1cca455ac8f3b506828f4a239fb1751919de197896"
     }
   ],
