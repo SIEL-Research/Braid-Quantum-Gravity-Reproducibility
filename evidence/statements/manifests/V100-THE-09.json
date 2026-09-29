@@ -1,32 +1,90 @@
 {
   "claim_ceiling": "Finite collision, Stinespring and recorded CTP family in the declared source model; not unrestricted quantum dynamics.",
   "dependencies": [],
+  "direct_artifacts": [
+    {
+      "kind": "Certificate",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-01-artifact-01.json",
+      "sha256": "1a46fc25de166844e28bec45dc796ec9ae74f8e8d74e3203b6a22be80b7aa590"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-01-artifact-02.json",
+      "sha256": "339a7d6630c7c37315d85228c9885ac959db7348dfb71b56214aa907542bc42b"
+    },
+    {
+      "kind": "Input provenance",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-01-artifact-03.json",
+      "sha256": "b887e35e4289d4962e3f8058d24051925469c8f23bba6295d2ba13f827855015"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-01-artifact-04.py",
+      "sha256": "184ee383f1aaee816c170ed9cb34d2d80b4b285a86cbf6e01c45e8f45eac95a7"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-01-artifact-05.py",
+      "sha256": "285f6ef9338908edb768080fafe0b925e7ac0df63ae43bc52e8fb2577b6c6fa5"
+    },
+    {
+      "kind": "Certificate",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-02-artifact-01.json",
+      "sha256": "aa4bfc900687a84d054a5ffbdfe85f719b306b9d22fcb9ee8dc697f225085008"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-02-artifact-02.json",
+      "sha256": "b2bf3936453064ed7cfec803b3fe6753e6b40675d5cdac22110361c60259ed20"
+    },
+    {
+      "kind": "Input provenance",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-02-artifact-03.json",
+      "sha256": "7b4639c58c4335b873d28c57222c4b296c1103696ed2265ed50d997cc44ad3f5"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-02-artifact-04.py",
+      "sha256": "e12b615c2a3d242a5a89e8504e8b988a321cfe4fd0585b8e16fc67ea3336d9bc"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-02-artifact-05.py",
+      "sha256": "6570ca4f0691c4b5c9b28326511eb00587fbc1c6e2b640a3f0beb6df18ead27f"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-03-artifact-01.json",
+      "sha256": "2385486c5c3f8016d64e831e72859b55371cd542468333b8b928536c2d56de65"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-09/source-03-artifact-02.py",
+      "sha256": "8bb25ec289d8313fee82be6f7b01a77ee6486da75bca70aeb1780c0e4c4c4c23"
+    }
+  ],
   "id": "V100-THE-09",
   "paper_number": "Theorem 7.1",
   "pdf_page": 6,
-  "public_files": [],
   "public_urls": [],
   "schema": "siel.bqg.public-statement-evidence.v1",
-  "status": "PUBLIC_CODE",
-  "vendored_bundles": [
+  "source_bundle_digests": [
     {
       "file_count": 9,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE307_SOURCE_GKSL_STINESPRING_DILATION_TO_TOTAL_STRESS_WARD_GATE_20260923",
       "sha256_tree": "12b3e581b2f62c32723fa1acbf33a6d57972e63d9ac1a51063d409a6bff6e2aa"
     },
     {
       "file_count": 9,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE308_SOURCE_RIGHT_TAIL_REPEATED_INTERACTION_DILATION_AND_TOTAL_BALANCE_GATE_20260923",
       "sha256_tree": "0c00bb71728dee5ef91b518aacf09a72201e4f1452a83f572cad836d1bfc5f61"
     },
     {
       "file_count": 4,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE349_BRANCH_RESOLVED_CHOI_TRANSFER_TO_LOCAL_3PLUS1_DOUBLED_METRIC_LORENTZIAN_PARENT_GATE_20260924",
       "sha256_tree": "01c7840c89cc54d73f8b3c7c432cae490c04486559ba7cf17fa064b3c3d0bf90"
     }
   ],
+  "status": "PUBLIC_CODE",
   "verification_command": "python3 scripts/verify_all.py"
 }

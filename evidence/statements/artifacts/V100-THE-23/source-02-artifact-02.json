@@ -1,0 +1,22 @@
+{
+  "schema": "siel.dpa.bqgeuler010.source_matrix.v1",
+  "date": "2026-09-26",
+  "sources": [
+    {
+      "path": "audits/SRA_DPA_BQG_G3_R02_5_SOURCE_SYM2_TEN_COMPONENT_STRONG_CONSISTENCY_AND_SUBSIDIARY_CLOSURE_20260926/DPA_SCOUT_009/RESULT.json",
+      "sha256": "6f464d0b2bf5ae7f5493127b1b81150fe83394c5a454f71051402288135cc58b",
+      "use": "original theorem attempt and normalization defect"
+    },
+    {
+      "path": "audits/SRA_DPA_BQG_G3_R02_5_ENTROPIC_POSITIVE_MOMENT_CLOSURE_GATE_20260926/DPA_SCOUT_006/RESULT_ATTEMPT_006.json",
+      "sha256": "12c3f51266054aff092ef7f2070b3205f224e4a8e9eedeba2b8d0f6161b26c85",
+      "use": "authoritative moment normalization and stability spectrum"
+    },
+    {
+      "path": "audits/SRA_DPA_BQG_G3_R02_5_NONLINEAR_CONVERGENCE_CLAIM_PROMOTION_AUDIT_20260926/DPA_SCOUT_008/RESULT.json",
+      "sha256": "8647f276de8693322c3bebf9ec49f35b89e47a7ab6828d5de5881ac38badb4fd",
+      "use": "noncompensating closure requirements"
+    }
+  ],
+  "inherited_source_matrix": "All other source hashes and uses are inherited unchanged from DPA-SCOUT-BQGEULER-009/SOURCE_MATRIX.json."
+}

@@ -1,0 +1,105 @@
+{
+  "schema": "siel.dpa.bqgneut024.raw.v1",
+  "scout_id": "BQGNEUT-024-X1",
+  "gate_id": "BQGNEUT-024_SOURCE_ORDERED_C3_WEIGHTED_FLOQUET_SIMULTANEOUS_CP_GAP_GATE",
+  "source_commit": "7fc09683a6f47ddb11e64f5d41c81b6f0bda26b3",
+  "source_snapshot_id": "DPA-SNAPSHOT-7fc09683a6f4",
+  "evidence_status": "Theoretical derivation",
+  "scientific_layer": "finite source-ordered dimensionless neutral Floquet propagation",
+  "decision": "SCOPED_PASS_ONE_SOURCE_ORDERED_C3_WEIGHTED_FLOQUET_OPERATOR_IS_EXACTLY_UNITARY_AND_SIMULTANEOUSLY_HAS_DISTINCT_NON_EQUALLY_SPACED_EIGENPHASES_AND_EXACT_NONZERO_CP_ODD_NUMERATOR_WITHOUT_TARGETS_OR_SCAN__PHYSICAL_PMNS_AND_NEUTRINO_MASS_SCALE_REMAIN_OPEN_PENDING_LEPTON_TYPING_AND_ABSOLUTE_SCALE",
+  "bold_hypothesis": {
+    "interpretive_leap": "Compose the source-weighted interaction evolution and oriented C3 transport in their source history order over one positive C3 period.",
+    "new_composition_law": "U_F=C_g exp[-i(2*pi/3)L_w]",
+    "source_status": "SOURCE_FIXED_DIMENSIONLESS_OPERATIONAL_CONSTRUCTION__PHYSICAL_TIME_MASS_AND_LEPTON_TYPING_OPEN"
+  },
+  "floquet_operator": {
+    "definition": "U_F=C_g exp[-i(2*pi/3)L_w]",
+    "cyclotomic_field": "Q(zeta_15)",
+    "exact_unitary": true,
+    "uniform_mode_fixed": true,
+    "characteristic_factorization": "(lambda-1)*(lambda^2+(zeta_15^-4+zeta_15^-6)*lambda/2+zeta_15^5)",
+    "quadratic_discriminant_exact_nonzero": true,
+    "trace_exact_nonzero": true,
+    "eigenphases_radians_fixed_branch": [
+      0.0,
+      2.1436299181552934,
+      6.233950491417488
+    ],
+    "circular_eigenphase_gaps_radians": [
+      2.1436299181552934,
+      4.090320573262195,
+      0.049234815762098094
+    ],
+    "minimum_gap": 0.049234815762098094,
+    "minimum_pairwise_gap_difference": 1.9466906551069019,
+    "unitary_residual": 7.273602654277821e-16,
+    "normal_residual": 3.246112168152645e-16
+  },
+  "cp_certificate": {
+    "twice_real_antihermitian_cycle_product_power_basis_coefficients": [
+      "1/24",
+      "1/24",
+      "0",
+      "0",
+      "-1/24",
+      "0",
+      "1/24",
+      "0"
+    ],
+    "exact_nonzero": true,
+    "hermitian_sine_generator_cycle_imaginary_part": 0.0031485857461857063,
+    "sine_generator_eigenvalues": [
+      -0.049214926756826205,
+      -1.5374677120396074e-16,
+      0.840368500587199
+    ],
+    "Jarlskog": 0.08557801977513962,
+    "Jarlskog_absolute": 0.08557801977513962,
+    "Jarlskog_from_invariant": 0.08557801977513982,
+    "mixing_unitarity_residual": 2.4944971529457003e-14,
+    "overlap_modulus_squared": [
+      [
+        0.33333333333332793,
+        0.4095369118049197,
+        0.25712975486174255
+      ],
+      [
+        0.33333333333333587,
+        0.18092617639016015,
+        0.48574049027651006
+      ],
+      [
+        0.33333333333333637,
+        0.40953691180492013,
+        0.2571297548617475
+      ]
+    ]
+  },
+  "noncompensating_gates": {
+    "G1_FIXED_SOURCE_ORDER_AND_C3_PERIOD_WITHOUT_SCAN": true,
+    "G2_FLOQUET_OPERATOR_EXACTLY_UNITARY": true,
+    "G3_ONE_OPERATOR_HAS_DISTINCT_NON_EQUALLY_SPACED_EIGENPHASES": true,
+    "G4_SAME_OPERATOR_HAS_EXACT_NONZERO_CP_ODD_NUMERATOR": true,
+    "G5_SIMULTANEOUS_CP_AND_UNEQUAL_GAP_IN_ONE_PROPAGATOR": true,
+    "G6_PRIOR_PHI_COLLISION_SLOT_AND_LINEAR_RAW_PETZ_ERASURE_NOT_REDEFINED": true,
+    "G7_NO_EXTERNAL_THREE_GENERATION_CARRIER_FOR_NEUTRAL_OPERATIONAL_SECTOR": true,
+    "G8_PHYSICAL_LEPTON_IDENTITY_AND_ABSOLUTE_SCALE_DERIVED": false,
+    "G9_NO_TARGET_DATA_PARAMETER_SCAN_OR_LONG_COMPUTATION": true
+  },
+  "simultaneous_dimensionless_CP_gap_pass": true,
+  "external_neutral_carrier_removed_scoped": true,
+  "physical_PMNS_pass": false,
+  "strongest_ordinary_alternative": "An oriented qutrit shift times a noncommuting weighted unitary generically has CP and unequal phases. The theorem establishes a source-fixed finite operational propagator, not its identity with natural neutrinos.",
+  "counter_intuition_scan": "The same operator now carries CP and unequal gaps, but neither a physical weak-current typing nor a dimensionful mass scale follows from that internal spectral fact. Calling the result PMNS would still promote an operational qutrit into Standard-Model matter without the missing intertwiner.",
+  "claim_ceiling": "One coefficient-free source-ordered dimensionless neutral qutrit Floquet operator is exactly unitary and simultaneously has a nonzero exact CP-odd numerator and unequal eigenphase gaps. The result does not identify this qutrit with physical lepton doublets, derive dimensionful neutrino masses, compare with data, establish empirical neutrino physics or complete quantum gravity.",
+  "next_gate": "BQGNEUT-025_SOURCE_NATIVE_WEAK_CURRENT_INTERTWINER_TO_PHYSICAL_THREE_NEUTRINO_TYPING_GATE",
+  "work_package": "BQG-G3-R03.8",
+  "work_package_status": "ACTIVE",
+  "runtime": {
+    "python": "3.14.6",
+    "numpy": "2.4.4",
+    "target_data_accessed": false,
+    "parameter_scan_used": false,
+    "long_computation_used": false
+  }
+}

@@ -1,32 +1,120 @@
 {
   "claim_ceiling": "Complete 25-adic descendant refinement and the declared screen count.",
   "dependencies": [],
+  "direct_artifacts": [
+    {
+      "kind": "Certificate",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-01-artifact-01.json",
+      "sha256": "8749cc09f11d990f9ad9809737ec26dece2f6ffb1cf75596e22d2e74b5179054"
+    },
+    {
+      "kind": "Input provenance",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-01-artifact-02.json",
+      "sha256": "f825666a1be1c231f9f8f47b98a6f6f2dce55ca6c930afef75fb61d602f1f1fe"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-01-artifact-03.json",
+      "sha256": "50571d31af0fd8833f0ff8d2c80a4b2f5089b29eed9e38f9fb7c0ad5ab431c9e"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-01-artifact-04.json",
+      "sha256": "89d005a48be445029ff04ec43fc9e77508d4a1ae50c11ae0f6ac697b8858389b"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-01-artifact-05.py",
+      "sha256": "c3945878b0507b24053ed926ad0e78e0fe5e9df044759d533e3370512027055d"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-01-artifact-06.py",
+      "sha256": "85c7e5d81263ac85dcef72ad2413606f0667c826e2ff4cd782a5035fdbd7711a"
+    },
+    {
+      "kind": "Certificate",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-02-artifact-01.json",
+      "sha256": "459e627592fa8cd5837aa0c2c606393a58e1171c48361ffaeab162fdf351c27c"
+    },
+    {
+      "kind": "Input provenance",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-02-artifact-02.json",
+      "sha256": "ba55cd615b060713ac045baab6cf556978a27a4dbf5696106622962581cadf87"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-02-artifact-03.json",
+      "sha256": "559c1069cc97cf5df1f7d38571af5f3712792fb4c08d1a3c8210ba1ffb3014cf"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-02-artifact-04.json",
+      "sha256": "98adc59754a4e7a9e1f4f37b17308fc733051ebb342e11c6a7c509c2f86ebac2"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-02-artifact-05.py",
+      "sha256": "8a093dcf15f5b412c594f3eba34823b2bfb34d5bf038925e56e430be8c210184"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-02-artifact-06.py",
+      "sha256": "923d14e212bcffa500b025f07586a7a94bc3fc9f83668f7e7199e7e401ae491c"
+    },
+    {
+      "kind": "Certificate",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-03-artifact-01.json",
+      "sha256": "8adf22f8f6dd5a320d09749de3eaf9002aafd3164d1e7d3ddc1e12a6acd6785c"
+    },
+    {
+      "kind": "Input provenance",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-03-artifact-02.json",
+      "sha256": "f28a7a8e51a9a5c531e9e9fb665c29b2566fca90a56e74f413ddd27d6271026d"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-03-artifact-03.json",
+      "sha256": "3bf3d8a1c1a9455ae6bd5a6bca823abb1c406850bda6935cda6dbc08a53dd1c1"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-03-artifact-04.json",
+      "sha256": "a4268a5991a92d42e62423d27d71a33eeddf6a17c328acd0a4de63c8d2adb187"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-03-artifact-05.py",
+      "sha256": "9fb65e26b639f91f91d9cfeed6444bf12f9773dee04aab33b23cff84ac23c58e"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-41/source-03-artifact-06.py",
+      "sha256": "c8c227fb6b24b93bb96faa53012374c204772fa547dcd9bdbcd942bc6d2def45"
+    }
+  ],
   "id": "V100-THE-41",
   "paper_number": "Theorem 17.1",
   "pdf_page": 15,
-  "public_files": [],
   "public_urls": [],
   "schema": "siel.bqg.public-statement-evidence.v1",
-  "status": "PUBLIC_CODE",
-  "vendored_bundles": [
+  "source_bundle_digests": [
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BQGCAL007_SOURCE_TOTAL_CHARGE_TO_FINITE_SCREEN_RADIUS_AND_REFINEMENT_LEVEL_QUANTIZATION_GATE_20260928",
       "sha256_tree": "81ded79bee2fc0cb58fe2012c7c6704ad2190dcea76358ee84a3c9562dccaa8e"
     },
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BQGCAL008_SOURCE_POSITIVE_SCREEN_NUMBER_AND_QUASILOCAL_ENERGY_TO_REFINEMENT_INVARIANT_HORIZON_AREA_GATE_20260928",
       "sha256_tree": "382c911834f03a2a0246a887d91d4410bd0333a4856a7c54a8c8aa1dcdde3b2f"
     },
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BQGCAL009_SOURCE_QUADRATIC_CHARGE_CASIMIR_AND_DIRICHLET_ENERGY_TO_SCREEN_NUMBER_AREA_LAW_GATE_20260928",
       "sha256_tree": "d45f73e7fb88f38e43e05e556d5de322fb54b2afee18d462814c1e0f1fca8e41"
     }
   ],
+  "status": "PUBLIC_CODE",
   "verification_command": "python3 scripts/verify_all.py"
 }

@@ -1,0 +1,14 @@
+{
+  "schema":"siel.dpa.bgce294.certificate.v1","candidate_id":"BGCE294",
+  "source_revision":"ccf1e28a3424deb42b452720fe02eda3c0dcdcc2","preregistered_commit":"c86f88ff6ce417828c4b0dbf669e66efd6b8335d",
+  "raw_output_sha256":"ca6629f8a1416ac1e6d86a0a6a30af05ec501b11f4386334b16198e7df13705e",
+  "evaluate_py_sha256":"be6cd5dac39031186f89cd4acad0440f59b858aef745c73df0b1520147d299b9",
+  "verify_py_sha256":"4e2f5ee4b7131860e24a362775bad1d698325761a7e5245af5b51609514c1654",
+  "question_sha256":"e44b0d67455b56f21e8c5dbb59b758a342f7fb2e359f8fafe8bc79a64415d7b0",
+  "source_matrix_sha256":"341de15359999c3fb17339ebc84a8a5442ec9c72ff4042e8a5186979494ffbd1",
+  "result_sha256":"9ea44934718f7363ef6a98ef198be64eff262b9b65444769fd8f301a8ccdf7cb",
+  "baseline_gate_sha256":"22605d32d7652c247b008096b6164ba78b063d2dd7210a6a184561c8ea63ab37",
+  "audit_ja_sha256":"f4cff8aa15601a7489ae294e45219dc1b27393c5a107c1ff0bfa0fa597fcf8cb",
+  "summary_ja_sha256":"cf67a37754e94dd94e3c305720bf783ddf9fbd67797b4e4060e45fa5bc676a9e",
+  "verification":"PASS_BGCE294_VERIFICATION"
+}

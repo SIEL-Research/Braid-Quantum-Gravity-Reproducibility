@@ -1,0 +1,9 @@
+{
+  "schema": "siel.dpa.bgce298.certificate.v1",
+  "candidate_id": "BGCE298",
+  "source_revision": "bdaf06b2da0c2fc548f141fadf11ef70d1a4c97e",
+  "preregistered_commit": "b9b436271",
+  "raw_output_sha256": "5d9275fdf593c532991ad24c281898129fb9c31e624911204d8c1d32867001bd",
+  "result_sha256": "edc86f103e1f9e7b78003d522af1a8d9cb97eed4d999ca45e63329b55cee7cb6",
+  "verification": "PASS_BGCE298_STRESS_WARD_SCOPED_COMPLETION_VERIFICATION"
+}

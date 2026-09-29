@@ -1,0 +1,650 @@
+{
+  "schema": "siel.dpa.bgce308.result.v1",
+  "candidate_id": "BGCE308",
+  "date": "2026-09-23",
+  "source_revision": "59d75db606f84605e191af4adcbe0e4c3f4aa4f0",
+  "input_hashes_verified": {
+    "59d75db606f84605e191af4adcbe0e4c3f4aa4f0:audits/SRA_DPA_BGCE125_REYNOLDS_PROJECTION_CP_SEMIGROUP_FOR_AFFINE_SCALAR_FLOW_GATE_20260919/RAW_OUTPUT.json": "620781a90eb65b1e1e027ed35f9464e0533b265fbe0760d21568d177e01de035",
+    "59d75db606f84605e191af4adcbe0e4c3f4aa4f0:audits/SRA_DPA_BGCE127_BRAID_INTERVAL_QUASILOCAL_NET_AND_OVERLAP_LOCALITY_GATE_20260919/RESULT.json": "24e2e57ea96e016eb25692be80a052e9886efde01fe85f78001b0799c6a87a2f",
+    "59d75db606f84605e191af4adcbe0e4c3f4aa4f0:audits/SRA_DPA_BGCE127_BRAID_INTERVAL_QUASILOCAL_NET_AND_OVERLAP_LOCALITY_GATE_20260919/RAW_OUTPUT.json": "347e45d5f92b6b94a8c3344d6d94a0751a132ea72bead97f9f8f49691c545a54",
+    "59d75db606f84605e191af4adcbe0e4c3f4aa4f0:projects/active/discovery_partner/formal_checks/ocbfh014_source_native_refinement_naturality_check.py": "176c75ac349f0f3f142d9c850ca0682436b7ad00cd179f6806de253d0a7acabb",
+    "59d75db606f84605e191af4adcbe0e4c3f4aa4f0:audits/SRA_DPA_BGCE266_REFINEMENT_CLOCK_TO_UNIQUE_EVENT_SEMIGROUP_AND_IR_OS_CONTINUATION_GATE_20260922/RESULT.json": "3a3917608252c94e2cd67232340c878db75403602fdf4464c0cc3fffac471fb7",
+    "59d75db606f84605e191af4adcbe0e4c3f4aa4f0:audits/SRA_DPA_BGCE307_SOURCE_GKSL_STINESPRING_DILATION_TO_TOTAL_STRESS_WARD_GATE_20260923/RESULT.json": "339a7d6630c7c37315d85228c9885ac959db7348dfb71b56214aa907542bc42b"
+  },
+  "primary_evidence_status": "Exact eight-sector orbit decomposition and source-state restriction audit",
+  "scientific_layer": "source-native environment capacity, state selection, repeated interaction, and total balance",
+  "tail_register_capacity": {
+    "source_tail_dimension_per_three_strands": 125,
+    "exact_orbit_decomposition": "17*1 + 28*3 + 4*6 = 125",
+    "native_regular_S3_registers_per_block": 4,
+    "unbounded_supply_from_infinite_right_tail": true,
+    "external_Hilbert_space_required": false,
+    "capacity_gate": "PASS"
+  },
+  "tail_state_selection": {
+    "pointed_state_restriction_each_regular_orbit": "uniform I_6",
+    "neutral_state_restriction_each_regular_orbit": "uniform 6 I_6",
+    "affine_pointed_neutral_family_selects_group_identity": false,
+    "required_q_one_quarter_weights": [
+      "3/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8",
+      "1/8"
+    ],
+    "required_weights_source_selected": false,
+    "four_regular_copies_uniquely_selected": false,
+    "basepoint_within_regular_orbit_selected": false,
+    "state_selection_gate": "FAIL"
+  },
+  "collision_and_balance": {
+    "existing_marked_generator_extension": "L_n tensor identity_tail",
+    "existing_tail_is_fresh_but_interacting": false,
+    "translated_collision_copy_at_each_block_derived": false,
+    "source_shift_or_reset_protocol_derived": false,
+    "controlled_six_Braid_unitary_realized_by_declared_local_boundary_word": false,
+    "repeated_interaction_semigroup_derived": false,
+    "environment_G1_balance_current_derived": false,
+    "total_stress_Ward_derived": false
+  },
+  "sector_records": [
+    {
+      "mask": 0,
+      "three_strand_dimension": 125,
+      "orbit_histogram": {
+        "1": 17,
+        "3": 28,
+        "6": 4
+      },
+      "regular_register_copies": 4,
+      "regular_register_total_dimension": 24,
+      "regular_orbits": [
+        {
+          "representative": 9,
+          "basis_indices": [
+            9,
+            21,
+            39,
+            47,
+            101,
+            107
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 19,
+          "basis_indices": [
+            19,
+            23,
+            29,
+            45,
+            103,
+            105
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 59,
+          "basis_indices": [
+            59,
+            71,
+            89,
+            97,
+            111,
+            117
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 69,
+          "basis_indices": [
+            69,
+            73,
+            79,
+            95,
+            113,
+            115
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        }
+      ]
+    },
+    {
+      "mask": 5,
+      "three_strand_dimension": 125,
+      "orbit_histogram": {
+        "1": 17,
+        "3": 28,
+        "6": 4
+      },
+      "regular_register_copies": 4,
+      "regular_register_total_dimension": 24,
+      "regular_orbits": [
+        {
+          "representative": 9,
+          "basis_indices": [
+            9,
+            21,
+            39,
+            47,
+            101,
+            107
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 19,
+          "basis_indices": [
+            19,
+            23,
+            29,
+            45,
+            103,
+            105
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 59,
+          "basis_indices": [
+            59,
+            71,
+            89,
+            97,
+            111,
+            117
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 69,
+          "basis_indices": [
+            69,
+            73,
+            79,
+            95,
+            113,
+            115
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        }
+      ]
+    },
+    {
+      "mask": 8,
+      "three_strand_dimension": 125,
+      "orbit_histogram": {
+        "1": 17,
+        "3": 28,
+        "6": 4
+      },
+      "regular_register_copies": 4,
+      "regular_register_total_dimension": 24,
+      "regular_orbits": [
+        {
+          "representative": 9,
+          "basis_indices": [
+            9,
+            21,
+            39,
+            47,
+            101,
+            107
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 19,
+          "basis_indices": [
+            19,
+            23,
+            29,
+            45,
+            103,
+            105
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 59,
+          "basis_indices": [
+            59,
+            71,
+            89,
+            97,
+            111,
+            117
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 69,
+          "basis_indices": [
+            69,
+            73,
+            79,
+            95,
+            113,
+            115
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        }
+      ]
+    },
+    {
+      "mask": 13,
+      "three_strand_dimension": 125,
+      "orbit_histogram": {
+        "1": 17,
+        "3": 28,
+        "6": 4
+      },
+      "regular_register_copies": 4,
+      "regular_register_total_dimension": 24,
+      "regular_orbits": [
+        {
+          "representative": 9,
+          "basis_indices": [
+            9,
+            21,
+            39,
+            47,
+            101,
+            107
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 19,
+          "basis_indices": [
+            19,
+            23,
+            29,
+            45,
+            103,
+            105
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 59,
+          "basis_indices": [
+            59,
+            71,
+            89,
+            97,
+            111,
+            117
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 69,
+          "basis_indices": [
+            69,
+            73,
+            79,
+            95,
+            113,
+            115
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        }
+      ]
+    },
+    {
+      "mask": 16,
+      "three_strand_dimension": 125,
+      "orbit_histogram": {
+        "1": 17,
+        "3": 28,
+        "6": 4
+      },
+      "regular_register_copies": 4,
+      "regular_register_total_dimension": 24,
+      "regular_orbits": [
+        {
+          "representative": 9,
+          "basis_indices": [
+            9,
+            21,
+            39,
+            47,
+            101,
+            107
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 19,
+          "basis_indices": [
+            19,
+            23,
+            29,
+            45,
+            103,
+            105
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 59,
+          "basis_indices": [
+            59,
+            71,
+            89,
+            97,
+            111,
+            117
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 69,
+          "basis_indices": [
+            69,
+            73,
+            79,
+            95,
+            113,
+            115
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        }
+      ]
+    },
+    {
+      "mask": 21,
+      "three_strand_dimension": 125,
+      "orbit_histogram": {
+        "1": 17,
+        "3": 28,
+        "6": 4
+      },
+      "regular_register_copies": 4,
+      "regular_register_total_dimension": 24,
+      "regular_orbits": [
+        {
+          "representative": 9,
+          "basis_indices": [
+            9,
+            21,
+            39,
+            47,
+            101,
+            107
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 19,
+          "basis_indices": [
+            19,
+            23,
+            29,
+            45,
+            103,
+            105
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 59,
+          "basis_indices": [
+            59,
+            71,
+            89,
+            97,
+            111,
+            117
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 69,
+          "basis_indices": [
+            69,
+            73,
+            79,
+            95,
+            113,
+            115
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        }
+      ]
+    },
+    {
+      "mask": 24,
+      "three_strand_dimension": 125,
+      "orbit_histogram": {
+        "1": 17,
+        "3": 28,
+        "6": 4
+      },
+      "regular_register_copies": 4,
+      "regular_register_total_dimension": 24,
+      "regular_orbits": [
+        {
+          "representative": 9,
+          "basis_indices": [
+            9,
+            21,
+            39,
+            47,
+            101,
+            107
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 19,
+          "basis_indices": [
+            19,
+            23,
+            29,
+            45,
+            103,
+            105
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 59,
+          "basis_indices": [
+            59,
+            71,
+            89,
+            97,
+            111,
+            117
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 69,
+          "basis_indices": [
+            69,
+            73,
+            79,
+            95,
+            113,
+            115
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        }
+      ]
+    },
+    {
+      "mask": 29,
+      "three_strand_dimension": 125,
+      "orbit_histogram": {
+        "1": 17,
+        "3": 28,
+        "6": 4
+      },
+      "regular_register_copies": 4,
+      "regular_register_total_dimension": 24,
+      "regular_orbits": [
+        {
+          "representative": 9,
+          "basis_indices": [
+            9,
+            21,
+            39,
+            47,
+            101,
+            107
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 19,
+          "basis_indices": [
+            19,
+            23,
+            29,
+            45,
+            103,
+            105
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 59,
+          "basis_indices": [
+            59,
+            71,
+            89,
+            97,
+            111,
+            117
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        },
+        {
+          "representative": 69,
+          "basis_indices": [
+            69,
+            73,
+            79,
+            95,
+            113,
+            115
+          ],
+          "pointed_restriction": "I_6",
+          "neutral_restriction": "6 I_6",
+          "identity_label_selected": false,
+          "q_one_quarter_weights_selected": false
+        }
+      ]
+    }
+  ],
+  "BGCE307_fixed_time_dilation_retained": true,
+  "BGCE300R1_low_energy_Einstein_result_retained": true,
+  "decision": "SPLIT_PASS_NATIVE_ENVIRONMENT_CAPACITY_ONLY__EVERY_ACTUAL_THREE_STRAND_RIGHT_TAIL_BLOCK_DECOMPOSES_EXACTLY_AS_17_TRIVIAL_PLUS_28_THREE_ORBITS_PLUS_4_REGULAR_SIX_ORBITS_SO_THE_SOURCE_CONTAINS_FOUR_NATIVE_SIX_LABEL_BRAID_REGISTERS_PER_BLOCK_AND_AN_UNBOUNDED_SUPPLY_IN_THE_INFINITE_TAIL__BUT_THE_POINTED_CAP_STATE_RESTRICTS_TO_I6_AND_ITS_REYNOLDS_NEUTRALIZATION_TO_6I6_ON_EVERY_REGULAR_ORBIT_SO_NEITHER_SELECTS_ONE_OF_THE_FOUR_COPIES_AN_IDENTITY_BASEPOINT_OR_THE_REQUIRED_THREE_EIGHTHS_PLUS_FIVE_ONE_EIGHTH_PREPARATION__THE_EXISTING_GENERATOR_TENSORS_WITH_IDENTITY_ON_THE_TAIL_AND_NO_TRANSLATED_COLLISION_SHIFT_RESET_ENVIRONMENT_BALANCE_OR_TOTAL_WARD_LAW_IS_DERIVED__FULL_FINITE_BACKREACTION_REMAINS_OPEN",
+  "counter_intuition_scan": {
+    "ordinary_explanation": "An infinite tensor tail has enough room for ancillas, but capacity alone does not specify their state, coupling or conservation bookkeeping.",
+    "SIEL_specific_part": "The six-label registers are actual free orbits of the pointed-Braid action and occur with the same fourfold multiplicity in all eight sectors; the source pointed/neutral states provably remain uniform on them.",
+    "strongest_counterpattern": "The already source-derived clock and three Fourier marks may jointly select one regular-orbit copy and an identity basepoint, converting capacity into a collision register without an external label.",
+    "falsifier": "A frozen source identity showing that the pointed/cap or neutral state alone has weights 3/8 and 1/8 on a uniquely selected regular orbit, or an existing translated collision law acting nontrivially on successive tail blocks."
+  },
+  "next_gate": "BGCE309_SOURCE_CLOCK_FOURIER_MARK_TO_REGULAR_ORBIT_BASEPOINT_AND_COLLISION_SELECTOR_GATE",
+  "runtime_class": "SUBSECOND_EXACT_ORBIT_AND_INTEGER_BLOCK_AUDIT_NO_SCAN",
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+  "claim_ceiling": "BGCE308 proves that the source right tail contains an unbounded supply of native six-label Braid registers, but it does not derive the nonuniform ancilla state, register/basepoint selector, repeated collision law, environment balance current, total Ward identity or full finite Lorentzian quantum backreaction."
+}

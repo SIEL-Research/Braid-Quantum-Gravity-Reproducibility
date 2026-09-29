@@ -1,0 +1,22 @@
+{
+  "schema": "siel.dpa.bgce287.source-matrix.v1",
+  "candidate_id": "BGCE287",
+  "source_revision": "1768d7f259a8aad654092ee6100d56b77da6fc0b",
+  "inputs_sha256": {
+    "audits/SRA_DPA_BGCE139_SOURCE_SPECTRAL_CYLINDER_OPERATIONAL_EVENT_IDENTIFICATION_GATE_20260919/RAW_OUTPUT.json": "ddf630fbaff1ae4e72c778f47dc2bed6906da0a8aa17d4e6a98d2c96791955e9",
+    "audits/SRA_DPA_BGCE254_SOURCE_RESPONSE_LEGENDRE_EXACTNESS_TO_UNIQUE_LOGZ_BREGMAN_EDGE_ACTION_GATE_20260921/RESULT.json": "09b6b9dc098d48bfca0e00434ad43a053a03a4bf56e7a27bfacd72649a525ecc",
+    "audits/SRA_DPA_BGCE256_BRAID_INDUCED_EVENT_TRANSITION_COBORDER_TO_NEIGHBOR_COUPLING_LAW_GATE_20260921/RAW_OUTPUT.json": "1fb8f3c01644aeec7ee755ce2754e0ba055ba46b0ccca5c652fef457c7d478a1",
+    "audits/SRA_DPA_BGCE266_REFINEMENT_CLOCK_TO_UNIQUE_EVENT_SEMIGROUP_AND_IR_OS_CONTINUATION_GATE_20260922/RAW_OUTPUT.json": "994b78845e496b709b2f7aca93926678614623e69e06104cb2d6e2d0707a5fe2",
+    "audits/SRA_DPA_BGCE268_SOURCE_GRAM_SCHUR_CHANNEL_TO_CAUSAL_METRIC_INTERTWINER_GATE_20260922/RAW_OUTPUT.json": "1e9d2355ecf83fa68832859163b6fdf473e5f6baac80c3e190ed7cded4749207",
+    "audits/SRA_DPA_BGCE281_ALL_SECTOR_ORDERED_EDGE_METRIC_TANGENT_AND_NONMETRICITY_GATE_20260923/RAW_OUTPUT.json": "61fb6f04e665506e53316662e389ad7013b09879f30c311f3d24752a402ecc70",
+    "audits/SRA_DPA_BGCE286_X21R1_METRIC_TANGENT_TO_BRAID_EVENT_CONDUCTANCE_VARIATION_GATE_20260923/RAW_OUTPUT.json": "6b4cb5c6ce4b579a913c71a445dff0520c0f1824ddb314a9e5fc85fdd74056bf",
+    "audits/SRA_DPA_BGCE286_X21R1_METRIC_TANGENT_TO_BRAID_EVENT_CONDUCTANCE_VARIATION_GATE_20260923/RESULT.json": "3fdd73fbb10fd08cd6a35abb7ab2da5b8617df708b0808b200e95816e31b564c"
+  },
+  "allowed_inference": "Exact first-order source-event-path BKM horizontal selection of the actual conductance lift.",
+  "forbidden_promotions": [
+    "event-path BKM connection to a full finite physical parent action",
+    "first-order horizontal selection to nonlinear integrability",
+    "conductance lift to Hilbert stress or Ward without variation proof",
+    "theoretical exactness to empirical gravity or completed quantum gravity"
+  ]
+}

@@ -1,20 +1,30 @@
 {
   "claim_ceiling": "One-cycle full-rank Fisher response and source feedback in the fixed recorded family.",
   "dependencies": [],
+  "direct_artifacts": [
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-12/source-01-artifact-01.json",
+      "sha256": "c1ddd9d8451cfe68dae8a134706fbf589375fe3e35da665a8e4cbb70f3519875"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-12/source-01-artifact-02.py",
+      "sha256": "f2dc55705916700fe515f12b4fd34679e27ea8c58403c3c3d1a941f36bd59a7b"
+    }
+  ],
   "id": "V100-THE-12",
   "paper_number": "Theorem 8.1",
   "pdf_page": 7,
-  "public_files": [],
   "public_urls": [],
   "schema": "siel.bqg.public-statement-evidence.v1",
-  "status": "PUBLIC_CODE",
-  "vendored_bundles": [
+  "source_bundle_digests": [
     {
       "file_count": 4,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE336R2_REFINED_COLLISION_CTP_TO_CONTINUUM_LORENTZIAN_INFLUENCE_AND_NONCIRCULAR_FINITE_BACKREACTION_GATE_20260923",
       "sha256_tree": "4e68a3740a1be3cc1ad21788595fba32513816e88b5d605613fb1ff526a7c03c"
     }
   ],
+  "status": "PUBLIC_CODE",
   "verification_command": "python3 scripts/verify_all.py"
 }

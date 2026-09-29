@@ -1,0 +1,21 @@
+{
+  "schema": "siel.dpa.scout.bqgeuler004.result.v1",
+  "scout_id": "DPA-SCOUT-BQGEULER-004",
+  "date": "2026-09-26",
+  "work_package": "BQG-G3-R02.5",
+  "primary_evidence_status": "Theoretical derivation",
+  "secondary_qualifiers": [
+    "exact inductive-limit wave theorem",
+    "two-polarization hierarchical carrier",
+    "physical-identification boundary"
+  ],
+  "decision": "CLOSED_SCOPED_HIERARCHICAL_TWO_MODE_ALL_TIME_STRONG_ENERGY_CONVERGENCE__OPEN_PHYSICAL_ADM_AND_SMOOTH_FIERZ_PAULI_IDENTIFICATION",
+  "decisive_result": "Exact refinement intertwining makes every finite two-copy wave group the restriction of one inductive-limit wave group. Mean-zero finite-level projections converge in the wave-energy norm, and unitarity gives a uniform-in-time strong error equal to the initial energy-tail norm. BGCE456 exact positive form bounds extend this to the actual-metric hierarchical carrier. However, BQGADM-011 supplies only the two-mode quotient dimension and explicitly lacks a refinement pullback for the physical constraint ideal, while BGCE456 leaves equality with the smooth Fierz-Pauli principal symbol open. The theorem therefore closes the hierarchical two-copy dynamics, not physical ADM trajectory convergence.",
+  "hierarchical_two_mode_strong_convergence": "CLOSED_SCOPED",
+  "physical_ADM_two_mode_strong_convergence": "OPEN_SOURCE_IDENTIFICATION_REQUIRED",
+  "smooth_continuum_target": "NOT_ESTABLISHED",
+  "work_package_status_after_gate": "OPEN_SOURCE_CONSTRUCTION_REQUIRED",
+  "next_minimum_gate": "DPA-SCOUT-BQGEULER-003_SOURCE_TYPED_NOETHER_KOSZUL_TATE_CONTRACTIBLE_FOUR_SCORE_GATE__PLUS_PHYSICAL_PROJECTOR_REFINEMENT_AND_SMOOTH_SYMBOL_INTERFACE",
+  "formal_E0_E1_E2": "NOT_CLAIMED__BOUNDED_DPA_EXACT_THEORETICAL_SCOUT",
+  "claim_ceiling": "Exact strong wave-trajectory convergence for two passive polarization copies of the BGCE452/BGCE456 mean-zero hierarchical source-cylinder carrier in its energy norm. No source-derived physical ADM projector/refinement intertwiner, smooth Fierz-Pauli generator identity, nonlinear Euler convergence, finite nonlinear HDA, empirical gravity, confirmation, RPD adoption, Level 3 or Official SIEL status."
+}

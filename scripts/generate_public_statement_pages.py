@@ -6,11 +6,15 @@ from __future__ import annotations
 import hashlib
 import json
 from pathlib import Path
+import re
+import shutil
 
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "evidence/statements"
 MANIFESTS = OUT / "manifests"
+ARTIFACTS = OUT / "artifacts"
+CJK = re.compile(r"[\u3040-\u30ff\u3400-\u9fff]")
 
 
 def sha256_file(path: Path) -> str:
@@ -30,6 +34,50 @@ def tree_digest(path: Path) -> tuple[str, int]:
     return digest.hexdigest(), len(files)
 
 
+def package_entrypoints(path: Path) -> list[Path]:
+    preferred = {
+        "verify.py",
+        "validate_result.py",
+        "proof_check.py",
+        "evaluate.py",
+        "evaluate_scout.py",
+        "evaluate_exact.py",
+        "evaluate_theorem.py",
+        "RESULT.json",
+        "CERTIFICATE.json",
+        "PROOF_CERTIFICATE.json",
+        "RAW_OUTPUT.json",
+        "SOURCE_MATRIX.json",
+        "INPUT_MANIFEST.json",
+    }
+    entries = []
+    for item in path.rglob("*"):
+        if not item.is_file() or item.name not in preferred:
+            continue
+        try:
+            text = item.read_text(encoding="utf-8")
+        except (UnicodeDecodeError, OSError):
+            continue
+        if CJK.search(text):
+            continue
+        entries.append(item)
+    return sorted(entries)
+
+
+def artifact_kind(path: Path) -> str:
+    if path.suffix == ".py":
+        return "Verifier source"
+    if path.name in {"RESULT.json", "RAW_OUTPUT.json"}:
+        return "Machine result"
+    if "CERTIFICATE" in path.name:
+        return "Certificate"
+    if "MANIFEST" in path.name or path.name == "SOURCE_MATRIX.json":
+        return "Input provenance"
+    if path.suffix == ".md":
+        return "Analytic proof"
+    return "Public evidence file"
+
+
 def main() -> None:
     inventory = json.loads((ROOT / "theorems/theorem_inventory_v1.json").read_text())
     evidence = json.loads((ROOT / "theorems/theorem_evidence_v1.json").read_text())
@@ -41,6 +89,7 @@ def main() -> None:
 
     OUT.mkdir(parents=True, exist_ok=True)
     MANIFESTS.mkdir(parents=True, exist_ok=True)
+    ARTIFACTS.mkdir(parents=True, exist_ok=True)
     expected_pages: set[Path] = set()
     expected_manifests: set[Path] = set()
 
@@ -66,29 +115,40 @@ def main() -> None:
         locator = paper[identifier]
         page_path = OUT / f"{identifier}.md"
         manifest_path = MANIFESTS / f"{identifier}.json"
+        artifact_dir = ARTIFACTS / identifier
+        if artifact_dir.exists():
+            shutil.rmtree(artifact_dir)
+        artifact_dir.mkdir(parents=True)
         expected_pages.add(page_path)
         expected_manifests.add(manifest_path)
 
         bundles = []
-        public_files = []
-        for relative in entry.get("evidence_paths", []):
+        direct_artifacts = []
+        for source_number, relative in enumerate(entry.get("evidence_paths", []), start=1):
             path = ROOT / relative
             if path.is_dir():
                 digest, count = tree_digest(path)
                 bundles.append(
                     {
                         "kind": "vendored_calculation_package",
-                        "repository_path": relative,
                         "sha256_tree": digest,
                         "file_count": count,
                     }
                 )
+                selected = package_entrypoints(path)
             else:
-                public_files.append(
+                selected = [path]
+
+            for file_number, source in enumerate(selected, start=1):
+                alias = artifact_dir / (
+                    f"source-{source_number:02d}-artifact-{file_number:02d}{source.suffix}"
+                )
+                shutil.copy2(source, alias)
+                direct_artifacts.append(
                     {
-                        "kind": "public_file",
-                        "repository_path": relative,
-                        "sha256": sha256_file(path),
+                        "kind": artifact_kind(source),
+                        "path": alias.relative_to(ROOT).as_posix(),
+                        "sha256": sha256_file(alias),
                     }
                 )
 
@@ -100,8 +160,8 @@ def main() -> None:
             "status": entry["status"],
             "claim_ceiling": entry["claim_ceiling"],
             "dependencies": entry.get("depends_on", []),
-            "public_files": public_files,
-            "vendored_bundles": bundles,
+            "direct_artifacts": direct_artifacts,
+            "source_bundle_digests": bundles,
             "public_urls": entry.get("public_urls", []),
             "verification_command": entry.get(
                 "verification_command", "python3 scripts/verify_all.py"
@@ -156,19 +216,35 @@ def main() -> None:
                 ]
             )
 
+        lines.extend(["", "## Direct evidence", ""])
+        labels: dict[str, int] = {}
+        for artifact in direct_artifacts:
+            labels[artifact["kind"]] = labels.get(artifact["kind"], 0) + 1
+            filename = Path(artifact["path"]).name
+            lines.append(
+                f"- [{artifact['kind']} {labels[artifact['kind']]}]"
+                f"(artifacts/{identifier}/{filename}) — SHA-256 `{artifact['sha256']}`"
+            )
+        for number, bundle in enumerate(bundles, start=1):
+            lines.append(
+                f"- Complete source bundle {number}: {bundle['file_count']} files; "
+                f"tree SHA-256 `{bundle['sha256_tree']}`"
+            )
+        if not direct_artifacts and not bundles:
+            for number, url in enumerate(entry.get("public_urls", []), start=1):
+                lines.append(f"- [Archived evidence record {number}]({url})")
         lines.extend(
             [
+                f"- [Machine-readable evidence manifest](manifests/{identifier}.json)",
                 "",
-                "The exact file and package identities, content hashes, external sources,",
-                "and dependencies for this statement are recorded in the",
-                f"[machine-readable evidence manifest](manifests/{identifier}.json).",
-                "The complete suite checks the vendored code and result certificates without",
-                "requiring access to the private research repository.",
+                "These are the statement-specific public evidence endpoints. Local code,",
+                "results and certificates are hash-bound where present; DOI-only records",
+                "remain directly accessible without private-repository access.",
                 "",
             ]
         )
 
-        if entry.get("public_urls"):
+        if entry.get("public_urls") and (direct_artifacts or bundles):
             lines.extend(["## External public sources", ""])
             for number, url in enumerate(entry["public_urls"], start=1):
                 lines.append(f"- [External source {number}]({url})")
@@ -180,16 +256,7 @@ def main() -> None:
                 lines.append(f"- [{dependency}]({dependency}.md)")
             lines.append("")
 
-        lines.extend(
-            [
-                "## Navigation",
-                "",
-                "- [All 53 English evidence pages](README.md)",
-                "- [Master theorem evidence index](../../THEOREM_EVIDENCE_INDEX_v1.0.md)",
-                "- [Self-contained analytic proofs](../../theorems/analytic_proofs_v1.md)",
-            ]
-        )
-        page_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        page_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
         index_lines.append(
             "| "
@@ -228,6 +295,10 @@ def main() -> None:
     for old in MANIFESTS.glob("V100-*.json"):
         if old not in expected_manifests:
             old.unlink()
+    expected_artifact_dirs = {record["id"] for record in inventory["records"]}
+    for old in ARTIFACTS.iterdir():
+        if old.is_dir() and old.name not in expected_artifact_dirs:
+            shutil.rmtree(old)
 
 
 if __name__ == "__main__":

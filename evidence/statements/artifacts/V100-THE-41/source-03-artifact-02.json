@@ -1,0 +1,32 @@
+{
+  "schema": "siel.dpa.bqgcal009.input_manifest.v1",
+  "scout_id": "DPA-SCOUT-BQGCAL-009-X1",
+  "gate_id": "BQGCAL-009_SOURCE_QUADRATIC_CHARGE_CASIMIR_AND_DIRICHLET_ENERGY_TO_SCREEN_NUMBER_AREA_LAW_GATE",
+  "source_commit": "b1db38f07a60ea7e3cf925e1f540f6f4599546d8",
+  "source_snapshot_id": "DPA-SNAPSHOT-b1db38f07a60",
+  "inputs": [
+    {
+      "path": "audits/SRA_DPA_BGCE310_TORSOR_GAUGE_COVARIANT_ENVIRONMENT_CHARGE_AND_TOTAL_G1_BALANCE_GATE_20260923/RESULT.json",
+      "sha256": "cf2c04a8f32f8f5a2ffb2d2ff0c95600de10e2d467e830a0d5da65452a2988f0"
+    },
+    {
+      "path": "audits/SRA_DPA_BQGCAL007_SOURCE_TOTAL_CHARGE_TO_FINITE_SCREEN_RADIUS_AND_REFINEMENT_LEVEL_QUANTIZATION_GATE_20260928/DPA_SCOUT_001/RESULT.json",
+      "sha256": "89d005a48be445029ff04ec43fc9e77508d4a1ae50c11ae0f6ac697b8858389b"
+    },
+    {
+      "path": "audits/SRA_DPA_BQGCAL008_SOURCE_POSITIVE_SCREEN_NUMBER_AND_QUASILOCAL_ENERGY_TO_REFINEMENT_INVARIANT_HORIZON_AREA_GATE_20260928/DPA_SCOUT_001/RESULT.json",
+      "sha256": "98adc59754a4e7a9e1f4f37b17308fc733051ebb342e11c6a7c509c2f86ebac2"
+    }
+  ],
+  "bold_hypothesis": {
+    "interpretive_leap": "The linear Ward charge is signed and symmetry-centered, while its positive quadratic Casimir contains the source activity. The pointed identity/nonidentity conditional expectation may isolate a vacuum-subtracted excitation Casimir exactly proportional to the source event number.",
+    "new_structure": "C_exc=E_point(H_E^2)-c_e I, where E_point is the trace-preserving conditional expectation onto span{P_e,P_non} and c_e is the identity-sector quadratic vacuum value.",
+    "source_status": "H_E, pointing and N are derived. Interpreting C_exc as physical horizon area or quasi-local mass remains open.",
+    "strongest_ordinary_alternative": "This is a generic two-sector coarse-graining identity for a pointed finite Hamiltonian and does not make the resulting count a gravitational observable."
+  },
+  "falsifier": "Reject the mechanism if the pointed conditional expectation of H_E^2 minus its identity baseline is not positive, is not exactly proportional to N_1, is not additive on the tail, or requires a fitted coefficient.",
+  "claim_ceiling": "This scout may derive a source-canonical positive quadratic excitation Casimir and its exact relation to the pointed integer count and BQGCAL-007 area law. It may not establish that the Casimir is conserved physical quasi-local mass, identify event count with geometric screen count, derive SI radius or mass, Newton's constant, entropy, Hawking physics, or a finite quantum black hole.",
+  "target_data_accessed": false,
+  "parameter_scan_used": false,
+  "long_computation_used": false
+}

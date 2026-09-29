@@ -1,0 +1,9 @@
+{
+  "schema": "siel.dpa.bgce299.certificate.v1",
+  "candidate_id": "BGCE299",
+  "source_revision": "e0ac54d6ddbcaa78d7354c037063746e3339c1c2",
+  "preregistered_commit": "3990656c2",
+  "raw_output_sha256": "f7ff40f8084ca8bd32fd18c4918ce1cee78ea158758c7ae54565b9e99268c18d",
+  "result_sha256": "f077cb7e84ce29bbbcd2e8593d539c0ed9b2581a913a210151005c508cb6ee0b",
+  "verification": "PASS_BGCE299_FINAL_SCOPED_STRESS_WARD_VERIFICATION"
+}

@@ -1,0 +1,104 @@
+{
+  "asymptotic_on_shell_bridge": true,
+  "environment": {
+    "evaluator_sha256": "2ebabb8a55f0958f5c251378e9894336e8b891a14f7a237e83e77dc27667ad36",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6"
+  },
+  "gates": {
+    "explicit_source_physical_projector_present": false,
+    "finite_local_update_exact_constraint_preservation": false,
+    "no_new_coefficient_action_or_target_fit": true,
+    "perfect_parent_exact_noether_and_refinement": true,
+    "physical_dimension_and_flat_helicity_compatible": true,
+    "pinned_source_hashes": true,
+    "same_continuum_metric_euler_target": true,
+    "same_rank_ten_metric_carrier": true,
+    "strong_common_interval_trajectory_convergence": true,
+    "strong_on_shell_euler_defect_vanishes": true,
+    "subsidiary_defect_vanishes_for_tau_order_h": true,
+    "unique_positive_bkm_exact_moment_member": true
+  },
+  "literal_exact_finite_flow_identity": false,
+  "order_reduction_when_tau_equals_lambda_h": {
+    "both_vanish": true,
+    "euler_defect": "O((1+lambda^2) h^2)",
+    "subsidiary_defect": "O((1+lambda^2) h)"
+  },
+  "physical_projector_status": "OPEN_SOURCE_IDENTIFICATION_REQUIRED",
+  "schema": "siel.dpa.bqgadm013.raw_output.v1",
+  "scout_id": "DPA-SCOUT-BQGADM-013",
+  "source_commit": "b93a2a5dad11476be7e7b0203a8c8c30e0f851db",
+  "source_hashes": {
+    "audits/SRA_DPA_BGCE097_FULL_SIX_FACE_ACTION_FIVE_ADIC_ADDITIVITY_GATE_20260919/RESULT.json": {
+      "actual": "5745541e2bb5b5d551c21cad16ad00ee8585b3910b1eb86ee0537ebb223dcc72",
+      "expected": "5745541e2bb5b5d551c21cad16ad00ee8585b3910b1eb86ee0537ebb223dcc72",
+      "pass": true
+    },
+    "audits/SRA_DPA_BGCE099_CONDITIONAL_CONTINUUM_PALATINI_ACTION_AND_VARIATION_THEOREM_20260919/RESULT.json": {
+      "actual": "5cc58c5a70ce59328171a6a04d611540fc13201dbb41f283358c62291e9df7c9",
+      "expected": "5cc58c5a70ce59328171a6a04d611540fc13201dbb41f283358c62291e9df7c9",
+      "pass": true
+    },
+    "audits/SRA_DPA_BGCE294_SOURCE_SYMMETRIC_PRODUCT_FUNCTOR_TO_UNIQUE_PHYSICAL_SOLDER_GATE_20260923/RESULT.json": {
+      "actual": "9ea44934718f7363ef6a98ef198be64eff262b9b65444769fd8f301a8ccdf7cb",
+      "expected": "9ea44934718f7363ef6a98ef198be64eff262b9b65444769fd8f301a8ccdf7cb",
+      "pass": true
+    },
+    "audits/SRA_DPA_BGCE295_FINITE_BRAID_ACTION_TO_CONTINUUM_HILBERT_VARIATION_IDENTITY_GATE_20260923/RESULT.json": {
+      "actual": "7c629269ae0356bb4da1dad008e1c934581a3cacd2c1337915fcfc0f74cb6ed1",
+      "expected": "7c629269ae0356bb4da1dad008e1c934581a3cacd2c1337915fcfc0f74cb6ed1",
+      "pass": true
+    },
+    "audits/SRA_DPA_BGCE300R1_A49_NONCIRCULAR_BACKREACTION_TO_LOW_ENERGY_SPIN2_EINSTEIN_GATE_20260923/RESULT.json": {
+      "actual": "3ea43d21415ffc1a33b4d4446e6db053772a886c604147b50d614b2c9931835a",
+      "expected": "3ea43d21415ffc1a33b4d4446e6db053772a886c604147b50d614b2c9931835a",
+      "pass": true
+    },
+    "audits/SRA_DPA_BGCE446_SOURCE_625_CHILD_FOURTH_JET_TO_PBM_U4_GATE_20260925/RESULT.json": {
+      "actual": "07a5df44372723258a2b3ffc8731151aa7830110e6b1ff79f70f049c32f14f8e",
+      "expected": "07a5df44372723258a2b3ffc8731151aa7830110e6b1ff79f70f049c32f14f8e",
+      "pass": true
+    },
+    "audits/SRA_DPA_BGCE447_SOURCE_CYLINDER_TO_UB612_PBM_METRIC_SAME_CARRIER_INTERTWINER_GATE_20260925/RESULT.json": {
+      "actual": "d81d334c824f8cbddce0a0a6dd24654a0c34fff496267e35d4ae4928090b6508",
+      "expected": "d81d334c824f8cbddce0a0a6dd24654a0c34fff496267e35d4ae4928090b6508",
+      "pass": true
+    },
+    "audits/SRA_DPA_BQG_G3_R01_5_PAIR_GROUPOID_PALATINI_REDUCED_SECTOR_INVARIANCE_CLOCK_CLOSURE_GATE_20260926/DPA_SCOUT_008/RESULT.json": {
+      "actual": "f18560995cbb086d28ac2f6494335b3c2cd03074ad8ba01d299db8ac691543ea",
+      "expected": "f18560995cbb086d28ac2f6494335b3c2cd03074ad8ba01d299db8ac691543ea",
+      "pass": true
+    },
+    "audits/SRA_DPA_BQG_G3_R01_5_SOURCE_INCIDENCE_TORSION_ADM_CONSTRAINT_SYMBOL_GATE_20260926/DPA_SCOUT_006/RESULT.json": {
+      "actual": "19d9c44f756488d6372b31c748c5fe30b2a7613c07726d72e8cd932ecbbf4044",
+      "expected": "19d9c44f756488d6372b31c748c5fe30b2a7613c07726d72e8cd932ecbbf4044",
+      "pass": true
+    },
+    "audits/SRA_DPA_BQG_G3_R01_5_SOURCE_PERFECT_HISTORY_GROUPOID_ADM_HDA_CLOSURE_20260926/DPA_SCOUT_012/RESULT.json": {
+      "actual": "c0a4bcbab124950f921c11430d3f4590199793981be68eba46a1e8d366539815",
+      "expected": "c0a4bcbab124950f921c11430d3f4590199793981be68eba46a1e8d366539815",
+      "pass": true
+    },
+    "audits/SRA_DPA_BQG_G3_R02_5_BKM_HORIZONTAL_SELECTION_AND_LOCAL_NONLINEAR_CONVERGENCE_CLOSURE_20260926/DPA_SCOUT_007/RESULT.json": {
+      "actual": "5dc99c84bc0cfd02a2a960b814a1831c569932f2c1d0bb02aef9d56496ebfa00",
+      "expected": "5dc99c84bc0cfd02a2a960b814a1831c569932f2c1d0bb02aef9d56496ebfa00",
+      "pass": true
+    },
+    "audits/SRA_DPA_BQG_G3_R02_5_ENTROPIC_POSITIVE_MOMENT_CLOSURE_GATE_20260926/DPA_SCOUT_006/RESULT_ATTEMPT_006.json": {
+      "actual": "12c3f51266054aff092ef7f2070b3205f224e4a8e9eedeba2b8d0f6161b26c85",
+      "expected": "12c3f51266054aff092ef7f2070b3205f224e4a8e9eedeba2b8d0f6161b26c85",
+      "pass": true
+    },
+    "audits/SRA_DPA_BQG_G3_R02_5_LINEAR_TWO_MODE_FINITE_TIME_STRONG_CONVERGENCE_GATE_20260926/DPA_SCOUT_004/RESULT.json": {
+      "actual": "e36fcd2b384367b7587657b98ff1689e99f13026af565fbc9b3c965ffde629fd",
+      "expected": "e36fcd2b384367b7587657b98ff1689e99f13026af565fbc9b3c965ffde629fd",
+      "pass": true
+    },
+    "audits/SRA_DPA_BQG_G3_R02_5_NORMALIZED_SYM2_TEN_COMPONENT_STRONG_CONVERGENCE_CLOSURE_20260926/DPA_SCOUT_010/RESULT.json": {
+      "actual": "73b4d301c0f3995539b08ef0fe0b490022252c8f397e4b1b63c96d10cee8fb0e",
+      "expected": "73b4d301c0f3995539b08ef0fe0b490022252c8f397e4b1b63c96d10cee8fb0e",
+      "pass": true
+    }
+  }
+}

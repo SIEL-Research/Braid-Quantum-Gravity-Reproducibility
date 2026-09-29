@@ -1,0 +1,249 @@
+{
+  "BGCE286_quotient_gate": {
+    "BKM_rank_on_old_kernel": 2,
+    "common_edge_count": 2,
+    "common_sum_displacement_fourth_power": 2,
+    "old_kernel_dimension": 2,
+    "old_kernel_removed_by_horizontal_condition": true,
+    "relative_edge_count": 6,
+    "relative_sum_displacement_fourth_power": 36,
+    "source_fixed_rescaled_common_weight": "18",
+    "source_fixed_rescaled_relative_weight": "1",
+    "weight_ratio_common_to_relative": "18:1"
+  },
+  "actual_X21R1_gate": {
+    "all_BKM_horizontal": true,
+    "all_reproduced_exactly": true,
+    "records": [
+      {
+        "BKM_horizontal": true,
+        "mask": 0,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 1
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 0,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 2
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 0,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 3
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 5,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 1
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 5,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 2
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 5,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 3
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 8,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 1
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 8,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 2
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 8,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 3
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 13,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 1
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 13,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 2
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 13,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 3
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 16,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 1
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 16,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 2
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 16,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 3
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 21,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 1
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 21,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 2
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 21,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 3
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 24,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 1
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 24,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 2
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 24,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 3
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 29,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 1
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 29,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 2
+      },
+      {
+        "BKM_horizontal": true,
+        "mask": 29,
+        "nonzero_raw_edge_rates": 48,
+        "reproduced_exactly": true,
+        "theta_direction": 3
+      }
+    ],
+    "tangent_count": 24
+  },
+  "baseline_gate": "PASS_REVISION_MATCHED_BGCE139_254_256_266_268_281_286_REPLAY",
+  "candidate_id": "BGCE287",
+  "claim_ceiling": "BGCE287 derives a unique exact S4-equivariant first-order BKM-horizontal conductance lift of all 24 actual X21R1 metric tangents from the source event edges and their common source-fixed rate. It removes BGCE286's two-dimensional ambiguity within the source-event-path BKM horizontal class without fitted coefficients. It does not yet prove nonlinear integrability, identify this connection metric with the full finite physical parent action, derive Hilbert stress, Ward, SDPC, unconditional Einstein dynamics, empirical gravity or completed quantum gravity.",
+  "counter_intuition_scan": {
+    "Braid_specific_content": "The event edges, equal positive rate, displacement moments, four-axis S4 averaging and 24 target tangents all come from the retained pointed-Braid source.",
+    "falsifier": "Rank loss, a null BKM direction in the moment kernel, failure on one actual tangent, or failure of S4 equivariance would destroy the selection.",
+    "ordinary_explanation": "Any surjective moment map from a positive information-metric space has a canonical minimum-norm right inverse.",
+    "refutation": "The result selects an exact first-order connection. It does not prove that this connection integrates to a global conductance functional or that the event-path information metric is the Hilbert matter action.",
+    "tempting_success": "A unique BKM-horizontal lift already proves the full nonlinear matter-gravity action."
+  },
+  "decision": "FULL_PASS_THE_SOURCE_FIXED_COMMON_EVENT_RATE_MAKES_THE_ACTUAL_FORTY_EIGHT_EDGE_RATE_TANGENT_SPACE_CARRY_A_POSITIVE_EVENT_PATH_FISHER_BKM_METRIC__THE_MICROSCOPIC_SECOND_MOMENT_MAP_HAS_RANK_TEN_AND_A_THIRTY_EIGHT_DIMENSIONAL_KERNEL_BUT_THE_BKM_METRIC_IS_NONDEGENERATE_ON_THE_WHOLE_KERNEL__ITS_ORTHOGONAL_COMPLEMENT_DEFINES_A_UNIQUE_EXACT_S4_EQUIVARIANT_HORIZONTAL_RIGHT_INVERSE__ALL_TWENTY_FOUR_X21R1_METRIC_TANGENTS_ARE_REPRODUCED__AFTER_QUOTIENTING_TO_THE_TWELVE_BGCE286_MOMENT_COORDINATES_THE_PREVIOUS_TWO_DIMENSIONAL_KERNEL_HAS_POSITIVE_RANK_TWO_RESPONSE_WITH_SOURCE_FIXED_COMMON_TO_RELATIVE_WEIGHT_RATIO_EIGHTEEN_TO_ONE__FIRST_ORDER_CONDUCTANCE_LIFT_NONUNIQUENESS_IS_REMOVED_IN_THE_SOURCE_EVENT_PATH_BKM_HORIZONTAL_CLASS_WITHOUT_COEFFICIENT_FIT__FULL_NONLINEAR_PARENT_ACTION_HILBERT_STRESS_WARD_SDPC_AND_UNCONDITIONAL_EINSTEIN_REMAIN_OPEN",
+  "dependency_effect": {
+    "BGCE286_first_order_curved_conductance_lift_existence": "PASS_RETAINED",
+    "BGCE286_first_order_curved_conductance_lift_uniqueness": "PASS_IN_SOURCE_EVENT_PATH_BKM_HORIZONTAL_CLASS",
+    "Hilbert_stress_source_derived": false,
+    "MMR2_and_source_three_fifths": "RETAINED_UNCHANGED",
+    "SDPC_complete": false,
+    "Ward_source_derived": false,
+    "active_source_Markov_transport_first_variation": "SOURCE_SELECTED_CANONICAL_CANDIDATE",
+    "full_finite_Umegaki_parent_action": "OPEN_NOT_IDENTIFIED_WITH_PATH_BKM_CONNECTION",
+    "full_nonlinear_integrability": "OPEN",
+    "unconditional_Einstein_dynamics": false
+  },
+  "endpoint_provenance": "NOT_ISSUED_BY_DPA__EXACT_FINITE_EVENT_PATH_INFORMATION_GEOMETRY_AUDIT_ONLY",
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+  "input_hashes_verified": {
+    "1768d7f259a8aad654092ee6100d56b77da6fc0b:audits/SRA_DPA_BGCE139_SOURCE_SPECTRAL_CYLINDER_OPERATIONAL_EVENT_IDENTIFICATION_GATE_20260919/RAW_OUTPUT.json": "ddf630fbaff1ae4e72c778f47dc2bed6906da0a8aa17d4e6a98d2c96791955e9",
+    "1768d7f259a8aad654092ee6100d56b77da6fc0b:audits/SRA_DPA_BGCE254_SOURCE_RESPONSE_LEGENDRE_EXACTNESS_TO_UNIQUE_LOGZ_BREGMAN_EDGE_ACTION_GATE_20260921/RESULT.json": "09b6b9dc098d48bfca0e00434ad43a053a03a4bf56e7a27bfacd72649a525ecc",
+    "1768d7f259a8aad654092ee6100d56b77da6fc0b:audits/SRA_DPA_BGCE256_BRAID_INDUCED_EVENT_TRANSITION_COBORDER_TO_NEIGHBOR_COUPLING_LAW_GATE_20260921/RAW_OUTPUT.json": "1fb8f3c01644aeec7ee755ce2754e0ba055ba46b0ccca5c652fef457c7d478a1",
+    "1768d7f259a8aad654092ee6100d56b77da6fc0b:audits/SRA_DPA_BGCE266_REFINEMENT_CLOCK_TO_UNIQUE_EVENT_SEMIGROUP_AND_IR_OS_CONTINUATION_GATE_20260922/RAW_OUTPUT.json": "994b78845e496b709b2f7aca93926678614623e69e06104cb2d6e2d0707a5fe2",
+    "1768d7f259a8aad654092ee6100d56b77da6fc0b:audits/SRA_DPA_BGCE268_SOURCE_GRAM_SCHUR_CHANNEL_TO_CAUSAL_METRIC_INTERTWINER_GATE_20260922/RAW_OUTPUT.json": "1e9d2355ecf83fa68832859163b6fdf473e5f6baac80c3e190ed7cded4749207",
+    "1768d7f259a8aad654092ee6100d56b77da6fc0b:audits/SRA_DPA_BGCE281_ALL_SECTOR_ORDERED_EDGE_METRIC_TANGENT_AND_NONMETRICITY_GATE_20260923/RAW_OUTPUT.json": "61fb6f04e665506e53316662e389ad7013b09879f30c311f3d24752a402ecc70",
+    "1768d7f259a8aad654092ee6100d56b77da6fc0b:audits/SRA_DPA_BGCE286_X21R1_METRIC_TANGENT_TO_BRAID_EVENT_CONDUCTANCE_VARIATION_GATE_20260923/RAW_OUTPUT.json": "6b4cb5c6ce4b579a913c71a445dff0520c0f1824ddb314a9e5fc85fdd74056bf",
+    "1768d7f259a8aad654092ee6100d56b77da6fc0b:audits/SRA_DPA_BGCE286_X21R1_METRIC_TANGENT_TO_BRAID_EVENT_CONDUCTANCE_VARIATION_GATE_20260923/RESULT.json": "3fdd73fbb10fd08cd6a35abb7ab2da5b8617df708b0808b200e95816e31b564c"
+  },
+  "microscopic_horizontal_gate": {
+    "BKM_rank_on_kernel": 38,
+    "S4_equivariance_checks": 24,
+    "horizontal_dimension": 10,
+    "kernel_BKM_orthogonality_exact": true,
+    "kernel_dimension": 38,
+    "moment_map_rank": 10,
+    "right_inverse_exact": true,
+    "target_metric_components": 10
+  },
+  "next_gate": "BGCE288_EVENT_BKM_HORIZONTAL_CONNECTION_NONLINEAR_INTEGRABILITY_AND_PARENT_VARIATION_GATE",
+  "primary_evidence_status": "Theoretical derivation with exact source-event BKM horizontal selection",
+  "runtime_class": "short exact rational linear algebra; no fit or scan",
+  "schema": "siel.dpa.bgce287.raw.v1",
+  "scientific_layer": "first-order active conductance connection over the source-derived metric tangent",
+  "source_event_path_geometry": {
+    "actual_undirected_edges_per_axis_pair": 8,
+    "common_source_rate": "2*pi/3",
+    "microscopic_rate_tangent_dimension": 48,
+    "new_fitted_coefficient": false,
+    "overall_rate_scalar_affects_horizontal_space": false,
+    "path_relative_entropy_Hessian": "positive scalar 1/r times identity on actual edge-rate tangents",
+    "unordered_axis_pairs": 6
+  },
+  "source_revision": "1768d7f259a8aad654092ee6100d56b77da6fc0b"
+}

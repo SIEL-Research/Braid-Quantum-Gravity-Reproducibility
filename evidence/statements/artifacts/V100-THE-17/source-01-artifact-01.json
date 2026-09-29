@@ -1,0 +1,1275 @@
+{
+  "schema": "siel.dpa.bqgadm014.raw.v1",
+  "scout_id": "DPA-SCOUT-BQGADM-014",
+  "attempt": 1,
+  "pinned_commit": "65c5c4f9e7084357d228b3014f189623cc4c1540",
+  "source_snapshot_id": "DPA-SNAPSHOT-65c5c4f9e708",
+  "hash_checks": {
+    "audits/SRA_DPA_BQG_G3_R01_5_SOURCE_INCIDENCE_TORSION_ADM_CONSTRAINT_SYMBOL_GATE_20260926/DPA_SCOUT_006/RAW_OUTPUT.json": {
+      "expected": "4d2ac343c4fb32969e0c794fbafcbf034ff352c399d8093a543bebd0db7c1032",
+      "actual": "4d2ac343c4fb32969e0c794fbafcbf034ff352c399d8093a543bebd0db7c1032",
+      "pass": true
+    },
+    "audits/SRA_DPA_BQG_G3_R01_5_SOURCE_INCIDENCE_TORSION_ADM_CONSTRAINT_SYMBOL_GATE_20260926/DPA_SCOUT_006/RESULT.json": {
+      "expected": "19d9c44f756488d6372b31c748c5fe30b2a7613c07726d72e8cd932ecbbf4044",
+      "actual": "19d9c44f756488d6372b31c748c5fe30b2a7613c07726d72e8cd932ecbbf4044",
+      "pass": true
+    },
+    "audits/SRA_DPA_BQG_G3_R01_5_SOURCE_PERFECT_HISTORY_GROUPOID_ADM_HDA_CLOSURE_20260926/DPA_SCOUT_012/RESULT.json": {
+      "expected": "c0a4bcbab124950f921c11430d3f4590199793981be68eba46a1e8d366539815",
+      "actual": "c0a4bcbab124950f921c11430d3f4590199793981be68eba46a1e8d366539815",
+      "pass": true
+    },
+    "audits/SRA_DPA_BQG_G3_R02_5_LINEAR_TWO_MODE_FINITE_TIME_STRONG_CONVERGENCE_GATE_20260926/DPA_SCOUT_004/RESULT.json": {
+      "expected": "e36fcd2b384367b7587657b98ff1689e99f13026af565fbc9b3c965ffde629fd",
+      "actual": "e36fcd2b384367b7587657b98ff1689e99f13026af565fbc9b3c965ffde629fd",
+      "pass": true
+    },
+    "audits/SRA_DPA_BQG_G3_R02_5_NORMALIZED_SYM2_TEN_COMPONENT_STRONG_CONVERGENCE_CLOSURE_20260926/DPA_SCOUT_010/RESULT.json": {
+      "expected": "73b4d301c0f3995539b08ef0fe0b490022252c8f397e4b1b63c96d10cee8fb0e",
+      "actual": "73b4d301c0f3995539b08ef0fe0b490022252c8f397e4b1b63c96d10cee8fb0e",
+      "pass": true
+    },
+    "audits/SRA_DPA_BGCE294_SOURCE_SYMMETRIC_PRODUCT_FUNCTOR_TO_UNIQUE_PHYSICAL_SOLDER_GATE_20260923/RESULT.json": {
+      "expected": "9ea44934718f7363ef6a98ef198be64eff262b9b65444769fd8f301a8ccdf7cb",
+      "actual": "9ea44934718f7363ef6a98ef198be64eff262b9b65444769fd8f301a8ccdf7cb",
+      "pass": true
+    },
+    "audits/SRA_DPA_BGCE447_SOURCE_CYLINDER_TO_UB612_PBM_METRIC_SAME_CARRIER_INTERTWINER_GATE_20260925/RESULT.json": {
+      "expected": "d81d334c824f8cbddce0a0a6dd24654a0c34fff496267e35d4ae4928090b6508",
+      "actual": "d81d334c824f8cbddce0a0a6dd24654a0c34fff496267e35d4ae4928090b6508",
+      "pass": true
+    }
+  },
+  "environment": {
+    "python": "3.14.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "evaluator_sha256": "ff0bed1c4bcd3910250945e1473761b1aa077e4cfe448913d16e132694a8226e"
+  },
+  "source_coordinates": {
+    "metric_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "phase_order": "six symmetric spatial metric coordinates followed by six symmetric boost/momentum coordinates",
+    "frobenius_metric_diagonal": [
+      "1",
+      "2",
+      "2",
+      "1",
+      "2",
+      "1"
+    ]
+  },
+  "axis_results": [
+    {
+      "axis": [
+        "3",
+        "0",
+        "0"
+      ],
+      "axis_index": 0,
+      "configuration_encoder_6x2": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "configuration_decoder_2x6": [
+        [
+          "0",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "configuration_projector_6x6": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "phase_projector_12x12": [
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "-1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1/2",
+          "0",
+          "1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1/2",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hamiltonian_gauge_vectors_12x4": [
+        [
+          "0",
+          "12",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "6",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "6"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-36",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "constraint_bracket_4x4": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "projected_symplectic_rank": 4,
+      "constraint_surface_dimension": 8,
+      "gauge_plus_physical_span_rank": 8,
+      "endpoints": {
+        "tt_projector_idempotent": true,
+        "tt_projector_rank_two": true,
+        "phase_projector_idempotent": true,
+        "phase_projector_rank_four": true,
+        "constraint_symbol_rank_four": true,
+        "projector_image_inside_constraint_surface": true,
+        "linear_constraint_bracket_zero": true,
+        "gauge_image_rank_four": true,
+        "projector_annihilates_gauge_image": true,
+        "projected_symplectic_rank_four": true,
+        "symplectic_self_adjoint": true,
+        "constraint_surface_equals_gauge_plus_projector_image": true,
+        "encoder_decoder_identity": true,
+        "unique_frobenius_orthogonal_tt_projector": true,
+        "exact_child_constant_refinement_commutation": true
+      }
+    },
+    {
+      "axis": [
+        "0",
+        "3",
+        "0"
+      ],
+      "axis_index": 1,
+      "configuration_encoder_6x2": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "configuration_decoder_2x6": [
+        [
+          "1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "configuration_projector_6x6": [
+        [
+          "1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/2"
+        ]
+      ],
+      "phase_projector_12x12": [
+        [
+          "1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1/2"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/2"
+        ]
+      ],
+      "hamiltonian_gauge_vectors_12x4": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "6",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "12",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "6"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-36",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "constraint_bracket_4x4": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "projected_symplectic_rank": 4,
+      "constraint_surface_dimension": 8,
+      "gauge_plus_physical_span_rank": 8,
+      "endpoints": {
+        "tt_projector_idempotent": true,
+        "tt_projector_rank_two": true,
+        "phase_projector_idempotent": true,
+        "phase_projector_rank_four": true,
+        "constraint_symbol_rank_four": true,
+        "projector_image_inside_constraint_surface": true,
+        "linear_constraint_bracket_zero": true,
+        "gauge_image_rank_four": true,
+        "projector_annihilates_gauge_image": true,
+        "projected_symplectic_rank_four": true,
+        "symplectic_self_adjoint": true,
+        "constraint_surface_equals_gauge_plus_projector_image": true,
+        "encoder_decoder_identity": true,
+        "unique_frobenius_orthogonal_tt_projector": true,
+        "exact_child_constant_refinement_commutation": true
+      }
+    },
+    {
+      "axis": [
+        "0",
+        "0",
+        "3"
+      ],
+      "axis_index": 2,
+      "configuration_encoder_6x2": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "configuration_decoder_2x6": [
+        [
+          "1/2",
+          "0",
+          "0",
+          "-1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "configuration_projector_6x6": [
+        [
+          "1/2",
+          "0",
+          "0",
+          "-1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1/2",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "phase_projector_12x12": [
+        [
+          "1/2",
+          "0",
+          "0",
+          "-1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-1/2",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "0",
+          "-1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "-1/2",
+          "0",
+          "0",
+          "1/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "hamiltonian_gauge_vectors_12x4": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "6",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "6",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "12"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-36",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "constraint_bracket_4x4": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "projected_symplectic_rank": 4,
+      "constraint_surface_dimension": 8,
+      "gauge_plus_physical_span_rank": 8,
+      "endpoints": {
+        "tt_projector_idempotent": true,
+        "tt_projector_rank_two": true,
+        "phase_projector_idempotent": true,
+        "phase_projector_rank_four": true,
+        "constraint_symbol_rank_four": true,
+        "projector_image_inside_constraint_surface": true,
+        "linear_constraint_bracket_zero": true,
+        "gauge_image_rank_four": true,
+        "projector_annihilates_gauge_image": true,
+        "projected_symplectic_rank_four": true,
+        "symplectic_self_adjoint": true,
+        "constraint_surface_equals_gauge_plus_projector_image": true,
+        "encoder_decoder_identity": true,
+        "unique_frobenius_orthogonal_tt_projector": true,
+        "exact_child_constant_refinement_commutation": true
+      }
+    }
+  ],
+  "global_endpoints": {
+    "pinned_source_hashes": true,
+    "all_three_source_axes_pass": true,
+    "all_configuration_ranks_two": true,
+    "all_phase_ranks_four": true,
+    "hierarchical_two_copy_target_present": true,
+    "no_target_equation_coefficient_or_new_action": true,
+    "nonlinear_moving_projector_present": false,
+    "arbitrary_finite_momentum_projector_present": false
+  },
+  "decision": "CLOSED_SCOPED_EXACT_FLAT_SOURCE_AXIS_PHYSICAL_PROJECTOR_AND_REFINEMENT_INTERTWINER__OPEN_NONLINEAR_MOVING_AND_ARBITRARY_MOMENTUM_PROJECTOR"
+}

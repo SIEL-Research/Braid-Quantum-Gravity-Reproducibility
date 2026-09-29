@@ -1,20 +1,50 @@
 {
   "claim_ceiling": "The tested minimal non-Abelian rectangle has zero central U(1) flux; not a no-go for larger loops.",
   "dependencies": [],
+  "direct_artifacts": [
+    {
+      "kind": "Certificate",
+      "path": "evidence/statements/artifacts/V100-PRO-04/source-01-artifact-01.json",
+      "sha256": "f37b70c73af96ff27a867486533821ad8ec9315e9b0f493696dd46dd0aa67dcc"
+    },
+    {
+      "kind": "Input provenance",
+      "path": "evidence/statements/artifacts/V100-PRO-04/source-01-artifact-02.json",
+      "sha256": "119f12376a149e43a94d0795fe161212291d1244cc57119b7ee7b6b58d5b5342"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-PRO-04/source-01-artifact-03.json",
+      "sha256": "95b6413dc4c5a00305cb3089fcd7451e8716e258d4463390fe68efa332082e1f"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-PRO-04/source-01-artifact-04.json",
+      "sha256": "18d72d22c2d5fa995704884ade83cbf3151046d6550f326e51003ba0f45f8481"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-PRO-04/source-01-artifact-05.py",
+      "sha256": "7abfde2ec3c762c54d1674ee0a5910cd83a68adcaf3be7435de120c7bd9dae48"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-PRO-04/source-01-artifact-06.py",
+      "sha256": "0f0e967e16c6c19527fa1da9462305824c691f87a7530248aa8f8f87bc318109"
+    }
+  ],
   "id": "V100-PRO-04",
   "paper_number": "Proposition 16.4",
   "pdf_page": 15,
-  "public_files": [],
   "public_urls": [],
   "schema": "siel.bqg.public-statement-evidence.v1",
-  "status": "PUBLIC_CODE",
-  "vendored_bundles": [
+  "source_bundle_digests": [
     {
       "file_count": 11,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BQGNEUT031_FINITE_NEUTRAL_CTP_ACTION_TO_CAUSAL_FACE_TWO_FORM_TRANSGRESSION_GATE_20260928",
       "sha256_tree": "cbf3e6ebd55d2ca8b9db051cfbc23cb6b2e0848fefcdff368e920f520b93386a"
     }
   ],
+  "status": "PUBLIC_CODE",
   "verification_command": "python3 scripts/verify_all.py"
 }

@@ -1,0 +1,97 @@
+{
+  "schema": "siel.dpa.bgce300r1.raw.v1",
+  "candidate_id": "BGCE300R1",
+  "source_revision": "777c293ff3425a0778511edf421d7a155be0a993",
+  "preregistered_question": "BGCE300 inherited unchanged; implementation revision only",
+  "input_hashes_verified": {
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE089_CUMULANT_METRIC_X78_AFFINE_CURVATURE_PALATINI_CELL_ACTION_GATE_20260919/RESULT.json": "98908330729181900b8ec8e8bf6e06c70ed1d9433f8ae32c9613b9362886e775",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE099_CONDITIONAL_CONTINUUM_PALATINI_ACTION_AND_VARIATION_THEOREM_20260919/RESULT.json": "5cc58c5a70ce59328171a6a04d611540fc13201dbb41f283358c62291e9df7c9",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE138_SOURCE_CYLINDER_DIAGONAL_LOCALIZATION_AND_MINIMAL_SMOOTH_CARTAN_COMPLETION_GATE_20260919/RESULT.json": "7bd3516a3ee5bea31194b43b98178a009762f7bbd3381e127dcaf91da11e42bb",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE139_SOURCE_SPECTRAL_CYLINDER_OPERATIONAL_EVENT_IDENTIFICATION_GATE_20260919/RESULT.json": "43c669ff058101818f98ab486770c10cda68d9af1dbd7c9d170fb19cd1fba110",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE235_FULL_CORNER_MATTER_ACTION_AND_OUTER_UNIT_COMPOSITION_GATE_20260921/RESULT.json": "c443370d2729eaad99cc0bc09ed85799704d88093d91915a122bcc9f5019a0f4",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE238_FIXED_SOURCE_PACKET_COHERENCE_SELECTION_GATE_20260921/RESULT.json": "f44a621ba78109b65a477146f62a46015651d1d1f587ba716e9f4ae889f4ede0",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE239_MMR2_CLOSURE_DEPENDENCY_PROPAGATION_TO_SOURCED_EINSTEIN_GATE_20260921/RESULT.json": "c62900cffe815c7559cac302d54a8672ac16bfbd36115444de84f158dd34e63e",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE256_BRAID_INDUCED_EVENT_TRANSITION_COBORDER_TO_NEIGHBOR_COUPLING_LAW_GATE_20260921/RESULT.json": "21d80b1c2d1779598cba6f5f9e85dfbbb7a96e059e7e5aa28b5bf726908afc0f",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE283_S4_CHART_EQUIVARIANT_METRIC_TENSOR_GLUE_GATE_20260923/RESULT.json": "522fd5a22470cb741fbf2911b52140028178f8686a16a371921fee00ce5f11a2",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE284_LOCAL_GL4_NATURALITY_AND_VARIATIONAL_STRESS_WARD_GATE_20260923/RESULT.json": "6d18e979b7e66ca4c7a5d051253afacad02b750cfdc2ad30c1d1f86f9a0a832e",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE294_SOURCE_SYMMETRIC_PRODUCT_FUNCTOR_TO_UNIQUE_PHYSICAL_SOLDER_GATE_20260923/RESULT.json": "9ea44934718f7363ef6a98ef198be64eff262b9b65444769fd8f301a8ccdf7cb",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE295_FINITE_BRAID_ACTION_TO_CONTINUUM_HILBERT_VARIATION_IDENTITY_GATE_20260923/RAW_OUTPUT.json": "d80a5de6e382178e5281bd6a1228b2d822d7d02797fafe551c6091365190270b",
+    "777c293ff3425a0778511edf421d7a155be0a993:audits/SRA_DPA_BGCE299_INDEPENDENT_STRESS_WARD_COMPLETION_RED_TEAM_AND_CLAIM_CEILING_AUDIT_20260923/RESULT.json": "f077cb7e84ce29bbbcd2e8593d539c0ed9b2581a913a210151005c508cb6ee0b"
+  },
+  "baseline_gate": "PASS_REVISION_MATCHED_13_SOURCE_DEPENDENCIES",
+  "primary_evidence_status": "Theoretical dependency assembly and variational derivation in a declared continuum class",
+  "scientific_layer": "source-stress backreaction and low-energy massless spin-2 Einstein output",
+  "gravity_provenance": {
+    "source_native_finite_first_order_action_preexists": true,
+    "base": "Q=(0,1)^4",
+    "carrier": "native metric-affine GL4",
+    "formal_vacuum_first_variation": true,
+    "target_inserted_in_this_gate": false
+  },
+  "same_base_same_metric_gate": {
+    "S4_tensor_glue": "PASS",
+    "same_source_event_base": true,
+    "local_GL4_naturality": "PASS",
+    "source_typed_solder": "A maps to U^T A U",
+    "matter_action_metric_tokens": true,
+    "common_variable": "g"
+  },
+  "same_matter_lineage_gate": {
+    "full_corner_BKM_rank": 10,
+    "MMR2": "CLOSED",
+    "neighbor_dynamics": true,
+    "edge_action": "logZ Bregman/Umegaki",
+    "new_action_in_BGCE295": false
+  },
+  "routing_gate": {
+    "kappa_B": "3/5",
+    "manual": false,
+    "MMR2_removed": true,
+    "relative_routing_closed": true
+  },
+  "stress_Ward_gate": {
+    "Hilbert": "FINAL_PASS_IN_DECLARED_CLASS",
+    "Ward": "FINAL_PASS_IN_DECLARED_CLASS",
+    "A48": "CLOSED_IN_DECLARED_CLASS",
+    "scope": "LONG_WAVELENGTH_LOCAL_SECOND_ORDER_FORMALLY_SELF_ADJOINT_CONSERVATIVE"
+  },
+  "variational_ledger": {
+    "delta_Sg": "(1/(2*kappa_B)) integral sqrt|g| G_mn delta g^mn",
+    "delta_Sm": "-(1/2) integral sqrt|g| T_mn delta g^mn",
+    "stationarity": "G_mu_nu(g)=(3/5)T_mu_nu(g,lambda)",
+    "compatibility": "Bianchi plus on-shell Ward on the same g",
+    "new_mixed_term": false,
+    "fit": false
+  },
+  "low_energy_spin2_gate": {
+    "anchor": "e=3 I_4 and Gamma=0",
+    "connection_reduction": "Levi-Civita modulo projective mode invisible to symmetric Ricci",
+    "quadratic_class": "massless Fierz-Pauli",
+    "on_shell_flat_source": "partial^mu T_mu_nu=0",
+    "helicities": 2,
+    "mass_or_cosmological_term_added": false
+  },
+  "final_decision": {
+    "A49_backreaction": "FULL_SCOPED_PASS",
+    "equation": "G_mu_nu(g)=(3/5)T_mu_nu(g,lambda)",
+    "equation_status": "DERIVED_IN_FIXED_SOURCE_MODEL_AND_DECLARED_LONG_WAVELENGTH_CONTINUUM_CLASS",
+    "low_energy_spin2": "PASS_STANDARD_PALATINI_TO_FIERZ_PAULI_REDUCTION_ON_SOURCE_FLAT_ANCHOR",
+    "manual_three_fifths": false,
+    "Einstein_tensor_used_to_define_matter_stress": false,
+    "new_Einstein_Hilbert_action_inserted": false,
+    "full_finite_quantum_backreaction": false,
+    "physical_Newton_constant_units_calibrated": false,
+    "empirical_gravity": false
+  },
+  "decision": "FULL_SCOPED_PASS__THE_PREEXISTING_SOURCE_NATIVE_FINITE_FIRST_ORDER_GRAVITY_ACTION_AND_THE_FULL_CORNER_BKM_UMEGAKI_MATTER_ACTION_LIVE_ON_THE_SAME_BGCE138_SOURCE_EVENT_BASE_AND_VARY_THE_SAME_LOCAL_GL4_METRIC_G__BGCE238_CLOSES_FIXED_MODEL_MMR2__BGCE235_239_SUPPLY_NONMANUAL_RELATIVE_THREE_FIFTHS__BGCE299_SUPPLIES_HILBERT_STRESS_AND_ON_SHELL_WARD__THE_COMBINED_FIRST_VARIATION_THEREFORE_GIVES_G_MN_EQUALS_THREE_FIFTHS_T_MN_IN_THE_DECLARED_LONG_WAVELENGTH_CLASS__THE_FLAT_SOURCE_ANCHOR_QUADRATIC_LIMIT_IS_THE_MASSLESS_FIERZ_PAULI_SPIN2_GAUGE_CLASS__NO_NEW_EINSTEIN_TARGET_ACTION_OR_FITTED_COEFFICIENT_IS_INSERTED__A49_CLOSED_IN_SCOPE",
+  "counter_intuition_scan": {
+    "ordinary_explanation": "A shared metric Palatini sector plus a diffeomorphism-covariant metric matter action gives standard backreaction and a massless spin-2 flat quadratic limit.",
+    "SIEL_specific_part": "The finite gravity action, event base, metric solder, full-corner matter action, routing and 3/5 have one pointed-Braid source provenance.",
+    "strongest_remaining_alternative": "This may remain only a long-wavelength effective theory; a full finite Lorentzian quantum parent can contain higher-curvature, nonlocal or clock-dependent terms.",
+    "falsifier": "A source-identity proof that the two g variables or matter lineages differ, or an independent surviving relative action rescaling."
+  },
+  "runtime_class": "SUBSECOND_REVISION_MATCHED_DEPENDENCY_AND_SYMBOLIC_VARIATION_AUDIT_NO_SCAN",
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+  "next_gate": "BGCE301_A50_FINITE_QUANTUM_BACKREACTION_AND_HIGHER_DERIVATIVE_RESIDUAL_BOUNDARY_GATE",
+  "claim_ceiling": "BGCE300R1 closes noncircular sourced Einstein backreaction and the low-energy massless spin-2 output only inside the fixed source model and the declared long-wavelength local second-order formally self-adjoint conservative continuum class. It does not derive full finite Lorentzian quantum backreaction, exclude higher-curvature or nonlocal corrections, calibrate the dimensionful Newton constant, validate natural spacetime empirically, or complete quantum gravity."
+}

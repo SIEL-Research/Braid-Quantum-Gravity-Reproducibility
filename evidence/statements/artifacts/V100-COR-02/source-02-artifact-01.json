@@ -1,0 +1,34 @@
+{
+  "inputs": [
+    {
+      "name": "bgce490_result",
+      "path": "audits/SRA_DPA_BGCE490_SOURCE_STRUCTURED_LOW_NORMALIZATION_SPECTRAL_FACTOR_OR_DIRECT_QUOTIENT_QSP_GATE_20260925/DPA_SCOUT_001/RESULT.json",
+      "sha256": "640e7d62876b420ee79cab0000c6465d4913ee91e6c2d65e8ac1a0ee0a46769a"
+    },
+    {
+      "name": "bgce491_result",
+      "path": "audits/SRA_DPA_BGCE491_TYPED_HALMOS_CHEBYSHEV_WALK_TO_SOURCE_WORD_LOCAL_COMPILATION_GATE_20260925/DPA_SCOUT_001/RESULT.json",
+      "sha256": "1bb60b005bd075447a42b0a53a57eb9c1f34d74fb0eeb664ef22c37747108ea9"
+    },
+    {
+      "name": "bgce493_raw",
+      "path": "audits/SRA_DPA_BGCE493_END_TO_END_FINITE_ACTUATOR_RESOURCE_AND_ERROR_BUDGET_GATE_20260925/DPA_SCOUT_001/RAW_OUTPUT.json",
+      "sha256": "073345f3b1669704af85d428d6d05e4a0ebcc841f5e8411805d4dd244fe0a7fe"
+    },
+    {
+      "name": "bgce494_result",
+      "path": "audits/SRA_DPA_BGCE494_MINIMAL_G1_SOURCE_WORD_LCU_NATIVE_COMPILER_GATE_20260925/DPA_SCOUT_001/RESULT.json",
+      "sha256": "301a35c9046eae29ba696ec2753b365145eeb23a5bab26704b4bce9ab7615f5b"
+    },
+    {
+      "name": "bgce494_raw",
+      "path": "audits/SRA_DPA_BGCE494_MINIMAL_G1_SOURCE_WORD_LCU_NATIVE_COMPILER_GATE_20260925/DPA_SCOUT_001/RAW_OUTPUT.json",
+      "sha256": "7ad8fa523a0f124b03623f8e28061d9b81c6783cd4d1dde4f428f089b2055346"
+    }
+  ],
+  "no_coefficient_fit": true,
+  "no_manual_phase_tuning": true,
+  "no_randomness": true,
+  "schema": "siel.dpa.bgce495.input-manifest.v1",
+  "source_commit": "b1b3c7fc77082394c09bdd2546c52f8a963f14f9"
+}

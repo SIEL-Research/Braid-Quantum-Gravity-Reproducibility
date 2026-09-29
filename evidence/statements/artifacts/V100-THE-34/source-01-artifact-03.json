@@ -1,0 +1,207 @@
+{
+  "affine_response_uniqueness": {
+    "candidate": "a C(e_i,e_j)+b C(e_i,0)",
+    "conditions": [
+      "a+b=0 baseline annihilation",
+      "a=1 unit source-lattice response"
+    ],
+    "system_determinant": "-1",
+    "unique_solution": [
+      "1",
+      "-1"
+    ]
+  },
+  "claim_ceiling": "No uniqueness among all source functionals, no absolute Yukawa or mass scale, no observed-generation assignment, neutrino content, running, CKM/PMNS, CP violation, empirical Standard Model or completed quantum gravity.",
+  "controls": {
+    "symmetric_second_difference_differs_from_Y": true,
+    "symmetric_second_difference_selector_is_normal": true,
+    "uncentered_W1_differs_and_has_nonzero_baseline": true
+  },
+  "counter_intuition": "The theorem is unique only in the declared affine first-order pointed-response class. Nonlinear functionals and an overall dimensionful normalization remain outside the gate, so this is not an observed mass derivation.",
+  "decision": "SCOPED_PASS_BGCE546_SELECTOR_IS_THE_EXACT_CANONICAL_SOURCE_VARIATION_OF_THE_BGCE439_YUKAWA_TRILINEAR_AND_REPRODUCES_THE_BGCE532_FINITE_DETERMINANT__PHYSICAL_RELATIVE_YUKAWA_IDENTIFICATION_REMOVED_WITHIN_DECLARED_POINTED_FIRST_ORDER_KMS_RESPONSE_CLASS",
+  "declared_class": "BGCE439 gauge-neutral odd-odd-even source-trace cubic with coefficient-free affine pointed-right first-order KMS response, BGCE544 generation basis and BGCE532 CTP adjoint pairing",
+  "determinant_consistency": {
+    "M_H": "H Y",
+    "all_coefficients_strictly_positive": true,
+    "det_I_plus_xYtY_coefficients_ascending": [
+      "1",
+      "24353683201/332150625000000",
+      "37755512522168081/86190654443664550781250000",
+      "6594028382154653653444/139786522180772499181330204010009765625"
+    ],
+    "matches_BGCE532_ordinary_exterior_trace_class": true,
+    "mixed_Hstar_H_variation": [
+      [
+        "8072863259/332150625000000",
+        "5608041239/332150625000000",
+        "-7535042183/332150625000000"
+      ],
+      [
+        "5608041239/332150625000000",
+        "2427628097/110716875000000",
+        "-7772368627/332150625000000"
+      ],
+      [
+        "-7535042183/332150625000000",
+        "-7772368627/332150625000000",
+        "8997935651/332150625000000"
+      ]
+    ],
+    "neutral_quadratic": "M_H* M_H=|H|^2 Y^T Y"
+  },
+  "evidence_status": "Theoretical derivation",
+  "exact_tests": {
+    "T10_SYMMETRIC_CONTROL_IS_DIFFERENT_AND_NORMAL": true,
+    "T11_NO_OBSERVED_MASS_OR_MIXING_INPUT": true,
+    "T1_PINNED_INPUTS": true,
+    "T2_POINTED_KERNEL_IS_EXACT_FINITE_VARIATION": true,
+    "T3_ACTION_VARIATION_EQUALS_BGCE546_Y": true,
+    "T4_AFFINE_FIRST_ORDER_RESPONSE_UNIQUE": true,
+    "T5_CTP_REVERSE_IS_TRANSPOSE": true,
+    "T6_CTP_REAL_BLOCK_IS_SYMMETRIC": true,
+    "T7_MIXED_HIGGS_VARIATION_EQUALS_RETAINED_YtY": true,
+    "T8_FINITE_DETERMINANT_POLYNOMIAL_STRICTLY_POSITIVE": true,
+    "T9_UNCENTERED_CONTROL_FAILS_BASELINE_ANNIHILATION": true
+  },
+  "observed_mass_or_mixing_fit_used": false,
+  "ordinary_explanation": "BGCE439 had already fixed the allowed Yukawa trilinear types. The remaining generation coefficient is not inserted from a target spectrum: it is the exact unit finite variation from the pointed KMS baseline to the three source neighbours, mapped through the already derived generation basis. The same coefficient and its transpose produce the positive mass operator used by the finite determinant.",
+  "pass_rule": true,
+  "schema": "siel.dpa.bgce552.raw.v1",
+  "scientific_layer": "finite source-derived variational Yukawa action",
+  "scout_id": "DPA-SCOUT-BGCE552-001",
+  "source_commit": "6390e7ee5464737b7e6bcb7a1dd0a93fb4964e20",
+  "source_variation": {
+    "W0": [
+      [
+        "2347/3037500",
+        "2347/3037500",
+        "2347/3037500"
+      ],
+      [
+        "3593/3037500",
+        "3593/3037500",
+        "3593/3037500"
+      ],
+      [
+        "2408/759375",
+        "2408/759375",
+        "2408/759375"
+      ]
+    ],
+    "W1": [
+      [
+        "70253/18225000",
+        "24761/18225000",
+        "-4087/6075000"
+      ],
+      [
+        "24761/18225000",
+        "70253/18225000",
+        "-11473/18225000"
+      ],
+      [
+        "-4087/6075000",
+        "-11473/18225000",
+        "142721/18225000"
+      ]
+    ],
+    "Y": [
+      [
+        "56171/18225000",
+        "10679/18225000",
+        "-2927/2025000"
+      ],
+      [
+        "3203/18225000",
+        "9739/3645000",
+        "-33031/18225000"
+      ],
+      [
+        "-23351/6075000",
+        "-13853/3645000",
+        "84929/18225000"
+      ]
+    ],
+    "kernel": [
+      [
+        "979/6834375",
+        "-623/9112500",
+        "-1457/3645000"
+      ],
+      [
+        "0",
+        "1397/6834375",
+        "-671/2025000"
+      ],
+      [
+        "0",
+        "0",
+        "29687/54675000"
+      ]
+    ],
+    "prepotential": "W(t)=sum_ij[(1-t)C(e_i,0)+tC(e_i,e_j)]L_i^*L_j",
+    "variation": "dW/dt=W(1)-W(0)=Y"
+  },
+  "variational_Yukawa_action": {
+    "CTP_real_block": [
+      [
+        "0",
+        "0",
+        "0",
+        "56171/18225000",
+        "10679/18225000",
+        "-2927/2025000"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "3203/18225000",
+        "9739/3645000",
+        "-33031/18225000"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "-23351/6075000",
+        "-13853/3645000",
+        "84929/18225000"
+      ],
+      [
+        "56171/18225000",
+        "3203/18225000",
+        "-23351/6075000",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "10679/18225000",
+        "9739/3645000",
+        "-13853/3645000",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-2927/2025000",
+        "-33031/18225000",
+        "84929/18225000",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "CTP_real_block_symmetric": true,
+    "forward_term": "H * bar(psi_L) Y psi_R",
+    "gauge_neutral_typed_cycles": [
+      "up",
+      "down",
+      "lepton"
+    ],
+    "reverse_term": "H* * bar(psi_R) Y^T psi_L",
+    "third_mixed_variation": "delta_H delta_barpsiL delta_psiR S_Y = Y",
+    "total_parity_mod_2": 0
+  }
+}

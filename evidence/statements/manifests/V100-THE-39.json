@@ -1,20 +1,50 @@
 {
   "claim_ceiling": "Finite unitary and CP-odd invariant in the fixed convention; no PMNS agreement claim.",
   "dependencies": [],
+  "direct_artifacts": [
+    {
+      "kind": "Certificate",
+      "path": "evidence/statements/artifacts/V100-THE-39/source-01-artifact-01.json",
+      "sha256": "7c8036b032016982081d1a79ce1fa05689029d8031afe079e9da2428bede7a3b"
+    },
+    {
+      "kind": "Input provenance",
+      "path": "evidence/statements/artifacts/V100-THE-39/source-01-artifact-02.json",
+      "sha256": "17e396fda1ba19bb738714dffa2a5be1e0ee3175a3ffe67ee0706b691513167d"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-39/source-01-artifact-03.json",
+      "sha256": "2d09c42c549652ab0c8a7966ac209cbf9bed976c07a467c5fd0bb9f281f7e21d"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-39/source-01-artifact-04.json",
+      "sha256": "41c92e440b85581389ebef666dad8fe8629044e327eef19dd0b8261ef196cccf"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-39/source-01-artifact-05.py",
+      "sha256": "fccbb4bbffe2df330dbc269b3f8df2233d6a2f1708d7a46c52d460aa25958dde"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-39/source-01-artifact-06.py",
+      "sha256": "90847c813a602d8fa77f342f20fdea444741392a3b9b5dbcca1705ca6587f44b"
+    }
+  ],
   "id": "V100-THE-39",
   "paper_number": "Theorem 16.2",
   "pdf_page": 14,
-  "public_files": [],
   "public_urls": [],
   "schema": "siel.bqg.public-statement-evidence.v1",
-  "status": "PUBLIC_CODE",
-  "vendored_bundles": [
+  "source_bundle_digests": [
     {
       "file_count": 12,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BQGNEUT024_SOURCE_ORDERED_C3_WEIGHTED_FLOQUET_SIMULTANEOUS_CP_GAP_GATE_20260928",
       "sha256_tree": "b0ff69e32e7cc7c89f02de19ef3cfb8962d23b51ffc45b500e232189b82f0be5"
     }
   ],
+  "status": "PUBLIC_CODE",
   "verification_command": "python3 scripts/verify_all.py"
 }

@@ -1,20 +1,65 @@
 {
   "claim_ceiling": "Three-generator refinement representation in the declared signed-sector model.",
   "dependencies": [],
+  "direct_artifacts": [
+    {
+      "kind": "Input provenance",
+      "path": "evidence/statements/artifacts/V100-THE-14/source-01-artifact-01.json",
+      "sha256": "339263070f2391a586e6866c3135fc1e3988784d884a7e819dcb1e623707cfac"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-14/source-01-artifact-02.json",
+      "sha256": "eded02d256a2566e129479b7a7f428cb1f744211cfc4439f8e8d2799bc2e2809"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-14/source-01-artifact-03.json",
+      "sha256": "b5c326d21b6e3066a2d4ad2572a81bf2a27af8eae6a09478a1379469f1530804"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-14/source-01-artifact-04.py",
+      "sha256": "0f079f84587616a0a03d8d3947d506a340748f9ac65b17185b9c692bfcaa3cdc"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-14/source-01-artifact-05.py",
+      "sha256": "76050963ca972f38c2cbe120ccf1ba7824d331e071fa06a5081e49121f99bb1b"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-14/source-01-artifact-06.json",
+      "sha256": "40378f06beabfd31ce1c984abc71e7c94baea9e70613008346ed2c7c6e499e7a"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-14/source-01-artifact-07.py",
+      "sha256": "a1b061f4ec0744463f3082694cb4bb16bb69ee66b53392594359755249be5775"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-14/source-01-artifact-08.py",
+      "sha256": "108558d1dcd599d0abe02d152774875c52cafdb4f78e3235002be1ef70ac6d78"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-14/source-01-artifact-09.py",
+      "sha256": "1ddee436c1ccdb800700c8c7dd8e3441de5eca7632e684bc9a8d53025bb66d96"
+    }
+  ],
   "id": "V100-THE-14",
   "paper_number": "Theorem 9.1",
   "pdf_page": 8,
-  "public_files": [],
   "public_urls": [],
   "schema": "siel.bqg.public-statement-evidence.v1",
-  "status": "PUBLIC_CODE",
-  "vendored_bundles": [
+  "source_bundle_digests": [
     {
       "file_count": 104,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE443_SOURCE_REFINEMENT_LIMIT_UNBOUNDED_DERIVATION_THREE_PLANE_GATE_20260925",
       "sha256_tree": "926dbc01b09a6e2803c798bed6e07536ed30d4bd5068ebb150920154253ff1fa"
     }
   ],
+  "status": "PUBLIC_CODE",
   "verification_command": "python3 scripts/verify_all.py"
 }

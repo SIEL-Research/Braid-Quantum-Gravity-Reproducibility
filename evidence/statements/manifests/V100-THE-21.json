@@ -1,26 +1,55 @@
 {
   "claim_ceiling": "Positive conductances and spectral dimension in the declared hierarchy.",
   "dependencies": [],
+  "direct_artifacts": [
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-21/source-01-artifact-01.json",
+      "sha256": "1f964c5659d3fae29caa1b399f78cadcf14a671d7a72ea94f381cc5e90db981d"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-21/source-01-artifact-02.py",
+      "sha256": "9bd97387a71be9618af50c10ca7d0d9edf3856b466fbdfb6cfecd44e173116f4"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-21/source-01-artifact-03.py",
+      "sha256": "d5e1029b16926809eeae48ac600b55ddbe5d99a88ac17807ed190b6bbd0000a3"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-21/source-02-artifact-01.json",
+      "sha256": "4fed9753cb972805589fe3ca4277c5c766b40b007db02df609b3f89f9a465690"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-21/source-02-artifact-02.py",
+      "sha256": "9ce04b576c903c5e114bdbe3a378dc51d15a0d458b120392b1457b5517cb1354"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-21/source-02-artifact-03.py",
+      "sha256": "3c6c62b929848a638c9e4cbd03349ffbbf91cdaf382d12133f4fbc583edca1bd"
+    }
+  ],
   "id": "V100-THE-21",
   "paper_number": "Theorem 10.3",
   "pdf_page": 9,
-  "public_files": [],
   "public_urls": [],
   "schema": "siel.bqg.public-statement-evidence.v1",
-  "status": "PUBLIC_CODE",
-  "vendored_bundles": [
+  "source_bundle_digests": [
     {
       "file_count": 5,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE452_SOURCE_HIERARCHICAL_SPATIAL_LAPLACIAN_UCP_HEAT_AND_WARD_GATE_20260925",
       "sha256_tree": "169d73a0e0402815f8ba5ea63c3ce2ddb3fa4a8b6e8ceb4a387a73feb963e586"
     },
     {
       "file_count": 5,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BGCE456_ACTUAL_METRIC_CONDUCTANCE_HIERARCHICAL_MARKOV_AND_WAVE_COMPATIBILITY_GATE_20260925",
       "sha256_tree": "cda166dce67a57ca10960d4e8ca229bfd9abfa1a104a10229b5551c518d05822"
     }
   ],
+  "status": "PUBLIC_CODE",
   "verification_command": "python3 scripts/verify_all.py"
 }

@@ -1,0 +1,16 @@
+{
+  "schema": "siel.dpa.scout.input-manifest.v1",
+  "scout_id": "DPA-SCOUT-BGCE464-001",
+  "source_commit": "f0f5a77425897b4e74719598967b635abc457101",
+  "source_snapshot_id": "DPA-SNAPSHOT-f0f5a7742589",
+  "inputs": [
+    {"path": "audits/SRA_DPA_BGCE459_SOURCE_COUNTING_GLUE_TO_BORN_PROBABILITY_UNIQUENESS_GATE_20260925/DPA_SCOUT_001/RESULT.json", "sha256": "e251051f4e88e91fa2fb66ca6233226cf55bcc38c339860f0def0beba08957f3", "role": "source-typed C-invariant cylinder dagger projectors"},
+    {"path": "audits/SRA_DPA_BGCE459_SOURCE_COUNTING_GLUE_TO_BORN_PROBABILITY_UNIQUENESS_GATE_20260925/DPA_SCOUT_001/RAW_OUTPUT.json", "sha256": "3ee60445d4a516e4ed5abca170d27505421b9990cdc8003167fae792568f8e3d", "role": "36-line complex carrier baseline"},
+    {"path": "audits/SRA_DPA_BGCE463_RESIDUAL_TWO_COMPONENT_INVARIANT_IDENTIFICATION_GATE_20260925/DPA_SCOUT_001/RESULT.json", "sha256": "77c7b3fed88a0f1748fc590d4ddef83e39524d5ba6c1e9c59e5dade49bad2bf2", "role": "adjudicated Z2 grading"},
+    {"path": "audits/SRA_DPA_BGCE463_RESIDUAL_TWO_COMPONENT_INVARIANT_IDENTIFICATION_GATE_20260925/DPA_SCOUT_001/RAW_OUTPUT.json", "sha256": "0072421a66c0ca0d64d8c26b0c939865c81c8561685d58008145988a36bf891e", "role": "universal two-component exact evidence"},
+    {"path": "audits/SRA_DPA_BGCE463_RESIDUAL_TWO_COMPONENT_INVARIANT_IDENTIFICATION_GATE_20260925/DPA_SCOUT_001/evaluate_scout.py", "sha256": "3701a07f08c29ce4b7d22d28c642230b763ffe2ee5677382508c018a2d95b2b0", "role": "exact carrier and generator reconstruction"},
+    {"path": "audits/UB443_TYPED_SIGNED_SURVIVOR_GAUGE_OR_OBSERVABLE_GATE/evaluate.py", "sha256": "ad53908146ba65d9de71994c0b297fac759a05c4938378f6cc962bbf9eae8c9e", "role": "all eight source endpoint/Brauer sectors"}
+  ],
+  "path_semantics": "All 36 source C-cycle lines, all seven fixed endpoint/Brauer placements, all eight signed sectors; no searched word or fitted link.",
+  "forbidden_inputs": ["arbitrary non-source projector", "selected favorable signed sector", "searched product word", "external link", "fitted morphism", "target Hamiltonian", "numeric zero threshold"]
+}

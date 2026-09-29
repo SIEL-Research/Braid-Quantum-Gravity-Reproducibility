@@ -1,0 +1,55 @@
+{
+  "schema": "siel.dpa.bgce295.raw.v1",
+  "candidate_id": "BGCE295",
+  "source_revision": "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14",
+  "input_hashes_verified": {
+    "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14:audits/SRA_DPA_BGCE143_EXTENSIVE_LOCAL_G1_INTERACTION_TO_QUANTUM_MARKOV_CYLINDER_ACTION_DENSITY_GATE_20260919/RESULT.json": "c5f2ec4ce8bcb97d70b7ce579c82220d95a677ee052f3720fe564a49430cbbbc",
+    "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14:audits/SRA_DPA_BGCE252_NEIGHBOR_GIBBS_RELATIVE_ENTROPY_TO_BKM_DIRICHLET_PARENT_ACTION_GATE_20260921/RAW_OUTPUT.json": "9784ab029d0b5c3e272f92fdb559ceb1d1c0ea5227c54c26164b7a9ecfb59bca",
+    "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14:audits/SRA_DPA_BGCE252_NEIGHBOR_GIBBS_RELATIVE_ENTROPY_TO_BKM_DIRICHLET_PARENT_ACTION_GATE_20260921/RESULT.json": "e63682ebab7cbc91b4e9b04f6ab5aa451ffce04fdfa07494cffd78e1962b7520",
+    "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14:audits/SRA_DPA_BGCE254_SOURCE_RESPONSE_LEGENDRE_EXACTNESS_TO_UNIQUE_LOGZ_BREGMAN_EDGE_ACTION_GATE_20260921/RESULT.json": "09b6b9dc098d48bfca0e00434ad43a053a03a4bf56e7a27bfacd72649a525ecc",
+    "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14:audits/SRA_DPA_BGCE256_BRAID_INDUCED_EVENT_TRANSITION_COBORDER_TO_NEIGHBOR_COUPLING_LAW_GATE_20260921/RAW_OUTPUT.json": "1fb8f3c01644aeec7ee755ce2754e0ba055ba46b0ccca5c652fef457c7d478a1",
+    "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14:audits/SRA_DPA_BGCE256_BRAID_INDUCED_EVENT_TRANSITION_COBORDER_TO_NEIGHBOR_COUPLING_LAW_GATE_20260921/RESULT.json": "21d80b1c2d1779598cba6f5f9e85dfbbb7a96e059e7e5aa28b5bf726908afc0f",
+    "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14:audits/SRA_DPA_BGCE266_REFINEMENT_CLOCK_TO_UNIQUE_EVENT_SEMIGROUP_AND_IR_OS_CONTINUATION_GATE_20260922/RAW_OUTPUT.json": "994b78845e496b709b2f7aca93926678614623e69e06104cb2d6e2d0707a5fe2",
+    "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14:audits/SRA_DPA_BGCE266_REFINEMENT_CLOCK_TO_UNIQUE_EVENT_SEMIGROUP_AND_IR_OS_CONTINUATION_GATE_20260922/RESULT.json": "3a3917608252c94e2cd67232340c878db75403602fdf4464c0cc3fffac471fb7",
+    "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14:audits/SRA_DPA_BGCE285_SOURCE_CYLINDER_MEASURE_AND_MARKOV_NATURALITY_TO_UNIQUE_MINIMAL_COVARIANT_PARENT_GATE_20260923/RESULT.json": "47bd68516602ab7994118212b4901f655006dd5cf9cb032aee43a40981287abf",
+    "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14:audits/SRA_DPA_BGCE293_FINITE_POSITIVE_BKM_EXPONENTIAL_LEAF_INTEGRATION_GATE_20260923/RESULT.json": "84e2159082664e903b3a9b556470e5a9eb9e73d45f862f3532150e9145ab5766",
+    "54bb4adb635eba0a5ccc5afd7e9d2818ecb50a14:audits/SRA_DPA_BGCE294_SOURCE_SYMMETRIC_PRODUCT_FUNCTOR_TO_UNIQUE_PHYSICAL_SOLDER_GATE_20260923/RESULT.json": "9ea44934718f7363ef6a98ef198be64eff262b9b65444769fd8f301a8ccdf7cb"
+  },
+  "baseline_gate": "PASS_REVISION_MATCHED_BGCE143_252_254_256_266_285_293_294",
+  "primary_evidence_status": "Theoretical derivation in the declared long-wavelength local second-order conservative class",
+  "finite_to_continuum_identity": {
+    "edge_scalar_selected": "logZ Bregman/Umegaki",
+    "second_label_variation": "BKM Hessian G_AB(lambda)",
+    "finite_scaling": "h^-2 times h^4 edge sum",
+    "continuum_principal_form": "(1/2) integral sqrt|g| G_AB g^mn partial_m lambda^A partial_n lambda^B d4x",
+    "metric_source_derivative": "M dr/dy=I from BGCE293 horizontal inverse",
+    "Lorentz_principal_tensor": "Q4 source-OS-continued to K_evt",
+    "unique_metric_solder": "A maps to U^T A U",
+    "variation_limit_commutes": "PASS_LOCALLY_FOR_C2_FIELDS_AND_FAITHFUL_FINITE_GIBBS_FAMILY",
+    "reason": "the edge Bregman remainder is uniformly O(h^3) with its first source derivative on compact local source neighborhoods; h^-2 h^4 times O(h^3) summed over O(h^-4) cells is O(h)"
+  },
+  "hilbert_ward": {
+    "Hilbert_stress": "T_mn=G_AB(lambda)[partial_m lambda^A partial_n lambda^B-(1/2)g_mn g^rs partial_r lambda^A partial_s lambda^B]",
+    "off_shell_Noether_identity": "nabla^m T_mn=-E_A partial_n lambda^A; on shell nabla^m T_mn=0",
+    "finite_Braid_edge_variation_equals_continuum_Hilbert_variation_in_declared_class": true,
+    "Hilbert_stress_source_derived_in_declared_class": true,
+    "Ward_source_derived_in_declared_class": true
+  },
+  "dependency_effect": {
+    "BGCE285_conditional_minimal_parent": "PROMOTED_TO_PASS_IN_DECLARED_CLASS_BY_BGCE293_ACTIVE_TRANSPORT",
+    "BGCE291_reversal": "RESOLVED_BY_BGCE293_294_295_IN_DECLARED_CLASS",
+    "MMR2_and_source_three_fifths": "RETAINED_UNCHANGED_NOT_REDERIVED",
+    "Einstein_dynamics": "NOT_DERIVED"
+  },
+  "decision": "FULL_PASS_IN_THE_DECLARED_LONG_WAVELENGTH_LOCAL_SECOND_ORDER_FORMALLY_SELF_ADJOINT_CONSERVATIVE_CLASS__THE_SELECTED_FINITE_BRAID_LOGZ_BREGMAN_UMEGAKI_EDGE_ACTION_HAS_THE_SAME_BKM_HESSIAN_AND_C2_RIEMANN_LIMIT_AS_THE_CONTINUUM_PARENT__BGCE293_GIVES_EXACT_METRIC_MOMENT_VARIATION_M_DR_DY_EQUALS_IDENTITY_AND_FINITE_ACTIVE_MARKOV_TRANSPORT__BGCE294_GIVES_THE_UNIQUE_SOURCE_TYPED_PHYSICAL_SOLDER__BGCE266_SUPPLIES_THE_SOURCE_OS_LORENTZ_PRINCIPAL_TENSOR__THEREFORE_THE_FINITE_EDGE_ACTION_FIRST_METRIC_VARIATION_CONVERGES_TO_THE_HILBERT_VARIATION_AND_THE_OFF_SHELL_NOETHER_IDENTITY_WITH_ON_SHELL_WARD_CONSERVATION_FOLLOWS__NO_NEW_ACTION_OR_FITTED_COEFFICIENT__FULL_FINITE_LORENTZIAN_UMEGAKI_HIGHER_DERIVATIVE_EINSTEIN_AND_EMPIRICAL_GRAVITY_CLAIMS_REMAIN_EXCLUDED",
+  "counter_intuition_scan": {
+    "strongest_counterpattern": "BGCE266 does not continue the full finite Umegaki functional to Lorentz signature.",
+    "resolution": "The present theorem is explicitly the long-wavelength quadratic C2 variation identity, not a full finite Lorentzian Umegaki equality.",
+    "ordinary_explanation": "The Hessian of a Bregman divergence supplies the sigma-model metric, and a conservative graph moment supplies the principal tensor.",
+    "falsifier": "Failure of uniform C2 edge expansion, M dr/dy=I, the typed solder, or source OS principal-tensor identity."
+  },
+  "next_gate": "BGCE296_STRESS_WARD_FINAL_INDEPENDENT_COMPLETION_AUDIT",
+  "runtime_class": "SUBSECOND_EXACT_DEPENDENCY_AND_ASYMPTOTIC_IDENTITY_AUDIT_NO_SCAN",
+  "formal_E0_E1_E2": "NOT_CLAIMED__DPA_THEORETICAL_GATE_ONLY",
+  "claim_ceiling": "BGCE295 derives source-native Hilbert stress and on-shell Ward conservation only in the declared long-wavelength local second-order formally self-adjoint conservative class. It does not derive a full finite Lorentzian Umegaki action, exclude higher derivatives or other principal symbols, rederive MMR2 or three-fifths, derive Einstein dynamics, empirical gravity or completed quantum gravity."
+}

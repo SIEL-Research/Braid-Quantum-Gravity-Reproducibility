@@ -1,0 +1,16 @@
+{
+  "schema": "siel.dpa.bgce499.scout.result.v1",
+  "candidate_id": "BGCE499",
+  "scout_id": "DPA-SCOUT-BGCE499-002",
+  "verification": "PASS_TYPED_FISHER_GAIN_ONE_AND_OUTER_CUP_THREE_FIFTHS_RECONCILIATION",
+  "primary_evidence_status": "Theoretical derivation",
+  "scientific_layer": "finite-to-continuum variational typing and normalization",
+  "internal_fisher_gain": "1",
+  "external_matter_to_gravity_weight": "3/5",
+  "same_scalar_referent": false,
+  "manual_three_fifths": false,
+  "asymmetric_score_hessian_map_used": false,
+  "work_item_decision": "CLOSED_SCOPED",
+  "remaining_boundary": "No proof that the BGCE371 update map converges dynamically to the BGCE300R1 continuum Euler flow.",
+  "claim_ceiling": "The apparent coefficient discontinuity is removed only as a typed compatibility theorem in the pinned finite source and BGCE300R1 declared continuum class. No finite-to-continuum dynamical convergence, SI Newton constant, empirical gravity or completed quantum gravity is proved."
+}

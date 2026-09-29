@@ -1,16 +1,16 @@
 {
   "claim_ceiling": "Discrimination from the three preregistered structure-breaking controls only.",
   "dependencies": [],
+  "direct_artifacts": [],
   "id": "V100-THE-37",
   "paper_number": "Theorem 15.3",
   "pdf_page": 14,
-  "public_files": [],
   "public_urls": [
     "https://doi.org/10.5281/zenodo.23006547",
     "https://doi.org/10.5281/zenodo.23006637"
   ],
   "schema": "siel.bqg.public-statement-evidence.v1",
+  "source_bundle_digests": [],
   "status": "PUBLIC_CODE",
-  "vendored_bundles": [],
   "verification_command": "Follow the three preregistered structure-breaking control runs archived in DOI-2."
 }

@@ -1,20 +1,50 @@
 {
   "claim_ceiling": "Unique partial isometry inside the derived matter class only.",
   "dependencies": [],
+  "direct_artifacts": [
+    {
+      "kind": "Certificate",
+      "path": "evidence/statements/artifacts/V100-THE-40/source-01-artifact-01.json",
+      "sha256": "27172dc90933aaa07be10bccdc7536bd28430940e58ec3d5c61223dcebd8f3e3"
+    },
+    {
+      "kind": "Input provenance",
+      "path": "evidence/statements/artifacts/V100-THE-40/source-01-artifact-02.json",
+      "sha256": "f01e920f7a62540aca651ff525a0a9a29cc938b28072cecc86e04175c20b897a"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-40/source-01-artifact-03.json",
+      "sha256": "4bfb8224284da45d16262448a3e2c1ac2db1d0d05bbd3ff0074ef19f9d6b2a64"
+    },
+    {
+      "kind": "Machine result",
+      "path": "evidence/statements/artifacts/V100-THE-40/source-01-artifact-04.json",
+      "sha256": "b7c58946a78c31cf2fdd99ed83aec68d76a4422d93043e88698331fce9628079"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-40/source-01-artifact-05.py",
+      "sha256": "25520a02f8a2145f945481e196257a2fdb907786410ade7f72df2fdb98655b05"
+    },
+    {
+      "kind": "Verifier source",
+      "path": "evidence/statements/artifacts/V100-THE-40/source-01-artifact-06.py",
+      "sha256": "fea5a3c2a0f4c0fc896666eba1c3d22c4fb40f2055206336b25dff8bcdf4d9ee"
+    }
+  ],
   "id": "V100-THE-40",
   "paper_number": "Theorem 16.3",
   "pdf_page": 14,
-  "public_files": [],
   "public_urls": [],
   "schema": "siel.bqg.public-statement-evidence.v1",
-  "status": "PUBLIC_CODE",
-  "vendored_bundles": [
+  "source_bundle_digests": [
     {
       "file_count": 12,
       "kind": "vendored_calculation_package",
-      "repository_path": "evidence/packages/sra/SRA_DPA_BQGNEUT025_SOURCE_NATIVE_WEAK_CURRENT_INTERTWINER_TO_PHYSICAL_THREE_NEUTRINO_TYPING_GATE_20260928",
       "sha256_tree": "10a737a44560750dbcdfea4820de3fa2e3fef61e72c1c4144632555577202ba8"
     }
   ],
+  "status": "PUBLIC_CODE",
   "verification_command": "python3 scripts/verify_all.py"
 }

@@ -1,0 +1,43 @@
+{
+  "schema": "siel.dpa.bqgstrat012.result.v1",
+  "scout_id": "DPA-SCOUT-BQGSTRAT-012",
+  "date": "2026-09-29",
+  "work_packages": [
+    "BQG-G3-R01.5",
+    "BQG-G3-R02.5"
+  ],
+  "primary_evidence_status": "Theoretical derivation",
+  "secondary_qualifier": "Exact scoped no-go for the coefficient-free dagger/chiral equal-weight completion",
+  "status": "NO_GO_SOURCE_DAGGER_CHIRAL_EQUAL_WEIGHT_COMPLETION__THE_TWO_CONJUGATE_CHIRAL_PIECES_RECONSTRUCT_THE_EXISTING_REAL_PALATINI_ACTION__A_NONPROPORTIONAL_HOLST_PARTNER_REQUIRES_AN_UNSELECTED_RELATIVE_PHASE",
+  "exact_theorem": "Let J be the source-native Lorentz Hodge operator on internal bivectors, J^2=-I, and P_plus=(I-iJ)/2, P_minus=(I+iJ)/2. Dagger interchanges P_plus and P_minus. The two chiral Palatini insertions are J P_plus and J P_minus, and their coefficient-free equal-weight real completion is J(P_plus+P_minus)=J, exactly the insertion already present in the real Palatini action. Their independent real combination is the Holst insertion -i(JP_plus-JP_minus)=I. A general dagger-real pair is a J-b I and therefore contains an undetermined real relative coefficient b/a unless another typed source law selects it.",
+  "type_result": {
+    "internal_Hodge": "acts on Lambda^2 of the X29/X30 Lorentz carrier",
+    "pointed_Hodge_polar": "acts on source-cylinder cochains and tensors with the internal coefficient module",
+    "typed_identification": false,
+    "commuting_factors": true,
+    "consequence": "The BQGQBV-002 cochain polar sign cannot by itself select an internal Palatini/Holst relative phase."
+  },
+  "rank_consequence": {
+    "equal_weight_profile": {
+      "60": 1,
+      "64": 12,
+      "65": 12,
+      "66": 600
+    },
+    "required_for_pass": "rank 64 on all 24 nonzero null-sheet sectors",
+    "passed": false,
+    "all_sector_rerun_required": false
+  },
+  "meaning": "The source does contain a genuine internal Lorentz Hodge star and a separate pointed cochain dagger/polar structure, but their declared tensor product does not produce the missing non-scalar quadratic completion. Equal chiral weights return the old Hessian; unequal weights amount to choosing a new Holst/Immirzi-type relative coefficient not fixed by the present source laws.",
+  "counter_intuition": {
+    "tempting_reading": "A chiral double cover automatically supplies the missing parity-balanced sheet.",
+    "ordinary_explanation": "A real Lorentzian Palatini action already combines the two complex-conjugate chiral sectors. Decomposing and recombining it cannot change its Hessian rank.",
+    "strongest_boundary": "A future typed morphism that couples the pointed cochain polar line to internal bivector chirality and fixes a nonzero phase before rank inspection would evade this no-go.",
+    "falsifier": "A source-derived nonzero Palatini/Holst relative phase or an inequivalent off-diagonal chiral pairing fixed independently of the target rank."
+  },
+  "next_gate": "BQGSTRAT-013_SOURCE_PERFECT_BFV_SCHUR_COMPLEMENT_GATE",
+  "next_hypothesis": "The already-derived source-perfect quasi-local BV-BFV parent, rather than a new raw-ultralocal chiral term, may yield the balanced physical two-polarization symbol after source-projector reduction and exact Schur complementation of auxiliary, constraint and gauge directions.",
+  "incident_class": "SCIENTIFIC_OUTCOME",
+  "claim_ceiling": "BQGSTRAT-012 excludes only the declared coefficient-free equal-weight dagger/chiral completion of the existing Palatini action. It does not exclude a source-perfect quasi-local Schur complement, a newly derived phase law, matter-induced completion, generic singular/global continuation, Braid necessity, empirical gravity, confirmation, RPD adoption, Level 3 or Official SIEL adoption."
+}
+
