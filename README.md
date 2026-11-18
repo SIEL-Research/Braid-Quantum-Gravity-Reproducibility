@@ -2,7 +2,7 @@
 
 This repository contains public data and code for independently reconstructing
 and testing computational claims made in the Subjectivity-Intersection Braid
-Quantum Gravity preprint series. This release is aligned with v1.0.
+Quantum Gravity preprint series. The original evidence inventory is aligned with v1.0.
 
 The paper and the reproduction package have different roles:
 
@@ -11,9 +11,17 @@ The paper and the reproduction package have different roles:
 - this repository stores machine-readable inputs, executable checks, expected
   outputs and tests.
 
-The archival manuscript of record will be linked here by its Zenodo DOI when
-the v1 deposit is published. The development repository is not the citation
-target for the paper.
+The [preprint series is archived on Zenodo](https://doi.org/10.5281/zenodo.23047902).
+Use the version-specific paper record for manuscript citations.
+
+## Version 1.2 reproduction supplement
+
+The [v1.2 supplement](reproduction/v1.2/README.md) includes a
+[theorem and equation index](reproduction/v1.2/THEOREM_EVIDENCE_INDEX_v1.2.md)
+for the smooth pure-gravity HDA and QME, and for recovery of the pointing
+line in the eight signed crossings. It gives exact replay of the HH example
+and the pointing calculation, and an analytic proof route for the local
+perturbative QME.
 
 ## Evidence reachability
 
@@ -129,9 +137,9 @@ the mathematics.
 
 ## Citation
 
-Cite the v1.0 preprint through its Zenodo DOI of record and cite this repository
-for the executable evidence package. The manuscript DOI will be inserted here
-as soon as the v1 Zenodo deposit is published.
+Cite the applicable Zenodo manuscript record and the repository commit used
+for the executable evidence. The [v1.0 executable inventory is pinned to
+commit 6d68794](https://github.com/SIEL-Research/Braid-Quantum-Gravity-Reproducibility/tree/6d68794cbc075d24415d0a02f8a9974803f91616).
 
 ## Scientific status
 

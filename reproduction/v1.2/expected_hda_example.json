@@ -1,0 +1,10 @@
+{
+  "claim": "V120-THE-01",
+  "check": "Eq. (S7) purecross witness",
+  "beta_z_x_y": [
+    "0",
+    "1",
+    "0"
+  ],
+  "lie_beta_gamma_zz": "-1/40"
+}

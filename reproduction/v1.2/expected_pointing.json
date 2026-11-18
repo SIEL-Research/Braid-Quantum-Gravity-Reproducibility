@@ -1,0 +1,157 @@
+{
+  "claim": "V120-LEM-01",
+  "checked": [
+    {
+      "mask": 0,
+      "partial_trace_diagonal": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "gram_eigenvalues_in_basis": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "recovered_basis_index": 4,
+      "tensor_square_eigenvalue": 1
+    },
+    {
+      "mask": 5,
+      "partial_trace_diagonal": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "gram_eigenvalues_in_basis": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "recovered_basis_index": 4,
+      "tensor_square_eigenvalue": 1
+    },
+    {
+      "mask": 8,
+      "partial_trace_diagonal": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "gram_eigenvalues_in_basis": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "recovered_basis_index": 4,
+      "tensor_square_eigenvalue": 1
+    },
+    {
+      "mask": 13,
+      "partial_trace_diagonal": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "gram_eigenvalues_in_basis": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "recovered_basis_index": 4,
+      "tensor_square_eigenvalue": 1
+    },
+    {
+      "mask": 16,
+      "partial_trace_diagonal": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "gram_eigenvalues_in_basis": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "recovered_basis_index": 4,
+      "tensor_square_eigenvalue": 1
+    },
+    {
+      "mask": 21,
+      "partial_trace_diagonal": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "gram_eigenvalues_in_basis": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "recovered_basis_index": 4,
+      "tensor_square_eigenvalue": 1
+    },
+    {
+      "mask": 24,
+      "partial_trace_diagonal": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "gram_eigenvalues_in_basis": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "recovered_basis_index": 4,
+      "tensor_square_eigenvalue": 1
+    },
+    {
+      "mask": 29,
+      "partial_trace_diagonal": [
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "gram_eigenvalues_in_basis": [
+        4,
+        4,
+        4,
+        4,
+        1
+      ],
+      "recovered_basis_index": 4,
+      "tensor_square_eigenvalue": 1
+    }
+  ]
+}
