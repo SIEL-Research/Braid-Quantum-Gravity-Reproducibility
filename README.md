@@ -14,16 +14,15 @@ The paper and the reproduction package have different roles:
 The [preprint series is archived on Zenodo](https://doi.org/10.5281/zenodo.23047902).
 Use the version-specific paper record for manuscript citations.
 
-## Version 1.2 reproduction supplement
+## Start with version 1.2
 
-The [v1.2 supplement](reproduction/v1.2/README.md) includes a
-[theorem and equation index](reproduction/v1.2/THEOREM_EVIDENCE_INDEX_v1.2.md)
-for the smooth pure-gravity HDA and QME, and for recovery of the pointing
-line in the eight signed crossings. It gives exact replay of the HH example
-and the pointing calculation, and an analytic proof route for the local
-perturbative QME.
+The [complete v1.2 theorem and evidence index](reproduction/v1.2/THEOREM_EVIDENCE_INDEX_v1.2.md)
+covers every slot in the current manuscript's Appendix C and C.1. Each row
+gives the current paper locator and the public route to its source, proof,
+code, or open obligation. The [v1.2 reproduction instructions](reproduction/v1.2/README.md)
+give the commands for the exact checks.
 
-## Evidence reachability
+## Archived version 1.0 inventory
 
 All 53 theorem-like statements in v1.0 are indexed in
 [`THEOREM_EVIDENCE_INDEX_v1.0.md`](THEOREM_EVIDENCE_INDEX_v1.0.md). Every row
